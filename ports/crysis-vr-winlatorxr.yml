@@ -21,9 +21,9 @@ known_bugs: []
 notes: Packages fholger's crysis_vrmod to run standalone on Meta Quest 3 via WinlatorXR (Wine + Box64 + DXVK), no PC required; ~20-40 fps expected.
 images:
   - game: Crysis
-    file: images/crysis-vr-winlatorxr/crysis.jpg
-    credit: Crysis Remastered store art
-    source_url: https://store.steampowered.com/app/1715130/
+    file: images/crysis-vr-winlatorxr/crysis.png
+    credit: Crysis grid by Jesus (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/25850
 reviews:
   - title: THE BEST VR MOD OF 2025! – Crysis VR MOD Set up Gameplay on Meta Quest 3
     channel: Parzival_VR_EN

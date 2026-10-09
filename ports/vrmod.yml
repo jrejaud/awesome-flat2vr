@@ -18,9 +18,9 @@ known_bugs: []
 notes: Thunderstore page marks the package as deprecated/no longer maintained; latest listed version is 2.9.2 though the newest GitHub release tag (1.1.0, 2022-06-15) predates that.
 images:
   - game: Risk of Rain 2
-    file: images/vrmod/risk-of-rain-2.jpg
-    credit: Risk of Rain 2 store art
-    source_url: https://store.steampowered.com/app/632360/
+    file: images/vrmod/risk-of-rain-2.png
+    credit: Risk of Rain 2 grid by r_dsgnd (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/696705
 reviews:
   - title: I Played Risk of Rain 2 VR... and it was AMAZING
     channel: rndThursday

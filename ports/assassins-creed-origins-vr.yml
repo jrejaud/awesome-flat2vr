@@ -19,9 +19,9 @@ known_bugs:
 notes: OpenXR conversion adding 6DOF head tracking and head aim to the original third-person gamepad gameplay; does not depend on UEVR.
 images:
   - game: Assassin's Creed Origins
-    file: images/assassins-creed-origins-vr/assassin-s-creed-origins.jpg
-    credit: Assassin's Creed® Origins store art
-    source_url: https://store.steampowered.com/app/582160/
+    file: images/assassins-creed-origins-vr/assassin-s-creed-origins.png
+    credit: Assassin's Creed Origins grid by MrWheyne (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/31991
 reviews:
   - title: "Assassin's Creed Origins VR : PC to PlayStation VR  : 3 hours in Siwa ..."
     channel: THEGAMEVEDA

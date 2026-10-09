@@ -18,9 +18,9 @@ known_bugs: []
 notes: Requires UEVR nightly with joeyhodge fix; only works with Native Stereo, not Synced Sequential.
 images:
   - game: Subnautica 2
-    file: images/subnautica-2-uevr/subnautica-2.jpg
-    credit: Subnautica 2 store art
-    source_url: https://store.steampowered.com/app/1962700/
+    file: images/subnautica-2-uevr/subnautica-2.png
+    credit: Subnautica 2 grid by Lightchao (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/772605
 reviews:
   - title: Subnautica 2 VR Mod now with Motion Controls! + How To Install
     channel: LunchAndVR

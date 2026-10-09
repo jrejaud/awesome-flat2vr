@@ -19,9 +19,9 @@ known_bugs: []
 notes: Compatible with cross-play between VR and non-VR players in the same multiplayer lobby.
 images:
   - game: Lethal Company
-    file: images/lethalcompanyvr-lcvr/lethal-company.jpg
-    credit: Lethal Company store art
-    source_url: https://store.steampowered.com/app/1966720/
+    file: images/lethalcompanyvr-lcvr/lethal-company.png
+    credit: Lethal Company grid by soapie. (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/428950
 reviews:
   - title: Lethal Company In VR is a NIGHTMARE.
     channel: BamBaeYoh

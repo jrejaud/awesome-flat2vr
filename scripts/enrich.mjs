@@ -2,11 +2,13 @@
 // Fill in a port's game images and YouTube reviews.
 //   node scripts/enrich.mjs [slug ...] [--force] [--no-reviews]
 // With no slugs, enriches every ports/*.yml that is missing an image or reviews.
-// Images: Steam store header for each game, else the top review's YouTube thumbnail,
+// Images: SteamGridDB 920x430 grid for each game, else the Steam 616x353 capsule (header as
+// fallback), else the top review's YouTube thumbnail,
 // else the GitHub social card of the port's repo. Reviews: yt-dlp YouTube search.
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, unlinkSync } from 'node:fs';
 import { join } from 'node:path';
 import { execFileSync } from 'node:child_process';
+import { createHash } from 'node:crypto';
 import yaml from 'js-yaml';
 import { ROOT } from './lib.mjs';
 import { toYaml } from './discover/core.mjs';
@@ -15,6 +17,8 @@ const UA = { 'user-agent': 'awesome-flat2vr-enrich/1.0 (+https://github.com/jrej
 
 export const norm = (s) =>
   String(s)
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
     .replace(/\(.*?\)/g, ' ')
     .replace(/[™®©:'’!.,\-–—]/g, ' ')
@@ -45,7 +49,7 @@ export function pickSteamApp(game, items) {
   }
   // Only accept a longer title when the extra words are an edition of the same game.
   const edition =
-    /^(the|remastered|classic|enhanced|definitive|complete|anniversary|gold|goty|game of the year|deluxe|biohazard|\d+th anniversary.*|\d{4}|edition| )+$/;
+    /^(the|remastered|classic|enhanced|definitive|complete|anniversary|gold|goty|game of the year|deluxe|biohazard|version|\d+th anniversary.*|\d{4}|edition| )+$/;
   return cands.find((c) => c.n.startsWith(`${want} `) && edition.test(c.n.slice(want.length + 1))) ?? null;
 }
 
@@ -76,6 +80,64 @@ async function steamHeader(id) {
       url: `https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/${id}/header.jpg`,
     };
   return { name: app.name, url: app.header_image };
+}
+
+// SteamGridDB: community art for every game, Steam or not (N64, GameCube, Xbox). The key is
+// STEAMGRIDDB_API_KEY, else resolved in-process from 1Password (never on a command line).
+const SGDB_OP_REF = 'op://zs2nbxfxnbbm3nwlkpbogyaq6y/4mqftjxe4rxkvydgz7uaoaslsa/password';
+let sgdbKeyCache;
+function sgdbKey() {
+  if (sgdbKeyCache !== undefined) return sgdbKeyCache;
+  sgdbKeyCache = process.env.STEAMGRIDDB_API_KEY || null;
+  if (!sgdbKeyCache) {
+    try {
+      sgdbKeyCache = execFileSync('op', ['read', SGDB_OP_REF], { encoding: 'utf8', timeout: 30e3 }).trim() || null;
+    } catch {
+      sgdbKeyCache = null;
+    }
+  }
+  return sgdbKeyCache;
+}
+
+async function sgdbJson(path) {
+  const r = await fetch(`https://www.steamgriddb.com/api/v2/${path}`, {
+    headers: { ...UA, authorization: `Bearer ${sgdbKey()}` },
+  });
+  if (!r.ok) throw new Error(`${r.status} steamgriddb ${path}`);
+  return r.json();
+}
+
+// Best-voted static landscape grid for the game, matched by exact title (pickSteamApp rules),
+// so "Half-Life 2: Episode One" never takes "Half-Life 2"'s art.
+export async function sgdbGrid(game, { avoid = new Set() } = {}) {
+  if (!sgdbKey()) return null;
+  const q = encodeURIComponent(game.replace(/\(.*?\)/g, '').trim());
+  const found = await retry(() => sgdbJson(`search/autocomplete/${q}`));
+  let items = (found.data ?? []).map((g) => ({
+    id: g.id,
+    name: g.name,
+    year: g.release_date ? new Date(g.release_date * 1000).getUTCFullYear() : null,
+  }));
+  // "DOOM (2016)": two games are both titled "Doom", so the year decides between them.
+  const year = Number(/\((\d{4})\)/.exec(game)?.[1]);
+  if (year && items.some((i) => i.year === year)) items = items.filter((i) => i.year === year || !i.year);
+  const hit = pickSteamApp(game, items);
+  if (!hit) return null;
+  for (const dims of ['920x430', '460x215']) {
+    const grids = await retry(() =>
+      sgdbJson(`grids/game/${hit.id}?dimensions=${dims}&types=static&nsfw=false&humor=false`),
+    );
+    // Skip art another game of the same port already uses (a combined "Red/Blue" grid).
+    const g = (grids.data ?? []).filter((x) => /\.(jpe?g|png)$/i.test(x.url) && !avoid.has(x.url))[0];
+    if (g)
+      return {
+        url: g.url,
+        ext: /\.png$/i.test(g.url) ? 'png' : 'jpg',
+        credit: `${hit.name} grid by ${g.author?.name ?? 'unknown'} (SteamGridDB)`,
+        source_url: `https://www.steamgriddb.com/grid/${g.id}`,
+      };
+  }
+  return null;
 }
 
 async function download(url, dest) {
@@ -174,6 +236,8 @@ export async function enrich(
   const prev = new Map((entry.images ?? []).map((i) => [i.game, i]));
   const usable = (i) => i && existsSync(join(root, i.file));
   const images = [];
+  const usedUrls = new Set();
+  const usedHashes = new Set();
   for (const game of entry.games) {
     if (!force && usable(prev.get(game))) {
       images.push(prev.get(game));
@@ -189,11 +253,35 @@ export async function enrich(
       return `${base}.${ext}`;
     };
     let img = null;
+    // An explicit --steam id pins the Steam store art; otherwise SteamGridDB goes first.
+    if (!steam[game]) {
+      try {
+        // Up to 3 tries: the same artwork is sometimes uploaded twice under different URLs, so a
+        // second game of the same port is compared by file content, not just by URL.
+        for (let tries = 0; tries < 3 && !img; tries++) {
+          const g = await sgdbGrid(game, { avoid: usedUrls });
+          if (!g) break;
+          usedUrls.add(g.url);
+          const file = await save(g.url, g.ext);
+          const hash = createHash('md5')
+            .update(readFileSync(join(root, file)))
+            .digest('hex');
+          if (usedHashes.has(hash)) continue;
+          usedHashes.add(hash);
+          img = { game, file, credit: g.credit, source_url: g.source_url };
+        }
+      } catch (e) {
+        log(`  steamgriddb ${game}: ${e.message}`);
+      }
+    }
     try {
-      const app = steam[game] ? { id: steam[game] } : await steamApp(game);
+      const app = img ? null : steam[game] ? { id: steam[game] } : await steamApp(game);
       if (app) {
         const h = await steamHeader(app.id);
-        const file = await save(h.url, 'jpg');
+        // The 616x353 capsule is ~1.8x the header's resolution; fall back to the header.
+        const file = await save(h.url.replace(/header\.jpg(\?.*)?$/, 'capsule_616x353.jpg$1'), 'jpg').catch(() =>
+          save(h.url, 'jpg'),
+        );
         img = {
           game,
           file,

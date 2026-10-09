@@ -19,9 +19,9 @@ known_bugs:
 notes: Standalone support was still in development; the finished release is planned to be free.
 images:
   - game: Silent Hill (1999)
-    file: images/silent-hill-1999-vr/silent-hill.jpg
-    credit: Dredile
-    source_url: https://www.youtube.com/watch?v=PzReMsIgpOU
+    file: images/silent-hill-1999-vr/silent-hill.png
+    credit: Silent Hill grid by Teneesh (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/124071
 reviews:
   - title: I Slept In Silent Hill in VR and It Was Terrifying
     channel: Dredile

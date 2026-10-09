@@ -26,9 +26,9 @@
     "images": [
       {
         "game": "007 First Light",
-        "file": "images/007-first-light-r-e-a-l-vr/007-first-light.jpg",
-        "credit": "007 First Light store art",
-        "source_url": "https://store.steampowered.com/app/3768760/"
+        "file": "images/007-first-light-r-e-a-l-vr/007-first-light.png",
+        "credit": "007 First Light grid by lrnolivia (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/829699"
       }
     ],
     "reviews": [
@@ -80,14 +80,14 @@
       {
         "game": "Pokemon Red",
         "file": "images/1genpokemonvr/pokemon-red.png",
-        "credit": "heurazy/1genpokemonvr",
-        "source_url": "https://github.com/heurazy/1genpokemonvr"
+        "credit": "Pokémon Red Version grid by JackSilversonX (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/827358"
       },
       {
         "game": "Pokemon Blue",
         "file": "images/1genpokemonvr/pokemon-blue.png",
-        "credit": "heurazy/1genpokemonvr",
-        "source_url": "https://github.com/heurazy/1genpokemonvr"
+        "credit": "Pokémon Blue Version grid by Passer (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/817304"
       }
     ],
     "reviews": [],
@@ -177,8 +177,8 @@
       {
         "game": "Animal Crossing (GameCube)",
         "file": "images/animal-crossing-vr-mr-standalone/animal-crossing.png",
-        "credit": "heurazy/AnimalCrossing-VR-MR-Standalone",
-        "source_url": "https://github.com/heurazy/AnimalCrossing-VR-MR-Standalone"
+        "credit": "Animal Crossing grid by Orion1189 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/357880"
       }
     ],
     "reviews": [],
@@ -216,9 +216,9 @@
     "images": [
       {
         "game": "Ultima IV: Quest of the Avatar",
-        "file": "images/ankh-vr/ultima-iv-quest-of-the-avatar.jpg",
-        "credit": "Hoshi82",
-        "source_url": "https://www.youtube.com/watch?v=Z9mnNK967Jo"
+        "file": "images/ankh-vr/ultima-iv-quest-of-the-avatar.png",
+        "credit": "Ultima IV: Quest of the Avatar grid by Luckspeare (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/222423"
       }
     ],
     "reviews": [
@@ -268,9 +268,9 @@
     "images": [
       {
         "game": "Assassin's Creed IV: Black Flag",
-        "file": "images/assassins-creed-iv-black-flag-resynced-vr/assassin-s-creed-iv-black-flag.jpg",
-        "credit": "Assassin’s Creed® IV Black Flag™ store art",
-        "source_url": "https://store.steampowered.com/app/242050/"
+        "file": "images/assassins-creed-iv-black-flag-resynced-vr/assassin-s-creed-iv-black-flag.png",
+        "credit": "Assassin's Creed IV: Black Flag grid by apfelspeier (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/786824"
       }
     ],
     "reviews": [
@@ -315,9 +315,9 @@
     "images": [
       {
         "game": "Assassin's Creed Origins",
-        "file": "images/assassins-creed-origins-vr/assassin-s-creed-origins.jpg",
-        "credit": "Assassin's Creed® Origins store art",
-        "source_url": "https://store.steampowered.com/app/582160/"
+        "file": "images/assassins-creed-origins-vr/assassin-s-creed-origins.png",
+        "credit": "Assassin's Creed Origins grid by MrWheyne (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/31991"
       }
     ],
     "reviews": [
@@ -362,9 +362,9 @@
     "images": [
       {
         "game": "Banjo-Kazooie",
-        "file": "images/banjo-kazooie-vr/banjo-kazooie.jpg",
-        "credit": "legaiaflame",
-        "source_url": "https://www.youtube.com/watch?v=k25Mopn0u5k"
+        "file": "images/banjo-kazooie-vr/banjo-kazooie.png",
+        "credit": "Banjo-Kazooie grid by Sho. (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/263761"
       }
     ],
     "reviews": [
@@ -410,8 +410,8 @@
       {
         "game": "Tomb Raider (1996)",
         "file": "images/beefraiderxr/tomb-raider.jpg",
-        "credit": "Tomb Raider I-III Remastered Starring Lara Croft store art",
-        "source_url": "https://store.steampowered.com/app/2478970/"
+        "credit": "Tomb Raider grid by apfelspeier (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/678968"
       }
     ],
     "reviews": [
@@ -456,9 +456,9 @@
     "images": [
       {
         "game": "Bendy and the Ink Machine",
-        "file": "images/bendyvr/bendy-and-the-ink-machine.jpg",
-        "credit": "Bendy and the Ink Machine store art",
-        "source_url": "https://store.steampowered.com/app/622650/"
+        "file": "images/bendyvr/bendy-and-the-ink-machine.png",
+        "credit": "Bendy and the Ink Machine grid by lowpolyjea (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/428760"
       }
     ],
     "reviews": [
@@ -509,9 +509,9 @@
     "images": [
       {
         "game": "The Legend of Zelda: Breath of the Wild",
-        "file": "images/bettervr/the-legend-of-zelda-breath-of-the-wild.jpg",
-        "credit": "GSpider Extras",
-        "source_url": "https://www.youtube.com/watch?v=RiqP97-nGbw"
+        "file": "images/bettervr/the-legend-of-zelda-breath-of-the-wild.png",
+        "credit": "The Legend of Zelda: Breath of the Wild grid by LowV (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/844977"
       }
     ],
     "reviews": [
@@ -557,9 +557,9 @@
     "images": [
       {
         "game": "Big Walk",
-        "file": "images/big-walk-vr/big-walk.jpg",
-        "credit": "Big Walk store art",
-        "source_url": "https://store.steampowered.com/app/1478500/"
+        "file": "images/big-walk-vr/big-walk.png",
+        "credit": "Big Walk grid by MareKi (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/838954"
       }
     ],
     "reviews": [
@@ -608,9 +608,9 @@
     "images": [
       {
         "game": "BioShock Remastered",
-        "file": "images/bioshock-remastered-vr/bioshock-remastered.jpg",
-        "credit": "BioShock™ Remastered store art",
-        "source_url": "https://store.steampowered.com/app/409710/"
+        "file": "images/bioshock-remastered-vr/bioshock-remastered.png",
+        "credit": "BioShock Remastered grid by Vycter (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/475030"
       }
     ],
     "reviews": [
@@ -664,21 +664,21 @@
     "images": [
       {
         "game": "BioShock Remastered",
-        "file": "images/bioshock-vr/bioshock-remastered.jpg",
-        "credit": "BioShock™ Remastered store art",
-        "source_url": "https://store.steampowered.com/app/409710/"
+        "file": "images/bioshock-vr/bioshock-remastered.png",
+        "credit": "BioShock Remastered grid by Vycter (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/475030"
       },
       {
         "game": "BioShock 2 Remastered",
-        "file": "images/bioshock-vr/bioshock-2-remastered.jpg",
-        "credit": "BioShock™ 2 Remastered store art",
-        "source_url": "https://store.steampowered.com/app/409720/"
+        "file": "images/bioshock-vr/bioshock-2-remastered.png",
+        "credit": "BioShock 2 Remastered grid by Vycter (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/475034"
       },
       {
         "game": "BioShock Infinite",
-        "file": "images/bioshock-vr/bioshock-infinite.jpg",
-        "credit": "BioShock Infinite store art",
-        "source_url": "https://store.steampowered.com/app/8870/"
+        "file": "images/bioshock-vr/bioshock-infinite.png",
+        "credit": "BioShock Infinite grid by EddieSpaghetti (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/27011"
       }
     ],
     "reviews": [
@@ -726,9 +726,9 @@
     "images": [
       {
         "game": "Control",
-        "file": "images/control-vr/control.jpg",
-        "credit": "Kory & Brooke",
-        "source_url": "https://www.youtube.com/watch?v=6DJ01fHF8Sc"
+        "file": "images/control-vr/control.png",
+        "credit": "Control grid by JCAMAR0 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/35338"
       }
     ],
     "reviews": [
@@ -777,9 +777,9 @@
     "images": [
       {
         "game": "Cronos: The New Dawn",
-        "file": "images/cronos-the-new-dawn-uevr/cronos-the-new-dawn.jpg",
-        "credit": "Cronos: The New Dawn store art",
-        "source_url": "https://store.steampowered.com/app/2101960/"
+        "file": "images/cronos-the-new-dawn-uevr/cronos-the-new-dawn.png",
+        "credit": "Cronos: The New Dawn grid by CluckenDip (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/678136"
       }
     ],
     "reviews": [
@@ -831,9 +831,9 @@
     "images": [
       {
         "game": "Crysis",
-        "file": "images/crysis-vr-winlatorxr/crysis.jpg",
-        "credit": "Crysis Remastered store art",
-        "source_url": "https://store.steampowered.com/app/1715130/"
+        "file": "images/crysis-vr-winlatorxr/crysis.png",
+        "credit": "Crysis grid by Jesus (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/25850"
       }
     ],
     "reviews": [
@@ -880,8 +880,8 @@
       {
         "game": "Cyberpunk 2077",
         "file": "images/cyberpunkvr-port/cyberpunk-2077.jpg",
-        "credit": "Cyberpunk 2077 store art",
-        "source_url": "https://store.steampowered.com/app/1091500/"
+        "credit": "Cyberpunk 2077 grid by CluckenDip (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/390742"
       }
     ],
     "reviews": [
@@ -927,9 +927,9 @@
     "images": [
       {
         "game": "Dead Space (2023)",
-        "file": "images/dead-space-2023-r-e-a-l-vr/dead-space.jpg",
-        "credit": "Dead Space store art",
-        "source_url": "https://store.steampowered.com/app/1693980/"
+        "file": "images/dead-space-2023-r-e-a-l-vr/dead-space.png",
+        "credit": "Dead Space grid by DFE 785 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/611555"
       }
     ],
     "reviews": [
@@ -974,9 +974,9 @@
     "images": [
       {
         "game": "DOOM (2016)",
-        "file": "images/doom-2016-r-e-a-l-vr/doom.jpg",
-        "credit": "DOOM store art",
-        "source_url": "https://store.steampowered.com/app/379720/"
+        "file": "images/doom-2016-r-e-a-l-vr/doom.png",
+        "credit": "Doom grid by Micaden (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/798406"
       }
     ],
     "reviews": [
@@ -1021,9 +1021,9 @@
     "images": [
       {
         "game": "Doom 3",
-        "file": "images/doom3quest/doom-3.jpg",
-        "credit": "DOOM 3 store art",
-        "source_url": "https://store.steampowered.com/app/208200/"
+        "file": "images/doom3quest/doom-3.png",
+        "credit": "DOOM 3 grid by Snakerov (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/464102"
       }
     ],
     "reviews": [
@@ -1068,9 +1068,9 @@
     "images": [
       {
         "game": "Dr. Robotnik's Ring Racers",
-        "file": "images/dr-robotniks-ring-racers-vr/dr-robotnik-s-ring-racers.jpg",
-        "credit": "legaiaflame",
-        "source_url": "https://www.youtube.com/watch?v=zZoC6sKsX9U"
+        "file": "images/dr-robotniks-ring-racers-vr/dr-robotnik-s-ring-racers.png",
+        "credit": "Dr. Robotnik’s Ring Racers grid by ZeeCat1 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/437666"
       }
     ],
     "reviews": [
@@ -1112,9 +1112,9 @@
     "images": [
       {
         "game": "The Legend of Zelda: Twilight Princess",
-        "file": "images/dusk-vr/the-legend-of-zelda-twilight-princess.jpg",
-        "credit": "legaiaflame",
-        "source_url": "https://www.youtube.com/watch?v=t9OfB7FwT4Q"
+        "file": "images/dusk-vr/the-legend-of-zelda-twilight-princess.png",
+        "credit": "The Legend of Zelda: Twilight Princess grid by J03L (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/343440"
       }
     ],
     "reviews": [
@@ -1160,9 +1160,9 @@
     "images": [
       {
         "game": "F.E.A.R.",
-        "file": "images/f-e-a-r-vr/f-e-a-r.jpg",
-        "credit": "F.E.A.R. store art",
-        "source_url": "https://store.steampowered.com/app/21090/"
+        "file": "images/f-e-a-r-vr/f-e-a-r.png",
+        "credit": "F.E.A.R. grid by Light_AleX (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/162427"
       }
     ],
     "reviews": [
@@ -1213,8 +1213,8 @@
       {
         "game": "F-Zero X",
         "file": "images/f-zero-x-vr-standalone/f-zero-x.jpg",
-        "credit": "Trev",
-        "source_url": "https://www.youtube.com/watch?v=CheaOy69uEo"
+        "credit": "F-Zero X grid by TalkyPup (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/489514"
       }
     ],
     "reviews": [
@@ -1254,9 +1254,9 @@
     "images": [
       {
         "game": "Far Cry (2004)",
-        "file": "images/far-cry-vr/far-cry.jpg",
-        "credit": "Far Cry® store art",
-        "source_url": "https://store.steampowered.com/app/13520/"
+        "file": "images/far-cry-vr/far-cry.png",
+        "credit": "Far Cry grid by schizogee (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/849288"
       }
     ],
     "reviews": [
@@ -1302,9 +1302,9 @@
     "images": [
       {
         "game": "F.E.A.R. 2: Project Origin",
-        "file": "images/fear2vr/f-e-a-r-2-project-origin.jpg",
-        "credit": "F.E.A.R. 2: Project Origin store art",
-        "source_url": "https://store.steampowered.com/app/16450/"
+        "file": "images/fear2vr/f-e-a-r-2-project-origin.png",
+        "credit": "F.E.A.R. 2: Project Origin grid by adamboulton (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/358399"
       }
     ],
     "reviews": [],
@@ -1343,15 +1343,15 @@
     "images": [
       {
         "game": "Forza Horizon 5",
-        "file": "images/forza-vrmod/forza-horizon-5.jpg",
-        "credit": "Forza Horizon 5 store art",
-        "source_url": "https://store.steampowered.com/app/1551360/"
+        "file": "images/forza-vrmod/forza-horizon-5.png",
+        "credit": "Forza Horizon 5 grid by sbiddly (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/747953"
       },
       {
         "game": "Forza Horizon 6",
-        "file": "images/forza-vrmod/forza-horizon-6.jpg",
-        "credit": "Forza Horizon 6 store art",
-        "source_url": "https://store.steampowered.com/app/2483190/"
+        "file": "images/forza-vrmod/forza-horizon-6.png",
+        "credit": "Forza Horizon 6 grid by r_dsgnd (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/769931"
       }
     ],
     "reviews": [
@@ -1401,9 +1401,9 @@
     "images": [
       {
         "game": "Super Mario Galaxy",
-        "file": "images/galaxyquest/super-mario-galaxy.jpg",
-        "credit": "Pixelacos VR",
-        "source_url": "https://www.youtube.com/watch?v=d4gvdxW-iVY"
+        "file": "images/galaxyquest/super-mario-galaxy.png",
+        "credit": "Super Mario Galaxy grid by Macho Sadness (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/742672"
       }
     ],
     "reviews": [
@@ -1452,9 +1452,9 @@
     "images": [
       {
         "game": "Tom Clancy's Ghost Recon Wildlands",
-        "file": "images/ghost-recon-wildlands-vr-grw-xr/tom-clancy-s-ghost-recon-wildlands.jpg",
-        "credit": "Tom Clancy's Ghost Recon® Wildlands store art",
-        "source_url": "https://store.steampowered.com/app/460930/"
+        "file": "images/ghost-recon-wildlands-vr-grw-xr/tom-clancy-s-ghost-recon-wildlands.png",
+        "credit": "Tom Clancy's Ghost Recon Wildlands grid by 🐦‍⬛THE CRÖWE★ (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/49090"
       }
     ],
     "reviews": [
@@ -1507,9 +1507,9 @@
     "images": [
       {
         "game": "GoldenEye 007",
-        "file": "images/goldeneye-vr/goldeneye-007.jpg",
-        "credit": "NotAGameAddict",
-        "source_url": "https://www.youtube.com/watch?v=DYKvCZazyJA"
+        "file": "images/goldeneye-vr/goldeneye-007.png",
+        "credit": "GoldenEye 007 grid by Onyx8011 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/257096"
       }
     ],
     "reviews": [
@@ -1559,9 +1559,9 @@
     "images": [
       {
         "game": "Grand Theft Auto IV",
-        "file": "images/grand-theft-auto-iv-vr/grand-theft-auto-iv.jpg",
-        "credit": "Grand Theft Auto IV: The Complete Edition store art",
-        "source_url": "https://store.steampowered.com/app/12210/"
+        "file": "images/grand-theft-auto-iv-vr/grand-theft-auto-iv.png",
+        "credit": "Grand Theft Auto IV: The Complete Edition grid by Maxine (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/164918"
       }
     ],
     "reviews": [
@@ -1611,9 +1611,9 @@
     "images": [
       {
         "game": "Gunfire Reborn",
-        "file": "images/gunfirerebornvrmod/gunfire-reborn.jpg",
-        "credit": "Gunfire Reborn store art",
-        "source_url": "https://store.steampowered.com/app/1217060/"
+        "file": "images/gunfirerebornvrmod/gunfire-reborn.png",
+        "credit": "Gunfire Reborn grid by CheeseyHR (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/314234"
       }
     ],
     "reviews": [
@@ -1661,20 +1661,20 @@
       {
         "game": "Half-Life 2",
         "file": "images/half-life-2-vr-mod/half-life-2.jpg",
-        "credit": "Half-Life 2 store art",
-        "source_url": "https://store.steampowered.com/app/220/"
+        "credit": "Half-Life 2 grid by FakeLebowski (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/366562"
       },
       {
         "game": "Half-Life 2: Episode One",
         "file": "images/half-life-2-vr-mod/half-life-2-episode-one.jpg",
-        "credit": "Half-Life 2: Episode One store art",
-        "source_url": "https://store.steampowered.com/app/380/"
+        "credit": "Half-Life 2: Episode One grid by FakeLebowski (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/366564"
       },
       {
         "game": "Half-Life 2: Episode Two",
-        "file": "images/half-life-2-vr-mod/half-life-2-episode-two.jpg",
-        "credit": "Half-Life 2: Episode Two store art",
-        "source_url": "https://store.steampowered.com/app/420/"
+        "file": "images/half-life-2-vr-mod/half-life-2-episode-two.png",
+        "credit": "Half-Life 2: Episode Two grid by traintrash (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/744208"
       }
     ],
     "reviews": [
@@ -1720,9 +1720,9 @@
     "images": [
       {
         "game": "Halo: Campaign Evolved",
-        "file": "images/halo-campaign-evolved-uevr/halo-campaign-evolved.jpg",
-        "credit": "Halo: Campaign Evolved store art",
-        "source_url": "https://store.steampowered.com/app/2806050/"
+        "file": "images/halo-campaign-evolved-uevr/halo-campaign-evolved.png",
+        "credit": "Halo: Campaign Evolved grid by SadSeagull (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/811780"
       }
     ],
     "reviews": [
@@ -1772,9 +1772,9 @@
     "images": [
       {
         "game": "Halo: Combat Evolved",
-        "file": "images/halo-ce-quest-vr-android/halo-combat-evolved.jpg",
-        "credit": "Halo: Combat Evolved Anniversary store art",
-        "source_url": "https://store.steampowered.com/app/1064221/"
+        "file": "images/halo-ce-quest-vr-android/halo-combat-evolved.png",
+        "credit": "Halo: Combat Evolved grid by ender-blade (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/34594"
       }
     ],
     "reviews": [],
@@ -1820,9 +1820,9 @@
     "images": [
       {
         "game": "Halo: Combat Evolved (PC)",
-        "file": "images/halocevr/halo-combat-evolved.jpg",
-        "credit": "Halo: Combat Evolved Anniversary store art",
-        "source_url": "https://store.steampowered.com/app/1064221/"
+        "file": "images/halocevr/halo-combat-evolved.png",
+        "credit": "Halo: Combat Evolved grid by ender-blade (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/34594"
       }
     ],
     "reviews": [
@@ -1867,9 +1867,9 @@
     "images": [
       {
         "game": "Neon White",
-        "file": "images/heavenvr/neon-white.jpg",
-        "credit": "Neon White store art",
-        "source_url": "https://store.steampowered.com/app/1533420/"
+        "file": "images/heavenvr/neon-white.png",
+        "credit": "Neon White grid by theoutrider (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/358164"
       }
     ],
     "reviews": [
@@ -1886,69 +1886,6 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://raicuparta.com/neon-white-vr-mod",
-    "last_checked": "2026-10-09"
-  },
-  {
-    "slug": "hotd2-vr",
-    "name": "hotd2-vr",
-    "games": [
-      "The House of the Dead 2",
-      "The House of the Dead: The Maze of the Kings"
-    ],
-    "category": "source-port",
-    "authors": [
-      {
-        "name": "mikermak",
-        "url": "https://github.com/mikermak"
-      }
-    ],
-    "platform": "both",
-    "headsets": [
-      "Quest 3",
-      "Quest 2",
-      "Quest Pro"
-    ],
-    "controls": "6dof",
-    "status": "alpha",
-    "version": "v0.3-test1",
-    "version_date": "2026-10-09",
-    "download_url": "https://github.com/mikermak/hotd2-vr/releases/latest",
-    "source_url": "https://github.com/mikermak/hotd2-vr",
-    "license": "GPL-2.0",
-    "required_files": "Own dump of The House of the Dead 2 (Dreamcast), PAL (MK-5100250) or US (MK-51002); for The Maze of the Kings, own MAME NAOMI set (mok.zip with 317-0333-com.pic and NAOMI BIOS) plus mok folder with gds-0022.chd",
-    "known_bugs": [
-      "PCVR is still untested in a headset",
-      "Quest 2 and Quest Pro are new and not tested yet"
-    ],
-    "notes": "Fork of the Flycast Dreamcast/NAOMI emulator; no game files included.",
-    "images": [
-      {
-        "game": "The House of the Dead 2",
-        "file": "images/hotd2-vr/the-house-of-the-dead-2.jpg",
-        "credit": "Retroid",
-        "source_url": "https://www.youtube.com/watch?v=A7b83PHgRB8"
-      },
-      {
-        "game": "The House of the Dead: The Maze of the Kings",
-        "file": "images/hotd2-vr/the-house-of-the-dead-the-maze-of-the-kings.png",
-        "credit": "mikermak/hotd2-vr",
-        "source_url": "https://github.com/mikermak/hotd2-vr"
-      }
-    ],
-    "reviews": [
-      {
-        "title": "The House of the Dead 2… but it's VR",
-        "channel": "Retroid",
-        "url": "https://www.youtube.com/watch?v=A7b83PHgRB8"
-      },
-      {
-        "title": "The House of the Dead 2 Return in VR Oculus Rift",
-        "channel": "VR in EVERYTHING",
-        "url": "https://www.youtube.com/watch?v=MkmQsxcIMLc"
-      }
-    ],
-    "added_by": "bot",
-    "discovered_via": "https://github.com/mikermak/hotd2-vr",
     "last_checked": "2026-10-09"
   },
   {
@@ -1978,9 +1915,9 @@
     "images": [
       {
         "game": "Hytale",
-        "file": "images/hytale-vr-injector/hytale.jpg",
-        "credit": "Muntan",
-        "source_url": "https://www.youtube.com/watch?v=Kg0P_mDJoTo"
+        "file": "images/hytale-vr-injector/hytale.png",
+        "credit": "Hytale grid by Excentrian (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/677657"
       }
     ],
     "reviews": [
@@ -2024,8 +1961,8 @@
       {
         "game": "IL-2 Sturmovik: 1946",
         "file": "images/il-2-sturmovik-1946-vr/il-2-sturmovik-1946.jpg",
-        "credit": "IL-2 Sturmovik: 1946 store art",
-        "source_url": "https://store.steampowered.com/app/15320/"
+        "credit": "IL-2 Sturmovik: 1946 grid by Adamant (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/195844"
       }
     ],
     "reviews": [
@@ -2075,15 +2012,15 @@
     "images": [
       {
         "game": "Star Wars Jedi Knight II: Jedi Outcast",
-        "file": "images/jkxr/star-wars-jedi-knight-ii-jedi-outcast.jpg",
-        "credit": "STAR WARS™ Jedi Knight II - Jedi Outcast™ store art",
-        "source_url": "https://store.steampowered.com/app/6030/"
+        "file": "images/jkxr/star-wars-jedi-knight-ii-jedi-outcast.png",
+        "credit": "Star Wars: Jedi Knight II - Jedi Outcast grid by Hexagonification (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/6832"
       },
       {
         "game": "Star Wars Jedi Knight: Jedi Academy",
-        "file": "images/jkxr/star-wars-jedi-knight-jedi-academy.jpg",
-        "credit": "STAR WARS™ Jedi Knight - Jedi Academy™ store art",
-        "source_url": "https://store.steampowered.com/app/6020/"
+        "file": "images/jkxr/star-wars-jedi-knight-jedi-academy.png",
+        "credit": "Star Wars: Jedi Knight - Jedi Academy grid by Kynd (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/228911"
       }
     ],
     "reviews": [
@@ -2131,9 +2068,9 @@
     "images": [
       {
         "game": "Kingdom Come: Deliverance",
-        "file": "images/kcd1vr/kingdom-come-deliverance.jpg",
-        "credit": "Kingdom Come: Deliverance store art",
-        "source_url": "https://store.steampowered.com/app/379430/"
+        "file": "images/kcd1vr/kingdom-come-deliverance.png",
+        "credit": "Kingdom Come: Deliverance grid by QuiGonJinnah (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/31960"
       }
     ],
     "reviews": [
@@ -2194,8 +2131,8 @@
       {
         "game": "Call of Duty 4: Modern Warfare",
         "file": "images/kisakcod-vr-winlatorxr/call-of-duty-4-modern-warfare.jpg",
-        "credit": "Call of Duty® 4: Modern Warfare® (2007) store art",
-        "source_url": "https://store.steampowered.com/app/7940/"
+        "credit": "Call of Duty 4: Modern Warfare grid by Moohoo (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/848587"
       }
     ],
     "reviews": [
@@ -2244,8 +2181,8 @@
       {
         "game": "Call of Duty 4: Modern Warfare (2007)",
         "file": "images/kisakcod-vr/call-of-duty-4-modern-warfare.jpg",
-        "credit": "Call of Duty® 4: Modern Warfare® (2007) store art",
-        "source_url": "https://store.steampowered.com/app/7940/"
+        "credit": "Call of Duty 4: Modern Warfare grid by Moohoo (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/848587"
       }
     ],
     "reviews": [
@@ -2298,9 +2235,9 @@
     "images": [
       {
         "game": "Left 4 Dead 2",
-        "file": "images/l4d2vr/left-4-dead-2.jpg",
-        "credit": "Left 4 Dead 2 store art",
-        "source_url": "https://store.steampowered.com/app/550/"
+        "file": "images/l4d2vr/left-4-dead-2.png",
+        "credit": "Left 4 Dead 2 grid by Tobia$ (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/552987"
       }
     ],
     "reviews": [
@@ -2345,9 +2282,9 @@
     "images": [
       {
         "game": "Half-Life",
-        "file": "images/lambda1vr/half-life.jpg",
-        "credit": "Half-Life store art",
-        "source_url": "https://store.steampowered.com/app/70/"
+        "file": "images/lambda1vr/half-life.png",
+        "credit": "Half-Life grid by traintrash (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/835379"
       }
     ],
     "reviews": [
@@ -2394,9 +2331,9 @@
     "images": [
       {
         "game": "Lethal Company",
-        "file": "images/lethalcompanyvr-lcvr/lethal-company.jpg",
-        "credit": "Lethal Company store art",
-        "source_url": "https://store.steampowered.com/app/1966720/"
+        "file": "images/lethalcompanyvr-lcvr/lethal-company.png",
+        "credit": "Lethal Company grid by soapie. (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/428950"
       }
     ],
     "reviews": [
@@ -2447,9 +2384,9 @@
     "images": [
       {
         "game": "The Legend of Zelda: Majora's Mask",
-        "file": "images/majoras-mask-vr/the-legend-of-zelda-majora-s-mask.jpg",
-        "credit": "FullDiveGames",
-        "source_url": "https://www.youtube.com/watch?v=LC08Rpj-5xc"
+        "file": "images/majoras-mask-vr/the-legend-of-zelda-majora-s-mask.png",
+        "credit": "The Legend of Zelda: Majora's Mask grid by sonicpokemonguy (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/176496"
       }
     ],
     "reviews": [
@@ -2495,15 +2432,15 @@
     "images": [
       {
         "game": "Mass Effect (Legendary Edition)",
-        "file": "images/mass-effect-legendary-edition-vr/mass-effect.jpg",
-        "credit": "Steam app 17460 store art",
-        "source_url": "https://store.steampowered.com/app/17460/"
+        "file": "images/mass-effect-legendary-edition-vr/mass-effect.png",
+        "credit": "Mass Effect grid by dsoon (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/26908"
       },
       {
         "game": "Mass Effect 2 (Legendary Edition)",
-        "file": "images/mass-effect-legendary-edition-vr/mass-effect-2.jpg",
-        "credit": "Mass Effect 2 (2010) Edition store art",
-        "source_url": "https://store.steampowered.com/app/2362420/"
+        "file": "images/mass-effect-legendary-edition-vr/mass-effect-2.png",
+        "credit": "Mass Effect 2 grid by Pendragon (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/25967"
       }
     ],
     "reviews": [
@@ -2556,8 +2493,8 @@
       {
         "game": "Mega Man 64",
         "file": "images/megaman64recompiledvr/mega-man-64.png",
-        "credit": "randygil/MegaMan64RecompiledVR",
-        "source_url": "https://github.com/randygil/MegaMan64RecompiledVR"
+        "credit": "Mega Man 64 grid by ZombiJambi (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/92789"
       }
     ],
     "reviews": [],
@@ -2602,9 +2539,9 @@
     "images": [
       {
         "game": "Metroid Prime",
-        "file": "images/metroidprimeportvr-primedgun-v2/metroid-prime.jpg",
-        "credit": "Beardo Benjo",
-        "source_url": "https://www.youtube.com/watch?v=iWS_krcirCw"
+        "file": "images/metroidprimeportvr-primedgun-v2/metroid-prime.png",
+        "credit": "Metroid Prime grid by alfiehicks (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/418999"
       }
     ],
     "reviews": [
@@ -2657,9 +2594,9 @@
     "images": [
       {
         "game": "Mirror's Edge (2008)",
-        "file": "images/mirrors-edge-vr/mirror-s-edge.jpg",
-        "credit": "Steam app 17410 store art",
-        "source_url": "https://store.steampowered.com/app/17410/"
+        "file": "images/mirrors-edge-vr/mirror-s-edge.png",
+        "credit": "Mirror's Edge grid by QuiGonJinnah (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/29454"
       }
     ],
     "reviews": [],
@@ -2694,9 +2631,9 @@
     "images": [
       {
         "game": "Outer Wilds",
-        "file": "images/nomaivr/outer-wilds.jpg",
-        "credit": "Outer Wilds store art",
-        "source_url": "https://store.steampowered.com/app/753640/"
+        "file": "images/nomaivr/outer-wilds.png",
+        "credit": "Outer Wilds grid by Maxine (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/165857"
       }
     ],
     "reviews": [
@@ -2794,9 +2731,9 @@
     "images": [
       {
         "game": "The Legend of Zelda: Ocarina of Time",
-        "file": "images/oot-vr/the-legend-of-zelda-ocarina-of-time.jpg",
-        "credit": "Reallycoolguy55",
-        "source_url": "https://www.youtube.com/watch?v=Y9PKeWhd6as"
+        "file": "images/oot-vr/the-legend-of-zelda-ocarina-of-time.png",
+        "credit": "The Legend of Zelda: Ocarina of Time grid by Argorath (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/190809"
       }
     ],
     "reviews": [
@@ -2836,9 +2773,9 @@
     "images": [
       {
         "game": "The Elder Scrolls III: Morrowind",
-        "file": "images/openmw-vr/the-elder-scrolls-iii-morrowind.jpg",
-        "credit": "The Elder Scrolls III: Morrowind® Game of the Year Edition store art",
-        "source_url": "https://store.steampowered.com/app/22320/"
+        "file": "images/openmw-vr/the-elder-scrolls-iii-morrowind.png",
+        "credit": "The Elder Scrolls III: Morrowind grid by SirYodaJedi (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/73080"
       }
     ],
     "reviews": [
@@ -2888,9 +2825,9 @@
     "images": [
       {
         "game": "PainKiller",
-        "file": "images/painkiller-vr-mod/painkiller.jpg",
-        "credit": "Painkiller store art",
-        "source_url": "https://store.steampowered.com/app/2300120/"
+        "file": "images/painkiller-vr-mod/painkiller.png",
+        "credit": "Painkiller grid by YMCrank (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/761033"
       },
       {
         "game": "PainKiller: Battle Out of Hell",
@@ -2942,8 +2879,8 @@
       {
         "game": "Palworld",
         "file": "images/palworld-uevr/palworld.jpg",
-        "credit": "Palworld store art",
-        "source_url": "https://store.steampowered.com/app/1623730/"
+        "credit": "Palworld grid by Cereza (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/811275"
       }
     ],
     "reviews": [
@@ -2989,9 +2926,9 @@
     "images": [
       {
         "game": "Penumbra: Overture",
-        "file": "images/penumbra-overture-vr-mod/penumbra-overture.jpg",
-        "credit": "Penumbra Overture store art",
-        "source_url": "https://store.steampowered.com/app/22180/"
+        "file": "images/penumbra-overture-vr-mod/penumbra-overture.png",
+        "credit": "Penumbra: Overture grid by QuiGonJinnah (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/29472"
       }
     ],
     "reviews": [
@@ -3040,9 +2977,9 @@
     "images": [
       {
         "game": "Perfect Dark",
-        "file": "images/perfect-dark-vr/perfect-dark.jpg",
-        "credit": "Graslu00",
-        "source_url": "https://www.youtube.com/watch?v=wkQiyeYn7QU"
+        "file": "images/perfect-dark-vr/perfect-dark.png",
+        "credit": "Perfect Dark grid by elgamer242 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/34052"
       }
     ],
     "reviews": [
@@ -3095,9 +3032,9 @@
     "images": [
       {
         "game": "Prey (2006)",
-        "file": "images/preyvr/prey.jpg",
-        "credit": "Prey store art",
-        "source_url": "https://store.steampowered.com/app/480490/"
+        "file": "images/preyvr/prey.png",
+        "credit": "Prey grid by Kynd (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/228924"
       }
     ],
     "reviews": [
@@ -3145,9 +3082,9 @@
     "images": [
       {
         "game": "Metroid Prime",
-        "file": "images/primedgun/metroid-prime.jpg",
-        "credit": "Beardo Benjo",
-        "source_url": "https://www.youtube.com/watch?v=iWS_krcirCw"
+        "file": "images/primedgun/metroid-prime.png",
+        "credit": "Metroid Prime grid by alfiehicks (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/418999"
       }
     ],
     "reviews": [
@@ -3192,9 +3129,9 @@
     "images": [
       {
         "game": "Quake II",
-        "file": "images/quake2quest/quake-ii.jpg",
-        "credit": "Quake II store art",
-        "source_url": "https://store.steampowered.com/app/2320/"
+        "file": "images/quake2quest/quake-ii.png",
+        "credit": "Quake II grid by alfiehicks (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/356570"
       }
     ],
     "reviews": [
@@ -3240,8 +3177,8 @@
       {
         "game": "Quake",
         "file": "images/quakequest/quake.jpg",
-        "credit": "Quake store art",
-        "source_url": "https://store.steampowered.com/app/2310/"
+        "credit": "Quake grid by BadYesterday (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/429796"
       }
     ],
     "reviews": [
@@ -3289,21 +3226,21 @@
     "images": [
       {
         "game": "Doom",
-        "file": "images/questzdoom/doom.jpg",
-        "credit": "DOOM + DOOM II store art",
-        "source_url": "https://store.steampowered.com/app/2280/"
+        "file": "images/questzdoom/doom.png",
+        "credit": "Doom grid by Maxine (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/118758"
       },
       {
         "game": "Doom II",
-        "file": "images/questzdoom/doom-ii.jpg",
-        "credit": "DOOM II store art",
-        "source_url": "https://store.steampowered.com/app/2300/"
+        "file": "images/questzdoom/doom-ii.png",
+        "credit": "DOOM II grid by AmethystViper (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/110899"
       },
       {
         "game": "Heretic",
         "file": "images/questzdoom/heretic.jpg",
-        "credit": "Heretic: Shadow of the Serpent Riders store art",
-        "source_url": "https://store.steampowered.com/app/2390/"
+        "credit": "Heretic grid by Chaotic Viral (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/277641"
       },
       {
         "game": "Hexen",
@@ -3358,33 +3295,33 @@
     "images": [
       {
         "game": "Duke Nukem 3D",
-        "file": "images/razexr/duke-nukem-3d.jpg",
-        "credit": "Duke Nukem 3D: 20th Anniversary World Tour store art",
-        "source_url": "https://store.steampowered.com/app/434050/"
+        "file": "images/razexr/duke-nukem-3d.png",
+        "credit": "Duke Nukem 3D grid by Fighter_Builder (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/126641"
       },
       {
         "game": "Blood",
-        "file": "images/razexr/blood.jpg",
-        "credit": "Blood™ Fresh Supply store art",
-        "source_url": "https://store.steampowered.com/app/1010750/"
+        "file": "images/razexr/blood.png",
+        "credit": "Blood grid by Gector(lint)Nathan (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/543873"
       },
       {
         "game": "Shadow Warrior",
         "file": "images/razexr/shadow-warrior.jpg",
-        "credit": "Shadow Warrior store art",
-        "source_url": "https://store.steampowered.com/app/233130/"
+        "credit": "Shadow Warrior grid by Comcord (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/184007"
       },
       {
         "game": "Redneck Rampage",
-        "file": "images/razexr/redneck-rampage.jpg",
-        "credit": "Redneck Rampage store art",
-        "source_url": "https://store.steampowered.com/app/565550/"
+        "file": "images/razexr/redneck-rampage.png",
+        "credit": "Redneck Rampage grid by Haxy (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/287114"
       },
       {
         "game": "Exhumed",
-        "file": "images/razexr/exhumed.jpg",
-        "credit": "PowerSlave (DOS Classic Edition) store art",
-        "source_url": "https://store.steampowered.com/app/1260020/"
+        "file": "images/razexr/exhumed.png",
+        "credit": "Team-Beef-Studios/RazeXR",
+        "source_url": "https://github.com/Team-Beef-Studios/RazeXR"
       }
     ],
     "reviews": [
@@ -3435,39 +3372,39 @@
     "images": [
       {
         "game": "Resident Evil 2 (2019)",
-        "file": "images/reframework/resident-evil-2.jpg",
-        "credit": "Resident Evil 2 store art",
-        "source_url": "https://store.steampowered.com/app/883710/"
+        "file": "images/reframework/resident-evil-2.png",
+        "credit": "Resident Evil 2 grid by Orion1189 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/544072"
       },
       {
         "game": "Resident Evil 3 (2020)",
-        "file": "images/reframework/resident-evil-3.jpg",
-        "credit": "Resident Evil 3 store art",
-        "source_url": "https://store.steampowered.com/app/952060/"
+        "file": "images/reframework/resident-evil-3.png",
+        "credit": "Resident Evil 3 grid by wulfbraker (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/144759"
       },
       {
         "game": "Resident Evil 4 (2023)",
-        "file": "images/reframework/resident-evil-4.jpg",
-        "credit": "Resident Evil 4 store art",
-        "source_url": "https://store.steampowered.com/app/2050650/"
+        "file": "images/reframework/resident-evil-4.png",
+        "credit": "Resident Evil 4 grid by wulfbraker (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/145215"
       },
       {
         "game": "Resident Evil 7",
-        "file": "images/reframework/resident-evil-7.jpg",
-        "credit": "Resident Evil 7 Biohazard store art",
-        "source_url": "https://store.steampowered.com/app/418370/"
+        "file": "images/reframework/resident-evil-7.png",
+        "credit": "Resident Evil 7: Biohazard grid by apfelspeier (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/639370"
       },
       {
         "game": "Resident Evil Village",
-        "file": "images/reframework/resident-evil-village.jpg",
-        "credit": "Resident Evil Village store art",
-        "source_url": "https://store.steampowered.com/app/1196590/"
+        "file": "images/reframework/resident-evil-village.png",
+        "credit": "Resident Evil Village grid by CyberPayne (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/827770"
       },
       {
         "game": "Devil May Cry 5",
-        "file": "images/reframework/devil-may-cry-5.jpg",
-        "credit": "Devil May Cry 5 store art",
-        "source_url": "https://store.steampowered.com/app/601150/"
+        "file": "images/reframework/devil-may-cry-5.png",
+        "credit": "Devil May Cry 5 grid by kinginrust (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/435900"
       }
     ],
     "reviews": [
@@ -3518,9 +3455,9 @@
     "images": [
       {
         "game": "Returnal",
-        "file": "images/returnal-uevr/returnal.jpg",
-        "credit": "Returnal™ store art",
-        "source_url": "https://store.steampowered.com/app/1649240/"
+        "file": "images/returnal-uevr/returnal.png",
+        "credit": "Returnal grid by Cth2lhu (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/300899"
       }
     ],
     "reviews": [
@@ -3565,9 +3502,9 @@
     "images": [
       {
         "game": "Return to Castle Wolfenstein",
-        "file": "images/rtcwquest/return-to-castle-wolfenstein.jpg",
-        "credit": "Return to Castle Wolfenstein store art",
-        "source_url": "https://store.steampowered.com/app/9010/"
+        "file": "images/rtcwquest/return-to-castle-wolfenstein.png",
+        "credit": "Return to Castle Wolfenstein grid by scandro1d (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/793491"
       }
     ],
     "reviews": [
@@ -3620,9 +3557,9 @@
     "images": [
       {
         "game": "S.T.A.L.K.E.R. Anomaly",
-        "file": "images/s-t-a-l-k-e-r-anomaly-vr/s-t-a-l-k-e-r-anomaly.jpg",
-        "credit": "Anomaly VR (Андрей MarsyApp)",
-        "source_url": "https://www.youtube.com/watch?v=IIQGMCltW2M"
+        "file": "images/s-t-a-l-k-e-r-anomaly-vr/s-t-a-l-k-e-r-anomaly.png",
+        "credit": "S.T.A.L.K.E.R.: Anomaly grid by Man_of_Krieg (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/819007"
       }
     ],
     "reviews": [
@@ -3670,8 +3607,8 @@
       {
         "game": "Grand Theft Auto: San Andreas - The Definitive Edition",
         "file": "images/san-andreas-vr-definitive-edition/grand-theft-auto-san-andreas-the-definitive-edition.png",
-        "credit": "Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION",
-        "source_url": "https://github.com/Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION"
+        "credit": "Grand Theft Auto: San Andreas – The Definitive Edition grid by IvanOtto (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/798793"
       }
     ],
     "reviews": [],
@@ -3709,9 +3646,9 @@
     "images": [
       {
         "game": "Scrap Mechanic",
-        "file": "images/scrap-mechanic-native-vr/scrap-mechanic.jpg",
-        "credit": "Scrap Mechanic store art",
-        "source_url": "https://store.steampowered.com/app/387990/"
+        "file": "images/scrap-mechanic-native-vr/scrap-mechanic.png",
+        "credit": "Scrap Mechanic grid by MC_GamingYT (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/694594"
       }
     ],
     "reviews": [
@@ -3759,8 +3696,8 @@
       {
         "game": "Shenmue III",
         "file": "images/shenmue-iii-uevr/shenmue-iii.jpg",
-        "credit": "Shenmue III store art",
-        "source_url": "https://store.steampowered.com/app/878670/"
+        "credit": "Shenmue III grid by BinaryMessiah (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/307842"
       }
     ],
     "reviews": [
@@ -3808,9 +3745,9 @@
     "images": [
       {
         "game": "Hardspace: Shipbreaker",
-        "file": "images/shipbreakervr/hardspace-shipbreaker.jpg",
-        "credit": "Hardspace: Shipbreaker store art",
-        "source_url": "https://store.steampowered.com/app/1161580/"
+        "file": "images/shipbreakervr/hardspace-shipbreaker.png",
+        "credit": "Hardspace: Shipbreaker grid by Lightchao (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/671154"
       }
     ],
     "reviews": [
@@ -3859,9 +3796,9 @@
     "images": [
       {
         "game": "The Legend of Zelda: Ocarina of Time",
-        "file": "images/shipwright-vr/the-legend-of-zelda-ocarina-of-time.jpg",
-        "credit": "Dyno Mike Gaming",
-        "source_url": "https://www.youtube.com/watch?v=jnuR13guRAk"
+        "file": "images/shipwright-vr/the-legend-of-zelda-ocarina-of-time.png",
+        "credit": "The Legend of Zelda: Ocarina of Time grid by Argorath (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/190809"
       }
     ],
     "reviews": [
@@ -3909,9 +3846,9 @@
     "images": [
       {
         "game": "Silent Hill (1999)",
-        "file": "images/silent-hill-1999-vr/silent-hill.jpg",
-        "credit": "Dredile",
-        "source_url": "https://www.youtube.com/watch?v=PzReMsIgpOU"
+        "file": "images/silent-hill-1999-vr/silent-hill.png",
+        "credit": "Silent Hill grid by Teneesh (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/124071"
       }
     ],
     "reviews": [
@@ -3961,9 +3898,9 @@
     "images": [
       {
         "game": "Super Mario 64",
-        "file": "images/sm64-quest-vr/super-mario-64.jpg",
-        "credit": "Beardo Benjo",
-        "source_url": "https://www.youtube.com/watch?v=4lG9Ux9DxwY"
+        "file": "images/sm64-quest-vr/super-mario-64.png",
+        "credit": "Super Mario 64 grid by Pyrus (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/101483"
       }
     ],
     "reviews": [
@@ -4013,9 +3950,9 @@
     "images": [
       {
         "game": "Super Mario 64",
-        "file": "images/sm64coopdx-vr-standalone-physics-based/super-mario-64.jpg",
-        "credit": "Beardo Benjo",
-        "source_url": "https://www.youtube.com/watch?v=4lG9Ux9DxwY"
+        "file": "images/sm64coopdx-vr-standalone-physics-based/super-mario-64.png",
+        "credit": "Super Mario 64 grid by Pyrus (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/101483"
       }
     ],
     "reviews": [
@@ -4055,9 +3992,9 @@
     "images": [
       {
         "game": "Sonic Robo Blast 2",
-        "file": "images/sonic-robo-blast-2-vr/sonic-robo-blast-2.jpg",
-        "credit": "Team Beef VR Game Ports",
-        "source_url": "https://www.youtube.com/watch?v=3Dcczzud7Tc"
+        "file": "images/sonic-robo-blast-2-vr/sonic-robo-blast-2.png",
+        "credit": "Sonic Robo Blast 2 grid by Nedow40 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/65020"
       }
     ],
     "reviews": [
@@ -4111,32 +4048,32 @@
       {
         "game": "Half-Life 2",
         "file": "images/sourcevr/half-life-2.jpg",
-        "credit": "Half-Life 2 store art",
-        "source_url": "https://store.steampowered.com/app/220/"
+        "credit": "Half-Life 2 grid by FakeLebowski (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/366562"
       },
       {
         "game": "Half-Life 2: Episode One",
         "file": "images/sourcevr/half-life-2-episode-one.jpg",
-        "credit": "Half-Life 2: Episode One store art",
-        "source_url": "https://store.steampowered.com/app/380/"
+        "credit": "Half-Life 2: Episode One grid by FakeLebowski (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/366564"
       },
       {
         "game": "Half-Life 2: Episode Two",
-        "file": "images/sourcevr/half-life-2-episode-two.jpg",
-        "credit": "Half-Life 2: Episode Two store art",
-        "source_url": "https://store.steampowered.com/app/420/"
+        "file": "images/sourcevr/half-life-2-episode-two.png",
+        "credit": "Half-Life 2: Episode Two grid by traintrash (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/744208"
       },
       {
         "game": "Portal",
-        "file": "images/sourcevr/portal.jpg",
-        "credit": "Portal store art",
-        "source_url": "https://store.steampowered.com/app/400/"
+        "file": "images/sourcevr/portal.png",
+        "credit": "Portal grid by Madeline Hashcube (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/577308"
       },
       {
         "game": "Portal 2",
-        "file": "images/sourcevr/portal-2.jpg",
-        "credit": "Portal 2 store art",
-        "source_url": "https://store.steampowered.com/app/620/"
+        "file": "images/sourcevr/portal-2.png",
+        "credit": "Portal 2 grid by Naymarak (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/368548"
       }
     ],
     "reviews": [
@@ -4190,9 +4127,9 @@
     "images": [
       {
         "game": "Space Hulk: Deathwing Enhanced Edition",
-        "file": "images/space-hulk-deathwing-vr/space-hulk-deathwing-enhanced-edition.jpg",
-        "credit": "Space Hulk: Deathwing Enhanced Edition store art",
-        "source_url": "https://store.steampowered.com/app/816090/"
+        "file": "images/space-hulk-deathwing-vr/space-hulk-deathwing-enhanced-edition.png",
+        "credit": "Space Hulk: Deathwing - Enhanced Edition grid by swagmaster9000 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/650653"
       }
     ],
     "reviews": [
@@ -4233,9 +4170,9 @@
     "images": [
       {
         "game": "The Stanley Parable: Ultra Deluxe",
-        "file": "images/stanley-vr/the-stanley-parable-ultra-deluxe.jpg",
-        "credit": "The Stanley Parable: Ultra Deluxe store art",
-        "source_url": "https://store.steampowered.com/app/1703340/"
+        "file": "images/stanley-vr/the-stanley-parable-ultra-deluxe.png",
+        "credit": "The Stanley Parable: Ultra Deluxe grid by BigHungryChicken (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/809891"
       }
     ],
     "reviews": [
@@ -4283,8 +4220,8 @@
       {
         "game": "Star Trucker",
         "file": "images/star-trucker-vr/star-trucker.jpg",
-        "credit": "Star Trucker store art",
-        "source_url": "https://store.steampowered.com/app/2380050/"
+        "credit": "Star Trucker grid by emilianopoggi (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/542596"
       }
     ],
     "reviews": [],
@@ -4318,9 +4255,9 @@
     "images": [
       {
         "game": "Subnautica",
-        "file": "images/submersedvr/subnautica.jpg",
-        "credit": "Subnautica store art",
-        "source_url": "https://store.steampowered.com/app/264710/"
+        "file": "images/submersedvr/subnautica.png",
+        "credit": "Subnautica grid by ABH20 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/321609"
       }
     ],
     "reviews": [
@@ -4366,9 +4303,9 @@
     "images": [
       {
         "game": "Subnautica 2",
-        "file": "images/subnautica-2-uevr/subnautica-2.jpg",
-        "credit": "Subnautica 2 store art",
-        "source_url": "https://store.steampowered.com/app/1962700/"
+        "file": "images/subnautica-2-uevr/subnautica-2.png",
+        "credit": "Subnautica 2 grid by Lightchao (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/772605"
       }
     ],
     "reviews": [
@@ -4415,8 +4352,8 @@
       {
         "game": "System Shock (Remake)",
         "file": "images/system-shock-remake-uevr-plugin/system-shock.jpg",
-        "credit": "System Shock store art",
-        "source_url": "https://store.steampowered.com/app/482400/"
+        "credit": "System Shock grid by CluckenDip (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/190944"
       }
     ],
     "reviews": [
@@ -4469,9 +4406,9 @@
     "images": [
       {
         "game": "The House of the Dead 2",
-        "file": "images/the-house-of-the-dead-2-vr/the-house-of-the-dead-2.jpg",
-        "credit": "Retroid",
-        "source_url": "https://www.youtube.com/watch?v=A7b83PHgRB8"
+        "file": "images/the-house-of-the-dead-2-vr/the-house-of-the-dead-2.png",
+        "credit": "The House of the Dead 2 grid by elgamer242 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/33449"
       },
       {
         "game": "The Maze of the Kings",
@@ -4526,9 +4463,9 @@
     "images": [
       {
         "game": "The Witcher 3: Wild Hunt",
-        "file": "images/the-witcher-3-vr/the-witcher-3-wild-hunt.jpg",
-        "credit": "The Witcher 3: Wild Hunt — Remastered store art",
-        "source_url": "https://store.steampowered.com/app/292030/"
+        "file": "images/the-witcher-3-vr/the-witcher-3-wild-hunt.png",
+        "credit": "The Witcher 3: Wild Hunt grid by r_dsgnd (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/696973"
       }
     ],
     "reviews": [
@@ -4580,9 +4517,9 @@
     "images": [
       {
         "game": "The Legend of Heroes: Trails of Cold Steel",
-        "file": "images/trails-of-cold-steel-vr/the-legend-of-heroes-trails-of-cold-steel.jpg",
-        "credit": "The Legend of Heroes: Trails of Cold Steel store art",
-        "source_url": "https://store.steampowered.com/app/538680/"
+        "file": "images/trails-of-cold-steel-vr/the-legend-of-heroes-trails-of-cold-steel.png",
+        "credit": "The Legend of Heroes: Trails of Cold Steel grid by juneau (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/309477"
       }
     ],
     "reviews": [],
@@ -4617,9 +4554,9 @@
     "images": [
       {
         "game": "Firewatch",
-        "file": "images/two-forks-vr/firewatch.jpg",
-        "credit": "Firewatch store art",
-        "source_url": "https://store.steampowered.com/app/383870/"
+        "file": "images/two-forks-vr/firewatch.png",
+        "credit": "Firewatch grid by imperthnthn (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/295322"
       }
     ],
     "reviews": [
@@ -4666,9 +4603,9 @@
     "images": [
       {
         "game": "Vampire: The Masquerade — Bloodlines 2",
-        "file": "images/vampire-the-masquerade-bloodlines-2-uevr/vampire-the-masquerade-bloodlines-2.jpg",
-        "credit": "Parzival_VR_EN",
-        "source_url": "https://www.youtube.com/watch?v=7d7QMmmJOXQ"
+        "file": "images/vampire-the-masquerade-bloodlines-2-uevr/vampire-the-masquerade-bloodlines-2.png",
+        "credit": "Vampire: The Masquerade - Bloodlines 2 grid by Rumik (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/666551"
       }
     ],
     "reviews": [
@@ -4716,9 +4653,9 @@
     "images": [
       {
         "game": "Grand Theft Auto: Vice City",
-        "file": "images/vice-city-vr/grand-theft-auto-vice-city.jpg",
-        "credit": "Vlad Yaps",
-        "source_url": "https://www.youtube.com/watch?v=2e0IqwScrVk"
+        "file": "images/vice-city-vr/grand-theft-auto-vice-city.png",
+        "credit": "Grand Theft Auto: Vice City grid by Kennyluz (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/168674"
       }
     ],
     "reviews": [
@@ -4765,9 +4702,9 @@
     "images": [
       {
         "game": "PAYDAY 2",
-        "file": "images/vr-improvements-mod-vr-vr-plus-continued/payday-2.jpg",
-        "credit": "PAYDAY 2 store art",
-        "source_url": "https://store.steampowered.com/app/218620/"
+        "file": "images/vr-improvements-mod-vr-vr-plus-continued/payday-2.png",
+        "credit": "Payday 2 grid by Zennn (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/8304"
       }
     ],
     "reviews": [
@@ -4812,9 +4749,9 @@
     "images": [
       {
         "game": "Deep Rock Galactic",
-        "file": "images/vrg/deep-rock-galactic.jpg",
-        "credit": "Deep Rock Galactic store art",
-        "source_url": "https://store.steampowered.com/app/548430/"
+        "file": "images/vrg/deep-rock-galactic.png",
+        "credit": "Deep Rock Galactic grid by Maxine (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/129394"
       }
     ],
     "reviews": [
@@ -4860,9 +4797,9 @@
     "images": [
       {
         "game": "Risk of Rain 2",
-        "file": "images/vrmod/risk-of-rain-2.jpg",
-        "credit": "Risk of Rain 2 store art",
-        "source_url": "https://store.steampowered.com/app/632360/"
+        "file": "images/vrmod/risk-of-rain-2.png",
+        "credit": "Risk of Rain 2 grid by r_dsgnd (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/696705"
       }
     ],
     "reviews": [
@@ -4910,9 +4847,9 @@
     "images": [
       {
         "game": "ULTRAKILL",
-        "file": "images/vrtrakill/ultrakill.jpg",
-        "credit": "ULTRAKILL store art",
-        "source_url": "https://store.steampowered.com/app/1229490/"
+        "file": "images/vrtrakill/ultrakill.png",
+        "credit": "Ultrakill grid by ABH20 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/418645"
       }
     ],
     "reviews": [
@@ -4929,54 +4866,6 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/whateverusername0/vrtrakill",
-    "last_checked": "2026-10-09"
-  },
-  {
-    "slug": "wiicompiled-openxr-vr",
-    "name": "WiiCompiled OpenXR VR",
-    "games": [
-      "Mario Kart Wii"
-    ],
-    "category": "source-port",
-    "authors": [
-      {
-        "name": "iChris4",
-        "url": "https://github.com/iChris4"
-      }
-    ],
-    "platform": "pcvr",
-    "controls": "6dof",
-    "status": "alpha",
-    "version": "0.2.45",
-    "version_date": "2026-09-30",
-    "download_url": "https://github.com/iChris4/Wiicompiled_VR/releases/latest",
-    "source_url": "https://github.com/iChris4/Wiicompiled_VR",
-    "license": "GPL-3.0",
-    "required_files": "A legally dumped PAL (RMCP01) Mario Kart Wii disc image; no game code or assets ship with the project",
-    "known_bugs": [],
-    "notes": "Fork of patchzyy/Wiicompiled, a static-recompilation native PC port of Mario Kart Wii; VR renders via OpenXR on D3D12/Vulkan, with menus shown as a head-locked virtual screen and races in immersive stereo.",
-    "images": [
-      {
-        "game": "Mario Kart Wii",
-        "file": "images/wiicompiled-openxr-vr/mario-kart-wii.jpg",
-        "credit": "Poofesure",
-        "source_url": "https://www.youtube.com/watch?v=2D5KLLdZxPk"
-      }
-    ],
-    "reviews": [
-      {
-        "title": "playing mario kart wii in VR",
-        "channel": "Poofesure",
-        "url": "https://www.youtube.com/watch?v=2D5KLLdZxPk"
-      },
-      {
-        "title": "1,000,000 VR in Mario Kart Wii.................................................................",
-        "channel": "TWD98",
-        "url": "https://www.youtube.com/watch?v=N0tQXO7d4YI"
-      }
-    ],
-    "added_by": "bot",
-    "discovered_via": "https://github.com/ichris4/wiicompiled_vr",
     "last_checked": "2026-10-09"
   },
   {
@@ -5009,9 +4898,9 @@
     "images": [
       {
         "game": "Mario Kart Wii",
-        "file": "images/wiicompiled-vr/mario-kart-wii.jpg",
-        "credit": "Poofesure",
-        "source_url": "https://www.youtube.com/watch?v=2D5KLLdZxPk"
+        "file": "images/wiicompiled-vr/mario-kart-wii.png",
+        "credit": "Mario Kart Wii grid by Sho. (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/263653"
       }
     ],
     "reviews": [

@@ -18,9 +18,9 @@ known_bugs: []
 notes: Requires SteamVR or Virtual Desktop (VDXR) as the active OpenXR runtime; GOG and retail-disc 1.08 copies are untested.
 images:
   - game: F.E.A.R.
-    file: images/f-e-a-r-vr/f-e-a-r.jpg
-    credit: F.E.A.R. store art
-    source_url: https://store.steampowered.com/app/21090/
+    file: images/f-e-a-r-vr/f-e-a-r.png
+    credit: F.E.A.R. grid by Light_AleX (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/162427
 reviews:
   - title: F.E.A.R. - VR Mod - Final Update
     channel: TheFreeMike

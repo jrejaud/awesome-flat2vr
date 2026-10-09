@@ -21,13 +21,13 @@ required_files: base assets from an owned PC copy of Jedi Outcast and/or Jedi Ac
 known_bugs: []
 images:
   - game: "Star Wars Jedi Knight II: Jedi Outcast"
-    file: images/jkxr/star-wars-jedi-knight-ii-jedi-outcast.jpg
-    credit: STAR WARS™ Jedi Knight II - Jedi Outcast™ store art
-    source_url: https://store.steampowered.com/app/6030/
+    file: images/jkxr/star-wars-jedi-knight-ii-jedi-outcast.png
+    credit: "Star Wars: Jedi Knight II - Jedi Outcast grid by Hexagonification (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/6832
   - game: "Star Wars Jedi Knight: Jedi Academy"
-    file: images/jkxr/star-wars-jedi-knight-jedi-academy.jpg
-    credit: STAR WARS™ Jedi Knight - Jedi Academy™ store art
-    source_url: https://store.steampowered.com/app/6020/
+    file: images/jkxr/star-wars-jedi-knight-jedi-academy.png
+    credit: "Star Wars: Jedi Knight - Jedi Academy grid by Kynd (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/228911
 reviews:
   - title: "Star Wars: Jedi Knight II: Jedi Outcast VR | Kejim Post (level 1)"
     channel: fornix VR

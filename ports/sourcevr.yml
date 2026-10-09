@@ -25,24 +25,24 @@ known_bugs: []
 images:
   - game: Half-Life 2
     file: images/sourcevr/half-life-2.jpg
-    credit: Half-Life 2 store art
-    source_url: https://store.steampowered.com/app/220/
+    credit: Half-Life 2 grid by FakeLebowski (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/366562
   - game: "Half-Life 2: Episode One"
     file: images/sourcevr/half-life-2-episode-one.jpg
-    credit: "Half-Life 2: Episode One store art"
-    source_url: https://store.steampowered.com/app/380/
+    credit: "Half-Life 2: Episode One grid by FakeLebowski (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/366564
   - game: "Half-Life 2: Episode Two"
-    file: images/sourcevr/half-life-2-episode-two.jpg
-    credit: "Half-Life 2: Episode Two store art"
-    source_url: https://store.steampowered.com/app/420/
+    file: images/sourcevr/half-life-2-episode-two.png
+    credit: "Half-Life 2: Episode Two grid by traintrash (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/744208
   - game: Portal
-    file: images/sourcevr/portal.jpg
-    credit: Portal store art
-    source_url: https://store.steampowered.com/app/400/
+    file: images/sourcevr/portal.png
+    credit: Portal grid by Madeline Hashcube (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/577308
   - game: Portal 2
-    file: images/sourcevr/portal-2.jpg
-    credit: Portal 2 store art
-    source_url: https://store.steampowered.com/app/620/
+    file: images/sourcevr/portal-2.png
+    credit: Portal 2 grid by Naymarak (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/368548
 reviews:
   - title: How to Install Half-Life 2 VR on Quest 2/Quest 3 (Standalone)
     channel: LunchAndVR

@@ -20,9 +20,9 @@ known_bugs:
 notes: Independent DirectX 12/OpenXR implementation supporting same-tick stereo rendering, DLSS/DLAA/TAAU, OptiScaler and ReShade integration, and an OFXR frame-generation system.
 images:
   - game: "The Witcher 3: Wild Hunt"
-    file: images/the-witcher-3-vr/the-witcher-3-wild-hunt.jpg
-    credit: "The Witcher 3: Wild Hunt — Remastered store art"
-    source_url: https://store.steampowered.com/app/292030/
+    file: images/the-witcher-3-vr/the-witcher-3-wild-hunt.png
+    credit: "The Witcher 3: Wild Hunt grid by r_dsgnd (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/696973
 reviews:
   - title: "The Witcher 3: Wild Hunt VR Performance / NEW VR Mod in 2026 / Meta Quest 3 + RTX 4080 Super"
     channel: NotAGameAddict

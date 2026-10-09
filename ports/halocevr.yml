@@ -28,9 +28,9 @@ known_bugs:
 notes: "Not compatible with Halo: The Master Chief Collection; requires original PC version only."
 images:
   - game: "Halo: Combat Evolved (PC)"
-    file: images/halocevr/halo-combat-evolved.jpg
-    credit: "Halo: Combat Evolved Anniversary store art"
-    source_url: https://store.steampowered.com/app/1064221/
+    file: images/halocevr/halo-combat-evolved.png
+    credit: "Halo: Combat Evolved grid by ender-blade (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/34594
 reviews:
   - title: HALO VR is HERE! // Halo Combat Evolved VR MOD Gameplay (PCVR)
     channel: Beardo Benjo

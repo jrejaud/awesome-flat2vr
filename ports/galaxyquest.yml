@@ -21,9 +21,9 @@ known_bugs: []
 notes: Native port (not emulation) built on the Petari Super Mario Galaxy decompilation; code and documentation stated to be entirely AI-written (Claude Opus 5.5 in Claude Code).
 images:
   - game: Super Mario Galaxy
-    file: images/galaxyquest/super-mario-galaxy.jpg
-    credit: Pixelacos VR
-    source_url: https://www.youtube.com/watch?v=d4gvdxW-iVY
+    file: images/galaxyquest/super-mario-galaxy.png
+    credit: Super Mario Galaxy grid by Macho Sadness (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/742672
 reviews:
   - title: Super Mario Galaxy VR Standalone - (Meta Quest 3) - No Commentary Gameplay
     channel: Pixelacos VR

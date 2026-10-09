@@ -19,8 +19,8 @@ notes: Requires UEVR nightly build 01127 and injecting only from the main menu; 
 images:
   - game: Shenmue III
     file: images/shenmue-iii-uevr/shenmue-iii.jpg
-    credit: Shenmue III store art
-    source_url: https://store.steampowered.com/app/878670/
+    credit: Shenmue III grid by BinaryMessiah (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/307842
 reviews:
   - title: Shenmue 3 VR 360° 4K Virtual Reality Gameplay
     channel: VR 360°

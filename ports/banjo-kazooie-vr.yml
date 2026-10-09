@@ -17,9 +17,9 @@ known_bugs: []
 notes: Built on the Lighthouse PC decompilation port (HarbourMasters/Lighthouse); distributed as a patch via the Multiverse VR Hub installer. Quest standalone support listed as coming soon.
 images:
   - game: Banjo-Kazooie
-    file: images/banjo-kazooie-vr/banjo-kazooie.jpg
-    credit: legaiaflame
-    source_url: https://www.youtube.com/watch?v=k25Mopn0u5k
+    file: images/banjo-kazooie-vr/banjo-kazooie.png
+    credit: Banjo-Kazooie grid by Sho. (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/263761
 reviews:
   - title: Banjo-Kazooie VR (Running in Dolphin VR and Wii64-Beta Full Setup!)
     channel: legaiaflame

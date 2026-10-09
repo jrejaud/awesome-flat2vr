@@ -18,9 +18,9 @@ known_bugs: []
 notes: "Multiplayer-compatible: flatscreen players can see VR players' tracked hands without using VR themselves; installed via CircuitLord's one-click installer, which also supports Titanfall 2 VR."
 images:
   - game: Big Walk
-    file: images/big-walk-vr/big-walk.jpg
-    credit: Big Walk store art
-    source_url: https://store.steampowered.com/app/1478500/
+    file: images/big-walk-vr/big-walk.png
+    credit: Big Walk grid by MareKi (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/838954
 reviews:
   - title: Big Walk but I'm ACTUALLY Walking [VR]
     channel: BamBaeYoh

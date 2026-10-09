@@ -18,9 +18,9 @@ known_bugs: []
 notes: Fork noted as last known release pre fork; copy mod files into Penumbra's redist directory and run with SteamVR.
 images:
   - game: "Penumbra: Overture"
-    file: images/penumbra-overture-vr-mod/penumbra-overture.jpg
-    credit: Penumbra Overture store art
-    source_url: https://store.steampowered.com/app/22180/
+    file: images/penumbra-overture-vr-mod/penumbra-overture.png
+    credit: "Penumbra: Overture grid by QuiGonJinnah (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/29472
 reviews:
   - title: "Penumbra: Overture VR Preview [HTC Vive]"
     channel: znmcys

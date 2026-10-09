@@ -23,9 +23,9 @@ known_bugs:
 notes: Requires the Virtual Desktop app with VDXR runtime rather than SteamVR; motion input uses the Touch controller layout but also supports gamepad or keyboard/mouse.
 images:
   - game: Mirror's Edge (2008)
-    file: images/mirrors-edge-vr/mirror-s-edge.jpg
-    credit: Steam app 17410 store art
-    source_url: https://store.steampowered.com/app/17410/
+    file: images/mirrors-edge-vr/mirror-s-edge.png
+    credit: Mirror's Edge grid by QuiGonJinnah (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/29454
 reviews: []
 added_by: bot
 discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb

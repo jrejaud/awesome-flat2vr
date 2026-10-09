@@ -17,9 +17,9 @@ required_files: base .pk4 files from an owned PC copy of the original Doom 3
 known_bugs: []
 images:
   - game: Doom 3
-    file: images/doom3quest/doom-3.jpg
-    credit: DOOM 3 store art
-    source_url: https://store.steampowered.com/app/208200/
+    file: images/doom3quest/doom-3.png
+    credit: DOOM 3 grid by Snakerov (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/464102
 reviews:
   - title: Doom 3 Quest VR - Release Trailer
     channel: Team Beef VR Game Ports

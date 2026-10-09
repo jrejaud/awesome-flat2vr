@@ -18,9 +18,9 @@ required_files: an owned PC install of Outer Wilds
 known_bugs: []
 images:
   - game: Outer Wilds
-    file: images/nomaivr/outer-wilds.jpg
-    credit: Outer Wilds store art
-    source_url: https://store.steampowered.com/app/753640/
+    file: images/nomaivr/outer-wilds.png
+    credit: Outer Wilds grid by Maxine (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/165857
 reviews:
   - title: Exploring Outer Wilds in VR (NomaiVR)
     channel: The Librarian

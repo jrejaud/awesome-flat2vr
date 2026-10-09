@@ -19,8 +19,8 @@ notes: Seated VR conversion built on Unity/MelonLoader; 1.0.1 fixed world-space 
 images:
   - game: Star Trucker
     file: images/star-trucker-vr/star-trucker.jpg
-    credit: Star Trucker store art
-    source_url: https://store.steampowered.com/app/2380050/
+    credit: Star Trucker grid by emilianopoggi (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/542596
 reviews: []
 added_by: bot
 discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb

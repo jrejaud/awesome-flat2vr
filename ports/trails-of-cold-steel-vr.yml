@@ -22,9 +22,9 @@ known_bugs:
 notes: Native OpenXR mod tested on Meta Quest 3 via Virtual Desktop; includes SenPatcher and an in-game VR settings menu.
 images:
   - game: "The Legend of Heroes: Trails of Cold Steel"
-    file: images/trails-of-cold-steel-vr/the-legend-of-heroes-trails-of-cold-steel.jpg
-    credit: "The Legend of Heroes: Trails of Cold Steel store art"
-    source_url: https://store.steampowered.com/app/538680/
+    file: images/trails-of-cold-steel-vr/the-legend-of-heroes-trails-of-cold-steel.png
+    credit: "The Legend of Heroes: Trails of Cold Steel grid by juneau (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/309477
 reviews: []
 added_by: bot
 discovered_via: https://github.com/petonexus/tocs-vr-releases

@@ -24,9 +24,9 @@ known_bugs: []
 notes: Built on the GoldenEye 007 decompilation; multiplayer requires all players on the same version due to network protocol changes.
 images:
   - game: GoldenEye 007
-    file: images/goldeneye-vr/goldeneye-007.jpg
-    credit: NotAGameAddict
-    source_url: https://www.youtube.com/watch?v=DYKvCZazyJA
+    file: images/goldeneye-vr/goldeneye-007.png
+    credit: GoldenEye 007 grid by Onyx8011 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/257096
 reviews:
   - title: "How to install GoldenEye VR: Quest Standalone & PCVR"
     channel: LunchAndVR

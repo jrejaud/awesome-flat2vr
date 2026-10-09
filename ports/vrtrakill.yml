@@ -19,9 +19,9 @@ known_bugs:
 notes: Development put on indefinite hold by the author; stable branch PRs are frozen, ultra_revamp branch is an unfinished rewrite.
 images:
   - game: ULTRAKILL
-    file: images/vrtrakill/ultrakill.jpg
-    credit: ULTRAKILL store art
-    source_url: https://store.steampowered.com/app/1229490/
+    file: images/vrtrakill/ultrakill.png
+    credit: Ultrakill grid by ABH20 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/418645
 reviews:
   - title: Is Ultrakill BETTER in VR?
     channel: BamBaeYoh

@@ -17,9 +17,9 @@ required_files: valve folder from an owned PC copy of Half-Life
 known_bugs: []
 images:
   - game: Half-Life
-    file: images/lambda1vr/half-life.jpg
-    credit: Half-Life store art
-    source_url: https://store.steampowered.com/app/70/
+    file: images/lambda1vr/half-life.png
+    credit: Half-Life grid by traintrash (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/835379
 reviews:
   - title: You CAN Play Half Life VR On The Quest 2...Here's How!
     channel: BMFVR

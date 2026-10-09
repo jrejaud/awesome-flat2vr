@@ -18,9 +18,9 @@ required_files: "an owned PC install of The Stanley Parable: Ultra Deluxe"
 known_bugs: []
 images:
   - game: "The Stanley Parable: Ultra Deluxe"
-    file: images/stanley-vr/the-stanley-parable-ultra-deluxe.jpg
-    credit: "The Stanley Parable: Ultra Deluxe store art"
-    source_url: https://store.steampowered.com/app/1703340/
+    file: images/stanley-vr/the-stanley-parable-ultra-deluxe.png
+    credit: "The Stanley Parable: Ultra Deluxe grid by BigHungryChicken (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/809891
 reviews:
   - title: "The Stanley Parable: Ultra Deluxe VR ... Where'd they go? [Tutorial/Gameplay/Conclusion] - Hoshi82"
     channel: Hoshi82

@@ -20,9 +20,9 @@ known_bugs: []
 notes: Fork of the perfect-dark-pc-port and izzy2lost Android port of the n64decomp Perfect Dark decompilation; supports community HD texture packs.
 images:
   - game: Perfect Dark
-    file: images/perfect-dark-vr/perfect-dark.jpg
-    credit: Graslu00
-    source_url: https://www.youtube.com/watch?v=wkQiyeYn7QU
+    file: images/perfect-dark-vr/perfect-dark.png
+    credit: Perfect Dark grid by elgamer242 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/34052
 reviews:
   - title: Perfect Dark N64 | VR Release!
     channel: Graslu00

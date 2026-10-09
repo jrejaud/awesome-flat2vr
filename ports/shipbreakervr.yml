@@ -19,9 +19,9 @@ known_bugs:
 notes: Has no motion controls, but features camera-independent aiming for all the game tools.
 images:
   - game: "Hardspace: Shipbreaker"
-    file: images/shipbreakervr/hardspace-shipbreaker.jpg
-    credit: "Hardspace: Shipbreaker store art"
-    source_url: https://store.steampowered.com/app/1161580/
+    file: images/shipbreakervr/hardspace-shipbreaker.png
+    credit: "Hardspace: Shipbreaker grid by Lightchao (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/671154
 reviews:
   - title: I'm making a Shipbreaker VR mod
     channel: Raicuparta

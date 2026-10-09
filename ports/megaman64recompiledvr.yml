@@ -24,8 +24,8 @@ notes: Fork of MegaMan64Recompiled adding a first-person VR mode where the buste
 images:
   - game: Mega Man 64
     file: images/megaman64recompiledvr/mega-man-64.png
-    credit: randygil/MegaMan64RecompiledVR
-    source_url: https://github.com/randygil/MegaMan64RecompiledVR
+    credit: Mega Man 64 grid by ZombiJambi (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/92789
 reviews: []
 added_by: bot
 discovered_via: https://github.com/randygil/megaman64recompiledvr

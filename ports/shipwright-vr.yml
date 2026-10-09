@@ -20,9 +20,9 @@ known_bugs: []
 notes: Fork of HarbourMasters/Shipwright (Ship of Harkinian); must be run with DirectX11, not OpenGL.
 images:
   - game: "The Legend of Zelda: Ocarina of Time"
-    file: images/shipwright-vr/the-legend-of-zelda-ocarina-of-time.jpg
-    credit: Dyno Mike Gaming
-    source_url: https://www.youtube.com/watch?v=jnuR13guRAk
+    file: images/shipwright-vr/the-legend-of-zelda-ocarina-of-time.png
+    credit: "The Legend of Zelda: Ocarina of Time grid by Argorath (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/190809
 reviews:
   - title: "Legend of Zelda Ocarina of Time VR: Ship of Harkinian VR! (Child Link Gameplay)"
     channel: legaiaflame

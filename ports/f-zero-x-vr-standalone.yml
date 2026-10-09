@@ -22,8 +22,8 @@ notes: Native Android/OpenXR Quest port built from the Zorkats/G-Diffuser decomp
 images:
   - game: F-Zero X
     file: images/f-zero-x-vr-standalone/f-zero-x.jpg
-    credit: Trev
-    source_url: https://www.youtube.com/watch?v=CheaOy69uEo
+    credit: F-Zero X grid by TalkyPup (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/489514
 reviews:
   - title: Playing F-Zero X and GX  on Dolphin VR with Oculus Quest 3 and G29 racing wheel hooked to ReaSnow S1
     channel: Trev

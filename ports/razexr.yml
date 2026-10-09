@@ -21,25 +21,25 @@ required_files: GRP/data files from owned copies of the supported Build engine g
 known_bugs: []
 images:
   - game: Duke Nukem 3D
-    file: images/razexr/duke-nukem-3d.jpg
-    credit: "Duke Nukem 3D: 20th Anniversary World Tour store art"
-    source_url: https://store.steampowered.com/app/434050/
+    file: images/razexr/duke-nukem-3d.png
+    credit: Duke Nukem 3D grid by Fighter_Builder (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/126641
   - game: Blood
-    file: images/razexr/blood.jpg
-    credit: Blood™ Fresh Supply store art
-    source_url: https://store.steampowered.com/app/1010750/
+    file: images/razexr/blood.png
+    credit: Blood grid by Gector(lint)Nathan (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/543873
   - game: Shadow Warrior
     file: images/razexr/shadow-warrior.jpg
-    credit: Shadow Warrior store art
-    source_url: https://store.steampowered.com/app/233130/
+    credit: Shadow Warrior grid by Comcord (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/184007
   - game: Redneck Rampage
-    file: images/razexr/redneck-rampage.jpg
-    credit: Redneck Rampage store art
-    source_url: https://store.steampowered.com/app/565550/
+    file: images/razexr/redneck-rampage.png
+    credit: Redneck Rampage grid by Haxy (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/287114
   - game: Exhumed
-    file: images/razexr/exhumed.jpg
-    credit: PowerSlave (DOS Classic Edition) store art
-    source_url: https://store.steampowered.com/app/1260020/
+    file: images/razexr/exhumed.png
+    credit: Team-Beef-Studios/RazeXR
+    source_url: https://github.com/Team-Beef-Studios/RazeXR
 reviews:
   - title: Duke Nukem 3D, Blood, Shadow Warrior (& more) in VR on Quest 2 with Raze XR! Retro FPS Games in VR.
     channel: VR Reviews

@@ -23,12 +23,12 @@ notes: A LOVE2D-based recreation/engine for Gen 1 with a custom stereo bridge; d
 images:
   - game: Pokemon Red
     file: images/1genpokemonvr/pokemon-red.png
-    credit: heurazy/1genpokemonvr
-    source_url: https://github.com/heurazy/1genpokemonvr
+    credit: Pokémon Red Version grid by JackSilversonX (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/827358
   - game: Pokemon Blue
     file: images/1genpokemonvr/pokemon-blue.png
-    credit: heurazy/1genpokemonvr
-    source_url: https://github.com/heurazy/1genpokemonvr
+    credit: Pokémon Blue Version grid by Passer (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/817304
 reviews: []
 added_by: bot
 discovered_via: https://github.com/heurazy/1genpokemonvr

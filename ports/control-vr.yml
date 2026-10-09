@@ -19,9 +19,9 @@ known_bugs:
 notes: Uses unified OpenXR/OpenVR path with DX11/DX12 support; post-processing must be set to Medium with motion blur and film grain disabled; headset-and-gamepad conversion, not motion controls.
 images:
   - game: Control
-    file: images/control-vr/control.jpg
-    credit: Kory & Brooke
-    source_url: https://www.youtube.com/watch?v=6DJ01fHF8Sc
+    file: images/control-vr/control.png
+    credit: Control grid by JCAMAR0 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/35338
 reviews:
   - title: YOU Control US in Roblox Realistic VR HANDS!
     channel: Kory & Brooke

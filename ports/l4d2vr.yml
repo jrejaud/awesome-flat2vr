@@ -22,9 +22,9 @@ known_bugs:
 notes: Uses -insecure launch option due to VAC ban risk; built on code from VirtualFortress2, gmcl_openvr, a VR-patched dxvk fork, and source-sdk-2013.
 images:
   - game: Left 4 Dead 2
-    file: images/l4d2vr/left-4-dead-2.jpg
-    credit: Left 4 Dead 2 store art
-    source_url: https://store.steampowered.com/app/550/
+    file: images/l4d2vr/left-4-dead-2.png
+    credit: Left 4 Dead 2 grid by Tobia$ (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/552987
 reviews:
   - title: How to install the L4D2 VR Mod
     channel: Ace TheOcarinaMaker

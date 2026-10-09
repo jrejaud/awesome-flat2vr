@@ -20,17 +20,17 @@ required_files: IWAD files (e.g. DOOM.WAD, DOOM2.WAD) from owned copies
 known_bugs: []
 images:
   - game: Doom
-    file: images/questzdoom/doom.jpg
-    credit: DOOM + DOOM II store art
-    source_url: https://store.steampowered.com/app/2280/
+    file: images/questzdoom/doom.png
+    credit: Doom grid by Maxine (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/118758
   - game: Doom II
-    file: images/questzdoom/doom-ii.jpg
-    credit: DOOM II store art
-    source_url: https://store.steampowered.com/app/2300/
+    file: images/questzdoom/doom-ii.png
+    credit: DOOM II grid by AmethystViper (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/110899
   - game: Heretic
     file: images/questzdoom/heretic.jpg
-    credit: "Heretic: Shadow of the Serpent Riders store art"
-    source_url: https://store.steampowered.com/app/2390/
+    credit: Heretic grid by Chaotic Viral (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/277641
   - game: Hexen
     file: images/questzdoom/hexen.jpg
     credit: "Hexen: Beyond Heretic store art"

@@ -18,9 +18,9 @@ known_bugs: []
 notes: Shipped in the 2607.31.2 early-access package alongside DOOM support; separate from the lighter Osiris/Geo3D 6DOF package.
 images:
   - game: Dead Space (2023)
-    file: images/dead-space-2023-r-e-a-l-vr/dead-space.jpg
-    credit: Dead Space store art
-    source_url: https://store.steampowered.com/app/1693980/
+    file: images/dead-space-2023-r-e-a-l-vr/dead-space.png
+    credit: Dead Space grid by DFE 785 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/611555
 reviews:
   - title: Dead Space VR Is Real... and It's Incredible!
     channel: Beardo Benjo

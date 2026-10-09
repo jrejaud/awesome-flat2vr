@@ -18,9 +18,9 @@ required_files: an owned PC install of Firewatch
 known_bugs: []
 images:
   - game: Firewatch
-    file: images/two-forks-vr/firewatch.jpg
-    credit: Firewatch store art
-    source_url: https://store.steampowered.com/app/383870/
+    file: images/two-forks-vr/firewatch.png
+    credit: Firewatch grid by imperthnthn (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/295322
 reviews:
   - title: Die Firewatch "Two Forks" VR Mod ist der Hammer!! Tutorial und Mixed Reality Capture Gameplay
     channel: VoodooDE VR

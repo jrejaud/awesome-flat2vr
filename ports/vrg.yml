@@ -17,9 +17,9 @@ known_bugs: []
 notes: Full VR mod for Deep Rock Galactic with motion controller support, holsters, gestures and hand aim; supports multiplayer with friends or randoms.
 images:
   - game: Deep Rock Galactic
-    file: images/vrg/deep-rock-galactic.jpg
-    credit: Deep Rock Galactic store art
-    source_url: https://store.steampowered.com/app/548430/
+    file: images/vrg/deep-rock-galactic.png
+    credit: Deep Rock Galactic grid by Maxine (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/129394
 reviews:
   - title: DEEP ROCK GALACTIC VR is pure mutliplayer MADNESS  // Quest 2 Airlink Gameplay
     channel: Beardo Benjo

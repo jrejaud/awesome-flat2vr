@@ -18,9 +18,9 @@ known_bugs: []
 notes: Public source drop with no packaged build or installation guide at time of announcement; AI-assisted development.
 images:
   - game: "F.E.A.R. 2: Project Origin"
-    file: images/fear2vr/f-e-a-r-2-project-origin.jpg
-    credit: "F.E.A.R. 2: Project Origin store art"
-    source_url: https://store.steampowered.com/app/16450/
+    file: images/fear2vr/f-e-a-r-2-project-origin.png
+    credit: "F.E.A.R. 2: Project Origin grid by adamboulton (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/358399
 reviews: []
 added_by: bot
 discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb

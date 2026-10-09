@@ -17,9 +17,9 @@ known_bugs: []
 notes: Uses AER v2 rendering; author notes both an early-access build and a public/free 2607.31.1 package.
 images:
   - game: DOOM (2016)
-    file: images/doom-2016-r-e-a-l-vr/doom.jpg
-    credit: DOOM store art
-    source_url: https://store.steampowered.com/app/379720/
+    file: images/doom-2016-r-e-a-l-vr/doom.png
+    credit: Doom grid by Micaden (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/798406
 reviews:
   - title: DOOM Eternal VR Is Here... Mods Have Changed VR Forever!
     channel: Beardo Benjo

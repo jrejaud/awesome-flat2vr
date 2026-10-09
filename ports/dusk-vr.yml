@@ -19,9 +19,9 @@ known_bugs: []
 notes: Fork of the Dusk Twilight Princess decompilation engine adding a Windows OpenXR/Vulkan VR launcher (run-dusk-vr.bat); no tagged release yet.
 images:
   - game: "The Legend of Zelda: Twilight Princess"
-    file: images/dusk-vr/the-legend-of-zelda-twilight-princess.jpg
-    credit: legaiaflame
-    source_url: https://www.youtube.com/watch?v=t9OfB7FwT4Q
+    file: images/dusk-vr/the-legend-of-zelda-twilight-princess.png
+    credit: "The Legend of Zelda: Twilight Princess grid by J03L (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/343440
 reviews:
   - title: Legend of Zelda Twilight Princess VR (JoeyAW MOD) Gameplay Showcase Part 2!
     channel: legaiaflame

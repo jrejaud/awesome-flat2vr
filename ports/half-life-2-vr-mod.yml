@@ -20,16 +20,16 @@ notes: Free on Steam. Episode One (app 2177750) and Episode Two (app 2177760) ar
 images:
   - game: Half-Life 2
     file: images/half-life-2-vr-mod/half-life-2.jpg
-    credit: Half-Life 2 store art
-    source_url: https://store.steampowered.com/app/220/
+    credit: Half-Life 2 grid by FakeLebowski (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/366562
   - game: "Half-Life 2: Episode One"
     file: images/half-life-2-vr-mod/half-life-2-episode-one.jpg
-    credit: "Half-Life 2: Episode One store art"
-    source_url: https://store.steampowered.com/app/380/
+    credit: "Half-Life 2: Episode One grid by FakeLebowski (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/366564
   - game: "Half-Life 2: Episode Two"
-    file: images/half-life-2-vr-mod/half-life-2-episode-two.jpg
-    credit: "Half-Life 2: Episode Two store art"
-    source_url: https://store.steampowered.com/app/420/
+    file: images/half-life-2-vr-mod/half-life-2-episode-two.png
+    credit: "Half-Life 2: Episode Two grid by traintrash (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/744208
 reviews:
   - title: Half-Life 2 VR is Really THAT Good
     channel: Bonezz

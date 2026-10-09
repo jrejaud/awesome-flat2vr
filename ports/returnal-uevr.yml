@@ -22,9 +22,9 @@ known_bugs:
 notes: UEVR profile adding full first-person 6DOF with tracked weapons, IK arms/hands, cinematic handling, and HUD-follow mode.
 images:
   - game: Returnal
-    file: images/returnal-uevr/returnal.jpg
-    credit: Returnal™ store art
-    source_url: https://store.steampowered.com/app/1649240/
+    file: images/returnal-uevr/returnal.png
+    credit: Returnal grid by Cth2lhu (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/300899
 reviews:
   - title: RETURNAL IS TOUGH IN VR! My Best Game in First Person & VR!
     channel: Gamertag VR

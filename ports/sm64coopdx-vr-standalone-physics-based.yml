@@ -25,9 +25,9 @@ known_bugs:
 notes: Native ARM64/OpenXR standalone build with physical motion controls (jumping, swimming, climbing); a separate PC VR edition repo is linked in the README.
 images:
   - game: Super Mario 64
-    file: images/sm64coopdx-vr-standalone-physics-based/super-mario-64.jpg
-    credit: Beardo Benjo
-    source_url: https://www.youtube.com/watch?v=4lG9Ux9DxwY
+    file: images/sm64coopdx-vr-standalone-physics-based/super-mario-64.png
+    credit: Super Mario 64 grid by Pyrus (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/101483
 reviews:
   - title: Playing Super Mario 64 VR on my Quest 2 is WEIRD! // Mario 64 First Person VR Mod
     channel: Beardo Benjo

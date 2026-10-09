@@ -1,7 +1,7 @@
 // Pure helpers for the discovery bot: dedupe keys, version comparison, turning a
 // model extraction into a schema-valid entry, and YAML rendering. No network, no fs.
 import yaml from 'js-yaml';
-import { validateEntry, SCHEMA } from '../lib.mjs';
+import { validateEntry, SCHEMA, HUB_REPOS } from '../lib.mjs';
 
 export const FIELD_ORDER = Object.keys(SCHEMA.properties);
 
@@ -23,7 +23,7 @@ export const slugify = (s) =>
 
 // Repos that ship many different ports (one per game): a link into one says nothing about
 // which port it is, so it must never be used to dedupe or identify an entry.
-export const HUB_REPOS = new Set(['github.com/rayrod-tv/mvrh']);
+export { HUB_REPOS };
 
 // owner/repo for a github.com or codeberg.org URL, lowercased; null otherwise (and for hubs).
 export function repoKey(url) {
@@ -156,7 +156,9 @@ export function finalizeEntry(raw, candidate, { date = today() } = {}) {
   if (NOT_A_DOWNLOAD.test(entry.download_url ?? ''))
     return { error: `download_url ${entry.download_url} is not a download page (unreleased?)` };
   // A pinned release-tag link goes stale on the next release; the bump check keeps `version` current.
-  const tagged = /^(https:\/\/github\.com\/[^/]+\/[^/]+)\/releases\/tag\/[^/]+$/i.exec(entry.download_url ?? '');
+  const tagged = /^(https:\/\/github\.com\/[^/]+\/[^/]+)\/releases\/(?:tag\/[^/]+|download\/.+)$/i.exec(
+    entry.download_url ?? '',
+  );
   if (tagged) entry.download_url = `${tagged[1]}/releases/latest`;
   for (const k of ['download_url', 'source_url', 'homepage']) {
     if (entry[k] && !urlIsGrounded(entry[k], ground)) {

@@ -20,9 +20,9 @@ known_bugs:
 notes: Fork of the WiiCompiled static-recompilation port; VR is opt-in and falls back to the normal desktop renderer if unsupported.
 images:
   - game: Mario Kart Wii
-    file: images/wiicompiled-vr/mario-kart-wii.jpg
-    credit: Poofesure
-    source_url: https://www.youtube.com/watch?v=2D5KLLdZxPk
+    file: images/wiicompiled-vr/mario-kart-wii.png
+    credit: Mario Kart Wii grid by Sho. (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/263653
 reviews:
   - title: playing mario kart wii in VR
     channel: Poofesure
