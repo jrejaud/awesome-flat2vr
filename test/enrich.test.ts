@@ -59,3 +59,23 @@ test('pickSteamApp accepts "The Complete Edition" of the same game', () => {
   const items = [{ id: 12210, name: 'Grand Theft Auto IV: The Complete Edition' }];
   assert.equal(pickSteamApp('Grand Theft Auto IV', items)?.id, 12210);
 });
+
+test('render escapes quotes in the image alt text', () => {
+  const md = render([
+    {
+      name: 'P',
+      games: ['Say "Hi"'],
+      platform: 'pcvr',
+      status: 'beta',
+      version: '1',
+      version_date: '2026-01-01',
+      download_url: 'https://x/d',
+      source_url: 'https://x/s',
+      authors: [{ name: 'A' }],
+      known_bugs: ['crash on load'],
+      images: [{ game: 'Say "Hi"', file: 'images/p/say-hi.jpg', credit: 'c', source_url: 'https://s' }],
+    },
+  ]);
+  assert.match(md, /alt="Say &quot;Hi&quot;"/);
+  assert.match(md, /1 known bug/);
+});

@@ -4,7 +4,7 @@
 // With no slugs, enriches every ports/*.yml that is missing an image or reviews.
 // Images: Steam store header for each game, else the top review's YouTube thumbnail,
 // else the GitHub social card of the port's repo. Reviews: yt-dlp YouTube search.
-import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, unlinkSync } from 'node:fs';
 import { join } from 'node:path';
 import { execFileSync } from 'node:child_process';
 import yaml from 'js-yaml';
@@ -146,45 +146,58 @@ export async function enrich(
   slug,
   { root = ROOT, force = false, reviews = true, steam = {}, log = () => {} } = {},
 ) {
-  if (reviews && (force || !entry.reviews?.length)) {
+  if (reviews && (force || !Array.isArray(entry.reviews))) {
     try {
       const r = findReviews(entry);
-      if (r.length) entry.reviews = r;
-      else delete entry.reviews;
+      // An empty search never wipes reviews already on file; [] records "searched, none found".
+      if (r.length || !entry.reviews?.length) entry.reviews = r;
     } catch (e) {
       log(`  reviews: ${e.message.split('\n')[0]}`);
     }
   }
-  const have = new Map((force ? [] : (entry.images ?? [])).map((i) => [i.game, i]));
+  const prev = new Map((entry.images ?? []).map((i) => [i.game, i]));
+  const usable = (i) => i && existsSync(join(root, i.file));
   const images = [];
   for (const game of entry.games) {
-    if (have.has(game) && existsSync(join(root, have.get(game).file))) {
-      images.push(have.get(game));
+    if (!force && usable(prev.get(game))) {
+      images.push(prev.get(game));
       continue;
     }
-    const file = `images/${slug}/${slugify(game) || 'game'}.jpg`;
+    const base = `images/${slug}/${slugify(game) || 'game'}`;
+    // Write <base>.<ext> and drop a stale sibling with the other extension.
+    const save = async (url, ext) => {
+      await retry(() => download(url, join(root, `${base}.${ext}`)));
+      for (const other of ['jpg', 'png']) {
+        if (other !== ext && existsSync(join(root, `${base}.${other}`))) unlinkSync(join(root, `${base}.${other}`));
+      }
+      return `${base}.${ext}`;
+    };
     let img = null;
     try {
       const app = steam[game] ? { id: steam[game] } : await steamApp(game);
       if (app) {
         const h = await steamHeader(app.id);
-        app.name = h.name;
-        await retry(() => download(h.url, join(root, file)));
+        const file = await save(h.url, 'jpg');
         img = {
           game,
           file,
-          credit: `${app.name} store art`,
+          credit: `${h.name} store art`,
           source_url: `https://store.steampowered.com/app/${app.id}/`,
         };
       }
     } catch (e) {
       log(`  steam ${game}: ${e.message}`);
     }
-    const rv = entry.reviews?.[0];
+    // Prefer a review of THIS game for its thumbnail; a multi-game port's top video may be another game.
+    const words = norm(game)
+      .split(' ')
+      .filter((w) => w.length > 2);
+    const rv =
+      (entry.reviews ?? []).find((r) => words.every((w) => norm(r.title).includes(w))) ??
+      (entry.games.length === 1 ? entry.reviews?.[0] : undefined);
     if (!img && rv) {
-      const id = new URL(rv.url).searchParams.get('v');
       try {
-        await download(`https://i.ytimg.com/vi/${id}/hqdefault.jpg`, join(root, file));
+        const file = await save(`https://i.ytimg.com/vi/${new URL(rv.url).searchParams.get('v')}/hqdefault.jpg`, 'jpg');
         img = { game, file, credit: rv.channel, source_url: rv.url };
       } catch (e) {
         log(`  youtube thumb ${game}: ${e.message}`);
@@ -193,12 +206,14 @@ export async function enrich(
     const gh = /^https:\/\/github\.com\/([^/]+\/[^/]+)/.exec(entry.source_url ?? '');
     if (!img && gh) {
       try {
-        await download(`https://opengraph.githubassets.com/1/${gh[1]}`, join(root, file.replace(/\.jpg$/, '.png')));
-        img = { game, file: file.replace(/\.jpg$/, '.png'), credit: gh[1], source_url: `https://github.com/${gh[1]}` };
+        const file = await save(`https://opengraph.githubassets.com/1/${gh[1]}`, 'png');
+        img = { game, file, credit: gh[1], source_url: `https://github.com/${gh[1]}` };
       } catch (e) {
         log(`  github card ${game}: ${e.message}`);
       }
     }
+    // A failed refresh keeps the image already on file rather than losing it.
+    if (!img && usable(prev.get(game))) img = prev.get(game);
     if (img) images.push(img);
     else log(`  no image found for ${game}`);
   }
@@ -228,7 +243,7 @@ if (isMain) {
   for (const f of files) {
     const path = join(ROOT, 'ports', f);
     const entry = yaml.load(readFileSync(path, 'utf8'), { schema: yaml.JSON_SCHEMA });
-    const done = entry.images?.length === entry.games.length && (!reviews || entry.reviews?.length);
+    const done = entry.images?.length === entry.games.length && (!reviews || Array.isArray(entry.reviews));
     if (done && !force && !slugs.length) continue;
     const slug = f.replace(/\.yml$/, '');
     console.log(`→ ${slug}`);

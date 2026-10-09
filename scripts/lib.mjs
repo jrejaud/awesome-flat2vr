@@ -77,5 +77,16 @@ export function loadPorts(dir = join(ROOT, 'ports'), imageRoot = ROOT) {
     if (seen.has(key)) errors.push(`ports/${p.slug}.yml: duplicate name '${p.name}' (also ports/${seen.get(key)}.yml)`);
     seen.set(key, p.slug);
   }
+  // Unreferenced image files are stale leftovers (only checked for the real index).
+  if (dir === join(ROOT, 'ports') && existsSync(join(imageRoot, 'images'))) {
+    const used = new Set(ports.flatMap((p) => (p.images ?? []).map((i) => i.file)));
+    for (const d of readdirSync(join(imageRoot, 'images'))) {
+      if (d.startsWith('.')) continue;
+      for (const f of readdirSync(join(imageRoot, 'images', d))) {
+        if (!f.startsWith('.') && !used.has(`images/${d}/${f}`))
+          errors.push(`images/${d}/${f}: not referenced by any port`);
+      }
+    }
+  }
   return { ports, errors };
 }

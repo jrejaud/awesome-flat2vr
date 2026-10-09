@@ -84,12 +84,20 @@ function prepareBranch() {
     const open = JSON.parse(sh('gh', ['pr', 'list', '--head', BRANCH, '--state', 'open', '--json', 'number']));
     git('fetch', 'origin', `${BRANCH}:refs/remotes/origin/${BRANCH}`);
     if (open.length)
-      carried = git('diff', '--name-only', '--diff-filter=AM', `origin/main...origin/${BRANCH}`, '--', 'ports/')
+      carried = git(
+        'diff',
+        '--name-only',
+        '--diff-filter=AM',
+        `origin/main...origin/${BRANCH}`,
+        '--',
+        'ports/',
+        'images/',
+      )
         .split('\n')
         .filter(Boolean);
   }
   git('checkout', '--force', '-B', BRANCH, 'origin/main');
-  for (const f of git('ls-files', '--others', '--exclude-standard', 'ports/').split('\n').filter(Boolean))
+  for (const f of git('ls-files', '--others', '--exclude-standard', 'ports/', 'images/').split('\n').filter(Boolean))
     rmSync(join(ROOT, f));
   if (carried.length) git('checkout', `origin/${BRANCH}`, '--', ...carried);
   return carried;
@@ -227,13 +235,20 @@ async function discover(ports, changes) {
         continue;
       }
       const slug = uniqueSlug(entry.name, taken);
+      if (!DRY) {
+        await enrich(entry, slug, { log });
+        // The index requires an image per game; without one the build fails for the whole run.
+        if ((entry.images?.length ?? 0) < entry.games.length) {
+          seen[c.id] = { result: 'error', error: 'no image found', at: TODAY };
+          log(`skip  ${entry.name}: no image found for every game, will retry`);
+          rmSync(join(ROOT, 'images', slug), { recursive: true, force: true });
+          continue;
+        }
+        writeFileSync(join(ROOT, 'ports', `${slug}.yml`), toYaml(entry));
+      }
       taken.add(slug);
       for (const k of entryKeys(entry)) index.set(k, slug);
       names.push(entry.name);
-      if (!DRY) {
-        await enrich(entry, slug, { log });
-        writeFileSync(join(ROOT, 'ports', `${slug}.yml`), toYaml(entry));
-      }
       changes.added.push({
         slug,
         name: entry.name,
@@ -285,8 +300,8 @@ function prBody() {
 function publish() {
   sh('npm', ['run', '-s', 'build']);
   sh('npm', ['run', '-s', 'validate']);
-  git('add', 'ports', 'README.md', 'data');
-  if (!git('status', '--porcelain', '--', 'ports', 'README.md', 'data')) return null;
+  git('add', 'ports', 'images', 'README.md', 'data');
+  if (!git('status', '--porcelain', '--', 'ports', 'images', 'README.md', 'data')) return null;
   git(
     '-c',
     'user.name=flat2vr-bot',
