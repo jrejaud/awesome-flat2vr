@@ -79,3 +79,11 @@ test('render escapes quotes in the image alt text', () => {
   assert.match(md, /alt="Say &quot;Hi&quot;"/);
   assert.match(md, /1 known bug/);
 });
+
+test('isReview: a sequel video is not a review of the original game', () => {
+  const hl = { name: 'Half-Life: VR Mod', games: ['Half-Life'], platform: 'pcvr' };
+  assert.ok(!isReview({ title: 'Living in Half Life 2 VR until I beat it', duration: 900 }, hl, 'Half-Life'));
+  assert.ok(isReview({ title: 'Half-Life VR Mod is incredible', duration: 900 }, hl, 'Half-Life'));
+  const hl2 = { name: 'Half-Life 2: VR Mod', games: ['Half-Life 2'], platform: 'pcvr' };
+  assert.ok(isReview({ title: 'Half-Life 2 VR is Really THAT Good', duration: 900 }, hl2, 'Half-Life 2'));
+});

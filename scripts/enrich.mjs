@@ -88,18 +88,34 @@ async function download(url, dest) {
 }
 
 // Keep a review only if its title names VR and the game (or the port), and it isn't a Short.
+// Title matching only: punctuation to spaces, roman numerals to digits ("Quake II" == "Quake 2").
+const ROMAN = { ii: '2', iii: '3', iv: '4', v: '5', vi: '6' };
+const mnorm = (s) =>
+  norm(s)
+    .replace(/[^a-z0-9 ]/g, ' ')
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((w) => ROMAN[w] ?? w)
+    .join(' ');
+
 export function isReview(v, entry, game) {
-  const t = norm(v.title);
+  const t = mnorm(v.title);
   const compact = t.replace(/\s+/g, '');
   if ((v.duration ?? 0) < 120) return false;
   // News roundups, and other injectors (VorpX) showing the same game, are not reviews of this port.
-  if (/\bnews\b|roundup|weekly|top \d+|\d+ best|update &|vorpx/.test(t)) return false;
-  const port = norm(entry.name).replace(/\s+/g, '');
+  if (/\bnews\b|roundup|weekly|top \d+|\d+ best|update &|vorpx/.test(String(v.title).toLowerCase())) return false;
+  const port = mnorm(entry.name).replace(/\s+/g, '');
   if (port.length > 4 && compact.includes(port)) return true;
+  // "Half-Life" must not match a "Half-Life 2" video: reject the game name followed by a
+  // sequel number (1-2 digits, so "Tomb Raider 1996" is fine; "1" means the original).
+  const g = mnorm(game);
+  const at = ` ${t} `.indexOf(` ${g} `);
+  const seq = at >= 0 ? /^(\d{1,2})\b/.exec(t.slice(at + g.length).trimStart()) : null;
+  if (seq && seq[1] !== '1' && !g.endsWith(` ${seq[1]}`)) return false;
   if (!/\bvr\b|virtual reality/.test(t)) return false;
   // Whole-word match, keeping numerals so "Grand Theft Auto IV" never matches a GTA V video.
   const have = new Set(t.split(' '));
-  const words = norm(game)
+  const words = mnorm(game)
     .split(' ')
     .filter((w) => (w.length > 2 || /^([ivx]+|\d+)$/.test(w)) && w !== 'vr' && w !== 'the');
   if (!words.length || !words.every((w) => have.has(w))) return false;
