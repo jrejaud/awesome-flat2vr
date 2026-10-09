@@ -33,6 +33,8 @@ import { COLLECTORS, candidateRepo, latestRelease, repoContext } from './sources
 import { extract } from './extract.mjs';
 
 const BRANCH = 'bot/discovery';
+// Verdicts worth another look on a later run (a transient failure, or a model miss the gate caught).
+const RETRY = new Set(['error', 'invalid']);
 const args = process.argv.slice(2);
 const flag = (f) => args.includes(f);
 const opt = (f, d) => (args.includes(f) ? args[args.indexOf(f) + 1] : d);
@@ -137,7 +139,7 @@ async function discover(ports, changes) {
   const runKeys = new Set();
   for (const c of candidates) {
     const prior = seen[c.id];
-    if (prior && (prior.result !== 'error' || prior.attempts >= 3)) continue;
+    if (prior && (!RETRY.has(prior.result) || (prior.attempts ?? 1) >= 3)) continue;
     const dup = matchExisting(index, c);
     if (dup) {
       seen[c.id] = { result: 'duplicate', of: dup, at: TODAY };
@@ -173,7 +175,7 @@ async function discover(ports, changes) {
       }
       const { entry, error } = finalizeEntry(out.entry, c, { date: TODAY });
       if (error) {
-        seen[c.id] = { result: 'invalid', reason: error, at: TODAY };
+        seen[c.id] = { result: 'invalid', reason: error, attempts: (prior?.attempts ?? 0) + 1, at: TODAY };
         log(`drop  ${c.title}: ${error}`);
         continue;
       }

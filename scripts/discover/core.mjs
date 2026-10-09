@@ -140,6 +140,8 @@ export function finalizeEntry(raw, candidate, { date = today() } = {}) {
   if (entry.version_date > date) entry.version_date = date;
 
   const ground = [...(candidate.urls ?? []), candidate.source_url];
+  // A source drop or forum post has no separate download page: the source page is where you get it.
+  if (!entry.download_url && entry.source_url) entry.download_url = entry.source_url;
   // A pinned release-tag link goes stale on the next release; the bump check keeps `version` current.
   const tagged = /^(https:\/\/github\.com\/[^/]+\/[^/]+)\/releases\/tag\/[^/]+$/i.exec(entry.download_url ?? '');
   if (tagged) entry.download_url = `${tagged[1]}/releases/latest`;
