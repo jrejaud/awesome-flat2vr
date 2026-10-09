@@ -39,7 +39,9 @@ const flag = (f) => args.includes(f);
 const opt = (f, d) => (args.includes(f) ? args[args.indexOf(f) + 1] : d);
 const DRY = flag('--dry-run');
 const COMMIT = (flag('--commit') || flag('--pr')) && !DRY;
-const SOURCES = opt('--sources', 'gists,github,steam,sidequest,discord,youtube,reddit').split(',').filter(Boolean);
+const SOURCES = opt('--sources', 'seeds,mvrh,gists,github,steam,sidequest,discord,youtube,reddit')
+  .split(',')
+  .filter(Boolean);
 const MAX_EXTRACT = Number(opt('--max-extract', '25'));
 const STATE_DIR = process.env.FLAT2VR_STATE || join(homedir(), '.local/state/flat2vr-bot');
 const SEEN_FILE = join(STATE_DIR, 'seen.json');
@@ -150,7 +152,7 @@ async function discover(ports, changes) {
       seen[c.id] = { result: 'duplicate', of: dup, at: TODAY };
       continue;
     }
-    const repo = candidateRepo(c);
+    const repo = c.noEnrich ? null : candidateRepo(c);
     if (repo && runKeys.has(repo)) continue;
     if (extracted >= MAX_EXTRACT) {
       changes.deferred++;

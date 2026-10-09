@@ -3,6 +3,7 @@
 // `id` is stable across runs (it is what the seen-state remembers); `urls` is every link the
 // source material carries, which is also the set the model is allowed to cite.
 import { execFileSync } from 'node:child_process';
+import { readFileSync } from 'node:fs';
 import { extractUrls, githubRepo } from './core.mjs';
 
 const UA = 'awesome-flat2vr-discovery-bot (+https://github.com/jrejaud/awesome-flat2vr)';
@@ -173,6 +174,12 @@ const GH_QUERIES = [
   '"vr port" in:name,description',
   'org:Team-Beef-Studios',
   'user:DrBeef',
+  // Console decomp/recomp VR ports, the fastest-growing corner of the scene (2026)
+  'VR recomp in:name,description',
+  'VR decomp in:name,description',
+  'N64 VR in:name,description',
+  'Quest VR port in:name,description',
+  'openxr port in:name,description',
 ];
 
 export async function githubSearch({ sinceDays = 30 } = {}) {
@@ -438,7 +445,70 @@ export async function youtube({ bin = process.env.YOUTUBE_BIN || 'youtube', sinc
   return out;
 }
 
-export const COLLECTORS = { gists: tateGists, github: githubSearch, steam, sidequest, discord, youtube, reddit };
+// ---- Seed list: known ports the searches may miss (scripts/discover/seeds.txt) -------------
+export function parseSeeds(text) {
+  return [
+    ...new Set(
+      String(text)
+        .split('\n')
+        .map((l) => l.replace(/#.*/, '').trim())
+        .map(githubRepo)
+        .filter(Boolean),
+    ),
+  ];
+}
+
+export async function seeds({ file = new URL('./seeds.txt', import.meta.url) } = {}) {
+  return parseSeeds(readFileSync(file, 'utf8')).map((repo) => ({
+    id: `github:${repo}`,
+    source: 'seed list',
+    source_url: `https://github.com/${repo}`,
+    title: repo.split('/')[1],
+    date: '',
+    text: `GitHub repository ${repo} (curated seed: a known VR port of a flatscreen game).`,
+    urls: [`https://github.com/${repo}`],
+  }));
+}
+
+// ---- Multiverse VR Hub (RaYRoD-TV/MVRH): N64-era VR ports shipped as patches + Quest APKs --
+const MVRH_CATALOG = 'https://raw.githubusercontent.com/RaYRoD-TV/MVRH/gh-pages/catalog.json';
+const MVRH_HOME = 'https://github.com/RaYRoD-TV/MVRH';
+
+export async function mvrh() {
+  const res = await fetchRetry(MVRH_CATALOG, { headers: { 'User-Agent': UA } });
+  if (!res.ok) throw new Error(`MVRH catalog: HTTP ${res.status}`);
+  const { games = [] } = await res.json();
+  return games
+    .filter((g) => g.status === 'available')
+    .map((g) => ({
+      id: `mvrh:${g.id}`,
+      noEnrich: true, // officialHome is the base PC port, not this VR patch
+      source: 'MVRH catalog',
+      source_url: MVRH_HOME,
+      title: g.name,
+      date: '',
+      text: [
+        `Multiverse VR Hub (MVRH, by RaYRoD-TV) entry "${g.name}" (${g.group ?? ''})`,
+        `Patch version: ${g.version}. Download page: ${MVRH_HOME}/releases`,
+        `Built on the PC port: ${g.officialName} (${g.officialHome}). Original game ROM/data required: ${g.romName ?? 'see port'}`,
+        `PCVR: Windows hub installs the patch. Quest standalone: ${g.questStatus ?? 'unknown'}`,
+        `Changelog:\n${(g.changelog ?? []).join('\n')}`,
+      ].join('\n'),
+      urls: [MVRH_HOME, `${MVRH_HOME}/releases`, `${MVRH_HOME}/releases/latest`, g.officialHome].filter(Boolean),
+    }));
+}
+
+export const COLLECTORS = {
+  seeds,
+  mvrh,
+  gists: tateGists,
+  github: githubSearch,
+  steam,
+  sidequest,
+  discord,
+  youtube,
+  reddit,
+};
 
 // GitHub repo a candidate points at, for enrichment and dedupe.
 export const candidateRepo = (c) => c.urls.map(githubRepo).find(Boolean) ?? null;

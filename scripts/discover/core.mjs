@@ -21,13 +21,18 @@ export const slugify = (s) =>
     .slice(0, 60)
     .replace(/-+$/g, '');
 
-// owner/repo for a github.com or codeberg.org URL, lowercased; null otherwise.
+// Repos that ship many different ports (one per game): a link into one says nothing about
+// which port it is, so it must never be used to dedupe or identify an entry.
+export const HUB_REPOS = new Set(['github.com/rayrod-tv/mvrh']);
+
+// owner/repo for a github.com or codeberg.org URL, lowercased; null otherwise (and for hubs).
 export function repoKey(url) {
   const m = /^https?:\/\/(?:www\.)?(github\.com|codeberg\.org)\/([^/?#]+)\/([^/?#]+)/i.exec(String(url));
   if (!m) return null;
   const repo = m[3].replace(/\.git$/i, '');
   if (['orgs', 'users', 'sponsors', 'settings', 'topics', 'search'].includes(m[2].toLowerCase())) return null;
-  return `${m[1].toLowerCase()}/${m[2].toLowerCase()}/${repo.toLowerCase()}`;
+  const key = `${m[1].toLowerCase()}/${m[2].toLowerCase()}/${repo.toLowerCase()}`;
+  return HUB_REPOS.has(key) ? null : key;
 }
 
 export const githubRepo = (url) => {
