@@ -46,3 +46,16 @@ test('render puts one row per game, game first, sorted by game', () => {
   assert.match(md, /^\| Game \| Port \| Platform \|/);
   assert.match(md, /<img src="images\/razexr\/blood.jpg"[^|]*\*\*Blood\*\* \| \[RazeXR\]/);
 });
+
+test('isReview: numerals must match and VorpX videos are not this port', () => {
+  const gta = { name: 'Grand Theft Auto IV VR', games: ['Grand Theft Auto IV'], platform: 'pcvr' };
+  assert.ok(!isReview({ title: 'Grand Theft Auto V VR Mod gameplay', duration: 600 }, gta, 'Grand Theft Auto IV'));
+  assert.ok(isReview({ title: 'Grand Theft Auto IV in VR is wild', duration: 600 }, gta, 'Grand Theft Auto IV'));
+  const sh = { name: 'Space Hulk VR', games: ['Space Hulk: Deathwing'], platform: 'pcvr' };
+  assert.ok(!isReview({ title: 'Space Hulk Deathwing in VR using Vorpx', duration: 600 }, sh, 'Space Hulk: Deathwing'));
+});
+
+test('pickSteamApp accepts "The Complete Edition" of the same game', () => {
+  const items = [{ id: 12210, name: 'Grand Theft Auto IV: The Complete Edition' }];
+  assert.equal(pickSteamApp('Grand Theft Auto IV', items)?.id, 12210);
+});

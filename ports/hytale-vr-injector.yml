@@ -1,0 +1,30 @@
+name: Hytale VR Injector
+games:
+  - Hytale
+category: mod
+authors:
+  - name: heurazy
+    url: https://github.com/heurazy
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v1.0.4"
+version_date: "2026-08-24"
+download_url: https://github.com/heurazy/HytaleVRInjector-mod/releases/latest
+source_url: https://github.com/heurazy/HytaleVRInjector-mod
+license: Apache-2.0
+required_files: A legitimate installation of Hytale
+known_bugs: []
+notes: Experimental, AI-coded SteamVR injector that renders tracked-controller hands/items and centers the VR camera via an AFW reprojection dashboard.
+images:
+  - game: Hytale
+    file: images/hytale-vr-injector/hytale.jpg
+    credit: Muntan
+    source_url: https://www.youtube.com/watch?v=Kg0P_mDJoTo
+reviews:
+  - title: Exploring Hytale in VR!
+    channel: Muntan
+    url: https://www.youtube.com/watch?v=Kg0P_mDJoTo
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

@@ -1,0 +1,36 @@
+name: Grand Theft Auto IV VR
+games:
+  - Grand Theft Auto IV
+category: mod
+authors:
+  - name: Hochgeschwindigkeitsrennfahrer
+    url: https://github.com/Hochgeschwindigkeitsrennfahrer
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "GTA4VR"
+version_date: "2026-08-04"
+download_url: https://github.com/Hochgeschwindigkeitsrennfahrer/Grand-Theft-Auto-IV-VR-Mod/releases/latest
+source_url: https://github.com/Hochgeschwindigkeitsrennfahrer/Grand-Theft-Auto-IV-VR-Mod
+homepage: https://github.com/Hochgeschwindigkeitsrennfahrer/gtaiv-dxvk-vr/
+license: MIT
+required_files: GTA IV Complete Edition (Steam, 32-bit GTAIV.exe) plus GTAIV.EFLC.FusionFix ASI loader
+known_bugs:
+  - Gun aiming sometimes glitches out; recenter with right thumbstick or F9+F10
+  - Non-AER stereo modes are blurry when looking around
+notes: SteamVR/OpenVR only, head tracking with experimental head aiming while ADS; no motion controller support yet.
+images:
+  - game: Grand Theft Auto IV
+    file: images/grand-theft-auto-iv-vr/grand-theft-auto-iv.jpg
+    credit: "Grand Theft Auto IV: The Complete Edition store art"
+    source_url: https://store.steampowered.com/app/12210/
+reviews:
+  - title: Grand Theft Auto IV VR Performance / New VR Mod / Meta Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=qJbdckHlBmM
+  - title: Grand Theft Auto IV - VR mod RC1 - Ivan the Not So Terrible
+    channel: MrIch325
+    url: https://www.youtube.com/watch?v=JkVdSyDpg78
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

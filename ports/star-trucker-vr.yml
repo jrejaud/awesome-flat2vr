@@ -1,0 +1,26 @@
+name: Star Trucker VR
+games:
+  - Star Trucker
+category: mod
+authors:
+  - name: Svveepa
+platform: pcvr
+controls: gamepad
+status: stable
+version: "1.0"
+version_date: "2026-07-20"
+download_url: https://www.nexusmods.com/startrucker/mods/17
+source_url: https://www.nexusmods.com/startrucker/mods/17
+license: unknown
+required_files: Original Star Trucker game install
+known_bugs:
+  - No motion-controller gameplay at release
+notes: Seated VR conversion built on Unity/MelonLoader; 1.0.1 fixed world-space navigation markers.
+images:
+  - game: Star Trucker
+    file: images/star-trucker-vr/star-trucker.jpg
+    credit: Star Trucker store art
+    source_url: https://store.steampowered.com/app/2380050/
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

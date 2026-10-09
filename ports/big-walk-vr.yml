@@ -1,0 +1,33 @@
+name: Big Walk VR
+games:
+  - Big Walk
+category: mod
+authors:
+  - name: CircuitLord
+    url: https://github.com/CircuitLord
+platform: pcvr
+controls: 6dof
+status: stable
+version: "v1.2.9"
+version_date: "2026-10-06"
+download_url: https://github.com/CircuitLord/CircuitLordVRModInstaller/releases/latest/download/CircuitLordVRModInstaller.exe
+source_url: https://github.com/CircuitLord/CircuitLordVRModInstaller
+license: unknown
+required_files: Steam copy of Big Walk; mod installs BepInEx automatically via the installer
+known_bugs: []
+notes: "Multiplayer-compatible: flatscreen players can see VR players' tracked hands without using VR themselves; installed via CircuitLord's one-click installer, which also supports Titanfall 2 VR."
+images:
+  - game: Big Walk
+    file: images/big-walk-vr/big-walk.jpg
+    credit: Big Walk store art
+    source_url: https://store.steampowered.com/app/1478500/
+reviews:
+  - title: Big Walk but I'm ACTUALLY Walking [VR]
+    channel: BamBaeYoh
+    url: https://www.youtube.com/watch?v=SXSZO6CctfM
+  - title: How To Play BIG WALK In VR! (NEW UPDATE)
+    channel: Sk0l
+    url: https://www.youtube.com/watch?v=zMMNyRHrgBg
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

@@ -45,7 +45,7 @@ export function pickSteamApp(game, items) {
   }
   // Only accept a longer title when the extra words are an edition of the same game.
   const edition =
-    /^(remastered|classic|enhanced|definitive|complete|anniversary|gold|goty|game of the year|deluxe|biohazard|\d+th anniversary.*|\d{4}|edition| )+$/;
+    /^(the|remastered|classic|enhanced|definitive|complete|anniversary|gold|goty|game of the year|deluxe|biohazard|\d+th anniversary.*|\d{4}|edition| )+$/;
   return cands.find((c) => c.n.startsWith(`${want} `) && edition.test(c.n.slice(want.length + 1))) ?? null;
 }
 
@@ -69,7 +69,12 @@ async function retry(fn, n = 3) {
 async function steamHeader(id) {
   const d = await retry(() => getJson(`https://store.steampowered.com/api/appdetails?appids=${id}&filters=basic`));
   const app = d?.[id]?.data;
-  if (!app) throw new Error(`no Steam app ${id}`);
+  // Delisted apps (e.g. Mirror's Edge) return no data but still serve their store art.
+  if (!app)
+    return {
+      name: `Steam app ${id}`,
+      url: `https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/${id}/header.jpg`,
+    };
   return { name: app.name, url: app.header_image };
 }
 
@@ -87,14 +92,17 @@ export function isReview(v, entry, game) {
   const t = norm(v.title);
   const compact = t.replace(/\s+/g, '');
   if ((v.duration ?? 0) < 120) return false;
-  if (/\bnews\b|roundup|weekly|top \d+|\d+ best|update &/.test(t)) return false;
+  // News roundups, and other injectors (VorpX) showing the same game, are not reviews of this port.
+  if (/\bnews\b|roundup|weekly|top \d+|\d+ best|update &|vorpx/.test(t)) return false;
   const port = norm(entry.name).replace(/\s+/g, '');
   if (port.length > 4 && compact.includes(port)) return true;
   if (!/\bvr\b|virtual reality/.test(t)) return false;
+  // Whole-word match, keeping numerals so "Grand Theft Auto IV" never matches a GTA V video.
+  const have = new Set(t.split(' '));
   const words = norm(game)
     .split(' ')
-    .filter((w) => w.length > 2 && w !== 'vr');
-  if (!words.length || !words.every((w) => t.includes(w))) return false;
+    .filter((w) => (w.length > 2 || /^([ivx]+|\d+)$/.test(w)) && w !== 'vr' && w !== 'the');
+  if (!words.length || !words.every((w) => have.has(w))) return false;
   if (entry.platform === 'standalone') return /quest|sidequest|pico|standalone/.test(t);
   return true;
 }
@@ -142,6 +150,7 @@ export async function enrich(
     try {
       const r = findReviews(entry);
       if (r.length) entry.reviews = r;
+      else delete entry.reviews;
     } catch (e) {
       log(`  reviews: ${e.message.split('\n')[0]}`);
     }

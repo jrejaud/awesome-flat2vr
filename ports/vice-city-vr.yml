@@ -1,0 +1,34 @@
+name: Vice City VR
+games:
+  - "Grand Theft Auto: Vice City"
+category: mod
+authors:
+  - name: dubrovskiy-yevhen-stakelogic
+platform: both
+headsets:
+  - Quest
+controls: 6dof
+status: alpha
+version: "v0.5.5.1"
+version_date: "2026-09-14"
+download_url: https://github.com/dubrovskiy-yevhen-stakelogic/vice-city-vr/releases/latest
+source_url: https://github.com/dubrovskiy-yevhen-stakelogic/vice-city-vr
+license: unknown
+required_files: "Original PC installation of Grand Theft Auto: Vice City (reVC.exe)"
+known_bugs: []
+notes: Native Direct3D 12 and OpenXR conversion with save transfer between PCVR and Quest builds and experimental DLSS 5 neural rendering support.
+images:
+  - game: "Grand Theft Auto: Vice City"
+    file: images/vice-city-vr/grand-theft-auto-vice-city.jpg
+    credit: Vlad Yaps
+    source_url: https://www.youtube.com/watch?v=2e0IqwScrVk
+reviews:
+  - title: How to Install GTA Vice City VR Mod on Quest! [*EASY*] (STANDALONE)
+    channel: Vlad Yaps
+    url: https://www.youtube.com/watch?v=2e0IqwScrVk
+  - title: Does GTA Vice City VR on Quest actually work?
+    channel: Beyond Meta
+    url: https://www.youtube.com/watch?v=eEVMxo9YLLI
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

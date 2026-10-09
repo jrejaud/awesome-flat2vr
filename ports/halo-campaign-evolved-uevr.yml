@@ -1,0 +1,33 @@
+name: "Halo: Campaign Evolved UEVR"
+games:
+  - "Halo: Campaign Evolved"
+category: profile
+authors:
+  - name: MOTYSHIZ
+    url: https://github.com/MOTYSHIZ
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.7.0"
+version_date: "2026-10-06"
+download_url: https://github.com/MOTYSHIZ/HaloCampaignEvolved_UEVR/releases/latest
+source_url: https://github.com/MOTYSHIZ/HaloCampaignEvolved_UEVR
+license: unknown
+required_files: "Halo: Campaign Evolved (Steam or Game Pass/Microsoft Store release) plus UEVR"
+known_bugs: []
+notes: Game-specific UEVR layer built on the UEVR framework; author states it works in multiplayer and is labeled early access.
+images:
+  - game: "Halo: Campaign Evolved"
+    file: images/halo-campaign-evolved-uevr/halo-campaign-evolved.jpg
+    credit: "Halo: Campaign Evolved store art"
+    source_url: https://store.steampowered.com/app/2806050/
+reviews:
+  - title: "Halo: Campaign Evolved in VR now with Motion Controls!"
+    channel: LunchAndVR
+    url: https://www.youtube.com/watch?v=rVQWN7DvcMA
+  - title: Halo Campaign Evolved Looks Amazing in VR | UEVR Setup & Guide
+    channel: ThisKory
+    url: https://www.youtube.com/watch?v=_XOhW_B2e6k
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

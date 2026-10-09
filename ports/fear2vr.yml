@@ -1,0 +1,26 @@
+name: FEAR2VR
+games:
+  - "F.E.A.R. 2: Project Origin"
+category: mod
+authors:
+  - name: Praydog
+    url: https://github.com/praydog
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "unversioned"
+version_date: "2026-08-09"
+download_url: https://github.com/praydog/FEAR2VR
+source_url: https://github.com/praydog/FEAR2VR
+license: MIT
+required_files: "Owned copy of F.E.A.R. 2: Project Origin"
+known_bugs: []
+notes: Public source drop with no packaged build or installation guide at time of announcement; AI-assisted development.
+images:
+  - game: "F.E.A.R. 2: Project Origin"
+    file: images/fear2vr/f-e-a-r-2-project-origin.jpg
+    credit: "F.E.A.R. 2: Project Origin store art"
+    source_url: https://store.steampowered.com/app/16450/
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"
