@@ -1,10 +1,10 @@
 name: RazeXR
 games:
-  - "Duke Nukem 3D"
-  - "Blood"
-  - "Shadow Warrior"
-  - "Redneck Rampage"
-  - "Exhumed"
+  - Duke Nukem 3D
+  - Blood
+  - Shadow Warrior
+  - Redneck Rampage
+  - Exhumed
 category: source-port
 authors:
   - name: Team Beef
@@ -17,8 +17,36 @@ version_date: "2023-09-30"
 download_url: https://github.com/Team-Beef-Studios/RazeXR/releases/latest
 source_url: https://github.com/Team-Beef-Studios/RazeXR
 license: GPL-2.0
-required_files: "GRP/data files from owned copies of the supported Build engine games"
+required_files: GRP/data files from owned copies of the supported Build engine games
 known_bugs: []
+images:
+  - game: Duke Nukem 3D
+    file: images/razexr/duke-nukem-3d.jpg
+    credit: "Duke Nukem 3D: 20th Anniversary World Tour store art"
+    source_url: https://store.steampowered.com/app/434050/
+  - game: Blood
+    file: images/razexr/blood.jpg
+    credit: Blood™ Fresh Supply store art
+    source_url: https://store.steampowered.com/app/1010750/
+  - game: Shadow Warrior
+    file: images/razexr/shadow-warrior.jpg
+    credit: Shadow Warrior store art
+    source_url: https://store.steampowered.com/app/233130/
+  - game: Redneck Rampage
+    file: images/razexr/redneck-rampage.jpg
+    credit: Redneck Rampage store art
+    source_url: https://store.steampowered.com/app/565550/
+  - game: Exhumed
+    file: images/razexr/exhumed.jpg
+    credit: PowerSlave (DOS Classic Edition) store art
+    source_url: https://store.steampowered.com/app/1260020/
+reviews:
+  - title: Duke Nukem 3D, Blood, Shadow Warrior (& more) in VR on Quest 2 with Raze XR! Retro FPS Games in VR.
+    channel: VR Reviews
+    url: https://www.youtube.com/watch?v=dFiVi_xUjRc
+  - title: Awesome!! We're playing Redneck Rampage in VR!! RazeXR Mod (Team Beef)
+    channel: VoodooDE VR
+    url: https://www.youtube.com/watch?v=h5vjhgyeNiE
 added_by: bot
-discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/RazeXR"
+discovered_via: Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/RazeXR
 last_checked: "2026-10-09"

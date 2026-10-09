@@ -29,6 +29,7 @@ import {
   toYaml,
   uniqueSlug,
 } from './core.mjs';
+import { enrich } from '../enrich.mjs';
 import { COLLECTORS, candidateRepo, deadLinks, latestRelease, repoContext } from './sources.mjs';
 import { extract } from './extract.mjs';
 
@@ -229,7 +230,10 @@ async function discover(ports, changes) {
       taken.add(slug);
       for (const k of entryKeys(entry)) index.set(k, slug);
       names.push(entry.name);
-      if (!DRY) writeFileSync(join(ROOT, 'ports', `${slug}.yml`), toYaml(entry));
+      if (!DRY) {
+        await enrich(entry, slug, { log });
+        writeFileSync(join(ROOT, 'ports', `${slug}.yml`), toYaml(entry));
+      }
       changes.added.push({
         slug,
         name: entry.name,

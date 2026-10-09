@@ -1,6 +1,6 @@
 name: RTCWQuest
 games:
-  - "Return to Castle Wolfenstein"
+  - Return to Castle Wolfenstein
 category: source-port
 authors:
   - name: Team Beef
@@ -13,8 +13,20 @@ version_date: "2026-09-29"
 download_url: https://github.com/Team-Beef-Studios/RTCWQuest/releases/latest
 source_url: https://github.com/Team-Beef-Studios/RTCWQuest
 license: LGPL-3.0
-required_files: "main .pk3 files from an owned PC copy of Return to Castle Wolfenstein"
+required_files: main .pk3 files from an owned PC copy of Return to Castle Wolfenstein
 known_bugs: []
+images:
+  - game: Return to Castle Wolfenstein
+    file: images/rtcwquest/return-to-castle-wolfenstein.jpg
+    credit: Return to Castle Wolfenstein store art
+    source_url: https://store.steampowered.com/app/9010/
+reviews:
+  - title: Return to Castle Wolfenstein VR Oculus Quest 2 Review - A True Golden Oldie | Pure Play TV
+    channel: Pure Play TV
+    url: https://www.youtube.com/watch?v=kZJNHJdbBkU
+  - title: RTCWQuest - Return to Castle Wolfenstein in VR on Oculus Quest 2
+    channel: GameCubits
+    url: https://www.youtube.com/watch?v=RIIGMVAeM-M
 added_by: bot
-discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/RTCWQuest"
+discovered_via: Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/RTCWQuest
 last_checked: "2026-10-09"

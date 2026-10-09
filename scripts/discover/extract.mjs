@@ -5,7 +5,7 @@
 import { execFileSync } from 'node:child_process';
 import { SCHEMA } from '../lib.mjs';
 
-const BOT_FIELDS = new Set(['added_by', 'discovered_via', 'last_checked', 'screenshots']);
+const BOT_FIELDS = new Set(['added_by', 'discovered_via', 'last_checked', 'images', 'reviews']);
 
 function stripFormats(node) {
   if (Array.isArray(node)) return node.map(stripFormats);
@@ -36,17 +36,17 @@ export function outputSchema() {
 }
 
 export function buildPrompt(candidate, existingNames, date) {
-  return `You maintain an open index of Flat2VR ports: mods, source ports and injectors that make a FLATSCREEN game playable in VR.
+  return `You maintain an open index of Flat2VR ports: mods, source ports and per-game profiles that make a FLATSCREEN game playable in VR.
 Decide whether the SOURCE MATERIAL below announces such a port (a new one, or a release of one), and if so extract one index entry.
 
-is_port = false for: native VR games, VR-only tools/utilities, emulators with no game-specific VR, videos/reviews/questions/discussion with no release, store-scraped listings, piracy, rehosted game files.
+is_port = false for: universal injectors with no specific game (UEVR, UUVR themselves), native VR games, VR-only tools/utilities, emulators with no game-specific VR, videos/reviews/questions/discussion with no release, store-scraped listings, piracy, rehosted game files.
 duplicate_of = the existing index name if this is the same port as one already indexed (same mod for the same game by the same author), else null.
 
 Entry rules:
 - name: the port's own name (e.g. "Lambda1VR", "Mirror's Edge VR").
 - authors: the creator(s) named in the material; if none is named, the uploader or poster it shows (SideQuest uploader, GitHub owner, Reddit u/name).
 - games: the original flatscreen game title(s).
-- category: mod | source-port | injector. platform: pcvr | standalone | both (standalone = runs on Quest/Pico natively).
+- category: mod | source-port | profile (profile = a per-game UEVR/injector profile). platform: pcvr | standalone | both (standalone = runs on Quest/Pico natively).
 - status: alpha | beta | stable | abandoned (pre-alpha, dev snapshot, source drop, WIP -> alpha).
 - version: the exact release tag/version if stated, else "unversioned". version_date: YYYY-MM-DD of that release, else the announcement date. Never after ${date}.
 - download_url (required): the creator's own release/download page; if there is none, the repo or announcement page. source_url: repo or announcement page. homepage only if distinct.

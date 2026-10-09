@@ -17,8 +17,21 @@ version_date: "2026-09-29"
 download_url: https://github.com/Team-Beef-Studios/JKXR/releases/latest
 source_url: https://github.com/Team-Beef-Studios/JKXR
 license: GPL-2.0
-required_files: "base assets from an owned PC copy of Jedi Outcast and/or Jedi Academy"
+required_files: base assets from an owned PC copy of Jedi Outcast and/or Jedi Academy
 known_bugs: []
+images:
+  - game: "Star Wars Jedi Knight II: Jedi Outcast"
+    file: images/jkxr/star-wars-jedi-knight-ii-jedi-outcast.jpg
+    credit: STAR WARS™ Jedi Knight II - Jedi Outcast™ store art
+    source_url: https://store.steampowered.com/app/6030/
+  - game: "Star Wars Jedi Knight: Jedi Academy"
+    file: images/jkxr/star-wars-jedi-knight-jedi-academy.jpg
+    credit: STAR WARS™ Jedi Knight - Jedi Academy™ store art
+    source_url: https://store.steampowered.com/app/6020/
+reviews:
+  - title: "Star Wars: Jedi Knight II: Jedi Outcast VR | Kejim Post (level 1)"
+    channel: fornix VR
+    url: https://www.youtube.com/watch?v=powgjtFAsyg
 added_by: bot
-discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/JKXR"
+discovered_via: Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/JKXR
 last_checked: "2026-10-09"

@@ -1,6 +1,6 @@
 name: Two Forks VR
 games:
-  - "Firewatch"
+  - Firewatch
 category: mod
 authors:
   - name: Raicuparta
@@ -14,8 +14,20 @@ download_url: https://github.com/Raicuparta/two-forks-vr/releases/latest
 source_url: https://github.com/Raicuparta/two-forks-vr
 homepage: https://raicuparta.com/firewatch-vr-mod
 license: MIT
-required_files: "an owned PC install of Firewatch"
+required_files: an owned PC install of Firewatch
 known_bugs: []
+images:
+  - game: Firewatch
+    file: images/two-forks-vr/firewatch.jpg
+    credit: Firewatch store art
+    source_url: https://store.steampowered.com/app/383870/
+reviews:
+  - title: Die Firewatch "Two Forks" VR Mod ist der Hammer!! Tutorial und Mixed Reality Capture Gameplay
+    channel: VoodooDE VR
+    url: https://www.youtube.com/watch?v=aIAuiCtT9Lw
+  - title: The Firewatch "Two Forks" VR Mod Is So Awesome!! Tutorial And Mixed Reality Capture Gameplay
+    channel: VoodooDE VR - english version -
+    url: https://www.youtube.com/watch?v=lrqEuM8T8xc
 added_by: bot
-discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Raicuparta/two-forks-vr"
+discovered_via: Initial research sweep (GitHub releases API), https://github.com/Raicuparta/two-forks-vr
 last_checked: "2026-10-09"

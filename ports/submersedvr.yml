@@ -1,6 +1,6 @@
 name: SubmersedVR
 games:
-  - "Subnautica"
+  - Subnautica
 category: mod
 authors:
   - name: Okabintaro
@@ -13,8 +13,20 @@ version_date: "2025-08-17"
 download_url: https://github.com/Okabintaro/SubmersedVR/releases/latest
 source_url: https://github.com/Okabintaro/SubmersedVR
 license: MIT
-required_files: "an owned PC install of Subnautica"
+required_files: an owned PC install of Subnautica
 known_bugs: []
+images:
+  - game: Subnautica
+    file: images/submersedvr/subnautica.jpg
+    credit: Subnautica store art
+    source_url: https://store.steampowered.com/app/264710/
+reviews:
+  - title: Subnautica VR Just Got a Massive Upgrade (And It’s Incredible)
+    channel: Gamertag VR
+    url: https://www.youtube.com/watch?v=XAJC4XRomSA
+  - title: This is STILL One of The BEST VR SURVIVAL Games! // Subnautica VR With Motion Controls (Quest 3)
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=m57MU3dw070
 added_by: bot
-discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Okabintaro/SubmersedVR"
+discovered_via: Initial research sweep (GitHub releases API), https://github.com/Okabintaro/SubmersedVR
 last_checked: "2026-10-09"

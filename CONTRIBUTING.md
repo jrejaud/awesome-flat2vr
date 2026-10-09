@@ -1,5 +1,15 @@
 # Contributing
 
+## How the data works
+
+- **One port, one file:** each port is `ports/<slug>.yml`.
+- **Generated from the data:** `README.md` and [`data/ports.json`](data/ports.json) are built from those files by `npm run build`.
+- **Open data:** everything is CC0, so other sites and tools are free to use `data/ports.json`.
+- **Downloads go to the creator:** nothing here hosts game files or mod binaries, and every download link points to the creator's own release page.
+- **You must own the original game.**
+- **Images:** each game in an entry needs an image in `images/<slug>/`. `node scripts/enrich.mjs <slug>` fetches it (Steam store art, falling back to a YouTube thumbnail) and finds YouTube reviews.
+- **Not indexed:** universal injectors (UEVR, UUVR). A per-game UEVR profile _is_ indexed, with `category: profile`.
+
 One port = one file: `ports/<slug>.yml`. The slug is kebab-case and is usually the port's own name (`lambda1vr`, `two-forks-vr`).
 
 **Edit data, never the README table.** The table is generated. CI fails a PR whose README or `data/ports.json` doesn't match the data files.
@@ -17,7 +27,7 @@ One port = one file: `ports/<slug>.yml`. The slug is kebab-case and is usually t
 name: ExamplePortVR # the port's own name
 games: # original flatscreen game(s)
   - 'Example Game'
-category: mod # mod | source-port | injector
+category: mod # mod | source-port | profile
 authors:
   - name: Creator Name
     url: https://github.com/creator # optional
@@ -37,10 +47,15 @@ required_files: 'an owned PC install of Example Game'
 known_bugs: # [] if none known
   - 'Cutscenes render flat'
 notes: 'Free-form, optional.'
-screenshots: # optional
-  - file: images/exampleportvr/menu.webp
-    credit: Creator Name
-    source_url: https://github.com/creator/example
+images: # one per game; node scripts/enrich.mjs fills this
+  - game: 'Example Game'
+    file: images/exampleportvr/example-game.jpg
+    credit: Example Game store art
+    source_url: https://store.steampowered.com/app/123/
+reviews: # optional, YouTube reviews/showcases
+  - title: 'Example Game VR is incredible'
+    channel: Some VR Channel
+    url: https://www.youtube.com/watch?v=xxxxxxxxxxx
 added_by: human # human | bot
 discovered_via: 'https://discord.com/channels/... or a source name'
 last_checked: '2026-02-01' # when someone last confirmed the version
@@ -50,7 +65,7 @@ last_checked: '2026-02-01' # when someone last confirmed the version
 
 - **Link to the creator's release page only.** No rehosted binaries, no game files, no piracy links.
 - **Credit the source.** `discovered_via` records where the port was found.
-- **Screenshots** go in `images/<slug>/`, ≤ 300 KB each, and need a `credit` and `source_url`.
+- **Images** go in `images/<slug>/`, ≤ 300 KB each, with a `credit` and `source_url`.
 - **Quote** versions and dates. A bare `1.0` parses as a number and fails validation.
 - **Mark a port `abandoned`** rather than deleting it once it is no longer maintained.
 

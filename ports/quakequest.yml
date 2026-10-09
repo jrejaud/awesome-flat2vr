@@ -1,6 +1,6 @@
 name: QuakeQuest
 games:
-  - "Quake"
+  - Quake
 category: source-port
 authors:
   - name: Team Beef
@@ -13,8 +13,20 @@ version_date: "2026-09-29"
 download_url: https://github.com/Team-Beef-Studios/QuakeQuest/releases/latest
 source_url: https://github.com/Team-Beef-Studios/QuakeQuest
 license: GPL-2.0
-required_files: "id1 pak files from an owned copy of Quake"
+required_files: id1 pak files from an owned copy of Quake
 known_bugs: []
+images:
+  - game: Quake
+    file: images/quakequest/quake.jpg
+    credit: Quake store art
+    source_url: https://store.steampowered.com/app/2310/
+reviews:
+  - title: Oculus Quest // QUAKE VR / Play a classic in 6dof VR
+    channel: RaMarcus
+    url: https://www.youtube.com/watch?v=Lof2hd9DymQ
+  - title: (Quake Mods) - Quake Quest QUAKE GOES VR
+    channel: TechHoller
+    url: https://www.youtube.com/watch?v=ChXSfe7_eMI
 added_by: bot
-discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/QuakeQuest"
+discovered_via: Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/QuakeQuest
 last_checked: "2026-10-09"

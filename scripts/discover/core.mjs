@@ -130,7 +130,8 @@ export function finalizeEntry(raw, candidate, { date = today() } = {}) {
     if (Array.isArray(v) && v.length === 0 && k !== 'known_bugs') continue;
     entry[k] = v;
   }
-  delete entry.screenshots;
+  delete entry.images;
+  delete entry.reviews;
   entry.known_bugs = Array.isArray(raw.known_bugs) ? raw.known_bugs.filter(Boolean) : [];
   if (entry.authors) entry.authors = entry.authors.map((a) => (a.url ? a : { name: a.name }));
   entry.added_by = 'bot';
@@ -160,8 +161,13 @@ export function finalizeEntry(raw, candidate, { date = today() } = {}) {
 
 // Quote every scalar that could be mis-typed (versions, dates) the way CONTRIBUTING asks.
 export function toYaml(entry) {
+  const ordered = Object.fromEntries(
+    [...FIELD_ORDER.filter((k) => k in entry), ...Object.keys(entry).filter((k) => !FIELD_ORDER.includes(k))].map(
+      (k) => [k, entry[k]],
+    ),
+  );
   return yaml
-    .dump(entry, { lineWidth: -1, quotingType: '"', forceQuotes: false, noRefs: true })
+    .dump(ordered, { lineWidth: -1, quotingType: '"', forceQuotes: false, noRefs: true })
     .replace(/^(version|version_date|last_checked): (?!")(.*)$/gm, (_, k, v) => `${k}: ${JSON.stringify(v)}`);
 }
 

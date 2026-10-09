@@ -22,6 +22,26 @@
     "license": "BSD-2-Clause",
     "required_files": "level data from an owned copy of the original Tomb Raider",
     "known_bugs": [],
+    "images": [
+      {
+        "game": "Tomb Raider (1996)",
+        "file": "images/beefraiderxr/tomb-raider.jpg",
+        "credit": "Tomb Raider I-III Remastered Starring Lara Croft store art",
+        "source_url": "https://store.steampowered.com/app/2478970/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Become Lara Croft In Tomb Raider 1996 On Meta Quest - Beefraider XR",
+        "channel": "UploadVR",
+        "url": "https://www.youtube.com/watch?v=DxPmxvf9J7M"
+      },
+      {
+        "title": "BeefRaiderXR - Tomb Raider VR - (Oculus Meta Quest 2 & 3) - No Commentary Gameplay",
+        "channel": "Pixelacos Gameplays",
+        "url": "https://www.youtube.com/watch?v=NP2DatOD9IU"
+      }
+    ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/BeefRaiderXR",
     "last_checked": "2026-10-09"
@@ -49,6 +69,26 @@
     "license": "MIT",
     "required_files": "an owned PC install of Bendy and the Ink Machine",
     "known_bugs": [],
+    "images": [
+      {
+        "game": "Bendy and the Ink Machine",
+        "file": "images/bendyvr/bendy-and-the-ink-machine.jpg",
+        "credit": "Bendy and the Ink Machine store art",
+        "source_url": "https://store.steampowered.com/app/622650/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Bendy and the Ink Machine VR | Full Game Walkthrough | No Commentary",
+        "channel": "99TH VR",
+        "url": "https://www.youtube.com/watch?v=EsnSDiytst8"
+      },
+      {
+        "title": "I played Bendy and the Ink Machine in VR",
+        "channel": "Vano",
+        "url": "https://www.youtube.com/watch?v=FjC5Rnk_cOs"
+      }
+    ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/BendyVR",
     "last_checked": "2026-10-09"
@@ -76,8 +116,89 @@
     "license": "see-repository",
     "required_files": "base .pk4 files from an owned PC copy of the original Doom 3",
     "known_bugs": [],
+    "images": [
+      {
+        "game": "Doom 3",
+        "file": "images/doom3quest/doom-3.jpg",
+        "credit": "DOOM 3 store art",
+        "source_url": "https://store.steampowered.com/app/208200/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Doom 3 Quest VR - Release Trailer",
+        "channel": "Team Beef VR Game Ports",
+        "url": "https://www.youtube.com/watch?v=y2y9C0E2kPk"
+      },
+      {
+        "title": "DOOM 3 VR QUEST SideQuest Install Instructions & Oculus Quest 2 Gameplay",
+        "channel": "Gamertag VR",
+        "url": "https://www.youtube.com/watch?v=U4aRzfja8xg"
+      }
+    ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Doom3Quest",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "half-life-2-vr-mod",
+    "name": "Half-Life 2: VR Mod",
+    "games": [
+      "Half-Life 2",
+      "Half-Life 2: Episode One",
+      "Half-Life 2: Episode Two"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Source VR Mod Team"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "Steam (auto-updates)",
+    "version_date": "2023-04-06",
+    "download_url": "https://store.steampowered.com/app/658920/",
+    "source_url": "https://store.steampowered.com/app/658920/",
+    "license": "proprietary",
+    "required_files": "Half-Life 2 (and each Episode) owned on Steam",
+    "known_bugs": [],
+    "notes": "Free on Steam. Episode One (app 2177750) and Episode Two (app 2177760) are separate free Steam installs.",
+    "images": [
+      {
+        "game": "Half-Life 2",
+        "file": "images/half-life-2-vr-mod/half-life-2.jpg",
+        "credit": "Half-Life 2 store art",
+        "source_url": "https://store.steampowered.com/app/220/"
+      },
+      {
+        "game": "Half-Life 2: Episode One",
+        "file": "images/half-life-2-vr-mod/half-life-2-episode-one.jpg",
+        "credit": "Half-Life 2: Episode One store art",
+        "source_url": "https://store.steampowered.com/app/380/"
+      },
+      {
+        "game": "Half-Life 2: Episode Two",
+        "file": "images/half-life-2-vr-mod/half-life-2-episode-two.jpg",
+        "credit": "Half-Life 2: Episode Two store art",
+        "source_url": "https://store.steampowered.com/app/420/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Half-Life 2 VR is Really THAT Good",
+        "channel": "Bonezz",
+        "url": "https://www.youtube.com/watch?v=z8LRyoxo7kQ"
+      },
+      {
+        "title": "Half-Life 2: VR Mod | Full Game Walkthrough | No Commentary",
+        "channel": "99TH VR",
+        "url": "https://www.youtube.com/watch?v=0X7h9nVNHX8"
+      }
+    ],
+    "added_by": "human",
+    "discovered_via": "https://store.steampowered.com/app/658920/",
     "last_checked": "2026-10-09"
   },
   {
@@ -108,6 +229,27 @@
     "license": "GPL-2.0",
     "required_files": "base assets from an owned PC copy of Jedi Outcast and/or Jedi Academy",
     "known_bugs": [],
+    "images": [
+      {
+        "game": "Star Wars Jedi Knight II: Jedi Outcast",
+        "file": "images/jkxr/star-wars-jedi-knight-ii-jedi-outcast.jpg",
+        "credit": "STAR WARS™ Jedi Knight II - Jedi Outcast™ store art",
+        "source_url": "https://store.steampowered.com/app/6030/"
+      },
+      {
+        "game": "Star Wars Jedi Knight: Jedi Academy",
+        "file": "images/jkxr/star-wars-jedi-knight-jedi-academy.jpg",
+        "credit": "STAR WARS™ Jedi Knight - Jedi Academy™ store art",
+        "source_url": "https://store.steampowered.com/app/6020/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Star Wars: Jedi Knight II: Jedi Outcast VR | Kejim Post (level 1)",
+        "channel": "fornix VR",
+        "url": "https://www.youtube.com/watch?v=powgjtFAsyg"
+      }
+    ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/JKXR",
     "last_checked": "2026-10-09"
@@ -135,6 +277,26 @@
     "license": "GPL-3.0",
     "required_files": "valve folder from an owned PC copy of Half-Life",
     "known_bugs": [],
+    "images": [
+      {
+        "game": "Half-Life",
+        "file": "images/lambda1vr/half-life.jpg",
+        "credit": "Half-Life store art",
+        "source_url": "https://store.steampowered.com/app/70/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "You CAN Play Half Life VR On The Quest 2...Here's How!",
+        "channel": "BMFVR",
+        "url": "https://www.youtube.com/watch?v=A11e-h6qgDM"
+      },
+      {
+        "title": "Half Life Oculus Quest - Lambda1VR Installation and Review",
+        "channel": "Matteo311",
+        "url": "https://www.youtube.com/watch?v=5eRyhJwN1c0"
+      }
+    ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Lambda1VR",
     "last_checked": "2026-10-09"
@@ -163,6 +325,26 @@
     "license": "MIT",
     "required_files": "an owned PC install of Outer Wilds",
     "known_bugs": [],
+    "images": [
+      {
+        "game": "Outer Wilds",
+        "file": "images/nomaivr/outer-wilds.jpg",
+        "credit": "Outer Wilds store art",
+        "source_url": "https://store.steampowered.com/app/753640/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Exploring Outer Wilds in VR (NomaiVR)",
+        "channel": "The Librarian",
+        "url": "https://www.youtube.com/watch?v=cq57e2qPGdE"
+      },
+      {
+        "title": "Outer Wilds VR (Setup & Gameplay)",
+        "channel": "Mick  Manchester. ",
+        "url": "https://www.youtube.com/watch?v=5CVvjLiw5VU"
+      }
+    ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Raicuparta/nomai-vr",
     "last_checked": "2026-10-09"
@@ -190,6 +372,26 @@
     "license": "see-repository",
     "required_files": "baseq2 pak files from an owned copy of Quake II",
     "known_bugs": [],
+    "images": [
+      {
+        "game": "Quake II",
+        "file": "images/quake2quest/quake-ii.jpg",
+        "credit": "Quake II store art",
+        "source_url": "https://store.steampowered.com/app/2320/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Quake 2 VR [Oculus Quest 2] - An Amazing Quest Port!",
+        "channel": "DoomSly82",
+        "url": "https://www.youtube.com/watch?v=PlvkJJvEKKE"
+      },
+      {
+        "title": "Quake 2 for Quest gameplay [Quake2Quest]",
+        "channel": "Team Beef VR Game Ports",
+        "url": "https://www.youtube.com/watch?v=xqDJtjeYo4k"
+      }
+    ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Quake2Quest",
     "last_checked": "2026-10-09"
@@ -217,6 +419,26 @@
     "license": "GPL-2.0",
     "required_files": "id1 pak files from an owned copy of Quake",
     "known_bugs": [],
+    "images": [
+      {
+        "game": "Quake",
+        "file": "images/quakequest/quake.jpg",
+        "credit": "Quake store art",
+        "source_url": "https://store.steampowered.com/app/2310/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Oculus Quest // QUAKE VR / Play a classic in 6dof VR",
+        "channel": "RaMarcus",
+        "url": "https://www.youtube.com/watch?v=Lof2hd9DymQ"
+      },
+      {
+        "title": "(Quake Mods) - Quake Quest QUAKE GOES VR",
+        "channel": "TechHoller",
+        "url": "https://www.youtube.com/watch?v=ChXSfe7_eMI"
+      }
+    ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/QuakeQuest",
     "last_checked": "2026-10-09"
@@ -247,6 +469,44 @@
     "license": "GPL-3.0",
     "required_files": "IWAD files (e.g. DOOM.WAD, DOOM2.WAD) from owned copies",
     "known_bugs": [],
+    "images": [
+      {
+        "game": "Doom",
+        "file": "images/questzdoom/doom.jpg",
+        "credit": "DOOM + DOOM II store art",
+        "source_url": "https://store.steampowered.com/app/2280/"
+      },
+      {
+        "game": "Doom II",
+        "file": "images/questzdoom/doom-ii.jpg",
+        "credit": "DOOM II store art",
+        "source_url": "https://store.steampowered.com/app/2300/"
+      },
+      {
+        "game": "Heretic",
+        "file": "images/questzdoom/heretic.jpg",
+        "credit": "Heretic: Shadow of the Serpent Riders store art",
+        "source_url": "https://store.steampowered.com/app/2390/"
+      },
+      {
+        "game": "Hexen",
+        "file": "images/questzdoom/hexen.jpg",
+        "credit": "Hexen: Beyond Heretic store art",
+        "source_url": "https://store.steampowered.com/app/2360/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "ORIGINAL DOOM VR IS ESSENTIAL FOR OCULUS QUEST 2! // Doom VR Quest 2 Gameplay // Quest Z Doom!",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=YelM8MdzzpI"
+      },
+      {
+        "title": "QuestZDoom Oculus Quest Gameplay and Tutorial. Installation and Modding guide for Oculus Quest Doom",
+        "channel": "VR Reviews",
+        "url": "https://www.youtube.com/watch?v=LwT1aKRGcOA"
+      }
+    ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/QuestZDoom",
     "last_checked": "2026-10-09"
@@ -278,6 +538,50 @@
     "license": "GPL-2.0",
     "required_files": "GRP/data files from owned copies of the supported Build engine games",
     "known_bugs": [],
+    "images": [
+      {
+        "game": "Duke Nukem 3D",
+        "file": "images/razexr/duke-nukem-3d.jpg",
+        "credit": "Duke Nukem 3D: 20th Anniversary World Tour store art",
+        "source_url": "https://store.steampowered.com/app/434050/"
+      },
+      {
+        "game": "Blood",
+        "file": "images/razexr/blood.jpg",
+        "credit": "Blood™ Fresh Supply store art",
+        "source_url": "https://store.steampowered.com/app/1010750/"
+      },
+      {
+        "game": "Shadow Warrior",
+        "file": "images/razexr/shadow-warrior.jpg",
+        "credit": "Shadow Warrior store art",
+        "source_url": "https://store.steampowered.com/app/233130/"
+      },
+      {
+        "game": "Redneck Rampage",
+        "file": "images/razexr/redneck-rampage.jpg",
+        "credit": "Redneck Rampage store art",
+        "source_url": "https://store.steampowered.com/app/565550/"
+      },
+      {
+        "game": "Exhumed",
+        "file": "images/razexr/exhumed.jpg",
+        "credit": "PowerSlave (DOS Classic Edition) store art",
+        "source_url": "https://store.steampowered.com/app/1260020/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Duke Nukem 3D, Blood, Shadow Warrior (& more) in VR on Quest 2 with Raze XR! Retro FPS Games in VR.",
+        "channel": "VR Reviews",
+        "url": "https://www.youtube.com/watch?v=dFiVi_xUjRc"
+      },
+      {
+        "title": "Awesome!! We're playing Redneck Rampage in VR!! RazeXR Mod (Team Beef)",
+        "channel": "VoodooDE VR",
+        "url": "https://www.youtube.com/watch?v=h5vjhgyeNiE"
+      }
+    ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/RazeXR",
     "last_checked": "2026-10-09"
@@ -293,7 +597,7 @@
       "Resident Evil Village",
       "Devil May Cry 5"
     ],
-    "category": "injector",
+    "category": "mod",
     "authors": [
       {
         "name": "praydog",
@@ -311,6 +615,56 @@
     "license": "MIT",
     "required_files": "an owned PC install of the target RE Engine game",
     "known_bugs": [],
+    "images": [
+      {
+        "game": "Resident Evil 2 (2019)",
+        "file": "images/reframework/resident-evil-2.jpg",
+        "credit": "Resident Evil 2 store art",
+        "source_url": "https://store.steampowered.com/app/883710/"
+      },
+      {
+        "game": "Resident Evil 3 (2020)",
+        "file": "images/reframework/resident-evil-3.jpg",
+        "credit": "Resident Evil 3 store art",
+        "source_url": "https://store.steampowered.com/app/952060/"
+      },
+      {
+        "game": "Resident Evil 4 (2023)",
+        "file": "images/reframework/resident-evil-4.jpg",
+        "credit": "Resident Evil 4 store art",
+        "source_url": "https://store.steampowered.com/app/2050650/"
+      },
+      {
+        "game": "Resident Evil 7",
+        "file": "images/reframework/resident-evil-7.jpg",
+        "credit": "Resident Evil 7 Biohazard store art",
+        "source_url": "https://store.steampowered.com/app/418370/"
+      },
+      {
+        "game": "Resident Evil Village",
+        "file": "images/reframework/resident-evil-village.jpg",
+        "credit": "Resident Evil Village store art",
+        "source_url": "https://store.steampowered.com/app/1196590/"
+      },
+      {
+        "game": "Devil May Cry 5",
+        "file": "images/reframework/devil-may-cry-5.jpg",
+        "credit": "Devil May Cry 5 store art",
+        "source_url": "https://store.steampowered.com/app/601150/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Tutorial: How To Install Resident Evil 7 VR Mod for PC (New Version with Motion Controls!)",
+        "channel": "MRTV - MIXED REALITY TV",
+        "url": "https://www.youtube.com/watch?v=hySd4sHtcDE"
+      },
+      {
+        "title": "Resident Evil 7 PC VR Setup Guide (Definitive Edition)",
+        "channel": "Stereo3DProductions",
+        "url": "https://www.youtube.com/watch?v=Ql5ggETipyM"
+      }
+    ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/praydog/REFramework",
     "last_checked": "2026-10-09"
@@ -338,6 +692,26 @@
     "license": "LGPL-3.0",
     "required_files": "main .pk3 files from an owned PC copy of Return to Castle Wolfenstein",
     "known_bugs": [],
+    "images": [
+      {
+        "game": "Return to Castle Wolfenstein",
+        "file": "images/rtcwquest/return-to-castle-wolfenstein.jpg",
+        "credit": "Return to Castle Wolfenstein store art",
+        "source_url": "https://store.steampowered.com/app/9010/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Return to Castle Wolfenstein VR Oculus Quest 2 Review - A True Golden Oldie | Pure Play TV",
+        "channel": "Pure Play TV",
+        "url": "https://www.youtube.com/watch?v=kZJNHJdbBkU"
+      },
+      {
+        "title": "RTCWQuest - Return to Castle Wolfenstein in VR on Oculus Quest 2",
+        "channel": "GameCubits",
+        "url": "https://www.youtube.com/watch?v=RIIGMVAeM-M"
+      }
+    ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/RTCWQuest",
     "last_checked": "2026-10-09"
@@ -373,6 +747,50 @@
     "license": "unknown",
     "required_files": "game files from owned Steam copies of the supported Source games",
     "known_bugs": [],
+    "images": [
+      {
+        "game": "Half-Life 2",
+        "file": "images/sourcevr/half-life-2.jpg",
+        "credit": "Half-Life 2 store art",
+        "source_url": "https://store.steampowered.com/app/220/"
+      },
+      {
+        "game": "Half-Life 2: Episode One",
+        "file": "images/sourcevr/half-life-2-episode-one.jpg",
+        "credit": "Half-Life 2: Episode One store art",
+        "source_url": "https://store.steampowered.com/app/380/"
+      },
+      {
+        "game": "Half-Life 2: Episode Two",
+        "file": "images/sourcevr/half-life-2-episode-two.jpg",
+        "credit": "Half-Life 2: Episode Two store art",
+        "source_url": "https://store.steampowered.com/app/420/"
+      },
+      {
+        "game": "Portal",
+        "file": "images/sourcevr/portal.jpg",
+        "credit": "Portal store art",
+        "source_url": "https://store.steampowered.com/app/400/"
+      },
+      {
+        "game": "Portal 2",
+        "file": "images/sourcevr/portal-2.jpg",
+        "credit": "Portal 2 store art",
+        "source_url": "https://store.steampowered.com/app/620/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "How to Install Half-Life 2 VR on Quest 2/Quest 3 (Standalone)",
+        "channel": "LunchAndVR",
+        "url": "https://www.youtube.com/watch?v=QzgDw8xEpeM"
+      },
+      {
+        "title": "How to Install Portal 1 VR on Quest 2/Quest 3 (Standalone)",
+        "channel": "LunchAndVR",
+        "url": "https://www.youtube.com/watch?v=kR_z39AJ-PQ"
+      }
+    ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/tinsarfal/SourceVR",
     "last_checked": "2026-10-09"
@@ -401,6 +819,26 @@
     "license": "unknown",
     "required_files": "an owned PC install of The Stanley Parable: Ultra Deluxe",
     "known_bugs": [],
+    "images": [
+      {
+        "game": "The Stanley Parable: Ultra Deluxe",
+        "file": "images/stanley-vr/the-stanley-parable-ultra-deluxe.jpg",
+        "credit": "The Stanley Parable: Ultra Deluxe store art",
+        "source_url": "https://store.steampowered.com/app/1703340/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "The Stanley Parable: Ultra Deluxe VR ... Where'd they go? [Tutorial/Gameplay/Conclusion] - Hoshi82",
+        "channel": "Hoshi82",
+        "url": "https://www.youtube.com/watch?v=vZ0oBfZNDAY"
+      },
+      {
+        "title": "The Stanley Parable Ultra Deluxe Edition - StanleyVR",
+        "channel": "Headset-VR",
+        "url": "https://www.youtube.com/watch?v=EFGV25MsUGA"
+      }
+    ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Raicuparta/stanley-vr",
     "last_checked": "2026-10-09"
@@ -428,6 +866,26 @@
     "license": "MIT",
     "required_files": "an owned PC install of Subnautica",
     "known_bugs": [],
+    "images": [
+      {
+        "game": "Subnautica",
+        "file": "images/submersedvr/subnautica.jpg",
+        "credit": "Subnautica store art",
+        "source_url": "https://store.steampowered.com/app/264710/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Subnautica VR Just Got a Massive Upgrade (And It’s Incredible)",
+        "channel": "Gamertag VR",
+        "url": "https://www.youtube.com/watch?v=XAJC4XRomSA"
+      },
+      {
+        "title": "This is STILL One of The BEST VR SURVIVAL Games! // Subnautica VR With Motion Controls (Quest 3)",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=m57MU3dw070"
+      }
+    ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Okabintaro/SubmersedVR",
     "last_checked": "2026-10-09"
@@ -456,64 +914,28 @@
     "license": "MIT",
     "required_files": "an owned PC install of Firewatch",
     "known_bugs": [],
+    "images": [
+      {
+        "game": "Firewatch",
+        "file": "images/two-forks-vr/firewatch.jpg",
+        "credit": "Firewatch store art",
+        "source_url": "https://store.steampowered.com/app/383870/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Die Firewatch \"Two Forks\" VR Mod ist der Hammer!! Tutorial und Mixed Reality Capture Gameplay",
+        "channel": "VoodooDE VR",
+        "url": "https://www.youtube.com/watch?v=aIAuiCtT9Lw"
+      },
+      {
+        "title": "The Firewatch \"Two Forks\" VR Mod Is So Awesome!! Tutorial And Mixed Reality Capture Gameplay",
+        "channel": "VoodooDE VR - english version -",
+        "url": "https://www.youtube.com/watch?v=lrqEuM8T8xc"
+      }
+    ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Raicuparta/two-forks-vr",
-    "last_checked": "2026-10-09"
-  },
-  {
-    "slug": "uevr",
-    "name": "UEVR",
-    "games": [
-      "Unreal Engine 4/5 games (universal)"
-    ],
-    "category": "injector",
-    "authors": [
-      {
-        "name": "praydog",
-        "url": "https://github.com/praydog"
-      }
-    ],
-    "platform": "pcvr",
-    "controls": "mixed",
-    "status": "stable",
-    "version": "1.05",
-    "version_date": "2024-11-16",
-    "download_url": "https://github.com/praydog/UEVR/releases/latest",
-    "source_url": "https://github.com/praydog/UEVR",
-    "homepage": "http://uevr.io",
-    "license": "see-repository",
-    "required_files": "an owned PC install of the target Unreal Engine game",
-    "known_bugs": [],
-    "added_by": "bot",
-    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/praydog/UEVR",
-    "last_checked": "2026-10-09"
-  },
-  {
-    "slug": "uuvr",
-    "name": "UUVR",
-    "games": [
-      "Unity games (universal)"
-    ],
-    "category": "injector",
-    "authors": [
-      {
-        "name": "Raicuparta",
-        "url": "https://raicuparta.com"
-      }
-    ],
-    "platform": "pcvr",
-    "controls": "mixed",
-    "status": "beta",
-    "version": "v0.4.0",
-    "version_date": "2025-07-03",
-    "download_url": "https://github.com/Raicuparta/uuvr/releases/latest",
-    "source_url": "https://github.com/Raicuparta/uuvr",
-    "homepage": "https://raicuparta.com/rai-pal",
-    "license": "GPL-3.0",
-    "required_files": "an owned PC install of the target Unity game",
-    "known_bugs": [],
-    "added_by": "bot",
-    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Raicuparta/uuvr",
     "last_checked": "2026-10-09"
   }
 ]

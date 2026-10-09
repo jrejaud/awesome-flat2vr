@@ -55,11 +55,18 @@ export function loadPorts(dir = join(ROOT, 'ports'), imageRoot = ROOT) {
     if (data.version_date > data.last_checked) {
       errors.push(`${where}: version_date is after last_checked`);
     }
-    for (const shot of data.screenshots ?? []) {
-      if (!shot.file.startsWith(`images/${basename(file, '.yml')}/`)) {
-        errors.push(`${where}: screenshot ${shot.file} must live under images/${basename(file, '.yml')}/`);
-      } else if (!existsSync(join(imageRoot, shot.file))) {
-        errors.push(`${where}: screenshot ${shot.file} does not exist`);
+    const slug = basename(file, '.yml');
+    const imaged = new Set((data.images ?? []).map((i) => i.game));
+    for (const game of data.games) {
+      if (!imaged.has(game))
+        errors.push(`${where}: no image for game '${game}' (run: node scripts/enrich.mjs ${slug})`);
+    }
+    for (const img of data.images ?? []) {
+      if (!data.games.includes(img.game)) errors.push(`${where}: image for '${img.game}', which is not in games`);
+      if (!img.file.startsWith(`images/${slug}/`)) {
+        errors.push(`${where}: image ${img.file} must live under images/${slug}/`);
+      } else if (!existsSync(join(imageRoot, img.file))) {
+        errors.push(`${where}: image ${img.file} does not exist`);
       }
     }
     ports.push({ slug: basename(file, '.yml'), ...data });
