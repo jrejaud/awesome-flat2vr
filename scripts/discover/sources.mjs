@@ -17,8 +17,20 @@ function githubToken() {
 }
 const GH_TOKEN = githubToken();
 
+// Network-level failures ("fetch failed": resets, DNS blips) are retried; HTTP errors are not.
+export async function fetchRetry(url, init, { tries = 3, delayMs = 2000 } = {}) {
+  for (let i = 1; ; i++) {
+    try {
+      return await fetch(url, init);
+    } catch (e) {
+      if (i >= tries) throw e;
+      await new Promise((r) => setTimeout(r, delayMs * i));
+    }
+  }
+}
+
 export async function gh(path, { allow404 = false } = {}) {
-  const res = await fetch(`https://api.github.com/${path.replace(/^\//, '')}`, {
+  const res = await fetchRetry(`https://api.github.com/${path.replace(/^\//, '')}`, {
     headers: {
       'User-Agent': UA,
       Accept: 'application/vnd.github+json',
@@ -31,6 +43,27 @@ export async function gh(path, { allow404 = false } = {}) {
 }
 
 // Newest release of a repo, prereleases included when there is no full release.
+// False only for a link that is provably gone: a GitHub repo the API 404s, or a page
+// answering 404/410. Bot walls (403 from Patreon/Nexus) and network errors count as alive,
+// so a flaky host never deletes a real entry.
+export async function linkAlive(url) {
+  const repo = githubRepo(url);
+  if (repo) return (await gh(`repos/${repo}`, { allow404: true })) !== null;
+  try {
+    const res = await fetch(url, { redirect: 'follow', headers: { 'User-Agent': 'Mozilla/5.0' } });
+    return res.status !== 404 && res.status !== 410;
+  } catch {
+    return true;
+  }
+}
+
+export async function deadLinks(entry) {
+  const urls = [entry.download_url, entry.source_url, entry.homepage].filter(Boolean);
+  const dead = [];
+  for (const u of urls) if (!(await linkAlive(u))) dead.push(u);
+  return dead;
+}
+
 export async function latestRelease(repo) {
   const rel = await gh(`repos/${repo}/releases/latest`, { allow404: true });
   const r = rel ?? (await gh(`repos/${repo}/releases?per_page=1`, { allow404: true }))?.[0];

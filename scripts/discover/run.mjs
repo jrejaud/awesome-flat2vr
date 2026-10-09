@@ -29,7 +29,7 @@ import {
   toYaml,
   uniqueSlug,
 } from './core.mjs';
-import { COLLECTORS, candidateRepo, latestRelease, repoContext } from './sources.mjs';
+import { COLLECTORS, candidateRepo, deadLinks, latestRelease, repoContext } from './sources.mjs';
 import { extract } from './extract.mjs';
 
 const BRANCH = 'bot/discovery';
@@ -92,6 +92,36 @@ function prepareBranch() {
     rmSync(join(ROOT, f));
   if (carried.length) git('checkout', `origin/${BRANCH}`, '--', ...carried);
   return carried;
+}
+
+// Entries carried from the open PR are re-checked daily: a repo deleted since it was
+// proposed is dropped from the PR instead of failing its link check forever.
+async function pruneCarried(carried, changes) {
+  for (const f of carried) {
+    let d;
+    try {
+      d = yaml.load(readFileSync(join(ROOT, f), 'utf8'), { schema: yaml.JSON_SCHEMA });
+    } catch {
+      continue;
+    }
+    let dead;
+    try {
+      dead = await deadLinks(d);
+    } catch {
+      continue; // unknown is not dead
+    }
+    if (!dead.length) continue;
+    let onMain = true;
+    try {
+      git('cat-file', '-e', `origin/main:${f}`);
+    } catch {
+      onMain = false;
+    }
+    if (onMain) git('checkout', 'origin/main', '--', f);
+    else rmSync(join(ROOT, f));
+    changes.pruned.push({ file: f, dead });
+    log(`prune ${f}: dead link ${dead.join(' ')}`);
+  }
 }
 
 async function versionBumps(ports, changes) {
@@ -177,6 +207,17 @@ async function discover(ports, changes) {
       if (error) {
         seen[c.id] = { result: 'invalid', reason: error, attempts: (prior?.attempts ?? 0) + 1, at: TODAY };
         log(`drop  ${c.title}: ${error}`);
+        continue;
+      }
+      const dead = await deadLinks(entry);
+      if (dead.length) {
+        seen[c.id] = {
+          result: 'invalid',
+          reason: `dead link: ${dead.join(' ')}`,
+          attempts: (prior?.attempts ?? 0) + 1,
+          at: TODAY,
+        };
+        log(`drop  ${c.title}: dead link ${dead.join(' ')}`);
         continue;
       }
       const clash = [...entryKeys(entry)].find((k) => index.has(k));
@@ -290,8 +331,9 @@ function notify(changes, prUrl) {
 
 async function main() {
   await ping('/start');
-  const changes = { added: [], bumped: [], warnings: [], deferred: 0, extracted: 0 };
+  const changes = { added: [], bumped: [], pruned: [], warnings: [], deferred: 0, extracted: 0 };
   const carried = PR ? prepareBranch() : [];
+  if (carried.length) await pruneCarried(carried, changes);
   const { ports, errors } = loadPorts();
   if (errors.length) throw new Error(`index invalid before run: ${errors.join('; ')}`);
   if (!flag('--no-bumps')) await versionBumps(ports, changes);
@@ -306,6 +348,7 @@ async function main() {
     dry: DRY,
     added: changes.added.map((a) => a.slug),
     bumped: changes.bumped.map((b) => b.slug),
+    pruned: changes.pruned.map((p) => p.file),
     carried: carried.length,
     extracted: changes.extracted,
     deferred: changes.deferred,
