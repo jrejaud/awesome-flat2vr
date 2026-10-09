@@ -1,0 +1,21 @@
+name: CyberpunkVR Port
+games:
+  - Cyberpunk 2077
+category: mod
+authors:
+  - name: dariulone
+    url: https://github.com/dariulone
+platform: pcvr
+controls: 6dof
+status: beta
+version: "0.1.7"
+version_date: "2026-09-29"
+download_url: https://github.com/dariulone/cyberpunk-vr-port/releases/latest
+source_url: https://github.com/dariulone/cyberpunk-vr-port
+license: MIT
+required_files: Owned install of Cyberpunk 2077 plus RED4ext and CET; separately requires the 'More Occluders (Scripted v0.3)' mod from its author's Nexus page (not bundled)
+known_bugs: []
+notes: Renders a genuine second-eye engine view instead of reconstructing stereo, pairing full-body VRIK and tracked hands with native VR frame generation.
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

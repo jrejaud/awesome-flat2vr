@@ -1,0 +1,21 @@
+name: F.E.A.R. VR
+games:
+  - F.E.A.R.
+category: mod
+authors:
+  - name: DR-89
+    url: https://github.com/DR-89
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v1.0.0-beta.8"
+version_date: "2026-08-04"
+download_url: https://github.com/DR-89/fear-vr/releases/latest
+source_url: https://github.com/DR-89/fear-vr
+license: unknown
+required_files: Legally installed F.E.A.R. 1.08 (e.g. Steam Ultimate Shooter Edition) plus the official Public Tools 1.08 installed locally
+known_bugs: []
+notes: Requires SteamVR or Virtual Desktop (VDXR) as the active OpenXR runtime; GOG and retail-disc 1.08 copies are untested.
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

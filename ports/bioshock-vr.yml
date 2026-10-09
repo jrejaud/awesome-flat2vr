@@ -1,0 +1,27 @@
+name: BioShock VR
+games:
+  - BioShock Remastered
+  - BioShock 2 Remastered
+  - BioShock Infinite
+category: mod
+authors:
+  - name: VR-Stereo-Hub
+    url: https://github.com/VR-Stereo-Hub
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "v0.8.3"
+version_date: "2026-09-10"
+download_url: https://github.com/VR-Stereo-Hub/bioshock-trilogy-vr/releases/latest
+source_url: https://github.com/VR-Stereo-Hub/bioshock-trilogy-vr
+license: MIT
+required_files: Steam installs of BioShock Remastered, BioShock 2 Remastered, and/or BioShock Infinite
+known_bugs:
+  - WMR controller bindings are unverified on hardware
+  - BioShock Infinite support is early access, playable start to current test point only
+notes: Source material contained an unresolved mismatch between a claimed author/title ('BioShock VR by VOID' by mohamad-balouza) and the actual linked GitHub repo (VR-Stereo-Hub/bioshock-trilogy-vr); this entry uses only the verified repo facts.
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

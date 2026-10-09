@@ -54,6 +54,129 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "big-walk-vr",
+    "name": "Big Walk VR",
+    "games": [
+      "Big Walk"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "CircuitLord",
+        "url": "https://github.com/CircuitLord"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.2.9",
+    "version_date": "2026-10-06",
+    "download_url": "https://github.com/CircuitLord/CircuitLordVRModInstaller/releases/latest/download/CircuitLordVRModInstaller.exe",
+    "source_url": "https://github.com/CircuitLord/CircuitLordVRModInstaller",
+    "license": "unknown",
+    "required_files": "Steam copy of Big Walk; mod installs BepInEx automatically via the installer",
+    "known_bugs": [],
+    "notes": "Multiplayer-compatible: flatscreen players can see VR players' tracked hands without using VR themselves; installed via CircuitLord's one-click installer, which also supports Titanfall 2 VR.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "bioshock-remastered-vr",
+    "name": "BioShock Remastered VR",
+    "games": [
+      "BioShock Remastered"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "BioVRDev",
+        "url": "https://github.com/BioVRDev"
+      },
+      {
+        "name": "Pizzzaparker"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.0.3a",
+    "version_date": "2026-08-14",
+    "download_url": "https://github.com/BioVRDev/Bioshock-Remastered-VR/releases/latest",
+    "source_url": "https://github.com/BioVRDev/Bioshock-Remastered-VR",
+    "license": "unknown",
+    "required_files": "Legitimate install of BioShock Remastered (Steam or Epic)",
+    "known_bugs": [],
+    "notes": "Works by hooking IDXGISwapChain::Present, APlayerController::eventPlayerCalcView, and the D3D11 draw path on the game's modified Unreal 2.5 engine.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "bioshock-vr",
+    "name": "BioShock VR",
+    "games": [
+      "BioShock Remastered",
+      "BioShock 2 Remastered",
+      "BioShock Infinite"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "VR-Stereo-Hub",
+        "url": "https://github.com/VR-Stereo-Hub"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.8.3",
+    "version_date": "2026-09-10",
+    "download_url": "https://github.com/VR-Stereo-Hub/bioshock-trilogy-vr/releases/latest",
+    "source_url": "https://github.com/VR-Stereo-Hub/bioshock-trilogy-vr",
+    "license": "MIT",
+    "required_files": "Steam installs of BioShock Remastered, BioShock 2 Remastered, and/or BioShock Infinite",
+    "known_bugs": [
+      "WMR controller bindings are unverified on hardware",
+      "BioShock Infinite support is early access, playable start to current test point only"
+    ],
+    "notes": "Source material contained an unresolved mismatch between a claimed author/title ('BioShock VR by VOID' by mohamad-balouza) and the actual linked GitHub repo (VR-Stereo-Hub/bioshock-trilogy-vr); this entry uses only the verified repo facts.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "cyberpunkvr-port",
+    "name": "CyberpunkVR Port",
+    "games": [
+      "Cyberpunk 2077"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "dariulone",
+        "url": "https://github.com/dariulone"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "0.1.7",
+    "version_date": "2026-09-29",
+    "download_url": "https://github.com/dariulone/cyberpunk-vr-port/releases/latest",
+    "source_url": "https://github.com/dariulone/cyberpunk-vr-port",
+    "license": "MIT",
+    "required_files": "Owned install of Cyberpunk 2077 plus RED4ext and CET; separately requires the 'More Occluders (Scripted v0.3)' mod from its author's Nexus page (not bundled)",
+    "known_bugs": [],
+    "notes": "Renders a genuine second-eye engine view instead of reconstructing stereo, pairing full-body VRIK and tracked hands with native VR frame generation.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "doom3quest",
     "name": "Doom3Quest",
     "games": [
@@ -78,6 +201,212 @@
     "known_bugs": [],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Doom3Quest",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "f-e-a-r-vr",
+    "name": "F.E.A.R. VR",
+    "games": [
+      "F.E.A.R."
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "DR-89",
+        "url": "https://github.com/DR-89"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v1.0.0-beta.8",
+    "version_date": "2026-08-04",
+    "download_url": "https://github.com/DR-89/fear-vr/releases/latest",
+    "source_url": "https://github.com/DR-89/fear-vr",
+    "license": "unknown",
+    "required_files": "Legally installed F.E.A.R. 1.08 (e.g. Steam Ultimate Shooter Edition) plus the official Public Tools 1.08 installed locally",
+    "known_bugs": [],
+    "notes": "Requires SteamVR or Virtual Desktop (VDXR) as the active OpenXR runtime; GOG and retail-disc 1.08 copies are untested.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "fear2vr",
+    "name": "FEAR2VR",
+    "games": [
+      "F.E.A.R. 2: Project Origin"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Praydog",
+        "url": "https://github.com/praydog"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "unversioned",
+    "version_date": "2026-08-09",
+    "download_url": "https://github.com/praydog/FEAR2VR",
+    "source_url": "https://github.com/praydog/FEAR2VR",
+    "license": "MIT",
+    "required_files": "Owned copy of F.E.A.R. 2: Project Origin",
+    "known_bugs": [],
+    "notes": "Public source drop with no packaged build or installation guide at time of announcement; AI-assisted development.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "forza-vrmod",
+    "name": "Forza VRMod",
+    "games": [
+      "Forza Horizon 5",
+      "Forza Horizon 6"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "lufz"
+      },
+      {
+        "name": "oofz",
+        "url": "https://github.com/oofz"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "beta",
+    "version": "v1.4.2",
+    "version_date": "2026-09-08",
+    "download_url": "https://github.com/oofz/vrmod-releases/releases/latest",
+    "source_url": "https://github.com/oofz/vrmod-releases",
+    "license": "unknown",
+    "required_files": "Legitimate installation of Forza Horizon 5 or Forza Horizon 6",
+    "known_bugs": [],
+    "notes": "Shared launcher targets both Forza Horizon 5 and 6 with seated cockpit viewing; Virtual Desktop/VDXR was the most consistently reported working path.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "grand-theft-auto-iv-vr",
+    "name": "Grand Theft Auto IV VR",
+    "games": [
+      "Grand Theft Auto IV"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Hochgeschwindigkeitsrennfahrer",
+        "url": "https://github.com/Hochgeschwindigkeitsrennfahrer"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "alpha",
+    "version": "GTA4VR",
+    "version_date": "2026-08-04",
+    "download_url": "https://github.com/Hochgeschwindigkeitsrennfahrer/Grand-Theft-Auto-IV-VR-Mod/releases/latest",
+    "source_url": "https://github.com/Hochgeschwindigkeitsrennfahrer/Grand-Theft-Auto-IV-VR-Mod",
+    "homepage": "https://github.com/Hochgeschwindigkeitsrennfahrer/gtaiv-dxvk-vr/",
+    "license": "MIT",
+    "required_files": "GTA IV Complete Edition (Steam, 32-bit GTAIV.exe) plus GTAIV.EFLC.FusionFix ASI loader",
+    "known_bugs": [
+      "Gun aiming sometimes glitches out; recenter with right thumbstick or F9+F10",
+      "Non-AER stereo modes are blurry when looking around"
+    ],
+    "notes": "SteamVR/OpenVR only, head tracking with experimental head aiming while ADS; no motion controller support yet.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "halo-campaign-evolved-uevr",
+    "name": "Halo: Campaign Evolved UEVR",
+    "games": [
+      "Halo: Campaign Evolved"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "MOTYSHIZ",
+        "url": "https://github.com/MOTYSHIZ"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.7.0",
+    "version_date": "2026-10-06",
+    "download_url": "https://github.com/MOTYSHIZ/HaloCampaignEvolved_UEVR/releases/latest",
+    "source_url": "https://github.com/MOTYSHIZ/HaloCampaignEvolved_UEVR",
+    "license": "unknown",
+    "required_files": "Halo: Campaign Evolved (Steam or Game Pass/Microsoft Store release) plus UEVR",
+    "known_bugs": [],
+    "notes": "Game-specific UEVR layer built on the UEVR framework; author states it works in multiplayer and is labeled early access.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "hytale-vr-injector",
+    "name": "Hytale VR Injector",
+    "games": [
+      "Hytale"
+    ],
+    "category": "injector",
+    "authors": [
+      {
+        "name": "heurazy",
+        "url": "https://github.com/heurazy"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v1.0.4",
+    "version_date": "2026-08-24",
+    "download_url": "https://github.com/heurazy/HytaleVRInjector-mod/releases/latest",
+    "source_url": "https://github.com/heurazy/HytaleVRInjector-mod",
+    "license": "Apache-2.0",
+    "required_files": "A legitimate installation of Hytale",
+    "known_bugs": [],
+    "notes": "Experimental, AI-coded SteamVR injector that renders tracked-controller hands/items and centers the VR camera via an AFW reprojection dashboard.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "il-2-sturmovik-1946-vr",
+    "name": "IL-2 Sturmovik: 1946 VR",
+    "games": [
+      "IL-2 Sturmovik: 1946"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "boilingMetal"
+      },
+      {
+        "name": "firepolo"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "unversioned",
+    "version_date": "2026-08-09",
+    "download_url": "https://www.sas1946.com/main/index.php/topic,75791.0.html",
+    "source_url": "https://www.sas1946.com/main/index.php/topic,75791.0.html",
+    "license": "unknown",
+    "required_files": "IL-2 Sturmovik 1946 (Steam rollback build 4.12.2m, or UP3.4 Patch 2 HF23)",
+    "known_bugs": [],
+    "notes": "Distributed as separate development snapshot downloads for the 4.12.2m and UP3.4 builds, with reworked recentering and gaze-interactive cockpit button panels.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
     "last_checked": "2026-10-09"
   },
   {
@@ -113,6 +442,41 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "kisakcod-vr",
+    "name": "KisakCOD VR",
+    "games": [
+      "Call of Duty 4: Modern Warfare (2007)"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "JplayUltimate"
+      },
+      {
+        "name": "jplakon",
+        "url": "https://github.com/jplakon"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.10.0-beta.19",
+    "version_date": "2026-09-23",
+    "download_url": "https://github.com/jplakon/CallOfDuty4_VR/releases/latest",
+    "source_url": "https://github.com/jplakon/CallOfDuty4_VR",
+    "license": "GPL-3.0",
+    "required_files": "A legitimate installation of the original 2007 Windows PC Call of Duty 4: Modern Warfare (not the Remastered version); no game assets included",
+    "known_bugs": [
+      "Javelin lock-on green boxes can still be slightly offset",
+      "Persistent corruption reported on issue #78 reporter's configuration",
+      "Intermittent D3D9 device-hung crash"
+    ],
+    "notes": "Source-based OpenXR VR conversion built on the KisakCOD engine mod; first public beta released 2026-07-30, adding stereo rendering, 6DOF tracking, physical scopes, and physical grenades.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "lambda1vr",
     "name": "Lambda1VR",
     "games": [
@@ -137,6 +501,41 @@
     "known_bugs": [],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Lambda1VR",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "mirrors-edge-vr",
+    "name": "Mirror's Edge VR",
+    "games": [
+      "Mirror's Edge (2008)"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "LetsGoSportsTeam",
+        "url": "https://github.com/letsgosportsteam"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest"
+    ],
+    "controls": "mixed",
+    "status": "alpha",
+    "version": "v0.2.2-alpha",
+    "version_date": "2026-09-19",
+    "download_url": "https://github.com/letsgosportsteam/mirrors-edge-vr-mod/releases/latest",
+    "source_url": "https://github.com/letsgosportsteam/mirrors-edge-vr-mod",
+    "license": "unknown",
+    "required_files": "Original Windows install of Mirror's Edge (2008), not Catalyst",
+    "known_bugs": [
+      "HUD was broken in the initial pre-alpha release",
+      "Chapters can freeze on load unless the game's PhysX is disabled",
+      "Only Virtual Desktop with VDXR is supported; SteamVR and Meta Link/Air Link are not supported by the current 32-bit OpenXR path"
+    ],
+    "notes": "Requires the Virtual Desktop app with VDXR runtime rather than SteamVR; motion input uses the Touch controller layout but also supports gamepad or keyboard/mouse.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
     "last_checked": "2026-10-09"
   },
   {
@@ -165,6 +564,67 @@
     "known_bugs": [],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Raicuparta/nomai-vr",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "perfect-dark-vr",
+    "name": "Perfect Dark VR",
+    "games": [
+      "Perfect Dark"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Alex Le Tux",
+        "url": "https://github.com/Alex-LeTux"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v2.0",
+    "version_date": "2026-10-07",
+    "download_url": "https://github.com/Alex-LeTux/perfect_dark_VR/releases/latest",
+    "source_url": "https://github.com/Alex-LeTux/perfect_dark_VR",
+    "license": "MIT",
+    "required_files": "A legally obtained Perfect Dark N64 ROM (NTSC, PAL, or JPN), renamed and placed per region",
+    "known_bugs": [],
+    "notes": "Fork of the perfect-dark-pc-port and izzy2lost Android port of the n64decomp Perfect Dark decompilation; supports community HD texture packs.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "primedgun",
+    "name": "PrimedGun",
+    "games": [
+      "Metroid Prime"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Nobbie248",
+        "url": "https://github.com/Nobbie248"
+      }
+    ],
+    "platform": "both",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.1.7-windows",
+    "version_date": "2026-10-05",
+    "download_url": "https://github.com/Nobbie248/PrimedGun/releases/latest",
+    "source_url": "https://github.com/Nobbie248/PrimedGun",
+    "license": "unknown",
+    "required_files": "Metroid Prime NTSC Revision 0 (1.0) game file",
+    "known_bugs": [
+      "Quitting from the Meta or Quest system menu kills the app before shader caches are saved, forcing shader recompilation on next launch; use the in-game Exit Game button instead."
+    ],
+    "notes": "Dolphin ReduX-based build; headlined Flat2VR's June 2026 release report.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
     "last_checked": "2026-10-09"
   },
   {
@@ -343,6 +803,36 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "silent-hill-1999-vr",
+    "name": "Silent Hill (1999) VR",
+    "games": [
+      "Silent Hill (1999)"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "VRified Games"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "alpha",
+    "version": "unversioned",
+    "version_date": "2026-08-02",
+    "download_url": "https://www.patreon.com/u61517070/posts/silent-hill-1999-165598817",
+    "source_url": "https://www.patreon.com/u61517070/posts/silent-hill-1999-165598817",
+    "license": "unknown",
+    "price": "Patreon exclusive early access",
+    "required_files": "Silent Hill (1999) PC port game files",
+    "known_bugs": [
+      "Tracked motion controls not yet implemented"
+    ],
+    "notes": "Standalone support was still in development; the finished release is planned to be free.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "sourcevr",
     "name": "SourceVR",
     "games": [
@@ -378,6 +868,42 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "space-hulk-deathwing-vr",
+    "name": "Space Hulk: Deathwing VR",
+    "games": [
+      "Space Hulk: Deathwing Enhanced Edition"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "help im a ghost",
+        "url": "https://github.com/helpimaghost"
+      },
+      {
+        "name": "Pande4360"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "1.12",
+    "version_date": "2026-10-03",
+    "download_url": "https://github.com/helpimaghost/Space-Hulk-Deathwing-VR/releases/latest",
+    "source_url": "https://github.com/helpimaghost/Space-Hulk-Deathwing-VR",
+    "license": "unknown",
+    "required_files": "Owned copy of Space Hulk: Deathwing Enhanced Edition (Steam) plus the joeyhodge UEVR backend fork (081326DaysGoneNOMO or later)",
+    "known_bugs": [
+      "Occulobe Enhancement System (HMD aim) has no zoom or visual enemy identification aid",
+      "Non-Steam versions are unsupported",
+      "Map Screen does not display map geometry, may not be fixable",
+      "In-game crosshair is unreliable; weapons rely on hipfire aim alignment instead"
+    ],
+    "notes": "A UEVR game profile (not a standalone renderer) adding 6DOF gun and melee combat, UI Peek, and haptics to the Enhanced Edition.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "stanley-vr",
     "name": "Stanley VR",
     "games": [
@@ -406,6 +932,35 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "star-trucker-vr",
+    "name": "Star Trucker VR",
+    "games": [
+      "Star Trucker"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Svveepa"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "stable",
+    "version": "1.0",
+    "version_date": "2026-07-20",
+    "download_url": "https://www.nexusmods.com/startrucker/mods/17",
+    "source_url": "https://www.nexusmods.com/startrucker/mods/17",
+    "license": "unknown",
+    "required_files": "Original Star Trucker game install",
+    "known_bugs": [
+      "No motion-controller gameplay at release"
+    ],
+    "notes": "Seated VR conversion built on Unity/MelonLoader; 1.0.1 fixed world-space navigation markers.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "submersedvr",
     "name": "SubmersedVR",
     "games": [
@@ -430,6 +985,37 @@
     "known_bugs": [],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Okabintaro/SubmersedVR",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "the-witcher-3-vr",
+    "name": "The Witcher 3 VR",
+    "games": [
+      "The Witcher 3: Wild Hunt"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "tig3rmast3r",
+        "url": "https://github.com/tig3rmast3r"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "alpha",
+    "version": "v0.9.8v2",
+    "version_date": "2026-10-04",
+    "download_url": "https://github.com/tig3rmast3r/witcher3-vr/releases/latest",
+    "source_url": "https://github.com/tig3rmast3r/witcher3-vr",
+    "license": "MIT",
+    "required_files": "The Witcher 3 Next-Gen (v4.04) game installation",
+    "known_bugs": [
+      "Intermittent crashes may occur when using DLSS 5 Neural Rendering, not fully resolved",
+      "VR motion controllers are not supported, only mouse/keyboard or gamepad"
+    ],
+    "notes": "Independent DirectX 12/OpenXR implementation supporting same-tick stereo rendering, DLSS/DLAA/TAAU, OptiScaler and ReShade integration, and an OFXR frame-generation system.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
     "last_checked": "2026-10-09"
   },
   {
@@ -514,6 +1100,63 @@
     "known_bugs": [],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Raicuparta/uuvr",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "vice-city-vr",
+    "name": "Vice City VR",
+    "games": [
+      "Grand Theft Auto: Vice City"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "dubrovskiy-yevhen-stakelogic"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.5.5.1",
+    "version_date": "2026-09-14",
+    "download_url": "https://github.com/dubrovskiy-yevhen-stakelogic/vice-city-vr/releases/latest",
+    "source_url": "https://github.com/dubrovskiy-yevhen-stakelogic/vice-city-vr",
+    "license": "unknown",
+    "required_files": "Original PC installation of Grand Theft Auto: Vice City (reVC.exe)",
+    "known_bugs": [],
+    "notes": "Native Direct3D 12 and OpenXR conversion with save transfer between PCVR and Quest builds and experimental DLSS 5 neural rendering support.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "wolfsharp-vr",
+    "name": "WolfSharp VR",
+    "games": [
+      "Wolfenstein 3-D"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Ben McLean"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "unversioned",
+    "version_date": "2026-07-25",
+    "download_url": "https://benmclean.itch.io/wolfsharp",
+    "source_url": "https://benmclean.itch.io/wolfsharp",
+    "license": "unknown",
+    "required_files": "Wolfenstein 3-D game data",
+    "known_bugs": [],
+    "notes": "First public player build of a dedicated VR source-port project for Wolfenstein 3-D, still early and actively developed.",
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
     "last_checked": "2026-10-09"
   }
 ]

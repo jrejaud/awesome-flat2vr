@@ -1,0 +1,23 @@
+name: Perfect Dark VR
+games:
+  - Perfect Dark
+category: source-port
+authors:
+  - name: Alex Le Tux
+    url: https://github.com/Alex-LeTux
+platform: both
+headsets:
+  - Quest
+controls: 6dof
+status: beta
+version: "v2.0"
+version_date: "2026-10-07"
+download_url: https://github.com/Alex-LeTux/perfect_dark_VR/releases/latest
+source_url: https://github.com/Alex-LeTux/perfect_dark_VR
+license: MIT
+required_files: A legally obtained Perfect Dark N64 ROM (NTSC, PAL, or JPN), renamed and placed per region
+known_bugs: []
+notes: Fork of the perfect-dark-pc-port and izzy2lost Android port of the n64decomp Perfect Dark decompilation; supports community HD texture packs.
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

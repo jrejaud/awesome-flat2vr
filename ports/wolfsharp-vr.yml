@@ -1,0 +1,20 @@
+name: WolfSharp VR
+games:
+  - Wolfenstein 3-D
+category: source-port
+authors:
+  - name: Ben McLean
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "unversioned"
+version_date: "2026-07-25"
+download_url: https://benmclean.itch.io/wolfsharp
+source_url: https://benmclean.itch.io/wolfsharp
+license: unknown
+required_files: Wolfenstein 3-D game data
+known_bugs: []
+notes: First public player build of a dedicated VR source-port project for Wolfenstein 3-D, still early and actively developed.
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

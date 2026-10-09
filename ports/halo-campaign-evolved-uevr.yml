@@ -1,0 +1,21 @@
+name: "Halo: Campaign Evolved UEVR"
+games:
+  - "Halo: Campaign Evolved"
+category: mod
+authors:
+  - name: MOTYSHIZ
+    url: https://github.com/MOTYSHIZ
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.7.0"
+version_date: "2026-10-06"
+download_url: https://github.com/MOTYSHIZ/HaloCampaignEvolved_UEVR/releases/latest
+source_url: https://github.com/MOTYSHIZ/HaloCampaignEvolved_UEVR
+license: unknown
+required_files: "Halo: Campaign Evolved (Steam or Game Pass/Microsoft Store release) plus UEVR"
+known_bugs: []
+notes: Game-specific UEVR layer built on the UEVR framework; author states it works in multiplayer and is labeled early access.
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"
