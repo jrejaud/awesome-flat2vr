@@ -1,9 +1,9 @@
-import { test } from 'node:test';
+import { test } from 'vitest';
 import assert from 'node:assert/strict';
 import { join } from 'node:path';
 import { loadPorts, ROOT } from '../scripts/lib.mjs';
 
-const fx = (name) => join(ROOT, 'test/fixtures', name);
+const fx = (name: string) => join(ROOT, 'test/fixtures', name);
 
 test('real ports/ directory is valid', () => {
   const { ports, errors } = loadPorts();

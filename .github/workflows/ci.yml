@@ -5,7 +5,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '17 6 * * 1' # weekly link rot check
+    - cron: "17 6 * * 1" # weekly link rot check
 
 permissions:
   contents: read

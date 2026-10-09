@@ -65,7 +65,11 @@
     "homepage": { "type": "string", "format": "uri" },
     "license": { "type": "string", "minLength": 1, "description": "SPDX id, or 'proprietary' / 'unknown'." },
     "price": { "type": "string", "description": "Omit when free." },
-    "required_files": { "type": "string", "minLength": 1, "description": "Original game data the user must own and supply." },
+    "required_files": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Original game data the user must own and supply."
+    },
     "known_bugs": { "type": "array", "items": { "type": "string", "minLength": 1 } },
     "notes": { "type": "string" },
     "screenshots": {
@@ -82,7 +86,11 @@
       }
     },
     "added_by": { "enum": ["human", "bot"] },
-    "discovered_via": { "type": "string", "minLength": 1, "description": "Where the entry was found (URL or source name), for credit." },
+    "discovered_via": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Where the entry was found (URL or source name), for credit."
+    },
     "last_checked": { "type": "string", "format": "date" }
   }
 }
