@@ -1,0 +1,9 @@
+{
+  "templateVersion": 2,
+  "stack": "ts-node",
+  "tier": "A",
+  "files": {
+    "harness.json": "dd36e698b174f389",
+    "lefthook.yml": "ca3e23a9fc286730"
+  }
+}

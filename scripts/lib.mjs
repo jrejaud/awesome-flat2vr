@@ -11,12 +11,25 @@ const ajv = new Ajv2020({ allErrors: true, strict: true });
 addFormats(ajv);
 const check = ajv.compile(schema);
 
+// Validate one parsed entry. Returns [] when valid, else human-readable errors.
+export function validateEntry(data) {
+  if (check(data)) return data.version_date > data.last_checked ? ['version_date is after last_checked'] : [];
+  return check.errors.map((err) => {
+    const extra = err.params?.additionalProperty ? ` '${err.params.additionalProperty}'` : '';
+    return `${err.instancePath || '(root)'} ${err.message}${extra}`;
+  });
+}
+
+export const SCHEMA = schema;
+
 // Validate every ports/*.yml under `dir`. Returns { ports, errors }; errors are
 // human-readable strings prefixed with the offending file.
 export function loadPorts(dir = join(ROOT, 'ports'), imageRoot = ROOT) {
   const ports = [];
   const errors = [];
-  const files = readdirSync(dir).filter((f) => !f.startsWith('.')).sort();
+  const files = readdirSync(dir)
+    .filter((f) => !f.startsWith('.'))
+    .sort();
   for (const file of files) {
     const where = `ports/${file}`;
     if (!/^[a-z0-9]+(-[a-z0-9]+)*\.yml$/.test(file)) {

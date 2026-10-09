@@ -14,36 +14,36 @@ One port = one file: `ports/<slug>.yml`. The slug is kebab-case and is usually t
 ## Template
 
 ```yaml
-name: ExamplePortVR                 # the port's own name
-games:                              # original flatscreen game(s)
-  - "Example Game"
-category: mod                       # mod | source-port | injector
+name: ExamplePortVR # the port's own name
+games: # original flatscreen game(s)
+  - 'Example Game'
+category: mod # mod | source-port | injector
 authors:
   - name: Creator Name
     url: https://github.com/creator # optional
-platform: pcvr                      # pcvr | standalone | both
-headsets:                           # optional, standalone only
+platform: pcvr # pcvr | standalone | both
+headsets: # optional, standalone only
   - Meta Quest
-controls: 6dof                      # optional: 6dof | 3dof | gamepad | mixed
-status: beta                        # alpha | beta | stable | abandoned
-version: "1.2.0"                    # quote it
-version_date: "2026-01-31"          # date of that release, quoted
+controls: 6dof # optional: 6dof | 3dof | gamepad | mixed
+status: beta # alpha | beta | stable | abandoned
+version: '1.2.0' # quote it
+version_date: '2026-01-31' # date of that release, quoted
 download_url: https://github.com/creator/example/releases/latest
-source_url: https://github.com/creator/example   # repo or announcement post
-homepage: https://example.com       # optional
-license: MIT                        # SPDX id, proprietary, unknown, or see-repository
-price: "$5 on Patreon"              # optional, omit when free
-required_files: "an owned PC install of Example Game"
-known_bugs:                         # [] if none known
-  - "Cutscenes render flat"
-notes: "Free-form, optional."
-screenshots:                        # optional
+source_url: https://github.com/creator/example # repo or announcement post
+homepage: https://example.com # optional
+license: MIT # SPDX id, proprietary, unknown, or see-repository
+price: '$5 on Patreon' # optional, omit when free
+required_files: 'an owned PC install of Example Game'
+known_bugs: # [] if none known
+  - 'Cutscenes render flat'
+notes: 'Free-form, optional.'
+screenshots: # optional
   - file: images/exampleportvr/menu.webp
     credit: Creator Name
     source_url: https://github.com/creator/example
-added_by: human                     # human | bot
-discovered_via: "https://discord.com/channels/... or a source name"
-last_checked: "2026-02-01"          # when someone last confirmed the version
+added_by: human # human | bot
+discovered_via: 'https://discord.com/channels/... or a source name'
+last_checked: '2026-02-01' # when someone last confirmed the version
 ```
 
 ## Rules
@@ -53,3 +53,9 @@ last_checked: "2026-02-01"          # when someone last confirmed the version
 - **Screenshots** go in `images/<slug>/`, ≤ 300 KB each, and need a `credit` and `source_url`.
 - **Quote** versions and dates. A bare `1.0` parses as a number and fails validation.
 - **Mark a port `abandoned`** rather than deleting it once it is no longer maintained.
+
+## Discovery bot
+
+A daily bot (`scripts/discover/`) looks for new ports and new releases in Elliott Tate's Flat2VR release reports, GitHub, SideQuest and Reddit. It opens or updates one rolling PR from the `bot/discovery` branch. Its entries are marked `added_by: bot`, and `discovered_via` credits where each one was found. It only links URLs that appear in the source material, and every entry must pass the schema before it is proposed.
+
+Run it locally without writing anything: `node scripts/discover/run.mjs --dry-run --sources gists --max-extract 3`. This needs `gh` and `claude` on the PATH.

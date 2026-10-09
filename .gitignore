@@ -1,2 +1,7 @@
 node_modules/
 .DS_Store
+# harness
+coverage/
+test-results/
+playwright-report/
+.harness/state/
