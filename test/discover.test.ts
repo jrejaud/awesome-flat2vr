@@ -184,3 +184,10 @@ test('a GitHub release-tag download link is pinned to /releases/latest', () => {
     'https://github.com/letsgosportsteam/mirrors-edge-vr-mod/releases/latest',
   );
 });
+
+test('a missing download_url falls back to the grounded source page', () => {
+  const noDl: Record<string, unknown> = { ...modelEntry, source_url: candidate.urls[0] };
+  delete noDl.download_url;
+  const { entry } = finalizeEntry(noDl, candidate);
+  assert.equal(entry!.download_url, 'https://github.com/letsgosportsteam/mirrors-edge-vr-mod/releases/latest');
+});

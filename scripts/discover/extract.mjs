@@ -49,7 +49,7 @@ Entry rules:
 - category: mod | source-port | injector. platform: pcvr | standalone | both (standalone = runs on Quest/Pico natively).
 - status: alpha | beta | stable | abandoned (pre-alpha, dev snapshot, source drop, WIP -> alpha).
 - version: the exact release tag/version if stated, else "unversioned". version_date: YYYY-MM-DD of that release, else the announcement date. Never after ${date}.
-- download_url: the creator's own release/download page. source_url: repo or announcement page. homepage only if distinct.
+- download_url (required): the creator's own release/download page; if there is none, the repo or announcement page. source_url: repo or announcement page. homepage only if distinct.
 - Use ONLY URLs that appear verbatim in the source material (a repo's /releases/latest page is also fine). Never invent or guess a URL. No Discord links for download_url.
 - license: SPDX id from the repo if given, "proprietary" for paid/closed, else "unknown".
 - price only if the port itself costs money. required_files: what original game data/install the player must own.
