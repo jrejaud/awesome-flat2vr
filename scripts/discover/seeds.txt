@@ -22,3 +22,27 @@ https://github.com/provencher/dusk-vr                   # Twilight Princess (Dus
 # Emulator-based console VR ports
 https://github.com/mikermak/hotd2-vr                    # House of the Dead 2 (Flycast)
 https://github.com/heurazy/AnimalCrossing-VR-MR-Standalone  # Animal Crossing (DolphinXR)
+#
+# Older PC VR mods (gap found 2026-10-09 by diffing the index against Rhiyo/flat2vr-list;
+# that list is unlicensed, so only the existence of each port is used: every entry is
+# re-extracted from the creator's own page below)
+https://github.com/Nibre/MotherVR                       # Alien: Isolation
+https://github.com/KozGit/DOOM-3-BFG-VR                 # Doom 3 BFG
+https://github.com/xPrinny/GunfireRebornVRMod           # Gunfire Reborn
+https://github.com/LivingFray/HaloCEVR                  # Halo: Combat Evolved (2003 PC)
+https://github.com/sd805/l4d2vr                         # Left 4 Dead 2
+https://github.com/LukeRoss00/nolf2-real-mod            # No One Lives Forever 2
+https://github.com/newyork167/penumbra_vr               # Penumbra: Overture
+https://github.com/lvonasek/PreyVR                      # Prey (2006)
+https://github.com/Ashok0/SystemShock-UEVR              # System Shock (2023)
+https://github.com/plaidpants/ANKH-VR                   # Ultima IV
+https://github.com/whateverusername0/VRTRAKILL          # Ultrakill
+https://mod.io/g/drg/m/vrg                              # Deep Rock Galactic
+https://farcryvr.de/                                    # Far Cry
+https://raicuparta.com/shipbreaker-vr-mod               # Hardspace: Shipbreaker
+https://thunderstore.io/c/lethal-company/p/DaXcess/LethalCompanyVR/  # Lethal Company
+https://raicuparta.com/neon-white-vr-mod                # Neon White
+https://thunderstore.io/package/DrBibop/VRMod/          # Risk of Rain 2
+https://www.nexusmods.com/valheim/mods/847              # Valheim (VHVR)
+https://further-beyond.itch.io/wolf3dvr                 # Wolfenstein 3D
+https://gitlab.com/madsbuvi/openmw                      # Morrowind (OpenMW VR)

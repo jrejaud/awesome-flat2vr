@@ -459,7 +459,8 @@ export function parseSeeds(text) {
 }
 
 export async function seeds({ file = new URL('./seeds.txt', import.meta.url) } = {}) {
-  return parseSeeds(readFileSync(file, 'utf8')).map((repo) => ({
+  const text = readFileSync(file, 'utf8');
+  const repos = parseSeeds(text).map((repo) => ({
     id: `github:${repo}`,
     source: 'seed list',
     source_url: `https://github.com/${repo}`,
@@ -468,6 +469,53 @@ export async function seeds({ file = new URL('./seeds.txt', import.meta.url) } =
     text: `GitHub repository ${repo} (curated seed: a known VR port of a flatscreen game).`,
     urls: [`https://github.com/${repo}`],
   }));
+  const pages = [];
+  for (const url of parseSeedPages(text)) {
+    const page = await pageText(url);
+    pages.push({
+      id: `page:${url.toLowerCase()}`,
+      source: 'seed list',
+      source_url: url,
+      title: url,
+      date: '',
+      text: `Creator/release page ${url} (curated seed: a known VR port of a flatscreen game).\n${page}`,
+      urls: [url, ...extractUrls(page)],
+    });
+  }
+  return [...repos, ...pages];
+}
+
+// Non-GitHub seeds (Thunderstore, Nexus, mod.io, itch, creator sites). A `#` only starts a
+// comment after whitespace, so URL fragments survive; text-fragment noise (#:~:) is dropped.
+export function parseSeedPages(text) {
+  return [
+    ...new Set(
+      String(text)
+        .split('\n')
+        .map((l) => l.replace(/(^|\s)#.*/, '').trim())
+        .filter((u) => /^https?:\/\//.test(u) && !githubRepo(u))
+        .map((u) => u.replace(/#:~:.*$/, '')),
+    ),
+  ];
+}
+
+async function pageText(url) {
+  try {
+    const res = await fetchRetry(url, { headers: { 'User-Agent': 'Mozilla/5.0' }, redirect: 'follow' });
+    if (!res.ok) return `(page answered HTTP ${res.status})`;
+    const html = await res.text();
+    const title = /<title[^>]*>([^<]*)<\/title>/i.exec(html)?.[1] ?? '';
+    const desc = /<meta[^>]+(?:name|property)="(?:og:)?description"[^>]+content="([^"]*)"/i.exec(html)?.[1] ?? '';
+    const body = html
+      .replace(/<(script|style|noscript)[\s\S]*?<\/\1>/gi, ' ')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/&amp;/g, '&')
+      .replace(/\s+/g, ' ')
+      .slice(0, 3000);
+    return `Page title: ${title}\nDescription: ${desc}\nPage text: ${body}`;
+  } catch (e) {
+    return `(page fetch failed: ${e.message})`;
+  }
 }
 
 // ---- Multiverse VR Hub (RaYRoD-TV/MVRH): N64-era VR ports shipped as patches + Quest APKs --
