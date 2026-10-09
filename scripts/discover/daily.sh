@@ -5,6 +5,15 @@
 # pass through (e.g. --max-extract 10).
 set -euo pipefail
 cd "$(dirname "$0")/../.."
+# One run at a time per clone. A second run resets the tree to origin/main and deletes the
+# first run's unpublished finds (2026-10-09: the 07:30 cron landed mid bulk-run and wiped
+# OoT, Majora's Mask, SM64 and GoldenEye). The lock is held through the exec'd node process.
+mkdir -p "$HOME/.local/state/flat2vr-bot"
+exec 9>"$HOME/.local/state/flat2vr-bot/run.lock"
+if ! flock -n 9; then
+  echo "another discovery run holds the lock; skipping this slot"
+  exit 0
+fi
 export PATH="$HOME/.local/bin:$HOME/.bun/bin:/usr/local/bin:/usr/bin:/bin"
 set -a
 # shellcheck disable=SC1091
