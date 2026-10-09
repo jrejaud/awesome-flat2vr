@@ -270,6 +270,8 @@ function pruneOrphanImages() {
 // the entries are rediscovered next run instead of being suppressed forever.
 function commitToMain() {
   pruneOrphanImages();
+  // Match the repo's Prettier style so a human's local commit never trips over a bot-written file.
+  sh('npx', ['prettier', '--write', '--log-level', 'warn', 'ports']);
   sh('npm', ['run', '-s', 'build']);
   sh('npm', ['run', '-s', 'validate']);
   git('add', 'ports', 'images', 'README.md', 'data');
