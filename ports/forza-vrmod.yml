@@ -20,13 +20,13 @@ known_bugs: []
 notes: Shared launcher targets both Forza Horizon 5 and 6 with seated cockpit viewing; Virtual Desktop/VDXR was the most consistently reported working path.
 images:
   - game: Forza Horizon 5
-    file: images/forza-vrmod/forza-horizon-5.jpg
-    credit: Forza Horizon 5 store art
-    source_url: https://store.steampowered.com/app/1551360/
+    file: images/forza-vrmod/forza-horizon-5.png
+    credit: Forza Horizon 5 grid by sbiddly (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/747953
   - game: Forza Horizon 6
-    file: images/forza-vrmod/forza-horizon-6.jpg
-    credit: Forza Horizon 6 store art
-    source_url: https://store.steampowered.com/app/2483190/
+    file: images/forza-vrmod/forza-horizon-6.png
+    credit: Forza Horizon 6 grid by r_dsgnd (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/769931
 reviews:
   - title: Forza Horizon 5 in VIRTUAL REALITY / RACING WHEEL Setup!
     channel: SimplyPops

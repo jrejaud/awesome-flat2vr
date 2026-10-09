@@ -17,9 +17,9 @@ known_bugs: []
 notes: Requires SteamVR; supports bHaptics vests and left-handed play.
 images:
   - game: Far Cry (2004)
-    file: images/far-cry-vr/far-cry.jpg
-    credit: Far Cry® store art
-    source_url: https://store.steampowered.com/app/13520/
+    file: images/far-cry-vr/far-cry.png
+    credit: Far Cry grid by schizogee (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/849288
 reviews:
   - title: Far Cry VR Mod w/ Motion Controls Gameplay
     channel: MAME-FAN

@@ -19,8 +19,8 @@ notes: Distributed as separate development snapshot downloads for the 4.12.2m an
 images:
   - game: "IL-2 Sturmovik: 1946"
     file: images/il-2-sturmovik-1946-vr/il-2-sturmovik-1946.jpg
-    credit: "IL-2 Sturmovik: 1946 store art"
-    source_url: https://store.steampowered.com/app/15320/
+    credit: "IL-2 Sturmovik: 1946 grid by Adamant (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/195844
 reviews:
   - title: il-2 sturmovik 1946 vr mod devlog 20260809 - In-game menu, HUD, interactive cockpit
     channel: Xiao Wen

@@ -17,9 +17,9 @@ required_files: baseq2 pak files from an owned copy of Quake II
 known_bugs: []
 images:
   - game: Quake II
-    file: images/quake2quest/quake-ii.jpg
-    credit: Quake II store art
-    source_url: https://store.steampowered.com/app/2320/
+    file: images/quake2quest/quake-ii.png
+    credit: Quake II grid by alfiehicks (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/356570
 reviews:
   - title: Quake 2 VR [Oculus Quest 2] - An Amazing Quest Port!
     channel: DoomSly82

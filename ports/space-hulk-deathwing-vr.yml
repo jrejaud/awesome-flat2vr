@@ -23,9 +23,9 @@ known_bugs:
 notes: A UEVR game profile (not a standalone renderer) adding 6DOF gun and melee combat, UI Peek, and haptics to the Enhanced Edition.
 images:
   - game: "Space Hulk: Deathwing Enhanced Edition"
-    file: images/space-hulk-deathwing-vr/space-hulk-deathwing-enhanced-edition.jpg
-    credit: "Space Hulk: Deathwing Enhanced Edition store art"
-    source_url: https://store.steampowered.com/app/816090/
+    file: images/space-hulk-deathwing-vr/space-hulk-deathwing-enhanced-edition.png
+    credit: "Space Hulk: Deathwing - Enhanced Edition grid by swagmaster9000 (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/650653
 reviews:
   - title: "Space Hulk: Deathwing VR (v 1.06) with Project Grim Dark"
     channel: help im a ghost

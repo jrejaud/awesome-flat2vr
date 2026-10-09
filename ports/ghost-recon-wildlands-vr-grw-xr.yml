@@ -20,9 +20,9 @@ known_bugs:
 notes: Native OpenXR mod injected via dxgi.dll proxy, no game files modified; singleplayer/private co-op only, not for PvP or matchmaking.
 images:
   - game: Tom Clancy's Ghost Recon Wildlands
-    file: images/ghost-recon-wildlands-vr-grw-xr/tom-clancy-s-ghost-recon-wildlands.jpg
-    credit: Tom Clancy's Ghost Recon® Wildlands store art
-    source_url: https://store.steampowered.com/app/460930/
+    file: images/ghost-recon-wildlands-vr-grw-xr/tom-clancy-s-ghost-recon-wildlands.png
+    credit: Tom Clancy's Ghost Recon Wildlands grid by 🐦‍⬛THE CRÖWE★ (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/49090
 reviews:
   - title: Ghost Recon Wildlands VR Mod - 80% Done
     channel: Geek2

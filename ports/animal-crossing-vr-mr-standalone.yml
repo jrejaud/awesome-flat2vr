@@ -22,8 +22,8 @@ notes: Based on DolphinXR; adds a custom Animal Crossing launcher, tabletop mixe
 images:
   - game: Animal Crossing (GameCube)
     file: images/animal-crossing-vr-mr-standalone/animal-crossing.png
-    credit: heurazy/AnimalCrossing-VR-MR-Standalone
-    source_url: https://github.com/heurazy/AnimalCrossing-VR-MR-Standalone
+    credit: Animal Crossing grid by Orion1189 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/357880
 reviews: []
 added_by: bot
 discovered_via: https://github.com/heurazy/animalcrossing-vr-mr-standalone

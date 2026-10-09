@@ -19,9 +19,9 @@ known_bugs:
 notes: Dolphin ReduX-based build; headlined Flat2VR's June 2026 release report.
 images:
   - game: Metroid Prime
-    file: images/primedgun/metroid-prime.jpg
-    credit: Beardo Benjo
-    source_url: https://www.youtube.com/watch?v=iWS_krcirCw
+    file: images/primedgun/metroid-prime.png
+    credit: Metroid Prime grid by alfiehicks (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/418999
 reviews:
   - title: METROID PRIME VR is one of the BEST Dolphin VR experiences! // Quest 2 Airlink Gameplay
     channel: Beardo Benjo

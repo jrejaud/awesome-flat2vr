@@ -24,17 +24,17 @@ known_bugs:
 notes: Source material contained an unresolved mismatch between a claimed author/title ('BioShock VR by VOID' by mohamad-balouza) and the actual linked GitHub repo (VR-Stereo-Hub/bioshock-trilogy-vr); this entry uses only the verified repo facts.
 images:
   - game: BioShock Remastered
-    file: images/bioshock-vr/bioshock-remastered.jpg
-    credit: BioShock™ Remastered store art
-    source_url: https://store.steampowered.com/app/409710/
+    file: images/bioshock-vr/bioshock-remastered.png
+    credit: BioShock Remastered grid by Vycter (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/475030
   - game: BioShock 2 Remastered
-    file: images/bioshock-vr/bioshock-2-remastered.jpg
-    credit: BioShock™ 2 Remastered store art
-    source_url: https://store.steampowered.com/app/409720/
+    file: images/bioshock-vr/bioshock-2-remastered.png
+    credit: BioShock 2 Remastered grid by Vycter (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/475034
   - game: BioShock Infinite
-    file: images/bioshock-vr/bioshock-infinite.jpg
-    credit: BioShock Infinite store art
-    source_url: https://store.steampowered.com/app/8870/
+    file: images/bioshock-vr/bioshock-infinite.png
+    credit: BioShock Infinite grid by EddieSpaghetti (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/27011
 reviews:
   - title: BioShock Infinite VR Is Something Special
     channel: Beardo Benjo

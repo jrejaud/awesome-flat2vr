@@ -17,9 +17,9 @@ known_bugs: []
 notes: Fork of the OpenMW engine adding native VR support for Morrowind; setup docs at openmw-vr.readthedocs.io.
 images:
   - game: "The Elder Scrolls III: Morrowind"
-    file: images/openmw-vr/the-elder-scrolls-iii-morrowind.jpg
-    credit: "The Elder Scrolls III: Morrowind® Game of the Year Edition store art"
-    source_url: https://store.steampowered.com/app/22320/
+    file: images/openmw-vr/the-elder-scrolls-iii-morrowind.png
+    credit: "The Elder Scrolls III: Morrowind grid by SirYodaJedi (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/73080
 reviews:
   - title: "TESTING Elder Scrolls III: Morrowind VR Mod! // Oculus Rift S // RTX 2070 Super"
     channel: Paradise Decay

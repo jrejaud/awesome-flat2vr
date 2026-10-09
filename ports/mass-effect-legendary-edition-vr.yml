@@ -18,13 +18,13 @@ known_bugs: []
 notes: Supports three render modes (Stereo, AER, DIBR); ME2 release adds VR treatment for conversations and cutscenes.
 images:
   - game: Mass Effect (Legendary Edition)
-    file: images/mass-effect-legendary-edition-vr/mass-effect.jpg
-    credit: Steam app 17460 store art
-    source_url: https://store.steampowered.com/app/17460/
+    file: images/mass-effect-legendary-edition-vr/mass-effect.png
+    credit: Mass Effect grid by dsoon (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/26908
   - game: Mass Effect 2 (Legendary Edition)
-    file: images/mass-effect-legendary-edition-vr/mass-effect-2.jpg
-    credit: Mass Effect 2 (2010) Edition store art
-    source_url: https://store.steampowered.com/app/2362420/
+    file: images/mass-effect-legendary-edition-vr/mass-effect-2.png
+    credit: Mass Effect 2 grid by Pendragon (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/25967
 reviews:
   - title: MASS EFFECT VR // Mass Effect 2 First Person Gameplay in VR // Will it VR? - Mass Effect 2 VR
     channel: Beardo Benjo

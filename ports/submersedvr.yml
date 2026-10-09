@@ -17,9 +17,9 @@ required_files: an owned PC install of Subnautica
 known_bugs: []
 images:
   - game: Subnautica
-    file: images/submersedvr/subnautica.jpg
-    credit: Subnautica store art
-    source_url: https://store.steampowered.com/app/264710/
+    file: images/submersedvr/subnautica.png
+    credit: Subnautica grid by ABH20 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/321609
 reviews:
   - title: Subnautica VR Just Got a Massive Upgrade (And It’s Incredible)
     channel: Gamertag VR

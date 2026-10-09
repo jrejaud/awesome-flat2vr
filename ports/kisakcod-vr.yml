@@ -23,8 +23,8 @@ notes: Source-based OpenXR VR conversion built on the KisakCOD engine mod; first
 images:
   - game: "Call of Duty 4: Modern Warfare (2007)"
     file: images/kisakcod-vr/call-of-duty-4-modern-warfare.jpg
-    credit: "Call of Duty® 4: Modern Warfare® (2007) store art"
-    source_url: https://store.steampowered.com/app/7940/
+    credit: "Call of Duty 4: Modern Warfare grid by Moohoo (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/848587
 reviews:
   - title: "Call of Duty 4: Modern Warfare VR Performance - VR Mod with 6DOF / Meta Quest 3 + RTX 4080 Super"
     channel: NotAGameAddict

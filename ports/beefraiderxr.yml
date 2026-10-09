@@ -18,8 +18,8 @@ known_bugs: []
 images:
   - game: Tomb Raider (1996)
     file: images/beefraiderxr/tomb-raider.jpg
-    credit: Tomb Raider I-III Remastered Starring Lara Croft store art
-    source_url: https://store.steampowered.com/app/2478970/
+    credit: Tomb Raider grid by apfelspeier (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/678968
 reviews:
   - title: Become Lara Croft In Tomb Raider 1996 On Meta Quest - Beefraider XR
     channel: UploadVR

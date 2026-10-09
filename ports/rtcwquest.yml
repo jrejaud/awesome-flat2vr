@@ -17,9 +17,9 @@ required_files: main .pk3 files from an owned PC copy of Return to Castle Wolfen
 known_bugs: []
 images:
   - game: Return to Castle Wolfenstein
-    file: images/rtcwquest/return-to-castle-wolfenstein.jpg
-    credit: Return to Castle Wolfenstein store art
-    source_url: https://store.steampowered.com/app/9010/
+    file: images/rtcwquest/return-to-castle-wolfenstein.png
+    credit: Return to Castle Wolfenstein grid by scandro1d (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/793491
 reviews:
   - title: Return to Castle Wolfenstein VR Oculus Quest 2 Review - A True Golden Oldie | Pure Play TV
     channel: Pure Play TV

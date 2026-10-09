@@ -20,9 +20,9 @@ known_bugs: []
 notes: Built on Ship of Harkinian with OpenXR on GLES; runs natively on-headset with no PC required.
 images:
   - game: "The Legend of Zelda: Ocarina of Time"
-    file: images/oot-vr/the-legend-of-zelda-ocarina-of-time.jpg
-    credit: Reallycoolguy55
-    source_url: https://www.youtube.com/watch?v=Y9PKeWhd6as
+    file: images/oot-vr/the-legend-of-zelda-ocarina-of-time.png
+    credit: "The Legend of Zelda: Ocarina of Time grid by Argorath (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/190809
 reviews:
   - title: Zelda OoT VR! Quest 2/3 Standalone
     channel: Reallycoolguy55

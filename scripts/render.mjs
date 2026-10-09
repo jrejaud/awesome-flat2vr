@@ -20,7 +20,7 @@ export function rows(ports) {
 export function render(ports) {
   const lines = rows(ports).map(({ game, port: p, image }) =>
     [
-      `${image ? `<img src="${image.file}" width="160" alt="${attr(game)}"><br>` : ''}**${cell(game)}**`,
+      `${image ? `<img src="${image.file}" width="300" alt="${attr(game)}"><br>` : ''}**${cell(game)}**`,
       `[${cell(p.name)}](${p.source_url})`,
       PLATFORM[p.platform],
       p.known_bugs?.length

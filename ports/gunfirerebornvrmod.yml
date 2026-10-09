@@ -20,9 +20,9 @@ known_bugs: []
 notes: Fork of PureDark's original Gunfire Reborn VR mod; optional haptics add-on by Astienth referenced separately.
 images:
   - game: Gunfire Reborn
-    file: images/gunfirerebornvrmod/gunfire-reborn.jpg
-    credit: Gunfire Reborn store art
-    source_url: https://store.steampowered.com/app/1217060/
+    file: images/gunfirerebornvrmod/gunfire-reborn.png
+    credit: Gunfire Reborn grid by CheeseyHR (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/314234
 reviews:
   - title: Gunfire Reborn Gameplay Feels Made For VR Thanks To This New Gunfire Reborn VR Mod! -Ian's VR Corner
     channel: Eurogamer

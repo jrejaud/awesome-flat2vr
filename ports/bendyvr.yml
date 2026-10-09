@@ -17,9 +17,9 @@ required_files: an owned PC install of Bendy and the Ink Machine
 known_bugs: []
 images:
   - game: Bendy and the Ink Machine
-    file: images/bendyvr/bendy-and-the-ink-machine.jpg
-    credit: Bendy and the Ink Machine store art
-    source_url: https://store.steampowered.com/app/622650/
+    file: images/bendyvr/bendy-and-the-ink-machine.png
+    credit: Bendy and the Ink Machine grid by lowpolyjea (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/428760
 reviews:
   - title: Bendy and the Ink Machine VR | Full Game Walkthrough | No Commentary
     channel: 99TH VR

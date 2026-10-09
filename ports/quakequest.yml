@@ -18,8 +18,8 @@ known_bugs: []
 images:
   - game: Quake
     file: images/quakequest/quake.jpg
-    credit: Quake store art
-    source_url: https://store.steampowered.com/app/2310/
+    credit: Quake grid by BadYesterday (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/429796
 reviews:
   - title: Oculus Quest // QUAKE VR / Play a classic in 6dof VR
     channel: RaMarcus

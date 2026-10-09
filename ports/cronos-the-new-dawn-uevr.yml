@@ -20,9 +20,9 @@ known_bugs:
 notes: UEVR profile requiring the latest UEVR nightly build; built on jbusfield's UEVR helper libs.
 images:
   - game: "Cronos: The New Dawn"
-    file: images/cronos-the-new-dawn-uevr/cronos-the-new-dawn.jpg
-    credit: "Cronos: The New Dawn store art"
-    source_url: https://store.steampowered.com/app/2101960/
+    file: images/cronos-the-new-dawn-uevr/cronos-the-new-dawn.png
+    credit: "Cronos: The New Dawn grid by CluckenDip (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/678136
 reviews:
   - title: "Cronos: The New Dawn is NEXT LEVEL in VR with UEVR!"
     channel: Paradise Decay

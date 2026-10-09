@@ -20,9 +20,9 @@ known_bugs: []
 notes: Supports Meta Quest Link and Virtual Desktop (VDXR) or SteamVR as the OpenXR runtime; a v1.4.9 pre-release for the upcoming Patch 1.0.6 is also mentioned but untested.
 images:
   - game: Scrap Mechanic
-    file: images/scrap-mechanic-native-vr/scrap-mechanic.jpg
-    credit: Scrap Mechanic store art
-    source_url: https://store.steampowered.com/app/387990/
+    file: images/scrap-mechanic-native-vr/scrap-mechanic.png
+    credit: Scrap Mechanic grid by MC_GamingYT (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/694594
 reviews:
   - title: How To Install the Scrap Mechanic VR Mod
     channel: U W I P

@@ -21,9 +21,9 @@ known_bugs:
 notes: SteamVR/OpenVR only, head tracking with experimental head aiming while ADS; no motion controller support yet.
 images:
   - game: Grand Theft Auto IV
-    file: images/grand-theft-auto-iv-vr/grand-theft-auto-iv.jpg
-    credit: "Grand Theft Auto IV: The Complete Edition store art"
-    source_url: https://store.steampowered.com/app/12210/
+    file: images/grand-theft-auto-iv-vr/grand-theft-auto-iv.png
+    credit: "Grand Theft Auto IV: The Complete Edition grid by Maxine (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/164918
 reviews:
   - title: Grand Theft Auto IV VR Performance / New VR Mod / Meta Quest 3 + RTX 4080 Super
     channel: NotAGameAddict

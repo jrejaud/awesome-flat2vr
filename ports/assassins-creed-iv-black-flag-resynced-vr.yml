@@ -21,9 +21,9 @@ known_bugs:
 notes: Preserves third-person structure; uses head aim for throwable targeting rather than tracked-hand combat.
 images:
   - game: "Assassin's Creed IV: Black Flag"
-    file: images/assassins-creed-iv-black-flag-resynced-vr/assassin-s-creed-iv-black-flag.jpg
-    credit: Assassin’s Creed® IV Black Flag™ store art
-    source_url: https://store.steampowered.com/app/242050/
+    file: images/assassins-creed-iv-black-flag-resynced-vr/assassin-s-creed-iv-black-flag.png
+    credit: "Assassin's Creed IV: Black Flag grid by apfelspeier (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/786824
 reviews:
   - title: Assassin's Creed® IV Black Flag|part 1| The virtual reality
     channel: BrothersGanes

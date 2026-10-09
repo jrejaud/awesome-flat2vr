@@ -21,9 +21,9 @@ known_bugs: []
 notes: Native OpenXR implementation (no UEVR dependency); author tested with Black Edition on Steam, Quest 2 and Virtual Desktop, though broader OpenXR headset/runtime support is expected but less proven.
 images:
   - game: PainKiller
-    file: images/painkiller-vr-mod/painkiller.jpg
-    credit: Painkiller store art
-    source_url: https://store.steampowered.com/app/2300120/
+    file: images/painkiller-vr-mod/painkiller.png
+    credit: Painkiller grid by YMCrank (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/761033
   - game: "PainKiller: Battle Out of Hell"
     file: images/painkiller-vr-mod/painkiller-battle-out-of-hell.png
     credit: FluorescentHallucinogen/painkiller-vr-mod
@@ -32,7 +32,7 @@ reviews:
   - title: VR Mods are The FUTURE OF VR GAMING! This PAINKILLER VR Mod is AWESOME
     channel: Beardo Benjo
     url: https://www.youtube.com/watch?v=IJg0zG5ViEM
-  - title: "Painkiller VR Mod: \"Hellish\" Old-School in VR"
+  - title: 'Painkiller VR Mod: "Hellish" Old-School in VR'
     channel: Pavel419
     url: https://www.youtube.com/watch?v=s469AllzjEc
 added_by: bot

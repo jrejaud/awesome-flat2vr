@@ -17,9 +17,9 @@ known_bugs: []
 notes: Distributed through the Multiverse VR Hub (MVRH); adds native OpenXR support with four view modes and controller rumble. Quest standalone support listed as coming soon.
 images:
   - game: Dr. Robotnik's Ring Racers
-    file: images/dr-robotniks-ring-racers-vr/dr-robotnik-s-ring-racers.jpg
-    credit: legaiaflame
-    source_url: https://www.youtube.com/watch?v=zZoC6sKsX9U
+    file: images/dr-robotniks-ring-racers-vr/dr-robotnik-s-ring-racers.png
+    credit: Dr. Robotnik’s Ring Racers grid by ZeeCat1 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/437666
 reviews:
   - title: Sonic Robo Blast 2 and Dr. Robotnik's Ring Racers VR (RaYRoD TV MODS) Gameplay Showcase!
     channel: legaiaflame

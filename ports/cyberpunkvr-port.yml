@@ -19,8 +19,8 @@ notes: Renders a genuine second-eye engine view instead of reconstructing stereo
 images:
   - game: Cyberpunk 2077
     file: images/cyberpunkvr-port/cyberpunk-2077.jpg
-    credit: Cyberpunk 2077 store art
-    source_url: https://store.steampowered.com/app/1091500/
+    credit: Cyberpunk 2077 grid by CluckenDip (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/390742
 reviews:
   - title: Cyberpunk 2077 VR Just Keeps Getting Better!
     channel: Beardo Benjo

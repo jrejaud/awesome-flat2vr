@@ -24,9 +24,9 @@ known_bugs: []
 notes: Native OpenXR fork of the X-Ray engine rather than an injector; features controller IK, physical grabs/throws, body zones and world-space menus.
 images:
   - game: S.T.A.L.K.E.R. Anomaly
-    file: images/s-t-a-l-k-e-r-anomaly-vr/s-t-a-l-k-e-r-anomaly.jpg
-    credit: Anomaly VR (Андрей MarsyApp)
-    source_url: https://www.youtube.com/watch?v=IIQGMCltW2M
+    file: images/s-t-a-l-k-e-r-anomaly-vr/s-t-a-l-k-e-r-anomaly.png
+    credit: "S.T.A.L.K.E.R.: Anomaly grid by Man_of_Krieg (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/819007
 reviews:
   - title: Stalker Anomaly VR mod
     channel: Anomaly VR (Андрей MarsyApp)

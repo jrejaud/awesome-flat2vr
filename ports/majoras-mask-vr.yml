@@ -21,9 +21,9 @@ known_bugs:
 notes: Author states the mod was built using AI-assisted ('vibe coding') development.
 images:
   - game: "The Legend of Zelda: Majora's Mask"
-    file: images/majoras-mask-vr/the-legend-of-zelda-majora-s-mask.jpg
-    credit: FullDiveGames
-    source_url: https://www.youtube.com/watch?v=LC08Rpj-5xc
+    file: images/majoras-mask-vr/the-legend-of-zelda-majora-s-mask.png
+    credit: "The Legend of Zelda: Majora's Mask grid by sonicpokemonguy (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/176496
 reviews:
   - title: Majora's Mask VR Trailer (PCVR and Quest) OUT NOW
     channel: FullDiveGames

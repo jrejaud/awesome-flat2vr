@@ -18,9 +18,9 @@ known_bugs: []
 notes: Experimental, AI-coded SteamVR injector that renders tracked-controller hands/items and centers the VR camera via an AFW reprojection dashboard.
 images:
   - game: Hytale
-    file: images/hytale-vr-injector/hytale.jpg
-    credit: Muntan
-    source_url: https://www.youtube.com/watch?v=Kg0P_mDJoTo
+    file: images/hytale-vr-injector/hytale.png
+    credit: Hytale grid by Excentrian (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/677657
 reviews:
   - title: Exploring Hytale in VR!
     channel: Muntan

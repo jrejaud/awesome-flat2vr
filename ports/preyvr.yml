@@ -22,9 +22,9 @@ known_bugs: []
 notes: Built on id Tech 4 Quest-porting work from the Doom3Quest/Quake2Quest lineage by lvonasek; v1.2.4 adds Pico 4 support, weapon wheel, and a hidden cheat menu.
 images:
   - game: Prey (2006)
-    file: images/preyvr/prey.jpg
-    credit: Prey store art
-    source_url: https://store.steampowered.com/app/480490/
+    file: images/preyvr/prey.png
+    credit: Prey grid by Kynd (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/228924
 reviews:
   - title: Prey 2006 Quest/Pico Standalone VR port
     channel: VRified Games

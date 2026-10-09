@@ -19,9 +19,9 @@ known_bugs: []
 notes: Works by hooking IDXGISwapChain::Present, APlayerController::eventPlayerCalcView, and the D3D11 draw path on the game's modified Unreal 2.5 engine.
 images:
   - game: BioShock Remastered
-    file: images/bioshock-remastered-vr/bioshock-remastered.jpg
-    credit: BioShock™ Remastered store art
-    source_url: https://store.steampowered.com/app/409710/
+    file: images/bioshock-remastered-vr/bioshock-remastered.png
+    credit: BioShock Remastered grid by Vycter (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/475030
 reviews:
   - title: You Can PLAY Bioshock Remastered in VR BUT Should YOU?
     channel: Mac In VR

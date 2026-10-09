@@ -18,9 +18,9 @@ known_bugs: []
 notes: Headset-and-gamepad VR conversion via Luke Ross's R.E.A.L. framework with AER v2 and DLSS support; not a tracked-hand or manual-reload mod.
 images:
   - game: 007 First Light
-    file: images/007-first-light-r-e-a-l-vr/007-first-light.jpg
-    credit: 007 First Light store art
-    source_url: https://store.steampowered.com/app/3768760/
+    file: images/007-first-light-r-e-a-l-vr/007-first-light.png
+    credit: 007 First Light grid by lrnolivia (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/829699
 reviews:
   - title: 007 First Light VR Performance / R.E.A.L. VR Mod / Meta Quest 3 + RTX 4080 Super
     channel: NotAGameAddict

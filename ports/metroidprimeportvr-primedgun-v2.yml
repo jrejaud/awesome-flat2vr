@@ -23,9 +23,9 @@ known_bugs: []
 notes: Successor to the Dolphin-based PrimedGun v1; v2 drops the emulator and builds the game natively from the PrimeDecomp decompilation via Odran's Metroid Prime native port, with VR controls added by @Nobbie248.
 images:
   - game: Metroid Prime
-    file: images/metroidprimeportvr-primedgun-v2/metroid-prime.jpg
-    credit: Beardo Benjo
-    source_url: https://www.youtube.com/watch?v=iWS_krcirCw
+    file: images/metroidprimeportvr-primedgun-v2/metroid-prime.png
+    credit: Metroid Prime grid by alfiehicks (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/418999
 reviews:
   - title: METROID PRIME VR is one of the BEST Dolphin VR experiences! // Quest 2 Airlink Gameplay
     channel: Beardo Benjo

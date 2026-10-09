@@ -18,9 +18,9 @@ known_bugs: []
 notes: Game-specific UEVR layer built on the UEVR framework; author states it works in multiplayer and is labeled early access.
 images:
   - game: "Halo: Campaign Evolved"
-    file: images/halo-campaign-evolved-uevr/halo-campaign-evolved.jpg
-    credit: "Halo: Campaign Evolved store art"
-    source_url: https://store.steampowered.com/app/2806050/
+    file: images/halo-campaign-evolved-uevr/halo-campaign-evolved.png
+    credit: "Halo: Campaign Evolved grid by SadSeagull (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/811780
 reviews:
   - title: "Halo: Campaign Evolved in VR now with Motion Controls!"
     channel: LunchAndVR

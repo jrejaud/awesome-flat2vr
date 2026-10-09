@@ -21,9 +21,9 @@ known_bugs: []
 notes: Built on the OpenCE community engine; also ships a flat Android build.
 images:
   - game: "Halo: Combat Evolved"
-    file: images/halo-ce-quest-vr-android/halo-combat-evolved.jpg
-    credit: "Halo: Combat Evolved Anniversary store art"
-    source_url: https://store.steampowered.com/app/1064221/
+    file: images/halo-ce-quest-vr-android/halo-combat-evolved.png
+    credit: "Halo: Combat Evolved grid by ender-blade (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/34594
 reviews: []
 added_by: bot
 discovered_via: https://github.com/moistman42069/haloce-quest-vr

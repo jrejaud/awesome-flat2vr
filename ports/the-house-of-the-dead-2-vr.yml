@@ -23,9 +23,9 @@ known_bugs:
 notes: Fork of the Flycast Dreamcast/NAOMI emulator; no game data included.
 images:
   - game: The House of the Dead 2
-    file: images/the-house-of-the-dead-2-vr/the-house-of-the-dead-2.jpg
-    credit: Retroid
-    source_url: https://www.youtube.com/watch?v=A7b83PHgRB8
+    file: images/the-house-of-the-dead-2-vr/the-house-of-the-dead-2.png
+    credit: The House of the Dead 2 grid by elgamer242 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/33449
   - game: The Maze of the Kings
     file: images/the-house-of-the-dead-2-vr/the-maze-of-the-kings.png
     credit: mikermak/hotd2-vr

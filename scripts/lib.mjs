@@ -11,6 +11,10 @@ const ajv = new Ajv2020({ allErrors: true, strict: true });
 addFormats(ajv);
 const check = ajv.compile(schema);
 
+// Repos that ship many different ports, one per game. Kept here (not in discover/core.mjs)
+// so the validator has no dependency on the bot; core re-exports it.
+export const HUB_REPOS = new Set(['github.com/rayrod-tv/mvrh']);
+
 // Validate one parsed entry. Returns [] when valid, else human-readable errors.
 export function validateEntry(data) {
   if (check(data)) return data.version_date > data.last_checked ? ['version_date is after last_checked'] : [];
@@ -76,6 +80,18 @@ export function loadPorts(dir = join(ROOT, 'ports'), imageRoot = ROOT) {
     const key = p.name.toLowerCase();
     if (seen.has(key)) errors.push(`ports/${p.slug}.yml: duplicate name '${p.name}' (also ports/${seen.get(key)}.yml)`);
     seen.set(key, p.slug);
+  }
+  // Two entries for one repo are the same port filed twice (except hub repos that ship one
+  // port per game, like RaYRoD-TV/MVRH).
+  const repos = new Map();
+  for (const p of ports) {
+    const m = /^https?:\/\/(?:www\.)?(github\.com|gitlab\.com|codeberg\.org)\/([^/?#]+\/[^/?#]+)/i.exec(p.download_url);
+    if (!m) continue;
+    const repo = `${m[1]}/${m[2]}`.toLowerCase().replace(/\.git$/, '');
+    if (HUB_REPOS.has(repo)) continue;
+    if (repos.has(repo))
+      errors.push(`ports/${p.slug}.yml: same download repo as ports/${repos.get(repo)}.yml (${repo}); merge them`);
+    repos.set(repo, p.slug);
   }
   // Unreferenced image files are stale leftovers (only checked for the real index).
   if (dir === join(ROOT, 'ports') && existsSync(join(imageRoot, 'images'))) {

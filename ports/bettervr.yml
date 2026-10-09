@@ -22,9 +22,9 @@ known_bugs:
 notes: Does not work under Linux/Wine/Proton; Windows only.
 images:
   - game: "The Legend of Zelda: Breath of the Wild"
-    file: images/bettervr/the-legend-of-zelda-breath-of-the-wild.jpg
-    credit: GSpider Extras
-    source_url: https://www.youtube.com/watch?v=RiqP97-nGbw
+    file: images/bettervr/the-legend-of-zelda-breath-of-the-wild.png
+    credit: "The Legend of Zelda: Breath of the Wild grid by LowV (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/844977
 reviews:
   - title: This Breath of the Wild VR Mod Blew Me Away - BetterVR Mod
     channel: GSpider Extras

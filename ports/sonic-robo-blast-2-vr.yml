@@ -17,9 +17,9 @@ known_bugs: []
 notes: Distributed as a patch installed via the Multiverse VR Hub (MVRH) launcher; a Quest standalone build is listed as coming soon.
 images:
   - game: Sonic Robo Blast 2
-    file: images/sonic-robo-blast-2-vr/sonic-robo-blast-2.jpg
-    credit: Team Beef VR Game Ports
-    source_url: https://www.youtube.com/watch?v=3Dcczzud7Tc
+    file: images/sonic-robo-blast-2-vr/sonic-robo-blast-2.png
+    credit: Sonic Robo Blast 2 grid by Nedow40 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/65020
 reviews:
   - title: Sonic Robo Blast 2 in VR with QuestZDoomZ on Quest.
     channel: Team Beef VR Game Ports
