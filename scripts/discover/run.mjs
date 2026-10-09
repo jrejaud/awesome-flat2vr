@@ -41,7 +41,7 @@ const flag = (f) => args.includes(f);
 const opt = (f, d) => (args.includes(f) ? args[args.indexOf(f) + 1] : d);
 const DRY = flag('--dry-run');
 const PR = flag('--pr') && !DRY;
-const SOURCES = opt('--sources', 'gists,github,sidequest,reddit').split(',').filter(Boolean);
+const SOURCES = opt('--sources', 'gists,github,steam,sidequest,discord,youtube,reddit').split(',').filter(Boolean);
 const MAX_EXTRACT = Number(opt('--max-extract', '25'));
 const STATE_DIR = process.env.FLAT2VR_STATE || join(homedir(), '.local/state/flat2vr-bot');
 const SEEN_FILE = join(STATE_DIR, 'seen.json');

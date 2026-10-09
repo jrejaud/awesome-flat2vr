@@ -295,7 +295,150 @@ export async function reddit({ limit = 50, bin = process.env.REDDIT_BIN || 'redd
   return out;
 }
 
-export const COLLECTORS = { gists: tateGists, github: githubSearch, sidequest, reddit };
+// ---- Steam: free VR mods published as their own store app (Half-Life 2: VR Mod) ---------
+// Store search is fuzzy, so a hit only becomes a candidate when appdetails says it is a
+// `mod` of a base game, or its name says VR mod/port.
+const STEAM_TERMS = ['VR Mod', 'VR Port', 'VR Edition', 'VR Conversion', 'Flat2VR'];
+
+export async function steam() {
+  const ids = new Map();
+  for (const term of STEAM_TERMS) {
+    const res = await fetchRetry(
+      `https://store.steampowered.com/api/storesearch/?term=${encodeURIComponent(term)}&cc=us&l=en`,
+      { headers: { 'User-Agent': UA } },
+    );
+    if (!res.ok) throw new Error(`Steam search ${term}: HTTP ${res.status}`);
+    for (const i of (await res.json()).items ?? []) ids.set(i.id, i.name);
+  }
+  const out = [];
+  for (const [id, name] of ids) {
+    const res = await fetchRetry(`https://store.steampowered.com/api/appdetails?appids=${id}&cc=us&l=en`, {
+      headers: { 'User-Agent': UA },
+    });
+    if (!res.ok) continue;
+    const a = (await res.json())?.[id]?.data;
+    if (!a) continue;
+    if (!(a.type === 'mod' || a.fullgame || /\bVR (mod|port)\b/i.test(name))) continue;
+    const page = `https://store.steampowered.com/app/${id}`;
+    const text = [
+      `Steam store app "${a.name}" (${page}), type: ${a.type}`,
+      a.fullgame ? `Requires base game: ${a.fullgame.name} (app ${a.fullgame.appid})` : '',
+      `Developers: ${(a.developers ?? []).join(', ')}  Publishers: ${(a.publishers ?? []).join(', ')}`,
+      `Release date: ${a.release_date?.date ?? ''}  Price: ${a.is_free ? 'free' : (a.price_overview?.final_formatted ?? '')}`,
+      `Categories: ${(a.categories ?? []).map((c) => c.description).join(', ')}`,
+      `Website: ${a.website ?? ''}`,
+      `Description: ${(a.short_description ?? '').slice(0, 1500)}`,
+    ].join('\n');
+    out.push({
+      id: `steam:${id}`,
+      source: 'steam',
+      source_url: page,
+      title: a.name,
+      date: '',
+      text,
+      urls: [page, ...(a.website ? [a.website] : [])],
+    });
+  }
+  return out;
+}
+
+// ---- Flat2VR Discord, read through Jordan's Beeper bridge -------------------------------
+// Only these channels are bridged (the per-port channels are not); #general is too chatty.
+// Read-only: the bot never posts to Discord.
+const DISCORD_CHANNELS = {
+  '#announcements': '!FHmAv8i9OMpDG7wI6snR:beeper.local',
+  '#videos': '!DJveiF0EhmDFyZrI4HQd:beeper.local',
+  '#xrshowcase': '!YOmCer3brPDXzgiLWpPF:beeper.local',
+  '#x-news': '!ignhehyffudywk3gi70R:beeper.local',
+};
+const stripHtml = (s) =>
+  String(s ?? '')
+    .replace(/<a [^>]*href="([^"]+)"[^>]*>[^<]*<\/a>/g, '$1')
+    .replace(/<[^>]+>/g, '')
+    .replace(/&amp;/g, '&');
+
+export async function discord({ limit = 100, bin = process.env.BEEPER_BIN || 'beeper', sinceDays = 7 } = {}) {
+  const cutoff = new Date(Date.now() - sinceDays * 864e5).toISOString();
+  const out = [];
+  for (const [name, chat] of Object.entries(DISCORD_CHANNELS)) {
+    let msgs;
+    try {
+      msgs = JSON.parse(
+        execFileSync(bin, ['messages', 'list', '--chat', chat, '--limit', String(limit), '--json'], {
+          encoding: 'utf8',
+          timeout: 120e3,
+          maxBuffer: 32 << 20,
+        }),
+      ).data;
+    } catch (e) {
+      throw new Error(`beeper ${name}: ${e.message.split('\n')[0]}`, { cause: e });
+    }
+    for (const m of msgs ?? []) {
+      if (m.isDeleted || m.timestamp < cutoff) continue;
+      const body = stripHtml(m.text);
+      const links = (m.links ?? []).map((l) => `${l.url} — ${l.title ?? ''}: ${(l.summary ?? '').slice(0, 600)}`);
+      const text = `${body}\n${links.join('\n')}`;
+      if (!RELEASE_HINT.test(text) || !(m.links?.length || extractUrls(body).length)) continue;
+      out.push({
+        id: `discord:${chat}:${m.id}`,
+        source: `Flat2VR Discord ${name}`,
+        source_url: `https://discord.gg/flat2vr`,
+        title: body.slice(0, 80),
+        date: m.timestamp.slice(0, 10),
+        text: `Flat2VR Discord ${name}, posted by ${m.senderName} on ${m.timestamp.slice(0, 10)}:\n${text}`,
+        urls: [
+          ...new Set([...(m.links ?? []).map((l) => l.url), ...extractUrls(body), ...extractUrls(links.join(' '))]),
+        ],
+      });
+    }
+  }
+  return out;
+}
+
+// ---- YouTube: VR creators covering new Flat2VR mods ---------------------------------------
+// Search gives truncated descriptions, so each hit is re-read with `youtube video` for the
+// full description, which is where creators put the mod's download link.
+const YT_QUERIES = ['flat2vr', 'VR mod release', 'UEVR mod', 'flat to VR mod', 'Quest standalone port'];
+
+export async function youtube({ bin = process.env.YOUTUBE_BIN || 'youtube', sinceDays = 7, limit = 15 } = {}) {
+  const after = new Date(Date.now() - sinceDays * 864e5).toISOString().replace(/\.\d+Z$/, 'Z');
+  const run = (a) => JSON.parse(execFileSync(bin, a, { encoding: 'utf8', timeout: 120e3, maxBuffer: 16 << 20 }));
+  const ids = new Set();
+  for (const q of YT_QUERIES) {
+    let res;
+    try {
+      res = run(['search-videos', q, '--limit', String(limit), '--order', 'date', '--published-after', after]);
+    } catch (e) {
+      throw new Error(`youtube search ${q}: ${e.message.split('\n')[0]}`, { cause: e });
+    }
+    for (const it of res.items ?? []) if (it.id?.videoId) ids.add(it.id.videoId);
+  }
+  const out = [];
+  for (const id of ids) {
+    let v;
+    try {
+      v = run(['video', id]);
+    } catch {
+      continue;
+    }
+    const sn = v.items?.[0]?.snippet ?? v.snippet ?? v;
+    const url = `https://www.youtube.com/watch?v=${id}`;
+    const desc = String(sn.description ?? '');
+    if (!extractUrls(desc).length) continue; // no link to the mod itself, nothing to index
+    out.push({
+      id: `youtube:${id}`,
+      source: 'youtube',
+      source_url: url,
+      title: sn.title ?? id,
+      date: String(sn.publishedAt ?? '').slice(0, 10),
+      text: `YouTube video "${sn.title}" by ${sn.channelTitle} (${url}), published ${String(sn.publishedAt ?? '').slice(0, 10)}\nDescription:\n${desc.slice(0, 3000)}`,
+      urls: extractUrls(desc),
+    });
+  }
+  return out;
+}
+
+export const COLLECTORS = { gists: tateGists, github: githubSearch, steam, sidequest, discord, youtube, reddit };
 
 // GitHub repo a candidate points at, for enrichment and dedupe.
 export const candidateRepo = (c) => c.urls.map(githubRepo).find(Boolean) ?? null;

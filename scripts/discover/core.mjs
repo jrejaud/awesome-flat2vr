@@ -118,6 +118,8 @@ export function urlIsGrounded(url, groundUrls) {
 }
 
 const today = () => new Date().toISOString().slice(0, 10);
+const NOT_A_DOWNLOAD =
+  /^https?:\/\/(www\.|m\.)?(youtube\.com|youtu\.be|discord\.(gg|com)|reddit\.com|x\.com|twitter\.com)\//i;
 
 // Model output → schema entry. Returns { entry } or { error }. The bot-owned fields
 // (added_by, discovered_via, last_checked) are set here, never taken from the model.
@@ -143,6 +145,9 @@ export function finalizeEntry(raw, candidate, { date = today() } = {}) {
   const ground = [...(candidate.urls ?? []), candidate.source_url];
   // A source drop or forum post has no separate download page: the source page is where you get it.
   if (!entry.download_url && entry.source_url) entry.download_url = entry.source_url;
+  // A video, chat or forum-thread link is coverage, not somewhere to get the port: no release yet.
+  if (NOT_A_DOWNLOAD.test(entry.download_url ?? ''))
+    return { error: `download_url ${entry.download_url} is not a download page (unreleased?)` };
   // A pinned release-tag link goes stale on the next release; the bump check keeps `version` current.
   const tagged = /^(https:\/\/github\.com\/[^/]+\/[^/]+)\/releases\/tag\/[^/]+$/i.exec(entry.download_url ?? '');
   if (tagged) entry.download_url = `${tagged[1]}/releases/latest`;

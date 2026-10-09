@@ -34,5 +34,5 @@ jobs:
       - name: Link check
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --no-progress --max-retries 3 --accept 200,206,429 --exclude 'discord\.(gg|com)' --exclude 'patreon\.com' --exclude 'nexusmods\.com' README.md 'ports/*.yml'
+          args: --no-progress --max-retries 3 --accept 200,206,403,429 --exclude 'discord\.(gg|com)' README.md 'ports/*.yml'
           fail: true
