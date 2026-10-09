@@ -71,6 +71,6 @@ last_checked: '2026-02-01' # when someone last confirmed the version
 
 ## Discovery bot
 
-A daily bot (`scripts/discover/`) looks for new ports and new releases in Elliott Tate's Flat2VR release reports, GitHub, SideQuest and Reddit. It opens or updates one rolling PR from the `bot/discovery` branch. Its entries are marked `added_by: bot`, and `discovered_via` credits where each one was found. It only links URLs that appear in the source material, and every entry must pass the schema before it is proposed.
+A daily bot (`scripts/discover/`) looks for new ports and new releases in Elliott Tate's Flat2VR release reports, GitHub, SideQuest and Reddit. It commits new and updated entries straight to `main` (no PR). Its entries are marked `added_by: bot`, and `discovered_via` credits where each one was found. It only links URLs that appear in the source material, and every entry must pass `npm run validate` locally before the bot commits it.
 
 Run it locally without writing anything: `node scripts/discover/run.mjs --dry-run --sources gists --max-extract 3`. This needs `gh` and `claude` on the PATH.

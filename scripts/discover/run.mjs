@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 // Daily Flat2VR discovery: version bumps for indexed GitHub ports + new ports from
-// Tate's release-report gists, GitHub, SideQuest and Reddit, proposed as one rolling PR.
+// Tate's release-report gists, GitHub, SideQuest and Reddit, committed straight to main.
 //
-//   node scripts/discover/run.mjs [--dry-run] [--pr] [--notify]
+//   node scripts/discover/run.mjs [--dry-run] [--commit] [--notify]
 //        [--sources gists,github,sidequest,reddit] [--max-extract N] [--no-bumps]
 //
 // --dry-run   discover + extract, print what would change, write nothing (state included)
-// --pr        rebuild branch bot/discovery from origin/main (+ the open PR's pending entries),
-//             commit, force-push, open/update the PR. Without it, files are written to the
+// --commit    build, validate, commit the new/bumped entries to main and push origin main.
+//             (--pr is kept as a deprecated alias.) Without it, files are written to the
 //             working tree only.
 // --notify    tg-fyi a summary when something was added or bumped (silent otherwise)
 // Env: FLAT2VR_STATE (seen-state dir, default ~/.local/state/flat2vr-bot),
@@ -16,7 +16,6 @@ import { execFileSync } from 'node:child_process';
 import { existsSync, mkdirSync, readFileSync, writeFileSync, appendFileSync, rmSync } from 'node:fs';
 import { join } from 'node:path';
 import { homedir } from 'node:os';
-import yaml from 'js-yaml';
 import { loadPorts, ROOT } from '../lib.mjs';
 import {
   applyBump,
@@ -33,14 +32,13 @@ import { enrich } from '../enrich.mjs';
 import { COLLECTORS, candidateRepo, deadLinks, latestRelease, repoContext } from './sources.mjs';
 import { extract } from './extract.mjs';
 
-const BRANCH = 'bot/discovery';
 // Verdicts worth another look on a later run (a transient failure, or a model miss the gate caught).
 const RETRY = new Set(['error', 'invalid']);
 const args = process.argv.slice(2);
 const flag = (f) => args.includes(f);
 const opt = (f, d) => (args.includes(f) ? args[args.indexOf(f) + 1] : d);
 const DRY = flag('--dry-run');
-const PR = flag('--pr') && !DRY;
+const COMMIT = (flag('--commit') || flag('--pr')) && !DRY;
 const SOURCES = opt('--sources', 'gists,github,steam,sidequest,discord,youtube,reddit').split(',').filter(Boolean);
 const MAX_EXTRACT = Number(opt('--max-extract', '25'));
 const STATE_DIR = process.env.FLAT2VR_STATE || join(homedir(), '.local/state/flat2vr-bot');
@@ -74,63 +72,13 @@ function saveSeen(seen) {
   writeFileSync(SEEN_FILE, JSON.stringify(seen, null, 1));
 }
 
-// Branch = origin/main + every ports/ file the still-open bot PR changes, so pending
-// entries are deduped against and carried forward instead of re-proposed or dropped.
-function prepareBranch() {
+// Start every run from a clean origin/main working tree so new entries are deduped
+// against what is already published and committed straight on top of it.
+function prepareMain() {
   git('fetch', 'origin', '--prune');
-  const remoteBranch = git('ls-remote', '--heads', 'origin', BRANCH);
-  let carried = [];
-  if (remoteBranch) {
-    const open = JSON.parse(sh('gh', ['pr', 'list', '--head', BRANCH, '--state', 'open', '--json', 'number']));
-    git('fetch', 'origin', `${BRANCH}:refs/remotes/origin/${BRANCH}`);
-    if (open.length)
-      carried = git(
-        'diff',
-        '--name-only',
-        '--diff-filter=AM',
-        `origin/main...origin/${BRANCH}`,
-        '--',
-        'ports/',
-        'images/',
-      )
-        .split('\n')
-        .filter(Boolean);
-  }
-  git('checkout', '--force', '-B', BRANCH, 'origin/main');
+  git('checkout', '--force', '-B', 'main', 'origin/main');
   for (const f of git('ls-files', '--others', '--exclude-standard', 'ports/', 'images/').split('\n').filter(Boolean))
     rmSync(join(ROOT, f));
-  if (carried.length) git('checkout', `origin/${BRANCH}`, '--', ...carried);
-  return carried;
-}
-
-// Entries carried from the open PR are re-checked daily: a repo deleted since it was
-// proposed is dropped from the PR instead of failing its link check forever.
-async function pruneCarried(carried, changes) {
-  for (const f of carried) {
-    let d;
-    try {
-      d = yaml.load(readFileSync(join(ROOT, f), 'utf8'), { schema: yaml.JSON_SCHEMA });
-    } catch {
-      continue;
-    }
-    let dead;
-    try {
-      dead = await deadLinks(d);
-    } catch {
-      continue; // unknown is not dead
-    }
-    if (!dead.length) continue;
-    let onMain = true;
-    try {
-      git('cat-file', '-e', `origin/main:${f}`);
-    } catch {
-      onMain = false;
-    }
-    if (onMain) git('checkout', 'origin/main', '--', f);
-    else rmSync(join(ROOT, f));
-    changes.pruned.push({ file: f, dead });
-    log(`prune ${f}: dead link ${dead.join(' ')}`);
-  }
 }
 
 async function versionBumps(ports, changes) {
@@ -162,6 +110,24 @@ async function discover(ports, changes) {
   const index = buildIndex(ports);
   const taken = new Set(ports.map((p) => p.slug));
   const names = ports.map((p) => p.name);
+  // One-time legacy migration. The old flow proposed entries in a rolling PR; an entry
+  // recorded `added` could sit in a PR that was closed, never merged, so it is in seen-state
+  // as added yet never reached main — and `added` is never retried, so it would be suppressed
+  // forever. Clear those verdicts once so they are rediscovered and committed on this run.
+  // This runs exactly once (guarded by the _legacyHealed sentinel): from the direct-commit
+  // cutover on, rollbackAdded guarantees an `added` verdict means the port really is on main,
+  // so a port a maintainer later deletes stays deleted instead of being re-added.
+  if (!seen._legacyHealed) {
+    let healed = 0;
+    for (const [id, v] of Object.entries(seen))
+      if (id[0] !== '_' && v.result === 'added' && v.slug && !taken.has(v.slug)) {
+        delete seen[id];
+        healed++;
+      }
+    seen._legacyHealed = TODAY;
+    log(`heal  one-time legacy migration: cleared ${healed} added-but-unpublished verdict(s)`);
+    saveSeen(seen);
+  }
   const candidates = [];
   for (const s of SOURCES) {
     try {
@@ -257,6 +223,7 @@ async function discover(ports, changes) {
         url: entry.download_url,
       });
       seen[c.id] = { result: 'added', slug, at: TODAY };
+      changes.addedIds.push(c.id);
       log(`add   ${slug}: ${entry.name} (${entry.games.join(', ')}) via ${c.source}`);
       if (DRY) log(toYaml(entry));
     } catch (e) {
@@ -274,30 +241,12 @@ async function discover(ports, changes) {
   changes.extracted = extracted;
 }
 
-function prBody() {
-  const rows = git('diff', '--name-status', 'origin/main', '--', 'ports/')
-    .split('\n')
-    .filter(Boolean)
-    .map((l) => {
-      const [st, f] = l.split('\t');
-      const d = yaml.load(readFileSync(join(ROOT, f), 'utf8'), { schema: yaml.JSON_SCHEMA });
-      return st === 'A'
-        ? `| added | [${d.name}](${d.download_url}) | ${d.games.join(', ')} | ${d.version} | ${d.discovered_via} |`
-        : `| updated | [${d.name}](${d.download_url}) | ${d.games.join(', ')} | ${d.version} | ${d.discovered_via} |`;
-    });
-  return [
-    'Automated daily discovery run (Elliott Tate release reports, GitHub, SideQuest, Reddit).',
-    'Every entry is `added_by: bot` and credits the source in `discovered_via`. Please spot-check before merging.',
-    '',
-    '| change | port | game(s) | version | discovered via |',
-    '|---|---|---|---|---|',
-    ...rows,
-    '',
-    `Last run: ${TODAY}. Entries pending in this PR are carried forward by each run until it is merged or closed.`,
-  ].join('\n');
-}
-
-function publish() {
+// Build + validate, then commit the run's changes straight to main and push. No PR:
+// every entry is already `added_by: bot` and credits its source in `discovered_via`,
+// and `npm run validate` has to pass locally before the commit is made. If the push
+// fails anyway, the caller rolls this run's `added` verdicts back out of seen-state so
+// the entries are rediscovered next run instead of being suppressed forever.
+function commitToMain() {
   sh('npm', ['run', '-s', 'build']);
   sh('npm', ['run', '-s', 'validate']);
   git('add', 'ports', 'images', 'README.md', 'data');
@@ -311,34 +260,38 @@ function publish() {
     '-m',
     `bot: discovery run ${TODAY}`,
   );
-  git('push', '--force', 'origin', `${BRANCH}:${BRANCH}`);
-  const open = JSON.parse(sh('gh', ['pr', 'list', '--head', BRANCH, '--state', 'open', '--json', 'url']));
-  const body = prBody();
-  if (open.length) {
-    sh('gh', ['pr', 'edit', open[0].url, '--body', body]);
-    return open[0].url;
-  }
-  return sh('gh', [
-    'pr',
-    'create',
-    '--head',
-    BRANCH,
-    '--base',
-    'main',
-    '--title',
-    'Bot: new and updated Flat2VR ports',
-    '--body',
-    body,
-  ]);
+  // prepareMain already reset the clone to a freshly-fetched origin/main, so this is a
+  // fast-forward in the common case. A rejected push (a human commit landed in the run
+  // window) is not retried in-process — the caller rolls the `added` verdicts back out of
+  // seen-state, so the entries are simply rediscovered and published on the next run.
+  git('push', 'origin', 'main');
+  const sha = git('rev-parse', 'HEAD');
+  return `https://github.com/jrejaud/awesome-flat2vr/commit/${sha}`;
 }
 
-function notify(changes, prUrl) {
+// A discovery is only durable once it is pushed to main. If publishing throws, drop the
+// `added` verdicts recorded during discovery so the next run rediscovers and re-adds them
+// (an `added` id is never retried otherwise), and leave the working tree for prepareMain
+// to reset. Version bumps need no rollback — they are recomputed from scratch each run.
+function rollbackAdded(addedIds) {
+  if (!addedIds.length) return;
+  const seen = loadSeen();
+  let changed = false;
+  for (const id of addedIds)
+    if (seen[id]) {
+      delete seen[id];
+      changed = true;
+    }
+  if (changed) saveSeen(seen);
+}
+
+function notify(changes, commitUrl) {
   if (!changes.added.length && !changes.bumped.length) return;
   const lines = [
     ...changes.added.map((a) => `+ ${a.name} (${a.games.join(', ')})`),
     ...changes.bumped.map((b) => `↑ ${b.name} ${b.from} → ${b.to}`),
   ];
-  if (prUrl) lines.push('', `Review: ${prUrl}`);
+  if (commitUrl) lines.push('', `Added to the index: ${commitUrl}`);
   if (changes.warnings.length) lines.push(`(${changes.warnings.length} source warning(s) — see the run log)`);
   const title = `Flat2VR index: ${changes.added.length} new, ${changes.bumped.length} updated`;
   try {
@@ -350,36 +303,39 @@ function notify(changes, prUrl) {
 
 async function main() {
   await ping('/start');
-  const changes = { added: [], bumped: [], pruned: [], warnings: [], deferred: 0, extracted: 0 };
-  const carried = PR ? prepareBranch() : [];
-  if (carried.length) await pruneCarried(carried, changes);
+  const changes = { added: [], addedIds: [], bumped: [], warnings: [], deferred: 0, extracted: 0 };
+  if (COMMIT) prepareMain();
   const { ports, errors } = loadPorts();
   if (errors.length) throw new Error(`index invalid before run: ${errors.join('; ')}`);
   if (!flag('--no-bumps')) await versionBumps(ports, changes);
   await discover(ports, changes);
 
-  let prUrl = null;
-  if (PR) prUrl = publish();
-  else if (!DRY && (changes.added.length || changes.bumped.length)) sh('npm', ['run', '-s', 'build']);
+  let commitUrl = null;
+  if (COMMIT) {
+    try {
+      commitUrl = commitToMain();
+    } catch (e) {
+      rollbackAdded(changes.addedIds);
+      throw e;
+    }
+  } else if (!DRY && (changes.added.length || changes.bumped.length)) sh('npm', ['run', '-s', 'build']);
 
   const summary = {
     at: new Date().toISOString(),
     dry: DRY,
     added: changes.added.map((a) => a.slug),
     bumped: changes.bumped.map((b) => b.slug),
-    pruned: changes.pruned.map((p) => p.file),
-    carried: carried.length,
     extracted: changes.extracted,
     deferred: changes.deferred,
     warnings: changes.warnings,
-    pr: prUrl,
+    commit: commitUrl,
   };
   if (!DRY) {
     mkdirSync(STATE_DIR, { recursive: true });
     appendFileSync(join(STATE_DIR, 'runs.jsonl'), `${JSON.stringify(summary)}\n`);
   }
   log(JSON.stringify(summary, null, 2));
-  if (flag('--notify')) notify(changes, prUrl);
+  if (flag('--notify')) notify(changes, commitUrl);
   // A source that failed is a failed run (Linear comment via the cron card), but whatever
   // the other sources found is already published above.
   if (changes.warnings.some((w) => w.startsWith('source '))) {
