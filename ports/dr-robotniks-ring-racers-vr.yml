@@ -1,0 +1,29 @@
+name: Dr. Robotnik's Ring Racers VR
+games:
+  - Dr. Robotnik's Ring Racers
+category: mod
+authors:
+  - name: RaYRoD-TV
+platform: pcvr
+controls: 6dof
+status: beta
+version: "Patch 3"
+version_date: "2026-10-09"
+download_url: https://github.com/RaYRoD-TV/MVRH/releases
+source_url: https://github.com/RaYRoD-TV/MVRH
+license: unknown
+required_files: Original Ring Racers PC port installation (KartKrewDev/RingRacers) and its game data
+known_bugs: []
+notes: Distributed through the Multiverse VR Hub (MVRH); adds native OpenXR support with four view modes and controller rumble. Quest standalone support listed as coming soon.
+images:
+  - game: Dr. Robotnik's Ring Racers
+    file: images/dr-robotniks-ring-racers-vr/dr-robotnik-s-ring-racers.jpg
+    credit: legaiaflame
+    source_url: https://www.youtube.com/watch?v=zZoC6sKsX9U
+reviews:
+  - title: Sonic Robo Blast 2 and Dr. Robotnik's Ring Racers VR (RaYRoD TV MODS) Gameplay Showcase!
+    channel: legaiaflame
+    url: https://www.youtube.com/watch?v=zZoC6sKsX9U
+added_by: bot
+discovered_via: https://github.com/RaYRoD-TV/MVRH
+last_checked: "2026-10-09"

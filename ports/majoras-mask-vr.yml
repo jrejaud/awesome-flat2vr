@@ -1,0 +1,36 @@
+name: Majora's Mask VR
+games:
+  - "The Legend of Zelda: Majora's Mask"
+category: mod
+authors:
+  - name: FullDiveGames
+    url: https://github.com/fulldivegames
+platform: both
+headsets:
+  - Quest
+controls: 6dof
+status: beta
+version: "v0.35"
+version_date: "2026-10-08"
+download_url: https://github.com/fulldivegames/Majoras-Mask-VR/releases/latest
+source_url: https://github.com/fulldivegames/Majoras-Mask-VR
+license: CC0-1.0
+required_files: A clean, legally obtained self-dump of Majora's Mask (USA), N64 revision 1.0 ROM
+known_bugs:
+  - Save states are temporarily disabled; use menu and owl saving instead
+notes: Author states the mod was built using AI-assisted ('vibe coding') development.
+images:
+  - game: "The Legend of Zelda: Majora's Mask"
+    file: images/majoras-mask-vr/the-legend-of-zelda-majora-s-mask.jpg
+    credit: FullDiveGames
+    source_url: https://www.youtube.com/watch?v=LC08Rpj-5xc
+reviews:
+  - title: Majora's Mask VR Trailer (PCVR and Quest) OUT NOW
+    channel: FullDiveGames
+    url: https://www.youtube.com/watch?v=LC08Rpj-5xc
+  - title: Majora's Mask VR First Look (Outdated - Early Testing)
+    channel: FullDiveGames
+    url: https://www.youtube.com/watch?v=MJuM7PrNoK0
+added_by: bot
+discovered_via: https://github.com/fulldivegames/majoras-mask-vr
+last_checked: "2026-10-09"

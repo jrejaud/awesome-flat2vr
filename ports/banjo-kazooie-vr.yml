@@ -1,0 +1,32 @@
+name: Banjo-Kazooie VR
+games:
+  - Banjo-Kazooie
+category: mod
+authors:
+  - name: RaYRoD-TV
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "Patch 3"
+version_date: "2026-10-09"
+download_url: https://github.com/RaYRoD-TV/MVRH/releases
+source_url: https://github.com/RaYRoD-TV/MVRH
+license: unknown
+required_files: Original Banjo-Kazooie ROM/game data
+known_bugs: []
+notes: Built on the Lighthouse PC decompilation port (HarbourMasters/Lighthouse); distributed as a patch via the Multiverse VR Hub installer. Quest standalone support listed as coming soon.
+images:
+  - game: Banjo-Kazooie
+    file: images/banjo-kazooie-vr/banjo-kazooie.jpg
+    credit: legaiaflame
+    source_url: https://www.youtube.com/watch?v=k25Mopn0u5k
+reviews:
+  - title: Banjo-Kazooie VR (Running in Dolphin VR and Wii64-Beta Full Setup!)
+    channel: legaiaflame
+    url: https://www.youtube.com/watch?v=k25Mopn0u5k
+  - title: Drekwiz - BANJO-KAZOOIE IN VR!?? (VRChat Highlights)
+    channel: Drekwiz
+    url: https://www.youtube.com/watch?v=iJwDR0ahuBc
+added_by: bot
+discovered_via: https://github.com/RaYRoD-TV/MVRH
+last_checked: "2026-10-09"

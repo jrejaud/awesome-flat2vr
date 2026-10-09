@@ -1,0 +1,32 @@
+name: oot-vr
+games:
+  - "The Legend of Zelda: Ocarina of Time"
+category: source-port
+authors:
+  - name: gibranfelix
+    url: https://github.com/gibranfelix
+platform: standalone
+headsets:
+  - Quest 3S
+controls: 6dof
+status: alpha
+version: "v0.4.0-alpha"
+version_date: "2026-10-09"
+download_url: https://github.com/gibranfelix/oot-vr/releases/latest
+source_url: https://github.com/gibranfelix/oot-vr
+license: unknown
+required_files: A legal dump of the player's own Ocarina of Time cartridge or disc
+known_bugs: []
+notes: Built on Ship of Harkinian with OpenXR on GLES; runs natively on-headset with no PC required.
+images:
+  - game: "The Legend of Zelda: Ocarina of Time"
+    file: images/oot-vr/the-legend-of-zelda-ocarina-of-time.jpg
+    credit: Reallycoolguy55
+    source_url: https://www.youtube.com/watch?v=Y9PKeWhd6as
+reviews:
+  - title: Zelda OoT VR! Quest 2/3 Standalone
+    channel: Reallycoolguy55
+    url: https://www.youtube.com/watch?v=Y9PKeWhd6as
+added_by: bot
+discovered_via: https://github.com/gibranfelix/oot-vr
+last_checked: "2026-10-09"

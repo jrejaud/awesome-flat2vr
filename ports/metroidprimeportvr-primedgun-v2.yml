@@ -1,0 +1,38 @@
+name: MetroidPrimePortVR (PrimedGun v2)
+games:
+  - Metroid Prime
+category: source-port
+authors:
+  - name: iChris4
+    url: https://github.com/iChris4
+  - name: Odran (Odrannnn)
+  - name: Nobbie248
+platform: both
+headsets:
+  - Quest
+controls: 6dof
+status: alpha
+version: "v2.0.0-alpha.2"
+version_date: "2026-10-08"
+download_url: https://github.com/iChris4/MetroidPrimePortVR/releases/latest
+source_url: https://github.com/iChris4/MetroidPrimePortVR
+homepage: https://github.com/Odrannnn/MetroidPrimePort/releases/latest
+license: unknown
+required_files: Metroid Prime GameCube disc image (USA, v1.00)
+known_bugs: []
+notes: Successor to the Dolphin-based PrimedGun v1; v2 drops the emulator and builds the game natively from the PrimeDecomp decompilation via Odran's Metroid Prime native port, with VR controls added by @Nobbie248.
+images:
+  - game: Metroid Prime
+    file: images/metroidprimeportvr-primedgun-v2/metroid-prime.jpg
+    credit: Beardo Benjo
+    source_url: https://www.youtube.com/watch?v=iWS_krcirCw
+reviews:
+  - title: METROID PRIME VR is one of the BEST Dolphin VR experiences! // Quest 2 Airlink Gameplay
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=iWS_krcirCw
+  - title: Metroid Prime Has a VR Mod?! With Motion Controls?!
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=--05XNl9YaU
+added_by: bot
+discovered_via: https://github.com/ichris4/metroidprimeportvr
+last_checked: "2026-10-09"

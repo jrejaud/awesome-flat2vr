@@ -286,6 +286,53 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "banjo-kazooie-vr",
+    "name": "Banjo-Kazooie VR",
+    "games": [
+      "Banjo-Kazooie"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "RaYRoD-TV"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "Patch 3",
+    "version_date": "2026-10-09",
+    "download_url": "https://github.com/RaYRoD-TV/MVRH/releases",
+    "source_url": "https://github.com/RaYRoD-TV/MVRH",
+    "license": "unknown",
+    "required_files": "Original Banjo-Kazooie ROM/game data",
+    "known_bugs": [],
+    "notes": "Built on the Lighthouse PC decompilation port (HarbourMasters/Lighthouse); distributed as a patch via the Multiverse VR Hub installer. Quest standalone support listed as coming soon.",
+    "images": [
+      {
+        "game": "Banjo-Kazooie",
+        "file": "images/banjo-kazooie-vr/banjo-kazooie.jpg",
+        "credit": "legaiaflame",
+        "source_url": "https://www.youtube.com/watch?v=k25Mopn0u5k"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Banjo-Kazooie VR (Running in Dolphin VR and Wii64-Beta Full Setup!)",
+        "channel": "legaiaflame",
+        "url": "https://www.youtube.com/watch?v=k25Mopn0u5k"
+      },
+      {
+        "title": "Drekwiz - BANJO-KAZOOIE IN VR!?? (VRChat Highlights)",
+        "channel": "Drekwiz",
+        "url": "https://www.youtube.com/watch?v=iJwDR0ahuBc"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/RaYRoD-TV/MVRH",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "beefraiderxr",
     "name": "BeefRaiderXR",
     "games": [
@@ -945,6 +992,97 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "dr-robotniks-ring-racers-vr",
+    "name": "Dr. Robotnik's Ring Racers VR",
+    "games": [
+      "Dr. Robotnik's Ring Racers"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "RaYRoD-TV"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "Patch 3",
+    "version_date": "2026-10-09",
+    "download_url": "https://github.com/RaYRoD-TV/MVRH/releases",
+    "source_url": "https://github.com/RaYRoD-TV/MVRH",
+    "license": "unknown",
+    "required_files": "Original Ring Racers PC port installation (KartKrewDev/RingRacers) and its game data",
+    "known_bugs": [],
+    "notes": "Distributed through the Multiverse VR Hub (MVRH); adds native OpenXR support with four view modes and controller rumble. Quest standalone support listed as coming soon.",
+    "images": [
+      {
+        "game": "Dr. Robotnik's Ring Racers",
+        "file": "images/dr-robotniks-ring-racers-vr/dr-robotnik-s-ring-racers.jpg",
+        "credit": "legaiaflame",
+        "source_url": "https://www.youtube.com/watch?v=zZoC6sKsX9U"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Sonic Robo Blast 2 and Dr. Robotnik's Ring Racers VR (RaYRoD TV MODS) Gameplay Showcase!",
+        "channel": "legaiaflame",
+        "url": "https://www.youtube.com/watch?v=zZoC6sKsX9U"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/RaYRoD-TV/MVRH",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "dusk-vr",
+    "name": "Dusk VR",
+    "games": [
+      "The Legend of Zelda: Twilight Princess"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "provencher",
+        "url": "https://github.com/provencher"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "unversioned",
+    "version_date": "2026-10-09",
+    "download_url": "https://github.com/provencher/dusk-vr",
+    "source_url": "https://github.com/provencher/dusk-vr",
+    "homepage": "https://twilitrealm.dev",
+    "license": "CC0-1.0",
+    "required_files": "A clean GameCube dump (SHA-1 verified) of Twilight Princess",
+    "known_bugs": [],
+    "notes": "Fork of the Dusk Twilight Princess decompilation engine adding a Windows OpenXR/Vulkan VR launcher (run-dusk-vr.bat); no tagged release yet.",
+    "images": [
+      {
+        "game": "The Legend of Zelda: Twilight Princess",
+        "file": "images/dusk-vr/the-legend-of-zelda-twilight-princess.jpg",
+        "credit": "legaiaflame",
+        "source_url": "https://www.youtube.com/watch?v=t9OfB7FwT4Q"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Legend of Zelda Twilight Princess VR (JoeyAW MOD) Gameplay Showcase Part 2!",
+        "channel": "legaiaflame",
+        "url": "https://www.youtube.com/watch?v=t9OfB7FwT4Q"
+      },
+      {
+        "title": "Legend of Zelda Twilight Princess VR (JoeyAW MOD) Gameplay Showcase Part 1!",
+        "channel": "legaiaflame",
+        "url": "https://www.youtube.com/watch?v=sugca8IC4ac"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/provencher/dusk-vr",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "f-e-a-r-vr",
     "name": "F.E.A.R. VR",
     "games": [
@@ -990,6 +1128,53 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "f-zero-x-vr-standalone",
+    "name": "F-Zero X VR Standalone",
+    "games": [
+      "F-Zero X"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "heurazy",
+        "url": "https://github.com/heurazy"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 3",
+      "Quest 3S"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v1.0.1",
+    "version_date": "2026-08-14",
+    "download_url": "https://github.com/heurazy/FzeroVR-Standalone/releases/latest",
+    "source_url": "https://github.com/heurazy/FzeroVR-Standalone",
+    "license": "unknown",
+    "required_files": "A user-supplied F-Zero X (USA) ROM (.z64); no ROM or game data is included",
+    "known_bugs": [],
+    "notes": "Native Android/OpenXR Quest port built from the Zorkats/G-Diffuser decomp runtime and libultraship/Fast3D, rendering the original ~60Hz game twice per frame for stereo output.",
+    "images": [
+      {
+        "game": "F-Zero X",
+        "file": "images/f-zero-x-vr-standalone/f-zero-x.jpg",
+        "credit": "Trev",
+        "source_url": "https://www.youtube.com/watch?v=CheaOy69uEo"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Playing F-Zero X and GX  on Dolphin VR with Oculus Quest 3 and G29 racing wheel hooked to ReaSnow S1",
+        "channel": "Trev",
+        "url": "https://www.youtube.com/watch?v=CheaOy69uEo"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/heurazy/fzerovr-standalone",
     "last_checked": "2026-10-09"
   },
   {
@@ -1188,6 +1373,61 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/Firejumper93/GhostReconWildlandsVR",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "goldeneye-vr",
+    "name": "GoldenEye VR",
+    "games": [
+      "GoldenEye 007"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "MrSco",
+        "url": "https://github.com/MrSco"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 2",
+      "Quest 3",
+      "Quest 3S",
+      "Quest Pro"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.4.14",
+    "version_date": "2026-10-08",
+    "download_url": "https://github.com/MrSco/goldeneye-vr/releases/latest",
+    "source_url": "https://github.com/MrSco/goldeneye-vr",
+    "homepage": "https://goldeneyevr.com",
+    "license": "MIT",
+    "required_files": "A legally obtained USA (NTSC-U) GoldenEye 007 N64 ROM cartridge you own; the app contains no game data.",
+    "known_bugs": [],
+    "notes": "Built on the GoldenEye 007 decompilation; multiplayer requires all players on the same version due to network protocol changes.",
+    "images": [
+      {
+        "game": "GoldenEye 007",
+        "file": "images/goldeneye-vr/goldeneye-007.jpg",
+        "credit": "NotAGameAddict",
+        "source_url": "https://www.youtube.com/watch?v=DYKvCZazyJA"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "How to install GoldenEye VR: Quest Standalone & PCVR",
+        "channel": "LunchAndVR",
+        "url": "https://www.youtube.com/watch?v=4tPkNMYzDjY"
+      },
+      {
+        "title": "GoldenEye 007 VR / New Quest Standalone VR mod with 6DOF / First Public Release / How to Install",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=DYKvCZazyJA"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/mrsco/goldeneye-vr",
     "last_checked": "2026-10-09"
   },
   {
@@ -1816,6 +2056,59 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "majoras-mask-vr",
+    "name": "Majora's Mask VR",
+    "games": [
+      "The Legend of Zelda: Majora's Mask"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "FullDiveGames",
+        "url": "https://github.com/fulldivegames"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.35",
+    "version_date": "2026-10-08",
+    "download_url": "https://github.com/fulldivegames/Majoras-Mask-VR/releases/latest",
+    "source_url": "https://github.com/fulldivegames/Majoras-Mask-VR",
+    "license": "CC0-1.0",
+    "required_files": "A clean, legally obtained self-dump of Majora's Mask (USA), N64 revision 1.0 ROM",
+    "known_bugs": [
+      "Save states are temporarily disabled; use menu and owl saving instead"
+    ],
+    "notes": "Author states the mod was built using AI-assisted ('vibe coding') development.",
+    "images": [
+      {
+        "game": "The Legend of Zelda: Majora's Mask",
+        "file": "images/majoras-mask-vr/the-legend-of-zelda-majora-s-mask.jpg",
+        "credit": "FullDiveGames",
+        "source_url": "https://www.youtube.com/watch?v=LC08Rpj-5xc"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Majora's Mask VR Trailer (PCVR and Quest) OUT NOW",
+        "channel": "FullDiveGames",
+        "url": "https://www.youtube.com/watch?v=LC08Rpj-5xc"
+      },
+      {
+        "title": "Majora's Mask VR First Look (Outdated - Early Testing)",
+        "channel": "FullDiveGames",
+        "url": "https://www.youtube.com/watch?v=MJuM7PrNoK0"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/fulldivegames/majoras-mask-vr",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "mass-effect-legendary-edition-vr",
     "name": "Mass Effect Legendary Edition VR",
     "games": [
@@ -1910,6 +2203,64 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/randygil/megaman64recompiledvr",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "metroidprimeportvr-primedgun-v2",
+    "name": "MetroidPrimePortVR (PrimedGun v2)",
+    "games": [
+      "Metroid Prime"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "iChris4",
+        "url": "https://github.com/iChris4"
+      },
+      {
+        "name": "Odran (Odrannnn)"
+      },
+      {
+        "name": "Nobbie248"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v2.0.0-alpha.2",
+    "version_date": "2026-10-08",
+    "download_url": "https://github.com/iChris4/MetroidPrimePortVR/releases/latest",
+    "source_url": "https://github.com/iChris4/MetroidPrimePortVR",
+    "homepage": "https://github.com/Odrannnn/MetroidPrimePort/releases/latest",
+    "license": "unknown",
+    "required_files": "Metroid Prime GameCube disc image (USA, v1.00)",
+    "known_bugs": [],
+    "notes": "Successor to the Dolphin-based PrimedGun v1; v2 drops the emulator and builds the game natively from the PrimeDecomp decompilation via Odran's Metroid Prime native port, with VR controls added by @Nobbie248.",
+    "images": [
+      {
+        "game": "Metroid Prime",
+        "file": "images/metroidprimeportvr-primedgun-v2/metroid-prime.jpg",
+        "credit": "Beardo Benjo",
+        "source_url": "https://www.youtube.com/watch?v=iWS_krcirCw"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "METROID PRIME VR is one of the BEST Dolphin VR experiences! // Quest 2 Airlink Gameplay",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=iWS_krcirCw"
+      },
+      {
+        "title": "Metroid Prime Has a VR Mod?! With Motion Controls?!",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=--05XNl9YaU"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/ichris4/metroidprimeportvr",
     "last_checked": "2026-10-09"
   },
   {
@@ -2051,6 +2402,52 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/InfernoSuperNova/novr",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "oot-vr",
+    "name": "oot-vr",
+    "games": [
+      "The Legend of Zelda: Ocarina of Time"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "gibranfelix",
+        "url": "https://github.com/gibranfelix"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 3S"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.4.0-alpha",
+    "version_date": "2026-10-09",
+    "download_url": "https://github.com/gibranfelix/oot-vr/releases/latest",
+    "source_url": "https://github.com/gibranfelix/oot-vr",
+    "license": "unknown",
+    "required_files": "A legal dump of the player's own Ocarina of Time cartridge or disc",
+    "known_bugs": [],
+    "notes": "Built on Ship of Harkinian with OpenXR on GLES; runs natively on-headset with no PC required.",
+    "images": [
+      {
+        "game": "The Legend of Zelda: Ocarina of Time",
+        "file": "images/oot-vr/the-legend-of-zelda-ocarina-of-time.jpg",
+        "credit": "Reallycoolguy55",
+        "source_url": "https://www.youtube.com/watch?v=Y9PKeWhd6as"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Zelda OoT VR! Quest 2/3 Standalone",
+        "channel": "Reallycoolguy55",
+        "url": "https://www.youtube.com/watch?v=Y9PKeWhd6as"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/gibranfelix/oot-vr",
     "last_checked": "2026-10-09"
   },
   {
@@ -2873,6 +3270,57 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "shipwright-vr",
+    "name": "Shipwright-VR",
+    "games": [
+      "The Legend of Zelda: Ocarina of Time"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "ShinyWindow",
+        "url": "https://github.com/ShinyWindow"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v1.4.1",
+    "version_date": "2026-10-06",
+    "download_url": "https://github.com/ShinyWindow/Shipwright-VR/releases/latest",
+    "source_url": "https://github.com/ShinyWindow/Shipwright-VR",
+    "license": "unknown",
+    "required_files": "A supported, user-dumped copy of The Legend of Zelda: Ocarina of Time (N64 ROM), verified via the Ship of Harkinian compatibility checker.",
+    "known_bugs": [],
+    "notes": "Fork of HarbourMasters/Shipwright (Ship of Harkinian); must be run with DirectX11, not OpenGL.",
+    "images": [
+      {
+        "game": "The Legend of Zelda: Ocarina of Time",
+        "file": "images/shipwright-vr/the-legend-of-zelda-ocarina-of-time.jpg",
+        "credit": "Dyno Mike Gaming",
+        "source_url": "https://www.youtube.com/watch?v=jnuR13guRAk"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Legend of Zelda Ocarina of Time VR: Ship of Harkinian VR! (Child Link Gameplay)",
+        "channel": "legaiaflame",
+        "url": "https://www.youtube.com/watch?v=IZRvTBmzS-4"
+      },
+      {
+        "title": "Exploring Inside The Great Deku Tree in The Legend of Zelda: Ocarina of Time - Full Motion VR",
+        "channel": "Dyno Mike Gaming",
+        "url": "https://www.youtube.com/watch?v=jnuR13guRAk"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/shinywindow/shipwright-vr",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "silent-hill-1999-vr",
     "name": "Silent Hill (1999) VR",
     "games": [
@@ -2920,6 +3368,152 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "sm64-quest-vr",
+    "name": "SM64 Quest VR",
+    "games": [
+      "Super Mario 64"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "heurazy",
+        "url": "https://github.com/heurazy"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 3",
+      "Quest 3S"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v1.0.1",
+    "version_date": "2026-08-07",
+    "download_url": "https://github.com/heurazy/mario64VRStandalone/releases/latest",
+    "source_url": "https://github.com/heurazy/mario64VRStandalone",
+    "license": "unknown",
+    "required_files": "User-supplied unmodified 'Super Mario 64 (USA) [!]' ROM, exactly 8 MiB, MD5 20b854b239203baf6c961b850a4a51a2",
+    "known_bugs": [],
+    "notes": "Built on the SM64/CoopDX decompilation codebase as a native OpenXR engine; debug APK output, ROM validated by MD5 and stored privately on-device.",
+    "images": [
+      {
+        "game": "Super Mario 64",
+        "file": "images/sm64-quest-vr/super-mario-64.jpg",
+        "credit": "Beardo Benjo",
+        "source_url": "https://www.youtube.com/watch?v=4lG9Ux9DxwY"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Playing Super Mario 64 VR on my Quest 2 is WEIRD! // Mario 64 First Person VR Mod",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=4lG9Ux9DxwY"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/heurazy/mario64vrstandalone",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "sm64coopdx-vr-standalone-physics-based",
+    "name": "sm64coopdx-VR-Standalone (Physics-based)",
+    "games": [
+      "Super Mario 64"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "fulldivegames",
+        "url": "https://github.com/fulldivegames"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.9.21",
+    "version_date": "2026-09-13",
+    "download_url": "https://github.com/fulldivegames/sm64coopdx-VR-Standalone-Physics-based/releases/latest",
+    "source_url": "https://github.com/fulldivegames/sm64coopdx-VR-Standalone-Physics-based",
+    "license": "unknown",
+    "required_files": "Super Mario 64 ROM/assets for sm64coopdx",
+    "known_bugs": [
+      "Not tested on Quest 2 by the developer",
+      "Occasional crashes possible",
+      "Not tested across every multiplayer situation, ROM hack, or mod combination",
+      "Standalone co-op, chat, and VR keyboard are experimental with occasional blurry/incorrect text",
+      "Large lobbies may reduce performance; gameplay-changing server mods can cause visual problems, broken behavior, or crashes"
+    ],
+    "notes": "Native ARM64/OpenXR standalone build with physical motion controls (jumping, swimming, climbing); a separate PC VR edition repo is linked in the README.",
+    "images": [
+      {
+        "game": "Super Mario 64",
+        "file": "images/sm64coopdx-vr-standalone-physics-based/super-mario-64.jpg",
+        "credit": "Beardo Benjo",
+        "source_url": "https://www.youtube.com/watch?v=4lG9Ux9DxwY"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Playing Super Mario 64 VR on my Quest 2 is WEIRD! // Mario 64 First Person VR Mod",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=4lG9Ux9DxwY"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/fulldivegames/sm64coopdx-vr-standalone-physics-based",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "sonic-robo-blast-2-vr",
+    "name": "Sonic Robo Blast 2 VR",
+    "games": [
+      "Sonic Robo Blast 2"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "RaYRoD-TV"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "Patch 2",
+    "version_date": "2026-10-09",
+    "download_url": "https://github.com/RaYRoD-TV/MVRH/releases",
+    "source_url": "https://github.com/RaYRoD-TV/MVRH",
+    "license": "unknown",
+    "required_files": "Sonic Robo Blast 2 game data (built on the STJr/SRB2 PC port)",
+    "known_bugs": [],
+    "notes": "Distributed as a patch installed via the Multiverse VR Hub (MVRH) launcher; a Quest standalone build is listed as coming soon.",
+    "images": [
+      {
+        "game": "Sonic Robo Blast 2",
+        "file": "images/sonic-robo-blast-2-vr/sonic-robo-blast-2.jpg",
+        "credit": "Team Beef VR Game Ports",
+        "source_url": "https://www.youtube.com/watch?v=3Dcczzud7Tc"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Sonic Robo Blast 2 in VR with QuestZDoomZ on Quest.",
+        "channel": "Team Beef VR Game Ports",
+        "url": "https://www.youtube.com/watch?v=3Dcczzud7Tc"
+      },
+      {
+        "title": "Sonic Robo Blast 2 and Dr. Robotnik's Ring Racers VR (RaYRoD TV MODS) Gameplay Showcase!",
+        "channel": "legaiaflame",
+        "url": "https://www.youtube.com/watch?v=zZoC6sKsX9U"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/RaYRoD-TV/MVRH",
     "last_checked": "2026-10-09"
   },
   {

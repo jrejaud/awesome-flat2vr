@@ -1,0 +1,32 @@
+name: Sonic Robo Blast 2 VR
+games:
+  - Sonic Robo Blast 2
+category: mod
+authors:
+  - name: RaYRoD-TV
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "Patch 2"
+version_date: "2026-10-09"
+download_url: https://github.com/RaYRoD-TV/MVRH/releases
+source_url: https://github.com/RaYRoD-TV/MVRH
+license: unknown
+required_files: Sonic Robo Blast 2 game data (built on the STJr/SRB2 PC port)
+known_bugs: []
+notes: Distributed as a patch installed via the Multiverse VR Hub (MVRH) launcher; a Quest standalone build is listed as coming soon.
+images:
+  - game: Sonic Robo Blast 2
+    file: images/sonic-robo-blast-2-vr/sonic-robo-blast-2.jpg
+    credit: Team Beef VR Game Ports
+    source_url: https://www.youtube.com/watch?v=3Dcczzud7Tc
+reviews:
+  - title: Sonic Robo Blast 2 in VR with QuestZDoomZ on Quest.
+    channel: Team Beef VR Game Ports
+    url: https://www.youtube.com/watch?v=3Dcczzud7Tc
+  - title: Sonic Robo Blast 2 and Dr. Robotnik's Ring Racers VR (RaYRoD TV MODS) Gameplay Showcase!
+    channel: legaiaflame
+    url: https://www.youtube.com/watch?v=zZoC6sKsX9U
+added_by: bot
+discovered_via: https://github.com/RaYRoD-TV/MVRH
+last_checked: "2026-10-09"

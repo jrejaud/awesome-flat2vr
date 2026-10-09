@@ -1,0 +1,33 @@
+name: SM64 Quest VR
+games:
+  - Super Mario 64
+category: source-port
+authors:
+  - name: heurazy
+    url: https://github.com/heurazy
+platform: standalone
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: alpha
+version: "v1.0.1"
+version_date: "2026-08-07"
+download_url: https://github.com/heurazy/mario64VRStandalone/releases/latest
+source_url: https://github.com/heurazy/mario64VRStandalone
+license: unknown
+required_files: User-supplied unmodified 'Super Mario 64 (USA) [!]' ROM, exactly 8 MiB, MD5 20b854b239203baf6c961b850a4a51a2
+known_bugs: []
+notes: Built on the SM64/CoopDX decompilation codebase as a native OpenXR engine; debug APK output, ROM validated by MD5 and stored privately on-device.
+images:
+  - game: Super Mario 64
+    file: images/sm64-quest-vr/super-mario-64.jpg
+    credit: Beardo Benjo
+    source_url: https://www.youtube.com/watch?v=4lG9Ux9DxwY
+reviews:
+  - title: Playing Super Mario 64 VR on my Quest 2 is WEIRD! // Mario 64 First Person VR Mod
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=4lG9Ux9DxwY
+added_by: bot
+discovered_via: https://github.com/heurazy/mario64vrstandalone
+last_checked: "2026-10-09"

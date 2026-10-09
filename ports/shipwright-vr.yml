@@ -1,0 +1,35 @@
+name: Shipwright-VR
+games:
+  - "The Legend of Zelda: Ocarina of Time"
+category: mod
+authors:
+  - name: ShinyWindow
+    url: https://github.com/ShinyWindow
+platform: both
+headsets:
+  - Quest
+controls: 6dof
+status: beta
+version: "v1.4.1"
+version_date: "2026-10-06"
+download_url: https://github.com/ShinyWindow/Shipwright-VR/releases/latest
+source_url: https://github.com/ShinyWindow/Shipwright-VR
+license: unknown
+required_files: "A supported, user-dumped copy of The Legend of Zelda: Ocarina of Time (N64 ROM), verified via the Ship of Harkinian compatibility checker."
+known_bugs: []
+notes: Fork of HarbourMasters/Shipwright (Ship of Harkinian); must be run with DirectX11, not OpenGL.
+images:
+  - game: "The Legend of Zelda: Ocarina of Time"
+    file: images/shipwright-vr/the-legend-of-zelda-ocarina-of-time.jpg
+    credit: Dyno Mike Gaming
+    source_url: https://www.youtube.com/watch?v=jnuR13guRAk
+reviews:
+  - title: "Legend of Zelda Ocarina of Time VR: Ship of Harkinian VR! (Child Link Gameplay)"
+    channel: legaiaflame
+    url: https://www.youtube.com/watch?v=IZRvTBmzS-4
+  - title: "Exploring Inside The Great Deku Tree in The Legend of Zelda: Ocarina of Time - Full Motion VR"
+    channel: Dyno Mike Gaming
+    url: https://www.youtube.com/watch?v=jnuR13guRAk
+added_by: bot
+discovered_via: https://github.com/shinywindow/shipwright-vr
+last_checked: "2026-10-09"

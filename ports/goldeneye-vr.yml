@@ -1,0 +1,39 @@
+name: GoldenEye VR
+games:
+  - GoldenEye 007
+category: source-port
+authors:
+  - name: MrSco
+    url: https://github.com/MrSco
+platform: standalone
+headsets:
+  - Quest 2
+  - Quest 3
+  - Quest 3S
+  - Quest Pro
+controls: 6dof
+status: beta
+version: "v0.4.14"
+version_date: "2026-10-08"
+download_url: https://github.com/MrSco/goldeneye-vr/releases/latest
+source_url: https://github.com/MrSco/goldeneye-vr
+homepage: https://goldeneyevr.com
+license: MIT
+required_files: A legally obtained USA (NTSC-U) GoldenEye 007 N64 ROM cartridge you own; the app contains no game data.
+known_bugs: []
+notes: Built on the GoldenEye 007 decompilation; multiplayer requires all players on the same version due to network protocol changes.
+images:
+  - game: GoldenEye 007
+    file: images/goldeneye-vr/goldeneye-007.jpg
+    credit: NotAGameAddict
+    source_url: https://www.youtube.com/watch?v=DYKvCZazyJA
+reviews:
+  - title: "How to install GoldenEye VR: Quest Standalone & PCVR"
+    channel: LunchAndVR
+    url: https://www.youtube.com/watch?v=4tPkNMYzDjY
+  - title: GoldenEye 007 VR / New Quest Standalone VR mod with 6DOF / First Public Release / How to Install
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=DYKvCZazyJA
+added_by: bot
+discovered_via: https://github.com/mrsco/goldeneye-vr
+last_checked: "2026-10-09"

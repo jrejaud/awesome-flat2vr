@@ -1,0 +1,37 @@
+name: sm64coopdx-VR-Standalone (Physics-based)
+games:
+  - Super Mario 64
+category: mod
+authors:
+  - name: fulldivegames
+    url: https://github.com/fulldivegames
+platform: standalone
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "v0.9.21"
+version_date: "2026-09-13"
+download_url: https://github.com/fulldivegames/sm64coopdx-VR-Standalone-Physics-based/releases/latest
+source_url: https://github.com/fulldivegames/sm64coopdx-VR-Standalone-Physics-based
+license: unknown
+required_files: Super Mario 64 ROM/assets for sm64coopdx
+known_bugs:
+  - Not tested on Quest 2 by the developer
+  - Occasional crashes possible
+  - Not tested across every multiplayer situation, ROM hack, or mod combination
+  - Standalone co-op, chat, and VR keyboard are experimental with occasional blurry/incorrect text
+  - Large lobbies may reduce performance; gameplay-changing server mods can cause visual problems, broken behavior, or crashes
+notes: Native ARM64/OpenXR standalone build with physical motion controls (jumping, swimming, climbing); a separate PC VR edition repo is linked in the README.
+images:
+  - game: Super Mario 64
+    file: images/sm64coopdx-vr-standalone-physics-based/super-mario-64.jpg
+    credit: Beardo Benjo
+    source_url: https://www.youtube.com/watch?v=4lG9Ux9DxwY
+reviews:
+  - title: Playing Super Mario 64 VR on my Quest 2 is WEIRD! // Mario 64 First Person VR Mod
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=4lG9Ux9DxwY
+added_by: bot
+discovered_via: https://github.com/fulldivegames/sm64coopdx-vr-standalone-physics-based
+last_checked: "2026-10-09"

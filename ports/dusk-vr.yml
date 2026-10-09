@@ -1,0 +1,34 @@
+name: Dusk VR
+games:
+  - "The Legend of Zelda: Twilight Princess"
+category: source-port
+authors:
+  - name: provencher
+    url: https://github.com/provencher
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "unversioned"
+version_date: "2026-10-09"
+download_url: https://github.com/provencher/dusk-vr
+source_url: https://github.com/provencher/dusk-vr
+homepage: https://twilitrealm.dev
+license: CC0-1.0
+required_files: A clean GameCube dump (SHA-1 verified) of Twilight Princess
+known_bugs: []
+notes: Fork of the Dusk Twilight Princess decompilation engine adding a Windows OpenXR/Vulkan VR launcher (run-dusk-vr.bat); no tagged release yet.
+images:
+  - game: "The Legend of Zelda: Twilight Princess"
+    file: images/dusk-vr/the-legend-of-zelda-twilight-princess.jpg
+    credit: legaiaflame
+    source_url: https://www.youtube.com/watch?v=t9OfB7FwT4Q
+reviews:
+  - title: Legend of Zelda Twilight Princess VR (JoeyAW MOD) Gameplay Showcase Part 2!
+    channel: legaiaflame
+    url: https://www.youtube.com/watch?v=t9OfB7FwT4Q
+  - title: Legend of Zelda Twilight Princess VR (JoeyAW MOD) Gameplay Showcase Part 1!
+    channel: legaiaflame
+    url: https://www.youtube.com/watch?v=sugca8IC4ac
+added_by: bot
+discovered_via: https://github.com/provencher/dusk-vr
+last_checked: "2026-10-09"

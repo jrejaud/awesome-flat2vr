@@ -1,0 +1,33 @@
+name: F-Zero X VR Standalone
+games:
+  - F-Zero X
+category: source-port
+authors:
+  - name: heurazy
+    url: https://github.com/heurazy
+platform: standalone
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: beta
+version: "v1.0.1"
+version_date: "2026-08-14"
+download_url: https://github.com/heurazy/FzeroVR-Standalone/releases/latest
+source_url: https://github.com/heurazy/FzeroVR-Standalone
+license: unknown
+required_files: A user-supplied F-Zero X (USA) ROM (.z64); no ROM or game data is included
+known_bugs: []
+notes: Native Android/OpenXR Quest port built from the Zorkats/G-Diffuser decomp runtime and libultraship/Fast3D, rendering the original ~60Hz game twice per frame for stereo output.
+images:
+  - game: F-Zero X
+    file: images/f-zero-x-vr-standalone/f-zero-x.jpg
+    credit: Trev
+    source_url: https://www.youtube.com/watch?v=CheaOy69uEo
+reviews:
+  - title: Playing F-Zero X and GX  on Dolphin VR with Oculus Quest 3 and G29 racing wheel hooked to ReaSnow S1
+    channel: Trev
+    url: https://www.youtube.com/watch?v=CheaOy69uEo
+added_by: bot
+discovered_via: https://github.com/heurazy/fzerovr-standalone
+last_checked: "2026-10-09"
