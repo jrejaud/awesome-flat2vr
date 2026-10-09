@@ -1,6 +1,6 @@
 name: Lambda1VR
 games:
-  - "Half-Life"
+  - Half-Life
 category: source-port
 authors:
   - name: Team Beef
@@ -13,8 +13,20 @@ version_date: "2026-09-29"
 download_url: https://github.com/Team-Beef-Studios/Lambda1VR/releases/latest
 source_url: https://github.com/Team-Beef-Studios/Lambda1VR
 license: GPL-3.0
-required_files: "valve folder from an owned PC copy of Half-Life"
+required_files: valve folder from an owned PC copy of Half-Life
 known_bugs: []
+images:
+  - game: Half-Life
+    file: images/lambda1vr/half-life.jpg
+    credit: Half-Life store art
+    source_url: https://store.steampowered.com/app/70/
+reviews:
+  - title: You CAN Play Half Life VR On The Quest 2...Here's How!
+    channel: BMFVR
+    url: https://www.youtube.com/watch?v=A11e-h6qgDM
+  - title: Half Life Oculus Quest - Lambda1VR Installation and Review
+    channel: Matteo311
+    url: https://www.youtube.com/watch?v=5eRyhJwN1c0
 added_by: bot
-discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Lambda1VR"
+discovered_via: Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Lambda1VR
 last_checked: "2026-10-09"

@@ -1,0 +1,35 @@
+name: "Space Hulk: Deathwing VR"
+games:
+  - "Space Hulk: Deathwing Enhanced Edition"
+category: mod
+authors:
+  - name: help im a ghost
+    url: https://github.com/helpimaghost
+  - name: Pande4360
+platform: pcvr
+controls: 6dof
+status: stable
+version: "1.12"
+version_date: "2026-10-03"
+download_url: https://github.com/helpimaghost/Space-Hulk-Deathwing-VR/releases/latest
+source_url: https://github.com/helpimaghost/Space-Hulk-Deathwing-VR
+license: unknown
+required_files: "Owned copy of Space Hulk: Deathwing Enhanced Edition (Steam) plus the joeyhodge UEVR backend fork (081326DaysGoneNOMO or later)"
+known_bugs:
+  - Occulobe Enhancement System (HMD aim) has no zoom or visual enemy identification aid
+  - Non-Steam versions are unsupported
+  - Map Screen does not display map geometry, may not be fixable
+  - In-game crosshair is unreliable; weapons rely on hipfire aim alignment instead
+notes: A UEVR game profile (not a standalone renderer) adding 6DOF gun and melee combat, UI Peek, and haptics to the Enhanced Edition.
+images:
+  - game: "Space Hulk: Deathwing Enhanced Edition"
+    file: images/space-hulk-deathwing-vr/space-hulk-deathwing-enhanced-edition.jpg
+    credit: "Space Hulk: Deathwing Enhanced Edition store art"
+    source_url: https://store.steampowered.com/app/816090/
+reviews:
+  - title: "Space Hulk: Deathwing VR (v 1.06) with Project Grim Dark"
+    channel: help im a ghost
+    url: https://www.youtube.com/watch?v=FINK6QAYO50
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

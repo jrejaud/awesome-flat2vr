@@ -16,6 +16,18 @@ homepage: https://raicuparta.com/stanley-parable-vr-mod
 license: unknown
 required_files: "an owned PC install of The Stanley Parable: Ultra Deluxe"
 known_bugs: []
+images:
+  - game: "The Stanley Parable: Ultra Deluxe"
+    file: images/stanley-vr/the-stanley-parable-ultra-deluxe.jpg
+    credit: "The Stanley Parable: Ultra Deluxe store art"
+    source_url: https://store.steampowered.com/app/1703340/
+reviews:
+  - title: "The Stanley Parable: Ultra Deluxe VR ... Where'd they go? [Tutorial/Gameplay/Conclusion] - Hoshi82"
+    channel: Hoshi82
+    url: https://www.youtube.com/watch?v=vZ0oBfZNDAY
+  - title: The Stanley Parable Ultra Deluxe Edition - StanleyVR
+    channel: Headset-VR
+    url: https://www.youtube.com/watch?v=EFGV25MsUGA
 added_by: bot
-discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Raicuparta/stanley-vr"
+discovered_via: Initial research sweep (GitHub releases API), https://github.com/Raicuparta/stanley-vr
 last_checked: "2026-10-09"

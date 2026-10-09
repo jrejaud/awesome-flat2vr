@@ -1,0 +1,28 @@
+name: NomaiVR
+games:
+  - Outer Wilds
+category: mod
+authors:
+  - name: Raicuparta
+    url: https://raicuparta.com
+platform: pcvr
+controls: 6dof
+status: stable
+version: "2.10.0"
+version_date: "2025-03-02"
+download_url: https://github.com/Raicuparta/nomai-vr/releases/latest
+source_url: https://github.com/Raicuparta/nomai-vr
+homepage: https://outerwildsmods.com/mods/nomaivr
+license: MIT
+required_files: an owned PC install of Outer Wilds
+known_bugs: []
+reviews:
+  - title: Exploring Outer Wilds in VR (NomaiVR)
+    channel: The Librarian
+    url: https://www.youtube.com/watch?v=cq57e2qPGdE
+  - title: Outer Wilds VR (Setup & Gameplay)
+    channel: "Mick  Manchester. "
+    url: https://www.youtube.com/watch?v=5CVvjLiw5VU
+added_by: bot
+discovered_via: Initial research sweep (GitHub releases API), https://github.com/Raicuparta/nomai-vr
+last_checked: "2026-10-09"

@@ -1,0 +1,32 @@
+name: Mirror's Edge VR
+games:
+  - Mirror's Edge (2008)
+category: mod
+authors:
+  - name: LetsGoSportsTeam
+    url: https://github.com/letsgosportsteam
+platform: pcvr
+headsets:
+  - Quest
+controls: mixed
+status: alpha
+version: "v0.2.2-alpha"
+version_date: "2026-09-19"
+download_url: https://github.com/letsgosportsteam/mirrors-edge-vr-mod/releases/latest
+source_url: https://github.com/letsgosportsteam/mirrors-edge-vr-mod
+license: unknown
+required_files: Original Windows install of Mirror's Edge (2008), not Catalyst
+known_bugs:
+  - HUD was broken in the initial pre-alpha release
+  - Chapters can freeze on load unless the game's PhysX is disabled
+  - Only Virtual Desktop with VDXR is supported; SteamVR and Meta Link/Air Link are not supported by the current 32-bit OpenXR path
+notes: Requires the Virtual Desktop app with VDXR runtime rather than SteamVR; motion input uses the Touch controller layout but also supports gamepad or keyboard/mouse.
+images:
+  - game: Mirror's Edge (2008)
+    file: images/mirrors-edge-vr/mirror-s-edge.jpg
+    credit: Steam app 17410 store art
+    source_url: https://store.steampowered.com/app/17410/
+reviews: []
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

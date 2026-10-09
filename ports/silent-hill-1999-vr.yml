@@ -1,0 +1,34 @@
+name: Silent Hill (1999) VR
+games:
+  - Silent Hill (1999)
+category: mod
+authors:
+  - name: VRified Games
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "unversioned"
+version_date: "2026-08-02"
+download_url: https://www.patreon.com/u61517070/posts/silent-hill-1999-165598817
+source_url: https://www.patreon.com/u61517070/posts/silent-hill-1999-165598817
+license: unknown
+price: Patreon exclusive early access
+required_files: Silent Hill (1999) PC port game files
+known_bugs:
+  - Tracked motion controls not yet implemented
+notes: Standalone support was still in development; the finished release is planned to be free.
+images:
+  - game: Silent Hill (1999)
+    file: images/silent-hill-1999-vr/silent-hill.jpg
+    credit: Dredile
+    source_url: https://www.youtube.com/watch?v=PzReMsIgpOU
+reviews:
+  - title: I Slept In Silent Hill in VR and It Was Terrifying
+    channel: Dredile
+    url: https://www.youtube.com/watch?v=PzReMsIgpOU
+  - title: Silent Hill VR - Full Gameplay & Download
+    channel: Silent Archives
+    url: https://www.youtube.com/watch?v=QXGVqJjTLoU
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

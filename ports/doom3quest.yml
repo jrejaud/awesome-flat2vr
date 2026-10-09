@@ -1,6 +1,6 @@
 name: Doom3Quest
 games:
-  - "Doom 3"
+  - Doom 3
 category: source-port
 authors:
   - name: Team Beef
@@ -13,8 +13,20 @@ version_date: "2026-09-30"
 download_url: https://github.com/Team-Beef-Studios/Doom3Quest/releases/latest
 source_url: https://github.com/Team-Beef-Studios/Doom3Quest
 license: see-repository
-required_files: "base .pk4 files from an owned PC copy of the original Doom 3"
+required_files: base .pk4 files from an owned PC copy of the original Doom 3
 known_bugs: []
+images:
+  - game: Doom 3
+    file: images/doom3quest/doom-3.jpg
+    credit: DOOM 3 store art
+    source_url: https://store.steampowered.com/app/208200/
+reviews:
+  - title: Doom 3 Quest VR - Release Trailer
+    channel: Team Beef VR Game Ports
+    url: https://www.youtube.com/watch?v=y2y9C0E2kPk
+  - title: DOOM 3 VR QUEST SideQuest Install Instructions & Oculus Quest 2 Gameplay
+    channel: Gamertag VR
+    url: https://www.youtube.com/watch?v=U4aRzfja8xg
 added_by: bot
-discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Doom3Quest"
+discovered_via: Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Doom3Quest
 last_checked: "2026-10-09"

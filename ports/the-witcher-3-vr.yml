@@ -1,0 +1,35 @@
+name: The Witcher 3 VR
+games:
+  - "The Witcher 3: Wild Hunt"
+category: mod
+authors:
+  - name: tig3rmast3r
+    url: https://github.com/tig3rmast3r
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "v0.9.8v2"
+version_date: "2026-10-04"
+download_url: https://github.com/tig3rmast3r/witcher3-vr/releases/latest
+source_url: https://github.com/tig3rmast3r/witcher3-vr
+license: MIT
+required_files: The Witcher 3 Next-Gen (v4.04) game installation
+known_bugs:
+  - Intermittent crashes may occur when using DLSS 5 Neural Rendering, not fully resolved
+  - VR motion controllers are not supported, only mouse/keyboard or gamepad
+notes: Independent DirectX 12/OpenXR implementation supporting same-tick stereo rendering, DLSS/DLAA/TAAU, OptiScaler and ReShade integration, and an OFXR frame-generation system.
+images:
+  - game: "The Witcher 3: Wild Hunt"
+    file: images/the-witcher-3-vr/the-witcher-3-wild-hunt.jpg
+    credit: "The Witcher 3: Wild Hunt — Remastered store art"
+    source_url: https://store.steampowered.com/app/292030/
+reviews:
+  - title: "The Witcher 3: Wild Hunt VR Performance / NEW VR Mod in 2026 / Meta Quest 3 + RTX 4080 Super"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=ZghPdR9i1D4
+  - title: I Finally Tried The Witcher 3 VR Mod!
+    channel: ReaperzVR
+    url: https://www.youtube.com/watch?v=owIvBBtChic
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

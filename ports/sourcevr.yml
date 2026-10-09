@@ -1,10 +1,10 @@
 name: SourceVR
 games:
-  - "Half-Life 2"
+  - Half-Life 2
   - "Half-Life 2: Episode One"
   - "Half-Life 2: Episode Two"
-  - "Portal"
-  - "Portal 2"
+  - Portal
+  - Portal 2
 category: source-port
 authors:
   - name: tinsarfal
@@ -20,8 +20,36 @@ version_date: "2026-10-02"
 download_url: https://github.com/tinsarfal/SourceVR/releases/latest
 source_url: https://github.com/tinsarfal/SourceVR
 license: unknown
-required_files: "game files from owned Steam copies of the supported Source games"
+required_files: game files from owned Steam copies of the supported Source games
 known_bugs: []
+images:
+  - game: Half-Life 2
+    file: images/sourcevr/half-life-2.jpg
+    credit: Half-Life 2 store art
+    source_url: https://store.steampowered.com/app/220/
+  - game: "Half-Life 2: Episode One"
+    file: images/sourcevr/half-life-2-episode-one.jpg
+    credit: "Half-Life 2: Episode One store art"
+    source_url: https://store.steampowered.com/app/380/
+  - game: "Half-Life 2: Episode Two"
+    file: images/sourcevr/half-life-2-episode-two.jpg
+    credit: "Half-Life 2: Episode Two store art"
+    source_url: https://store.steampowered.com/app/420/
+  - game: Portal
+    file: images/sourcevr/portal.jpg
+    credit: Portal store art
+    source_url: https://store.steampowered.com/app/400/
+  - game: Portal 2
+    file: images/sourcevr/portal-2.jpg
+    credit: Portal 2 store art
+    source_url: https://store.steampowered.com/app/620/
+reviews:
+  - title: How to Install Half-Life 2 VR on Quest 2/Quest 3 (Standalone)
+    channel: LunchAndVR
+    url: https://www.youtube.com/watch?v=QzgDw8xEpeM
+  - title: How to Install Portal 1 VR on Quest 2/Quest 3 (Standalone)
+    channel: LunchAndVR
+    url: https://www.youtube.com/watch?v=kR_z39AJ-PQ
 added_by: bot
-discovered_via: "Initial research sweep (GitHub releases API), https://github.com/tinsarfal/SourceVR"
+discovered_via: Initial research sweep (GitHub releases API), https://github.com/tinsarfal/SourceVR
 last_checked: "2026-10-09"

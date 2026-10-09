@@ -1,0 +1,33 @@
+name: "IL-2 Sturmovik: 1946 VR"
+games:
+  - "IL-2 Sturmovik: 1946"
+category: mod
+authors:
+  - name: boilingMetal
+  - name: firepolo
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "unversioned"
+version_date: "2026-08-09"
+download_url: https://www.sas1946.com/main/index.php/topic,75791.0.html
+source_url: https://www.sas1946.com/main/index.php/topic,75791.0.html
+license: unknown
+required_files: IL-2 Sturmovik 1946 (Steam rollback build 4.12.2m, or UP3.4 Patch 2 HF23)
+known_bugs: []
+notes: Distributed as separate development snapshot downloads for the 4.12.2m and UP3.4 builds, with reworked recentering and gaze-interactive cockpit button panels.
+images:
+  - game: "IL-2 Sturmovik: 1946"
+    file: images/il-2-sturmovik-1946-vr/il-2-sturmovik-1946.jpg
+    credit: "IL-2 Sturmovik: 1946 store art"
+    source_url: https://store.steampowered.com/app/15320/
+reviews:
+  - title: il-2 sturmovik 1946 vr mod devlog 20260809 - In-game menu, HUD, interactive cockpit
+    channel: Xiao Wen
+    url: https://www.youtube.com/watch?v=MYpE9PPb49k
+  - title: il-2 sturmovik 1946 vr mod devlog 20260823 - Command Box and some naval content
+    channel: Xiao Wen
+    url: https://www.youtube.com/watch?v=MdMiA-GprkE
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

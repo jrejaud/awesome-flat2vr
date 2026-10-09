@@ -1,6 +1,6 @@
 name: BendyVR
 games:
-  - "Bendy and the Ink Machine"
+  - Bendy and the Ink Machine
 category: mod
 authors:
   - name: Team Beef
@@ -13,8 +13,20 @@ version_date: "2024-07-13"
 download_url: https://github.com/Team-Beef-Studios/BendyVR/releases/latest
 source_url: https://github.com/Team-Beef-Studios/BendyVR
 license: MIT
-required_files: "an owned PC install of Bendy and the Ink Machine"
+required_files: an owned PC install of Bendy and the Ink Machine
 known_bugs: []
+images:
+  - game: Bendy and the Ink Machine
+    file: images/bendyvr/bendy-and-the-ink-machine.jpg
+    credit: Bendy and the Ink Machine store art
+    source_url: https://store.steampowered.com/app/622650/
+reviews:
+  - title: Bendy and the Ink Machine VR | Full Game Walkthrough | No Commentary
+    channel: 99TH VR
+    url: https://www.youtube.com/watch?v=EsnSDiytst8
+  - title: I played Bendy and the Ink Machine in VR
+    channel: Vano
+    url: https://www.youtube.com/watch?v=FjC5Rnk_cOs
 added_by: bot
-discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/BendyVR"
+discovered_via: Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/BendyVR
 last_checked: "2026-10-09"

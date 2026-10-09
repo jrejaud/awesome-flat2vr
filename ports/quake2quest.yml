@@ -1,6 +1,6 @@
 name: Quake2Quest
 games:
-  - "Quake II"
+  - Quake II
 category: source-port
 authors:
   - name: Team Beef
@@ -13,8 +13,20 @@ version_date: "2026-09-29"
 download_url: https://github.com/Team-Beef-Studios/Quake2Quest/releases/latest
 source_url: https://github.com/Team-Beef-Studios/Quake2Quest
 license: see-repository
-required_files: "baseq2 pak files from an owned copy of Quake II"
+required_files: baseq2 pak files from an owned copy of Quake II
 known_bugs: []
+images:
+  - game: Quake II
+    file: images/quake2quest/quake-ii.jpg
+    credit: Quake II store art
+    source_url: https://store.steampowered.com/app/2320/
+reviews:
+  - title: Quake 2 VR [Oculus Quest 2] - An Amazing Quest Port!
+    channel: DoomSly82
+    url: https://www.youtube.com/watch?v=PlvkJJvEKKE
+  - title: Quake 2 for Quest gameplay [Quake2Quest]
+    channel: Team Beef VR Game Ports
+    url: https://www.youtube.com/watch?v=xqDJtjeYo4k
 added_by: bot
-discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Quake2Quest"
+discovered_via: Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Quake2Quest
 last_checked: "2026-10-09"

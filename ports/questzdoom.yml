@@ -1,9 +1,9 @@
 name: QuestZDoom
 games:
-  - "Doom"
-  - "Doom II"
-  - "Heretic"
-  - "Hexen"
+  - Doom
+  - Doom II
+  - Heretic
+  - Hexen
 category: source-port
 authors:
   - name: Team Beef
@@ -16,8 +16,32 @@ version_date: "2026-09-30"
 download_url: https://github.com/Team-Beef-Studios/QuestZDoom/releases/latest
 source_url: https://github.com/Team-Beef-Studios/QuestZDoom
 license: GPL-3.0
-required_files: "IWAD files (e.g. DOOM.WAD, DOOM2.WAD) from owned copies"
+required_files: IWAD files (e.g. DOOM.WAD, DOOM2.WAD) from owned copies
 known_bugs: []
+images:
+  - game: Doom
+    file: images/questzdoom/doom.jpg
+    credit: DOOM + DOOM II store art
+    source_url: https://store.steampowered.com/app/2280/
+  - game: Doom II
+    file: images/questzdoom/doom-ii.jpg
+    credit: DOOM II store art
+    source_url: https://store.steampowered.com/app/2300/
+  - game: Heretic
+    file: images/questzdoom/heretic.jpg
+    credit: "Heretic: Shadow of the Serpent Riders store art"
+    source_url: https://store.steampowered.com/app/2390/
+  - game: Hexen
+    file: images/questzdoom/hexen.jpg
+    credit: "Hexen: Beyond Heretic store art"
+    source_url: https://store.steampowered.com/app/2360/
+reviews:
+  - title: ORIGINAL DOOM VR IS ESSENTIAL FOR OCULUS QUEST 2! // Doom VR Quest 2 Gameplay // Quest Z Doom!
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=YelM8MdzzpI
+  - title: QuestZDoom Oculus Quest Gameplay and Tutorial. Installation and Modding guide for Oculus Quest Doom
+    channel: VR Reviews
+    url: https://www.youtube.com/watch?v=LwT1aKRGcOA
 added_by: bot
-discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/QuestZDoom"
+discovered_via: Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/QuestZDoom
 last_checked: "2026-10-09"

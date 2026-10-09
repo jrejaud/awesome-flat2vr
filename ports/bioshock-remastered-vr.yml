@@ -1,0 +1,34 @@
+name: BioShock Remastered VR
+games:
+  - BioShock Remastered
+category: mod
+authors:
+  - name: BioVRDev
+    url: https://github.com/BioVRDev
+  - name: Pizzzaparker
+platform: pcvr
+controls: 6dof
+status: stable
+version: "v1.0.3a"
+version_date: "2026-08-14"
+download_url: https://github.com/BioVRDev/Bioshock-Remastered-VR/releases/latest
+source_url: https://github.com/BioVRDev/Bioshock-Remastered-VR
+license: unknown
+required_files: Legitimate install of BioShock Remastered (Steam or Epic)
+known_bugs: []
+notes: Works by hooking IDXGISwapChain::Present, APlayerController::eventPlayerCalcView, and the D3D11 draw path on the game's modified Unreal 2.5 engine.
+images:
+  - game: BioShock Remastered
+    file: images/bioshock-remastered-vr/bioshock-remastered.jpg
+    credit: BioShock™ Remastered store art
+    source_url: https://store.steampowered.com/app/409710/
+reviews:
+  - title: You Can PLAY Bioshock Remastered in VR BUT Should YOU?
+    channel: Mac In VR
+    url: https://www.youtube.com/watch?v=QKVw10Tt_2c
+  - title: "The ultimate BioShock Remastered VR experience: VR mod with motion controls and HD textures!"
+    channel: VoodooDE VR - english version -
+    url: https://www.youtube.com/watch?v=QH5imGj8PjE
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

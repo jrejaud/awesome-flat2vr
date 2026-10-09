@@ -1,0 +1,37 @@
+name: KisakCOD VR
+games:
+  - "Call of Duty 4: Modern Warfare (2007)"
+category: mod
+authors:
+  - name: JplayUltimate
+  - name: jplakon
+    url: https://github.com/jplakon
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v0.10.0-beta.19"
+version_date: "2026-09-23"
+download_url: https://github.com/jplakon/CallOfDuty4_VR/releases/latest
+source_url: https://github.com/jplakon/CallOfDuty4_VR
+license: GPL-3.0
+required_files: "A legitimate installation of the original 2007 Windows PC Call of Duty 4: Modern Warfare (not the Remastered version); no game assets included"
+known_bugs:
+  - Javelin lock-on green boxes can still be slightly offset
+  - "Persistent corruption reported on issue #78 reporter's configuration"
+  - Intermittent D3D9 device-hung crash
+notes: Source-based OpenXR VR conversion built on the KisakCOD engine mod; first public beta released 2026-07-30, adding stereo rendering, 6DOF tracking, physical scopes, and physical grenades.
+images:
+  - game: "Call of Duty 4: Modern Warfare (2007)"
+    file: images/kisakcod-vr/call-of-duty-4-modern-warfare.jpg
+    credit: "Call of Duty® 4: Modern Warfare® (2007) store art"
+    source_url: https://store.steampowered.com/app/7940/
+reviews:
+  - title: "Call of Duty 4: Modern Warfare VR Performance - VR Mod with 6DOF / Meta Quest 3 + RTX 4080 Super"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=NlR_JheVXCk
+  - title: "You can play Call of Duty 4: Modern Warfare in VR and it's insane"
+    channel: StrainZex
+    url: https://www.youtube.com/watch?v=IfMoMmu5rhA
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

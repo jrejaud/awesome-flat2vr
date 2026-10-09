@@ -1,0 +1,42 @@
+name: "Half-Life 2: VR Mod"
+games:
+  - Half-Life 2
+  - "Half-Life 2: Episode One"
+  - "Half-Life 2: Episode Two"
+category: mod
+authors:
+  - name: Source VR Mod Team
+platform: pcvr
+controls: 6dof
+status: stable
+version: "Steam (auto-updates)"
+version_date: "2023-04-06"
+download_url: https://store.steampowered.com/app/658920/
+source_url: https://store.steampowered.com/app/658920/
+license: proprietary
+required_files: Half-Life 2 (and each Episode) owned on Steam
+known_bugs: []
+notes: Free on Steam. Episode One (app 2177750) and Episode Two (app 2177760) are separate free Steam installs.
+images:
+  - game: Half-Life 2
+    file: images/half-life-2-vr-mod/half-life-2.jpg
+    credit: Half-Life 2 store art
+    source_url: https://store.steampowered.com/app/220/
+  - game: "Half-Life 2: Episode One"
+    file: images/half-life-2-vr-mod/half-life-2-episode-one.jpg
+    credit: "Half-Life 2: Episode One store art"
+    source_url: https://store.steampowered.com/app/380/
+  - game: "Half-Life 2: Episode Two"
+    file: images/half-life-2-vr-mod/half-life-2-episode-two.jpg
+    credit: "Half-Life 2: Episode Two store art"
+    source_url: https://store.steampowered.com/app/420/
+reviews:
+  - title: Half-Life 2 VR is Really THAT Good
+    channel: Bonezz
+    url: https://www.youtube.com/watch?v=z8LRyoxo7kQ
+  - title: "Half-Life 2: VR Mod | Full Game Walkthrough | No Commentary"
+    channel: 99TH VR
+    url: https://www.youtube.com/watch?v=0X7h9nVNHX8
+added_by: human
+discovered_via: https://store.steampowered.com/app/658920/
+last_checked: "2026-10-09"

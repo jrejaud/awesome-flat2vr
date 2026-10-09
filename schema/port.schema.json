@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/flat2vr-index/schema/port.schema.json",
   "title": "Flat2VR port entry",
-  "description": "One file per port in ports/<slug>.yml. A port is anything that makes a flatscreen game playable in VR: a dedicated mod, a source port, or a universal injector.",
+  "description": "One file per port in ports/<slug>.yml. A port is a mod, source port or per-game profile that makes a flatscreen game playable in VR.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -24,17 +24,24 @@
     "last_checked"
   ],
   "properties": {
-    "name": { "type": "string", "minLength": 2, "description": "The port's own name, e.g. Lambda1VR." },
+    "name": {
+      "type": "string",
+      "minLength": 2,
+      "description": "The port's own name, e.g. Lambda1VR."
+    },
     "games": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "items": { "type": "string", "minLength": 1 },
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
       "description": "Original flatscreen game(s) the port makes playable in VR."
     },
     "category": {
-      "enum": ["mod", "source-port", "injector"],
-      "description": "mod = dedicated VR mod for one game; source-port = engine rebuilt with VR; injector = universal tool covering many games."
+      "enum": ["mod", "source-port", "profile"],
+      "description": "mod = dedicated VR mod; source-port = engine rebuilt with VR; profile = a per-game profile for a universal injector (e.g. a UEVR profile). Universal injectors themselves are not indexed."
     },
     "authors": {
       "type": "array",
@@ -44,53 +51,141 @@
         "additionalProperties": false,
         "required": ["name"],
         "properties": {
-          "name": { "type": "string", "minLength": 1 },
-          "url": { "type": "string", "format": "uri" }
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
         }
       }
     },
-    "platform": { "enum": ["pcvr", "standalone", "both"] },
+    "platform": {
+      "enum": ["pcvr", "standalone", "both"]
+    },
     "headsets": {
       "type": "array",
       "uniqueItems": true,
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "Standalone headsets known to work, e.g. Quest 3, Pico 4."
     },
-    "controls": { "enum": ["6dof", "3dof", "gamepad", "mixed"] },
-    "status": { "enum": ["alpha", "beta", "stable", "abandoned"] },
-    "version": { "type": "string", "minLength": 1 },
-    "version_date": { "type": "string", "format": "date" },
-    "download_url": { "type": "string", "format": "uri" },
-    "source_url": { "type": "string", "format": "uri", "description": "Repository or announcement page." },
-    "homepage": { "type": "string", "format": "uri" },
-    "license": { "type": "string", "minLength": 1, "description": "SPDX id, or 'proprietary' / 'unknown'." },
-    "price": { "type": "string", "description": "Omit when free." },
+    "controls": {
+      "enum": ["6dof", "3dof", "gamepad", "mixed"]
+    },
+    "status": {
+      "enum": ["alpha", "beta", "stable", "abandoned"]
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "download_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Repository or announcement page."
+    },
+    "homepage": {
+      "type": "string",
+      "format": "uri"
+    },
+    "license": {
+      "type": "string",
+      "minLength": 1,
+      "description": "SPDX id, or 'proprietary' / 'unknown'."
+    },
+    "price": {
+      "type": "string",
+      "description": "Omit when free."
+    },
     "required_files": {
       "type": "string",
       "minLength": 1,
       "description": "Original game data the user must own and supply."
     },
-    "known_bugs": { "type": "array", "items": { "type": "string", "minLength": 1 } },
-    "notes": { "type": "string" },
-    "screenshots": {
+    "known_bugs": {
       "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "notes": {
+      "type": "string"
+    },
+    "images": {
+      "type": "array",
+      "minItems": 1,
+      "description": "One image per game in `games` (filled by scripts/enrich.mjs). Files live in images/<slug>/.",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["file", "credit", "source_url"],
+        "required": ["game", "file", "credit", "source_url"],
         "properties": {
-          "file": { "type": "string", "pattern": "^images/[a-z0-9-]+/[A-Za-z0-9._-]+\\.(png|jpg|jpeg|webp)$" },
-          "credit": { "type": "string", "minLength": 1 },
-          "source_url": { "type": "string", "format": "uri" }
+          "game": {
+            "type": "string",
+            "minLength": 1
+          },
+          "file": {
+            "type": "string",
+            "pattern": "^images/[a-z0-9-]+/[a-z0-9-]+\\.(png|jpg|jpeg|webp)$"
+          },
+          "credit": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri"
+          }
         }
       }
     },
-    "added_by": { "enum": ["human", "bot"] },
+    "reviews": {
+      "type": "array",
+      "description": "YouTube reviews or showcases of this port.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "channel", "url"],
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "channel": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "added_by": {
+      "enum": ["human", "bot"]
+    },
     "discovered_via": {
       "type": "string",
       "minLength": 1,
       "description": "Where the entry was found (URL or source name), for credit."
     },
-    "last_checked": { "type": "string", "format": "date" }
+    "last_checked": {
+      "type": "string",
+      "format": "date"
+    }
   }
 }

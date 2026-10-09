@@ -1,12 +1,12 @@
 name: REFramework
 games:
-  - "Resident Evil 2 (2019)"
-  - "Resident Evil 3 (2020)"
-  - "Resident Evil 4 (2023)"
-  - "Resident Evil 7"
-  - "Resident Evil Village"
-  - "Devil May Cry 5"
-category: injector
+  - Resident Evil 2 (2019)
+  - Resident Evil 3 (2020)
+  - Resident Evil 4 (2023)
+  - Resident Evil 7
+  - Resident Evil Village
+  - Devil May Cry 5
+category: mod
 authors:
   - name: praydog
     url: https://github.com/praydog
@@ -19,8 +19,40 @@ download_url: https://github.com/praydog/REFramework/releases/latest
 source_url: https://github.com/praydog/REFramework
 homepage: https://reframework.praydog.com/
 license: MIT
-required_files: "an owned PC install of the target RE Engine game"
+required_files: an owned PC install of the target RE Engine game
 known_bugs: []
+images:
+  - game: Resident Evil 2 (2019)
+    file: images/reframework/resident-evil-2.jpg
+    credit: Resident Evil 2 store art
+    source_url: https://store.steampowered.com/app/883710/
+  - game: Resident Evil 3 (2020)
+    file: images/reframework/resident-evil-3.jpg
+    credit: Resident Evil 3 store art
+    source_url: https://store.steampowered.com/app/952060/
+  - game: Resident Evil 4 (2023)
+    file: images/reframework/resident-evil-4.jpg
+    credit: Resident Evil 4 store art
+    source_url: https://store.steampowered.com/app/2050650/
+  - game: Resident Evil 7
+    file: images/reframework/resident-evil-7.jpg
+    credit: Resident Evil 7 Biohazard store art
+    source_url: https://store.steampowered.com/app/418370/
+  - game: Resident Evil Village
+    file: images/reframework/resident-evil-village.jpg
+    credit: Resident Evil Village store art
+    source_url: https://store.steampowered.com/app/1196590/
+  - game: Devil May Cry 5
+    file: images/reframework/devil-may-cry-5.jpg
+    credit: Devil May Cry 5 store art
+    source_url: https://store.steampowered.com/app/601150/
+reviews:
+  - title: "Tutorial: How To Install Resident Evil 7 VR Mod for PC (New Version with Motion Controls!)"
+    channel: MRTV - MIXED REALITY TV
+    url: https://www.youtube.com/watch?v=hySd4sHtcDE
+  - title: Resident Evil 7 PC VR Setup Guide (Definitive Edition)
+    channel: Stereo3DProductions
+    url: https://www.youtube.com/watch?v=Ql5ggETipyM
 added_by: bot
-discovered_via: "Initial research sweep (GitHub releases API), https://github.com/praydog/REFramework"
+discovered_via: Initial research sweep (GitHub releases API), https://github.com/praydog/REFramework
 last_checked: "2026-10-09"
