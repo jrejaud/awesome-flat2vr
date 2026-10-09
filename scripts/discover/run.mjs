@@ -13,7 +13,7 @@
 // Env: FLAT2VR_STATE (seen-state dir, default ~/.local/state/flat2vr-bot),
 //      FLAT2VR_HC_URL (Healthchecks ping URL; /start, success and /fail are sent).
 import { execFileSync } from 'node:child_process';
-import { existsSync, mkdirSync, readFileSync, writeFileSync, appendFileSync, rmSync } from 'node:fs';
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync, appendFileSync, rmSync } from 'node:fs';
 import { join } from 'node:path';
 import { homedir } from 'node:os';
 import { loadPorts, ROOT } from '../lib.mjs';
@@ -243,12 +243,33 @@ async function discover(ports, changes) {
   changes.extracted = extracted;
 }
 
+// An image this run downloaded for an entry that was later dropped, renamed or merged is
+// left untracked and unreferenced, and the validator rejects the whole build over it.
+// Only untracked files are removed: anything already committed is a human's call.
+function pruneOrphanImages() {
+  const untracked = git('ls-files', '--others', '--exclude-standard', 'images/').split('\n').filter(Boolean);
+  if (!untracked.length) return;
+  const referenced = new Set(
+    readdirSync(join(ROOT, 'ports'))
+      .filter((f) => f.endsWith('.yml'))
+      .flatMap((f) =>
+        [...readFileSync(join(ROOT, 'ports', f), 'utf8').matchAll(/^\s+file: (\S+)$/gm)].map((m) => m[1]),
+      ),
+  );
+  for (const f of untracked)
+    if (!referenced.has(f)) {
+      rmSync(join(ROOT, f));
+      log(`prune ${f}: image not referenced by any port`);
+    }
+}
+
 // Build + validate, then commit the run's changes straight to main and push. No PR:
 // every entry is already `added_by: bot` and credits its source in `discovered_via`,
 // and `npm run validate` has to pass locally before the commit is made. If the push
 // fails anyway, the caller rolls this run's `added` verdicts back out of seen-state so
 // the entries are rediscovered next run instead of being suppressed forever.
 function commitToMain() {
+  pruneOrphanImages();
   sh('npm', ['run', '-s', 'build']);
   sh('npm', ['run', '-s', 'validate']);
   git('add', 'ports', 'images', 'README.md', 'data');
