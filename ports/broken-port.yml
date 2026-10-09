@@ -1,0 +1,18 @@
+name: BrokenPort
+games:
+  - "Some Game"
+category: mod
+authors:
+  - name: Someone
+platform: pcvr
+status: finished
+version: 1.0
+version_date: "2026-01-01"
+source_url: https://example.com
+license: MIT
+required_files: "the game"
+known_bugs: []
+added_by: human
+discovered_via: test
+last_checked: "2026-01-02"
+rating: 5
