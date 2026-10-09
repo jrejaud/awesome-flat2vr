@@ -40,7 +40,7 @@ export function buildPrompt(candidate, existingNames, date) {
 Decide whether the SOURCE MATERIAL below announces such a port (a new one, or a release of one), and if so extract one index entry.
 
 is_port = false for: universal injectors with no specific game (UEVR, UUVR themselves), native VR games, VR-only tools/utilities, emulators with no game-specific VR, videos/reviews/questions/discussion with no release, store-scraped listings, piracy, rehosted game files.
-duplicate_of = the existing index name if this is the same port as one already indexed (same mod for the same game by the same author), else null.
+duplicate_of = the existing index name only if this is the SAME port: the same repo or release page, or the same author shipping the same mod for the same game. A different author, a different repo, or a different technical base (decomp port vs emulator, UEVR profile vs native mod) is a separate port even when it targets the same game or borrows a name; return null.
 
 Entry rules:
 - name: the port's own name (e.g. "Lambda1VR", "Mirror's Edge VR").
