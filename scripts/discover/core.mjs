@@ -150,6 +150,8 @@ export function finalizeEntry(raw, candidate, { date = today() } = {}) {
   const ground = [...(candidate.urls ?? []), candidate.source_url];
   // A source drop or forum post has no separate download page: the source page is where you get it.
   if (!entry.download_url && entry.source_url) entry.download_url = entry.source_url;
+  // Sources with no release date (a hub catalog, a store page) date the entry to when it was seen.
+  if (!entry.version_date) entry.version_date = candidate.date || date;
   // A video, chat or forum-thread link is coverage, not somewhere to get the port: no release yet.
   if (NOT_A_DOWNLOAD.test(entry.download_url ?? ''))
     return { error: `download_url ${entry.download_url} is not a download page (unreleased?)` };
