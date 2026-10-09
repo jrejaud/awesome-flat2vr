@@ -1,0 +1,32 @@
+name: Far Cry VR
+games:
+  - Far Cry (2004)
+category: mod
+authors:
+  - name: Holger Frydrych
+platform: pcvr
+controls: 6dof
+status: stable
+version: "unversioned"
+version_date: "2026-10-09"
+download_url: https://farcryvr.de/
+source_url: https://farcryvr.de/
+license: unknown
+required_files: Far Cry (2004), patched to v1.4 (Steam or GOG versions already meet this)
+known_bugs: []
+notes: Requires SteamVR; supports bHaptics vests and left-handed play.
+images:
+  - game: Far Cry (2004)
+    file: images/far-cry-vr/far-cry.jpg
+    credit: Far Cry® store art
+    source_url: https://store.steampowered.com/app/13520/
+reviews:
+  - title: Far Cry VR Mod w/ Motion Controls Gameplay
+    channel: MAME-FAN
+    url: https://www.youtube.com/watch?v=8sD5DVkP9vI
+  - title: FAR CRY VR is almost a reality with this NEW VR MOD! // Quest 2 PC VR Gameplay
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=ndyG_lw7ZeU
+added_by: bot
+discovered_via: https://farcryvr.de/
+last_checked: "2026-10-09"

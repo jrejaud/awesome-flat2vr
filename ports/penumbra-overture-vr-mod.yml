@@ -1,0 +1,33 @@
+name: "Penumbra: Overture VR Mod"
+games:
+  - "Penumbra: Overture"
+category: mod
+authors:
+  - name: newyork167
+    url: https://github.com/newyork167
+platform: pcvr
+controls: 6dof
+status: abandoned
+version: "untagged-aceffe2e650abce1e795"
+version_date: "2018-06-23"
+download_url: https://github.com/newyork167/penumbra_vr/releases/latest
+source_url: https://github.com/newyork167/penumbra_vr
+license: unknown
+required_files: "A copy of Penumbra: Overture by Frictional Games"
+known_bugs: []
+notes: Fork noted as last known release pre fork; copy mod files into Penumbra's redist directory and run with SteamVR.
+images:
+  - game: "Penumbra: Overture"
+    file: images/penumbra-overture-vr-mod/penumbra-overture.jpg
+    credit: Penumbra Overture store art
+    source_url: https://store.steampowered.com/app/22180/
+reviews:
+  - title: "Penumbra: Overture VR Preview [HTC Vive]"
+    channel: znmcys
+    url: https://www.youtube.com/watch?v=TMbIcwtcTWA
+  - title: Penumbra Overture VR Gameplay on HTC Vive! Survival Horror Game Finally in VR thanks to custom MOD!
+    channel: SweViver
+    url: https://www.youtube.com/watch?v=qT3Y5dZ-nLg
+added_by: bot
+discovered_via: https://github.com/newyork167/penumbra_vr
+last_checked: "2026-10-09"

@@ -1,0 +1,35 @@
+name: ANKH-VR
+games:
+  - "Ultima IV: Quest of the Avatar"
+category: source-port
+authors:
+  - name: plaidpants
+    url: https://github.com/plaidpants
+platform: both
+headsets:
+  - Oculus Quest
+controls: 6dof
+status: beta
+version: "0.2.15"
+version_date: "2026-07-02"
+download_url: https://github.com/plaidpants/ANKH-VR/releases/latest
+source_url: https://github.com/plaidpants/ANKH-VR
+license: unknown
+required_files: A legally obtained copy of Ultima 4 (e.g. from GOG), plus patch files from the u4-decompiled project and supplemental music files, copied into the game's Unity persistent storage folder.
+known_bugs: []
+notes: Reads text and data directly from the original Ultima 4 EXE files rather than patching them; author describes it as alpha on Quest and beta on PC.
+images:
+  - game: "Ultima IV: Quest of the Avatar"
+    file: images/ankh-vr/ultima-iv-quest-of-the-avatar.jpg
+    credit: Hoshi82
+    source_url: https://www.youtube.com/watch?v=Z9mnNK967Jo
+reviews:
+  - title: ANKH-VR 2022 05 05   20 12 19 07
+    channel: James Surine
+    url: https://www.youtube.com/watch?v=kLdYe7H2X_s
+  - title: Ultima IV Quest of the Avatar VR ... finest retro CRPG in VR! [Tutorial/Gameplay/Conclusion] - Ho...
+    channel: Hoshi82
+    url: https://www.youtube.com/watch?v=Z9mnNK967Jo
+added_by: bot
+discovered_via: https://github.com/plaidpants/ankh-vr
+last_checked: "2026-10-09"

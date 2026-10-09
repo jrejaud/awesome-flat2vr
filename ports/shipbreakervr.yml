@@ -1,0 +1,34 @@
+name: ShipbreakerVR
+games:
+  - "Hardspace: Shipbreaker"
+category: mod
+authors:
+  - name: Rai
+    url: https://raicuparta.com/shipbreaker-vr-mod
+platform: pcvr
+controls: gamepad
+status: beta
+version: "unversioned"
+version_date: "2026-10-09"
+download_url: https://raicuparta.com/shipbreaker-vr-mod
+source_url: https://raicuparta.com/shipbreaker-vr-mod
+license: unknown
+required_files: "Hardspace: Shipbreaker (Steam or Xbox Game Pass)"
+known_bugs:
+  - Some UI elements broken.
+notes: Has no motion controls, but features camera-independent aiming for all the game tools.
+images:
+  - game: "Hardspace: Shipbreaker"
+    file: images/shipbreakervr/hardspace-shipbreaker.jpg
+    credit: "Hardspace: Shipbreaker store art"
+    source_url: https://store.steampowered.com/app/1161580/
+reviews:
+  - title: I'm making a Shipbreaker VR mod
+    channel: Raicuparta
+    url: https://www.youtube.com/watch?v=UGGtz1lYMNw
+  - title: "NEW Hardspace: Shipbreaker VR Mod - This is Steller! // Oculus Rift S // RTX 2070 Super"
+    channel: Paradise Decay
+    url: https://www.youtube.com/watch?v=PZLhq5NiFKo
+added_by: bot
+discovered_via: https://raicuparta.com/shipbreaker-vr-mod
+last_checked: "2026-10-09"

@@ -1,0 +1,43 @@
+name: HaloCEVR
+games:
+  - "Halo: Combat Evolved (PC)"
+category: mod
+authors:
+  - name: LivingFray
+    url: https://github.com/LivingFray
+platform: pcvr
+controls: 6dof
+status: stable
+version: "1.4.0"
+version_date: "2026-01-10"
+download_url: https://github.com/LivingFray/HaloCEVR/releases/latest
+source_url: https://github.com/LivingFray/HaloCEVR
+license: unknown
+required_files: "Original PC CD installation of Halo: Combat Evolved (not Custom Edition or MCC), patched to 1.0.10"
+known_bugs:
+  - Game sometimes isn't the focused window on launch, and inputs/sounds may break when unfocused
+  - First stage of the tutorial doesn't detect headset movement
+  - Camera briefly behaves weirdly when entering/exiting vehicles
+  - Reloading a checkpoint made while in a vehicle can mess with the camera position
+  - Melee and interact use head aiming rather than controller aiming
+  - Crosshair only lights up red when looking at an enemy, not when pointing a gun at one
+  - On screen button prompts display keyboard bindings rather than VR bindings
+  - Mod config/log file won't generate if installed to Program Files unless run as administrator
+  - Occasional stutters can cause jarring motion smoothing in vehicles
+  - Some users report minor distortion/warping when tilting head side to side
+notes: "Not compatible with Halo: The Master Chief Collection; requires original PC version only."
+images:
+  - game: "Halo: Combat Evolved (PC)"
+    file: images/halocevr/halo-combat-evolved.jpg
+    credit: "Halo: Combat Evolved Anniversary store art"
+    source_url: https://store.steampowered.com/app/1064221/
+reviews:
+  - title: HALO VR is HERE! // Halo Combat Evolved VR MOD Gameplay (PCVR)
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=KV-SMBYu7IY
+  - title: Halo Combat Evolved Full VR Mod is Absolutely INCREDIBLE.
+    channel: Tyriel Wood - VR Tech
+    url: https://www.youtube.com/watch?v=zUMakbVleso
+added_by: bot
+discovered_via: https://github.com/livingfray/halocevr
+last_checked: "2026-10-09"

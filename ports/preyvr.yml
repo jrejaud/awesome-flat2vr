@@ -1,0 +1,37 @@
+name: PreyVR
+games:
+  - Prey (2006)
+category: source-port
+authors:
+  - name: lvonasek
+  - name: Team-Beef-Studios
+    url: https://github.com/Team-Beef-Studios
+platform: standalone
+headsets:
+  - Quest
+  - Pico 4
+controls: 6dof
+status: stable
+version: "v1.2.4"
+version_date: "2026-03-24"
+download_url: https://github.com/Team-Beef-Studios/PreyVR/releases/latest
+source_url: https://github.com/Team-Beef-Studios/PreyVR
+license: unknown
+required_files: Original Prey (2006) game data (PK4 files) patched to version 1.4, copied from a Steam install; a free demo version is also downloadable in-app.
+known_bugs: []
+notes: Built on id Tech 4 Quest-porting work from the Doom3Quest/Quake2Quest lineage by lvonasek; v1.2.4 adds Pico 4 support, weapon wheel, and a hidden cheat menu.
+images:
+  - game: Prey (2006)
+    file: images/preyvr/prey.jpg
+    credit: Prey store art
+    source_url: https://store.steampowered.com/app/480490/
+reviews:
+  - title: Prey 2006 Quest/Pico Standalone VR port
+    channel: VRified Games
+    url: https://www.youtube.com/watch?v=5TwIxB0oKd8
+  - title: VR 180 / PREY 2006 / QUEST 2 / MOD VR / A Regarder Sur Youtube VR.
+    channel: JORDAN VR180
+    url: https://www.youtube.com/watch?v=x2vvayN7MXA
+added_by: bot
+discovered_via: https://github.com/lvonasek/preyvr
+last_checked: "2026-10-09"

@@ -1,0 +1,32 @@
+name: VRG
+games:
+  - Deep Rock Galactic
+category: mod
+authors:
+  - name: Unknown
+platform: pcvr
+controls: 6dof
+status: beta
+version: "unversioned"
+version_date: "2026-10-09"
+download_url: https://mod.io/g/drg/m/vrg
+source_url: https://mod.io/g/drg/m/vrg
+license: unknown
+required_files: Deep Rock Galactic game install
+known_bugs: []
+notes: Full VR mod for Deep Rock Galactic with motion controller support, holsters, gestures and hand aim; supports multiplayer with friends or randoms.
+images:
+  - game: Deep Rock Galactic
+    file: images/vrg/deep-rock-galactic.jpg
+    credit: Deep Rock Galactic store art
+    source_url: https://store.steampowered.com/app/548430/
+reviews:
+  - title: DEEP ROCK GALACTIC VR is pure mutliplayer MADNESS  // Quest 2 Airlink Gameplay
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=jrcGVagjNpc
+  - title: "3 Cool VR Mods #2 - Outer Wilds, Deep Rock Galactic, Resident Evil 2 Remake"
+    channel: MedvediVodki
+    url: https://www.youtube.com/watch?v=HcI-ybJrUAs
+added_by: bot
+discovered_via: https://mod.io/g/drg/m/vrg
+last_checked: "2026-10-09"

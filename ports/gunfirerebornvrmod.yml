@@ -1,0 +1,35 @@
+name: GunfireRebornVRMod
+games:
+  - Gunfire Reborn
+category: mod
+authors:
+  - name: xPrinny
+    url: https://github.com/xPrinny
+  - name: PureDark
+    url: https://github.com/PureDark
+platform: pcvr
+controls: 6dof
+status: stable
+version: "1.0.6.1"
+version_date: "2024-03-19"
+download_url: https://github.com/xPrinny/GunfireRebornVRMod/releases/latest
+source_url: https://github.com/xPrinny/GunfireRebornVRMod
+license: unknown
+required_files: A copy of Gunfire Reborn
+known_bugs: []
+notes: Fork of PureDark's original Gunfire Reborn VR mod; optional haptics add-on by Astienth referenced separately.
+images:
+  - game: Gunfire Reborn
+    file: images/gunfirerebornvrmod/gunfire-reborn.jpg
+    credit: Gunfire Reborn store art
+    source_url: https://store.steampowered.com/app/1217060/
+reviews:
+  - title: Gunfire Reborn Gameplay Feels Made For VR Thanks To This New Gunfire Reborn VR Mod! -Ian's VR Corner
+    channel: Eurogamer
+    url: https://www.youtube.com/watch?v=WL9V5aDS7_c
+  - title: Gunfire Reborn VR AND MOTION CONTROL MOD
+    channel: Laserfights
+    url: https://www.youtube.com/watch?v=TQTKvaMpzOE
+added_by: bot
+discovered_via: https://github.com/xprinny/gunfirerebornvrmod
+last_checked: "2026-10-09"

@@ -1,0 +1,32 @@
+name: HeavenVR
+games:
+  - Neon White
+category: mod
+authors:
+  - name: Rai
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "unversioned"
+version_date: "2026-10-09"
+download_url: https://raicuparta.com/neon-white-vr-mod
+source_url: https://raicuparta.com/neon-white-vr-mod
+license: unknown
+required_files: Neon White (Steam or Xbox Game Pass for PC)
+known_bugs: []
+notes: Also distributed via Itch and GitHub per the creator's page.
+images:
+  - game: Neon White
+    file: images/heavenvr/neon-white.jpg
+    credit: Neon White store art
+    source_url: https://store.steampowered.com/app/1533420/
+reviews:
+  - title: Playing Neon White In VR Is FANTASTIC - The Perfect 'Just One More Go' VR Game! - Ian's VR Corner
+    channel: Eurogamer
+    url: https://www.youtube.com/watch?v=DrwI5f5qqpM
+  - title: I'm making a Neon White VR mod, and it's really fun
+    channel: Raicuparta
+    url: https://www.youtube.com/watch?v=zC-k2HTqg1A
+added_by: bot
+discovered_via: https://raicuparta.com/neon-white-vr-mod
+last_checked: "2026-10-09"

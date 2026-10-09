@@ -1,0 +1,32 @@
+name: OpenMW VR
+games:
+  - "The Elder Scrolls III: Morrowind"
+category: source-port
+authors:
+  - name: Mads Buvik Sandvei
+platform: pcvr
+controls: 6dof
+status: stable
+version: "unversioned"
+version_date: "2026-10-09"
+download_url: https://gitlab.com/madsbuvi/openmw
+source_url: https://gitlab.com/madsbuvi/openmw
+license: GPL-3.0-or-later
+required_files: Original Morrowind game data/installation
+known_bugs: []
+notes: Fork of the OpenMW engine adding native VR support for Morrowind; setup docs at openmw-vr.readthedocs.io.
+images:
+  - game: "The Elder Scrolls III: Morrowind"
+    file: images/openmw-vr/the-elder-scrolls-iii-morrowind.jpg
+    credit: "The Elder Scrolls III: Morrowind® Game of the Year Edition store art"
+    source_url: https://store.steampowered.com/app/22320/
+reviews:
+  - title: "TESTING Elder Scrolls III: Morrowind VR Mod! // Oculus Rift S // RTX 2070 Super"
+    channel: Paradise Decay
+    url: https://www.youtube.com/watch?v=7xgJZve3ZpE
+  - title: "Elder Scrolls 3: Morrowind in VR!   |   Short Gameplay on Valve Index (no commentary)"
+    channel: Immersed Robot
+    url: https://www.youtube.com/watch?v=7kqEdA5f4Jg
+added_by: bot
+discovered_via: https://gitlab.com/madsbuvi/openmw
+last_checked: "2026-10-09"

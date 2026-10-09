@@ -1,0 +1,37 @@
+name: L4D2VR
+games:
+  - Left 4 Dead 2
+category: mod
+authors:
+  - name: sd805
+    url: https://github.com/sd805
+  - name: MasterMind420
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "0.6.2"
+version_date: "2025-07-19"
+download_url: https://github.com/sd805/l4d2vr/releases/latest
+source_url: https://github.com/sd805/l4d2vr
+license: unknown
+required_files: Left 4 Dead 2 game installation (Steam)
+known_bugs:
+  - Interactions and throwables require you to aim with your face
+  - Roomscale needs work
+  - CPU is underutilized
+notes: Uses -insecure launch option due to VAC ban risk; built on code from VirtualFortress2, gmcl_openvr, a VR-patched dxvk fork, and source-sdk-2013.
+images:
+  - game: Left 4 Dead 2
+    file: images/l4d2vr/left-4-dead-2.jpg
+    credit: Left 4 Dead 2 store art
+    source_url: https://store.steampowered.com/app/550/
+reviews:
+  - title: How to install the L4D2 VR Mod
+    channel: Ace TheOcarinaMaker
+    url: https://www.youtube.com/watch?v=RiUE3ImEBT4
+  - title: 💥LEFT 4 DEAD 2 in VIRTUAL REALITY is NEXT LEVEL💥 TUTORIAL INSIDE 2026
+    channel: Shaak4 VR
+    url: https://www.youtube.com/watch?v=Yb_JfxGoWms
+added_by: bot
+discovered_via: https://github.com/sd805/l4d2vr
+last_checked: "2026-10-09"

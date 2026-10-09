@@ -1,0 +1,33 @@
+name: System Shock Remake UEVR Plugin
+games:
+  - System Shock (Remake)
+category: profile
+authors:
+  - name: Ashok0
+    url: https://github.com/Ashok0
+platform: pcvr
+controls: 6dof
+status: abandoned
+version: "v1.01"
+version_date: "2024-09-16"
+download_url: https://github.com/Ashok0/SystemShock-UEVR/releases/latest
+source_url: https://github.com/Ashok0/SystemShock-UEVR
+license: unknown
+required_files: System Shock Remake game install
+known_bugs: []
+notes: Deprecated by its author in favor of Gwizdek's separate SystemReShock-UEVR-Plugin.
+images:
+  - game: System Shock (Remake)
+    file: images/system-shock-remake-uevr-plugin/system-shock.jpg
+    credit: System Shock store art
+    source_url: https://store.steampowered.com/app/482400/
+reviews:
+  - title: This SYSTEM SHOCK VR MOD is EPIC! // Closest Thing to BIOSHOCK VR? UEVR Mod
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=gbCEQ9g_j3Y
+  - title: System Shock Remake VR - Interactions Tutorial
+    channel: gwizdek
+    url: https://www.youtube.com/watch?v=Gke3bmS2L-U
+added_by: bot
+discovered_via: https://github.com/ashok0/systemshock-uevr
+last_checked: "2026-10-09"

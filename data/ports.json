@@ -187,6 +187,57 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "ankh-vr",
+    "name": "ANKH-VR",
+    "games": [
+      "Ultima IV: Quest of the Avatar"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "plaidpants",
+        "url": "https://github.com/plaidpants"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Oculus Quest"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "0.2.15",
+    "version_date": "2026-07-02",
+    "download_url": "https://github.com/plaidpants/ANKH-VR/releases/latest",
+    "source_url": "https://github.com/plaidpants/ANKH-VR",
+    "license": "unknown",
+    "required_files": "A legally obtained copy of Ultima 4 (e.g. from GOG), plus patch files from the u4-decompiled project and supplemental music files, copied into the game's Unity persistent storage folder.",
+    "known_bugs": [],
+    "notes": "Reads text and data directly from the original Ultima 4 EXE files rather than patching them; author describes it as alpha on Quest and beta on PC.",
+    "images": [
+      {
+        "game": "Ultima IV: Quest of the Avatar",
+        "file": "images/ankh-vr/ultima-iv-quest-of-the-avatar.jpg",
+        "credit": "Hoshi82",
+        "source_url": "https://www.youtube.com/watch?v=Z9mnNK967Jo"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "ANKH-VR 2022 05 05   20 12 19 07",
+        "channel": "James Surine",
+        "url": "https://www.youtube.com/watch?v=kLdYe7H2X_s"
+      },
+      {
+        "title": "Ultima IV Quest of the Avatar VR ... finest retro CRPG in VR! [Tutorial/Gameplay/Conclusion] - Ho...",
+        "channel": "Hoshi82",
+        "url": "https://www.youtube.com/watch?v=Z9mnNK967Jo"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/plaidpants/ankh-vr",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "assassins-creed-iv-black-flag-resynced-vr",
     "name": "Assassin's Creed IV: Black Flag Resynced VR",
     "games": [
@@ -1178,6 +1229,53 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "far-cry-vr",
+    "name": "Far Cry VR",
+    "games": [
+      "Far Cry (2004)"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Holger Frydrych"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "unversioned",
+    "version_date": "2026-10-09",
+    "download_url": "https://farcryvr.de/",
+    "source_url": "https://farcryvr.de/",
+    "license": "unknown",
+    "required_files": "Far Cry (2004), patched to v1.4 (Steam or GOG versions already meet this)",
+    "known_bugs": [],
+    "notes": "Requires SteamVR; supports bHaptics vests and left-handed play.",
+    "images": [
+      {
+        "game": "Far Cry (2004)",
+        "file": "images/far-cry-vr/far-cry.jpg",
+        "credit": "Far Cry® store art",
+        "source_url": "https://store.steampowered.com/app/13520/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Far Cry VR Mod w/ Motion Controls Gameplay",
+        "channel": "MAME-FAN",
+        "url": "https://www.youtube.com/watch?v=8sD5DVkP9vI"
+      },
+      {
+        "title": "FAR CRY VR is almost a reality with this NEW VR MOD! // Quest 2 PC VR Gameplay",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=ndyG_lw7ZeU"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://farcryvr.de/",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "fear2vr",
     "name": "FEAR2VR",
     "games": [
@@ -1483,6 +1581,58 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "gunfirerebornvrmod",
+    "name": "GunfireRebornVRMod",
+    "games": [
+      "Gunfire Reborn"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "xPrinny",
+        "url": "https://github.com/xPrinny"
+      },
+      {
+        "name": "PureDark",
+        "url": "https://github.com/PureDark"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "1.0.6.1",
+    "version_date": "2024-03-19",
+    "download_url": "https://github.com/xPrinny/GunfireRebornVRMod/releases/latest",
+    "source_url": "https://github.com/xPrinny/GunfireRebornVRMod",
+    "license": "unknown",
+    "required_files": "A copy of Gunfire Reborn",
+    "known_bugs": [],
+    "notes": "Fork of PureDark's original Gunfire Reborn VR mod; optional haptics add-on by Astienth referenced separately.",
+    "images": [
+      {
+        "game": "Gunfire Reborn",
+        "file": "images/gunfirerebornvrmod/gunfire-reborn.jpg",
+        "credit": "Gunfire Reborn store art",
+        "source_url": "https://store.steampowered.com/app/1217060/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Gunfire Reborn Gameplay Feels Made For VR Thanks To This New Gunfire Reborn VR Mod! -Ian's VR Corner",
+        "channel": "Eurogamer",
+        "url": "https://www.youtube.com/watch?v=WL9V5aDS7_c"
+      },
+      {
+        "title": "Gunfire Reborn VR AND MOTION CONTROL MOD",
+        "channel": "Laserfights",
+        "url": "https://www.youtube.com/watch?v=TQTKvaMpzOE"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/xprinny/gunfirerebornvrmod",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "half-life-2-vr-mod",
     "name": "Half-Life 2: VR Mod",
     "games": [
@@ -1630,6 +1780,112 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/moistman42069/haloce-quest-vr",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "halocevr",
+    "name": "HaloCEVR",
+    "games": [
+      "Halo: Combat Evolved (PC)"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "LivingFray",
+        "url": "https://github.com/LivingFray"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "1.4.0",
+    "version_date": "2026-01-10",
+    "download_url": "https://github.com/LivingFray/HaloCEVR/releases/latest",
+    "source_url": "https://github.com/LivingFray/HaloCEVR",
+    "license": "unknown",
+    "required_files": "Original PC CD installation of Halo: Combat Evolved (not Custom Edition or MCC), patched to 1.0.10",
+    "known_bugs": [
+      "Game sometimes isn't the focused window on launch, and inputs/sounds may break when unfocused",
+      "First stage of the tutorial doesn't detect headset movement",
+      "Camera briefly behaves weirdly when entering/exiting vehicles",
+      "Reloading a checkpoint made while in a vehicle can mess with the camera position",
+      "Melee and interact use head aiming rather than controller aiming",
+      "Crosshair only lights up red when looking at an enemy, not when pointing a gun at one",
+      "On screen button prompts display keyboard bindings rather than VR bindings",
+      "Mod config/log file won't generate if installed to Program Files unless run as administrator",
+      "Occasional stutters can cause jarring motion smoothing in vehicles",
+      "Some users report minor distortion/warping when tilting head side to side"
+    ],
+    "notes": "Not compatible with Halo: The Master Chief Collection; requires original PC version only.",
+    "images": [
+      {
+        "game": "Halo: Combat Evolved (PC)",
+        "file": "images/halocevr/halo-combat-evolved.jpg",
+        "credit": "Halo: Combat Evolved Anniversary store art",
+        "source_url": "https://store.steampowered.com/app/1064221/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "HALO VR is HERE! // Halo Combat Evolved VR MOD Gameplay (PCVR)",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=KV-SMBYu7IY"
+      },
+      {
+        "title": "Halo Combat Evolved Full VR Mod is Absolutely INCREDIBLE.",
+        "channel": "Tyriel Wood - VR Tech",
+        "url": "https://www.youtube.com/watch?v=zUMakbVleso"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/livingfray/halocevr",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "heavenvr",
+    "name": "HeavenVR",
+    "games": [
+      "Neon White"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Rai"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "unversioned",
+    "version_date": "2026-10-09",
+    "download_url": "https://raicuparta.com/neon-white-vr-mod",
+    "source_url": "https://raicuparta.com/neon-white-vr-mod",
+    "license": "unknown",
+    "required_files": "Neon White (Steam or Xbox Game Pass for PC)",
+    "known_bugs": [],
+    "notes": "Also distributed via Itch and GitHub per the creator's page.",
+    "images": [
+      {
+        "game": "Neon White",
+        "file": "images/heavenvr/neon-white.jpg",
+        "credit": "Neon White store art",
+        "source_url": "https://store.steampowered.com/app/1533420/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Playing Neon White In VR Is FANTASTIC - The Perfect 'Just One More Go' VR Game! - Ian's VR Corner",
+        "channel": "Eurogamer",
+        "url": "https://www.youtube.com/watch?v=DrwI5f5qqpM"
+      },
+      {
+        "title": "I'm making a Neon White VR mod, and it's really fun",
+        "channel": "Raicuparta",
+        "url": "https://www.youtube.com/watch?v=zC-k2HTqg1A"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://raicuparta.com/neon-white-vr-mod",
     "last_checked": "2026-10-09"
   },
   {
@@ -2009,6 +2265,61 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "l4d2vr",
+    "name": "L4D2VR",
+    "games": [
+      "Left 4 Dead 2"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "sd805",
+        "url": "https://github.com/sd805"
+      },
+      {
+        "name": "MasterMind420"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "0.6.2",
+    "version_date": "2025-07-19",
+    "download_url": "https://github.com/sd805/l4d2vr/releases/latest",
+    "source_url": "https://github.com/sd805/l4d2vr",
+    "license": "unknown",
+    "required_files": "Left 4 Dead 2 game installation (Steam)",
+    "known_bugs": [
+      "Interactions and throwables require you to aim with your face",
+      "Roomscale needs work",
+      "CPU is underutilized"
+    ],
+    "notes": "Uses -insecure launch option due to VAC ban risk; built on code from VirtualFortress2, gmcl_openvr, a VR-patched dxvk fork, and source-sdk-2013.",
+    "images": [
+      {
+        "game": "Left 4 Dead 2",
+        "file": "images/l4d2vr/left-4-dead-2.jpg",
+        "credit": "Left 4 Dead 2 store art",
+        "source_url": "https://store.steampowered.com/app/550/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "How to install the L4D2 VR Mod",
+        "channel": "Ace TheOcarinaMaker",
+        "url": "https://www.youtube.com/watch?v=RiUE3ImEBT4"
+      },
+      {
+        "title": "💥LEFT 4 DEAD 2 in VIRTUAL REALITY is NEXT LEVEL💥 TUTORIAL INSIDE 2026",
+        "channel": "Shaak4 VR",
+        "url": "https://www.youtube.com/watch?v=Yb_JfxGoWms"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/sd805/l4d2vr",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "lambda1vr",
     "name": "Lambda1VR",
     "games": [
@@ -2053,6 +2364,55 @@
     ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Lambda1VR",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "lethalcompanyvr-lcvr",
+    "name": "LethalCompanyVR (LCVR)",
+    "games": [
+      "Lethal Company"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "DaXcess",
+        "url": "https://github.com/DaXcess"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.5.0",
+    "version_date": "2026-04-14",
+    "download_url": "https://github.com/DaXcess/LCVR/releases/latest",
+    "source_url": "https://github.com/DaXcess/LCVR",
+    "homepage": "https://lcvr.daxcess.io",
+    "license": "GPL-3.0",
+    "required_files": "A copy of Lethal Company (Steam) with BepInEx installed",
+    "known_bugs": [],
+    "notes": "Compatible with cross-play between VR and non-VR players in the same multiplayer lobby.",
+    "images": [
+      {
+        "game": "Lethal Company",
+        "file": "images/lethalcompanyvr-lcvr/lethal-company.jpg",
+        "credit": "Lethal Company store art",
+        "source_url": "https://store.steampowered.com/app/1966720/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Lethal Company In VR is a NIGHTMARE.",
+        "channel": "BamBaeYoh",
+        "url": "https://www.youtube.com/watch?v=W-z03H3Yo5E"
+      },
+      {
+        "title": "Lethal Company but in VR",
+        "channel": "Jameskii",
+        "url": "https://www.youtube.com/watch?v=mASgCcYJHNk"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://thunderstore.io/c/lethal-company/p/DaXcess/LethalCompanyVR/",
     "last_checked": "2026-10-09"
   },
   {
@@ -2451,6 +2811,53 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "openmw-vr",
+    "name": "OpenMW VR",
+    "games": [
+      "The Elder Scrolls III: Morrowind"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Mads Buvik Sandvei"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "unversioned",
+    "version_date": "2026-10-09",
+    "download_url": "https://gitlab.com/madsbuvi/openmw",
+    "source_url": "https://gitlab.com/madsbuvi/openmw",
+    "license": "GPL-3.0-or-later",
+    "required_files": "Original Morrowind game data/installation",
+    "known_bugs": [],
+    "notes": "Fork of the OpenMW engine adding native VR support for Morrowind; setup docs at openmw-vr.readthedocs.io.",
+    "images": [
+      {
+        "game": "The Elder Scrolls III: Morrowind",
+        "file": "images/openmw-vr/the-elder-scrolls-iii-morrowind.jpg",
+        "credit": "The Elder Scrolls III: Morrowind® Game of the Year Edition store art",
+        "source_url": "https://store.steampowered.com/app/22320/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "TESTING Elder Scrolls III: Morrowind VR Mod! // Oculus Rift S // RTX 2070 Super",
+        "channel": "Paradise Decay",
+        "url": "https://www.youtube.com/watch?v=7xgJZve3ZpE"
+      },
+      {
+        "title": "Elder Scrolls 3: Morrowind in VR!   |   Short Gameplay on Valve Index (no commentary)",
+        "channel": "Immersed Robot",
+        "url": "https://www.youtube.com/watch?v=7kqEdA5f4Jg"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://gitlab.com/madsbuvi/openmw",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "painkiller-vr-mod",
     "name": "PainKiller VR Mod",
     "games": [
@@ -2556,6 +2963,54 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "penumbra-overture-vr-mod",
+    "name": "Penumbra: Overture VR Mod",
+    "games": [
+      "Penumbra: Overture"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "newyork167",
+        "url": "https://github.com/newyork167"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "abandoned",
+    "version": "untagged-aceffe2e650abce1e795",
+    "version_date": "2018-06-23",
+    "download_url": "https://github.com/newyork167/penumbra_vr/releases/latest",
+    "source_url": "https://github.com/newyork167/penumbra_vr",
+    "license": "unknown",
+    "required_files": "A copy of Penumbra: Overture by Frictional Games",
+    "known_bugs": [],
+    "notes": "Fork noted as last known release pre fork; copy mod files into Penumbra's redist directory and run with SteamVR.",
+    "images": [
+      {
+        "game": "Penumbra: Overture",
+        "file": "images/penumbra-overture-vr-mod/penumbra-overture.jpg",
+        "credit": "Penumbra Overture store art",
+        "source_url": "https://store.steampowered.com/app/22180/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Penumbra: Overture VR Preview [HTC Vive]",
+        "channel": "znmcys",
+        "url": "https://www.youtube.com/watch?v=TMbIcwtcTWA"
+      },
+      {
+        "title": "Penumbra Overture VR Gameplay on HTC Vive! Survival Horror Game Finally in VR thanks to custom MOD!",
+        "channel": "SweViver",
+        "url": "https://www.youtube.com/watch?v=qT3Y5dZ-nLg"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/newyork167/penumbra_vr",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "perfect-dark-vr",
     "name": "Perfect Dark VR",
     "games": [
@@ -2604,6 +3059,61 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "preyvr",
+    "name": "PreyVR",
+    "games": [
+      "Prey (2006)"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "lvonasek"
+      },
+      {
+        "name": "Team-Beef-Studios",
+        "url": "https://github.com/Team-Beef-Studios"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest",
+      "Pico 4"
+    ],
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.2.4",
+    "version_date": "2026-03-24",
+    "download_url": "https://github.com/Team-Beef-Studios/PreyVR/releases/latest",
+    "source_url": "https://github.com/Team-Beef-Studios/PreyVR",
+    "license": "unknown",
+    "required_files": "Original Prey (2006) game data (PK4 files) patched to version 1.4, copied from a Steam install; a free demo version is also downloadable in-app.",
+    "known_bugs": [],
+    "notes": "Built on id Tech 4 Quest-porting work from the Doom3Quest/Quake2Quest lineage by lvonasek; v1.2.4 adds Pico 4 support, weapon wheel, and a hidden cheat menu.",
+    "images": [
+      {
+        "game": "Prey (2006)",
+        "file": "images/preyvr/prey.jpg",
+        "credit": "Prey store art",
+        "source_url": "https://store.steampowered.com/app/480490/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Prey 2006 Quest/Pico Standalone VR port",
+        "channel": "VRified Games",
+        "url": "https://www.youtube.com/watch?v=5TwIxB0oKd8"
+      },
+      {
+        "title": "VR 180 / PREY 2006 / QUEST 2 / MOD VR / A Regarder Sur Youtube VR.",
+        "channel": "JORDAN VR180",
+        "url": "https://www.youtube.com/watch?v=x2vvayN7MXA"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/lvonasek/preyvr",
     "last_checked": "2026-10-09"
   },
   {
@@ -3270,6 +3780,56 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "shipbreakervr",
+    "name": "ShipbreakerVR",
+    "games": [
+      "Hardspace: Shipbreaker"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Rai",
+        "url": "https://raicuparta.com/shipbreaker-vr-mod"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "beta",
+    "version": "unversioned",
+    "version_date": "2026-10-09",
+    "download_url": "https://raicuparta.com/shipbreaker-vr-mod",
+    "source_url": "https://raicuparta.com/shipbreaker-vr-mod",
+    "license": "unknown",
+    "required_files": "Hardspace: Shipbreaker (Steam or Xbox Game Pass)",
+    "known_bugs": [
+      "Some UI elements broken."
+    ],
+    "notes": "Has no motion controls, but features camera-independent aiming for all the game tools.",
+    "images": [
+      {
+        "game": "Hardspace: Shipbreaker",
+        "file": "images/shipbreakervr/hardspace-shipbreaker.jpg",
+        "credit": "Hardspace: Shipbreaker store art",
+        "source_url": "https://store.steampowered.com/app/1161580/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "I'm making a Shipbreaker VR mod",
+        "channel": "Raicuparta",
+        "url": "https://www.youtube.com/watch?v=UGGtz1lYMNw"
+      },
+      {
+        "title": "NEW Hardspace: Shipbreaker VR Mod - This is Steller! // Oculus Rift S // RTX 2070 Super",
+        "channel": "Paradise Decay",
+        "url": "https://www.youtube.com/watch?v=PZLhq5NiFKo"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://raicuparta.com/shipbreaker-vr-mod",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "shipwright-vr",
     "name": "Shipwright-VR",
     "games": [
@@ -3828,6 +4388,54 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "system-shock-remake-uevr-plugin",
+    "name": "System Shock Remake UEVR Plugin",
+    "games": [
+      "System Shock (Remake)"
+    ],
+    "category": "profile",
+    "authors": [
+      {
+        "name": "Ashok0",
+        "url": "https://github.com/Ashok0"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "abandoned",
+    "version": "v1.01",
+    "version_date": "2024-09-16",
+    "download_url": "https://github.com/Ashok0/SystemShock-UEVR/releases/latest",
+    "source_url": "https://github.com/Ashok0/SystemShock-UEVR",
+    "license": "unknown",
+    "required_files": "System Shock Remake game install",
+    "known_bugs": [],
+    "notes": "Deprecated by its author in favor of Gwizdek's separate SystemReShock-UEVR-Plugin.",
+    "images": [
+      {
+        "game": "System Shock (Remake)",
+        "file": "images/system-shock-remake-uevr-plugin/system-shock.jpg",
+        "credit": "System Shock store art",
+        "source_url": "https://store.steampowered.com/app/482400/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "This SYSTEM SHOCK VR MOD is EPIC! // Closest Thing to BIOSHOCK VR? UEVR Mod",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=gbCEQ9g_j3Y"
+      },
+      {
+        "title": "System Shock Remake VR - Interactions Tutorial",
+        "channel": "gwizdek",
+        "url": "https://www.youtube.com/watch?v=Gke3bmS2L-U"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/ashok0/systemshock-uevr",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "the-house-of-the-dead-2-vr",
     "name": "The House of the Dead 2 VR",
     "games": [
@@ -4176,6 +4784,151 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/DennisGHUA/payday2-vr-improvements",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "vrg",
+    "name": "VRG",
+    "games": [
+      "Deep Rock Galactic"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Unknown"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "unversioned",
+    "version_date": "2026-10-09",
+    "download_url": "https://mod.io/g/drg/m/vrg",
+    "source_url": "https://mod.io/g/drg/m/vrg",
+    "license": "unknown",
+    "required_files": "Deep Rock Galactic game install",
+    "known_bugs": [],
+    "notes": "Full VR mod for Deep Rock Galactic with motion controller support, holsters, gestures and hand aim; supports multiplayer with friends or randoms.",
+    "images": [
+      {
+        "game": "Deep Rock Galactic",
+        "file": "images/vrg/deep-rock-galactic.jpg",
+        "credit": "Deep Rock Galactic store art",
+        "source_url": "https://store.steampowered.com/app/548430/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "DEEP ROCK GALACTIC VR is pure mutliplayer MADNESS  // Quest 2 Airlink Gameplay",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=jrcGVagjNpc"
+      },
+      {
+        "title": "3 Cool VR Mods #2 - Outer Wilds, Deep Rock Galactic, Resident Evil 2 Remake",
+        "channel": "MedvediVodki",
+        "url": "https://www.youtube.com/watch?v=HcI-ybJrUAs"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://mod.io/g/drg/m/vrg",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "vrmod",
+    "name": "VRMod",
+    "games": [
+      "Risk of Rain 2"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "DrBibop",
+        "url": "https://github.com/DrBibop"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "abandoned",
+    "version": "2.9.2",
+    "version_date": "2022-06-15",
+    "download_url": "https://thunderstore.io/package/DrBibop/VRMod/",
+    "source_url": "https://github.com/DrBibop/RoR2VRMod",
+    "license": "MIT",
+    "required_files": "Risk of Rain 2 (Steam) plus BepInEx and HookGenPatcher mod loaders",
+    "known_bugs": [],
+    "notes": "Thunderstore page marks the package as deprecated/no longer maintained; latest listed version is 2.9.2 though the newest GitHub release tag (1.1.0, 2022-06-15) predates that.",
+    "images": [
+      {
+        "game": "Risk of Rain 2",
+        "file": "images/vrmod/risk-of-rain-2.jpg",
+        "credit": "Risk of Rain 2 store art",
+        "source_url": "https://store.steampowered.com/app/632360/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "I Played Risk of Rain 2 VR... and it was AMAZING",
+        "channel": "rndThursday",
+        "url": "https://www.youtube.com/watch?v=lh_9fsh_OvA"
+      },
+      {
+        "title": "RISK OF RAIN 2 VR Gameplay // One of The Best VR Mods Available Now // Risk of Rain 2 VR Mod",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=wV1_MFR_JfI"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://thunderstore.io/package/DrBibop/VRMod/",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "vrtrakill",
+    "name": "VRTRAKILL",
+    "games": [
+      "ULTRAKILL"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "whateverusername0",
+        "url": "https://github.com/whateverusername0"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "abandoned",
+    "version": "0.20.2",
+    "version_date": "2024-05-25",
+    "download_url": "https://github.com/whateverusername0/VRTRAKILL/releases/latest",
+    "source_url": "https://github.com/whateverusername0/VRTRAKILL",
+    "license": "AGPL-3.0",
+    "required_files": "Owned copy of ULTRAKILL (version 15d) with BepInEx installed",
+    "known_bugs": [
+      "Mod does not work after the game's ULTRA_REVAMP update; requires downgrading ULTRAKILL to a supported version"
+    ],
+    "notes": "Development put on indefinite hold by the author; stable branch PRs are frozen, ultra_revamp branch is an unfinished rewrite.",
+    "images": [
+      {
+        "game": "ULTRAKILL",
+        "file": "images/vrtrakill/ultrakill.jpg",
+        "credit": "ULTRAKILL store art",
+        "source_url": "https://store.steampowered.com/app/1229490/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Is Ultrakill BETTER in VR?",
+        "channel": "BamBaeYoh",
+        "url": "https://www.youtube.com/watch?v=HxIa0X5eomA"
+      },
+      {
+        "title": "Ultrakill VR is diabolical",
+        "channel": "Gloobium",
+        "url": "https://www.youtube.com/watch?v=CUw19XwJ24o"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/whateverusername0/vrtrakill",
     "last_checked": "2026-10-09"
   },
   {
