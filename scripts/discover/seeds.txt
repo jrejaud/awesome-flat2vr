@@ -1,0 +1,24 @@
+# Repos the bot should always (re)consider: known VR ports that its searches may miss.
+# One GitHub URL per line; `#` starts a comment. Each is deduped against the index like any
+# other candidate, so listing an already-indexed port is harmless.
+#
+# Console decomp / static-recomp VR ports (research sweep, 2026-10-09)
+https://github.com/ShinyWindow/Shipwright-VR            # Ocarina of Time (Ship of Harkinian)
+https://github.com/gibranfelix/oot-vr                   # Ocarina of Time, Quest
+https://github.com/fulldivegames/Majoras-Mask-VR        # Majora's Mask (2Ship2Harkinian)
+https://github.com/fulldivegames/sm64coopdx-VR-Standalone-Physics-based  # Super Mario 64, Quest
+https://github.com/heurazy/mario64VRStandalone          # Super Mario 64, Quest
+https://github.com/heurazy/FzeroVR-Standalone           # F-Zero X, Quest
+https://github.com/Alex-LeTux/perfect_dark_VR           # Perfect Dark
+https://github.com/MrSco/goldeneye-vr                   # GoldenEye 007, Quest
+https://github.com/no6969el/GEVR                        # GoldenEye 007, PCVR
+https://github.com/randygil/MegaMan64RecompiledVR       # Mega Man 64 (N64Recomp)
+https://github.com/iChris4/MetroidPrimePortVR           # Metroid Prime (PrimeDecomp)
+https://github.com/iChris4/Wiicompiled_VR               # Mario Kart Wii (Wiicompiled)
+https://github.com/bigmak94/GalaxyQuest                 # Super Mario Galaxy (Petari)
+https://github.com/moistman42069/HaloCE-Quest-VR        # Halo CE, Quest
+https://github.com/heurazy/1GenPokemonVr                # Pokémon Red/Blue (Gen1Recomp)
+https://github.com/provencher/dusk-vr                   # Twilight Princess (Dusk), dev build
+# Emulator-based console VR ports
+https://github.com/mikermak/hotd2-vr                    # House of the Dead 2 (Flycast)
+https://github.com/heurazy/AnimalCrossing-VR-MR-Standalone  # Animal Crossing (DolphinXR)
