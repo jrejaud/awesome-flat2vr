@@ -1,0 +1,17 @@
+name: Report an outdated or broken entry
+description: New version, dead link, wrong status, or a known bug to add.
+labels: [update]
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Entry (file in ports/)
+      placeholder: lambda1vr
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What changed? Link the source.
+    validations:
+      required: true

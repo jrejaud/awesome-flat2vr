@@ -1,0 +1,27 @@
+name: SourceVR
+games:
+  - "Half-Life 2"
+  - "Half-Life 2: Episode One"
+  - "Half-Life 2: Episode Two"
+  - "Portal"
+  - "Portal 2"
+category: source-port
+authors:
+  - name: tinsarfal
+    url: https://github.com/tinsarfal
+platform: standalone
+headsets:
+  - Meta Quest
+  - Pico
+controls: 6dof
+status: beta
+version: "0.1.28"
+version_date: "2026-10-02"
+download_url: https://github.com/tinsarfal/SourceVR/releases/latest
+source_url: https://github.com/tinsarfal/SourceVR
+license: unknown
+required_files: "game files from owned Steam copies of the supported Source games"
+known_bugs: []
+added_by: bot
+discovered_via: "Initial research sweep (GitHub releases API), https://github.com/tinsarfal/SourceVR"
+last_checked: "2026-10-09"

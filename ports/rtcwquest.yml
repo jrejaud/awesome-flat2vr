@@ -1,0 +1,20 @@
+name: RTCWQuest
+games:
+  - "Return to Castle Wolfenstein"
+category: source-port
+authors:
+  - name: Team Beef
+    url: https://github.com/Team-Beef-Studios
+platform: standalone
+controls: 6dof
+status: stable
+version: "v1.4.1"
+version_date: "2026-09-29"
+download_url: https://github.com/Team-Beef-Studios/RTCWQuest/releases/latest
+source_url: https://github.com/Team-Beef-Studios/RTCWQuest
+license: LGPL-3.0
+required_files: "main .pk3 files from an owned PC copy of Return to Castle Wolfenstein"
+known_bugs: []
+added_by: bot
+discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/RTCWQuest"
+last_checked: "2026-10-09"

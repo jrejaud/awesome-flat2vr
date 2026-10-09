@@ -1,0 +1,20 @@
+name: Quake2Quest
+games:
+  - "Quake II"
+category: source-port
+authors:
+  - name: Team Beef
+    url: https://github.com/Team-Beef-Studios
+platform: standalone
+controls: 6dof
+status: stable
+version: "v1.1.1"
+version_date: "2026-09-29"
+download_url: https://github.com/Team-Beef-Studios/Quake2Quest/releases/latest
+source_url: https://github.com/Team-Beef-Studios/Quake2Quest
+license: see-repository
+required_files: "baseq2 pak files from an owned copy of Quake II"
+known_bugs: []
+added_by: bot
+discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Quake2Quest"
+last_checked: "2026-10-09"

@@ -1,0 +1,26 @@
+name: REFramework
+games:
+  - "Resident Evil 2 (2019)"
+  - "Resident Evil 3 (2020)"
+  - "Resident Evil 4 (2023)"
+  - "Resident Evil 7"
+  - "Resident Evil Village"
+  - "Devil May Cry 5"
+category: injector
+authors:
+  - name: praydog
+    url: https://github.com/praydog
+platform: pcvr
+controls: 6dof
+status: stable
+version: "v1.5.9.1"
+version_date: "2025-03-05"
+download_url: https://github.com/praydog/REFramework/releases/latest
+source_url: https://github.com/praydog/REFramework
+homepage: https://reframework.praydog.com/
+license: MIT
+required_files: "an owned PC install of the target RE Engine game"
+known_bugs: []
+added_by: bot
+discovered_via: "Initial research sweep (GitHub releases API), https://github.com/praydog/REFramework"
+last_checked: "2026-10-09"

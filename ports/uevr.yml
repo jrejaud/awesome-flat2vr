@@ -1,0 +1,21 @@
+name: UEVR
+games:
+  - "Unreal Engine 4/5 games (universal)"
+category: injector
+authors:
+  - name: praydog
+    url: https://github.com/praydog
+platform: pcvr
+controls: mixed
+status: stable
+version: "1.05"
+version_date: "2024-11-16"
+download_url: https://github.com/praydog/UEVR/releases/latest
+source_url: https://github.com/praydog/UEVR
+homepage: http://uevr.io
+license: see-repository
+required_files: "an owned PC install of the target Unreal Engine game"
+known_bugs: []
+added_by: bot
+discovered_via: "Initial research sweep (GitHub releases API), https://github.com/praydog/UEVR"
+last_checked: "2026-10-09"

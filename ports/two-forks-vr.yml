@@ -1,0 +1,21 @@
+name: Two Forks VR
+games:
+  - "Firewatch"
+category: mod
+authors:
+  - name: Raicuparta
+    url: https://raicuparta.com
+platform: pcvr
+controls: 6dof
+status: stable
+version: "v2.1.0"
+version_date: "2022-08-19"
+download_url: https://github.com/Raicuparta/two-forks-vr/releases/latest
+source_url: https://github.com/Raicuparta/two-forks-vr
+homepage: https://raicuparta.com/firewatch-vr-mod
+license: MIT
+required_files: "an owned PC install of Firewatch"
+known_bugs: []
+added_by: bot
+discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Raicuparta/two-forks-vr"
+last_checked: "2026-10-09"

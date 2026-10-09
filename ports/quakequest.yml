@@ -1,0 +1,20 @@
+name: QuakeQuest
+games:
+  - "Quake"
+category: source-port
+authors:
+  - name: Team Beef
+    url: https://github.com/Team-Beef-Studios
+platform: standalone
+controls: 6dof
+status: stable
+version: "v1.6.0"
+version_date: "2026-09-29"
+download_url: https://github.com/Team-Beef-Studios/QuakeQuest/releases/latest
+source_url: https://github.com/Team-Beef-Studios/QuakeQuest
+license: GPL-2.0
+required_files: "id1 pak files from an owned copy of Quake"
+known_bugs: []
+added_by: bot
+discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/QuakeQuest"
+last_checked: "2026-10-09"

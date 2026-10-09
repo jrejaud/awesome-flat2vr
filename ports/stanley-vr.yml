@@ -1,0 +1,21 @@
+name: Stanley VR
+games:
+  - "The Stanley Parable: Ultra Deluxe"
+category: mod
+authors:
+  - name: Raicuparta
+    url: https://raicuparta.com
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v0.4.0"
+version_date: "2023-04-10"
+download_url: https://github.com/Raicuparta/stanley-vr/releases/latest
+source_url: https://github.com/Raicuparta/stanley-vr
+homepage: https://raicuparta.com/stanley-parable-vr-mod
+license: unknown
+required_files: "an owned PC install of The Stanley Parable: Ultra Deluxe"
+known_bugs: []
+added_by: bot
+discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Raicuparta/stanley-vr"
+last_checked: "2026-10-09"

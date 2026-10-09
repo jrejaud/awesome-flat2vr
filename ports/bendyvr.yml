@@ -1,0 +1,20 @@
+name: BendyVR
+games:
+  - "Bendy and the Ink Machine"
+category: mod
+authors:
+  - name: Team Beef
+    url: https://github.com/Team-Beef-Studios
+platform: pcvr
+controls: 6dof
+status: stable
+version: "v.1.2.2"
+version_date: "2024-07-13"
+download_url: https://github.com/Team-Beef-Studios/BendyVR/releases/latest
+source_url: https://github.com/Team-Beef-Studios/BendyVR
+license: MIT
+required_files: "an owned PC install of Bendy and the Ink Machine"
+known_bugs: []
+added_by: bot
+discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/BendyVR"
+last_checked: "2026-10-09"

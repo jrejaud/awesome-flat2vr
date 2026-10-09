@@ -1,0 +1,20 @@
+name: SubmersedVR
+games:
+  - "Subnautica"
+category: mod
+authors:
+  - name: Okabintaro
+    url: https://github.com/Okabintaro
+platform: pcvr
+controls: 6dof
+status: beta
+version: "0.2.0"
+version_date: "2025-08-17"
+download_url: https://github.com/Okabintaro/SubmersedVR/releases/latest
+source_url: https://github.com/Okabintaro/SubmersedVR
+license: MIT
+required_files: "an owned PC install of Subnautica"
+known_bugs: []
+added_by: bot
+discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Okabintaro/SubmersedVR"
+last_checked: "2026-10-09"

@@ -1,0 +1,20 @@
+name: Doom3Quest
+games:
+  - "Doom 3"
+category: source-port
+authors:
+  - name: Team Beef
+    url: https://github.com/Team-Beef-Studios
+platform: standalone
+controls: 6dof
+status: stable
+version: "v1.4.8"
+version_date: "2026-09-30"
+download_url: https://github.com/Team-Beef-Studios/Doom3Quest/releases/latest
+source_url: https://github.com/Team-Beef-Studios/Doom3Quest
+license: see-repository
+required_files: "base .pk4 files from an owned PC copy of the original Doom 3"
+known_bugs: []
+added_by: bot
+discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Doom3Quest"
+last_checked: "2026-10-09"

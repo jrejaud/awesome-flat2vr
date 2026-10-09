@@ -1,0 +1,519 @@
+[
+  {
+    "slug": "beefraiderxr",
+    "name": "BeefRaiderXR",
+    "games": [
+      "Tomb Raider (1996)"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Team Beef",
+        "url": "https://github.com/Team-Beef-Studios"
+      }
+    ],
+    "platform": "standalone",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "1.0.0",
+    "version_date": "2024-09-29",
+    "download_url": "https://github.com/Team-Beef-Studios/BeefRaiderXR/releases/latest",
+    "source_url": "https://github.com/Team-Beef-Studios/BeefRaiderXR",
+    "license": "BSD-2-Clause",
+    "required_files": "level data from an owned copy of the original Tomb Raider",
+    "known_bugs": [],
+    "added_by": "bot",
+    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/BeefRaiderXR",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "bendyvr",
+    "name": "BendyVR",
+    "games": [
+      "Bendy and the Ink Machine"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Team Beef",
+        "url": "https://github.com/Team-Beef-Studios"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v.1.2.2",
+    "version_date": "2024-07-13",
+    "download_url": "https://github.com/Team-Beef-Studios/BendyVR/releases/latest",
+    "source_url": "https://github.com/Team-Beef-Studios/BendyVR",
+    "license": "MIT",
+    "required_files": "an owned PC install of Bendy and the Ink Machine",
+    "known_bugs": [],
+    "added_by": "bot",
+    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/BendyVR",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "doom3quest",
+    "name": "Doom3Quest",
+    "games": [
+      "Doom 3"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Team Beef",
+        "url": "https://github.com/Team-Beef-Studios"
+      }
+    ],
+    "platform": "standalone",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.4.8",
+    "version_date": "2026-09-30",
+    "download_url": "https://github.com/Team-Beef-Studios/Doom3Quest/releases/latest",
+    "source_url": "https://github.com/Team-Beef-Studios/Doom3Quest",
+    "license": "see-repository",
+    "required_files": "base .pk4 files from an owned PC copy of the original Doom 3",
+    "known_bugs": [],
+    "added_by": "bot",
+    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Doom3Quest",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "jkxr",
+    "name": "JKXR",
+    "games": [
+      "Star Wars Jedi Knight II: Jedi Outcast",
+      "Star Wars Jedi Knight: Jedi Academy"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Team Beef",
+        "url": "https://github.com/Team-Beef-Studios"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Meta Quest",
+      "Pico"
+    ],
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.2.0",
+    "version_date": "2026-09-29",
+    "download_url": "https://github.com/Team-Beef-Studios/JKXR/releases/latest",
+    "source_url": "https://github.com/Team-Beef-Studios/JKXR",
+    "license": "GPL-2.0",
+    "required_files": "base assets from an owned PC copy of Jedi Outcast and/or Jedi Academy",
+    "known_bugs": [],
+    "added_by": "bot",
+    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/JKXR",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "lambda1vr",
+    "name": "Lambda1VR",
+    "games": [
+      "Half-Life"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Team Beef",
+        "url": "https://github.com/Team-Beef-Studios"
+      }
+    ],
+    "platform": "standalone",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.7.4",
+    "version_date": "2026-09-29",
+    "download_url": "https://github.com/Team-Beef-Studios/Lambda1VR/releases/latest",
+    "source_url": "https://github.com/Team-Beef-Studios/Lambda1VR",
+    "license": "GPL-3.0",
+    "required_files": "valve folder from an owned PC copy of Half-Life",
+    "known_bugs": [],
+    "added_by": "bot",
+    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Lambda1VR",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "nomaivr",
+    "name": "NomaiVR",
+    "games": [
+      "Outer Wilds"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Raicuparta",
+        "url": "https://raicuparta.com"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "2.10.0",
+    "version_date": "2025-03-02",
+    "download_url": "https://github.com/Raicuparta/nomai-vr/releases/latest",
+    "source_url": "https://github.com/Raicuparta/nomai-vr",
+    "homepage": "https://outerwildsmods.com/mods/nomaivr",
+    "license": "MIT",
+    "required_files": "an owned PC install of Outer Wilds",
+    "known_bugs": [],
+    "added_by": "bot",
+    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Raicuparta/nomai-vr",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "quake2quest",
+    "name": "Quake2Quest",
+    "games": [
+      "Quake II"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Team Beef",
+        "url": "https://github.com/Team-Beef-Studios"
+      }
+    ],
+    "platform": "standalone",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.1.1",
+    "version_date": "2026-09-29",
+    "download_url": "https://github.com/Team-Beef-Studios/Quake2Quest/releases/latest",
+    "source_url": "https://github.com/Team-Beef-Studios/Quake2Quest",
+    "license": "see-repository",
+    "required_files": "baseq2 pak files from an owned copy of Quake II",
+    "known_bugs": [],
+    "added_by": "bot",
+    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Quake2Quest",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "quakequest",
+    "name": "QuakeQuest",
+    "games": [
+      "Quake"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Team Beef",
+        "url": "https://github.com/Team-Beef-Studios"
+      }
+    ],
+    "platform": "standalone",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.6.0",
+    "version_date": "2026-09-29",
+    "download_url": "https://github.com/Team-Beef-Studios/QuakeQuest/releases/latest",
+    "source_url": "https://github.com/Team-Beef-Studios/QuakeQuest",
+    "license": "GPL-2.0",
+    "required_files": "id1 pak files from an owned copy of Quake",
+    "known_bugs": [],
+    "added_by": "bot",
+    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/QuakeQuest",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "questzdoom",
+    "name": "QuestZDoom",
+    "games": [
+      "Doom",
+      "Doom II",
+      "Heretic",
+      "Hexen"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Team Beef",
+        "url": "https://github.com/Team-Beef-Studios"
+      }
+    ],
+    "platform": "standalone",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "1.6.2",
+    "version_date": "2026-09-30",
+    "download_url": "https://github.com/Team-Beef-Studios/QuestZDoom/releases/latest",
+    "source_url": "https://github.com/Team-Beef-Studios/QuestZDoom",
+    "license": "GPL-3.0",
+    "required_files": "IWAD files (e.g. DOOM.WAD, DOOM2.WAD) from owned copies",
+    "known_bugs": [],
+    "added_by": "bot",
+    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/QuestZDoom",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "razexr",
+    "name": "RazeXR",
+    "games": [
+      "Duke Nukem 3D",
+      "Blood",
+      "Shadow Warrior",
+      "Redneck Rampage",
+      "Exhumed"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Team Beef",
+        "url": "https://github.com/Team-Beef-Studios"
+      }
+    ],
+    "platform": "standalone",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.0.0",
+    "version_date": "2023-09-30",
+    "download_url": "https://github.com/Team-Beef-Studios/RazeXR/releases/latest",
+    "source_url": "https://github.com/Team-Beef-Studios/RazeXR",
+    "license": "GPL-2.0",
+    "required_files": "GRP/data files from owned copies of the supported Build engine games",
+    "known_bugs": [],
+    "added_by": "bot",
+    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/RazeXR",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "reframework",
+    "name": "REFramework",
+    "games": [
+      "Resident Evil 2 (2019)",
+      "Resident Evil 3 (2020)",
+      "Resident Evil 4 (2023)",
+      "Resident Evil 7",
+      "Resident Evil Village",
+      "Devil May Cry 5"
+    ],
+    "category": "injector",
+    "authors": [
+      {
+        "name": "praydog",
+        "url": "https://github.com/praydog"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.5.9.1",
+    "version_date": "2025-03-05",
+    "download_url": "https://github.com/praydog/REFramework/releases/latest",
+    "source_url": "https://github.com/praydog/REFramework",
+    "homepage": "https://reframework.praydog.com/",
+    "license": "MIT",
+    "required_files": "an owned PC install of the target RE Engine game",
+    "known_bugs": [],
+    "added_by": "bot",
+    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/praydog/REFramework",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "rtcwquest",
+    "name": "RTCWQuest",
+    "games": [
+      "Return to Castle Wolfenstein"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Team Beef",
+        "url": "https://github.com/Team-Beef-Studios"
+      }
+    ],
+    "platform": "standalone",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.4.1",
+    "version_date": "2026-09-29",
+    "download_url": "https://github.com/Team-Beef-Studios/RTCWQuest/releases/latest",
+    "source_url": "https://github.com/Team-Beef-Studios/RTCWQuest",
+    "license": "LGPL-3.0",
+    "required_files": "main .pk3 files from an owned PC copy of Return to Castle Wolfenstein",
+    "known_bugs": [],
+    "added_by": "bot",
+    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/RTCWQuest",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "sourcevr",
+    "name": "SourceVR",
+    "games": [
+      "Half-Life 2",
+      "Half-Life 2: Episode One",
+      "Half-Life 2: Episode Two",
+      "Portal",
+      "Portal 2"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "tinsarfal",
+        "url": "https://github.com/tinsarfal"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Meta Quest",
+      "Pico"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "0.1.28",
+    "version_date": "2026-10-02",
+    "download_url": "https://github.com/tinsarfal/SourceVR/releases/latest",
+    "source_url": "https://github.com/tinsarfal/SourceVR",
+    "license": "unknown",
+    "required_files": "game files from owned Steam copies of the supported Source games",
+    "known_bugs": [],
+    "added_by": "bot",
+    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/tinsarfal/SourceVR",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "stanley-vr",
+    "name": "Stanley VR",
+    "games": [
+      "The Stanley Parable: Ultra Deluxe"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Raicuparta",
+        "url": "https://raicuparta.com"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.4.0",
+    "version_date": "2023-04-10",
+    "download_url": "https://github.com/Raicuparta/stanley-vr/releases/latest",
+    "source_url": "https://github.com/Raicuparta/stanley-vr",
+    "homepage": "https://raicuparta.com/stanley-parable-vr-mod",
+    "license": "unknown",
+    "required_files": "an owned PC install of The Stanley Parable: Ultra Deluxe",
+    "known_bugs": [],
+    "added_by": "bot",
+    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Raicuparta/stanley-vr",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "submersedvr",
+    "name": "SubmersedVR",
+    "games": [
+      "Subnautica"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Okabintaro",
+        "url": "https://github.com/Okabintaro"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "0.2.0",
+    "version_date": "2025-08-17",
+    "download_url": "https://github.com/Okabintaro/SubmersedVR/releases/latest",
+    "source_url": "https://github.com/Okabintaro/SubmersedVR",
+    "license": "MIT",
+    "required_files": "an owned PC install of Subnautica",
+    "known_bugs": [],
+    "added_by": "bot",
+    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Okabintaro/SubmersedVR",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "two-forks-vr",
+    "name": "Two Forks VR",
+    "games": [
+      "Firewatch"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Raicuparta",
+        "url": "https://raicuparta.com"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v2.1.0",
+    "version_date": "2022-08-19",
+    "download_url": "https://github.com/Raicuparta/two-forks-vr/releases/latest",
+    "source_url": "https://github.com/Raicuparta/two-forks-vr",
+    "homepage": "https://raicuparta.com/firewatch-vr-mod",
+    "license": "MIT",
+    "required_files": "an owned PC install of Firewatch",
+    "known_bugs": [],
+    "added_by": "bot",
+    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Raicuparta/two-forks-vr",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "uevr",
+    "name": "UEVR",
+    "games": [
+      "Unreal Engine 4/5 games (universal)"
+    ],
+    "category": "injector",
+    "authors": [
+      {
+        "name": "praydog",
+        "url": "https://github.com/praydog"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "mixed",
+    "status": "stable",
+    "version": "1.05",
+    "version_date": "2024-11-16",
+    "download_url": "https://github.com/praydog/UEVR/releases/latest",
+    "source_url": "https://github.com/praydog/UEVR",
+    "homepage": "http://uevr.io",
+    "license": "see-repository",
+    "required_files": "an owned PC install of the target Unreal Engine game",
+    "known_bugs": [],
+    "added_by": "bot",
+    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/praydog/UEVR",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "uuvr",
+    "name": "UUVR",
+    "games": [
+      "Unity games (universal)"
+    ],
+    "category": "injector",
+    "authors": [
+      {
+        "name": "Raicuparta",
+        "url": "https://raicuparta.com"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "mixed",
+    "status": "beta",
+    "version": "v0.4.0",
+    "version_date": "2025-07-03",
+    "download_url": "https://github.com/Raicuparta/uuvr/releases/latest",
+    "source_url": "https://github.com/Raicuparta/uuvr",
+    "homepage": "https://raicuparta.com/rai-pal",
+    "license": "GPL-3.0",
+    "required_files": "an owned PC install of the target Unity game",
+    "known_bugs": [],
+    "added_by": "bot",
+    "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Raicuparta/uuvr",
+    "last_checked": "2026-10-09"
+  }
+]

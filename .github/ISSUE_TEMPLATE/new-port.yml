@@ -1,0 +1,38 @@
+name: Suggest a port
+description: Tell us about a flat-to-VR port that is missing. A PR is faster, but this works too.
+labels: [new-port]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Port name
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: Original game(s)
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Release / download page (creator's own)
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options: [PCVR, Standalone, Both]
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options: [alpha, beta, stable, abandoned]
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (author, required files, known bugs)

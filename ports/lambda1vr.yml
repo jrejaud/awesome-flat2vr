@@ -1,0 +1,20 @@
+name: Lambda1VR
+games:
+  - "Half-Life"
+category: source-port
+authors:
+  - name: Team Beef
+    url: https://github.com/Team-Beef-Studios
+platform: standalone
+controls: 6dof
+status: stable
+version: "v1.7.4"
+version_date: "2026-09-29"
+download_url: https://github.com/Team-Beef-Studios/Lambda1VR/releases/latest
+source_url: https://github.com/Team-Beef-Studios/Lambda1VR
+license: GPL-3.0
+required_files: "valve folder from an owned PC copy of Half-Life"
+known_bugs: []
+added_by: bot
+discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Lambda1VR"
+last_checked: "2026-10-09"

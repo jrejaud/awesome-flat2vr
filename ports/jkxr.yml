@@ -1,0 +1,24 @@
+name: JKXR
+games:
+  - "Star Wars Jedi Knight II: Jedi Outcast"
+  - "Star Wars Jedi Knight: Jedi Academy"
+category: source-port
+authors:
+  - name: Team Beef
+    url: https://github.com/Team-Beef-Studios
+platform: both
+headsets:
+  - Meta Quest
+  - Pico
+controls: 6dof
+status: stable
+version: "v1.2.0"
+version_date: "2026-09-29"
+download_url: https://github.com/Team-Beef-Studios/JKXR/releases/latest
+source_url: https://github.com/Team-Beef-Studios/JKXR
+license: GPL-2.0
+required_files: "base assets from an owned PC copy of Jedi Outcast and/or Jedi Academy"
+known_bugs: []
+added_by: bot
+discovered_via: "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/JKXR"
+last_checked: "2026-10-09"
