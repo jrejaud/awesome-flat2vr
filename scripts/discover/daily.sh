@@ -20,6 +20,12 @@ set -a
 [ -f "$HOME/.secrets/env.local" ] && . "$HOME/.secrets/env.local" >/dev/null 2>&1
 set +a
 unset ANTHROPIC_API_KEY ANTHROPIC_AUTH_TOKEN # extraction must run on the OAuth login, never API billing
+# enrich.mjs resolves the SteamGridDB key with `op read`; the cron env has no 1Password token
+# unless we load it (one line, matched by name; never source ~/.secrets/env wholesale).
+if [ -z "${OP_SERVICE_ACCOUNT_TOKEN:-}" ] && [ -r "$HOME/.secrets/env" ]; then
+  eval "$(grep -m1 -E '^[[:space:]]*(export[[:space:]]+)?OP_SERVICE_ACCOUNT_TOKEN=' "$HOME/.secrets/env" 2>/dev/null)" 2>/dev/null || true
+  export OP_SERVICE_ACCOUNT_TOKEN
+fi
 
 git fetch -q origin main
 git checkout -q --force -B main origin/main
