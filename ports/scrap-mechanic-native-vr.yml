@@ -1,0 +1,35 @@
+name: Scrap Mechanic Native VR
+games:
+  - Scrap Mechanic
+category: mod
+authors:
+  - name: 21Suspect
+    url: https://github.com/21Suspect
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: stable
+version: "v1.4.8"
+version_date: "2026-09-08"
+download_url: https://github.com/21Suspect/Scrap-Mechanic-Native-VR/releases/latest
+source_url: https://github.com/21Suspect/Scrap-Mechanic-Native-VR
+license: unknown
+required_files: A copy of Scrap Mechanic (Chapter 2 / 1.0 release) on Windows
+known_bugs: []
+notes: Supports Meta Quest Link and Virtual Desktop (VDXR) or SteamVR as the OpenXR runtime; a v1.4.9 pre-release for the upcoming Patch 1.0.6 is also mentioned but untested.
+images:
+  - game: Scrap Mechanic
+    file: images/scrap-mechanic-native-vr/scrap-mechanic.jpg
+    credit: Scrap Mechanic store art
+    source_url: https://store.steampowered.com/app/387990/
+reviews:
+  - title: How To Install the Scrap Mechanic VR Mod
+    channel: U W I P
+    url: https://www.youtube.com/watch?v=FpFTF14iAb8
+  - title: Live Test - Full 6DOF MOD in VR!! | Scrap Mechanic
+    channel: U W I P
+    url: https://www.youtube.com/watch?v=0RnKR7LIPsY
+added_by: bot
+discovered_via: https://github.com/21Suspect/Scrap-Mechanic-Native-VR
+last_checked: "2026-10-09"

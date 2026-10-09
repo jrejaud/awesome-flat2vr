@@ -1,0 +1,33 @@
+name: Dead Space (2023) R.E.A.L. VR
+games:
+  - Dead Space (2023)
+category: mod
+authors:
+  - name: Luke Ross
+platform: pcvr
+controls: gamepad
+status: beta
+version: "2607.31.2"
+version_date: "2026-07-31"
+download_url: https://www.patreon.com/realvr/posts/ds2023-165285354
+source_url: https://www.patreon.com/realvr/posts/ds2023-165285354
+license: proprietary
+price: Patreon subscription (early-access tier)
+required_files: Legally owned copy of the Dead Space (2023) remake
+known_bugs: []
+notes: Shipped in the 2607.31.2 early-access package alongside DOOM support; separate from the lighter Osiris/Geo3D 6DOF package.
+images:
+  - game: Dead Space (2023)
+    file: images/dead-space-2023-r-e-a-l-vr/dead-space.jpg
+    credit: Dead Space store art
+    source_url: https://store.steampowered.com/app/1693980/
+reviews:
+  - title: Dead Space VR Is Real... and It's Incredible!
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=i8kqEA6QuM4
+  - title: This is TOO INTENSE in VR! // The DEAD SPACE VR We Wanted? (Unreal Engine VR)
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=lvCuaE87zS0
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

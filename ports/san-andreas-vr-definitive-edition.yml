@@ -1,0 +1,28 @@
+name: SAN ANDREAS VR DEFINITIVE EDITION
+games:
+  - "Grand Theft Auto: San Andreas - The Definitive Edition"
+category: profile
+authors:
+  - name: Gangbusters1337
+    url: https://github.com/Gangbusters1337
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v0.3.7"
+version_date: "2026-09-09"
+download_url: https://github.com/Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION/releases/latest
+source_url: https://github.com/Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION
+homepage: https://github.com/Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION#readme
+license: MIT
+required_files: "GTA: San Andreas - The Definitive Edition (PC) plus Praydog's UEVR injector"
+known_bugs: []
+notes: UEVR profile adding free-aim weapons, two-handed/akimbo aiming, physics throwables, and vehicle free-aim/camera memory to GTA San Andreas - The Definitive Edition.
+images:
+  - game: "Grand Theft Auto: San Andreas - The Definitive Edition"
+    file: images/san-andreas-vr-definitive-edition/grand-theft-auto-san-andreas-the-definitive-edition.png
+    credit: Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION
+    source_url: https://github.com/Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION
+reviews: []
+added_by: bot
+discovered_via: https://github.com/Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION
+last_checked: "2026-10-09"

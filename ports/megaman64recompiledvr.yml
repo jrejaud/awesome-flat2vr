@@ -1,0 +1,32 @@
+name: MegaMan64RecompiledVR
+games:
+  - Mega Man 64
+category: source-port
+authors:
+  - name: randygil
+    url: https://github.com/randygil
+platform: both
+headsets:
+  - Quest 2
+  - Quest 3
+  - Quest 3S
+  - Quest Pro
+controls: mixed
+status: beta
+version: "v0.9.1-vr1"
+version_date: "2026-10-01"
+download_url: https://github.com/randygil/MegaMan64RecompiledVR/releases/latest
+source_url: https://github.com/randygil/MegaMan64RecompiledVR
+license: GPL-3.0
+required_files: US ROM of Mega Man 64 (MegaMan64.us.rev1.z64), not included
+known_bugs: []
+notes: Fork of MegaMan64Recompiled adding a first-person VR mode where the buster is mapped to the left hand and the special weapon to the right.
+images:
+  - game: Mega Man 64
+    file: images/megaman64recompiledvr/mega-man-64.png
+    credit: randygil/MegaMan64RecompiledVR
+    source_url: https://github.com/randygil/MegaMan64RecompiledVR
+reviews: []
+added_by: bot
+discovered_via: https://github.com/randygil/megaman64recompiledvr
+last_checked: "2026-10-09"

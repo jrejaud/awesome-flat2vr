@@ -1,0 +1,33 @@
+name: 007 First Light R.E.A.L. VR
+games:
+  - 007 First Light
+category: mod
+authors:
+  - name: Luke Ross
+platform: pcvr
+controls: gamepad
+status: beta
+version: "unversioned"
+version_date: "2026-06-02"
+download_url: https://www.patreon.com/realvr/posts/bond-159956522
+source_url: https://www.patreon.com/realvr/posts/bond-159956522
+license: proprietary
+price: Patreon early access (subscription required)
+required_files: Legally owned copy of 007 First Light (patch 1.02)
+known_bugs: []
+notes: Headset-and-gamepad VR conversion via Luke Ross's R.E.A.L. framework with AER v2 and DLSS support; not a tracked-hand or manual-reload mod.
+images:
+  - game: 007 First Light
+    file: images/007-first-light-r-e-a-l-vr/007-first-light.jpg
+    credit: 007 First Light store art
+    source_url: https://store.steampowered.com/app/3768760/
+reviews:
+  - title: 007 First Light VR Performance / R.E.A.L. VR Mod / Meta Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=bkY1nSzsIW8
+  - title: 007 First Light in VR!  RTX 5090 PC VR Live 1st impressions Gameplay!
+    channel: YouGotColdYogurt
+    url: https://www.youtube.com/watch?v=qlWP_YPt76c
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

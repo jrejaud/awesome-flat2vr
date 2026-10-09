@@ -1,0 +1,36 @@
+name: Crysis VR WinlatorXR
+games:
+  - Crysis
+category: mod
+authors:
+  - name: SgtBilko76
+    url: https://github.com/SgtBilko76
+  - name: fholger
+platform: standalone
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "Beta-0.3"
+version_date: "2026-09-16"
+download_url: https://github.com/SgtBilko76/Crysis-VR-WinlatorXR/releases/latest
+source_url: https://github.com/SgtBilko76/Crysis-VR-WinlatorXR
+license: unknown
+required_files: Original Crysis (2007, Steam or GOG, not Remastered)
+known_bugs: []
+notes: Packages fholger's crysis_vrmod to run standalone on Meta Quest 3 via WinlatorXR (Wine + Box64 + DXVK), no PC required; ~20-40 fps expected.
+images:
+  - game: Crysis
+    file: images/crysis-vr-winlatorxr/crysis.jpg
+    credit: Crysis Remastered store art
+    source_url: https://store.steampowered.com/app/1715130/
+reviews:
+  - title: THE BEST VR MOD OF 2025! – Crysis VR MOD Set up Gameplay on Meta Quest 3
+    channel: Parzival_VR_EN
+    url: https://www.youtube.com/watch?v=cwGWHTBZ5SU
+  - title: Crysis VR - VR Rock Lenses, Oculus Meta Quest 3, Bhaptics X-16 vest, PCVR
+    channel: Louie's VR Corner
+    url: https://www.youtube.com/watch?v=X362mNKhA7U
+added_by: bot
+discovered_via: https://github.com/SgtBilko76/Crysis-VR-WinlatorXR
+last_checked: "2026-10-09"

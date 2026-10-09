@@ -1,0 +1,34 @@
+name: ACE COMBAT 8 UEVR Profile (HUD fix)
+games:
+  - ACE COMBAT 8
+category: profile
+authors:
+  - name: VTFLAB
+    url: https://github.com/VTFLAB
+platform: pcvr
+controls: gamepad
+status: stable
+version: "v1.0.0"
+version_date: "2026-10-04"
+download_url: https://github.com/VTFLAB/ace-combat-8-uevr-profile/releases/latest
+source_url: https://github.com/VTFLAB/ace-combat-8-uevr-profile
+license: unknown
+required_files: ACE COMBAT 8 (Steam version), plus ac8_ui_fix.lua from the separate ace-combat-8-uevr-ui-fix repo by lovezzzxxx
+known_bugs:
+  - Requires bypassing EasyAntiCheat by launching AceCombat8.exe directly, which disables multiplayer/online play
+notes: Fixes the flight HUD (minimap, center instruments, weapons/status) not being visible in VR via UEVR.
+images:
+  - game: ACE COMBAT 8
+    file: images/ace-combat-8-uevr-profile-hud-fix/ace-combat-8.jpg
+    credit: Paradise Decay
+    source_url: https://www.youtube.com/watch?v=weAhEMpT87k
+reviews:
+  - title: Ace Combat 8 - Day 1 in VR with UEVR! (Test) - Its CRIMINAL this DOES NOT have NATIVE VR Mode!
+    channel: Paradise Decay
+    url: https://www.youtube.com/watch?v=weAhEMpT87k
+  - title: "ACE COMBAT 8: WINGS OF THEVE VR Performance / How to Install / Meta Quest 3 + RTX 4080 Super"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=spKprOsBkN8
+added_by: bot
+discovered_via: https://github.com/VTFLAB/ace-combat-8-uevr-profile
+last_checked: "2026-10-09"

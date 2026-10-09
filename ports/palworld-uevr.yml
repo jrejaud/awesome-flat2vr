@@ -1,0 +1,32 @@
+name: Palworld UEVR
+games:
+  - Palworld
+category: profile
+authors:
+  - name: D_Rey
+platform: pcvr
+controls: 6dof
+status: stable
+version: "unversioned"
+version_date: "2026-07-26"
+download_url: https://www.patreon.com/D_Rey/posts/palworld-uevr-165894175
+source_url: https://www.patreon.com/D_Rey/posts/palworld-uevr-165894175
+license: unknown
+required_files: Owned copy of Palworld
+known_bugs: []
+notes: UEVR profile with visible armored hands, weapon attachments, physical tool/melee use, sphere throwing, bow handling, climbing, NPC gestures, two-hand gliding and a laser-driven menu.
+images:
+  - game: Palworld
+    file: images/palworld-uevr/palworld.jpg
+    credit: Palworld store art
+    source_url: https://store.steampowered.com/app/1623730/
+reviews:
+  - title: PALWORLD VR is CRAZY! First Person and MOTION CONTROLS // UEVR Mod (Quest 3)
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=i5OYgdTQSWI
+  - title: PALWORLD in VR is AMAZING! | UEVR Mod
+    channel: ThisKory
+    url: https://www.youtube.com/watch?v=QV7U1btgztY
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

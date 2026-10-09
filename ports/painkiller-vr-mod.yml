@@ -1,0 +1,40 @@
+name: PainKiller VR Mod
+games:
+  - PainKiller
+  - "PainKiller: Battle Out of Hell"
+category: mod
+authors:
+  - name: FluorescentHallucinogen
+    url: https://github.com/FluorescentHallucinogen
+platform: pcvr
+headsets:
+  - Quest 2
+controls: 6dof
+status: beta
+version: "v0.1.9"
+version_date: "2026-09-07"
+download_url: https://github.com/FluorescentHallucinogen/painkiller-vr-mod/releases/latest
+source_url: https://github.com/FluorescentHallucinogen/painkiller-vr-mod
+license: unknown
+required_files: "PainKiller 1.64 (Heaven's Got a Hitman) and/or Battle Out of Hell; tested on PainKiller: Black Edition (Steam)"
+known_bugs: []
+notes: Native OpenXR implementation (no UEVR dependency); author tested with Black Edition on Steam, Quest 2 and Virtual Desktop, though broader OpenXR headset/runtime support is expected but less proven.
+images:
+  - game: PainKiller
+    file: images/painkiller-vr-mod/painkiller.jpg
+    credit: Painkiller store art
+    source_url: https://store.steampowered.com/app/2300120/
+  - game: "PainKiller: Battle Out of Hell"
+    file: images/painkiller-vr-mod/painkiller-battle-out-of-hell.png
+    credit: FluorescentHallucinogen/painkiller-vr-mod
+    source_url: https://github.com/FluorescentHallucinogen/painkiller-vr-mod
+reviews:
+  - title: VR Mods are The FUTURE OF VR GAMING! This PAINKILLER VR Mod is AWESOME
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=IJg0zG5ViEM
+  - title: "Painkiller VR Mod: \"Hellish\" Old-School in VR"
+    channel: Pavel419
+    url: https://www.youtube.com/watch?v=s469AllzjEc
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

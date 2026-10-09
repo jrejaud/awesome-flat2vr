@@ -1,0 +1,34 @@
+name: NOVR
+games:
+  - Nuclear Option
+category: mod
+authors:
+  - name: InfernoSuperNova
+    url: https://github.com/InfernoSuperNova
+platform: pcvr
+controls: 6dof
+status: beta
+version: "0.4.4"
+version_date: "2026-09-09"
+download_url: https://github.com/InfernoSuperNova/novr/releases/latest
+source_url: https://github.com/InfernoSuperNova/novr
+homepage: https://discord.gg/JAmpFqEDVW
+license: GPL-3.0
+required_files: Owned copy of Nuclear Option (Steam) with BepInEx 5.x installed
+known_bugs: []
+notes: A reworked, game-specific version of the UUVR universal VR mod tailored for Nuclear Option.
+images:
+  - game: Nuclear Option
+    file: images/novr/nuclear-option.jpg
+    credit: Nuclear Option store art
+    source_url: https://store.steampowered.com/app/2168680/
+reviews:
+  - title: Nuclear Option Interview - VR, New Maps and Future Plans
+    channel: Enigma
+    url: https://www.youtube.com/watch?v=Ojqd0oC2c8U
+  - title: Nuclear Option VR Mod (NOVR 0.33)
+    channel: TacJackal
+    url: https://www.youtube.com/watch?v=IDMlU4DRcRI
+added_by: bot
+discovered_via: https://github.com/InfernoSuperNova/novr
+last_checked: "2026-10-09"

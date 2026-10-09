@@ -1,0 +1,35 @@
+name: Ghost Recon Wildlands VR (GRW-XR)
+games:
+  - Tom Clancy's Ghost Recon Wildlands
+category: mod
+authors:
+  - name: Firejumper93
+    url: https://github.com/Firejumper93
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.11.1"
+version_date: "2026-09-13"
+download_url: https://github.com/Firejumper93/GhostReconWildlandsVR/releases/latest
+source_url: https://github.com/Firejumper93/GhostReconWildlandsVR
+license: unknown
+required_files: Owned copy of Tom Clancy's Ghost Recon Wildlands (Steam or Ubisoft Connect)
+known_bugs:
+  - Startup crash possible on some machines (partially addressed in v0.11.1)
+  - Driving is unfinished
+notes: Native OpenXR mod injected via dxgi.dll proxy, no game files modified; singleplayer/private co-op only, not for PvP or matchmaking.
+images:
+  - game: Tom Clancy's Ghost Recon Wildlands
+    file: images/ghost-recon-wildlands-vr-grw-xr/tom-clancy-s-ghost-recon-wildlands.jpg
+    credit: Tom Clancy's Ghost Recon® Wildlands store art
+    source_url: https://store.steampowered.com/app/460930/
+reviews:
+  - title: Ghost Recon Wildlands VR Mod - 80% Done
+    channel: Geek2
+    url: https://www.youtube.com/watch?v=X1PRXN5gVX8
+  - title: "Ghost Recon Wildlands VR Mod : Yes the clouds still suck but the gunplay is getting better"
+    channel: Geek2
+    url: https://www.youtube.com/watch?v=dMRfAHhmbbc
+added_by: bot
+discovered_via: https://github.com/Firejumper93/GhostReconWildlandsVR
+last_checked: "2026-10-09"

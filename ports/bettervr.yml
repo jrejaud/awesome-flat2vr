@@ -1,0 +1,37 @@
+name: BetterVR
+games:
+  - "The Legend of Zelda: Breath of the Wild"
+category: mod
+authors:
+  - name: Crementif
+    url: https://github.com/Crementif
+platform: pcvr
+controls: 6dof
+status: beta
+version: "0.9.23"
+version_date: "2026-08-24"
+download_url: https://github.com/Crementif/BotW-BetterVR/releases/latest
+source_url: https://github.com/Crementif/BotW-BetterVR
+license: MIT
+required_files: A legal copy of Breath of the Wild for Wii U and a properly configured Cemu emulator (2.6 tested) capable of 60FPS+
+known_bugs:
+  - Screen can stay black after exiting menus, requiring a restart
+  - Climbing ladders requires jumping up and looking at the ladder
+  - Can get stuck behind ladders, especially stopping at the top while climbing down
+  - Lacks some comfort options like left-handed mode
+notes: Does not work under Linux/Wine/Proton; Windows only.
+images:
+  - game: "The Legend of Zelda: Breath of the Wild"
+    file: images/bettervr/the-legend-of-zelda-breath-of-the-wild.jpg
+    credit: GSpider Extras
+    source_url: https://www.youtube.com/watch?v=RiqP97-nGbw
+reviews:
+  - title: This Breath of the Wild VR Mod Blew Me Away - BetterVR Mod
+    channel: GSpider Extras
+    url: https://www.youtube.com/watch?v=RiqP97-nGbw
+  - title: "Zelda Breath of the Wild in REAL VR: How to Install and Play | BetterVR Mod Review"
+    channel: Alexander Goncharov
+    url: https://www.youtube.com/watch?v=6usdDChC3xE
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

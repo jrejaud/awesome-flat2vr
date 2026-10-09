@@ -1,0 +1,37 @@
+name: Returnal UEVR
+games:
+  - Returnal
+category: profile
+authors:
+  - name: letmein-vr
+    url: https://github.com/letmein-vr
+platform: pcvr
+controls: 6dof
+status: stable
+version: "1.2_IK"
+version_date: "2026-08-01"
+download_url: https://github.com/letmein-vr/RETURNAL_UEVR/releases/latest
+source_url: https://github.com/letmein-vr/RETURNAL_UEVR
+license: MIT
+required_files: Returnal (PC) and the latest UEVR nightly build
+known_bugs:
+  - IK arms will jitter a bit when turning in real life
+  - IK arms have a length limit
+  - House and Ship interactions are entirely broken and will not work in VR
+  - Right eye flickering requires enabling Native Fix or AFW
+notes: UEVR profile adding full first-person 6DOF with tracked weapons, IK arms/hands, cinematic handling, and HUD-follow mode.
+images:
+  - game: Returnal
+    file: images/returnal-uevr/returnal.jpg
+    credit: Returnal™ store art
+    source_url: https://store.steampowered.com/app/1649240/
+reviews:
+  - title: RETURNAL IS TOUGH IN VR! My Best Game in First Person & VR!
+    channel: Gamertag VR
+    url: https://www.youtube.com/watch?v=hb3am-poQ9U
+  - title: Returnal - UEVR (6DOF motion workflow improvements with 'CurrentGun')
+    channel: Waifu Enjoyer
+    url: https://www.youtube.com/watch?v=_1wjU3rwi78
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

@@ -1,0 +1,44 @@
+name: hotd2-vr
+games:
+  - The House of the Dead 2
+  - "The House of the Dead: The Maze of the Kings"
+category: source-port
+authors:
+  - name: mikermak
+    url: https://github.com/mikermak
+platform: both
+headsets:
+  - Quest 3
+  - Quest 2
+  - Quest Pro
+controls: 6dof
+status: alpha
+version: "v0.3-test1"
+version_date: "2026-10-09"
+download_url: https://github.com/mikermak/hotd2-vr/releases/latest
+source_url: https://github.com/mikermak/hotd2-vr
+license: GPL-2.0
+required_files: Own dump of The House of the Dead 2 (Dreamcast), PAL (MK-5100250) or US (MK-51002); for The Maze of the Kings, own MAME NAOMI set (mok.zip with 317-0333-com.pic and NAOMI BIOS) plus mok folder with gds-0022.chd
+known_bugs:
+  - PCVR is still untested in a headset
+  - Quest 2 and Quest Pro are new and not tested yet
+notes: Fork of the Flycast Dreamcast/NAOMI emulator; no game files included.
+images:
+  - game: The House of the Dead 2
+    file: images/hotd2-vr/the-house-of-the-dead-2.jpg
+    credit: Retroid
+    source_url: https://www.youtube.com/watch?v=A7b83PHgRB8
+  - game: "The House of the Dead: The Maze of the Kings"
+    file: images/hotd2-vr/the-house-of-the-dead-the-maze-of-the-kings.png
+    credit: mikermak/hotd2-vr
+    source_url: https://github.com/mikermak/hotd2-vr
+reviews:
+  - title: The House of the Dead 2… but it's VR
+    channel: Retroid
+    url: https://www.youtube.com/watch?v=A7b83PHgRB8
+  - title: The House of the Dead 2 Return in VR Oculus Rift
+    channel: VR in EVERYTHING
+    url: https://www.youtube.com/watch?v=MkmQsxcIMLc
+added_by: bot
+discovered_via: https://github.com/mikermak/hotd2-vr
+last_checked: "2026-10-09"

@@ -1,0 +1,35 @@
+name: 1GenPokemonVR
+games:
+  - Pokemon Red
+  - Pokemon Blue
+category: mod
+authors:
+  - name: heurazy
+    url: https://github.com/heurazy
+platform: both
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: alpha
+version: "v0.2.46"
+version_date: "2026-08-10"
+download_url: https://github.com/heurazy/1GenPokemonVr/releases/latest
+source_url: https://github.com/heurazy/1genpokemonvr
+license: unknown
+required_files: A legally obtained canonical US Pokemon Red or Blue .gb ROM (verified by SHA-1 on first import)
+known_bugs: []
+notes: A LOVE2D-based recreation/engine for Gen 1 with a custom stereo bridge; does not include or emulate the ROM, only decodes data from a player-supplied legal ROM.
+images:
+  - game: Pokemon Red
+    file: images/1genpokemonvr/pokemon-red.png
+    credit: heurazy/1genpokemonvr
+    source_url: https://github.com/heurazy/1genpokemonvr
+  - game: Pokemon Blue
+    file: images/1genpokemonvr/pokemon-blue.png
+    credit: heurazy/1genpokemonvr
+    source_url: https://github.com/heurazy/1genpokemonvr
+reviews: []
+added_by: bot
+discovered_via: https://github.com/heurazy/1genpokemonvr
+last_checked: "2026-10-09"

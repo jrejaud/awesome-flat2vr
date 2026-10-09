@@ -1,0 +1,30 @@
+name: Halo CE Quest VR + Android
+games:
+  - "Halo: Combat Evolved"
+category: source-port
+authors:
+  - name: moistman42069
+    url: https://github.com/moistman42069
+platform: standalone
+headsets:
+  - Quest
+controls: 6dof
+status: beta
+version: "v1.0.18"
+version_date: "2026-10-08"
+download_url: https://github.com/moistman42069/HaloCE-Quest-VR/releases/latest
+source_url: https://github.com/moistman42069/HaloCE-Quest-VR
+homepage: https://buymeacoffee.com/orgixsphero
+license: CC0-1.0
+required_files: User-supplied Xbox Halo CE ISO/XISO or extracted game files
+known_bugs: []
+notes: Built on the OpenCE community engine; also ships a flat Android build.
+images:
+  - game: "Halo: Combat Evolved"
+    file: images/halo-ce-quest-vr-android/halo-combat-evolved.jpg
+    credit: "Halo: Combat Evolved Anniversary store art"
+    source_url: https://store.steampowered.com/app/1064221/
+reviews: []
+added_by: bot
+discovered_via: https://github.com/moistman42069/haloce-quest-vr
+last_checked: "2026-10-09"

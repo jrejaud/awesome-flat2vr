@@ -1,0 +1,31 @@
+name: Trails of Cold Steel VR
+games:
+  - "The Legend of Heroes: Trails of Cold Steel"
+category: mod
+authors:
+  - name: petonexus
+    url: https://github.com/petonexus
+platform: pcvr
+headsets:
+  - Meta Quest 3
+controls: 6dof
+status: alpha
+version: "v0.1.0-alpha.3"
+version_date: "2026-10-08"
+download_url: https://github.com/petonexus/tocs-vr-releases/releases/latest
+source_url: https://github.com/petonexus/tocs-vr-releases
+homepage: https://www.trailsvr.pro
+license: unknown
+required_files: Steam version of Trails of Cold Steel (PC v1.6, English), Virtual Desktop, and the x86 Visual C++ runtime
+known_bugs:
+  - Visual glitches and rough movement remain
+notes: Native OpenXR mod tested on Meta Quest 3 via Virtual Desktop; includes SenPatcher and an in-game VR settings menu.
+images:
+  - game: "The Legend of Heroes: Trails of Cold Steel"
+    file: images/trails-of-cold-steel-vr/the-legend-of-heroes-trails-of-cold-steel.jpg
+    credit: "The Legend of Heroes: Trails of Cold Steel store art"
+    source_url: https://store.steampowered.com/app/538680/
+reviews: []
+added_by: bot
+discovered_via: https://github.com/petonexus/tocs-vr-releases
+last_checked: "2026-10-09"

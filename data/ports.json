@@ -1,5 +1,291 @@
 [
   {
+    "slug": "007-first-light-r-e-a-l-vr",
+    "name": "007 First Light R.E.A.L. VR",
+    "games": [
+      "007 First Light"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Luke Ross"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "beta",
+    "version": "unversioned",
+    "version_date": "2026-06-02",
+    "download_url": "https://www.patreon.com/realvr/posts/bond-159956522",
+    "source_url": "https://www.patreon.com/realvr/posts/bond-159956522",
+    "license": "proprietary",
+    "price": "Patreon early access (subscription required)",
+    "required_files": "Legally owned copy of 007 First Light (patch 1.02)",
+    "known_bugs": [],
+    "notes": "Headset-and-gamepad VR conversion via Luke Ross's R.E.A.L. framework with AER v2 and DLSS support; not a tracked-hand or manual-reload mod.",
+    "images": [
+      {
+        "game": "007 First Light",
+        "file": "images/007-first-light-r-e-a-l-vr/007-first-light.jpg",
+        "credit": "007 First Light store art",
+        "source_url": "https://store.steampowered.com/app/3768760/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "007 First Light VR Performance / R.E.A.L. VR Mod / Meta Quest 3 + RTX 4080 Super",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=bkY1nSzsIW8"
+      },
+      {
+        "title": "007 First Light in VR!  RTX 5090 PC VR Live 1st impressions Gameplay!",
+        "channel": "YouGotColdYogurt",
+        "url": "https://www.youtube.com/watch?v=qlWP_YPt76c"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "1genpokemonvr",
+    "name": "1GenPokemonVR",
+    "games": [
+      "Pokemon Red",
+      "Pokemon Blue"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "heurazy",
+        "url": "https://github.com/heurazy"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest 3",
+      "Quest 3S"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.2.46",
+    "version_date": "2026-08-10",
+    "download_url": "https://github.com/heurazy/1GenPokemonVr/releases/latest",
+    "source_url": "https://github.com/heurazy/1genpokemonvr",
+    "license": "unknown",
+    "required_files": "A legally obtained canonical US Pokemon Red or Blue .gb ROM (verified by SHA-1 on first import)",
+    "known_bugs": [],
+    "notes": "A LOVE2D-based recreation/engine for Gen 1 with a custom stereo bridge; does not include or emulate the ROM, only decodes data from a player-supplied legal ROM.",
+    "images": [
+      {
+        "game": "Pokemon Red",
+        "file": "images/1genpokemonvr/pokemon-red.png",
+        "credit": "heurazy/1genpokemonvr",
+        "source_url": "https://github.com/heurazy/1genpokemonvr"
+      },
+      {
+        "game": "Pokemon Blue",
+        "file": "images/1genpokemonvr/pokemon-blue.png",
+        "credit": "heurazy/1genpokemonvr",
+        "source_url": "https://github.com/heurazy/1genpokemonvr"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/heurazy/1genpokemonvr",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "ace-combat-8-uevr-profile-hud-fix",
+    "name": "ACE COMBAT 8 UEVR Profile (HUD fix)",
+    "games": [
+      "ACE COMBAT 8"
+    ],
+    "category": "profile",
+    "authors": [
+      {
+        "name": "VTFLAB",
+        "url": "https://github.com/VTFLAB"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "stable",
+    "version": "v1.0.0",
+    "version_date": "2026-10-04",
+    "download_url": "https://github.com/VTFLAB/ace-combat-8-uevr-profile/releases/latest",
+    "source_url": "https://github.com/VTFLAB/ace-combat-8-uevr-profile",
+    "license": "unknown",
+    "required_files": "ACE COMBAT 8 (Steam version), plus ac8_ui_fix.lua from the separate ace-combat-8-uevr-ui-fix repo by lovezzzxxx",
+    "known_bugs": [
+      "Requires bypassing EasyAntiCheat by launching AceCombat8.exe directly, which disables multiplayer/online play"
+    ],
+    "notes": "Fixes the flight HUD (minimap, center instruments, weapons/status) not being visible in VR via UEVR.",
+    "images": [
+      {
+        "game": "ACE COMBAT 8",
+        "file": "images/ace-combat-8-uevr-profile-hud-fix/ace-combat-8.jpg",
+        "credit": "Paradise Decay",
+        "source_url": "https://www.youtube.com/watch?v=weAhEMpT87k"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Ace Combat 8 - Day 1 in VR with UEVR! (Test) - Its CRIMINAL this DOES NOT have NATIVE VR Mode!",
+        "channel": "Paradise Decay",
+        "url": "https://www.youtube.com/watch?v=weAhEMpT87k"
+      },
+      {
+        "title": "ACE COMBAT 8: WINGS OF THEVE VR Performance / How to Install / Meta Quest 3 + RTX 4080 Super",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=spKprOsBkN8"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/VTFLAB/ace-combat-8-uevr-profile",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "animal-crossing-vr-mr-standalone",
+    "name": "Animal Crossing VR/MR Standalone",
+    "games": [
+      "Animal Crossing (GameCube)"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "heurazy",
+        "url": "https://github.com/heurazy"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 3",
+      "Quest 3S"
+    ],
+    "controls": "mixed",
+    "status": "beta",
+    "version": "v1.0.2",
+    "version_date": "2026-08-11",
+    "download_url": "https://github.com/heurazy/AnimalCrossing-VR-MR-Standalone/releases/latest",
+    "source_url": "https://github.com/heurazy/AnimalCrossing-VR-MR-Standalone",
+    "license": "unknown",
+    "required_files": "A legally obtained Animal Crossing USA Rev 0 (GAFE01) GameCube disc image",
+    "known_bugs": [],
+    "notes": "Based on DolphinXR; adds a custom Animal Crossing launcher, tabletop mixed-reality mode with passthrough, and Quest Touch hand/controller input mapped to GameCube controls.",
+    "images": [
+      {
+        "game": "Animal Crossing (GameCube)",
+        "file": "images/animal-crossing-vr-mr-standalone/animal-crossing.png",
+        "credit": "heurazy/AnimalCrossing-VR-MR-Standalone",
+        "source_url": "https://github.com/heurazy/AnimalCrossing-VR-MR-Standalone"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/heurazy/animalcrossing-vr-mr-standalone",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "assassins-creed-iv-black-flag-resynced-vr",
+    "name": "Assassin's Creed IV: Black Flag Resynced VR",
+    "games": [
+      "Assassin's Creed IV: Black Flag"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Mutar / NoMoreFlat"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "mixed",
+    "status": "beta",
+    "version": "unversioned",
+    "version_date": "2026-07-18",
+    "download_url": "https://www.patreon.com/NoMoreFlat/posts/assassins-creed-164150917",
+    "source_url": "https://www.patreon.com/NoMoreFlat/posts/assassins-creed-164150917",
+    "license": "unknown",
+    "price": "Patreon subscription (early access beta)",
+    "required_files": "Assassin's Creed IV: Black Flag (Resynced remaster) game files",
+    "known_bugs": [
+      "High GPU demand",
+      "UI tilt",
+      "Store-version-sensitive offsets"
+    ],
+    "notes": "Preserves third-person structure; uses head aim for throwable targeting rather than tracked-hand combat.",
+    "images": [
+      {
+        "game": "Assassin's Creed IV: Black Flag",
+        "file": "images/assassins-creed-iv-black-flag-resynced-vr/assassin-s-creed-iv-black-flag.jpg",
+        "credit": "Assassin’s Creed® IV Black Flag™ store art",
+        "source_url": "https://store.steampowered.com/app/242050/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Assassin's Creed® IV Black Flag|part 1| The virtual reality",
+        "channel": "BrothersGanes",
+        "url": "https://www.youtube.com/watch?v=rlLao3Q6tvg"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "assassins-creed-origins-vr",
+    "name": "Assassin's Creed Origins VR",
+    "games": [
+      "Assassin's Creed Origins"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Mutar"
+      },
+      {
+        "name": "NoMoreFlat"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "mixed",
+    "status": "beta",
+    "version": "unversioned",
+    "version_date": "2026-07-23",
+    "download_url": "https://www.patreon.com/NoMoreFlat/posts/assasins-creed-164608087",
+    "source_url": "https://www.patreon.com/NoMoreFlat/posts/assasins-creed-164608087",
+    "license": "unknown",
+    "required_files": "A copy of Assassin's Creed Origins (any store version)",
+    "known_bugs": [
+      "Dialogue uses a stereo letterbox; cutscenes were unscaled at beta launch"
+    ],
+    "notes": "OpenXR conversion adding 6DOF head tracking and head aim to the original third-person gamepad gameplay; does not depend on UEVR.",
+    "images": [
+      {
+        "game": "Assassin's Creed Origins",
+        "file": "images/assassins-creed-origins-vr/assassin-s-creed-origins.jpg",
+        "credit": "Assassin's Creed® Origins store art",
+        "source_url": "https://store.steampowered.com/app/582160/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Assassin's Creed Origins VR : PC to PlayStation VR  : 3 hours in Siwa ...",
+        "channel": "THEGAMEVEDA",
+        "url": "https://www.youtube.com/watch?v=OFwRzPdAaHM"
+      },
+      {
+        "title": "Assassin's Creed Origins | MSI GT 75 VR 7RF TITAN PRO | Gaming Performance Review",
+        "channel": "Techno Tamizha",
+        "url": "https://www.youtube.com/watch?v=M1OoTOAHWOA"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "beefraiderxr",
     "name": "BeefRaiderXR",
     "games": [
@@ -91,6 +377,59 @@
     ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/BendyVR",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "bettervr",
+    "name": "BetterVR",
+    "games": [
+      "The Legend of Zelda: Breath of the Wild"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Crementif",
+        "url": "https://github.com/Crementif"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "0.9.23",
+    "version_date": "2026-08-24",
+    "download_url": "https://github.com/Crementif/BotW-BetterVR/releases/latest",
+    "source_url": "https://github.com/Crementif/BotW-BetterVR",
+    "license": "MIT",
+    "required_files": "A legal copy of Breath of the Wild for Wii U and a properly configured Cemu emulator (2.6 tested) capable of 60FPS+",
+    "known_bugs": [
+      "Screen can stay black after exiting menus, requiring a restart",
+      "Climbing ladders requires jumping up and looking at the ladder",
+      "Can get stuck behind ladders, especially stopping at the top while climbing down",
+      "Lacks some comfort options like left-handed mode"
+    ],
+    "notes": "Does not work under Linux/Wine/Proton; Windows only.",
+    "images": [
+      {
+        "game": "The Legend of Zelda: Breath of the Wild",
+        "file": "images/bettervr/the-legend-of-zelda-breath-of-the-wild.jpg",
+        "credit": "GSpider Extras",
+        "source_url": "https://www.youtube.com/watch?v=RiqP97-nGbw"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "This Breath of the Wild VR Mod Blew Me Away - BetterVR Mod",
+        "channel": "GSpider Extras",
+        "url": "https://www.youtube.com/watch?v=RiqP97-nGbw"
+      },
+      {
+        "title": "Zelda Breath of the Wild in REAL VR: How to Install and Play | BetterVR Mod Review",
+        "channel": "Alexander Goncharov",
+        "url": "https://www.youtube.com/watch?v=6usdDChC3xE"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
     "last_checked": "2026-10-09"
   },
   {
@@ -261,6 +600,161 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "control-vr",
+    "name": "Control VR",
+    "games": [
+      "Control"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Mutar (NoMoreFlat)"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "mixed",
+    "status": "beta",
+    "version": "unversioned",
+    "version_date": "2026-07-02",
+    "download_url": "https://www.patreon.com/NoMoreFlat/posts/control-vr-dev-161743534",
+    "source_url": "https://www.patreon.com/NoMoreFlat/posts/control-vr-dev-161743534",
+    "license": "proprietary",
+    "required_files": "Original PC copy of Control",
+    "known_bugs": [
+      "Shimmering outlines noted at beta launch",
+      "Requires Windowed mode"
+    ],
+    "notes": "Uses unified OpenXR/OpenVR path with DX11/DX12 support; post-processing must be set to Medium with motion blur and film grain disabled; headset-and-gamepad conversion, not motion controls.",
+    "images": [
+      {
+        "game": "Control",
+        "file": "images/control-vr/control.jpg",
+        "credit": "Kory & Brooke",
+        "source_url": "https://www.youtube.com/watch?v=6DJ01fHF8Sc"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "YOU Control US in Roblox Realistic VR HANDS!",
+        "channel": "Kory & Brooke",
+        "url": "https://www.youtube.com/watch?v=6DJ01fHF8Sc"
+      },
+      {
+        "title": "I Can CONTROL Granny With a Remote! - I Am Cat VR",
+        "channel": "PowerOnVR",
+        "url": "https://www.youtube.com/watch?v=0rXO54K3iYM"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "cronos-the-new-dawn-uevr",
+    "name": "Cronos: The New Dawn UEVR",
+    "games": [
+      "Cronos: The New Dawn"
+    ],
+    "category": "profile",
+    "authors": [
+      {
+        "name": "letmein-vr",
+        "url": "https://github.com/letmein-vr"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "1.2",
+    "version_date": "2026-08-01",
+    "download_url": "https://github.com/letmein-vr/CRONOS_UEVR/releases/latest",
+    "source_url": "https://github.com/letmein-vr/CRONOS_UEVR",
+    "license": "MIT",
+    "required_files": "Cronos: The New Dawn (PC game install)",
+    "known_bugs": [
+      "Roomscale not supported / physical turning not supported",
+      "Some cinematic handling bugs during cutscenes"
+    ],
+    "notes": "UEVR profile requiring the latest UEVR nightly build; built on jbusfield's UEVR helper libs.",
+    "images": [
+      {
+        "game": "Cronos: The New Dawn",
+        "file": "images/cronos-the-new-dawn-uevr/cronos-the-new-dawn.jpg",
+        "credit": "Cronos: The New Dawn store art",
+        "source_url": "https://store.steampowered.com/app/2101960/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Cronos: The New Dawn is NEXT LEVEL in VR with UEVR!",
+        "channel": "Paradise Decay",
+        "url": "https://www.youtube.com/watch?v=0bOrTZ69bbQ"
+      },
+      {
+        "title": "Cronos: The New Dawn in VR is Great / How to get Bolt Cutter / Meta Quest 3 + RTX 4080 Super",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=XMWrEvKC7QU"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "crysis-vr-winlatorxr",
+    "name": "Crysis VR WinlatorXR",
+    "games": [
+      "Crysis"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "SgtBilko76",
+        "url": "https://github.com/SgtBilko76"
+      },
+      {
+        "name": "fholger"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "Beta-0.3",
+    "version_date": "2026-09-16",
+    "download_url": "https://github.com/SgtBilko76/Crysis-VR-WinlatorXR/releases/latest",
+    "source_url": "https://github.com/SgtBilko76/Crysis-VR-WinlatorXR",
+    "license": "unknown",
+    "required_files": "Original Crysis (2007, Steam or GOG, not Remastered)",
+    "known_bugs": [],
+    "notes": "Packages fholger's crysis_vrmod to run standalone on Meta Quest 3 via WinlatorXR (Wine + Box64 + DXVK), no PC required; ~20-40 fps expected.",
+    "images": [
+      {
+        "game": "Crysis",
+        "file": "images/crysis-vr-winlatorxr/crysis.jpg",
+        "credit": "Crysis Remastered store art",
+        "source_url": "https://store.steampowered.com/app/1715130/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "THE BEST VR MOD OF 2025! – Crysis VR MOD Set up Gameplay on Meta Quest 3",
+        "channel": "Parzival_VR_EN",
+        "url": "https://www.youtube.com/watch?v=cwGWHTBZ5SU"
+      },
+      {
+        "title": "Crysis VR - VR Rock Lenses, Oculus Meta Quest 3, Bhaptics X-16 vest, PCVR",
+        "channel": "Louie's VR Corner",
+        "url": "https://www.youtube.com/watch?v=X362mNKhA7U"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/SgtBilko76/Crysis-VR-WinlatorXR",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "cyberpunkvr-port",
     "name": "CyberpunkVR Port",
     "games": [
@@ -302,6 +796,101 @@
         "title": "Cyberpunk 2077 VR is Getting Motion Controls?!",
         "channel": "Beardo Benjo",
         "url": "https://www.youtube.com/watch?v=XkzaBRPJoQE"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "dead-space-2023-r-e-a-l-vr",
+    "name": "Dead Space (2023) R.E.A.L. VR",
+    "games": [
+      "Dead Space (2023)"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Luke Ross"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "beta",
+    "version": "2607.31.2",
+    "version_date": "2026-07-31",
+    "download_url": "https://www.patreon.com/realvr/posts/ds2023-165285354",
+    "source_url": "https://www.patreon.com/realvr/posts/ds2023-165285354",
+    "license": "proprietary",
+    "price": "Patreon subscription (early-access tier)",
+    "required_files": "Legally owned copy of the Dead Space (2023) remake",
+    "known_bugs": [],
+    "notes": "Shipped in the 2607.31.2 early-access package alongside DOOM support; separate from the lighter Osiris/Geo3D 6DOF package.",
+    "images": [
+      {
+        "game": "Dead Space (2023)",
+        "file": "images/dead-space-2023-r-e-a-l-vr/dead-space.jpg",
+        "credit": "Dead Space store art",
+        "source_url": "https://store.steampowered.com/app/1693980/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Dead Space VR Is Real... and It's Incredible!",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=i8kqEA6QuM4"
+      },
+      {
+        "title": "This is TOO INTENSE in VR! // The DEAD SPACE VR We Wanted? (Unreal Engine VR)",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=lvCuaE87zS0"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "doom-2016-r-e-a-l-vr",
+    "name": "DOOM (2016) R.E.A.L. VR",
+    "games": [
+      "DOOM (2016)"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Luke Ross"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "beta",
+    "version": "2607.31.1",
+    "version_date": "2026-07-04",
+    "download_url": "https://www.patreon.com/realvr/posts/doom-162879153",
+    "source_url": "https://www.patreon.com/realvr/posts/doom-162879153",
+    "license": "unknown",
+    "required_files": "Original DOOM (2016) game install",
+    "known_bugs": [],
+    "notes": "Uses AER v2 rendering; author notes both an early-access build and a public/free 2607.31.1 package.",
+    "images": [
+      {
+        "game": "DOOM (2016)",
+        "file": "images/doom-2016-r-e-a-l-vr/doom.jpg",
+        "credit": "DOOM store art",
+        "source_url": "https://store.steampowered.com/app/379720/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "DOOM Eternal VR Is Here... Mods Have Changed VR Forever!",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=rf1aWozpwK0"
+      },
+      {
+        "title": "DOOM 2016 IS NOW A VR GAME!",
+        "channel": "Gamertag VR",
+        "url": "https://www.youtube.com/watch?v=5BCafGSVhN0"
       }
     ],
     "added_by": "bot",
@@ -499,6 +1088,109 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "galaxyquest",
+    "name": "GalaxyQuest",
+    "games": [
+      "Super Mario Galaxy"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "bigmak94",
+        "url": "https://github.com/bigmak94"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 2",
+      "Quest 3"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.1.8",
+    "version_date": "2026-10-03",
+    "download_url": "https://github.com/bigmak94/GalaxyQuest/releases/latest",
+    "source_url": "https://github.com/bigmak94/GalaxyQuest",
+    "license": "Unlicense",
+    "required_files": "Player's own Super Mario Galaxy disc image or extracted disc folder, converted via the included installer/tools",
+    "known_bugs": [],
+    "notes": "Native port (not emulation) built on the Petari Super Mario Galaxy decompilation; code and documentation stated to be entirely AI-written (Claude Opus 5.5 in Claude Code).",
+    "images": [
+      {
+        "game": "Super Mario Galaxy",
+        "file": "images/galaxyquest/super-mario-galaxy.jpg",
+        "credit": "Pixelacos VR",
+        "source_url": "https://www.youtube.com/watch?v=d4gvdxW-iVY"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Super Mario Galaxy VR Standalone - (Meta Quest 3) - No Commentary Gameplay",
+        "channel": "Pixelacos VR",
+        "url": "https://www.youtube.com/watch?v=d4gvdxW-iVY"
+      },
+      {
+        "title": "Gameplay unofficial Super Mario Galaxy Quest 3 port",
+        "channel": "GalaxyQuest",
+        "url": "https://www.youtube.com/watch?v=Z35QW5irVcw"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/bigmak94/galaxyquest",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "ghost-recon-wildlands-vr-grw-xr",
+    "name": "Ghost Recon Wildlands VR (GRW-XR)",
+    "games": [
+      "Tom Clancy's Ghost Recon Wildlands"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Firejumper93",
+        "url": "https://github.com/Firejumper93"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.11.1",
+    "version_date": "2026-09-13",
+    "download_url": "https://github.com/Firejumper93/GhostReconWildlandsVR/releases/latest",
+    "source_url": "https://github.com/Firejumper93/GhostReconWildlandsVR",
+    "license": "unknown",
+    "required_files": "Owned copy of Tom Clancy's Ghost Recon Wildlands (Steam or Ubisoft Connect)",
+    "known_bugs": [
+      "Startup crash possible on some machines (partially addressed in v0.11.1)",
+      "Driving is unfinished"
+    ],
+    "notes": "Native OpenXR mod injected via dxgi.dll proxy, no game files modified; singleplayer/private co-op only, not for PvP or matchmaking.",
+    "images": [
+      {
+        "game": "Tom Clancy's Ghost Recon Wildlands",
+        "file": "images/ghost-recon-wildlands-vr-grw-xr/tom-clancy-s-ghost-recon-wildlands.jpg",
+        "credit": "Tom Clancy's Ghost Recon® Wildlands store art",
+        "source_url": "https://store.steampowered.com/app/460930/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Ghost Recon Wildlands VR Mod - 80% Done",
+        "channel": "Geek2",
+        "url": "https://www.youtube.com/watch?v=X1PRXN5gVX8"
+      },
+      {
+        "title": "Ghost Recon Wildlands VR Mod : Yes the clouds still suck but the gunplay is getting better",
+        "channel": "Geek2",
+        "url": "https://www.youtube.com/watch?v=dMRfAHhmbbc"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/Firejumper93/GhostReconWildlandsVR",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "grand-theft-auto-iv-vr",
     "name": "Grand Theft Auto IV VR",
     "games": [
@@ -660,6 +1352,110 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "halo-ce-quest-vr-android",
+    "name": "Halo CE Quest VR + Android",
+    "games": [
+      "Halo: Combat Evolved"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "moistman42069",
+        "url": "https://github.com/moistman42069"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v1.0.18",
+    "version_date": "2026-10-08",
+    "download_url": "https://github.com/moistman42069/HaloCE-Quest-VR/releases/latest",
+    "source_url": "https://github.com/moistman42069/HaloCE-Quest-VR",
+    "homepage": "https://buymeacoffee.com/orgixsphero",
+    "license": "CC0-1.0",
+    "required_files": "User-supplied Xbox Halo CE ISO/XISO or extracted game files",
+    "known_bugs": [],
+    "notes": "Built on the OpenCE community engine; also ships a flat Android build.",
+    "images": [
+      {
+        "game": "Halo: Combat Evolved",
+        "file": "images/halo-ce-quest-vr-android/halo-combat-evolved.jpg",
+        "credit": "Halo: Combat Evolved Anniversary store art",
+        "source_url": "https://store.steampowered.com/app/1064221/"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/moistman42069/haloce-quest-vr",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "hotd2-vr",
+    "name": "hotd2-vr",
+    "games": [
+      "The House of the Dead 2",
+      "The House of the Dead: The Maze of the Kings"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "mikermak",
+        "url": "https://github.com/mikermak"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest 3",
+      "Quest 2",
+      "Quest Pro"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.3-test1",
+    "version_date": "2026-10-09",
+    "download_url": "https://github.com/mikermak/hotd2-vr/releases/latest",
+    "source_url": "https://github.com/mikermak/hotd2-vr",
+    "license": "GPL-2.0",
+    "required_files": "Own dump of The House of the Dead 2 (Dreamcast), PAL (MK-5100250) or US (MK-51002); for The Maze of the Kings, own MAME NAOMI set (mok.zip with 317-0333-com.pic and NAOMI BIOS) plus mok folder with gds-0022.chd",
+    "known_bugs": [
+      "PCVR is still untested in a headset",
+      "Quest 2 and Quest Pro are new and not tested yet"
+    ],
+    "notes": "Fork of the Flycast Dreamcast/NAOMI emulator; no game files included.",
+    "images": [
+      {
+        "game": "The House of the Dead 2",
+        "file": "images/hotd2-vr/the-house-of-the-dead-2.jpg",
+        "credit": "Retroid",
+        "source_url": "https://www.youtube.com/watch?v=A7b83PHgRB8"
+      },
+      {
+        "game": "The House of the Dead: The Maze of the Kings",
+        "file": "images/hotd2-vr/the-house-of-the-dead-the-maze-of-the-kings.png",
+        "credit": "mikermak/hotd2-vr",
+        "source_url": "https://github.com/mikermak/hotd2-vr"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "The House of the Dead 2… but it's VR",
+        "channel": "Retroid",
+        "url": "https://www.youtube.com/watch?v=A7b83PHgRB8"
+      },
+      {
+        "title": "The House of the Dead 2 Return in VR Oculus Rift",
+        "channel": "VR in EVERYTHING",
+        "url": "https://www.youtube.com/watch?v=MkmQsxcIMLc"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/mikermak/hotd2-vr",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "hytale-vr-injector",
     "name": "Hytale VR Injector",
     "games": [
@@ -806,6 +1602,118 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "kcd1vr",
+    "name": "KCD1VR",
+    "games": [
+      "Kingdom Come: Deliverance"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "farmerarmor",
+        "url": "https://github.com/farmerarmor"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "alpha",
+    "version": "v0.1.69",
+    "version_date": "2026-09-26",
+    "download_url": "https://github.com/farmerarmor/KCD1VR/releases/latest",
+    "source_url": "https://github.com/farmerarmor/KCD1VR",
+    "license": "MIT",
+    "required_files": "Kingdom Come: Deliverance 1.9.7 (Direct3D 11 renderer, Steam build)",
+    "known_bugs": [
+      "no tracked motion-controller input",
+      "cutscenes and unusual camera transitions not all tested",
+      "some distant-object culling may require a performance-heavy profile",
+      "DLSS is experimental and did not deliver a large net performance gain",
+      "only the exact KCD 1.9.7 executable used during development is confirmed",
+      "Virtual Desktop OpenXR runtime compatibility not yet confirmed"
+    ],
+    "notes": "True-stereo (no alternating-eye rendering) CryEngine OpenXR mod; no motion controller support, uses keyboard/mouse or gamepad.",
+    "images": [
+      {
+        "game": "Kingdom Come: Deliverance",
+        "file": "images/kcd1vr/kingdom-come-deliverance.jpg",
+        "credit": "Kingdom Come: Deliverance store art",
+        "source_url": "https://store.steampowered.com/app/379430/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Kingdom Come: Deliverance VR | Sweet Beans",
+        "channel": "Sweet Beans",
+        "url": "https://www.youtube.com/watch?v=O1C_DT_P3oE"
+      },
+      {
+        "title": "Kingdom Come: Deliverance VR Mod - Native Stereo & Head-Tracking - Meta Quest 3 (PCVR)",
+        "channel": "FastLawyer",
+        "url": "https://www.youtube.com/watch?v=bEemOkchFGU"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/farmerarmor/KCD1VR",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "kisakcod-vr-winlatorxr",
+    "name": "KisakCOD VR WinlatorXR",
+    "games": [
+      "Call of Duty 4: Modern Warfare"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "SgtBilko76",
+        "url": "https://github.com/SgtBilko76"
+      },
+      {
+        "name": "jplakon"
+      },
+      {
+        "name": "SwagSoftware"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.1.0-beta.1",
+    "version_date": "2026-09-20",
+    "download_url": "https://github.com/SgtBilko76/CallOfDuty4_VR_WinlatorXR/releases/latest",
+    "source_url": "https://github.com/SgtBilko76/CallOfDuty4_VR_WinlatorXR",
+    "license": "GPL-3.0",
+    "required_files": "A legitimately owned copy of the original 2007 Windows release of Call of Duty 4: Modern Warfare game data",
+    "known_bugs": [
+      "No dedicated physical-scope panel",
+      "No manual recenter for the virtual screen",
+      "Pico and Quest 2 controller handling untested",
+      "WinlatorXR's right-stick-click menu can switch back to a flat window"
+    ],
+    "notes": "Packages the existing KisakCOD VR mod (by jplakon, based on SwagSoftware's KisakCOD) with a WinlatorXR XrAPI backend so it runs standalone on a Meta Quest without a PC, OpenXR, or SteamVR runtime; tested on Quest 3 via WinlatorXR cats-27 at ~45-72fps.",
+    "images": [
+      {
+        "game": "Call of Duty 4: Modern Warfare",
+        "file": "images/kisakcod-vr-winlatorxr/call-of-duty-4-modern-warfare.jpg",
+        "credit": "Call of Duty® 4: Modern Warfare® (2007) store art",
+        "source_url": "https://store.steampowered.com/app/7940/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Call of Duty 4: Modern Warfare VR Performance - VR Mod with 6DOF / Meta Quest 3 + RTX 4080 Super",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=NlR_JheVXCk"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/SgtBilko76/CallOfDuty4_VR_WinlatorXR",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "kisakcod-vr",
     "name": "KisakCOD VR",
     "games": [
@@ -908,6 +1816,103 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "mass-effect-legendary-edition-vr",
+    "name": "Mass Effect Legendary Edition VR",
+    "games": [
+      "Mass Effect (Legendary Edition)",
+      "Mass Effect 2 (Legendary Edition)"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "dhalcyon"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "unversioned",
+    "version_date": "2026-08-01",
+    "download_url": "https://www.patreon.com/dhalcyon/posts/suicide-mission-165506412",
+    "source_url": "https://www.patreon.com/dhalcyon/posts/suicide-mission-165506412",
+    "license": "unknown",
+    "required_files": "Mass Effect Legendary Edition (ME1 and ME2)",
+    "known_bugs": [],
+    "notes": "Supports three render modes (Stereo, AER, DIBR); ME2 release adds VR treatment for conversations and cutscenes.",
+    "images": [
+      {
+        "game": "Mass Effect (Legendary Edition)",
+        "file": "images/mass-effect-legendary-edition-vr/mass-effect.jpg",
+        "credit": "Steam app 17460 store art",
+        "source_url": "https://store.steampowered.com/app/17460/"
+      },
+      {
+        "game": "Mass Effect 2 (Legendary Edition)",
+        "file": "images/mass-effect-legendary-edition-vr/mass-effect-2.jpg",
+        "credit": "Mass Effect 2 (2010) Edition store art",
+        "source_url": "https://store.steampowered.com/app/2362420/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "MASS EFFECT VR // Mass Effect 2 First Person Gameplay in VR // Will it VR? - Mass Effect 2 VR",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=K-z0tIGgJag"
+      },
+      {
+        "title": "How to Play Mass Effect Legendary Edition in First Person, 3D in a VR Headset",
+        "channel": "Headset-VR",
+        "url": "https://www.youtube.com/watch?v=tFHrf8v_uUY"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "megaman64recompiledvr",
+    "name": "MegaMan64RecompiledVR",
+    "games": [
+      "Mega Man 64"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "randygil",
+        "url": "https://github.com/randygil"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest 2",
+      "Quest 3",
+      "Quest 3S",
+      "Quest Pro"
+    ],
+    "controls": "mixed",
+    "status": "beta",
+    "version": "v0.9.1-vr1",
+    "version_date": "2026-10-01",
+    "download_url": "https://github.com/randygil/MegaMan64RecompiledVR/releases/latest",
+    "source_url": "https://github.com/randygil/MegaMan64RecompiledVR",
+    "license": "GPL-3.0",
+    "required_files": "US ROM of Mega Man 64 (MegaMan64.us.rev1.z64), not included",
+    "known_bugs": [],
+    "notes": "Fork of MegaMan64Recompiled adding a first-person VR mode where the buster is mapped to the left hand and the special weapon to the right.",
+    "images": [
+      {
+        "game": "Mega Man 64",
+        "file": "images/megaman64recompiledvr/mega-man-64.png",
+        "credit": "randygil/MegaMan64RecompiledVR",
+        "source_url": "https://github.com/randygil/MegaMan64RecompiledVR"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/randygil/megaman64recompiledvr",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "mirrors-edge-vr",
     "name": "Mirror's Edge VR",
     "games": [
@@ -997,6 +2002,160 @@
     ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Raicuparta/nomai-vr",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "novr",
+    "name": "NOVR",
+    "games": [
+      "Nuclear Option"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "InfernoSuperNova",
+        "url": "https://github.com/InfernoSuperNova"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "0.4.4",
+    "version_date": "2026-09-09",
+    "download_url": "https://github.com/InfernoSuperNova/novr/releases/latest",
+    "source_url": "https://github.com/InfernoSuperNova/novr",
+    "homepage": "https://discord.gg/JAmpFqEDVW",
+    "license": "GPL-3.0",
+    "required_files": "Owned copy of Nuclear Option (Steam) with BepInEx 5.x installed",
+    "known_bugs": [],
+    "notes": "A reworked, game-specific version of the UUVR universal VR mod tailored for Nuclear Option.",
+    "images": [
+      {
+        "game": "Nuclear Option",
+        "file": "images/novr/nuclear-option.jpg",
+        "credit": "Nuclear Option store art",
+        "source_url": "https://store.steampowered.com/app/2168680/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Nuclear Option Interview - VR, New Maps and Future Plans",
+        "channel": "Enigma",
+        "url": "https://www.youtube.com/watch?v=Ojqd0oC2c8U"
+      },
+      {
+        "title": "Nuclear Option VR Mod (NOVR 0.33)",
+        "channel": "TacJackal",
+        "url": "https://www.youtube.com/watch?v=IDMlU4DRcRI"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/InfernoSuperNova/novr",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "painkiller-vr-mod",
+    "name": "PainKiller VR Mod",
+    "games": [
+      "PainKiller",
+      "PainKiller: Battle Out of Hell"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "FluorescentHallucinogen",
+        "url": "https://github.com/FluorescentHallucinogen"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest 2"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.1.9",
+    "version_date": "2026-09-07",
+    "download_url": "https://github.com/FluorescentHallucinogen/painkiller-vr-mod/releases/latest",
+    "source_url": "https://github.com/FluorescentHallucinogen/painkiller-vr-mod",
+    "license": "unknown",
+    "required_files": "PainKiller 1.64 (Heaven's Got a Hitman) and/or Battle Out of Hell; tested on PainKiller: Black Edition (Steam)",
+    "known_bugs": [],
+    "notes": "Native OpenXR implementation (no UEVR dependency); author tested with Black Edition on Steam, Quest 2 and Virtual Desktop, though broader OpenXR headset/runtime support is expected but less proven.",
+    "images": [
+      {
+        "game": "PainKiller",
+        "file": "images/painkiller-vr-mod/painkiller.jpg",
+        "credit": "Painkiller store art",
+        "source_url": "https://store.steampowered.com/app/2300120/"
+      },
+      {
+        "game": "PainKiller: Battle Out of Hell",
+        "file": "images/painkiller-vr-mod/painkiller-battle-out-of-hell.png",
+        "credit": "FluorescentHallucinogen/painkiller-vr-mod",
+        "source_url": "https://github.com/FluorescentHallucinogen/painkiller-vr-mod"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "VR Mods are The FUTURE OF VR GAMING! This PAINKILLER VR Mod is AWESOME",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=IJg0zG5ViEM"
+      },
+      {
+        "title": "Painkiller VR Mod: \"Hellish\" Old-School in VR",
+        "channel": "Pavel419",
+        "url": "https://www.youtube.com/watch?v=s469AllzjEc"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "palworld-uevr",
+    "name": "Palworld UEVR",
+    "games": [
+      "Palworld"
+    ],
+    "category": "profile",
+    "authors": [
+      {
+        "name": "D_Rey"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "unversioned",
+    "version_date": "2026-07-26",
+    "download_url": "https://www.patreon.com/D_Rey/posts/palworld-uevr-165894175",
+    "source_url": "https://www.patreon.com/D_Rey/posts/palworld-uevr-165894175",
+    "license": "unknown",
+    "required_files": "Owned copy of Palworld",
+    "known_bugs": [],
+    "notes": "UEVR profile with visible armored hands, weapon attachments, physical tool/melee use, sphere throwing, bow handling, climbing, NPC gestures, two-hand gliding and a laser-driven menu.",
+    "images": [
+      {
+        "game": "Palworld",
+        "file": "images/palworld-uevr/palworld.jpg",
+        "credit": "Palworld store art",
+        "source_url": "https://store.steampowered.com/app/1623730/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "PALWORLD VR is CRAZY! First Person and MOTION CONTROLS // UEVR Mod (Quest 3)",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=i5OYgdTQSWI"
+      },
+      {
+        "title": "PALWORLD in VR is AMAZING! | UEVR Mod",
+        "channel": "ThisKory",
+        "url": "https://www.youtube.com/watch?v=QV7U1btgztY"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
     "last_checked": "2026-10-09"
   },
   {
@@ -1421,6 +2580,59 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "returnal-uevr",
+    "name": "Returnal UEVR",
+    "games": [
+      "Returnal"
+    ],
+    "category": "profile",
+    "authors": [
+      {
+        "name": "letmein-vr",
+        "url": "https://github.com/letmein-vr"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "1.2_IK",
+    "version_date": "2026-08-01",
+    "download_url": "https://github.com/letmein-vr/RETURNAL_UEVR/releases/latest",
+    "source_url": "https://github.com/letmein-vr/RETURNAL_UEVR",
+    "license": "MIT",
+    "required_files": "Returnal (PC) and the latest UEVR nightly build",
+    "known_bugs": [
+      "IK arms will jitter a bit when turning in real life",
+      "IK arms have a length limit",
+      "House and Ship interactions are entirely broken and will not work in VR",
+      "Right eye flickering requires enabling Native Fix or AFW"
+    ],
+    "notes": "UEVR profile adding full first-person 6DOF with tracked weapons, IK arms/hands, cinematic handling, and HUD-follow mode.",
+    "images": [
+      {
+        "game": "Returnal",
+        "file": "images/returnal-uevr/returnal.jpg",
+        "credit": "Returnal™ store art",
+        "source_url": "https://store.steampowered.com/app/1649240/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "RETURNAL IS TOUGH IN VR! My Best Game in First Person & VR!",
+        "channel": "Gamertag VR",
+        "url": "https://www.youtube.com/watch?v=hb3am-poQ9U"
+      },
+      {
+        "title": "Returnal - UEVR (6DOF motion workflow improvements with 'CurrentGun')",
+        "channel": "Waifu Enjoyer",
+        "url": "https://www.youtube.com/watch?v=_1wjU3rwi78"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "rtcwquest",
     "name": "RTCWQuest",
     "games": [
@@ -1465,6 +2677,199 @@
     ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/RTCWQuest",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "s-t-a-l-k-e-r-anomaly-vr",
+    "name": "S.T.A.L.K.E.R. Anomaly VR",
+    "games": [
+      "S.T.A.L.K.E.R. Anomaly"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "MarsyApp"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest",
+      "Index",
+      "Vive",
+      "WMR",
+      "Pico",
+      "PSVR2"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "0.4.5",
+    "version_date": "2026-05-09",
+    "download_url": "https://ap-pro.ru/forums/topic/14575-anomaly-vr/",
+    "source_url": "https://ap-pro.ru/forums/topic/14575-anomaly-vr/",
+    "license": "unknown",
+    "required_files": "S.T.A.L.K.E.R. Anomaly installation",
+    "known_bugs": [],
+    "notes": "Native OpenXR fork of the X-Ray engine rather than an injector; features controller IK, physical grabs/throws, body zones and world-space menus.",
+    "images": [
+      {
+        "game": "S.T.A.L.K.E.R. Anomaly",
+        "file": "images/s-t-a-l-k-e-r-anomaly-vr/s-t-a-l-k-e-r-anomaly.jpg",
+        "credit": "Anomaly VR (Андрей MarsyApp)",
+        "source_url": "https://www.youtube.com/watch?v=IIQGMCltW2M"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Stalker Anomaly VR mod",
+        "channel": "Anomaly VR (Андрей MarsyApp)",
+        "url": "https://www.youtube.com/watch?v=IIQGMCltW2M"
+      },
+      {
+        "title": "ANOMALY VR - Alpha 0.4 Update | STALKER VR",
+        "channel": "Anomaly VR (Андрей MarsyApp)",
+        "url": "https://www.youtube.com/watch?v=LhODMRyRGpk"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "san-andreas-vr-definitive-edition",
+    "name": "SAN ANDREAS VR DEFINITIVE EDITION",
+    "games": [
+      "Grand Theft Auto: San Andreas - The Definitive Edition"
+    ],
+    "category": "profile",
+    "authors": [
+      {
+        "name": "Gangbusters1337",
+        "url": "https://github.com/Gangbusters1337"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.3.7",
+    "version_date": "2026-09-09",
+    "download_url": "https://github.com/Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION/releases/latest",
+    "source_url": "https://github.com/Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION",
+    "homepage": "https://github.com/Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION#readme",
+    "license": "MIT",
+    "required_files": "GTA: San Andreas - The Definitive Edition (PC) plus Praydog's UEVR injector",
+    "known_bugs": [],
+    "notes": "UEVR profile adding free-aim weapons, two-handed/akimbo aiming, physics throwables, and vehicle free-aim/camera memory to GTA San Andreas - The Definitive Edition.",
+    "images": [
+      {
+        "game": "Grand Theft Auto: San Andreas - The Definitive Edition",
+        "file": "images/san-andreas-vr-definitive-edition/grand-theft-auto-san-andreas-the-definitive-edition.png",
+        "credit": "Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION",
+        "source_url": "https://github.com/Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/Gangbusters1337/SAN-ANDREAS-VR-DEFINITIVE-EDITION",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "scrap-mechanic-native-vr",
+    "name": "Scrap Mechanic Native VR",
+    "games": [
+      "Scrap Mechanic"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "21Suspect",
+        "url": "https://github.com/21Suspect"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.4.8",
+    "version_date": "2026-09-08",
+    "download_url": "https://github.com/21Suspect/Scrap-Mechanic-Native-VR/releases/latest",
+    "source_url": "https://github.com/21Suspect/Scrap-Mechanic-Native-VR",
+    "license": "unknown",
+    "required_files": "A copy of Scrap Mechanic (Chapter 2 / 1.0 release) on Windows",
+    "known_bugs": [],
+    "notes": "Supports Meta Quest Link and Virtual Desktop (VDXR) or SteamVR as the OpenXR runtime; a v1.4.9 pre-release for the upcoming Patch 1.0.6 is also mentioned but untested.",
+    "images": [
+      {
+        "game": "Scrap Mechanic",
+        "file": "images/scrap-mechanic-native-vr/scrap-mechanic.jpg",
+        "credit": "Scrap Mechanic store art",
+        "source_url": "https://store.steampowered.com/app/387990/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "How To Install the Scrap Mechanic VR Mod",
+        "channel": "U W I P",
+        "url": "https://www.youtube.com/watch?v=FpFTF14iAb8"
+      },
+      {
+        "title": "Live Test - Full 6DOF MOD in VR!! | Scrap Mechanic",
+        "channel": "U W I P",
+        "url": "https://www.youtube.com/watch?v=0RnKR7LIPsY"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/21Suspect/Scrap-Mechanic-Native-VR",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "shenmue-iii-uevr",
+    "name": "Shenmue III UEVR",
+    "games": [
+      "Shenmue III"
+    ],
+    "category": "profile",
+    "authors": [
+      {
+        "name": "Tensai37"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "1.0",
+    "version_date": "2026-05-30",
+    "download_url": "https://codeberg.org/Tensai37/Shenmue_3_first_person_with_motion_controls_UEVR_mod/releases",
+    "source_url": "https://codeberg.org/Tensai37/Shenmue_3_first_person_with_motion_controls_UEVR_mod/releases",
+    "license": "unknown",
+    "required_files": "Original Shenmue III game installation",
+    "known_bugs": [
+      "DLC and content after forklift driving were unconfirmed at 1.0"
+    ],
+    "notes": "Requires UEVR nightly build 01127 and injecting only from the main menu; auto-switches to third-person for situations needing the original camera.",
+    "images": [
+      {
+        "game": "Shenmue III",
+        "file": "images/shenmue-iii-uevr/shenmue-iii.jpg",
+        "credit": "Shenmue III store art",
+        "source_url": "https://store.steampowered.com/app/878670/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Shenmue 3 VR 360° 4K Virtual Reality Gameplay",
+        "channel": "VR 360°",
+        "url": "https://www.youtube.com/watch?v=8chsqzPE9I0"
+      },
+      {
+        "title": "Shenmue 3 - UEVR",
+        "channel": "Waifu Enjoyer",
+        "url": "https://www.youtube.com/watch?v=WffgF8GJlyY"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
     "last_checked": "2026-10-09"
   },
   {
@@ -1781,6 +3186,115 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "subnautica-2-uevr",
+    "name": "Subnautica 2 UEVR",
+    "games": [
+      "Subnautica 2"
+    ],
+    "category": "profile",
+    "authors": [
+      {
+        "name": "jbusfield",
+        "url": "https://github.com/jbusfield"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.0.3",
+    "version_date": "2026-07-08",
+    "download_url": "https://github.com/jbusfield/SN2_UEVR/releases/latest",
+    "source_url": "https://github.com/jbusfield/SN2_UEVR",
+    "license": "MIT",
+    "required_files": "Subnautica 2 (Early Access) game install",
+    "known_bugs": [],
+    "notes": "Requires UEVR nightly with joeyhodge fix; only works with Native Stereo, not Synced Sequential.",
+    "images": [
+      {
+        "game": "Subnautica 2",
+        "file": "images/subnautica-2-uevr/subnautica-2.jpg",
+        "credit": "Subnautica 2 store art",
+        "source_url": "https://store.steampowered.com/app/1962700/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Subnautica 2 VR Mod now with Motion Controls! + How To Install",
+        "channel": "LunchAndVR",
+        "url": "https://www.youtube.com/watch?v=7cHe25j0N-o"
+      },
+      {
+        "title": "Subnautica 2 Now Works in VR With Motion Controls (and it's Awesome!)",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=hbSxbvBot9Y"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "the-house-of-the-dead-2-vr",
+    "name": "The House of the Dead 2 VR",
+    "games": [
+      "The House of the Dead 2",
+      "The Maze of the Kings"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "mikermak",
+        "url": "https://github.com/mikermak"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.3-test1",
+    "version_date": "2026-10-09",
+    "download_url": "https://github.com/mikermak/hotd2-vr/releases/latest",
+    "source_url": "https://github.com/mikermak/hotd2-vr",
+    "license": "GPL-2.0",
+    "required_files": "Own Dreamcast dump of The House of the Dead 2 (PAL MK-5100250 or US MK-51002); for The Maze of the Kings, own NAOMI MAME set (mok.zip with 317-0333-com.pic and NAOMI BIOS) plus mok folder with gds-0022.chd",
+    "known_bugs": [
+      "PC VR is still untested in a headset",
+      "Quest 2 and Quest Pro are new and not tested yet"
+    ],
+    "notes": "Fork of the Flycast Dreamcast/NAOMI emulator; no game data included.",
+    "images": [
+      {
+        "game": "The House of the Dead 2",
+        "file": "images/the-house-of-the-dead-2-vr/the-house-of-the-dead-2.jpg",
+        "credit": "Retroid",
+        "source_url": "https://www.youtube.com/watch?v=A7b83PHgRB8"
+      },
+      {
+        "game": "The Maze of the Kings",
+        "file": "images/the-house-of-the-dead-2-vr/the-maze-of-the-kings.png",
+        "credit": "mikermak/hotd2-vr",
+        "source_url": "https://github.com/mikermak/hotd2-vr"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "The House of the Dead 2… but it's VR",
+        "channel": "Retroid",
+        "url": "https://www.youtube.com/watch?v=A7b83PHgRB8"
+      },
+      {
+        "title": "The House of the Dead 2 Return in VR Oculus Rift",
+        "channel": "VR in EVERYTHING",
+        "url": "https://www.youtube.com/watch?v=MkmQsxcIMLc"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/mikermak/hotd2-vr",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "the-witcher-3-vr",
     "name": "The Witcher 3 VR",
     "games": [
@@ -1832,6 +3346,49 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "trails-of-cold-steel-vr",
+    "name": "Trails of Cold Steel VR",
+    "games": [
+      "The Legend of Heroes: Trails of Cold Steel"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "petonexus",
+        "url": "https://github.com/petonexus"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Meta Quest 3"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.1.0-alpha.3",
+    "version_date": "2026-10-08",
+    "download_url": "https://github.com/petonexus/tocs-vr-releases/releases/latest",
+    "source_url": "https://github.com/petonexus/tocs-vr-releases",
+    "homepage": "https://www.trailsvr.pro",
+    "license": "unknown",
+    "required_files": "Steam version of Trails of Cold Steel (PC v1.6, English), Virtual Desktop, and the x86 Visual C++ runtime",
+    "known_bugs": [
+      "Visual glitches and rough movement remain"
+    ],
+    "notes": "Native OpenXR mod tested on Meta Quest 3 via Virtual Desktop; includes SenPatcher and an in-game VR settings menu.",
+    "images": [
+      {
+        "game": "The Legend of Heroes: Trails of Cold Steel",
+        "file": "images/trails-of-cold-steel-vr/the-legend-of-heroes-trails-of-cold-steel.jpg",
+        "credit": "The Legend of Heroes: Trails of Cold Steel store art",
+        "source_url": "https://store.steampowered.com/app/538680/"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/petonexus/tocs-vr-releases",
+    "last_checked": "2026-10-09"
+  },
+  {
     "slug": "two-forks-vr",
     "name": "Two Forks VR",
     "games": [
@@ -1877,6 +3434,55 @@
     ],
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Raicuparta/two-forks-vr",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "vampire-the-masquerade-bloodlines-2-uevr",
+    "name": "Vampire: The Masquerade — Bloodlines 2 UEVR",
+    "games": [
+      "Vampire: The Masquerade — Bloodlines 2"
+    ],
+    "category": "profile",
+    "authors": [
+      {
+        "name": "Tensai37"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "1.1",
+    "version_date": "2026-06-11",
+    "download_url": "https://codeberg.org/Tensai37/Bloodlines2/releases",
+    "source_url": "https://codeberg.org/Tensai37/Bloodlines2/releases",
+    "license": "unknown",
+    "required_files": "Vampire: The Masquerade — Bloodlines 2 (owned install) plus UEVR nightly build 01127 or newer",
+    "known_bugs": [
+      "Very demanding performance-wise; interpolation and DLSS/FSR strongly recommended"
+    ],
+    "notes": "Standing-first motion-control profile: physical punches/gestures for combat, telekinesis, jumping, climbing, and gliding; v1.1 added DLC support and a Benny-specific gesture.",
+    "images": [
+      {
+        "game": "Vampire: The Masquerade — Bloodlines 2",
+        "file": "images/vampire-the-masquerade-bloodlines-2-uevr/vampire-the-masquerade-bloodlines-2.jpg",
+        "credit": "Parzival_VR_EN",
+        "source_url": "https://www.youtube.com/watch?v=7d7QMmmJOXQ"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Vampire: The Masquerade - Bloodlines 2 | VR Mod Gameplay Meta Quest 3",
+        "channel": "Parzival_VR_EN",
+        "url": "https://www.youtube.com/watch?v=7d7QMmmJOXQ"
+      },
+      {
+        "title": "Vampire: The Masquerade - Bloodlines 2 VR Mod! RTX 5090 PC Live 1st UEVR Gameplay!",
+        "channel": "YouGotColdYogurt",
+        "url": "https://www.youtube.com/watch?v=bn-bhvz3kxU"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
     "last_checked": "2026-10-09"
   },
   {
@@ -1927,6 +3533,154 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "vr-improvements-mod-vr-vr-plus-continued",
+    "name": "VR: Improvements Mod / VR+ (VR Plus) Continued",
+    "games": [
+      "PAYDAY 2"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "DennisGHUA",
+        "url": "https://github.com/DennisGHUA"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.8.8",
+    "version_date": "2026-08-29",
+    "download_url": "https://github.com/DennisGHUA/payday2-vr-improvements/releases/latest",
+    "source_url": "https://github.com/DennisGHUA/payday2-vr-improvements",
+    "homepage": "https://modworkshop.net/mod/45143",
+    "license": "GPL-3.0",
+    "required_files": "PAYDAY 2 base game plus the BLT mod loader",
+    "known_bugs": [],
+    "notes": "A continuation/improvement mod adding comfort, control, HUD and locomotion features on top of PAYDAY 2's VR mod support.",
+    "images": [
+      {
+        "game": "PAYDAY 2",
+        "file": "images/vr-improvements-mod-vr-vr-plus-continued/payday-2.jpg",
+        "credit": "PAYDAY 2 store art",
+        "source_url": "https://store.steampowered.com/app/218620/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Payday 2 VR - Beginners Guide",
+        "channel": "Helixxvr",
+        "url": "https://www.youtube.com/watch?v=fG8JXcdZ25M"
+      },
+      {
+        "title": "Losing my mind in Payday 2 VR...",
+        "channel": "Frontways Larry",
+        "url": "https://www.youtube.com/watch?v=405RhWEMAK8"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/DennisGHUA/payday2-vr-improvements",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "wiicompiled-openxr-vr",
+    "name": "WiiCompiled OpenXR VR",
+    "games": [
+      "Mario Kart Wii"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "iChris4",
+        "url": "https://github.com/iChris4"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "0.2.45",
+    "version_date": "2026-09-30",
+    "download_url": "https://github.com/iChris4/Wiicompiled_VR/releases/latest",
+    "source_url": "https://github.com/iChris4/Wiicompiled_VR",
+    "license": "GPL-3.0",
+    "required_files": "A legally dumped PAL (RMCP01) Mario Kart Wii disc image; no game code or assets ship with the project",
+    "known_bugs": [],
+    "notes": "Fork of patchzyy/Wiicompiled, a static-recompilation native PC port of Mario Kart Wii; VR renders via OpenXR on D3D12/Vulkan, with menus shown as a head-locked virtual screen and races in immersive stereo.",
+    "images": [
+      {
+        "game": "Mario Kart Wii",
+        "file": "images/wiicompiled-openxr-vr/mario-kart-wii.jpg",
+        "credit": "Poofesure",
+        "source_url": "https://www.youtube.com/watch?v=2D5KLLdZxPk"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "playing mario kart wii in VR",
+        "channel": "Poofesure",
+        "url": "https://www.youtube.com/watch?v=2D5KLLdZxPk"
+      },
+      {
+        "title": "1,000,000 VR in Mario Kart Wii.................................................................",
+        "channel": "TWD98",
+        "url": "https://www.youtube.com/watch?v=N0tQXO7d4YI"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/ichris4/wiicompiled_vr",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "wiicompiled-vr",
+    "name": "Wiicompiled VR",
+    "games": [
+      "Mario Kart Wii"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "iChris4",
+        "url": "https://github.com/iChris4"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "0.2.45",
+    "version_date": "2026-09-30",
+    "download_url": "https://github.com/iChris4/Wiicompiled_VR/releases/latest",
+    "source_url": "https://github.com/iChris4/Wiicompiled_VR",
+    "license": "GPL-3.0",
+    "required_files": "User-supplied clean PAL (RMCP01) Mario Kart Wii disc image",
+    "known_bugs": [
+      "Frame interpolation is experimental and shows artifacts in specific scenarios",
+      "Menus and unsupported scenes render as a head-locked virtual screen instead of full stereo VR"
+    ],
+    "notes": "Fork of the WiiCompiled static-recompilation port; VR is opt-in and falls back to the normal desktop renderer if unsupported.",
+    "images": [
+      {
+        "game": "Mario Kart Wii",
+        "file": "images/wiicompiled-vr/mario-kart-wii.jpg",
+        "credit": "Poofesure",
+        "source_url": "https://www.youtube.com/watch?v=2D5KLLdZxPk"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "playing mario kart wii in VR",
+        "channel": "Poofesure",
+        "url": "https://www.youtube.com/watch?v=2D5KLLdZxPk"
+      },
+      {
+        "title": "The BIGGEST VR Gain in 1 Hour - Mario Kart Wii",
+        "channel": "TWD98",
+        "url": "https://www.youtube.com/watch?v=gQrwLvBTyN8"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/ichris4/wiicompiled_vr",
     "last_checked": "2026-10-09"
   },
   {

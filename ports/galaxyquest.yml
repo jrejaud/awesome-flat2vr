@@ -1,0 +1,36 @@
+name: GalaxyQuest
+games:
+  - Super Mario Galaxy
+category: source-port
+authors:
+  - name: bigmak94
+    url: https://github.com/bigmak94
+platform: standalone
+headsets:
+  - Quest 2
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "v0.1.8"
+version_date: "2026-10-03"
+download_url: https://github.com/bigmak94/GalaxyQuest/releases/latest
+source_url: https://github.com/bigmak94/GalaxyQuest
+license: Unlicense
+required_files: Player's own Super Mario Galaxy disc image or extracted disc folder, converted via the included installer/tools
+known_bugs: []
+notes: Native port (not emulation) built on the Petari Super Mario Galaxy decompilation; code and documentation stated to be entirely AI-written (Claude Opus 5.5 in Claude Code).
+images:
+  - game: Super Mario Galaxy
+    file: images/galaxyquest/super-mario-galaxy.jpg
+    credit: Pixelacos VR
+    source_url: https://www.youtube.com/watch?v=d4gvdxW-iVY
+reviews:
+  - title: Super Mario Galaxy VR Standalone - (Meta Quest 3) - No Commentary Gameplay
+    channel: Pixelacos VR
+    url: https://www.youtube.com/watch?v=d4gvdxW-iVY
+  - title: Gameplay unofficial Super Mario Galaxy Quest 3 port
+    channel: GalaxyQuest
+    url: https://www.youtube.com/watch?v=Z35QW5irVcw
+added_by: bot
+discovered_via: https://github.com/bigmak94/galaxyquest
+last_checked: "2026-10-09"

@@ -1,0 +1,32 @@
+name: DOOM (2016) R.E.A.L. VR
+games:
+  - DOOM (2016)
+category: mod
+authors:
+  - name: Luke Ross
+platform: pcvr
+controls: gamepad
+status: beta
+version: "2607.31.1"
+version_date: "2026-07-04"
+download_url: https://www.patreon.com/realvr/posts/doom-162879153
+source_url: https://www.patreon.com/realvr/posts/doom-162879153
+license: unknown
+required_files: Original DOOM (2016) game install
+known_bugs: []
+notes: Uses AER v2 rendering; author notes both an early-access build and a public/free 2607.31.1 package.
+images:
+  - game: DOOM (2016)
+    file: images/doom-2016-r-e-a-l-vr/doom.jpg
+    credit: DOOM store art
+    source_url: https://store.steampowered.com/app/379720/
+reviews:
+  - title: DOOM Eternal VR Is Here... Mods Have Changed VR Forever!
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=rf1aWozpwK0
+  - title: DOOM 2016 IS NOW A VR GAME!
+    channel: Gamertag VR
+    url: https://www.youtube.com/watch?v=5BCafGSVhN0
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

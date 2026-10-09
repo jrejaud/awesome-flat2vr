@@ -1,0 +1,34 @@
+name: Assassin's Creed Origins VR
+games:
+  - Assassin's Creed Origins
+category: mod
+authors:
+  - name: Mutar
+  - name: NoMoreFlat
+platform: pcvr
+controls: mixed
+status: beta
+version: "unversioned"
+version_date: "2026-07-23"
+download_url: https://www.patreon.com/NoMoreFlat/posts/assasins-creed-164608087
+source_url: https://www.patreon.com/NoMoreFlat/posts/assasins-creed-164608087
+license: unknown
+required_files: A copy of Assassin's Creed Origins (any store version)
+known_bugs:
+  - Dialogue uses a stereo letterbox; cutscenes were unscaled at beta launch
+notes: OpenXR conversion adding 6DOF head tracking and head aim to the original third-person gamepad gameplay; does not depend on UEVR.
+images:
+  - game: Assassin's Creed Origins
+    file: images/assassins-creed-origins-vr/assassin-s-creed-origins.jpg
+    credit: Assassin's Creed® Origins store art
+    source_url: https://store.steampowered.com/app/582160/
+reviews:
+  - title: "Assassin's Creed Origins VR : PC to PlayStation VR  : 3 hours in Siwa ..."
+    channel: THEGAMEVEDA
+    url: https://www.youtube.com/watch?v=OFwRzPdAaHM
+  - title: Assassin's Creed Origins | MSI GT 75 VR 7RF TITAN PRO | Gaming Performance Review
+    channel: Techno Tamizha
+    url: https://www.youtube.com/watch?v=M1OoTOAHWOA
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

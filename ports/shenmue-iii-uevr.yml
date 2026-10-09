@@ -1,0 +1,33 @@
+name: Shenmue III UEVR
+games:
+  - Shenmue III
+category: profile
+authors:
+  - name: Tensai37
+platform: pcvr
+controls: 6dof
+status: stable
+version: "1.0"
+version_date: "2026-05-30"
+download_url: https://codeberg.org/Tensai37/Shenmue_3_first_person_with_motion_controls_UEVR_mod/releases
+source_url: https://codeberg.org/Tensai37/Shenmue_3_first_person_with_motion_controls_UEVR_mod/releases
+license: unknown
+required_files: Original Shenmue III game installation
+known_bugs:
+  - DLC and content after forklift driving were unconfirmed at 1.0
+notes: Requires UEVR nightly build 01127 and injecting only from the main menu; auto-switches to third-person for situations needing the original camera.
+images:
+  - game: Shenmue III
+    file: images/shenmue-iii-uevr/shenmue-iii.jpg
+    credit: Shenmue III store art
+    source_url: https://store.steampowered.com/app/878670/
+reviews:
+  - title: Shenmue 3 VR 360° 4K Virtual Reality Gameplay
+    channel: VR 360°
+    url: https://www.youtube.com/watch?v=8chsqzPE9I0
+  - title: Shenmue 3 - UEVR
+    channel: Waifu Enjoyer
+    url: https://www.youtube.com/watch?v=WffgF8GJlyY
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

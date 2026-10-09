@@ -1,0 +1,38 @@
+name: KisakCOD VR WinlatorXR
+games:
+  - "Call of Duty 4: Modern Warfare"
+category: mod
+authors:
+  - name: SgtBilko76
+    url: https://github.com/SgtBilko76
+  - name: jplakon
+  - name: SwagSoftware
+platform: standalone
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "v0.1.0-beta.1"
+version_date: "2026-09-20"
+download_url: https://github.com/SgtBilko76/CallOfDuty4_VR_WinlatorXR/releases/latest
+source_url: https://github.com/SgtBilko76/CallOfDuty4_VR_WinlatorXR
+license: GPL-3.0
+required_files: "A legitimately owned copy of the original 2007 Windows release of Call of Duty 4: Modern Warfare game data"
+known_bugs:
+  - No dedicated physical-scope panel
+  - No manual recenter for the virtual screen
+  - Pico and Quest 2 controller handling untested
+  - WinlatorXR's right-stick-click menu can switch back to a flat window
+notes: Packages the existing KisakCOD VR mod (by jplakon, based on SwagSoftware's KisakCOD) with a WinlatorXR XrAPI backend so it runs standalone on a Meta Quest without a PC, OpenXR, or SteamVR runtime; tested on Quest 3 via WinlatorXR cats-27 at ~45-72fps.
+images:
+  - game: "Call of Duty 4: Modern Warfare"
+    file: images/kisakcod-vr-winlatorxr/call-of-duty-4-modern-warfare.jpg
+    credit: "Call of Duty® 4: Modern Warfare® (2007) store art"
+    source_url: https://store.steampowered.com/app/7940/
+reviews:
+  - title: "Call of Duty 4: Modern Warfare VR Performance - VR Mod with 6DOF / Meta Quest 3 + RTX 4080 Super"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=NlR_JheVXCk
+added_by: bot
+discovered_via: https://github.com/SgtBilko76/CallOfDuty4_VR_WinlatorXR
+last_checked: "2026-10-09"

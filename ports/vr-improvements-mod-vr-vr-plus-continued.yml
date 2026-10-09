@@ -1,0 +1,34 @@
+name: "VR: Improvements Mod / VR+ (VR Plus) Continued"
+games:
+  - PAYDAY 2
+category: mod
+authors:
+  - name: DennisGHUA
+    url: https://github.com/DennisGHUA
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v0.8.8"
+version_date: "2026-08-29"
+download_url: https://github.com/DennisGHUA/payday2-vr-improvements/releases/latest
+source_url: https://github.com/DennisGHUA/payday2-vr-improvements
+homepage: https://modworkshop.net/mod/45143
+license: GPL-3.0
+required_files: PAYDAY 2 base game plus the BLT mod loader
+known_bugs: []
+notes: A continuation/improvement mod adding comfort, control, HUD and locomotion features on top of PAYDAY 2's VR mod support.
+images:
+  - game: PAYDAY 2
+    file: images/vr-improvements-mod-vr-vr-plus-continued/payday-2.jpg
+    credit: PAYDAY 2 store art
+    source_url: https://store.steampowered.com/app/218620/
+reviews:
+  - title: Payday 2 VR - Beginners Guide
+    channel: Helixxvr
+    url: https://www.youtube.com/watch?v=fG8JXcdZ25M
+  - title: Losing my mind in Payday 2 VR...
+    channel: Frontways Larry
+    url: https://www.youtube.com/watch?v=405RhWEMAK8
+added_by: bot
+discovered_via: https://github.com/DennisGHUA/payday2-vr-improvements
+last_checked: "2026-10-09"

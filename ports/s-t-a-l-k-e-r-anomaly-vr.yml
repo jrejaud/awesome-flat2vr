@@ -1,0 +1,39 @@
+name: S.T.A.L.K.E.R. Anomaly VR
+games:
+  - S.T.A.L.K.E.R. Anomaly
+category: source-port
+authors:
+  - name: MarsyApp
+platform: pcvr
+headsets:
+  - Quest
+  - Index
+  - Vive
+  - WMR
+  - Pico
+  - PSVR2
+controls: 6dof
+status: alpha
+version: "0.4.5"
+version_date: "2026-05-09"
+download_url: https://ap-pro.ru/forums/topic/14575-anomaly-vr/
+source_url: https://ap-pro.ru/forums/topic/14575-anomaly-vr/
+license: unknown
+required_files: S.T.A.L.K.E.R. Anomaly installation
+known_bugs: []
+notes: Native OpenXR fork of the X-Ray engine rather than an injector; features controller IK, physical grabs/throws, body zones and world-space menus.
+images:
+  - game: S.T.A.L.K.E.R. Anomaly
+    file: images/s-t-a-l-k-e-r-anomaly-vr/s-t-a-l-k-e-r-anomaly.jpg
+    credit: Anomaly VR (Андрей MarsyApp)
+    source_url: https://www.youtube.com/watch?v=IIQGMCltW2M
+reviews:
+  - title: Stalker Anomaly VR mod
+    channel: Anomaly VR (Андрей MarsyApp)
+    url: https://www.youtube.com/watch?v=IIQGMCltW2M
+  - title: ANOMALY VR - Alpha 0.4 Update | STALKER VR
+    channel: Anomaly VR (Андрей MarsyApp)
+    url: https://www.youtube.com/watch?v=LhODMRyRGpk
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

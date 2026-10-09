@@ -1,0 +1,35 @@
+name: Wiicompiled VR
+games:
+  - Mario Kart Wii
+category: source-port
+authors:
+  - name: iChris4
+    url: https://github.com/iChris4
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "0.2.45"
+version_date: "2026-09-30"
+download_url: https://github.com/iChris4/Wiicompiled_VR/releases/latest
+source_url: https://github.com/iChris4/Wiicompiled_VR
+license: GPL-3.0
+required_files: User-supplied clean PAL (RMCP01) Mario Kart Wii disc image
+known_bugs:
+  - Frame interpolation is experimental and shows artifacts in specific scenarios
+  - Menus and unsupported scenes render as a head-locked virtual screen instead of full stereo VR
+notes: Fork of the WiiCompiled static-recompilation port; VR is opt-in and falls back to the normal desktop renderer if unsupported.
+images:
+  - game: Mario Kart Wii
+    file: images/wiicompiled-vr/mario-kart-wii.jpg
+    credit: Poofesure
+    source_url: https://www.youtube.com/watch?v=2D5KLLdZxPk
+reviews:
+  - title: playing mario kart wii in VR
+    channel: Poofesure
+    url: https://www.youtube.com/watch?v=2D5KLLdZxPk
+  - title: The BIGGEST VR Gain in 1 Hour - Mario Kart Wii
+    channel: TWD98
+    url: https://www.youtube.com/watch?v=gQrwLvBTyN8
+added_by: bot
+discovered_via: https://github.com/ichris4/wiicompiled_vr
+last_checked: "2026-10-09"

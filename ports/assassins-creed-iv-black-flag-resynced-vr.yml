@@ -1,0 +1,33 @@
+name: "Assassin's Creed IV: Black Flag Resynced VR"
+games:
+  - "Assassin's Creed IV: Black Flag"
+category: mod
+authors:
+  - name: Mutar / NoMoreFlat
+platform: pcvr
+controls: mixed
+status: beta
+version: "unversioned"
+version_date: "2026-07-18"
+download_url: https://www.patreon.com/NoMoreFlat/posts/assassins-creed-164150917
+source_url: https://www.patreon.com/NoMoreFlat/posts/assassins-creed-164150917
+license: unknown
+price: Patreon subscription (early access beta)
+required_files: "Assassin's Creed IV: Black Flag (Resynced remaster) game files"
+known_bugs:
+  - High GPU demand
+  - UI tilt
+  - Store-version-sensitive offsets
+notes: Preserves third-person structure; uses head aim for throwable targeting rather than tracked-hand combat.
+images:
+  - game: "Assassin's Creed IV: Black Flag"
+    file: images/assassins-creed-iv-black-flag-resynced-vr/assassin-s-creed-iv-black-flag.jpg
+    credit: Assassin’s Creed® IV Black Flag™ store art
+    source_url: https://store.steampowered.com/app/242050/
+reviews:
+  - title: Assassin's Creed® IV Black Flag|part 1| The virtual reality
+    channel: BrothersGanes
+    url: https://www.youtube.com/watch?v=rlLao3Q6tvg
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

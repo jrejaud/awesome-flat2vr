@@ -1,0 +1,35 @@
+name: "Cronos: The New Dawn UEVR"
+games:
+  - "Cronos: The New Dawn"
+category: profile
+authors:
+  - name: letmein-vr
+    url: https://github.com/letmein-vr
+platform: pcvr
+controls: 6dof
+status: stable
+version: "1.2"
+version_date: "2026-08-01"
+download_url: https://github.com/letmein-vr/CRONOS_UEVR/releases/latest
+source_url: https://github.com/letmein-vr/CRONOS_UEVR
+license: MIT
+required_files: "Cronos: The New Dawn (PC game install)"
+known_bugs:
+  - Roomscale not supported / physical turning not supported
+  - Some cinematic handling bugs during cutscenes
+notes: UEVR profile requiring the latest UEVR nightly build; built on jbusfield's UEVR helper libs.
+images:
+  - game: "Cronos: The New Dawn"
+    file: images/cronos-the-new-dawn-uevr/cronos-the-new-dawn.jpg
+    credit: "Cronos: The New Dawn store art"
+    source_url: https://store.steampowered.com/app/2101960/
+reviews:
+  - title: "Cronos: The New Dawn is NEXT LEVEL in VR with UEVR!"
+    channel: Paradise Decay
+    url: https://www.youtube.com/watch?v=0bOrTZ69bbQ
+  - title: "Cronos: The New Dawn in VR is Great / How to get Bolt Cutter / Meta Quest 3 + RTX 4080 Super"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=XMWrEvKC7QU
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

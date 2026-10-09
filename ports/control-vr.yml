@@ -1,0 +1,34 @@
+name: Control VR
+games:
+  - Control
+category: mod
+authors:
+  - name: Mutar (NoMoreFlat)
+platform: pcvr
+controls: mixed
+status: beta
+version: "unversioned"
+version_date: "2026-07-02"
+download_url: https://www.patreon.com/NoMoreFlat/posts/control-vr-dev-161743534
+source_url: https://www.patreon.com/NoMoreFlat/posts/control-vr-dev-161743534
+license: proprietary
+required_files: Original PC copy of Control
+known_bugs:
+  - Shimmering outlines noted at beta launch
+  - Requires Windowed mode
+notes: Uses unified OpenXR/OpenVR path with DX11/DX12 support; post-processing must be set to Medium with motion blur and film grain disabled; headset-and-gamepad conversion, not motion controls.
+images:
+  - game: Control
+    file: images/control-vr/control.jpg
+    credit: Kory & Brooke
+    source_url: https://www.youtube.com/watch?v=6DJ01fHF8Sc
+reviews:
+  - title: YOU Control US in Roblox Realistic VR HANDS!
+    channel: Kory & Brooke
+    url: https://www.youtube.com/watch?v=6DJ01fHF8Sc
+  - title: I Can CONTROL Granny With a Remote! - I Am Cat VR
+    channel: PowerOnVR
+    url: https://www.youtube.com/watch?v=0rXO54K3iYM
+added_by: bot
+discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
+last_checked: "2026-10-09"

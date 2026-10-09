@@ -1,0 +1,39 @@
+name: KCD1VR
+games:
+  - "Kingdom Come: Deliverance"
+category: mod
+authors:
+  - name: farmerarmor
+    url: https://github.com/farmerarmor
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "v0.1.69"
+version_date: "2026-09-26"
+download_url: https://github.com/farmerarmor/KCD1VR/releases/latest
+source_url: https://github.com/farmerarmor/KCD1VR
+license: MIT
+required_files: "Kingdom Come: Deliverance 1.9.7 (Direct3D 11 renderer, Steam build)"
+known_bugs:
+  - no tracked motion-controller input
+  - cutscenes and unusual camera transitions not all tested
+  - some distant-object culling may require a performance-heavy profile
+  - DLSS is experimental and did not deliver a large net performance gain
+  - only the exact KCD 1.9.7 executable used during development is confirmed
+  - Virtual Desktop OpenXR runtime compatibility not yet confirmed
+notes: True-stereo (no alternating-eye rendering) CryEngine OpenXR mod; no motion controller support, uses keyboard/mouse or gamepad.
+images:
+  - game: "Kingdom Come: Deliverance"
+    file: images/kcd1vr/kingdom-come-deliverance.jpg
+    credit: "Kingdom Come: Deliverance store art"
+    source_url: https://store.steampowered.com/app/379430/
+reviews:
+  - title: "Kingdom Come: Deliverance VR | Sweet Beans"
+    channel: Sweet Beans
+    url: https://www.youtube.com/watch?v=O1C_DT_P3oE
+  - title: "Kingdom Come: Deliverance VR Mod - Native Stereo & Head-Tracking - Meta Quest 3 (PCVR)"
+    channel: FastLawyer
+    url: https://www.youtube.com/watch?v=bEemOkchFGU
+added_by: bot
+discovered_via: https://github.com/farmerarmor/KCD1VR
+last_checked: "2026-10-09"
