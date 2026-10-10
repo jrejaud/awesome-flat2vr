@@ -1,0 +1,44 @@
+name: Rebuild index
+
+# The README table and data/ports.json are generated from ports/*.yml. Contributors (and the
+# AI reviewer that merges their PRs) are not asked to regenerate them — this does it on main,
+# so a merged data-only PR self-heals within a minute. Also covers the discovery bot's direct
+# commits. Loop-safe: it only touches generated files, which are not in the trigger paths.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "ports/**"
+      - "images/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebuild-index
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Regenerate README and data/ports.json
+        run: npm run build
+      - name: Commit if anything changed
+        run: |
+          if [[ -n "$(git status --porcelain README.md data/ports.json)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md data/ports.json
+            git commit -m "chore: rebuild index [skip ci]"
+            git push
+          else
+            echo "Index already up to date."
+          fi

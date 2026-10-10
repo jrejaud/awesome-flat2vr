@@ -11,6 +11,9 @@ permissions:
   contents: read
 
 jobs:
+  # Required gate (branch protection). Schema + format only — what a contributor controls.
+  # Generated-file freshness is NOT gated here: the AI reviewer merges data-only PRs and the
+  # rebuild-index workflow regenerates README.md / data/ports.json on main.
   validate:
     runs-on: ubuntu-latest
     steps:
@@ -22,6 +25,17 @@ jobs:
       - run: npm ci
       - name: Schema validation
         run: npm run validate
+
+  # Informational: catches stale generated files and failing tests, but does not block merge.
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
       - name: Generated files up to date
         run: npm run build:check
       - name: Tests

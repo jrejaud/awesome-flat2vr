@@ -1,0 +1,55 @@
+name: AI PR review
+
+# Reviews contributor PRs and auto-merges the good ones with no human in the loop.
+#
+# Security: this uses pull_request_target, so it runs with the base repo's token and secrets
+# even for fork PRs. To stay safe it NEVER checks out or runs the PR's code — it checks out the
+# trusted base tree, then copies ONLY the PR's data (ports/ and images/) on top and runs the
+# BASE scripts against that data. A PR that changes anything outside the data set is handed to a
+# human instead of being auto-handled (enforced again in scripts/review/core.mjs).
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: ai-pr-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the trusted base tree
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.ref }}
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Overlay only the PR's data files (never its code)
+        env:
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          git fetch origin "pull/${PR}/head"
+          # Bring the PR's data directories onto the trusted base scripts. No executable code.
+          git checkout FETCH_HEAD -- ports images || git checkout FETCH_HEAD -- ports
+
+      - name: Review
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: claude-sonnet-4-5-20250929
+        run: node scripts/review/ai-review.mjs
