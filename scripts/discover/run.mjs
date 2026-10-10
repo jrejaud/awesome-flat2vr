@@ -29,7 +29,7 @@ import {
   uniqueSlug,
 } from './core.mjs';
 import { enrich } from '../enrich.mjs';
-import { COLLECTORS, candidateRepo, deadLinks, latestRelease, repoContext } from './sources.mjs';
+import { COLLECTORS, candidateRepo, deadLinks, latestRelease, repoContext, waybackSnapshot } from './sources.mjs';
 import { extract } from './extract.mjs';
 
 // Verdicts worth another look on a later run (a transient failure, or a model miss the gate caught).
@@ -81,6 +81,68 @@ function prepareMain() {
   git('checkout', '--force', '-B', 'main', 'origin/main');
   for (const f of git('ls-files', '--others', '--exclude-standard', 'ports/', 'images/').split('\n').filter(Boolean))
     rmSync(join(ROOT, f));
+}
+
+// Existing entries rot too: a creator deletes a repo or a whole account (2026-10-10:
+// Tensai37's Codeberg account vanished and two entries 404'd the link check). Only a
+// provably dead link counts (404/410; unknown is alive). A dead link is swapped for its
+// Wayback snapshot and the port marked abandoned; a download nobody can get, with no
+// snapshot, removes the entry and its images (a dead port is noise, not history).
+async function linkRot(ports, changes) {
+  // Acting needs two strikes on different days, so a host that 404s for an afternoon
+  // (maintenance, a rename in flight) never costs an entry.
+  const strikesFile = join(STATE_DIR, 'rot-strikes.json');
+  let strikes;
+  try {
+    strikes = JSON.parse(readFileSync(strikesFile, 'utf8'));
+  } catch {
+    strikes = {};
+  }
+  const next = {};
+  for (const p of ports) {
+    let dead;
+    try {
+      dead = await deadLinks(p);
+    } catch {
+      continue;
+    }
+    if (!dead.length) continue;
+    const days = [...new Set([...(strikes[p.slug] ?? []), TODAY])].slice(-2);
+    next[p.slug] = days;
+    if (days.length < 2) {
+      log(`rot   ${p.slug}: dead link seen (strike 1, acting on a later day): ${dead.join(' ')}`);
+      continue;
+    }
+    const file = join(ROOT, 'ports', `${p.slug}.yml`);
+    const snaps = new Map();
+    for (const u of dead) {
+      const s = await waybackSnapshot(u).catch(() => null);
+      if (s) snaps.set(u, s);
+    }
+    if (dead.includes(p.download_url) && !snaps.has(p.download_url)) {
+      if (!DRY) {
+        rmSync(file);
+        rmSync(join(ROOT, 'images', p.slug), { recursive: true, force: true });
+      }
+      changes.rotted.push({ slug: p.slug, name: p.name, action: 'removed', dead });
+      log(`rot   ${p.slug}: removed (dead, no archive): ${dead.join(' ')}`);
+      continue;
+    }
+    let text = readFileSync(file, 'utf8');
+    for (const u of dead) {
+      if (snaps.has(u)) text = text.split(u).join(snaps.get(u));
+      else if (u === p.homepage) text = text.replace(/^homepage: .*\n/m, '');
+      else if (u === p.source_url) text = text.replace(/^source_url: .*$/m, `source_url: ${p.download_url}`);
+    }
+    text = text.replace(/^status: .*$/m, 'status: abandoned');
+    if (!DRY) writeFileSync(file, text);
+    changes.rotted.push({ slug: p.slug, name: p.name, action: 'archived', dead });
+    log(`rot   ${p.slug}: abandoned, archived links for ${dead.join(' ')}`);
+  }
+  if (!DRY) {
+    mkdirSync(STATE_DIR, { recursive: true });
+    writeFileSync(strikesFile, JSON.stringify(next, null, 1));
+  }
 }
 
 async function versionBumps(ports, changes) {
@@ -311,10 +373,14 @@ function rollbackAdded(addedIds) {
 }
 
 function notify(changes, commitUrl) {
-  if (!changes.added.length && !changes.bumped.length) return;
+  if (!changes.added.length && !changes.bumped.length && !changes.rotted.length) return;
   const lines = [
     ...changes.added.map((a) => `+ ${a.name} (${a.games.join(', ')})`),
     ...changes.bumped.map((b) => `↑ ${b.name} ${b.from} → ${b.to}`),
+    ...changes.rotted.map(
+      (r) =>
+        `✗ ${r.name}: link dead, ${r.action === 'removed' ? 'removed (no archive)' : 'marked abandoned, archive linked'}`,
+    ),
   ];
   if (commitUrl) lines.push('', `Added to the index: ${commitUrl}`);
   if (changes.warnings.length) lines.push(`(${changes.warnings.length} source warning(s) — see the run log)`);
@@ -328,11 +394,16 @@ function notify(changes, commitUrl) {
 
 async function main() {
   await ping('/start');
-  const changes = { added: [], addedIds: [], bumped: [], warnings: [], deferred: 0, extracted: 0 };
+  const changes = { added: [], addedIds: [], bumped: [], rotted: [], warnings: [], deferred: 0, extracted: 0 };
   if (COMMIT) prepareMain();
   const { ports, errors } = loadPorts();
   if (errors.length) throw new Error(`index invalid before run: ${errors.join('; ')}`);
-  if (!flag('--no-bumps')) await versionBumps(ports, changes);
+  if (!flag('--no-rot')) await linkRot(ports, changes);
+  if (!flag('--no-bumps'))
+    await versionBumps(
+      ports.filter((p) => !changes.rotted.some((r) => r.slug === p.slug)),
+      changes,
+    );
   await discover(ports, changes);
 
   let commitUrl = null;
@@ -350,6 +421,7 @@ async function main() {
     dry: DRY,
     added: changes.added.map((a) => a.slug),
     bumped: changes.bumped.map((b) => b.slug),
+    rotted: changes.rotted.map((r) => `${r.slug}:${r.action}`),
     extracted: changes.extracted,
     deferred: changes.deferred,
     warnings: changes.warnings,
