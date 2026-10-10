@@ -39,7 +39,7 @@ const flag = (f) => args.includes(f);
 const opt = (f, d) => (args.includes(f) ? args[args.indexOf(f) + 1] : d);
 const DRY = flag('--dry-run');
 const COMMIT = (flag('--commit') || flag('--pr')) && !DRY;
-const SOURCES = opt('--sources', 'seeds,mvrh,gists,github,steam,sidequest,discord,youtube,reddit')
+const SOURCES = opt('--sources', 'seeds,mvrh,questports,gists,github,steam,sidequest,discord,youtube,reddit')
   .split(',')
   .filter(Boolean);
 const MAX_EXTRACT = Number(opt('--max-extract', '25'));

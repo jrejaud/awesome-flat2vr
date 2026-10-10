@@ -546,9 +546,60 @@ export async function mvrh() {
     }));
 }
 
+// ---- QuestPorts (felipevc13/questports): a curated directory of standalone Quest ports -----
+// The homepage server-renders every port as a /ports/<slug> link; each port page carries the
+// port's own repo, release and homepage links. The directory's own repo link is dropped so it
+// never reads as a port.
+const QUESTPORTS = 'https://questports.vercel.app';
+
+export function parseQuestPortSlugs(html) {
+  return [...new Set([...String(html).matchAll(/href="\/ports\/([a-z0-9][a-z0-9-]*)"/gi)].map((m) => m[1]))];
+}
+
+// Outbound links on a port page, minus site chrome (fonts, the directory's own repo, its CDN).
+export function parseQuestPortLinks(html) {
+  return [
+    ...new Set(
+      [...String(html).matchAll(/href="(https?:\/\/[^"]+)"/gi)]
+        .map((m) => m[1].replace(/&amp;/g, '&'))
+        .filter(
+          (u) =>
+            !/fonts\.(googleapis|gstatic)|questports\.vercel\.app|github\.com\/felipevc13\/questports|supabase\.co/i.test(
+              u,
+            ),
+        ),
+    ),
+  ];
+}
+
+export async function questports() {
+  const res = await fetchRetry(`${QUESTPORTS}/`, { headers: { 'User-Agent': UA } });
+  if (!res.ok) throw new Error(`QuestPorts index: HTTP ${res.status}`);
+  const slugs = parseQuestPortSlugs(await res.text());
+  if (!slugs.length) throw new Error('QuestPorts index: no /ports/ links (page layout changed?)');
+  const out = [];
+  for (const slug of slugs) {
+    const url = `${QUESTPORTS}/ports/${slug}`;
+    const page = await pageText(url);
+    const r = await fetchRetry(url, { headers: { 'User-Agent': UA } }).catch(() => null);
+    const links = r?.ok ? parseQuestPortLinks(await r.text()) : [];
+    out.push({
+      id: `questports:${slug}`,
+      source: 'QuestPorts',
+      source_url: url,
+      title: slug,
+      date: '',
+      text: `QuestPorts directory entry (standalone Meta Quest port) ${url}\n${page}`,
+      urls: [url, ...links],
+    });
+  }
+  return out;
+}
+
 export const COLLECTORS = {
   seeds,
   mvrh,
+  questports,
   gists: tateGists,
   github: githubSearch,
   steam,
