@@ -58,6 +58,16 @@ export async function linkAlive(url) {
   }
 }
 
+// Closest Wayback Machine capture of a URL, or null (no capture, or archive.org unreachable).
+export async function waybackSnapshot(url) {
+  const res = await fetchRetry(`https://archive.org/wayback/available?url=${encodeURIComponent(url)}`, {
+    headers: { 'User-Agent': UA },
+  });
+  if (!res.ok) return null;
+  const snap = (await res.json())?.archived_snapshots?.closest;
+  return snap?.available && snap.url ? snap.url.replace(/^http:/, 'https:') : null;
+}
+
 export async function deadLinks(entry) {
   const urls = [entry.download_url, entry.source_url, entry.homepage].filter(Boolean);
   const dead = [];
