@@ -1,0 +1,18 @@
+name: Zorblax Quest 9000 VR
+games:
+  - Totally Not A Real Game 9000
+category: mod
+authors:
+  - name: Nobody
+platform: pcvr
+status: stable
+version: "1.0.0"
+version_date: "2026-01-01"
+download_url: https://example.com/not-a-real-release
+source_url: https://example.com/nope
+license: unknown
+required_files: none
+known_bugs: []
+added_by: human
+discovered_via: automated bot self-test — please reject
+last_checked: "2026-10-10"
