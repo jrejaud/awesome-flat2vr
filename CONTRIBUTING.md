@@ -69,6 +69,15 @@ last_checked: '2026-02-01' # when someone last confirmed the version
 - **Quote** versions and dates. A bare `1.0` parses as a number and fails validation.
 - **Mark a port `abandoned`** rather than deleting it once it is no longer maintained.
 
+## Automated review
+
+Pull requests are reviewed automatically. A bot checks the schema/format, confirms the links
+resolve, and judges whether the entry is a genuine port, then **either merges it or comments
+with exactly what to fix** — usually within a minute, no maintainer needed. You don't have to
+regenerate `README.md` / `data/ports.json`; the bot rebuilds them after merging, so a red
+"build-and-test" check on your PR is expected and fine. PRs that change code, workflows or the
+schema are always left for a human.
+
 ## Discovery bot
 
 A daily bot (`scripts/discover/`) looks for new ports and new releases in Elliott Tate's Flat2VR release reports, GitHub, SideQuest and Reddit. It commits new and updated entries straight to `main` (no PR). Its entries are marked `added_by: bot`, and `discovered_via` credits where each one was found. It only links URLs that appear in the source material, and every entry must pass `npm run validate` locally before the bot commits it.

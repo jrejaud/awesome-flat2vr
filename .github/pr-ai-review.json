@@ -1,0 +1,8 @@
+{
+  "$comment": "Config for the AI PR reviewer (scripts/review). Portable: to drop this bot into another repo, copy scripts/review, the two workflows, and this file, then adjust the globs.",
+  "dataGlobs": ["ports/*.yml", "images/**"],
+  "generatedFiles": ["README.md", "data/ports.json"],
+  "requiredLiveUrlFields": ["download_url", "source_url"],
+  "mergeMethod": "squash",
+  "policyDoc": ".github/pr-ai-review.md"
+}
