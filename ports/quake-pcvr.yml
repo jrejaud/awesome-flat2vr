@@ -1,0 +1,35 @@
+name: Quake-PCVR
+games:
+  - Quake
+category: source-port
+authors:
+  - name: GameOrDie007
+    url: https://github.com/GameOrDie007
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: stable
+version: "v1.1"
+version_date: "2026-09-07"
+download_url: https://github.com/GameOrDie007/Quake-PCVR/releases/latest
+source_url: https://github.com/GameOrDie007/Quake-PCVR
+license: GPL-2.0
+required_files: Your own copy of Quake (Steam or GOG 2021 re-release recommended); Setup.bat copies the game data and expansions from your install.
+known_bugs: []
+notes: PC VR port over OpenXR of Team Beef's QuakeQuest (Simon Brown's DarkPlaces-based VR work), with support for the official expansions and MachineGames episodes.
+images:
+  - game: Quake
+    file: images/quake-pcvr/quake.jpg
+    credit: Quake grid by BadYesterday (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/429796
+reviews:
+  - title: Let's Play Quake in VR!
+    channel: Ben Plays VR
+    url: https://www.youtube.com/watch?v=CqWprpl17MM
+  - title: Quake in VR is better than Quake Remastered
+    channel: Gamertag VR
+    url: https://www.youtube.com/watch?v=VKLGyYXvs6I
+added_by: bot
+discovered_via: https://github.com/GameOrDie007/Quake-PCVR
+last_checked: "2026-10-16"

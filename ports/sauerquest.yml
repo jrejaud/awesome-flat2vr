@@ -1,0 +1,30 @@
+name: SauerQuest
+games:
+  - "Cube 2: Sauerbraten"
+category: source-port
+authors:
+  - name: SgtBilko76
+    url: https://github.com/SgtBilko76
+platform: standalone
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "Beta-0.2"
+version_date: "2026-09-23"
+download_url: https://github.com/SgtBilko76/Sauerbraten-VR/releases/latest
+source_url: https://github.com/SgtBilko76/Sauerbraten-VR
+license: unknown
+required_files: "Cube 2: Sauerbraten is free; the port is a fork of the engine."
+known_bugs:
+  - PICO build has not been tested on real hardware yet
+notes: Standalone OpenXR port with room-scale tracking and controller aiming; experimental Pico support via universal APK.
+images:
+  - game: "Cube 2: Sauerbraten"
+    file: images/sauerquest/cube-2-sauerbraten.png
+    credit: "Cube 2: Sauerbraten grid by GeekRealms (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/29273
+reviews: []
+added_by: bot
+discovered_via: https://github.com/SgtBilko76/Sauerbraten-VR
+last_checked: "2026-10-16"

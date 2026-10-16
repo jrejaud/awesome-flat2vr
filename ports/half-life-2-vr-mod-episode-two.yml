@@ -1,0 +1,33 @@
+name: "Half-Life 2: VR Mod - Episode Two"
+games:
+  - "Half-Life 2: Episode Two"
+category: mod
+authors:
+  - name: Source VR Mod Team
+platform: pcvr
+controls: 6dof
+status: stable
+version: "unversioned"
+version_date: "2023-04-06"
+download_url: https://store.steampowered.com/app/2177760
+source_url: https://store.steampowered.com/app/2177760
+homepage: https://halflife2vr.com
+license: unknown
+required_files: "Half-Life 2: Episode Two (Steam app 420)"
+known_bugs: []
+notes: Published on Steam by Flat2VR Studios as a free roomscale VR adaptation with tracked controller support.
+images:
+  - game: "Half-Life 2: Episode Two"
+    file: images/half-life-2-vr-mod-episode-two/half-life-2-episode-two.png
+    credit: "Half-Life 2: Episode Two grid by traintrash (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/744208
+reviews:
+  - title: "HALF-LIFE 2: EPISODE TWO VR"
+    channel: Glich'e Gaming
+    url: https://www.youtube.com/watch?v=-NharCGCBVU
+  - title: "Half-Life: 2 Episode Two VR MOD | Full Game Walkthrough | No Commentary"
+    channel: 99TH VR
+    url: https://www.youtube.com/watch?v=9PM_NdczXo8
+added_by: bot
+discovered_via: https://store.steampowered.com/app/2177760
+last_checked: "2026-10-16"

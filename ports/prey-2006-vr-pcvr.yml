@@ -1,0 +1,35 @@
+name: Prey (2006) VR PCVR
+games:
+  - Prey (2006)
+category: source-port
+authors:
+  - name: GameOrDie007
+    url: https://github.com/GameOrDie007
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: stable
+version: "v1.0-pcvr"
+version_date: "2026-09-17"
+download_url: https://github.com/GameOrDie007/Prey-2006-VR/releases/latest
+source_url: https://github.com/GameOrDie007/Prey-2006-VR
+license: unknown
+required_files: Own copy of Prey (2006) patched to 1.4 (Steam/GOG copies already are); Setup.bat copies the .pk4 files.
+known_bugs: []
+notes: PC port of lvonasek's Quest PreyVR via OpenXR, tested on Quest 3 over Virtual Desktop.
+images:
+  - game: Prey (2006)
+    file: images/prey-2006-vr-pcvr/prey.png
+    credit: Prey grid by Kynd (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/228924
+reviews:
+  - title: This Prey VR Mod on Meta Quest 3 is INSANE... | Prey 2006
+    channel: Obscure Nerd
+    url: https://www.youtube.com/watch?v=S33MZoDDEEo
+  - title: Prey 2006 Quest/Pico Standalone VR port
+    channel: VRified Games
+    url: https://www.youtube.com/watch?v=5TwIxB0oKd8
+added_by: bot
+discovered_via: https://github.com/GameOrDie007/Prey-2006-VR
+last_checked: "2026-10-16"

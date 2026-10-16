@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: beta
-version: "0.2.0"
-version_date: "2025-08-17"
+version: "0.2.1"
+version_date: "2026-10-15"
 download_url: https://github.com/Okabintaro/SubmersedVR/releases/latest
 source_url: https://github.com/Okabintaro/SubmersedVR
 license: MIT
@@ -29,4 +29,4 @@ reviews:
     url: https://www.youtube.com/watch?v=m57MU3dw070
 added_by: bot
 discovered_via: Initial research sweep (GitHub releases API), https://github.com/Okabintaro/SubmersedVR
-last_checked: "2026-10-09"
+last_checked: "2026-10-16"

@@ -1,0 +1,33 @@
+name: "Half-Life: VR Mod"
+games:
+  - Half-Life
+category: mod
+authors:
+  - name: Max Makes Mods
+platform: pcvr
+controls: 6dof
+status: stable
+version: "unversioned"
+version_date: "2022-10-19"
+download_url: https://store.steampowered.com/app/1908720
+source_url: https://store.steampowered.com/app/1908720
+homepage: https://www.halflifevr.de/
+license: unknown
+required_files: Half-Life (Steam app 70)
+known_bugs: []
+notes: Free fan-made VR mod for the original 1998 Half-Life, distributed through Steam.
+images:
+  - game: Half-Life
+    file: images/half-life-vr-mod/half-life.png
+    credit: Half-Life grid by traintrash (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/742534
+reviews:
+  - title: Half-Life 1 VR Kinda Rules
+    channel: ratlobber
+    url: https://www.youtube.com/watch?v=8YVCDrVMKio
+  - title: Half Life 1 ...in VR? - HLVR Mod
+    channel: Lambomang
+    url: https://www.youtube.com/watch?v=kK_810iUFfA
+added_by: bot
+discovered_via: https://store.steampowered.com/app/1908720
+last_checked: "2026-10-16"

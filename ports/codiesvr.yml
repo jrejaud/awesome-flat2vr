@@ -9,7 +9,7 @@ authors:
 platform: pcvr
 controls: gamepad
 status: alpha
-version: "v0.4"
+version: "v0.5.1"
 version_date: "2026-10-15"
 download_url: https://github.com/drowhunter/CodiesVR/releases/latest
 source_url: https://github.com/drowhunter/CodiesVR
@@ -36,4 +36,4 @@ reviews:
     url: https://www.youtube.com/watch?v=0aFCZnMl4Lk
 added_by: bot
 discovered_via: https://github.com/drowhunter/CodiesVR
-last_checked: "2026-10-15"
+last_checked: "2026-10-16"

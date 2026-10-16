@@ -1,0 +1,44 @@
+name: Black Mesa VR
+games:
+  - Black Mesa
+  - "Black Mesa: Blue Shift"
+category: mod
+authors:
+  - name: Hochgeschwindigkeitsrennfahrer
+    url: https://github.com/Hochgeschwindigkeitsrennfahrer
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "bugfixes"
+version_date: "2026-10-03"
+download_url: https://github.com/Hochgeschwindigkeitsrennfahrer/black-mesa-vr/releases/latest
+source_url: https://github.com/Hochgeschwindigkeitsrennfahrer/black-mesa-vr
+license: unknown
+required_files: Steam version of Black Mesa (Blue Shift optional for the Blue Shift campaign)
+known_bugs:
+  - Manual reloading is not currently implemented
+  - Two-handed weapons are planned for a later update
+  - Shots may misalign with the weapon; press the right thumbstick to recenter
+  - Virtual Desktop must use OpenXR Runtime = VDXR, as SteamVR inverts the world
+notes: L4D2VR-style DXVK-based mod with true stereo rendering and OpenXR; a separate macOS version exists.
+images:
+  - game: Black Mesa
+    file: images/black-mesa-vr/black-mesa.jpg
+    credit: Black Mesa grid by CluckenDip (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/188688
+  - game: "Black Mesa: Blue Shift"
+    file: images/black-mesa-vr/black-mesa-blue-shift.png
+    credit: "Black Mesa: Blue Shift grid by hzl.exe (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/750238
+reviews:
+  - title: Black Mesa VR - Installation Guide
+    channel: Ben Plays VR
+    url: https://www.youtube.com/watch?v=YWEzatOqQq0
+  - title: "If Black Mesa was VR: The Hazard Course Decathlon (SFM Assisted) [60FPS]"
+    channel: Validator_maybelater
+    url: https://www.youtube.com/watch?v=2yywvDLK5iA
+added_by: bot
+discovered_via: https://github.com/Hochgeschwindigkeitsrennfahrer/black-mesa-vr
+last_checked: "2026-10-16"

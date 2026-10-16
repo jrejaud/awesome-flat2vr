@@ -1,0 +1,33 @@
+name: Quake II VR for PCVR
+games:
+  - Quake II
+category: source-port
+authors:
+  - name: GameOrDie007
+    url: https://github.com/GameOrDie007
+platform: pcvr
+controls: 6dof
+status: stable
+version: "v1.0"
+version_date: "2026-09-07"
+download_url: https://github.com/GameOrDie007/Quake-II-PCVR/releases/latest
+source_url: https://github.com/GameOrDie007/Quake-II-PCVR
+license: unknown
+required_files: Own copy of Quake II (Steam or GOG); expansions The Reckoning and Ground Zero optional.
+known_bugs: []
+notes: Port of Team Beef's Quake2Quest to PC VR over OpenXR (VDXR, SteamVR, Oculus runtime); Setup downloads Team Beef's HD assets from their release page.
+images:
+  - game: Quake II
+    file: images/quake-ii-vr-for-pcvr/quake-ii.png
+    credit: Quake II grid by alfiehicks (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/356570
+reviews:
+  - title: PLAY QUAKE II IN VIRTUAL REALITY ON HTC VIVE & OCULUS RIFT | Quake 2 VR MOD Gameplay
+    channel: SweViver
+    url: https://www.youtube.com/watch?v=Zl7a98MBgus
+  - title: QUAKE II IN VIRTUAL REALITY! | Quake 2 VR Mod (Oculus Touch Gameplay)
+    channel: Nathie
+    url: https://www.youtube.com/watch?v=UXGj-vqfXXw
+added_by: bot
+discovered_via: https://github.com/GameOrDie007/Quake-II-PCVR
+last_checked: "2026-10-16"

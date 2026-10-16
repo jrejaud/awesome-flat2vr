@@ -1,0 +1,36 @@
+name: WDVR
+games:
+  - Watch Dogs
+category: mod
+authors:
+  - name: Somney
+    url: https://github.com/Somney
+platform: pcvr
+headsets:
+  - HTC Vive
+controls: 6dof
+status: beta
+version: "v0.16.14"
+version_date: "2026-10-15"
+download_url: https://github.com/Somney/WDVR/releases/latest
+source_url: https://github.com/Somney/WDVR
+license: unknown
+required_files: Watch Dogs (2014, PC), Ubisoft Connect version; SteamVR
+known_bugs:
+  - Tested only on HTC Vive with Vive wands; other controllers need their buttons mapped first
+notes: Uses an ASI loader (dinput8.dll) to load WDVR.asi into the game folder.
+images:
+  - game: Watch Dogs
+    file: images/wdvr/watch-dogs.png
+    credit: Watch Dogs grid by r_dsgnd (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/700481
+reviews:
+  - title: Watch Dogs R.E.A.L. VR Mod Gameplay Is The BEST WAY To Explore Chicago! - Ian's VR Corner
+    channel: Eurogamer
+    url: https://www.youtube.com/watch?v=L4xQVZuyR28
+  - title: This first-person game in VR is surreal! Watch Dogs has never looked so beautiful and immersive!
+    channel: SuperVR
+    url: https://www.youtube.com/watch?v=p6tgr7R_q_I
+added_by: bot
+discovered_via: https://github.com/Somney/WDVR
+last_checked: "2026-10-16"

@@ -10,7 +10,7 @@ headsets:
   - Quest 3
 controls: mixed
 status: alpha
-version: "v0.1.5-alpha1"
+version: "v0.1.10-alpha1"
 version_date: "2026-10-15"
 download_url: https://github.com/LanceSweatpants/Strikers-Quest-MR/releases/latest
 source_url: https://github.com/LanceSweatpants/Strikers-Quest-MR
@@ -27,4 +27,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://questports.vercel.app/ports/strikers-quest-mr
-last_checked: "2026-10-15"
+last_checked: "2026-10-16"

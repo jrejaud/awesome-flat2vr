@@ -1,0 +1,33 @@
+name: GloomhavenVR
+games:
+  - Gloomhaven (Digital)
+category: mod
+authors:
+  - name: McFredward
+    url: https://github.com/McFredward
+platform: pcvr
+controls: 6dof
+status: stable
+version: "v1.1.0"
+version_date: "2026-10-11"
+download_url: https://github.com/McFredward/GloomhavenVR/releases/latest
+source_url: https://github.com/McFredward/GloomhavenVR
+license: GPL-3.0
+required_files: Gloomhaven (Digital) on Steam, game version 1.1.8307.0, plus BepInEx 5.4.23.5
+known_bugs: []
+notes: Room-scale VR board game mod with hand-held cards, a physical control board and VR multiplayer; includes Steam Frame install instructions.
+images:
+  - game: Gloomhaven (Digital)
+    file: images/gloomhavenvr/gloomhaven.png
+    credit: Gloomhaven grid by Luckspeare (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/405229
+reviews:
+  - title: Gloomhaven VR Mod - The VR Mod That Feels Like an Official VR Port - Meta Quest 3 (PCVR)
+    channel: FastLawyer
+    url: https://www.youtube.com/watch?v=w0mlw50PqZc
+  - title: How to Install Gloomhaven VR Mod 1.0 (Easy 2026 Guide)
+    channel: PCVR Gamer
+    url: https://www.youtube.com/watch?v=tgJAk6Z62b4
+added_by: bot
+discovered_via: https://github.com/McFredward/GloomhavenVR
+last_checked: "2026-10-16"

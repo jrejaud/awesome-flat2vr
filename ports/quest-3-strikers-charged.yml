@@ -11,8 +11,8 @@ headsets:
   - Quest 3S
 controls: gamepad
 status: alpha
-version: "v0.1.0-alpha1"
-version_date: "2026-10-15"
+version: "v0.1.1-alpha1.1"
+version_date: "2026-10-16"
 download_url: https://github.com/LanceSweatpants/Quest-3-Strikers-CHARGED/releases/latest
 source_url: https://github.com/LanceSweatpants/Quest-3-Strikers-CHARGED
 license: CC0-1.0
@@ -28,4 +28,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/LanceSweatpants/Quest-3-Strikers-CHARGED
-last_checked: "2026-10-15"
+last_checked: "2026-10-16"

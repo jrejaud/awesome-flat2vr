@@ -1,0 +1,28 @@
+name: Shogo VR
+games:
+  - "Shogo: Mobile Armor Division"
+category: mod
+authors:
+  - name: Brandon Withington
+    url: https://github.com/BrandonW24
+platform: pcvr
+controls: 6dof
+status: beta
+version: "1.2"
+version_date: "2026-10-12"
+download_url: https://github.com/BrandonW24/Shogo-VR/releases/latest
+source_url: https://github.com/BrandonW24/Shogo-VR
+license: unknown
+required_files: "Own copy of Shogo: Mobile Armor Division v2.2 (Steam or GOG)"
+known_bugs:
+  - Hand positioning on the secondary hand for two-handed weapons is still WIP and a little wonky
+notes: Adds 6DoF head tracking, motion controllers, VR hands, weapon wheel and a launcher with VR settings; requires SteamVR as OpenXR runtime.
+images:
+  - game: "Shogo: Mobile Armor Division"
+    file: images/shogo-vr/shogo-mobile-armor-division.png
+    credit: "Shogo: Mobile Armor Division grid by Gector(lint)Nathan (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/543891
+reviews: []
+added_by: bot
+discovered_via: https://github.com/BrandonW24/Shogo-VR
+last_checked: "2026-10-16"

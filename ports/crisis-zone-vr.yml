@@ -1,0 +1,35 @@
+name: Crisis Zone VR
+games:
+  - Crisis Zone
+category: source-port
+authors:
+  - name: DR-89
+    url: https://github.com/DR-89
+platform: both
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "v0.1.4"
+version_date: "2026-10-15"
+download_url: https://github.com/DR-89/crisis-zone-vr/releases/latest
+source_url: https://github.com/DR-89/crisis-zone-vr
+license: MIT
+required_files: None; game content is bundled in the packages.
+known_bugs: []
+notes: Built from spacestate1's namco22-decompile 0.9.0 and the Time Crisis II VR host; Quest/Link/SteamVR performance still needs validation.
+images:
+  - game: Crisis Zone
+    file: images/crisis-zone-vr/crisis-zone.png
+    credit: Crisis Zone grid by [unknown user] (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/28047
+reviews:
+  - title: Crisis Zone VR on Meta Quest 3 standalone and PCVR | Gameplay & Download
+    channel: AddictedDev
+    url: https://www.youtube.com/watch?v=xq8nQMOmouI
+  - title: "Time Crisis: Crisis Zone VR Mod + Download - PCVR & Quest Standalone"
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=E7h4ji12VwY
+added_by: bot
+discovered_via: https://github.com/DR-89/crisis-zone-vr
+last_checked: "2026-10-16"

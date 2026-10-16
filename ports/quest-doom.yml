@@ -1,0 +1,39 @@
+name: Quest DOOM
+games:
+  - DOOM
+category: source-port
+authors:
+  - name: CommunityPokeOrg
+    url: https://github.com/CommunityPokeOrg
+platform: standalone
+headsets:
+  - Quest 2
+  - Quest Pro
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: alpha
+version: "v0.2.6"
+version_date: "2026-09-18"
+download_url: https://github.com/CommunityPokeOrg/quest-doom/releases/latest
+source_url: https://github.com/CommunityPokeOrg/quest-doom
+license: GPL-2.0
+required_files: None; shareware doom1.wad is bundled.
+known_bugs:
+  - "3D renderer is an incremental prototype: HUD/weapon viewmodel, sky domes and visplane-style sprite clipping are still missing"
+notes: Built on doomgeneric with OpenXR and Android NDK; renders levels as real 3D geometry, supports hand tracking.
+images:
+  - game: DOOM
+    file: images/quest-doom/doom.png
+    credit: Doom grid by Maxine (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/118758
+reviews:
+  - title: "Final Fantasy Mystic Quest:  Doom Castle"
+    channel: Captainabrik
+    url: https://www.youtube.com/watch?v=2upPEhhzTTw
+  - title: ORIGINAL DOOM VR IS ESSENTIAL FOR OCULUS QUEST 2! // Doom VR Quest 2 Gameplay // Quest Z Doom!
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=YelM8MdzzpI
+added_by: bot
+discovered_via: https://github.com/CommunityPokeOrg/quest-doom
+last_checked: "2026-10-16"

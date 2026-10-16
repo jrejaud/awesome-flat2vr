@@ -1,0 +1,33 @@
+name: "Half-Life 2: VR Mod - Episode One"
+games:
+  - "Half-Life 2: Episode One"
+category: mod
+authors:
+  - name: Source VR Mod Team
+platform: pcvr
+controls: 6dof
+status: stable
+version: "unversioned"
+version_date: "2023-03-17"
+download_url: https://store.steampowered.com/app/2177750
+source_url: https://store.steampowered.com/app/2177750
+homepage: https://halflife2vr.com
+license: unknown
+required_files: "Half-Life 2: Episode One (Steam app 380)"
+known_bugs: []
+notes: Free Steam release published by Flat2VR Studios with roomscale tracked-controller support.
+images:
+  - game: "Half-Life 2: Episode One"
+    file: images/half-life-2-vr-mod-episode-one/half-life-2-episode-one.png
+    credit: "Half-Life 2: Episode One grid by Maxine (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/185897
+reviews:
+  - title: "Half-Life: 2 VR MOD Episode One | Full Game Walkthrough | No Commentary"
+    channel: 99TH VR
+    url: https://www.youtube.com/watch?v=gdhenl5duKg
+  - title: "Half-Life: 2 VR MOD Episode One | Part 2 | 60FPS - No Commentary"
+    channel: 99TH VR
+    url: https://www.youtube.com/watch?v=Q9R-gv_t87w
+added_by: bot
+discovered_via: https://store.steampowered.com/app/2177750
+last_checked: "2026-10-16"

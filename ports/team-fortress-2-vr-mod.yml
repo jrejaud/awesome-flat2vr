@@ -1,0 +1,33 @@
+name: "Team Fortress 2: VR Mod"
+games:
+  - Team Fortress 2
+category: mod
+authors:
+  - name: SaladWorks Interactive
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "unversioned"
+version_date: "2026-10-16"
+download_url: https://store.steampowered.com/app/1055600
+source_url: https://store.steampowered.com/app/1055600
+homepage: https://tf2vr.net
+license: unknown
+required_files: Team Fortress 2 (Steam)
+known_bugs: []
+notes: Fan-made mod listed on Steam as coming soon, free, with tracked controller support.
+images:
+  - game: Team Fortress 2
+    file: images/team-fortress-2-vr-mod/team-fortress-2.png
+    credit: Team Fortress 2 grid by Maxine (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/126999
+reviews:
+  - title: Team Fortress 2 in VR is An Absolute Masterpiece - Here's Why
+    channel: Hamaji Neo
+    url: https://www.youtube.com/watch?v=NSD_MUKZa9A
+  - title: A Way To Play Team Fortress 2 In VR Is Coming To The Steam Store
+    channel: JellOTheProtato
+    url: https://www.youtube.com/watch?v=ckRf5wNzGp8
+added_by: bot
+discovered_via: https://store.steampowered.com/app/1055600
+last_checked: "2026-10-16"
