@@ -1,0 +1,23 @@
+{
+  "schema": "trunk-push/1",
+  "verdict": "APPROVE",
+  "head": "e0ade0de73fdc7b5b06bae43887075b52daa96fa",
+  "tree": "8abb4c156fcf1d95e2c534b4f4600a3223855f3f",
+  "base": "70b6abe4aabd5f19330b773dca467f71b0bda815",
+  "gate": {
+    "cmd": "npm run -s check:fast",
+    "skipped": false,
+    "exit": 0,
+    "outputSha256": "cf6f920fde214c449f809bd71880909eb71d4b020bea7789eeab063230024c0e"
+  },
+  "review": {
+    "by": "harness gate review (claude -p, fresh context)",
+    "findings": []
+  },
+  "risk": {
+    "class": "normal",
+    "paths": []
+  },
+  "approval": null,
+  "at": "2026-10-16T00:33:32.566Z"
+}
