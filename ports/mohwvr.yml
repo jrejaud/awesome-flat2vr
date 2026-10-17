@@ -1,0 +1,30 @@
+name: MOHWVR
+games:
+  - "Medal of Honor: Warfighter"
+category: mod
+authors:
+  - name: CaptainBrannigan
+    url: https://github.com/CaptainBrannigan
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "beta"
+version_date: "2026-10-16"
+download_url: https://github.com/CaptainBrannigan/WarfighterVR/releases/latest
+source_url: https://github.com/CaptainBrannigan/WarfighterVR
+license: unknown
+required_files: "Medal of Honor: Warfighter (Steam/Origin PC release, 32-bit MOHW.exe), SteamVR 2.17+ and 32-bit openvr_api.dll"
+known_bugs:
+  - Campaign has not been played all the way through; not fully tested from start to finish
+notes: Proxy dxgi.dll with SteamVR stereo rendering, motion-controller aiming, holsters and an in-headset settings menu; tested on Quest 3 via Steam Link.
+images:
+  - game: "Medal of Honor: Warfighter"
+    file: images/mohwvr/medal-of-honor-warfighter.jpg
+    credit: "Medal of Honor: Warfighter grid by Veroyent (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/349186
+reviews: []
+added_by: bot
+discovered_via: https://github.com/CaptainBrannigan/WarfighterVR
+last_checked: "2026-10-17"

@@ -1,0 +1,35 @@
+name: NieRVR
+games:
+  - NieR:Automata
+category: mod
+authors:
+  - name: aracielVR
+    url: https://github.com/aracielVR
+platform: pcvr
+headsets:
+  - Quest 3
+  - Pico 4
+  - PSVR2
+  - Pimax Dream Air
+controls: gamepad
+status: beta
+version: "0.5.4"
+version_date: "2026-10-17"
+download_url: https://github.com/aracielVR/NieR-Automata-in-VR/releases/latest
+source_url: https://github.com/aracielVR/NieR-Automata-in-VR
+license: GPL-3.0
+required_files: NieR:Automata (Steam)
+known_bugs: []
+notes: Drop-in d3d11.dll with 6DoF head tracking, HUD layer, and VR controllers mapped as a gamepad; works with any OpenXR runtime.
+images:
+  - game: NieR:Automata
+    file: images/niervr/nier-automata.png
+    credit: "NieR: Automata grid by WINDFISHEGG (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/309810
+reviews:
+  - title: NieR:Automata, Virtuous Contract Sword in Left 4 Dead 2, VR MOD for L4D2 Gameplay
+    channel: RAY_VRL
+    url: https://www.youtube.com/watch?v=dsqzbF9qLqY
+added_by: bot
+discovered_via: https://github.com/aracielVR/NieR-Automata-in-VR
+last_checked: "2026-10-17"

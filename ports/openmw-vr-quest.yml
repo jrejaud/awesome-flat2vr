@@ -1,0 +1,33 @@
+name: OpenMW-VR Quest
+games:
+  - "The Elder Scrolls III: Morrowind"
+category: source-port
+authors:
+  - name: tomups
+    url: https://github.com/tomups
+platform: standalone
+headsets:
+  - Quest
+controls: 6dof
+status: abandoned
+version: "v0.51"
+version_date: "2026-07-05"
+download_url: https://github.com/tomups/openmw-vr-quest/releases/latest
+source_url: https://github.com/tomups/openmw-vr-quest
+homepage: https://sidequestvr.com/app/63227
+license: GPL-3.0
+required_files: Own Morrowind Data Files folder; expansions optional.
+known_bugs: []
+notes: Marked not under active development by the creator; Team Beef is working on a separate native Quest port.
+images:
+  - game: "The Elder Scrolls III: Morrowind"
+    file: images/openmw-vr-quest/the-elder-scrolls-iii-morrowind.png
+    credit: "The Elder Scrolls III: Morrowind grid by SirYodaJedi (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/73080
+reviews:
+  - title: "The Elder Scrolls III: Morrowind played via OpenMW-VR [Archlinux + Meta Quest 3 via WiVRn]"
+    channel: Linux Games BR
+    url: https://www.youtube.com/watch?v=AxZkffnsj50
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63227
+last_checked: "2026-10-17"

@@ -1,0 +1,48 @@
+name: Gen1Recomp VR Unplugged
+games:
+  - Pokémon Red
+  - Pokémon Blue
+  - Pokémon Yellow
+category: source-port
+authors:
+  - name: HimioneGranger
+    url: https://github.com/HimioneGranger
+platform: standalone
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "v0.1.81-quest"
+version_date: "2026-08-14"
+download_url: https://github.com/HimioneGranger/Gen1recomp-Quest-Standalone/releases/latest
+source_url: https://github.com/HimioneGranger/Gen1recomp-Quest-Standalone
+homepage: https://himionegranger.github.io/gen1recomp-unplugged/
+license: MIT
+required_files: Legally owned supported US Pokémon Red, Blue or Yellow ROM, imported through the launcher
+known_bugs:
+  - Quest 3S does not have equivalent validation coverage
+  - Gold can be imported but Gold voxel/VR gameplay is not implemented
+notes: Standalone first-person voxel overhaul with a spatial launcher, tracked controls and a separately installed mod stack; no PC needed to play.
+images:
+  - game: Pokémon Red
+    file: images/gen1recomp-vr-unplugged/pokemon-red.png
+    credit: Pokémon Red Version grid by JackSilversonX (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/827358
+  - game: Pokémon Blue
+    file: images/gen1recomp-vr-unplugged/pokemon-blue.png
+    credit: Pokémon Blue Version grid by Passer (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/817304
+  - game: Pokémon Yellow
+    file: images/gen1recomp-vr-unplugged/pokemon-yellow.png
+    credit: Pokémon Yellow Version grid by chestergreen (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/845135
+reviews:
+  - title: Pokémon  Blue VR Standalone Quest 3 Gameplay
+    channel: Gaming Cause What ?
+    url: https://www.youtube.com/watch?v=ECUJnNGWAAA
+  - title: Pokemon Yellow VR Gen 1 Recomp Meta Quest 2 gameplay
+    channel: Tugakiller40 (Tugakiller40)
+    url: https://www.youtube.com/watch?v=ivxfCO2t-BE
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63231
+last_checked: "2026-10-17"

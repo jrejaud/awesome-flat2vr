@@ -1,0 +1,30 @@
+name: Turbo Overkill VR Mod
+games:
+  - Turbo Overkill
+category: mod
+authors:
+  - name: AtomicUzumaki
+    url: https://github.com/AtomicUzumaki
+platform: pcvr
+controls: mixed
+status: alpha
+version: "New"
+version_date: "2026-10-16"
+download_url: https://github.com/AtomicUzumaki/Turbo-Overkill-VR-Mod/releases/latest
+source_url: https://github.com/AtomicUzumaki/Turbo-Overkill-VR-Mod
+license: unknown
+required_files: Turbo Overkill on Steam, set to the modding branch
+known_bugs: []
+notes: Download the installer and the release zip, put both in one folder, and run the installer.
+images:
+  - game: Turbo Overkill
+    file: images/turbo-overkill-vr-mod/turbo-overkill.jpg
+    credit: Turbo Overkill grid by HoopyFrood (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/405031
+reviews:
+  - title: Turbo Overkill VR mod In desc
+    channel: Atomic
+    url: https://www.youtube.com/watch?v=nEDKmucxE-I
+added_by: bot
+discovered_via: https://github.com/AtomicUzumaki/Turbo-Overkill-VR-Mod
+last_checked: "2026-10-17"

@@ -1,0 +1,30 @@
+name: "Amnesia: A Machine for Pigs VR"
+games:
+  - "Amnesia: A Machine for Pigs"
+category: source-port
+authors:
+  - name: nvdg-public
+    url: https://github.com/nvdg-public
+platform: pcvr
+headsets:
+  - Valve Index
+  - Quest 2
+controls: 6dof
+status: alpha
+version: "v0.4.0"
+version_date: "2026-10-16"
+download_url: https://github.com/nvdg-public/amfp-vr/releases/latest
+source_url: https://github.com/nvdg-public/amfp-vr
+license: GPL-3.0
+required_files: "Your own copy of Amnesia: A Machine for Pigs (Steam or Epic Games Store)"
+known_bugs: []
+notes: Built on Frictional Games' GPLv3 source release for SteamVR; tested on Valve Index and Quest 2.
+images:
+  - game: "Amnesia: A Machine for Pigs"
+    file: images/amnesia-a-machine-for-pigs-vr/amnesia-a-machine-for-pigs.png
+    credit: "Amnesia: A Machine for Pigs grid by Nogman (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/94215
+reviews: []
+added_by: bot
+discovered_via: https://github.com/nvdg-public/amfp-vr
+last_checked: "2026-10-17"

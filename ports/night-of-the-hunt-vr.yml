@@ -1,0 +1,32 @@
+name: Night of the Hunt VR
+games:
+  - Bloodborne
+category: mod
+authors:
+  - name: bldbrne-vr
+    url: https://github.com/bldbrne-vr
+platform: pcvr
+status: alpha
+version: "v0.2.5"
+version_date: "2026-10-17"
+download_url: https://github.com/bldbrne-vr/bldbrne-vr/releases/latest
+source_url: https://github.com/bldbrne-vr/bldbrne-vr
+license: unknown
+required_files: Your own copy of Bloodborne for PS4, version 1.09 (CUSA03173 or CUSA00900).
+known_bugs: []
+notes: Unofficial fan mod for Bloodborne PS4 v1.09, distributed as a Windows installer and portable zip.
+images:
+  - game: Bloodborne
+    file: images/night-of-the-hunt-vr/bloodborne.jpg
+    credit: Bloodborne grid by adamboulton (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/534382
+reviews:
+  - title: Bloodborne in VR (mod)
+    channel: Lost.Media.Prophet
+    url: https://www.youtube.com/watch?v=pEitKjXLf4c
+  - title: Bloodborne VR is Actually Happening!
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=oE-o1MewoEc
+added_by: bot
+discovered_via: https://github.com/bldbrne-vr/bldbrne-vr
+last_checked: "2026-10-17"

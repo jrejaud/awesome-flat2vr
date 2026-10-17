@@ -1,0 +1,33 @@
+name: Star Fox Enhanced VR
+games:
+  - Star Fox
+category: source-port
+authors:
+  - name: kandowontu2
+    url: https://github.com/kandowontu2
+platform: both
+headsets:
+  - Quest 3
+controls: mixed
+status: alpha
+version: "v0.0.8.6"
+version_date: "2026-10-14"
+download_url: https://github.com/kandowontu2/starfox-enhanced/releases/latest
+source_url: https://github.com/kandowontu2/starfox-enhanced
+homepage: https://sidequestvr.com/app/63239
+license: GPL-3.0
+required_files: Supported clean SNES Star Fox/Starwing ROM (.sfc/.smc; Japan 1.0/1.1, USA 1.0/1.1/1.2, Europe 1.0/1.1, Germany 1.0)
+known_bugs: []
+notes: Native C++/SDL3 port of UltraStarFox, made with AI (Codex) assistance; the Quest VR build is experimental and the Flat Android APK differs from the Quest VR package.
+images:
+  - game: Star Fox
+    file: images/star-fox-enhanced-vr/star-fox.png
+    credit: Star Fox grid by baltimoresports (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/834249
+reviews:
+  - title: Star Fox Enhanced VR - (Meta Quest 2, 3 & Pro) - Standalone Gameplay
+    channel: Pixelacos VR
+    url: https://www.youtube.com/watch?v=UAPKVEGoMvo
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63239
+last_checked: "2026-10-17"

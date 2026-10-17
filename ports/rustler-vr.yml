@@ -1,0 +1,32 @@
+name: Rustler-VR
+games:
+  - Rustler
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "Rustler_VR"
+version_date: "2026-10-16"
+download_url: https://github.com/King-EJ/Rustler-VR/releases/latest
+source_url: https://github.com/King-EJ/Rustler-VR
+license: unknown
+required_files: Rustler (Steam)
+known_bugs: []
+notes: Test build with 6DOF ranged weapons, hand HUD and VR menu; tested on Quest 3 via VDXR.
+images:
+  - game: Rustler
+    file: images/rustler-vr/rustler.jpg
+    credit: Rustler grid by Luckspeare (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/435871
+reviews:
+  - title: Rustler VR - UUVR mod by Raicuparta - Gameplay & Commentary on Meta Quest 3 (PCVR)
+    channel: FastLawyer
+    url: https://www.youtube.com/watch?v=uqvKgN1cBu0
+added_by: bot
+discovered_via: https://github.com/King-EJ/Rustler-VR
+last_checked: "2026-10-17"

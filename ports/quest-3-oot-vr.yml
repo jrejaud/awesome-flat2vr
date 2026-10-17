@@ -1,0 +1,30 @@
+name: "Quest 3: OOT VR"
+games:
+  - "The Legend of Zelda: Ocarina of Time"
+category: source-port
+authors:
+  - name: ChocoTorp
+    url: https://github.com/ChocoTorp
+platform: standalone
+headsets:
+  - Quest 3
+controls: 6dof
+status: stable
+version: "v1.2.1"
+version_date: "2026-10-14"
+download_url: https://github.com/ChocoTorp/Shipwright-VR/releases/latest
+source_url: https://github.com/ChocoTorp/Shipwright-VR
+homepage: https://sidequestvr.com/app/63246
+license: unknown
+required_files: Legal Ocarina of Time N64 ROM (.z64/.n64/.v64), a supported version (check at ship.equipment)
+known_bugs: []
+notes: Standalone Quest 3 fork of ShinyWindow's Shipwright-VR (Ship of Harkinian VR); Quest 3S/Pro not independently tested.
+images:
+  - game: "The Legend of Zelda: Ocarina of Time"
+    file: images/quest-3-oot-vr/the-legend-of-zelda-ocarina-of-time.png
+    credit: "The Legend of Zelda: Ocarina of Time grid by ABH20 (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/234110
+reviews: []
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63246
+last_checked: "2026-10-17"

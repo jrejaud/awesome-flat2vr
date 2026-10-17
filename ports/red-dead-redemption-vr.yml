@@ -1,0 +1,37 @@
+name: Red Dead Redemption VR
+games:
+  - Red Dead Redemption
+category: mod
+authors:
+  - name: dubrovskiy-yevhen-stakelogic
+    url: https://github.com/dubrovskiy-yevhen-stakelogic
+platform: standalone
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: alpha
+version: "0.1.1 alpha"
+version_date: "2026-10-17"
+download_url: https://github.com/dubrovskiy-yevhen-stakelogic/rdr1-quest
+source_url: https://github.com/dubrovskiy-yevhen-stakelogic/rdr1-quest
+homepage: https://questports.vercel.app/ports/red-dead-redemption-vr
+license: unknown
+required_files: Red Dead Redemption for Android (Google Play version 1.58.63226194, arm64; not the Netflix edition), exported from your phone with the included script.
+known_bugs: []
+notes: Built on the user's PC from their own game export; no ready APK is provided.
+images:
+  - game: Red Dead Redemption
+    file: images/red-dead-redemption-vr/red-dead-redemption.png
+    credit: Red Dead Redemption grid by Macho Sadness (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/500162
+reviews:
+  - title: Red Dead Redemption VR is Life Changing
+    channel: Gamertag VR
+    url: https://www.youtube.com/watch?v=RYJiwKWUGQw
+  - title: Red Dead Redemption VR is Unbelievable!
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=SBZ6QQkH1LU
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/red-dead-redemption-vr
+last_checked: "2026-10-17"

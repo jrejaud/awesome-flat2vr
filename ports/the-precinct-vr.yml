@@ -1,0 +1,33 @@
+name: The Precinct VR
+games:
+  - The Precinct
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "The_Precinct_VR"
+version_date: "2026-10-17"
+download_url: https://github.com/King-EJ/The-Precinct-VR/releases/latest
+source_url: https://github.com/King-EJ/The-Precinct-VR
+license: unknown
+required_files: The Precinct (PC, Unity 6000.0.75f1 IL2CPP)
+known_bugs:
+  - will be issues (WIP, very early test build)
+notes: Early WIP test build tested on Quest 3 via VDXR; unzip into the game folder.
+images:
+  - game: The Precinct
+    file: images/the-precinct-vr/the-precinct.jpg
+    credit: The Precinct grid by antihero17 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/578644
+reviews:
+  - title: "ALVO VR  PRECINCT KC Gameplay  2026 #alvo #precinct"
+    channel: GФnzata !!!
+    url: https://www.youtube.com/watch?v=q0kyi1aqNZE
+added_by: bot
+discovered_via: https://github.com/King-EJ/The-Precinct-VR
+last_checked: "2026-10-17"

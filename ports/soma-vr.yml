@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: stable
-version: "v1.07.1"
-version_date: "2026-10-14"
+version: "v1.08.1"
+version_date: "2026-10-17"
 download_url: https://github.com/Bateau01/SOMA-VR/releases/latest
 source_url: https://github.com/Bateau01/SOMA-VR
 license: GPL-3.0
@@ -30,4 +30,4 @@ reviews:
     url: https://www.youtube.com/watch?v=1WeFO728uA4
 added_by: bot
 discovered_via: https://github.com/Bateau01/SOMA-VR
-last_checked: "2026-10-15"
+last_checked: "2026-10-17"
