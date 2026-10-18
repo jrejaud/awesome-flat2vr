@@ -1,0 +1,36 @@
+name: God of War VR Mod
+games:
+  - God of War (2018)
+category: mod
+authors:
+  - name: adore11s
+    url: https://github.com/adore11s
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.2.0"
+version_date: "2026-10-17"
+download_url: https://github.com/adore11s/God-of-War-VR-Mod/releases/latest
+source_url: https://github.com/adore11s/God-of-War-VR-Mod
+license: MIT
+required_files: God of War (2018) PC, Steam, Epic or GOG version
+known_bugs:
+  - Tested only up to the World Serpent scene; later crashes or wrong body animations possible
+  - Can phase through walls during combat
+  - DLSS makes edges shimmer in the headset
+notes: Native stereo SteamVR/OpenXR rendering with first-person motion-controller combat; work in progress.
+images:
+  - game: God of War (2018)
+    file: images/god-of-war-vr-mod/god-of-war.png
+    credit: God of War grid by Lmaclittle (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/338997
+reviews:
+  - title: God of War in VR is God Tier...
+    channel: Downloadable Content
+    url: https://www.youtube.com/watch?v=OGTF98a1B2Y
+  - title: Baldur Fight in VR - New God of War 2018 First Person PCVR Mod
+    channel: Virtual Dudes
+    url: https://www.youtube.com/watch?v=lb7DZuQwSpM
+added_by: bot
+discovered_via: https://github.com/adore11s/God-of-War-VR-Mod
+last_checked: "2026-10-18"

@@ -1,0 +1,35 @@
+name: Animal Crossing VR (LiquidAzir)
+games:
+  - Animal Crossing
+category: source-port
+authors:
+  - name: LiquidAzir
+    url: https://github.com/LiquidAzir
+platform: both
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "v0.9.3-vr20"
+version_date: "2026-09-30"
+download_url: https://github.com/LiquidAzir/animal-crossing-vr/releases/latest
+source_url: https://github.com/LiquidAzir/animal-crossing-vr
+license: unknown
+required_files: Animal Crossing GameCube USA Rev 0 (GAFE01_00) disc image (.iso, .gcm or .ciso); PC version also needs ACGC-PC-Port v0.9.3 installed first
+known_bugs: []
+notes: First-person VR with tracked tools, based on ACGC-PC-Port and ac-decomp; Quest setup needs a Windows PC and USB to import the ROM.
+images:
+  - game: Animal Crossing
+    file: images/animal-crossing-vr-liquidazir/animal-crossing.png
+    credit: Animal Crossing grid by Orion1189 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/357880
+reviews:
+  - title: VR Animal Crossing is a CONFUSING MESS (Garden of the Sea)
+    channel: Crossing Minute
+    url: https://www.youtube.com/watch?v=HK8kZMDGMaw
+  - title: Animal Crossing VR - Gamecube - Dolphin VR - Rift CV1 - Core i7 2600 - GTX 970
+    channel: Nate Masterson
+    url: https://www.youtube.com/watch?v=BUi7-NfD-MI
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63200
+last_checked: "2026-10-18"

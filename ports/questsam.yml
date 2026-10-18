@@ -14,8 +14,8 @@ headsets:
   - Quest Pro
 controls: 6dof
 status: beta
-version: "b004"
-version_date: "2026-09-20"
+version: "pico-test"
+version_date: "2026-10-17"
 download_url: https://github.com/maranone/QuestSam/releases/latest
 source_url: https://github.com/maranone/QuestSam
 license: unknown
@@ -35,4 +35,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://questports.vercel.app/ports/questsam
-last_checked: "2026-10-11"
+last_checked: "2026-10-18"

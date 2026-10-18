@@ -1,0 +1,32 @@
+name: Iron Blight VR
+games:
+  - Iron Blight
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+headsets:
+  - Quest 3
+controls: mixed
+status: alpha
+version: "IronBlightVR"
+version_date: "2026-10-06"
+download_url: https://github.com/King-EJ/Iron-Blight-VR/releases/latest
+source_url: https://github.com/King-EJ/Iron-Blight-VR
+license: unknown
+required_files: Iron Blight (PC, Unity 6 IL2CPP); unzip the mod into the game folder
+known_bugs: []
+notes: BepInEx-based OpenXR mod with motion-tracked gun and flashlight; test build 0.1.16 only tested with Quest 3 via Virtual Desktop XR.
+images:
+  - game: Iron Blight
+    file: images/iron-blight-vr/iron-blight.jpg
+    credit: Iron Blight store art
+    source_url: https://store.steampowered.com/app/4001350/
+reviews:
+  - title: Hardcore Horror Survival - Iron Blight VR Mod - 6 DOF Weapon Handling, Head-Tracking, Native Stereo
+    channel: FastLawyer
+    url: https://www.youtube.com/watch?v=b8MIbIEECCY
+added_by: bot
+discovered_via: https://github.com/King-EJ/Iron-Blight-VR
+last_checked: "2026-10-18"

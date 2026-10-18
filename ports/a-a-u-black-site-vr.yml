@@ -1,0 +1,28 @@
+name: A.A.U. Black Site VR
+games:
+  - A.A.U. Black Site
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "A.A.U.BlackSiteVR"
+version_date: "2026-10-11"
+download_url: https://github.com/King-EJ/A.A.U.-Black-Site-VR/releases/latest
+source_url: https://github.com/King-EJ/A.A.U.-Black-Site-VR
+license: unknown
+required_files: A.A.U. Black Site game install (BepInEx 5)
+known_bugs:
+  - Test build, not fully working
+notes: BepInEx-based OpenXR mod with 6DOF weapon aiming and floating HUD.
+images:
+  - game: A.A.U. Black Site
+    file: images/a-a-u-black-site-vr/a-a-u-black-site.jpg
+    credit: A.A.U. Black Site store art
+    source_url: https://store.steampowered.com/app/3607440/
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/A.A.U.-Black-Site-VR
+last_checked: "2026-10-18"

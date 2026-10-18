@@ -1,0 +1,29 @@
+name: RetroSpace VR Mod
+games:
+  - RetroSpace
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "RetroSpaceVRMod"
+version_date: "2026-10-02"
+download_url: https://github.com/King-EJ/RetroSpace-VR-Mod/releases/latest
+source_url: https://github.com/King-EJ/RetroSpace-VR-Mod
+license: unknown
+required_files: RetroSpace (Unity game, Steam install)
+known_bugs: []
+notes: BepInEx-based OpenXR mod (v0.1.16 test build); only tested with Virtual Desktop on Quest 3.
+images:
+  - game: RetroSpace
+    file: images/retrospace-vr-mod/retrospace.jpg
+    credit: RetroSpace store art
+    source_url: https://store.steampowered.com/app/2067820/
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/RetroSpace-VR-Mod
+last_checked: "2026-10-18"

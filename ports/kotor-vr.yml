@@ -1,0 +1,34 @@
+name: KotOR VR
+games:
+  - "Star Wars: Knights of the Old Republic"
+category: mod
+authors:
+  - name: megabars
+    url: https://github.com/megabars
+platform: pcvr
+headsets:
+  - Quest 3S
+controls: gamepad
+status: alpha
+version: "v0.0.1"
+version_date: "2026-10-18"
+download_url: https://github.com/megabars/kotor-vr/releases/latest
+source_url: https://github.com/megabars/kotor-vr
+license: MIT
+required_files: "Own copy of Star Wars: Knights of the Old Republic, GOG 1.03 (swkotor.exe with exact SHA-256 9c10e045...a91435), Windows x86"
+known_bugs:
+  - Complete playthrough, all cinematics and graphics effects not verified
+  - Only the exact GOG 1.03 executable is supported
+notes: Third-person per-eye stereo rendering with head tracking via OpenXR; mouse and keyboard control, no motion-controller input.
+images:
+  - game: "Star Wars: Knights of the Old Republic"
+    file: images/kotor-vr/star-wars-knights-of-the-old-republic.png
+    credit: "Star Wars: Knights of the Old Republic grid by Longinus (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/175988
+reviews:
+  - title: Knights of the Old Republic in VR! - Star Wars Blade and Sorcery Mod (Outer Rim)
+    channel: Zeuzify
+    url: https://www.youtube.com/watch?v=dLO-7xPPdx4
+added_by: bot
+discovered_via: https://github.com/megabars/kotor-vr
+last_checked: "2026-10-18"

@@ -11,8 +11,8 @@ headsets:
   - Quest 2
 controls: 6dof
 status: alpha
-version: "v0.4.0"
-version_date: "2026-10-16"
+version: "v0.4.1"
+version_date: "2026-10-17"
 download_url: https://github.com/nvdg-public/amfp-vr/releases/latest
 source_url: https://github.com/nvdg-public/amfp-vr
 license: GPL-3.0
@@ -27,4 +27,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/nvdg-public/amfp-vr
-last_checked: "2026-10-17"
+last_checked: "2026-10-18"

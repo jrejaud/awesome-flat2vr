@@ -1,0 +1,34 @@
+name: XRKart 64
+games:
+  - Mario Kart 64
+category: source-port
+authors:
+  - name: ArtfulRascal8
+    url: https://github.com/ArtfulRascal8
+platform: standalone
+headsets:
+  - Quest 2
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "v0.2.0"
+version_date: "2026-07-29"
+download_url: https://github.com/ArtfulRascal8/XRKart-64/releases/latest
+source_url: https://github.com/ArtfulRascal8/XRKart-64
+homepage: https://sidequestvr.com/app/63221
+license: unknown
+required_files: Legally dumped US Mario Kart 64 N64 ROM (12 MiB, SHA-1 579C48E211AE952530FFC8738709F078D5DD215E)
+known_bugs: []
+notes: Early standalone Quest APK built on SpaghettiKart/LibUltraShip work; game data is generated on-device from the user's ROM.
+images:
+  - game: Mario Kart 64
+    file: images/xrkart-64/mario-kart-64.png
+    credit: Mario Kart 64 grid by Twins1105 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/586751
+reviews:
+  - title: XRKart 64 beta 1.0
+    channel: J4NKY
+    url: https://www.youtube.com/watch?v=tau9wEk4E74
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63221
+last_checked: "2026-10-18"

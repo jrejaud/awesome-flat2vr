@@ -1,0 +1,37 @@
+name: Teardown VR Mod
+games:
+  - Teardown
+category: mod
+authors:
+  - name: markos12900-beep
+    url: https://github.com/markos12900-beep
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "v0.22"
+version_date: "2026-10-17"
+download_url: https://github.com/markos12900-beep/teardown-vr-mod/releases/latest
+source_url: https://github.com/markos12900-beep/teardown-vr-mod
+license: MIT
+required_files: Teardown on Steam (current Direct3D 12 version), SteamVR
+known_bugs:
+  - Experimental; single-player only, do not use in multiplayer
+  - Solid hands, punching and visible body are brand new in v0.22 and untested in a headset
+notes: Installs a dxgi.dll plus a Lua mod; tested only on Quest 3 via Steam Link.
+images:
+  - game: Teardown
+    file: images/teardown-vr-mod/teardown.jpg
+    credit: Teardown grid by Codyfirehead (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/323107
+reviews:
+  - title: Teardown in VR is the Best Home Defense Simulator - Voxel Project
+    channel: habie147
+    url: https://www.youtube.com/watch?v=j5JZa_gBRVk
+  - title: New VR Destruction Game is TEARDOWN In VR!
+    channel: Fynnpire
+    url: https://www.youtube.com/watch?v=v70oYrOJML0
+added_by: bot
+discovered_via: https://github.com/markos12900-beep/teardown-vr-mod
+last_checked: "2026-10-18"

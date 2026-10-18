@@ -1,0 +1,38 @@
+name: Qualyx
+games:
+  - "Half-Life: Alyx"
+category: source-port
+authors:
+  - name: tinsarfal
+    url: https://github.com/tinsarfal
+platform: standalone
+headsets:
+  - Quest 3
+  - Quest 2
+  - Pico
+controls: 6dof
+status: alpha
+version: "1.0.84"
+version_date: "2026-10-04"
+download_url: https://github.com/tinsarfal/Qualyx/releases/latest
+source_url: https://github.com/tinsarfal/Qualyx
+homepage: https://sidequestvr.com/app/63366
+license: unknown
+required_files: "Own Steam copy of Half-Life: Alyx; the hlvr and core folders from its game directory copied to /sdcard/Qualyx/game/"
+known_bugs: []
+notes: Experimental; developed and tested on Quest 3, Quest 2 less tested with reduced graphics; requires enabling Quest's Positional time warp experimental setting.
+images:
+  - game: "Half-Life: Alyx"
+    file: images/qualyx/half-life-alyx.png
+    credit: "Half-Life: Alyx grid by Purgenta (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/284936
+reviews:
+  - title: "Half-Life: Alyx (Standalone) VR Mod! - Quest 3 Impressions and Testing. #Quest3"
+    channel: Paradise Decay
+    url: https://www.youtube.com/watch?v=zdsycxlcpKg
+  - title: "EVEN BETTER! - Half-Life: Alyx (Standalone) VR Mod! - Quest 3 Testing. #Quest3 #Quest2"
+    channel: Paradise Decay
+    url: https://www.youtube.com/watch?v=JHW-FMm_c7c
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63366
+last_checked: "2026-10-18"

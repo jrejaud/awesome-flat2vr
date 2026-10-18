@@ -1,0 +1,41 @@
+name: SiN Gold VR
+games:
+  - SiN Gold
+  - "SiN: Wages of Sin"
+category: mod
+authors:
+  - name: RototRobot
+    url: https://github.com/RototRobot
+platform: pcvr
+headsets:
+  - Meta Quest 3
+  - HP Reverb G2
+controls: 6dof
+status: stable
+version: "1.0.2"
+version_date: "2026-10-18"
+download_url: https://github.com/RototRobot/SiN-Gold-VR-Port/releases/latest
+source_url: https://github.com/RototRobot/SiN-Gold-VR-Port
+license: Apache-2.0
+required_files: SiN Gold for PC (Steam or GOG, 2020 Night Dive version); Wages of Sin is included
+known_bugs: []
+notes: OpenXR renderer (ref_vr.dll) over the game's OpenGL renderer; requires SteamVR, and was made with AI (Claude) assistance.
+images:
+  - game: SiN Gold
+    file: images/sin-gold-vr/sin-gold.jpg
+    credit: SiN Gold grid by Luckspeare (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/646343
+  - game: "SiN: Wages of Sin"
+    file: images/sin-gold-vr/sin-wages-of-sin.jpg
+    credit: "SiN: Wages of Sin grid by Moohoo (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/691925
+reviews:
+  - title: SiN Gold VR Mod w. 6DOF Motion Controls + Download (PCVR)
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=YDk5s-I2pg0
+  - title: "SiN: Wages Of Sin VR Mod w. 6DOF + Download"
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=c6mVa1vhZOQ
+added_by: bot
+discovered_via: https://github.com/RototRobot/SiN-Gold-VR-Port
+last_checked: "2026-10-18"

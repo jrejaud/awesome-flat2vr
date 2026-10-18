@@ -1,0 +1,35 @@
+name: "Agent 64: Spies Never Die VR Mod"
+games:
+  - "Agent 64: Spies Never Die"
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "Agent64SpiesNeverDieVR"
+version_date: "2026-09-28"
+download_url: https://github.com/King-EJ/Agent-64-Spies-Never-Die-VR-Mod/releases/latest
+source_url: https://github.com/King-EJ/Agent-64-Spies-Never-Die-VR-Mod
+license: unknown
+required_files: "Agent 64: Spies Never Die (PC, Unity IL2CPP x64)"
+known_bugs:
+  - Only tested in solo play, not online
+  - Only tested with Virtual Desktop OpenXR
+  - Secondary (aim/zoom) control not tested
+notes: BepInEx plugin using OpenXR; v0.1.5 test build tested on Quest 3 via PC streaming.
+images:
+  - game: "Agent 64: Spies Never Die"
+    file: images/agent-64-spies-never-die-vr-mod/agent-64-spies-never-die.jpg
+    credit: "Agent 64: Spies Never Die grid by Lord0Link (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/823947
+reviews:
+  - title: Agent 64 Spies Never Die VR Mod
+    channel: KingVR_PC
+    url: https://www.youtube.com/watch?v=-ldkQB-IThQ
+added_by: bot
+discovered_via: https://github.com/King-EJ/Agent-64-Spies-Never-Die-VR-Mod
+last_checked: "2026-10-18"

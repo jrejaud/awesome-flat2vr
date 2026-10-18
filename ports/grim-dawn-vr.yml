@@ -1,0 +1,33 @@
+name: Grim Dawn VR
+games:
+  - Grim Dawn
+category: mod
+authors:
+  - name: simplysnake
+    url: https://github.com/simplysnake
+platform: pcvr
+controls: mixed
+status: alpha
+version: "v0.1.0"
+version_date: "2026-10-18"
+download_url: https://github.com/simplysnake/GrimDawn_mod/releases/latest
+source_url: https://github.com/simplysnake/GrimDawn_mod
+license: unknown
+required_files: Grim Dawn on Steam (64-bit, DirectX 11; expansions optional)
+known_bugs: []
+notes: True-stereo OpenXR/SteamVR mod with floating HUD panel and laser-pointer controllers alongside mouse and keyboard; source under PolyForm Noncommercial 1.0.0.
+images:
+  - game: Grim Dawn
+    file: images/grim-dawn-vr/grim-dawn.png
+    credit: Grim Dawn grid by Goryun (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/853837
+reviews:
+  - title: Grim Dawn VR
+    channel: fordfanboi
+    url: https://www.youtube.com/watch?v=7-qQtKcjipM
+  - title: Uroboruuk's Soullancer - Shadowflame Vr - SR30-31 - 1 Short Room - Grim Dawn PT1.3
+    channel: The_Mess
+    url: https://www.youtube.com/watch?v=qfaEIu_zYPM
+added_by: bot
+discovered_via: https://github.com/simplysnake/GrimDawn_mod
+last_checked: "2026-10-18"

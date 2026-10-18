@@ -1,0 +1,29 @@
+name: QuestCraftPlus+
+games:
+  - "Minecraft: Java Edition"
+category: mod
+authors:
+  - name: MisterEnglishDev
+    url: https://github.com/MisterEnglishDev
+platform: standalone
+headsets:
+  - Quest
+controls: 6dof
+status: stable
+version: "v26.2-1.0.0"
+version_date: "2026-08-29"
+download_url: https://github.com/MisterEnglishDev/QuestCraftPlus/releases/latest
+source_url: https://github.com/MisterEnglishDev/QuestCraftPlus
+license: unknown
+required_files: "Minecraft: Java Edition licence/account"
+known_bugs: []
+notes: Independent fork of QuestCraft updating Vivecraft-based Quest VR support to Minecraft 26.2; installs alongside official QuestCraft.
+images:
+  - game: "Minecraft: Java Edition"
+    file: images/questcraftplus/minecraft-java-edition.png
+    credit: "Minecraft: Java Edition grid by CheatFreak (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/65746
+reviews: []
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63226
+last_checked: "2026-10-18"

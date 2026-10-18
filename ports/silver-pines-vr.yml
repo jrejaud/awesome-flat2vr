@@ -1,0 +1,28 @@
+name: Silver Pines VR
+games:
+  - Silver Pines
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "Silver_Pines_VR"
+version_date: "2026-10-17"
+download_url: https://github.com/King-EJ/Silver-Pines-VR/releases/latest
+source_url: https://github.com/King-EJ/Silver-Pines-VR
+license: unknown
+required_files: Silver Pines game install (BepInEx mod unzipped into game folder)
+known_bugs:
+  - Author expects issues; the full game was not played with the VR mod
+notes: Stage view of the side-on 3D world via OpenXR; first-person not possible due to 2D sprite characters. Test build 0.1.12 on Quest via VDXR.
+images:
+  - game: Silver Pines
+    file: images/silver-pines-vr/silver-pines.jpg
+    credit: Silver Pines grid by BlueLikes (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/853638
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/Silver-Pines-VR
+last_checked: "2026-10-18"

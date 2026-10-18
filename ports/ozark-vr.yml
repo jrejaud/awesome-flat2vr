@@ -1,0 +1,30 @@
+name: OZARK VR
+games:
+  - OZARK
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+headsets:
+  - Quest 3
+controls: mixed
+status: alpha
+version: "OZARK-VRMod"
+version_date: "2026-10-03"
+download_url: https://github.com/King-EJ/OZARK_VR/releases/latest
+source_url: https://github.com/King-EJ/OZARK_VR
+license: unknown
+required_files: OZARK game installed (Unity 2021.3 IL2CPP); unzip the mod into the game folder
+known_bugs:
+  - Very early WIP; enemies seem too far away as true first person is still being worked on
+notes: WIP Unity IL2CPP mod with first and third person modes, hand HUD, and grenade throwing; tested on Quest 3.
+images:
+  - game: OZARK
+    file: images/ozark-vr/ozark.jpg
+    credit: OZARK store art
+    source_url: https://store.steampowered.com/app/1130380/
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/OZARK_VR
+last_checked: "2026-10-18"

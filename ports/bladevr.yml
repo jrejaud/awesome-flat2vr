@@ -1,0 +1,29 @@
+name: BladeVR
+games:
+  - "Severance: Blade of Darkness"
+category: mod
+authors:
+  - name: Efraim2704
+    url: https://github.com/Efraim2704
+platform: pcvr
+headsets:
+  - Quest 2
+controls: 6dof
+status: stable
+version: "v2.0"
+version_date: "2026-10-17"
+download_url: https://github.com/Efraim2704/BladeOfDarknessVR/releases/latest
+source_url: https://github.com/Efraim2704/BladeOfDarknessVR
+license: MIT
+required_files: "Severance: Blade of Darkness (2021 DirectX 11 remaster) on Steam"
+known_bugs: []
+notes: Runs over SteamVR via a dxgi.dll proxy; tested on Meta Quest 2. Also has a diorama mode.
+images:
+  - game: "Severance: Blade of Darkness"
+    file: images/bladevr/severance-blade-of-darkness.jpg
+    credit: "Severance: Blade of Darkness (Wikipedia)"
+    source_url: https://en.wikipedia.org/wiki/Severance%3A_Blade_of_Darkness
+reviews: []
+added_by: bot
+discovered_via: https://github.com/Efraim2704/BladeOfDarknessVR
+last_checked: "2026-10-18"

@@ -1,0 +1,29 @@
+name: SpecOpsTheLineVR
+games:
+  - "Spec Ops: The Line"
+category: mod
+authors:
+  - name: Mavic-Pro
+    url: https://github.com/Mavic-Pro
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "v0.9.3"
+version_date: "2026-10-17"
+download_url: https://github.com/Mavic-Pro/SpecOpsTheLineVR/releases/latest
+source_url: https://github.com/Mavic-Pro/SpecOpsTheLineVR
+license: MIT
+required_files: "Spec Ops: The Line (Steam version)"
+known_bugs: []
+notes: Full 6DOF VR mod via SteamVR with motion-controller aiming, VR cover, haptics and a cinema screen for cutscenes.
+images:
+  - game: "Spec Ops: The Line"
+    file: images/specopsthelinevr/spec-ops-the-line.jpg
+    credit: "Spec Ops: The Line grid by Comcord (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/180558
+reviews: []
+added_by: bot
+discovered_via: https://github.com/Mavic-Pro/SpecOpsTheLineVR
+last_checked: "2026-10-18"
