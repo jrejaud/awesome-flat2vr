@@ -11,8 +11,8 @@ headsets:
   - Quest 3S
 controls: 6dof
 status: stable
-version: "2.3.0"
-version_date: "2026-10-06"
+version: "2.4.0"
+version_date: "2026-10-19"
 download_url: https://github.com/JoeyAW/TPVR/releases/latest
 source_url: https://github.com/JoeyAW/TPVR
 license: CC0-1.0
@@ -33,4 +33,4 @@ reviews:
     url: https://www.youtube.com/watch?v=sugca8IC4ac
 added_by: bot
 discovered_via: https://questports.vercel.app/ports/twilight-princess-vr
-last_checked: "2026-10-11"
+last_checked: "2026-10-19"

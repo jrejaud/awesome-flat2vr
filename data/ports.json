@@ -859,8 +859,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.17.14",
-    "version_date": "2026-10-16",
+    "version": "v0.17.16",
+    "version_date": "2026-10-18",
     "download_url": "https://github.com/adore11s/Beyond-Two-Souls-VR-Mod/releases/latest",
     "source_url": "https://github.com/adore11s/Beyond-Two-Souls-VR-Mod",
     "license": "MIT",
@@ -881,7 +881,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/adore11s/Beyond-Two-Souls-VR-Mod",
-    "last_checked": "2026-10-17"
+    "last_checked": "2026-10-19"
   },
   {
     "slug": "bf2142vr",
@@ -2401,8 +2401,8 @@
     ],
     "controls": "mixed",
     "status": "alpha",
-    "version": "v0.1.57",
-    "version_date": "2026-10-18",
+    "version": "v0.1.63",
+    "version_date": "2026-10-19",
     "download_url": "https://github.com/ArcadaLabs-Jason/EternalVR/releases/latest",
     "source_url": "https://github.com/ArcadaLabs-Jason/EternalVR",
     "homepage": "https://ko-fi.com/FanciestPeanut",
@@ -2432,7 +2432,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/ArcadaLabs-Jason/EternalVR",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-19"
   },
   {
     "slug": "f-e-a-r-vr",
@@ -3206,8 +3206,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.2.0",
-    "version_date": "2026-10-17",
+    "version": "v0.2.3",
+    "version_date": "2026-10-18",
     "download_url": "https://github.com/adore11s/God-of-War-VR-Mod/releases/latest",
     "source_url": "https://github.com/adore11s/God-of-War-VR-Mod",
     "license": "MIT",
@@ -3240,7 +3240,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/adore11s/God-of-War-VR-Mod",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-19"
   },
   {
     "slug": "goldeneye-vr",
@@ -3264,8 +3264,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.5.6",
-    "version_date": "2026-10-17",
+    "version": "v0.5.9",
+    "version_date": "2026-10-18",
     "download_url": "https://github.com/MrSco/goldeneye-vr/releases/latest",
     "source_url": "https://github.com/MrSco/goldeneye-vr",
     "homepage": "https://goldeneyevr.com",
@@ -3295,7 +3295,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/mrsco/goldeneye-vr",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-19"
   },
   {
     "slug": "gothic-ii-vr",
@@ -4117,8 +4117,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.1.4",
-    "version_date": "2026-10-15",
+    "version": "v0.1.5",
+    "version_date": "2026-10-18",
     "download_url": "https://github.com/The-Logeen/HP2VR/releases/latest",
     "source_url": "https://github.com/The-Logeen/HP2VR",
     "license": "MIT",
@@ -4138,7 +4138,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/The-Logeen/HP2VR",
-    "last_checked": "2026-10-16"
+    "last_checked": "2026-10-19"
   },
   {
     "slug": "hytale-vr-injector",
@@ -5028,8 +5028,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v2.0.0-alpha.4",
-    "version_date": "2026-10-15",
+    "version": "v2.0.0-beta.1",
+    "version_date": "2026-10-19",
     "download_url": "https://github.com/iChris4/MetroidPrimePortVR/releases/latest",
     "source_url": "https://github.com/iChris4/MetroidPrimePortVR",
     "homepage": "https://github.com/Odrannnn/MetroidPrimePort/releases/latest",
@@ -5059,7 +5059,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/ichris4/metroidprimeportvr",
-    "last_checked": "2026-10-16"
+    "last_checked": "2026-10-19"
   },
   {
     "slug": "mgs5vr",
@@ -5402,8 +5402,8 @@
     ],
     "platform": "pcvr",
     "status": "alpha",
-    "version": "v0.3.0",
-    "version_date": "2026-10-18",
+    "version": "v0.3.4",
+    "version_date": "2026-10-19",
     "download_url": "https://github.com/bldbrne-vr/bldbrne-vr/releases/latest",
     "source_url": "https://github.com/bldbrne-vr/bldbrne-vr",
     "license": "unknown",
@@ -5432,7 +5432,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/bldbrne-vr/bldbrne-vr",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-19"
   },
   {
     "slug": "nolf2-r-e-a-l-mod",
@@ -7625,8 +7625,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "build-309",
-    "version_date": "2026-10-17",
+    "version": "build-311",
+    "version_date": "2026-10-18",
     "download_url": "https://github.com/Cesarus85/ringfall-mjolnir-vr/releases/latest",
     "source_url": "https://github.com/Cesarus85/ringfall-mjolnir-vr",
     "license": "CC0-1.0",
@@ -7644,7 +7644,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/Cesarus85/ringfall-mjolnir-vr",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-19"
   },
   {
     "slug": "road-rash-jailbreak-vr",
@@ -8701,8 +8701,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.9.3",
-    "version_date": "2026-10-17",
+    "version": "v0.9.5",
+    "version_date": "2026-10-18",
     "download_url": "https://github.com/Mavic-Pro/SpecOpsTheLineVR/releases/latest",
     "source_url": "https://github.com/Mavic-Pro/SpecOpsTheLineVR",
     "license": "MIT",
@@ -8720,7 +8720,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/Mavic-Pro/SpecOpsTheLineVR",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-19"
   },
   {
     "slug": "stanley-vr",
@@ -9262,8 +9262,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "The_Precinct_VR",
-    "version_date": "2026-10-17",
+    "version": "The_Precinct_VRv2",
+    "version_date": "2026-10-18",
     "download_url": "https://github.com/King-EJ/The-Precinct-VR/releases/latest",
     "source_url": "https://github.com/King-EJ/The-Precinct-VR",
     "license": "unknown",
@@ -9289,7 +9289,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/King-EJ/The-Precinct-VR",
-    "last_checked": "2026-10-17"
+    "last_checked": "2026-10-19"
   },
   {
     "slug": "the-witcher-3-vr",
@@ -9509,8 +9509,8 @@
     ],
     "controls": "6dof",
     "status": "stable",
-    "version": "2.3.0",
-    "version_date": "2026-10-06",
+    "version": "2.4.0",
+    "version_date": "2026-10-19",
     "download_url": "https://github.com/JoeyAW/TPVR/releases/latest",
     "source_url": "https://github.com/JoeyAW/TPVR",
     "license": "CC0-1.0",
@@ -9539,7 +9539,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/twilight-princess-vr",
-    "last_checked": "2026-10-11"
+    "last_checked": "2026-10-19"
   },
   {
     "slug": "trails-of-cold-steel-vr",

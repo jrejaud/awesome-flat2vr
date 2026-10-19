@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: alpha
-version: "v0.17.14"
-version_date: "2026-10-16"
+version: "v0.17.16"
+version_date: "2026-10-18"
 download_url: https://github.com/adore11s/Beyond-Two-Souls-VR-Mod/releases/latest
 source_url: https://github.com/adore11s/Beyond-Two-Souls-VR-Mod
 license: MIT
@@ -26,4 +26,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/adore11s/Beyond-Two-Souls-VR-Mod
-last_checked: "2026-10-17"
+last_checked: "2026-10-19"

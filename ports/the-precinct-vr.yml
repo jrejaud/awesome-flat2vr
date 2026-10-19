@@ -10,8 +10,8 @@ headsets:
   - Quest 3
 controls: 6dof
 status: alpha
-version: "The_Precinct_VR"
-version_date: "2026-10-17"
+version: "The_Precinct_VRv2"
+version_date: "2026-10-18"
 download_url: https://github.com/King-EJ/The-Precinct-VR/releases/latest
 source_url: https://github.com/King-EJ/The-Precinct-VR
 license: unknown
@@ -30,4 +30,4 @@ reviews:
     url: https://www.youtube.com/watch?v=q0kyi1aqNZE
 added_by: bot
 discovered_via: https://github.com/King-EJ/The-Precinct-VR
-last_checked: "2026-10-17"
+last_checked: "2026-10-19"
