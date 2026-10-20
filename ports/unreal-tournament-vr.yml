@@ -15,8 +15,8 @@ headsets:
   - PICO Neo 3 (experimental)
 controls: 6dof
 status: beta
-version: "v1.0.0-beta10-ut99"
-version_date: "2026-09-26"
+version: "v1.0.0-beta12-ut99"
+version_date: "2026-10-19"
 download_url: https://github.com/SgtBilko76/Unreal-Tournament-VR/releases/latest
 source_url: https://github.com/SgtBilko76/Unreal-Tournament-VR
 license: unknown
@@ -39,4 +39,4 @@ reviews:
     url: https://www.youtube.com/watch?v=3HXaguU4eUA
 added_by: bot
 discovered_via: https://github.com/SgtBilko76/Unreal-Tournament-VR
-last_checked: "2026-10-15"
+last_checked: "2026-10-20"
