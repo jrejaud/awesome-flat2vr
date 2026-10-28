@@ -11,8 +11,8 @@ headsets:
   - PlayStation VR2
 controls: mixed
 status: alpha
-version: "v0.1.68"
-version_date: "2026-10-20"
+version: "v0.1.84"
+version_date: "2026-10-26"
 download_url: https://github.com/ArcadaLabs-Jason/EternalVR/releases/latest
 source_url: https://github.com/ArcadaLabs-Jason/EternalVR
 homepage: https://ko-fi.com/FanciestPeanut
@@ -34,4 +34,4 @@ reviews:
     url: https://www.youtube.com/watch?v=x5IhUhJaNrg
 added_by: bot
 discovered_via: https://github.com/ArcadaLabs-Jason/EternalVR
-last_checked: "2026-10-20"
+last_checked: "2026-10-28"

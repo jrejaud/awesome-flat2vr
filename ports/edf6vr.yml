@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: stable
-version: "EDF6VR-3.2.9"
-version_date: "2026-10-14"
+version: "EDF6VR-3.2.13"
+version_date: "2026-10-27"
 download_url: https://github.com/momotori01/EARTH-DEFENSE-FORCE-6-VR-MOD/releases/latest
 source_url: https://github.com/momotori01/EARTH-DEFENSE-FORCE-6-VR-MOD
 license: Unlicense
@@ -30,4 +30,4 @@ reviews:
     url: https://www.youtube.com/watch?v=NX79tWuvssw
 added_by: bot
 discovered_via: https://github.com/momotori01/EARTH-DEFENSE-FORCE-6-VR-MOD
-last_checked: "2026-10-14"
+last_checked: "2026-10-28"

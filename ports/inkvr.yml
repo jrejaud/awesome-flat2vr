@@ -1,0 +1,33 @@
+name: InkVR
+games:
+  - Bendy and the Ink Machine
+category: mod
+authors:
+  - name: StrikeZoneVR-hub
+    url: https://github.com/StrikeZoneVR-hub
+platform: pcvr
+controls: 6dof
+status: stable
+version: "v1.0.0"
+version_date: "2026-10-27"
+download_url: https://github.com/StrikeZoneVR-hub/InkVR/releases/latest
+source_url: https://github.com/StrikeZoneVR-hub/InkVR
+license: GPL-3.0
+required_files: Bendy and the Ink Machine (PC)
+known_bugs: []
+notes: Streams to Quest via Virtual Desktop, Quest Link/Air Link or SteamVR; does not run standalone on Quest.
+images:
+  - game: Bendy and the Ink Machine
+    file: images/inkvr/bendy-and-the-ink-machine.png
+    credit: Bendy and the Ink Machine grid by lowpolyjea (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/428760
+reviews:
+  - title: Bendy and the Ink Machine VR | Full Game Walkthrough | No Commentary
+    channel: 99TH VR
+    url: https://www.youtube.com/watch?v=EsnSDiytst8
+  - title: I played Bendy and the Ink Machine in VR
+    channel: Vano
+    url: https://www.youtube.com/watch?v=FjC5Rnk_cOs
+added_by: bot
+discovered_via: https://github.com/StrikeZoneVR-hub/InkVR
+last_checked: "2026-10-28"

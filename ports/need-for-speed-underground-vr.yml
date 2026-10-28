@@ -1,0 +1,39 @@
+name: "Need for Speed: Underground VR"
+games:
+  - "Need for Speed: Underground"
+category: source-port
+authors:
+  - name: DR-89
+    url: https://github.com/DR-89
+platform: both
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "v0.3.0-preview.1"
+version_date: "2026-10-18"
+download_url: https://github.com/DR-89/nfsu-vr/releases/latest
+source_url: https://github.com/DR-89/nfsu-vr
+homepage: https://questports.vercel.app/ports/nfsu-vr
+license: GPL-3.0
+required_files: "Your own compatible Xbox USA disc dump of Need for Speed: Underground (2003), imported on the headset."
+known_bugs:
+  - Stable 72 FPS is not guaranteed (about 45 FPS in one Quest sample)
+  - Windows PCVR build has not been validated in a headset
+  - All race modes, long sessions and audio are still being tested
+notes: Static recompilation of the Xbox release using Vulkan and OpenXR, with a custom cockpit, virtual wheel steering and working mirrors.
+images:
+  - game: "Need for Speed: Underground"
+    file: images/need-for-speed-underground-vr/need-for-speed-underground.png
+    credit: "Need for Speed: Underground grid by Haxy (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/304010
+reviews:
+  - title: Need for Speed Underground in VR! Meta Quest 3 Standalone + PCVR Preview
+    channel: AddictedDev
+    url: https://www.youtube.com/watch?v=gIAqFgsnvxI
+  - title: "Need for Speed: Underground VR Performance / New Quest Standalone VR Mod W Motion Control Steering"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=4I0g-dkLjuM
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/nfsu-vr
+last_checked: "2026-10-28"

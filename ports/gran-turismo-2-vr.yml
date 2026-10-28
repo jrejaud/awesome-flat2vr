@@ -11,8 +11,8 @@ headsets:
   - Quest 3S
 controls: 6dof
 status: beta
-version: "v0.8.1"
-version_date: "2026-09-30"
+version: "v0.9.0"
+version_date: "2026-10-27"
 download_url: https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/releases/latest
 source_url: https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc
 homepage: https://discord.gg/G5DdNQ9fD
@@ -34,4 +34,4 @@ reviews:
     url: https://www.youtube.com/watch?v=gNwACh3Jxs8
 added_by: bot
 discovered_via: https://questports.vercel.app/ports/gran-turismo-2-vr
-last_checked: "2026-10-11"
+last_checked: "2026-10-28"

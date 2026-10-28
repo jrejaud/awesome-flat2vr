@@ -1,0 +1,35 @@
+name: Outlast VR
+games:
+  - Outlast
+category: mod
+authors:
+  - name: StrikeZoneVR-hub
+    url: https://github.com/StrikeZoneVR-hub
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "v1.1-beta"
+version_date: "2026-10-22"
+download_url: https://github.com/StrikeZoneVR-hub/OutlastVR/releases/latest
+source_url: https://github.com/StrikeZoneVR-hub/OutlastVR
+license: GPL-3.0
+required_files: Outlast (2013) on Steam (64-bit game)
+known_bugs: []
+notes: PC VR only via SteamVR, Virtual Desktop or Quest Link/Air Link; no standalone Quest support.
+images:
+  - game: Outlast
+    file: images/outlast-vr/outlast.png
+    credit: Outlast grid by Obsess (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/798526
+reviews:
+  - title: I Slept In Outlast In VR and It Was Horrifying
+    channel: Dredile
+    url: https://www.youtube.com/watch?v=YRUx35lBTiY
+  - title: "GETTING READY FOR THE OUTLAST TRIALS - Outlast VR #1"
+    channel: POiiSED
+    url: https://www.youtube.com/watch?v=9hh2qqdvXAc
+added_by: bot
+discovered_via: https://github.com/StrikeZoneVR-hub/OutlastVR
+last_checked: "2026-10-28"

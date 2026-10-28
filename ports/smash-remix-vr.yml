@@ -1,0 +1,31 @@
+name: Smash Remix VR
+games:
+  - Super Smash Bros.
+category: source-port
+authors:
+  - name: VistaLargaGames
+    url: https://github.com/VistaLargaGames
+platform: standalone
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 3dof
+status: beta
+version: "v0.8.5"
+version_date: "2026-10-20"
+download_url: https://github.com/VistaLargaGames/Smash-Remix-VR/releases/latest
+source_url: https://github.com/VistaLargaGames/Smash-Remix-VR
+homepage: https://questports.vercel.app/ports/smash-remix-vr
+license: unknown
+required_files: ROM made from your own Super Smash Bros. (USA) cartridge; optionally a Smash Remix 2.0.1 patched ROM
+known_bugs: []
+notes: Static recompilation (N64Recomp + RT64 + ssb decomp) with 60 fps, head-tracked chase camera and online VS for 2-4 Quests.
+images:
+  - game: Super Smash Bros.
+    file: images/smash-remix-vr/super-smash-bros.png
+    credit: Super Smash Bros. grid by Pine (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/425197
+reviews: []
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/smash-remix-vr
+last_checked: "2026-10-28"

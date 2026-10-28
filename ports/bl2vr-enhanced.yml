@@ -1,0 +1,33 @@
+name: BL2VR Enhanced
+games:
+  - Borderlands 2 VR
+category: mod
+authors:
+  - name: RimachOfficial
+    url: https://github.com/RimachOfficial
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.1.8"
+version_date: "2026-10-26"
+download_url: https://github.com/RimachOfficial/BL2VR-Enhanced/releases/latest
+source_url: https://github.com/RimachOfficial/BL2VR-Enhanced
+license: GPL-3.0
+required_files: Borderlands 2 VR (Steam, app 991260)
+known_bugs: []
+notes: DLL-proxy at the Oculus runtime boundary adding a two-handed virtual gunstock and One Euro aim smoothing; no game files modified.
+images:
+  - game: Borderlands 2 VR
+    file: images/bl2vr-enhanced/borderlands-2-vr.png
+    credit: Borderlands 2 VR grid by Snakerov (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/468690
+reviews:
+  - title: I Spent 24 Hours Straight in Borderlands 2 VR
+    channel: altered
+    url: https://www.youtube.com/watch?v=TGy8REwCsOw
+  - title: I Spent 50 HOURS Getting Every Achievement In Borderlands 2 VR
+    channel: altered
+    url: https://www.youtube.com/watch?v=6MS_fT9U7V8
+added_by: bot
+discovered_via: https://github.com/RimachOfficial/BL2VR-Enhanced
+last_checked: "2026-10-28"

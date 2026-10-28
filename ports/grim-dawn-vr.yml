@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: mixed
 status: alpha
-version: "v0.1.0"
-version_date: "2026-10-18"
+version: "v0.3.2"
+version_date: "2026-10-24"
 download_url: https://github.com/simplysnake/GrimDawn_mod/releases/latest
 source_url: https://github.com/simplysnake/GrimDawn_mod
 license: unknown
@@ -30,4 +30,4 @@ reviews:
     url: https://www.youtube.com/watch?v=qfaEIu_zYPM
 added_by: bot
 discovered_via: https://github.com/simplysnake/GrimDawn_mod
-last_checked: "2026-10-18"
+last_checked: "2026-10-28"

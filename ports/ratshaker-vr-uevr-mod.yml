@@ -1,0 +1,29 @@
+name: Ratshaker VR - UEVR Mod
+games:
+  - RATSHAKER
+category: profile
+authors:
+  - name: KMielnik
+    url: https://github.com/KMielnik
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: stable
+version: "v1.0"
+version_date: "2026-10-24"
+download_url: https://github.com/KMielnik/Ratshaker-VR-UEVR-Mod/releases/latest
+source_url: https://github.com/KMielnik/Ratshaker-VR-UEVR-Mod
+license: MIT
+required_files: RATSHAKER (Steam) and UEVR installed
+known_bugs: []
+notes: Lua script plus config for UEVR adding tracked hands, physical shaking, squeeze interactions and a pointer; tested with Virtual Desktop and OpenXR.
+images:
+  - game: RATSHAKER
+    file: images/ratshaker-vr-uevr-mod/ratshaker.png
+    credit: RATSHAKER grid by D.Grey (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/770939
+reviews: []
+added_by: bot
+discovered_via: https://github.com/KMielnik/Ratshaker-VR-UEVR-Mod
+last_checked: "2026-10-28"

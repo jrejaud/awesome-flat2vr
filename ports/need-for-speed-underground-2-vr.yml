@@ -1,0 +1,37 @@
+name: "Need for Speed: Underground 2 VR"
+games:
+  - "Need for Speed: Underground 2"
+category: source-port
+authors:
+  - name: DR-89
+    url: https://github.com/DR-89
+platform: both
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "dev-2026-10-17"
+version_date: "2026-10-17"
+download_url: https://github.com/DR-89/nfsu2-vr/releases/latest
+source_url: https://github.com/DR-89/nfsu2-vr
+homepage: https://questports.vercel.app/ports/nfsu2-vr
+license: unknown
+required_files: Your own Xbox USA / NTSC-U disc image or extracted game files (ZIP, 7z or ISO/XISO)
+known_bugs:
+  - Bugs, crashes, freezes, visual glitches, audio issues, stutters and performance problems may occur; stable VR frame rates are not guaranteed
+notes: Static recompilation of the Xbox version (xboxrecomp, Vulkan + OpenXR) based on antoxa2584x's nfsu2-sw, with full cockpits and motion steering.
+images:
+  - game: "Need for Speed: Underground 2"
+    file: images/need-for-speed-underground-2-vr/need-for-speed-underground-2.png
+    credit: "Need for Speed: Underground 2 grid by atmur (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/29157
+reviews:
+  - title: Need for Speed Underground 2 VR – Full Cockpit, Motion Steering & Working Mirrors!
+    channel: AddictedDev
+    url: https://www.youtube.com/watch?v=MHHi2G6Lixk
+  - title: Need for Speed Underground 2 VR UPDATE | VR Settings, Cockpit Fixes & Gamepad Support
+    channel: AddictedDev
+    url: https://www.youtube.com/watch?v=-OymhEWWIkw
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/nfsu2-vr
+last_checked: "2026-10-28"

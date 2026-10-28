@@ -1,0 +1,35 @@
+name: SLUDGE LIFE 2 VR
+games:
+  - SLUDGE LIFE 2
+category: mod
+authors:
+  - name: segadreamcat
+    url: https://github.com/segadreamcat
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "v1"
+version_date: "2026-10-28"
+download_url: https://github.com/segadreamcat/sludgelife2vr/releases/latest
+source_url: https://github.com/segadreamcat/sludgelife2vr
+license: MIT
+required_files: Own Windows Steam copy of SLUDGE LIFE 2, SteamVR and a PC VR headset with motion controllers
+known_bugs: []
+notes: Uses BepInEx; tested on Quest 3 via Virtual Desktop and SteamVR, not a standalone install.
+images:
+  - game: SLUDGE LIFE 2
+    file: images/sludge-life-2-vr/sludge-life-2.png
+    credit: SLUDGE LIFE 2 grid by NightReaper (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/497560
+reviews:
+  - title: Sludge Life 1 and 2 VR mods
+    channel: segadreamcat
+    url: https://www.youtube.com/watch?v=ZoSdnYOQa_U
+  - title: Sludge Life 1 and 2 VR
+    channel: segadreamcat
+    url: https://www.youtube.com/watch?v=7Wh5WBxXhaY
+added_by: bot
+discovered_via: https://github.com/segadreamcat/sludgelife2vr
+last_checked: "2026-10-28"

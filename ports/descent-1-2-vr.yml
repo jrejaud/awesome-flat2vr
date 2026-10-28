@@ -12,8 +12,8 @@ headsets:
   - Steam Frame
 controls: 6dof
 status: beta
-version: "v1.1"
-version_date: "2026-10-11"
+version: "v1.2.1"
+version_date: "2026-10-23"
 download_url: https://github.com/GameOrDie007/Descent-1-and-2-VR/releases/latest
 source_url: https://github.com/GameOrDie007/Descent-1-and-2-VR
 license: unknown
@@ -38,4 +38,4 @@ reviews:
     url: https://www.youtube.com/watch?v=lgq4KuqIZoo
 added_by: bot
 discovered_via: https://github.com/GameOrDie007/Descent-1-and-2-VR
-last_checked: "2026-10-14"
+last_checked: "2026-10-28"

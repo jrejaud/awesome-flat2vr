@@ -10,8 +10,8 @@ headsets:
   - Quest 3
 controls: 6dof
 status: alpha
-version: "v0.1.0-alpha"
-version_date: "2026-10-11"
+version: "v0.2.0-alpha"
+version_date: "2026-10-23"
 download_url: https://github.com/AshenVR/DeadRisingVR/releases/latest
 source_url: https://github.com/AshenVR/DeadRisingVR
 license: unknown
@@ -34,4 +34,4 @@ reviews:
     url: https://www.youtube.com/watch?v=fxVvP3Plt1g
 added_by: bot
 discovered_via: https://github.com/AshenVR/DeadRisingVR
-last_checked: "2026-10-12"
+last_checked: "2026-10-28"

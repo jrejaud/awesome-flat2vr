@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: alpha
-version: "1.0.0"
-version_date: "2026-10-18"
+version: "1.1.0"
+version_date: "2026-10-28"
 download_url: https://github.com/RototRobot/Tomb-Raider-Legend-VR-Port/releases/latest
 source_url: https://github.com/RototRobot/Tomb-Raider-Legend-VR-Port
 license: Apache-2.0
@@ -30,4 +30,4 @@ reviews:
     url: https://www.youtube.com/watch?v=TGe_CxinSLc
 added_by: bot
 discovered_via: https://github.com/RototRobot/Tomb-Raider-Legend-VR-Port
-last_checked: "2026-10-18"
+last_checked: "2026-10-28"

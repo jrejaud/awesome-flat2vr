@@ -1,0 +1,34 @@
+name: Rave Racer VR
+games:
+  - Rave Racer
+category: source-port
+authors:
+  - name: Virtua VR Port
+platform: standalone
+headsets:
+  - Quest 2
+  - Quest 3
+  - Quest 3S
+  - Quest Pro
+controls: mixed
+status: beta
+version: "v0.1.2-beta"
+version_date: "2026-10-28"
+download_url: https://questports.vercel.app/ports/rave-racer-vr
+source_url: https://questports.vercel.app/ports/rave-racer-vr
+license: unknown
+required_files: "Own arcade ROM files: raverace.zip (or raveracw.zip), namcoc74.zip, and a loose c71.bin"
+known_bugs: []
+notes: Runs natively on Quest in stereoscopic 3D with head tracking, haptics and up to 120 Hz; free, sideloaded APK.
+images:
+  - game: Rave Racer
+    file: images/rave-racer-vr/rave-racer.png
+    credit: Rave Racer grid by SlaggyBovard (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/500359
+reviews:
+  - title: 1995 Rave Racer VR Mod With 3D + Download - Quest Standalone
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=Elg1FZo0Gnw
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/rave-racer-vr
+last_checked: "2026-10-28"

@@ -1,0 +1,36 @@
+name: CTR Turbocharged VR
+games:
+  - Crash Team Racing
+category: source-port
+authors:
+  - name: SgtBilko76
+    url: https://github.com/SgtBilko76
+platform: standalone
+headsets:
+  - Quest 3
+controls: 3dof
+status: beta
+version: "v0.1.0"
+version_date: "2026-10-22"
+download_url: https://github.com/SgtBilko76/CTR-Turbocharged-VR/releases/latest
+source_url: https://github.com/SgtBilko76/CTR-Turbocharged-VR
+homepage: https://portroyale.online
+license: GPL-3.0
+required_files: NTSC-U Crash Team Racing disc image (SCUS-94426) as a raw .bin
+known_bugs: []
+notes: Races and Adventure hub in stereo 3D from the chase camera with head tracking; menus and split-screen on a flat virtual screen.
+images:
+  - game: Crash Team Racing
+    file: images/ctr-turbocharged-vr/crash-team-racing.jpg
+    credit: Crash Team Racing (Wikipedia)
+    source_url: https://en.wikipedia.org/wiki/Crash_Team_Racing
+reviews:
+  - title: "Crash Team Racing: Turbocharged - (Meta Quest 3) - Standalone VR Gameplay - 2K"
+    channel: Pixelacos VR and Pixelacos Gameplays
+    url: https://www.youtube.com/watch?v=z74MgnNkRo8
+  - title: "Crash Team Racing: Turbocharged - (Meta Quest 3) - Standalone VR Gameplay - 2K"
+    channel: Pixelacos Gameplays and Pixelacos VR
+    url: https://www.youtube.com/watch?v=QDuF4oMzhLI
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/ctr-turbocharged-vr
+last_checked: "2026-10-28"

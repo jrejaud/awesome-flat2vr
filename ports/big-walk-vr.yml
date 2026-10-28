@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: stable
-version: "v1.2.9"
-version_date: "2026-10-06"
+version: "v1.2.12"
+version_date: "2026-10-28"
 download_url: https://github.com/CircuitLord/CircuitLordVRModInstaller/releases/latest/download/CircuitLordVRModInstaller.exe
 source_url: https://github.com/CircuitLord/CircuitLordVRModInstaller
 license: unknown
@@ -30,4 +30,4 @@ reviews:
     url: https://www.youtube.com/watch?v=zMMNyRHrgBg
 added_by: bot
 discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
-last_checked: "2026-10-09"
+last_checked: "2026-10-28"

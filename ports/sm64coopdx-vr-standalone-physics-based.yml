@@ -10,8 +10,8 @@ headsets:
   - Quest 3
 controls: 6dof
 status: alpha
-version: "v0.9.21"
-version_date: "2026-09-13"
+version: "v0.9.25"
+version_date: "2026-10-24"
 download_url: https://github.com/fulldivegames/sm64coopdx-VR-Standalone-Physics-based/releases/latest
 source_url: https://github.com/fulldivegames/sm64coopdx-VR-Standalone-Physics-based
 license: unknown
@@ -34,4 +34,4 @@ reviews:
     url: https://www.youtube.com/watch?v=4lG9Ux9DxwY
 added_by: bot
 discovered_via: https://github.com/fulldivegames/sm64coopdx-vr-standalone-physics-based
-last_checked: "2026-10-09"
+last_checked: "2026-10-28"

@@ -1,0 +1,38 @@
+name: Metal Gear Solid VR Standalone
+games:
+  - Metal Gear Solid
+category: source-port
+authors:
+  - name: Baywilly
+    url: https://github.com/Baywilly
+platform: standalone
+headsets:
+  - Quest 2
+  - Quest 3
+  - Quest 3S
+  - Quest Pro
+  - Pico 4
+  - Pico 4 Ultra
+controls: 3dof
+status: beta
+version: "V0.1-beta"
+version_date: "2026-09-15"
+download_url: https://github.com/Baywilly/Metal-Gear-Solid-VR-Standalone/releases/latest
+source_url: https://github.com/Baywilly/Metal-Gear-Solid-VR-Standalone
+homepage: https://t.me/VirtualBays
+license: unknown
+required_files: Disc 1 and Disc 2 images (.bin + .cue) from your own copy of Metal Gear Solid for PlayStation
+known_bugs: []
+notes: Supports VR, Mixed Reality and Cabin modes with multiple languages; the release notes say it may contain bugs.
+images:
+  - game: Metal Gear Solid
+    file: images/metal-gear-solid-vr-standalone/metal-gear-solid.png
+    credit: Metal Gear Solid grid by MrWheyne (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/30717
+reviews:
+  - title: Metal Gear Solid VR Standalone - (Meta Quest 3) - Gameplay - 4K
+    channel: Pixelacos Gameplays and Pixelacos VR
+    url: https://www.youtube.com/watch?v=KXF8Vtq7Yhs
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/metal-gear-solid-vr
+last_checked: "2026-10-28"

@@ -1,0 +1,30 @@
+name: Xelee
+games:
+  - Super Smash Bros. Melee
+category: source-port
+authors:
+  - name: rhythmerc
+    url: https://github.com/rhythmerc
+platform: standalone
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: beta
+version: "v0.2.1-beta"
+version_date: "2026-10-27"
+download_url: https://github.com/rhythmerc/xelee/releases/latest
+source_url: https://github.com/rhythmerc/xelee
+license: GPL-3.0-or-later
+required_files: Super Smash Bros. Melee NTSC-U 1.02 disc image (.iso, .gcm, .ciso or .rvz)
+known_bugs: []
+notes: Mixed reality port built on melee-pc (doldecomp/melee) with Slippi online play; the decompiled game code itself is not relicensed.
+images:
+  - game: Super Smash Bros. Melee
+    file: images/xelee/super-smash-bros-melee.png
+    credit: Super Smash Bros. Melee grid by Pine (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/425195
+reviews: []
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/xelee
+last_checked: "2026-10-28"

@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: alpha
-version: "v0.2.6"
-version_date: "2026-10-19"
+version: "v0.2.8"
+version_date: "2026-10-26"
 download_url: https://github.com/adore11s/God-of-War-VR-Mod/releases/latest
 source_url: https://github.com/adore11s/God-of-War-VR-Mod
 license: MIT
@@ -33,4 +33,4 @@ reviews:
     url: https://www.youtube.com/watch?v=lb7DZuQwSpM
 added_by: bot
 discovered_via: https://github.com/adore11s/God-of-War-VR-Mod
-last_checked: "2026-10-20"
+last_checked: "2026-10-28"

@@ -1,0 +1,37 @@
+name: "Max Payne VR: Nightmare Edition"
+games:
+  - Max Payne
+category: mod
+authors:
+  - name: HaveliSkywalker
+platform: standalone
+headsets:
+  - Quest 2
+  - Quest 3
+  - Quest 3S
+  - Quest Pro
+controls: 6dof
+status: beta
+version: "v0.9.1"
+version_date: "2026-10-28"
+download_url: https://questports.vercel.app/ports/max-payne-vr
+source_url: https://questports.vercel.app/ports/max-payne-vr
+license: unknown
+required_files: Max Payne Mobile 1.7 (64-bit) original Rockstar APK and its OBB file (main.<number>.com.rockstar.maxpayne.obb)
+known_bugs: []
+notes: VR wrapper around Rockstar's Max Payne Mobile with dual-wielding, Bullet Time, holsters and optional hand tracking.
+images:
+  - game: Max Payne
+    file: images/max-payne-vr-nightmare-edition/max-payne.png
+    credit: Max Payne grid by ZOMBIEROT (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/169657
+reviews:
+  - title: Max Payne 1 HD (Mobile) VR Performance / New Meta Quest Standalone Mod with 6DOF Motion Controls
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=be00334qNus
+  - title: Max Payne 1 VR MOD + 6DOF motion controls / Quest Standalone
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=b04E_a2ibOk
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/max-payne-vr
+last_checked: "2026-10-28"

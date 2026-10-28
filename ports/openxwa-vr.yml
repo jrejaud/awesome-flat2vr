@@ -1,0 +1,32 @@
+name: OpenXWA VR
+games:
+  - "Star Wars: X-Wing Alliance"
+category: source-port
+authors:
+  - name: neitey
+    url: https://github.com/neitey
+  - name: MarkD
+platform: standalone
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: beta
+version: "v1.0.1"
+version_date: "2026-10-20"
+download_url: https://github.com/neitey/OpenXWA-Quest/releases/latest
+source_url: https://github.com/neitey/OpenXWA-Quest
+homepage: https://questports.vercel.app/ports/openxwa-vr
+license: GPL-3.0
+required_files: "Installed copy of Star Wars: X-Wing Alliance on a Windows PC (GOG, Steam or original CD)"
+known_bugs: []
+notes: Fork of OpenXWA with seated VR cockpits, grabbable flight stick/throttle and voice commands; installed via a Windows launcher over USB. Pico and Steam Frame experimental.
+images:
+  - game: "Star Wars: X-Wing Alliance"
+    file: images/openxwa-vr/star-wars-x-wing-alliance.jpg
+    credit: "Star Wars: X-Wing Alliance grid by Luckspeare (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/408016
+reviews: []
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/openxwa-vr
+last_checked: "2026-10-28"

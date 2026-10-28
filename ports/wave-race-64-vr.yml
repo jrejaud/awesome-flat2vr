@@ -1,0 +1,31 @@
+name: Wave Race 64 VR
+games:
+  - Wave Race 64
+category: source-port
+authors:
+  - name: VistaLargaGames
+    url: https://github.com/VistaLargaGames
+platform: standalone
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: mixed
+status: beta
+version: "v0.1.5"
+version_date: "2026-10-15"
+download_url: https://github.com/VistaLargaGames/WaveRace64-QuestVR/releases/latest
+source_url: https://github.com/VistaLargaGames/WaveRace64-QuestVR
+homepage: https://questports.vercel.app/ports/wave-race-64-vr
+license: unknown
+required_files: Wave Race 64 (USA) Rev A / v1.1 ROM (.z64, .n64 or .v64)
+known_bugs: []
+notes: Static recompilation with head-tracked stereo, chase or first-person camera, 60 fps, HD textures and Quest-to-Quest online 2-player.
+images:
+  - game: Wave Race 64
+    file: images/wave-race-64-vr/wave-race-64.png
+    credit: Wave Race 64 grid by alkazar (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/99763
+reviews: []
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/wave-race-64-vr
+last_checked: "2026-10-28"

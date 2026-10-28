@@ -1,0 +1,33 @@
+name: Vampire Hunters VR (VHVR)
+games:
+  - Vampire Hunters
+category: mod
+authors:
+  - name: alsdud95920-sys
+    url: https://github.com/alsdud95920-sys
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v0.9.7"
+version_date: "2026-10-22"
+download_url: https://github.com/alsdud95920-sys/VHVR-vampire-hunter-VR-mod/releases/latest
+source_url: https://github.com/alsdud95920-sys/VHVR-vampire-hunter-VR-mod
+license: GPL-3.0
+required_files: Vampire Hunters (Steam, build 22267731)
+known_bugs: []
+notes: BepInEx 6 IL2CPP plugin with native OpenXR host; only Virtual Desktop (VDXR) tested on real hardware.
+images:
+  - game: Vampire Hunters
+    file: images/vampire-hunters-vr-vhvr/vampire-hunters.jpg
+    credit: Vampire Hunters grid by MrKoby07 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/826646
+reviews:
+  - title: Vampire Hunters VR Performance / New VR Mod with 6DOF Motion Controls / Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=RhngOA8oRsI
+  - title: Vampire Hunters VR Mod - Full VR with head tracking + 6DOF Weapons
+    channel: FastLawyer
+    url: https://www.youtube.com/watch?v=_pcpuUD7iQE
+added_by: bot
+discovered_via: https://github.com/alsdud95920-sys/VHVR-vampire-hunter-VR-mod
+last_checked: "2026-10-28"

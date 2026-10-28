@@ -1,0 +1,30 @@
+name: FlatOut 2 VR
+games:
+  - FlatOut 2
+category: mod
+authors:
+  - name: Saikava
+    url: https://github.com/Saikava
+platform: pcvr
+controls: mixed
+status: stable
+version: "v1.6.4"
+version_date: "2026-10-27"
+download_url: https://github.com/Saikava/flatout2-vr/releases/latest
+source_url: https://github.com/Saikava/flatout2-vr
+license: MIT
+required_files: FlatOut 2 (GOG or Steam release)
+known_bugs: []
+notes: Stereo 3D with head tracking via OpenXR (SteamVR or Virtual Desktop) through DXVK, with a cockpit view and HUD panel.
+images:
+  - game: FlatOut 2
+    file: images/flatout-2-vr/flatout-2.png
+    credit: FlatOut 2 grid by Klumb3r (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/1745
+reviews:
+  - title: FlatOut 2 VR + Logitech G29 Steering Wheel Performance / New VR Mod / Meta Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=nEwPOAV10WQ
+added_by: bot
+discovered_via: https://github.com/Saikava/flatout2-vr
+last_checked: "2026-10-28"

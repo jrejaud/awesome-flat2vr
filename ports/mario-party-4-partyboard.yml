@@ -1,0 +1,34 @@
+name: Mario Party 4 PartyBoard
+games:
+  - Mario Party 4
+category: source-port
+authors:
+  - name: zeranemesis
+    url: https://github.com/zeranemesis
+platform: standalone
+headsets:
+  - Quest 2
+  - Quest 3
+  - Quest 3S
+  - Quest Pro
+controls: 6dof
+status: beta
+version: "v0.20.0"
+version_date: "2026-10-16"
+download_url: https://github.com/zeranemesis/Marioparty4/releases
+source_url: https://github.com/zeranemesis/Marioparty4
+homepage: https://questports.vercel.app/ports/mario-party-4-partyboard
+license: unknown
+required_files: "Own Mario Party 4 disc image: USA GMPE01 rev 0/1 or Europe GMPP01 (.iso, .rvz, .wia or .gcz)"
+known_bugs:
+  - Mixed reality only, not full VR; the 3D diorama is experimental and not yet a complete conversion of all boards and minigames
+notes: Native decompilation-based port that shows the board as a mixed reality tabletop diorama on Quest.
+images:
+  - game: Mario Party 4
+    file: images/mario-party-4-partyboard/mario-party-4.png
+    credit: Mario Party 4 grid by Sho. (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/263601
+reviews: []
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/mario-party-4-partyboard
+last_checked: "2026-10-28"

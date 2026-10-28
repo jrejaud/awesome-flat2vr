@@ -1,0 +1,38 @@
+name: Arx Libertatis VR
+games:
+  - Arx Fatalis
+category: source-port
+authors:
+  - name: cmpayc
+    url: https://github.com/cmpayc
+platform: both
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: beta
+version: "vr-v0.2.1"
+version_date: "2026-10-26"
+download_url: https://github.com/cmpayc/ArxLibertatisVR/releases/latest
+source_url: https://github.com/cmpayc/ArxLibertatisVR
+homepage: https://questports.vercel.app/ports/arx-libertatis-vr
+license: GPL-3.0
+required_files: Game data from your own copy of Arx Fatalis (Steam, GOG, CD) or the free demo
+known_bugs:
+  - Quest build is experimental; frame rate can drop in heavy scenes
+notes: Built on OpenXR; PCVR Windows build plus experimental native Quest 3 Vulkan build.
+images:
+  - game: Arx Fatalis
+    file: images/arx-libertatis-vr/arx-fatalis.png
+    credit: Arx Fatalis grid by Copernicus (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/846052
+reviews:
+  - title: Arx Fatalis VR – Arx Libertatis VR Beta Release
+    channel: ZXZybex
+    url: https://www.youtube.com/watch?v=_hC8KJUZ9v4
+  - title: Actually another HQ VR Mod | Arx Fatalis in VR
+    channel: StoniVR
+    url: https://www.youtube.com/watch?v=BIfWNSKTJmE
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/arx-libertatis-vr
+last_checked: "2026-10-28"
