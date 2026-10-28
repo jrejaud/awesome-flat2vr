@@ -1,0 +1,35 @@
+name: The Evil Within VR
+games:
+  - The Evil Within
+category: mod
+authors:
+  - name: TefMeister
+    url: https://github.com/TefMeister
+platform: pcvr
+status: alpha
+version: "v0.1.0-first-vr"
+version_date: "2026-10-11"
+download_url: https://github.com/TefMeister/the-evil-within-vr/releases/latest
+source_url: https://github.com/TefMeister/the-evil-within-vr
+license: unknown
+required_files: The Evil Within (2014) on Steam
+known_bugs:
+  - Not playable yet
+  - Convergence far too wide in menus
+  - Gameplay picture is flat, flickers and moves with head
+  - Low frame rate
+  - Gamepad may not work; keyboard and mouse needed
+  - Can cause severe motion sickness
+notes: Milestone build only; the project was marked paused on 2026-10-27.
+images:
+  - game: The Evil Within
+    file: images/the-evil-within-vr/the-evil-within.png
+    credit: The Evil Within grid by 0xOFF (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/436777
+reviews:
+  - title: The Evil Within In VR with First Person View (Plus set up Instructions)
+    channel: Headset-VR
+    url: https://www.youtube.com/watch?v=qRE7m-B8jN0
+added_by: bot
+discovered_via: https://github.com/TefMeister/the-evil-within-vr
+last_checked: "2026-10-28"

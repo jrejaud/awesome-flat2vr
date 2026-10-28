@@ -1,0 +1,37 @@
+name: BloodTruth
+games:
+  - Blood & Truth
+category: source-port
+authors:
+  - name: evertec82
+    url: https://github.com/evertec82
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.1.0"
+version_date: "2026-10-25"
+download_url: https://github.com/evertec82/BloodTruth/releases/latest
+source_url: https://github.com/evertec82/BloodTruth
+license: GPL-2.0
+required_files: Extracted Blood & Truth CUSA11108 version 1.00 game files (eboot.bin and sce_sys/param.sfo, original structure)
+known_bugs:
+  - Geometry and textures can disappear or pop in and out, including walls and hands
+  - Loading stalls and crashes remain possible
+  - Higher resolutions are experimental
+  - Not freshly tested in a headset
+notes: Built on shadPS4 with OpenXR; two tracked Move controllers mapped from VR controllers.
+images:
+  - game: Blood & Truth
+    file: images/bloodtruth/blood-truth.jpg
+    credit: Blood & Truth (Wikipedia)
+    source_url: https://en.wikipedia.org/wiki/Blood_%26_Truth
+reviews:
+  - title: Blood & Truth | PSVR Review [EXPLICIT]
+    channel: Without Parole
+    url: https://www.youtube.com/watch?v=f8RwQk7ORG8
+  - title: Blood & Truth On PSVR Is Brilliant!
+    channel: Virtual Reality Oasis
+    url: https://www.youtube.com/watch?v=0qlQ29GLDko
+added_by: bot
+discovered_via: https://github.com/evertec82/BloodTruth
+last_checked: "2026-10-28"

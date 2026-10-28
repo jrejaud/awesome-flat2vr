@@ -1336,6 +1336,59 @@
     "last_checked": "2026-10-18"
   },
   {
+    "slug": "bloodtruth",
+    "name": "BloodTruth",
+    "games": [
+      "Blood & Truth"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "evertec82",
+        "url": "https://github.com/evertec82"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.1.0",
+    "version_date": "2026-10-25",
+    "download_url": "https://github.com/evertec82/BloodTruth/releases/latest",
+    "source_url": "https://github.com/evertec82/BloodTruth",
+    "license": "GPL-2.0",
+    "required_files": "Extracted Blood & Truth CUSA11108 version 1.00 game files (eboot.bin and sce_sys/param.sfo, original structure)",
+    "known_bugs": [
+      "Geometry and textures can disappear or pop in and out, including walls and hands",
+      "Loading stalls and crashes remain possible",
+      "Higher resolutions are experimental",
+      "Not freshly tested in a headset"
+    ],
+    "notes": "Built on shadPS4 with OpenXR; two tracked Move controllers mapped from VR controllers.",
+    "images": [
+      {
+        "game": "Blood & Truth",
+        "file": "images/bloodtruth/blood-truth.jpg",
+        "credit": "Blood & Truth (Wikipedia)",
+        "source_url": "https://en.wikipedia.org/wiki/Blood_%26_Truth"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Blood & Truth | PSVR Review [EXPLICIT]",
+        "channel": "Without Parole",
+        "url": "https://www.youtube.com/watch?v=f8RwQk7ORG8"
+      },
+      {
+        "title": "Blood & Truth On PSVR Is Brilliant!",
+        "channel": "Virtual Reality Oasis",
+        "url": "https://www.youtube.com/watch?v=0qlQ29GLDko"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/evertec82/BloodTruth",
+    "last_checked": "2026-10-28"
+  },
+  {
     "slug": "bomberman-hero-quest-3-vr-standalone",
     "name": "Bomberman Hero Quest 3 VR Standalone",
     "games": [
@@ -1986,6 +2039,59 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/AshenVR/DeadRisingVR",
+    "last_checked": "2026-10-28"
+  },
+  {
+    "slug": "death-crimson-ox-vr",
+    "name": "Death Crimson OX VR",
+    "games": [
+      "Death Crimson OX"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "vr4all-standalone",
+        "url": "https://github.com/vr4all-standalone"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v1.0.4",
+    "version_date": "2026-10-27",
+    "download_url": "https://github.com/vr4all-standalone/death-crimson-ox-vr/releases/latest",
+    "source_url": "https://github.com/vr4all-standalone/death-crimson-ox-vr",
+    "license": "GPL-2.0",
+    "required_files": "Your own NAOMI Japan Rev A cartridge ROM (deathcoxj.zip) and naomi.zip BIOS",
+    "known_bugs": [
+      "Physical headset performance, tracking, comfort and full later-stage coverage remain unverified"
+    ],
+    "notes": "Built on mikermak's VR fork of Flycast; labeled experimental.",
+    "images": [
+      {
+        "game": "Death Crimson OX",
+        "file": "images/death-crimson-ox-vr/death-crimson-ox.png",
+        "credit": "Death Crimson OX grid by Leprechaun2055 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/598545"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "It's 'Death Crimson' From Dreamcast In VR With Namco's Light Gun! (EMUVR)",
+        "channel": "Press start to begin",
+        "url": "https://www.youtube.com/watch?v=M1x3-cu_y2g"
+      },
+      {
+        "title": "It's 'Death Crimson OX' From Dreamcast In VR With Namco's Light Gun For PS1! (EMUVR)",
+        "channel": "Press start to begin",
+        "url": "https://www.youtube.com/watch?v=cHi0qoCG0fQ"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/vr4all-standalone/death-crimson-ox-vr",
     "last_checked": "2026-10-28"
   },
   {
@@ -4300,6 +4406,54 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "howtofish-vrmod",
+    "name": "HowToFish-VRMod",
+    "games": [
+      "How to Fish"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "sniperstyx",
+        "url": "https://github.com/sniperstyx"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v1.0.0",
+    "version_date": "2026-10-27",
+    "download_url": "https://github.com/sniperstyx/HowToFish-VRMod/releases/latest",
+    "source_url": "https://github.com/sniperstyx/HowToFish-VRMod",
+    "license": "unknown",
+    "required_files": "How to Fish (Steam)",
+    "known_bugs": [],
+    "notes": "First public release candidate; works over SteamVR, Quest Link/Air Link/Virtual Desktop and supports multiplayer with flatscreen players. The author says it was created with AI tools.",
+    "images": [
+      {
+        "game": "How to Fish",
+        "file": "images/howtofish-vrmod/how-to-fish.png",
+        "credit": "How to Fish grid by Dark Hunter (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/839277"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "how to fish but it's in VR",
+        "channel": "Xifo",
+        "url": "https://www.youtube.com/watch?v=vemHwDFoPI0"
+      },
+      {
+        "title": "How To Fish In VR Mod! ",
+        "channel": "NcK",
+        "url": "https://www.youtube.com/watch?v=5SN0OdeUBfI"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/sniperstyx/HowToFish-VRMod",
+    "last_checked": "2026-10-28"
+  },
+  {
     "slug": "hp2vr",
     "name": "HP2VR",
     "games": [
@@ -5174,8 +5328,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.20.0",
-    "version_date": "2026-10-16",
+    "version": "dev-c79f0d4551a1",
+    "version_date": "2026-10-26",
     "download_url": "https://github.com/zeranemesis/Marioparty4/releases",
     "source_url": "https://github.com/zeranemesis/Marioparty4",
     "homepage": "https://questports.vercel.app/ports/mario-party-4-partyboard",
@@ -5807,6 +5961,95 @@
     "last_checked": "2026-10-28"
   },
   {
+    "slug": "neo-the-world-ends-with-you-vr",
+    "name": "NEO: The World Ends with You VR",
+    "games": [
+      "NEO: The World Ends with You"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "mark-mon",
+        "url": "https://github.com/mark-mon"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "stable",
+    "version": "v1.0",
+    "version_date": "2026-10-27",
+    "download_url": "https://github.com/mark-mon/neo-the-world-ends-with-you-vr/releases/latest",
+    "source_url": "https://github.com/mark-mon/neo-the-world-ends-with-you-vr",
+    "license": "GPL-3.0",
+    "required_files": "NEO: The World Ends with You (Steam, Windows)",
+    "known_bugs": [],
+    "notes": "Single version.dll drop-in with OpenXR stereo rendering, head tracking, separate HUD panel and in-headset settings menu; played in third person with a gamepad.",
+    "images": [
+      {
+        "game": "NEO: The World Ends with You",
+        "file": "images/neo-the-world-ends-with-you-vr/neo-the-world-ends-with-you.png",
+        "credit": "NEO: The World Ends with You grid by Joker28CR (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/212170"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/mark-mon/neo-the-world-ends-with-you-vr",
+    "last_checked": "2026-10-28"
+  },
+  {
+    "slug": "new-star-gp-vr",
+    "name": "New Star GP VR",
+    "games": [
+      "New Star GP"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "King-EJ",
+        "url": "https://github.com/King-EJ"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "mixed",
+    "status": "alpha",
+    "version": "NewStarGPVR",
+    "version_date": "2026-10-27",
+    "download_url": "https://github.com/King-EJ/New-Star-GP-VR/releases/latest",
+    "source_url": "https://github.com/King-EJ/New-Star-GP-VR",
+    "license": "unknown",
+    "required_files": "New Star GP game install (BepInEx and OpenXR.dll required)",
+    "known_bugs": [
+      "Described as \"broken for test play\"",
+      "Build is source-only, not compiled/tested in-game",
+      "Quest keyboard driving may not work if the game uses Rewired or gamepad-only input"
+    ],
+    "notes": "BepInEx plugin (NSGPVR.dll) with a fixed cockpit position and Quest/Xbox driving controls.",
+    "images": [
+      {
+        "game": "New Star GP",
+        "file": "images/new-star-gp-vr/new-star-gp.png",
+        "credit": "New Star GP grid by ill0fran (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/561195"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "New Star GP in VR with G29, UUVR tutorial",
+        "channel": "András Lux",
+        "url": "https://www.youtube.com/watch?v=XcYYAixcqhQ"
+      },
+      {
+        "title": "Yaw VR - New Star GP Exclusive",
+        "channel": "Drowhunter",
+        "url": "https://www.youtube.com/watch?v=kYxSOozYCLY"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/King-EJ/New-Star-GP-VR",
+    "last_checked": "2026-10-28"
+  },
+  {
     "slug": "newdarkvr",
     "name": "NewDarkVR",
     "games": [
@@ -5939,6 +6182,48 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/bldbrne-vr/bldbrne-vr",
+    "last_checked": "2026-10-28"
+  },
+  {
+    "slug": "ninja-assault-vr",
+    "name": "Ninja Assault VR",
+    "games": [
+      "Ninja Assault"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "vr4all-standalone",
+        "url": "https://github.com/vr4all-standalone"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Meta Quest"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v1.0.5",
+    "version_date": "2026-10-27",
+    "download_url": "https://github.com/vr4all-standalone/ninja-assault-vr/releases/latest",
+    "source_url": "https://github.com/vr4all-standalone/ninja-assault-vr",
+    "license": "GPL-2.0",
+    "required_files": "Your own World NJA2 Ver.A cartridge set and NAOMI BIOS",
+    "known_bugs": [
+      "Physical headset testing and later-stage coverage remain pending"
+    ],
+    "notes": "Experimental Flycast-based port built on mikermak's hotd2-vr; tracked controllers act as light guns.",
+    "images": [
+      {
+        "game": "Ninja Assault",
+        "file": "images/ninja-assault-vr/ninja-assault.png",
+        "credit": "Ninja Assault grid by carlsgrids (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/194789"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/vr4all-standalone/ninja-assault-vr",
     "last_checked": "2026-10-28"
   },
   {
@@ -9296,6 +9581,58 @@
     "last_checked": "2026-10-28"
   },
   {
+    "slug": "snowrunner-vr",
+    "name": "SnowRunner VR",
+    "games": [
+      "SnowRunner"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Timguin-87",
+        "url": "https://github.com/Timguin-87"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.5",
+    "version_date": "2026-10-27",
+    "download_url": "https://github.com/Timguin-87/Snowrunner-VR/releases/latest",
+    "source_url": "https://github.com/Timguin-87/Snowrunner-VR",
+    "license": "MIT",
+    "required_files": "SnowRunner (Steam, DX11)",
+    "known_bugs": [
+      "Trucks and trailers show some AER offsets with stale-eye warp, and the cockpit feels lower fps than the world",
+      "Some graphical issues remain with DIBR shift",
+      "Linux/Proton fix is untested"
+    ],
+    "notes": "Injected as a proxy dxgi.dll, using an OpenXR runtime with stale-eye warp and DIBR shift render options.",
+    "images": [
+      {
+        "game": "SnowRunner",
+        "file": "images/snowrunner-vr/snowrunner.png",
+        "credit": "SnowRunner grid by Marok (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/71373"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "SnowRunner VR Driver stream 0706",
+        "channel": "VR Driver",
+        "url": "https://www.youtube.com/watch?v=yfYwHkEZFD0"
+      },
+      {
+        "title": "Snowrunner VR Tutorial for all headsets / Mud and snow within reach",
+        "channel": "BeeDee Sim VR",
+        "url": "https://www.youtube.com/watch?v=LcAE-olx_j0"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/Timguin-87/Snowrunner-VR",
+    "last_checked": "2026-10-28"
+  },
+  {
     "slug": "soma-vr",
     "name": "SOMA VR",
     "games": [
@@ -9837,6 +10174,46 @@
     "last_checked": "2026-10-12"
   },
   {
+    "slug": "survivor-2-code-veronica-vr",
+    "name": "Survivor 2 - Code: Veronica VR",
+    "games": [
+      "Resident Evil Survivor 2 - Code: Veronica"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "vr4all-standalone",
+        "url": "https://github.com/vr4all-standalone"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Meta Quest"
+    ],
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.0.5",
+    "version_date": "2026-10-27",
+    "download_url": "https://github.com/vr4all-standalone/survivor2-code-veronica-vr/releases/latest",
+    "source_url": "https://github.com/vr4all-standalone/survivor2-code-veronica-vr",
+    "license": "GPL-2.0",
+    "required_files": "Your own NAOMI World BHF2 Ver. E (gunsur2) game and BIOS",
+    "known_bugs": [],
+    "notes": "Based on Flycast and hotd2-vr; single-player only.",
+    "images": [
+      {
+        "game": "Resident Evil Survivor 2 - Code: Veronica",
+        "file": "images/survivor-2-code-veronica-vr/resident-evil-survivor-2-code-veronica.png",
+        "credit": "Resident Evil Survivor 2 Code: Veronica grid by sven_idk (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/859284"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/vr4all-standalone/survivor2-code-veronica-vr",
+    "last_checked": "2026-10-28"
+  },
+  {
     "slug": "system-shock-remake-uevr-plugin",
     "name": "System Shock Remake UEVR Plugin",
     "games": [
@@ -10022,6 +10399,55 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/King-EJ/The-Crimson-Hunt-VR-single-player-",
     "last_checked": "2026-10-15"
+  },
+  {
+    "slug": "the-evil-within-vr",
+    "name": "The Evil Within VR",
+    "games": [
+      "The Evil Within"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "TefMeister",
+        "url": "https://github.com/TefMeister"
+      }
+    ],
+    "platform": "pcvr",
+    "status": "alpha",
+    "version": "v0.1.0-first-vr",
+    "version_date": "2026-10-11",
+    "download_url": "https://github.com/TefMeister/the-evil-within-vr/releases/latest",
+    "source_url": "https://github.com/TefMeister/the-evil-within-vr",
+    "license": "unknown",
+    "required_files": "The Evil Within (2014) on Steam",
+    "known_bugs": [
+      "Not playable yet",
+      "Convergence far too wide in menus",
+      "Gameplay picture is flat, flickers and moves with head",
+      "Low frame rate",
+      "Gamepad may not work; keyboard and mouse needed",
+      "Can cause severe motion sickness"
+    ],
+    "notes": "Milestone build only; the project was marked paused on 2026-10-27.",
+    "images": [
+      {
+        "game": "The Evil Within",
+        "file": "images/the-evil-within-vr/the-evil-within.png",
+        "credit": "The Evil Within grid by 0xOFF (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/436777"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "The Evil Within In VR with First Person View (Plus set up Instructions)",
+        "channel": "Headset-VR",
+        "url": "https://www.youtube.com/watch?v=qRE7m-B8jN0"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/TefMeister/the-evil-within-vr",
+    "last_checked": "2026-10-28"
   },
   {
     "slug": "the-house-of-the-dead-2-vr",

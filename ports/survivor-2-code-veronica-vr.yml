@@ -1,0 +1,29 @@
+name: "Survivor 2 - Code: Veronica VR"
+games:
+  - "Resident Evil Survivor 2 - Code: Veronica"
+category: source-port
+authors:
+  - name: vr4all-standalone
+    url: https://github.com/vr4all-standalone
+platform: both
+headsets:
+  - Meta Quest
+controls: 6dof
+status: stable
+version: "v1.0.5"
+version_date: "2026-10-27"
+download_url: https://github.com/vr4all-standalone/survivor2-code-veronica-vr/releases/latest
+source_url: https://github.com/vr4all-standalone/survivor2-code-veronica-vr
+license: GPL-2.0
+required_files: Your own NAOMI World BHF2 Ver. E (gunsur2) game and BIOS
+known_bugs: []
+notes: Based on Flycast and hotd2-vr; single-player only.
+images:
+  - game: "Resident Evil Survivor 2 - Code: Veronica"
+    file: images/survivor-2-code-veronica-vr/resident-evil-survivor-2-code-veronica.png
+    credit: "Resident Evil Survivor 2 Code: Veronica grid by sven_idk (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/859284
+reviews: []
+added_by: bot
+discovered_via: https://github.com/vr4all-standalone/survivor2-code-veronica-vr
+last_checked: "2026-10-28"

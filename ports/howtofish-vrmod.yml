@@ -1,0 +1,33 @@
+name: HowToFish-VRMod
+games:
+  - How to Fish
+category: mod
+authors:
+  - name: sniperstyx
+    url: https://github.com/sniperstyx
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v1.0.0"
+version_date: "2026-10-27"
+download_url: https://github.com/sniperstyx/HowToFish-VRMod/releases/latest
+source_url: https://github.com/sniperstyx/HowToFish-VRMod
+license: unknown
+required_files: How to Fish (Steam)
+known_bugs: []
+notes: First public release candidate; works over SteamVR, Quest Link/Air Link/Virtual Desktop and supports multiplayer with flatscreen players. The author says it was created with AI tools.
+images:
+  - game: How to Fish
+    file: images/howtofish-vrmod/how-to-fish.png
+    credit: How to Fish grid by Dark Hunter (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/839277
+reviews:
+  - title: how to fish but it's in VR
+    channel: Xifo
+    url: https://www.youtube.com/watch?v=vemHwDFoPI0
+  - title: "How To Fish In VR Mod! "
+    channel: NcK
+    url: https://www.youtube.com/watch?v=5SN0OdeUBfI
+added_by: bot
+discovered_via: https://github.com/sniperstyx/HowToFish-VRMod
+last_checked: "2026-10-28"

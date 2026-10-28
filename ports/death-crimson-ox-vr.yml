@@ -1,0 +1,36 @@
+name: Death Crimson OX VR
+games:
+  - Death Crimson OX
+category: source-port
+authors:
+  - name: vr4all-standalone
+    url: https://github.com/vr4all-standalone
+platform: both
+headsets:
+  - Quest
+controls: 6dof
+status: alpha
+version: "v1.0.4"
+version_date: "2026-10-27"
+download_url: https://github.com/vr4all-standalone/death-crimson-ox-vr/releases/latest
+source_url: https://github.com/vr4all-standalone/death-crimson-ox-vr
+license: GPL-2.0
+required_files: Your own NAOMI Japan Rev A cartridge ROM (deathcoxj.zip) and naomi.zip BIOS
+known_bugs:
+  - Physical headset performance, tracking, comfort and full later-stage coverage remain unverified
+notes: Built on mikermak's VR fork of Flycast; labeled experimental.
+images:
+  - game: Death Crimson OX
+    file: images/death-crimson-ox-vr/death-crimson-ox.png
+    credit: Death Crimson OX grid by Leprechaun2055 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/598545
+reviews:
+  - title: It's 'Death Crimson' From Dreamcast In VR With Namco's Light Gun! (EMUVR)
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=M1x3-cu_y2g
+  - title: It's 'Death Crimson OX' From Dreamcast In VR With Namco's Light Gun For PS1! (EMUVR)
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=cHi0qoCG0fQ
+added_by: bot
+discovered_via: https://github.com/vr4all-standalone/death-crimson-ox-vr
+last_checked: "2026-10-28"

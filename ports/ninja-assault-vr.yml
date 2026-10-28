@@ -1,0 +1,30 @@
+name: Ninja Assault VR
+games:
+  - Ninja Assault
+category: source-port
+authors:
+  - name: vr4all-standalone
+    url: https://github.com/vr4all-standalone
+platform: both
+headsets:
+  - Meta Quest
+controls: 6dof
+status: alpha
+version: "v1.0.5"
+version_date: "2026-10-27"
+download_url: https://github.com/vr4all-standalone/ninja-assault-vr/releases/latest
+source_url: https://github.com/vr4all-standalone/ninja-assault-vr
+license: GPL-2.0
+required_files: Your own World NJA2 Ver.A cartridge set and NAOMI BIOS
+known_bugs:
+  - Physical headset testing and later-stage coverage remain pending
+notes: Experimental Flycast-based port built on mikermak's hotd2-vr; tracked controllers act as light guns.
+images:
+  - game: Ninja Assault
+    file: images/ninja-assault-vr/ninja-assault.png
+    credit: Ninja Assault grid by carlsgrids (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/194789
+reviews: []
+added_by: bot
+discovered_via: https://github.com/vr4all-standalone/ninja-assault-vr
+last_checked: "2026-10-28"

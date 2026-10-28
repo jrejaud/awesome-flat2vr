@@ -1,0 +1,36 @@
+name: SnowRunner VR
+games:
+  - SnowRunner
+category: mod
+authors:
+  - name: Timguin-87
+    url: https://github.com/Timguin-87
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v0.5"
+version_date: "2026-10-27"
+download_url: https://github.com/Timguin-87/Snowrunner-VR/releases/latest
+source_url: https://github.com/Timguin-87/Snowrunner-VR
+license: MIT
+required_files: SnowRunner (Steam, DX11)
+known_bugs:
+  - Trucks and trailers show some AER offsets with stale-eye warp, and the cockpit feels lower fps than the world
+  - Some graphical issues remain with DIBR shift
+  - Linux/Proton fix is untested
+notes: Injected as a proxy dxgi.dll, using an OpenXR runtime with stale-eye warp and DIBR shift render options.
+images:
+  - game: SnowRunner
+    file: images/snowrunner-vr/snowrunner.png
+    credit: SnowRunner grid by Marok (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/71373
+reviews:
+  - title: SnowRunner VR Driver stream 0706
+    channel: VR Driver
+    url: https://www.youtube.com/watch?v=yfYwHkEZFD0
+  - title: Snowrunner VR Tutorial for all headsets / Mud and snow within reach
+    channel: BeeDee Sim VR
+    url: https://www.youtube.com/watch?v=LcAE-olx_j0
+added_by: bot
+discovered_via: https://github.com/Timguin-87/Snowrunner-VR
+last_checked: "2026-10-28"

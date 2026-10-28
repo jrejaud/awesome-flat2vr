@@ -1,0 +1,36 @@
+name: New Star GP VR
+games:
+  - New Star GP
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: mixed
+status: alpha
+version: "NewStarGPVR"
+version_date: "2026-10-27"
+download_url: https://github.com/King-EJ/New-Star-GP-VR/releases/latest
+source_url: https://github.com/King-EJ/New-Star-GP-VR
+license: unknown
+required_files: New Star GP game install (BepInEx and OpenXR.dll required)
+known_bugs:
+  - Described as "broken for test play"
+  - Build is source-only, not compiled/tested in-game
+  - Quest keyboard driving may not work if the game uses Rewired or gamepad-only input
+notes: BepInEx plugin (NSGPVR.dll) with a fixed cockpit position and Quest/Xbox driving controls.
+images:
+  - game: New Star GP
+    file: images/new-star-gp-vr/new-star-gp.png
+    credit: New Star GP grid by ill0fran (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/561195
+reviews:
+  - title: New Star GP in VR with G29, UUVR tutorial
+    channel: András Lux
+    url: https://www.youtube.com/watch?v=XcYYAixcqhQ
+  - title: Yaw VR - New Star GP Exclusive
+    channel: Drowhunter
+    url: https://www.youtube.com/watch?v=kYxSOozYCLY
+added_by: bot
+discovered_via: https://github.com/King-EJ/New-Star-GP-VR
+last_checked: "2026-10-28"

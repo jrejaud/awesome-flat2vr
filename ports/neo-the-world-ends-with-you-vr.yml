@@ -1,0 +1,27 @@
+name: "NEO: The World Ends with You VR"
+games:
+  - "NEO: The World Ends with You"
+category: mod
+authors:
+  - name: mark-mon
+    url: https://github.com/mark-mon
+platform: pcvr
+controls: gamepad
+status: stable
+version: "v1.0"
+version_date: "2026-10-27"
+download_url: https://github.com/mark-mon/neo-the-world-ends-with-you-vr/releases/latest
+source_url: https://github.com/mark-mon/neo-the-world-ends-with-you-vr
+license: GPL-3.0
+required_files: "NEO: The World Ends with You (Steam, Windows)"
+known_bugs: []
+notes: Single version.dll drop-in with OpenXR stereo rendering, head tracking, separate HUD panel and in-headset settings menu; played in third person with a gamepad.
+images:
+  - game: "NEO: The World Ends with You"
+    file: images/neo-the-world-ends-with-you-vr/neo-the-world-ends-with-you.png
+    credit: "NEO: The World Ends with You grid by Joker28CR (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/212170
+reviews: []
+added_by: bot
+discovered_via: https://github.com/mark-mon/neo-the-world-ends-with-you-vr
+last_checked: "2026-10-28"
