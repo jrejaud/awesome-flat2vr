@@ -29,7 +29,7 @@ fi
 
 git fetch -q origin main
 git checkout -q --force -B main origin/main
-if [ ! -d node_modules ] || [ package-lock.json -nt node_modules/.package-lock.json ]; then
+if scripts/discover/needs-install.sh .; then
   npm ci --silent --no-audit --no-fund
 fi
 exec node scripts/discover/run.mjs --commit --notify "$@"
