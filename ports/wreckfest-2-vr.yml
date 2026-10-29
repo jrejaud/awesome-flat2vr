@@ -1,0 +1,38 @@
+name: Wreckfest 2 VR
+games:
+  - Wreckfest 2
+category: mod
+authors:
+  - name: MatsKarlsson
+    url: https://github.com/MatsKarlsson
+platform: pcvr
+headsets:
+  - Quest 3
+controls: gamepad
+status: alpha
+version: "v0.8.2"
+version_date: "2026-10-28"
+download_url: https://github.com/MatsKarlsson/Wreckfest2VR/releases/latest
+source_url: https://github.com/MatsKarlsson/Wreckfest2VR
+license: unknown
+required_files: Own copy of Wreckfest 2 (Steam)
+known_bugs:
+  - "Early access: bugs, missing effects and crashes expected"
+  - Track changes can still crash the game
+  - Some effects are incomplete
+notes: Stereoscopic cockpit VR with head tracking; tested on Quest 3 via Virtual Desktop and VDXR, offline races only.
+images:
+  - game: Wreckfest 2
+    file: images/wreckfest-2-vr/wreckfest-2.png
+    credit: Wreckfest 2 grid by Viator_ (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/470882
+reviews:
+  - title: WRECKFEST 2 (Early Access) in 3D in a VR Headset is GOD TIER! (Watch OR Play in EYE POPPING 3D!)
+    channel: Paradise Decay
+    url: https://www.youtube.com/watch?v=CwANBfHMz7g
+  - title: Wreckfest 2 VR + Logitech G29 Steering Wheel Performance / New VR Mod / Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=TbRqJR0hiUk
+added_by: bot
+discovered_via: https://github.com/MatsKarlsson/Wreckfest2VR
+last_checked: "2026-10-29"

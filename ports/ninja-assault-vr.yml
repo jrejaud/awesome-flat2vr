@@ -10,8 +10,8 @@ headsets:
   - Meta Quest
 controls: 6dof
 status: alpha
-version: "v1.0.5"
-version_date: "2026-10-27"
+version: "v1.0.6"
+version_date: "2026-10-29"
 download_url: https://github.com/vr4all-standalone/ninja-assault-vr/releases/latest
 source_url: https://github.com/vr4all-standalone/ninja-assault-vr
 license: GPL-2.0
@@ -27,4 +27,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/vr4all-standalone/ninja-assault-vr
-last_checked: "2026-10-28"
+last_checked: "2026-10-29"

@@ -1,0 +1,39 @@
+name: Confidential Mission VR
+games:
+  - Confidential Mission
+category: source-port
+authors:
+  - name: vr4all-standalone
+    url: https://github.com/vr4all-standalone
+  - name: mikermak
+    url: https://github.com/mikermak/hotd2-vr
+platform: both
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: beta
+version: "v1.2.7"
+version_date: "2026-10-29"
+download_url: https://github.com/vr4all-standalone/confidential-mission-vr/releases/latest
+source_url: https://github.com/vr4all-standalone/confidential-mission-vr
+homepage: https://questports.vercel.app/ports/confidential-mission-vr
+license: GPL-2.0
+required_files: "Legally owned Sega NAOMI MAME set: confmiss.zip, confmiss/gds-0001.chd, and naomi.zip"
+known_bugs: []
+notes: VR fork of Flycast (via mikermak's hotd2-vr fork) with tracked controllers as 1:1 light guns; Quest standalone APK and PC VR zip.
+images:
+  - game: Confidential Mission
+    file: images/confidential-mission-vr/confidential-mission.png
+    credit: Confidential Mission grid by Macho Sadness (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/521374
+reviews:
+  - title: Pilot vlogger on a confidential mission in VTOL VR.
+    channel: AliVentura
+    url: https://www.youtube.com/watch?v=S8wPLZtvvFY
+  - title: it's 'Confidential Mission' From Dreamcast In VR With Light Gun! (EMUVR)
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=jDBEdNgFlps
+added_by: bot
+discovered_via: https://questports.vercel.app/ports/confidential-mission-vr
+last_checked: "2026-10-29"

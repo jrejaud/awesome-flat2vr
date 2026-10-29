@@ -1,0 +1,36 @@
+name: DS3 VR
+games:
+  - Dark Souls III
+category: mod
+authors:
+  - name: scubasteve2365
+    url: https://github.com/scubasteve2365
+platform: pcvr
+headsets:
+  - Meta Quest 3
+controls: gamepad
+status: stable
+version: "v2.0.0"
+version_date: "2026-10-29"
+download_url: https://github.com/scubasteve2365/DS3-VR/releases/latest
+source_url: https://github.com/scubasteve2365/DS3-VR
+license: MIT
+required_files: Dark Souls III on Steam, version 1.15.2; Helifax's Dark Souls 3 geo-11 fix (fetched by the installer script)
+known_bugs:
+  - SteamVR over Quest Link has known problems (upside-down menu, black screen after Start)
+notes: Uses OpenXR with Helifax's geo-11 stereo rendering; optional NVIDIA DLSS/DLAA on RTX cards; gamepad only, no motion controls.
+images:
+  - game: Dark Souls III
+    file: images/ds3-vr/dark-souls-iii.jpg
+    credit: Dark Souls III grid by ming2236 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/364739
+reviews:
+  - title: Dark Souls in VR is RIDICULOUS! // Dark Souls 3 First Person VR Gameplay
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=7dQkcR8BVNI
+  - title: DARK SOULS 3 IN VR - Dark Souls 3 First Person mod with the Oculus Rift!
+    channel: Hoopermation VR
+    url: https://www.youtube.com/watch?v=yUGZW2x-hhw
+added_by: bot
+discovered_via: https://github.com/scubasteve2365/DS3-VR
+last_checked: "2026-10-29"

@@ -1,0 +1,32 @@
+name: I Hate This Place VR Mod
+games:
+  - I Hate This Place
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+headsets:
+  - Quest 3
+controls: mixed
+status: alpha
+version: "IHateThisPlaceVRMod"
+version_date: "2026-10-03"
+download_url: https://github.com/King-EJ/I-Hate-This-Place-VR-Mod/releases/latest
+source_url: https://github.com/King-EJ/I-Hate-This-Place-VR-Mod
+license: unknown
+required_files: I Hate This Place (Steam PC version)
+known_bugs: []
+notes: BepInEx 6 Unity IL2CPP mod using OpenXR with first-person and normal views; README lists version 0.1.20 as a test build, tested only on Quest 3 via Virtual Desktop.
+images:
+  - game: I Hate This Place
+    file: images/i-hate-this-place-vr-mod/i-hate-this-place.jpg
+    credit: I Hate This Place store art
+    source_url: https://store.steampowered.com/app/2604490/
+reviews:
+  - title: I Hate This Place VR Mod w. 6DOF Motion Controls + Download
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=V6aomsQwg_0
+added_by: bot
+discovered_via: https://github.com/King-EJ/I-Hate-This-Place-VR-Mod
+last_checked: "2026-10-29"

@@ -1,0 +1,27 @@
+name: Resonance of Fate VR
+games:
+  - Resonance of Fate 4K/HD Edition
+category: mod
+authors:
+  - name: mark-mon
+    url: https://github.com/mark-mon
+platform: pcvr
+controls: gamepad
+status: stable
+version: "v1.0"
+version_date: "2026-10-28"
+download_url: https://github.com/mark-mon/resonance-of-fate-vr/releases/latest
+source_url: https://github.com/mark-mon/resonance-of-fate-vr
+license: unknown
+required_files: Steam version 1.0.0.4 of Resonance of Fate 4K/HD Edition
+known_bugs: []
+notes: Native stereo rendering with head tracking on fixed cameras, separate HUD layer and in-headset settings menu; requires SteamVR.
+images:
+  - game: Resonance of Fate 4K/HD Edition
+    file: images/resonance-of-fate-vr/resonance-of-fate-4k-hd-edition.png
+    credit: Resonance of Fate 4K/HD Edition grid by NotJadlp (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/464583
+reviews: []
+added_by: bot
+discovered_via: https://github.com/mark-mon/resonance-of-fate-vr
+last_checked: "2026-10-29"

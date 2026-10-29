@@ -1,0 +1,27 @@
+name: Silver Valley Screams VR
+games:
+  - Silver Valley Screams
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: mixed
+status: alpha
+version: "SilverValleyScreamsVR"
+version_date: "2026-10-28"
+download_url: https://github.com/King-EJ/Silver-Valley-Screams-VR/releases/latest
+source_url: https://github.com/King-EJ/Silver-Valley-Screams-VR
+license: unknown
+required_files: Silver Valley Screams (PC)
+known_bugs: []
+notes: Unity IL2CPP BepInEx 6 mod; v0.3.0 test build, only tested with Virtual Desktop OpenXR; controllers act as keyboard and mouse.
+images:
+  - game: Silver Valley Screams
+    file: images/silver-valley-screams-vr/silver-valley-screams.jpg
+    credit: Silver Valley Screams store art
+    source_url: https://store.steampowered.com/app/4831660/
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/Silver-Valley-Screams-VR
+last_checked: "2026-10-29"

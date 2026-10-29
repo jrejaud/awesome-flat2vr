@@ -752,6 +752,58 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "bc2vr",
+    "name": "BC2VR",
+    "games": [
+      "Battlefield: Bad Company 2"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "justiceofrip",
+        "url": "https://github.com/justiceofrip"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.1.15",
+    "version_date": "2026-10-26",
+    "download_url": "https://github.com/justiceofrip/BC2VR/releases/latest",
+    "source_url": "https://github.com/justiceofrip/BC2VR",
+    "license": "unknown",
+    "required_files": "Own installation of Battlefield: Bad Company 2 (BFBC2Game.exe, Direct3D 11)",
+    "known_bugs": [
+      "Vehicles, destruction rendering and death/reload crashes remain unresolved",
+      "Multiplayer is unsupported",
+      "Complete campaign has not passed acceptance"
+    ],
+    "notes": "Built on FrostbiteVR; singleplayer only, OpenXR headset via PC streaming (SteamVR tested).",
+    "images": [
+      {
+        "game": "Battlefield: Bad Company 2",
+        "file": "images/bc2vr/battlefield-bad-company-2.png",
+        "credit": "Battlefield: Bad Company 2 grid by Jesus (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/25609"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Battlefield Bad Company 2 in Virtual Reality (Oculus Rift: DK2)",
+        "channel": "Nathie",
+        "url": "https://www.youtube.com/watch?v=8QDMKEVrZHg"
+      },
+      {
+        "title": "Battlefield: Bad Company 2 VR Performance / New VR Mod with 6DOF Motion Controls / Quest 3 - PCVR",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=EvzOZ35dSdA"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/justiceofrip/BC2VR",
+    "last_checked": "2026-10-29"
+  },
+  {
     "slug": "beefraiderxr",
     "name": "BeefRaiderXR",
     "games": [
@@ -1577,6 +1629,63 @@
     "last_checked": "2026-10-28"
   },
   {
+    "slug": "confidential-mission-vr",
+    "name": "Confidential Mission VR",
+    "games": [
+      "Confidential Mission"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "vr4all-standalone",
+        "url": "https://github.com/vr4all-standalone"
+      },
+      {
+        "name": "mikermak",
+        "url": "https://github.com/mikermak/hotd2-vr"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest 3",
+      "Quest 3S"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v1.2.7",
+    "version_date": "2026-10-29",
+    "download_url": "https://github.com/vr4all-standalone/confidential-mission-vr/releases/latest",
+    "source_url": "https://github.com/vr4all-standalone/confidential-mission-vr",
+    "homepage": "https://questports.vercel.app/ports/confidential-mission-vr",
+    "license": "GPL-2.0",
+    "required_files": "Legally owned Sega NAOMI MAME set: confmiss.zip, confmiss/gds-0001.chd, and naomi.zip",
+    "known_bugs": [],
+    "notes": "VR fork of Flycast (via mikermak's hotd2-vr fork) with tracked controllers as 1:1 light guns; Quest standalone APK and PC VR zip.",
+    "images": [
+      {
+        "game": "Confidential Mission",
+        "file": "images/confidential-mission-vr/confidential-mission.png",
+        "credit": "Confidential Mission grid by Macho Sadness (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/521374"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Pilot vlogger on a confidential mission in VTOL VR.",
+        "channel": "AliVentura",
+        "url": "https://www.youtube.com/watch?v=S8wPLZtvvFY"
+      },
+      {
+        "title": "it's 'Confidential Mission' From Dreamcast In VR With Light Gun! (EMUVR)",
+        "channel": "Press start to begin",
+        "url": "https://www.youtube.com/watch?v=jDBEdNgFlps"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/confidential-mission-vr",
+    "last_checked": "2026-10-29"
+  },
+  {
     "slug": "control-vr",
     "name": "Control VR",
     "games": [
@@ -2060,8 +2169,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v1.0.4",
-    "version_date": "2026-10-27",
+    "version": "v1.0.5",
+    "version_date": "2026-10-29",
     "download_url": "https://github.com/vr4all-standalone/death-crimson-ox-vr/releases/latest",
     "source_url": "https://github.com/vr4all-standalone/death-crimson-ox-vr",
     "license": "GPL-2.0",
@@ -2092,7 +2201,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/vr4all-standalone/death-crimson-ox-vr",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-10-29"
   },
   {
     "slug": "descent-1-2-vr",
@@ -2209,6 +2318,60 @@
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/descent-3-vr",
     "last_checked": "2026-10-11"
+  },
+  {
+    "slug": "destiny-2-vr",
+    "name": "Destiny 2 VR",
+    "games": [
+      "Destiny 2"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "thecosmictangerine-cloud",
+        "url": "https://github.com/thecosmictangerine-cloud"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.1.0",
+    "version_date": "2026-10-28",
+    "download_url": "https://github.com/thecosmictangerine-cloud/destiny-2-vr/releases/latest",
+    "source_url": "https://github.com/thecosmictangerine-cloud/destiny-2-vr",
+    "license": "unknown",
+    "required_files": "A Project Sunrise install of Destiny 2 (2020 build, Sunrise 0.5.1); needs a Steam account that owns Destiny 2.",
+    "known_bugs": [
+      "Image is the same in both eyes (no stereo depth yet)",
+      "Sunrise Launcher shows Repair instead of Play after install; pressing Repair or Update removes VR"
+    ],
+    "notes": "Works only with Project Sunrise offline installs, not the normal Steam Destiny 2.",
+    "images": [
+      {
+        "game": "Destiny 2",
+        "file": "images/destiny-2-vr/destiny-2.png",
+        "credit": "Destiny 2 grid by dartyet1 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/26924"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Destiny 2 VR [Proof of Concept] - Project Sunrise",
+        "channel": "Cosmic Tangerine",
+        "url": "https://www.youtube.com/watch?v=i2J9zE-kviE"
+      },
+      {
+        "title": "DESTINY 2 IN VIRTUAL REALITY!? (plz no ban me bungie, it's not a 3rd party tool)",
+        "channel": "Scyushi",
+        "url": "https://www.youtube.com/watch?v=UZmDvDT_a9E"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/thecosmictangerine-cloud/destiny-2-vr",
+    "last_checked": "2026-10-29"
   },
   {
     "slug": "dirt2vr",
@@ -2496,6 +2659,59 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/Mortygotvr/deadspace-vr",
     "last_checked": "2026-10-15"
+  },
+  {
+    "slug": "ds3-vr",
+    "name": "DS3 VR",
+    "games": [
+      "Dark Souls III"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "scubasteve2365",
+        "url": "https://github.com/scubasteve2365"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Meta Quest 3"
+    ],
+    "controls": "gamepad",
+    "status": "stable",
+    "version": "v2.0.0",
+    "version_date": "2026-10-29",
+    "download_url": "https://github.com/scubasteve2365/DS3-VR/releases/latest",
+    "source_url": "https://github.com/scubasteve2365/DS3-VR",
+    "license": "MIT",
+    "required_files": "Dark Souls III on Steam, version 1.15.2; Helifax's Dark Souls 3 geo-11 fix (fetched by the installer script)",
+    "known_bugs": [
+      "SteamVR over Quest Link has known problems (upside-down menu, black screen after Start)"
+    ],
+    "notes": "Uses OpenXR with Helifax's geo-11 stereo rendering; optional NVIDIA DLSS/DLAA on RTX cards; gamepad only, no motion controls.",
+    "images": [
+      {
+        "game": "Dark Souls III",
+        "file": "images/ds3-vr/dark-souls-iii.jpg",
+        "credit": "Dark Souls III grid by ming2236 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/364739"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Dark Souls in VR is RIDICULOUS! // Dark Souls 3 First Person VR Gameplay",
+        "channel": "Beardo Benjo",
+        "url": "https://www.youtube.com/watch?v=7dQkcR8BVNI"
+      },
+      {
+        "title": "DARK SOULS 3 IN VR - Dark Souls 3 First Person mod with the Oculus Rift!",
+        "channel": "Hoopermation VR",
+        "url": "https://www.youtube.com/watch?v=yUGZW2x-hhw"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/scubasteve2365/DS3-VR",
+    "last_checked": "2026-10-29"
   },
   {
     "slug": "dungeon-keeper-2-vr-dk2vr",
@@ -2942,8 +3158,8 @@
     "platform": "pcvr",
     "controls": "mixed",
     "status": "stable",
-    "version": "v1.6.4",
-    "version_date": "2026-10-27",
+    "version": "v1.6.6",
+    "version_date": "2026-10-28",
     "download_url": "https://github.com/Saikava/flatout2-vr/releases/latest",
     "source_url": "https://github.com/Saikava/flatout2-vr",
     "license": "MIT",
@@ -2967,7 +3183,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/Saikava/flatout2-vr",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-10-29"
   },
   {
     "slug": "forza-vrmod",
@@ -3342,6 +3558,51 @@
     "last_checked": "2026-10-11"
   },
   {
+    "slug": "gf2exilium-vr",
+    "name": "GF2Exilium-VR",
+    "games": [
+      "Girls' Frontline 2: Exilium"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "deadpixel134",
+        "url": "https://github.com/deadpixel134"
+      },
+      {
+        "name": "TBluebox12",
+        "url": "https://x.com/TBluebox12"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest 3",
+      "Galaxy XR"
+    ],
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.3.3",
+    "version_date": "2026-10-28",
+    "download_url": "https://github.com/deadpixel134/GF2Exilium-VR/releases/latest",
+    "source_url": "https://github.com/deadpixel134/GF2Exilium-VR",
+    "license": "unknown",
+    "required_files": "Girls' Frontline 2: Exilium installed from Haoplay or Steam",
+    "known_bugs": [],
+    "notes": "Clean and Dirty builds; Dirty adds character contact deformation. In-game anti-aliasing must be turned off.",
+    "images": [
+      {
+        "game": "Girls' Frontline 2: Exilium",
+        "file": "images/gf2exilium-vr/girls-frontline-2-exilium.png",
+        "credit": "Girls' Frontline 2: Exilium grid by Crimson (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/669225"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/deadpixel134/GF2Exilium-VR",
+    "last_checked": "2026-10-29"
+  },
+  {
     "slug": "ghost-recon-wildlands-vr-grw-xr",
     "name": "Ghost Recon Wildlands VR (GRW-XR)",
     "games": [
@@ -3706,6 +3967,43 @@
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/gran-turismo-2-vr",
     "last_checked": "2026-10-28"
+  },
+  {
+    "slug": "granblue-fantasy-relink-vr",
+    "name": "Granblue Fantasy: Relink VR",
+    "games": [
+      "Granblue Fantasy: Relink"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "mark-mon",
+        "url": "https://github.com/mark-mon"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "stable",
+    "version": "v1.0.2",
+    "version_date": "2026-10-24",
+    "download_url": "https://github.com/mark-mon/GranblueFantasyRelink-VR/releases/latest",
+    "source_url": "https://github.com/mark-mon/GranblueFantasyRelink-VR",
+    "license": "MIT",
+    "required_files": "Granblue Fantasy: Relink (Steam version)",
+    "known_bugs": [],
+    "notes": "Native stereo rendering with 6DoF head tracking, in-headset settings menu, NVIDIA VRS foveated rendering; requires an Xbox-style controller.",
+    "images": [
+      {
+        "game": "Granblue Fantasy: Relink",
+        "file": "images/granblue-fantasy-relink-vr/granblue-fantasy-relink.png",
+        "credit": "Granblue Fantasy: Relink grid by garo10966 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/793757"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/mark-mon/GranblueFantasyRelink-VR",
+    "last_checked": "2026-10-29"
   },
   {
     "slug": "grand-theft-auto-iv-vr",
@@ -4536,6 +4834,52 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "i-hate-this-place-vr-mod",
+    "name": "I Hate This Place VR Mod",
+    "games": [
+      "I Hate This Place"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "King-EJ",
+        "url": "https://github.com/King-EJ"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "mixed",
+    "status": "alpha",
+    "version": "IHateThisPlaceVRMod",
+    "version_date": "2026-10-03",
+    "download_url": "https://github.com/King-EJ/I-Hate-This-Place-VR-Mod/releases/latest",
+    "source_url": "https://github.com/King-EJ/I-Hate-This-Place-VR-Mod",
+    "license": "unknown",
+    "required_files": "I Hate This Place (Steam PC version)",
+    "known_bugs": [],
+    "notes": "BepInEx 6 Unity IL2CPP mod using OpenXR with first-person and normal views; README lists version 0.1.20 as a test build, tested only on Quest 3 via Virtual Desktop.",
+    "images": [
+      {
+        "game": "I Hate This Place",
+        "file": "images/i-hate-this-place-vr-mod/i-hate-this-place.jpg",
+        "credit": "I Hate This Place store art",
+        "source_url": "https://store.steampowered.com/app/2604490/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "I Hate This Place VR Mod w. 6DOF Motion Controls + Download",
+        "channel": "Press start to begin",
+        "url": "https://www.youtube.com/watch?v=V6aomsQwg_0"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/King-EJ/I-Hate-This-Place-VR-Mod",
+    "last_checked": "2026-10-29"
+  },
+  {
     "slug": "il-2-sturmovik-1946-vr",
     "name": "IL-2 Sturmovik: 1946 VR",
     "games": [
@@ -4601,8 +4945,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.0.0",
-    "version_date": "2026-10-27",
+    "version": "v1.1.0",
+    "version_date": "2026-10-28",
     "download_url": "https://github.com/StrikeZoneVR-hub/InkVR/releases/latest",
     "source_url": "https://github.com/StrikeZoneVR-hub/InkVR",
     "license": "GPL-3.0",
@@ -4631,7 +4975,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/StrikeZoneVR-hub/InkVR",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-10-29"
   },
   {
     "slug": "insanity-engine-vr",
@@ -5579,8 +5923,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v2.0.0-beta.5",
-    "version_date": "2026-10-26",
+    "version": "v2.0.0-beta.6",
+    "version_date": "2026-10-29",
     "download_url": "https://github.com/iChris4/MetroidPrimePortVR/releases/latest",
     "source_url": "https://github.com/iChris4/MetroidPrimePortVR",
     "homepage": "https://github.com/Odrannnn/MetroidPrimePort/releases/latest",
@@ -5610,7 +5954,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/ichris4/metroidprimeportvr",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-10-29"
   },
   {
     "slug": "mgs5vr",
@@ -5631,7 +5975,7 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "nightly-2026-10-28-55b20f1ccc97",
+    "version": "nightly-2026-10-28-f044567f33ae",
     "version_date": "2026-10-28",
     "download_url": "https://github.com/nikamigaming-create/MGS5VR/releases/latest",
     "source_url": "https://github.com/nikamigaming-create/MGS5VR",
@@ -5665,7 +6009,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/nikamigaming-create/MGS5VR",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-10-29"
   },
   {
     "slug": "mirrors-edge-vr",
@@ -6152,8 +6496,8 @@
     ],
     "platform": "pcvr",
     "status": "alpha",
-    "version": "v0.8.2",
-    "version_date": "2026-10-27",
+    "version": "v0.8.3",
+    "version_date": "2026-10-28",
     "download_url": "https://github.com/bldbrne-vr/bldbrne-vr/releases/latest",
     "source_url": "https://github.com/bldbrne-vr/bldbrne-vr",
     "license": "unknown",
@@ -6182,7 +6526,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/bldbrne-vr/bldbrne-vr",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-10-29"
   },
   {
     "slug": "ninja-assault-vr",
@@ -6203,8 +6547,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v1.0.5",
-    "version_date": "2026-10-27",
+    "version": "v1.0.6",
+    "version_date": "2026-10-29",
     "download_url": "https://github.com/vr4all-standalone/ninja-assault-vr/releases/latest",
     "source_url": "https://github.com/vr4all-standalone/ninja-assault-vr",
     "license": "GPL-2.0",
@@ -6224,7 +6568,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/vr4all-standalone/ninja-assault-vr",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-10-29"
   },
   {
     "slug": "nolf2-r-e-a-l-mod",
@@ -7612,8 +7956,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "1.0.84",
-    "version_date": "2026-10-04",
+    "version": "1.0.85",
+    "version_date": "2026-10-29",
     "download_url": "https://github.com/tinsarfal/Qualyx/releases/latest",
     "source_url": "https://github.com/tinsarfal/Qualyx",
     "homepage": "https://sidequestvr.com/app/63366",
@@ -7643,7 +7987,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://sidequestvr.com/app/63366",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-29"
   },
   {
     "slug": "quest-3-oot-vr",
@@ -8488,6 +8832,43 @@
     "last_checked": "2026-10-11"
   },
   {
+    "slug": "resonance-of-fate-vr",
+    "name": "Resonance of Fate VR",
+    "games": [
+      "Resonance of Fate 4K/HD Edition"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "mark-mon",
+        "url": "https://github.com/mark-mon"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "stable",
+    "version": "v1.0",
+    "version_date": "2026-10-28",
+    "download_url": "https://github.com/mark-mon/resonance-of-fate-vr/releases/latest",
+    "source_url": "https://github.com/mark-mon/resonance-of-fate-vr",
+    "license": "unknown",
+    "required_files": "Steam version 1.0.0.4 of Resonance of Fate 4K/HD Edition",
+    "known_bugs": [],
+    "notes": "Native stereo rendering with head tracking on fixed cameras, separate HUD layer and in-headset settings menu; requires SteamVR.",
+    "images": [
+      {
+        "game": "Resonance of Fate 4K/HD Edition",
+        "file": "images/resonance-of-fate-vr/resonance-of-fate-4k-hd-edition.png",
+        "credit": "Resonance of Fate 4K/HD Edition grid by NotJadlp (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/464583"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/mark-mon/resonance-of-fate-vr",
+    "last_checked": "2026-10-29"
+  },
+  {
     "slug": "retrospace-vr-mod",
     "name": "RetroSpace VR Mod",
     "games": [
@@ -9001,6 +9382,56 @@
     "last_checked": "2026-10-13"
   },
   {
+    "slug": "serious-sam-2-vr",
+    "name": "Serious Sam 2 VR",
+    "games": [
+      "Serious Sam 2"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "ObeseCatLord",
+        "url": "https://github.com/ObeseCatLord"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.2.11-dev.75b534d9801c",
+    "version_date": "2026-10-29",
+    "download_url": "https://github.com/ObeseCatLord/Serious-Sam-2-VR/releases/latest",
+    "source_url": "https://github.com/ObeseCatLord/Serious-Sam-2-VR",
+    "license": "MIT",
+    "required_files": "Current Steam build of Serious Sam 2 (installer refuses other builds)",
+    "known_bugs": [
+      "Incomplete development build; desktop terrain occlusion, hands/native dual wield, native Windows, multiplayer and real-headset acceptance remain open"
+    ],
+    "notes": "Windows and Linux (Proton) installer; requires an OpenXR runtime, game run windowed without MSAA.",
+    "images": [
+      {
+        "game": "Serious Sam 2",
+        "file": "images/serious-sam-2-vr/serious-sam-2.png",
+        "credit": "Serious Sam 2 grid by al0kta (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/648218"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Serious Sam 3 VR: BFE - 2 Minute Review",
+        "channel": "Ben Plays VR",
+        "url": "https://www.youtube.com/watch?v=6j_SiwMFzuM"
+      },
+      {
+        "title": "Serious Sam 2 VR mod - Public Beta Release",
+        "channel": "Якоб",
+        "url": "https://www.youtube.com/watch?v=XhIldxuyYx0"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/ObeseCatLord/Serious-Sam-2-VR",
+    "last_checked": "2026-10-29"
+  },
+  {
     "slug": "shipbreakervr",
     "name": "ShipbreakerVR",
     "games": [
@@ -9228,6 +9659,43 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/King-EJ/Silver-Pines-VR",
     "last_checked": "2026-10-18"
+  },
+  {
+    "slug": "silver-valley-screams-vr",
+    "name": "Silver Valley Screams VR",
+    "games": [
+      "Silver Valley Screams"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "King-EJ",
+        "url": "https://github.com/King-EJ"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "mixed",
+    "status": "alpha",
+    "version": "SilverValleyScreamsVR",
+    "version_date": "2026-10-28",
+    "download_url": "https://github.com/King-EJ/Silver-Valley-Screams-VR/releases/latest",
+    "source_url": "https://github.com/King-EJ/Silver-Valley-Screams-VR",
+    "license": "unknown",
+    "required_files": "Silver Valley Screams (PC)",
+    "known_bugs": [],
+    "notes": "Unity IL2CPP BepInEx 6 mod; v0.3.0 test build, only tested with Virtual Desktop OpenXR; controllers act as keyboard and mouse.",
+    "images": [
+      {
+        "game": "Silver Valley Screams",
+        "file": "images/silver-valley-screams-vr/silver-valley-screams.jpg",
+        "credit": "Silver Valley Screams store art",
+        "source_url": "https://store.steampowered.com/app/4831660/"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/King-EJ/Silver-Valley-Screams-VR",
+    "last_checked": "2026-10-29"
   },
   {
     "slug": "sin-gold-vr",
@@ -9825,7 +10293,7 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "stable",
-    "version": "1.30",
+    "version": "1.31",
     "version_date": "2026-10-28",
     "download_url": "https://github.com/helpimaghost/Space-Hulk-Deathwing-VR/releases/latest",
     "source_url": "https://github.com/helpimaghost/Space-Hulk-Deathwing-VR",
@@ -9855,7 +10323,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-10-29"
   },
   {
     "slug": "specopsthelinevr",
@@ -9876,8 +10344,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.10.0",
-    "version_date": "2026-10-27",
+    "version": "v0.10.2",
+    "version_date": "2026-10-29",
     "download_url": "https://github.com/Mavic-Pro/SpecOpsTheLineVR/releases/latest",
     "source_url": "https://github.com/Mavic-Pro/SpecOpsTheLineVR",
     "license": "MIT",
@@ -9895,7 +10363,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/Mavic-Pro/SpecOpsTheLineVR",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-10-29"
   },
   {
     "slug": "stanley-vr",
@@ -10192,8 +10660,8 @@
     ],
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.0.5",
-    "version_date": "2026-10-27",
+    "version": "v1.0.6",
+    "version_date": "2026-10-29",
     "download_url": "https://github.com/vr4all-standalone/survivor2-code-veronica-vr/releases/latest",
     "source_url": "https://github.com/vr4all-standalone/survivor2-code-veronica-vr",
     "license": "GPL-2.0",
@@ -10211,7 +10679,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/vr4all-standalone/survivor2-code-veronica-vr",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-10-29"
   },
   {
     "slug": "system-shock-remake-uevr-plugin",
@@ -11484,6 +11952,54 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "wakerquest",
+    "name": "WakerQuest",
+    "games": [
+      "The Legend of Zelda: The Wind Waker"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Trastorillo",
+        "url": "https://github.com/Trastorillo"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 3",
+      "Quest 3S"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v1.0.7",
+    "version_date": "2026-10-26",
+    "download_url": "https://github.com/Trastorillo/wakerquest/releases/latest",
+    "source_url": "https://github.com/Trastorillo/wakerquest",
+    "homepage": "https://questports.vercel.app/ports/wakerquest",
+    "license": "MIT",
+    "required_files": "Your own uncompressed GameCube ISO of The Wind Waker (GZLP01 Europe rev 0, or GZLE01 USA); .rvz/.ciso not supported.",
+    "known_bugs": [],
+    "notes": "Branch of SwitchWaker; offers giant stereoscopic screen, tabletop diorama and MR passthrough modes.",
+    "images": [
+      {
+        "game": "The Legend of Zelda: The Wind Waker",
+        "file": "images/wakerquest/the-legend-of-zelda-the-wind-waker.png",
+        "credit": "The Legend of Zelda: The Wind Waker grid by Maxine (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/181273"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Ich hasse diese Wind Waker Quest",
+        "channel": "Täglich Dax and Dax",
+        "url": "https://www.youtube.com/watch?v=KjtpaMXY32w"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://questports.vercel.app/ports/wakerquest",
+    "last_checked": "2026-10-29"
+  },
+  {
     "slug": "warbandvr",
     "name": "WarbandVR",
     "games": [
@@ -11503,8 +12019,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.3.1",
-    "version_date": "2026-10-16",
+    "version": "v0.4.0",
+    "version_date": "2026-10-28",
     "download_url": "https://github.com/M3-4T35/WarbandVR/releases/latest",
     "source_url": "https://github.com/M3-4T35/WarbandVR",
     "license": "MIT",
@@ -11522,7 +12038,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/M3-4T35/WarbandVR",
-    "last_checked": "2026-10-17"
+    "last_checked": "2026-10-29"
   },
   {
     "slug": "wave-race-64-vr",
@@ -11864,6 +12380,61 @@
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "wreckfest-2-vr",
+    "name": "Wreckfest 2 VR",
+    "games": [
+      "Wreckfest 2"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "MatsKarlsson",
+        "url": "https://github.com/MatsKarlsson"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "gamepad",
+    "status": "alpha",
+    "version": "v0.8.2",
+    "version_date": "2026-10-28",
+    "download_url": "https://github.com/MatsKarlsson/Wreckfest2VR/releases/latest",
+    "source_url": "https://github.com/MatsKarlsson/Wreckfest2VR",
+    "license": "unknown",
+    "required_files": "Own copy of Wreckfest 2 (Steam)",
+    "known_bugs": [
+      "Early access: bugs, missing effects and crashes expected",
+      "Track changes can still crash the game",
+      "Some effects are incomplete"
+    ],
+    "notes": "Stereoscopic cockpit VR with head tracking; tested on Quest 3 via Virtual Desktop and VDXR, offline races only.",
+    "images": [
+      {
+        "game": "Wreckfest 2",
+        "file": "images/wreckfest-2-vr/wreckfest-2.png",
+        "credit": "Wreckfest 2 grid by Viator_ (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/470882"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "WRECKFEST 2 (Early Access) in 3D in a VR Headset is GOD TIER! (Watch OR Play in EYE POPPING 3D!)",
+        "channel": "Paradise Decay",
+        "url": "https://www.youtube.com/watch?v=CwANBfHMz7g"
+      },
+      {
+        "title": "Wreckfest 2 VR + Logitech G29 Steering Wheel Performance / New VR Mod / Quest 3 + RTX 4080 Super",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=TbRqJR0hiUk"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/MatsKarlsson/Wreckfest2VR",
+    "last_checked": "2026-10-29"
   },
   {
     "slug": "xelee",

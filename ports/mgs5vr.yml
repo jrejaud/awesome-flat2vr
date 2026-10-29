@@ -10,7 +10,7 @@ headsets:
   - Quest 3
 controls: 6dof
 status: alpha
-version: "nightly-2026-10-28-55b20f1ccc97"
+version: "nightly-2026-10-28-f044567f33ae"
 version_date: "2026-10-28"
 download_url: https://github.com/nikamigaming-create/MGS5VR/releases/latest
 source_url: https://github.com/nikamigaming-create/MGS5VR
@@ -35,4 +35,4 @@ reviews:
     url: https://www.youtube.com/watch?v=E7usAsMe0n0
 added_by: bot
 discovered_via: https://github.com/nikamigaming-create/MGS5VR
-last_checked: "2026-10-28"
+last_checked: "2026-10-29"

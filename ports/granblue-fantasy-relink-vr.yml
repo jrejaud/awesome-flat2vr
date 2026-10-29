@@ -1,0 +1,27 @@
+name: "Granblue Fantasy: Relink VR"
+games:
+  - "Granblue Fantasy: Relink"
+category: mod
+authors:
+  - name: mark-mon
+    url: https://github.com/mark-mon
+platform: pcvr
+controls: gamepad
+status: stable
+version: "v1.0.2"
+version_date: "2026-10-24"
+download_url: https://github.com/mark-mon/GranblueFantasyRelink-VR/releases/latest
+source_url: https://github.com/mark-mon/GranblueFantasyRelink-VR
+license: MIT
+required_files: "Granblue Fantasy: Relink (Steam version)"
+known_bugs: []
+notes: Native stereo rendering with 6DoF head tracking, in-headset settings menu, NVIDIA VRS foveated rendering; requires an Xbox-style controller.
+images:
+  - game: "Granblue Fantasy: Relink"
+    file: images/granblue-fantasy-relink-vr/granblue-fantasy-relink.png
+    credit: "Granblue Fantasy: Relink grid by garo10966 (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/793757
+reviews: []
+added_by: bot
+discovered_via: https://github.com/mark-mon/GranblueFantasyRelink-VR
+last_checked: "2026-10-29"

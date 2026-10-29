@@ -1,0 +1,32 @@
+name: GF2Exilium-VR
+games:
+  - "Girls' Frontline 2: Exilium"
+category: mod
+authors:
+  - name: deadpixel134
+    url: https://github.com/deadpixel134
+  - name: TBluebox12
+    url: https://x.com/TBluebox12
+platform: pcvr
+headsets:
+  - Quest 3
+  - Galaxy XR
+controls: 6dof
+status: stable
+version: "v1.3.3"
+version_date: "2026-10-28"
+download_url: https://github.com/deadpixel134/GF2Exilium-VR/releases/latest
+source_url: https://github.com/deadpixel134/GF2Exilium-VR
+license: unknown
+required_files: "Girls' Frontline 2: Exilium installed from Haoplay or Steam"
+known_bugs: []
+notes: Clean and Dirty builds; Dirty adds character contact deformation. In-game anti-aliasing must be turned off.
+images:
+  - game: "Girls' Frontline 2: Exilium"
+    file: images/gf2exilium-vr/girls-frontline-2-exilium.png
+    credit: "Girls' Frontline 2: Exilium grid by Crimson (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/669225
+reviews: []
+added_by: bot
+discovered_via: https://github.com/deadpixel134/GF2Exilium-VR
+last_checked: "2026-10-29"

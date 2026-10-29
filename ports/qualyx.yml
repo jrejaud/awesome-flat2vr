@@ -12,8 +12,8 @@ headsets:
   - Pico
 controls: 6dof
 status: alpha
-version: "1.0.84"
-version_date: "2026-10-04"
+version: "1.0.85"
+version_date: "2026-10-29"
 download_url: https://github.com/tinsarfal/Qualyx/releases/latest
 source_url: https://github.com/tinsarfal/Qualyx
 homepage: https://sidequestvr.com/app/63366
@@ -35,4 +35,4 @@ reviews:
     url: https://www.youtube.com/watch?v=JHW-FMm_c7c
 added_by: bot
 discovered_via: https://sidequestvr.com/app/63366
-last_checked: "2026-10-18"
+last_checked: "2026-10-29"

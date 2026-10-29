@@ -1,0 +1,37 @@
+name: Destiny 2 VR
+games:
+  - Destiny 2
+category: mod
+authors:
+  - name: thecosmictangerine-cloud
+    url: https://github.com/thecosmictangerine-cloud
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "v0.1.0"
+version_date: "2026-10-28"
+download_url: https://github.com/thecosmictangerine-cloud/destiny-2-vr/releases/latest
+source_url: https://github.com/thecosmictangerine-cloud/destiny-2-vr
+license: unknown
+required_files: A Project Sunrise install of Destiny 2 (2020 build, Sunrise 0.5.1); needs a Steam account that owns Destiny 2.
+known_bugs:
+  - Image is the same in both eyes (no stereo depth yet)
+  - Sunrise Launcher shows Repair instead of Play after install; pressing Repair or Update removes VR
+notes: Works only with Project Sunrise offline installs, not the normal Steam Destiny 2.
+images:
+  - game: Destiny 2
+    file: images/destiny-2-vr/destiny-2.png
+    credit: Destiny 2 grid by dartyet1 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/26924
+reviews:
+  - title: Destiny 2 VR [Proof of Concept] - Project Sunrise
+    channel: Cosmic Tangerine
+    url: https://www.youtube.com/watch?v=i2J9zE-kviE
+  - title: DESTINY 2 IN VIRTUAL REALITY!? (plz no ban me bungie, it's not a 3rd party tool)
+    channel: Scyushi
+    url: https://www.youtube.com/watch?v=UZmDvDT_a9E
+added_by: bot
+discovered_via: https://github.com/thecosmictangerine-cloud/destiny-2-vr
+last_checked: "2026-10-29"
