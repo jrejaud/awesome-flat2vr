@@ -13,8 +13,8 @@ headsets:
   - Quest 3S
 controls: 6dof
 status: beta
-version: "v1.2.7"
-version_date: "2026-10-29"
+version: "v1.2.8"
+version_date: "2026-10-30"
 download_url: https://github.com/vr4all-standalone/confidential-mission-vr/releases/latest
 source_url: https://github.com/vr4all-standalone/confidential-mission-vr
 homepage: https://questports.vercel.app/ports/confidential-mission-vr
@@ -36,4 +36,4 @@ reviews:
     url: https://www.youtube.com/watch?v=jDBEdNgFlps
 added_by: bot
 discovered_via: https://questports.vercel.app/ports/confidential-mission-vr
-last_checked: "2026-10-29"
+last_checked: "2026-10-30"

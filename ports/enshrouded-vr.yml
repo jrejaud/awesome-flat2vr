@@ -1,0 +1,33 @@
+name: Enshrouded VR
+games:
+  - Enshrouded
+category: mod
+authors:
+  - name: momotori01
+    url: https://github.com/momotori01
+platform: pcvr
+controls: 6dof
+status: beta
+version: "EnshroudedVR-0.9.19"
+version_date: "2026-10-30"
+download_url: https://github.com/momotori01/ENSHROUDED-VR-MOD/releases/latest
+source_url: https://github.com/momotori01/ENSHROUDED-VR-MOD
+license: Unlicense
+required_files: Enshrouded (Steam) installed
+known_bugs: []
+notes: Room-scale motion controls with melee, bow, wand, fishing, IK body and multiplayer sync; modeled on VHVR (ValheimVR).
+images:
+  - game: Enshrouded
+    file: images/enshrouded-vr/enshrouded.jpg
+    credit: Enshrouded grid by Nibbles (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/859160
+reviews:
+  - title: Enshrouded VR First Person Performance / New VR Mod with 6DOF Motion Controls / PCVR
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=my_yKx7H3IU
+  - title: Enshrouded VR Performance / New VR Mod / Meta Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=9xUTpmc0ubA
+added_by: bot
+discovered_via: https://github.com/momotori01/ENSHROUDED-VR-MOD
+last_checked: "2026-10-30"

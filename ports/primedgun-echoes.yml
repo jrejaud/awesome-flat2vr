@@ -1,0 +1,35 @@
+name: PrimedGun Echoes
+games:
+  - "Metroid Prime 2: Echoes"
+category: source-port
+authors:
+  - name: iChris4
+    url: https://github.com/iChris4
+platform: both
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "v1.0.0-alpha.1"
+version_date: "2026-10-29"
+download_url: https://github.com/iChris4/MetroidPrime2PortVR/releases/latest
+source_url: https://github.com/iChris4/MetroidPrime2PortVR
+license: unknown
+required_files: "Own Metroid Prime 2: Echoes disc image (USA G2ME01 tested; ISO, NKit, GCM, RVZ, WIA, CISO, WBFS)"
+known_bugs: []
+notes: Based on Echoes Unbound native port 0.6.0 by Odrannnn; also runs on Windows PC VR via OpenXR.
+images:
+  - game: "Metroid Prime 2: Echoes"
+    file: images/primedgun-echoes/metroid-prime-2-echoes.png
+    credit: "Metroid Prime 2: Echoes grid by Zennn (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/9083
+reviews:
+  - title: "Metroid Prime 2: Echoes VR Trilogy Collection (Wii) Dolphin VR (See description for full setup!)"
+    channel: legaiaflame
+    url: https://www.youtube.com/watch?v=nf0YZtOqWkw
+  - title: METROID PRIME 2 ECHOES in VR Oculus Rift
+    channel: VR in EVERYTHING
+    url: https://www.youtube.com/watch?v=wVP-PS2l25A
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63806
+last_checked: "2026-10-30"

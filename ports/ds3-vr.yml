@@ -10,7 +10,7 @@ headsets:
   - Meta Quest 3
 controls: gamepad
 status: stable
-version: "v2.0.0"
+version: "v2.0.1"
 version_date: "2026-10-29"
 download_url: https://github.com/scubasteve2365/DS3-VR/releases/latest
 source_url: https://github.com/scubasteve2365/DS3-VR
@@ -33,4 +33,4 @@ reviews:
     url: https://www.youtube.com/watch?v=yUGZW2x-hhw
 added_by: bot
 discovered_via: https://github.com/scubasteve2365/DS3-VR
-last_checked: "2026-10-29"
+last_checked: "2026-10-30"

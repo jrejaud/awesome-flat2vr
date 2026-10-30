@@ -1,0 +1,27 @@
+name: TFCybertronVR
+games:
+  - "Transformers: War for Cybertron"
+category: mod
+authors:
+  - name: DeltaMan197
+    url: https://github.com/DeltaMan197
+platform: pcvr
+controls: mixed
+status: stable
+version: "v1.0.0"
+version_date: "2026-10-29"
+download_url: https://github.com/DeltaMan197/TFCybertronVR/releases/latest
+source_url: https://github.com/DeltaMan197/TFCybertronVR
+license: MIT
+required_files: "Transformers: War for Cybertron installed via Steam or Epic Games"
+known_bugs: []
+notes: OpenXR mod using BepInEx, modeled after TF2VR.
+images:
+  - game: "Transformers: War for Cybertron"
+    file: images/tfcybertronvr/transformers-war-for-cybertron.jpg
+    credit: "Transformers: War for Cybertron grid by TehDragonAsh (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/509983
+reviews: []
+added_by: bot
+discovered_via: https://github.com/DeltaMan197/TFCybertronVR
+last_checked: "2026-10-30"

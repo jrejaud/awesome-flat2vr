@@ -1,0 +1,36 @@
+name: Wing Commander II VR
+games:
+  - "Wing Commander II: Vengeance of the Kilrathi"
+category: source-port
+authors:
+  - name: SgtBilko76
+    url: https://github.com/SgtBilko76
+platform: standalone
+headsets:
+  - Quest 3
+  - Pico 4
+  - Pico Neo 3
+controls: 6dof
+status: stable
+version: "quest-vr-1.0.1"
+version_date: "2026-10-24"
+download_url: https://github.com/SgtBilko76/wc2-re-vr/releases/latest
+source_url: https://github.com/SgtBilko76/wc2-re-vr
+homepage: https://portroyale.online/wingcommander2.html
+license: GPL-3.0
+required_files: "Own copy of Wing Commander II game data (e.g. Wing Commander: The Kilrathi Saga or DOS install); not included."
+known_bugs:
+  - PICO support is untested on PICO hardware
+notes: Built on the neuromancer/wc2-re reconstruction; stereo 3D space, 3D cockpit, Touch controllers as flight stick.
+images:
+  - game: "Wing Commander II: Vengeance of the Kilrathi"
+    file: images/wing-commander-ii-vr/wing-commander-ii-vengeance-of-the-kilrathi.jpg
+    credit: "Wing Commander II: Vengeance of the Kilrathi grid by bosd (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/792932
+reviews:
+  - title: 1991 Wing Commander II VR Mod w. 360 Degrees vr view + Download
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=fBV-EVw7OQM
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-10-30"

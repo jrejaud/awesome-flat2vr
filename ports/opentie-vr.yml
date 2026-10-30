@@ -1,0 +1,39 @@
+name: OpenTIE-VR
+games:
+  - "Star Wars: TIE Fighter"
+category: source-port
+authors:
+  - name: neitey
+    url: https://github.com/neitey
+platform: both
+headsets:
+  - Quest 3
+  - Quest 3S
+  - Steam Frame
+controls: mixed
+status: beta
+version: "v0.3.0"
+version_date: "2026-10-29"
+download_url: https://github.com/neitey/OpenTIE-VR/releases/latest
+source_url: https://github.com/neitey/OpenTIE-VR
+license: GPL-3.0
+required_files: "Own copy of Star Wars: TIE Fighter Special Edition (Steam or GOG) on a Windows PC"
+known_bugs:
+  - PC VR build has not been tested on a PC headset yet
+  - Pico support is not tested yet
+notes: "Fork of OpenTIE with the VR layer from Neitey's XW: Alliance VR; runs standalone with a separate first PC VR build."
+images:
+  - game: "Star Wars: TIE Fighter"
+    file: images/opentie-vr/star-wars-tie-fighter.jpg
+    credit: "Star Wars: TIE Fighter (Wikipedia)"
+    source_url: https://en.wikipedia.org/wiki/Star_Wars%3A_TIE_Fighter
+reviews:
+  - title: Star Wars Tie Fighter Total Conversion VR
+    channel: Gunfreak19
+    url: https://www.youtube.com/watch?v=K1GzIH4G1IM
+  - title: "I WENT INSIDE STAR WARS: TIE FIGHTER (1994)… IN VR! 🤯🚀"
+    channel: OG VR GAMER OFFICIAL
+    url: https://www.youtube.com/watch?v=O_2u9gydGto
+added_by: bot
+discovered_via: https://github.com/neitey/OpenTIE-VR
+last_checked: "2026-10-30"

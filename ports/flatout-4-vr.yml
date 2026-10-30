@@ -1,0 +1,32 @@
+name: FlatOut 4 VR
+games:
+  - "FlatOut 4: Total Insanity"
+category: mod
+authors:
+  - name: Flat2VR Studios
+platform: pcvr
+controls: mixed
+status: stable
+version: "1.0"
+version_date: "2026-10-23"
+download_url: https://store.steampowered.com/app/3844750/FlatOut_4_Total_Insanity_VR/
+source_url: https://store.steampowered.com/news/app/3844750/view/681890829846976119
+license: proprietary
+required_files: "FlatOut 4: Total Insanity VR on Steam"
+known_bugs: []
+notes: Left Early Access with FlatOut 2 physics/tracks, multiplayer bots, livery editor and Workshop support; weapons and motorcycle are experimental.
+images:
+  - game: "FlatOut 4: Total Insanity"
+    file: images/flatout-4-vr/flatout-4-total-insanity.png
+    credit: "FlatOut 4: Total Insanity grid by Tirap4753 (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/366055
+reviews:
+  - title: Flatout 4 VR Total Insanity Review - The Best VR Game of 2026
+    channel: Gamertag VR
+    url: https://www.youtube.com/watch?v=-I818cvWMTo
+  - title: "FlatOut 4 VR PCVR Review: Arcade-Spaß oder Magen-Härtetest?"
+    channel: VoodooDE VR
+    url: https://www.youtube.com/watch?v=KNWUOf39k8c
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-10-30"

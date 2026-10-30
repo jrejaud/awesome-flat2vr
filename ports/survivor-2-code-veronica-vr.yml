@@ -10,8 +10,8 @@ headsets:
   - Meta Quest
 controls: 6dof
 status: stable
-version: "v1.0.6"
-version_date: "2026-10-29"
+version: "v1.0.7"
+version_date: "2026-10-30"
 download_url: https://github.com/vr4all-standalone/survivor2-code-veronica-vr/releases/latest
 source_url: https://github.com/vr4all-standalone/survivor2-code-veronica-vr
 license: GPL-2.0
@@ -26,4 +26,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/vr4all-standalone/survivor2-code-veronica-vr
-last_checked: "2026-10-29"
+last_checked: "2026-10-30"

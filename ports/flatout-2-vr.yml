@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: mixed
 status: stable
-version: "v1.6.6"
-version_date: "2026-10-28"
+version: "v1.6.7"
+version_date: "2026-10-29"
 download_url: https://github.com/Saikava/flatout2-vr/releases/latest
 source_url: https://github.com/Saikava/flatout2-vr
 license: MIT
@@ -27,4 +27,4 @@ reviews:
     url: https://www.youtube.com/watch?v=nEwPOAV10WQ
 added_by: bot
 discovered_via: https://github.com/Saikava/flatout2-vr
-last_checked: "2026-10-29"
+last_checked: "2026-10-30"

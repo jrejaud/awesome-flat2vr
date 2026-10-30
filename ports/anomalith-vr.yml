@@ -1,0 +1,27 @@
+name: ANOMALITH-VR
+games:
+  - ANOMALITH
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: mixed
+status: alpha
+version: "0.2.2"
+version_date: "2026-10-29"
+download_url: https://github.com/King-EJ/ANOMALITH-VR/releases/latest
+source_url: https://github.com/King-EJ/ANOMALITH-VR
+license: unknown
+required_files: ANOMALITH (PC, Unity) installed; mod is unzipped into the game folder
+known_bugs: []
+notes: Unity 6 Mono BepInEx 5 mod; controllers act as a gamepad with 6DoF aiming; test build, only tested with Virtual Desktop OpenXR.
+images:
+  - game: ANOMALITH
+    file: images/anomalith-vr/anomalith.jpg
+    credit: ANOMALITH store art
+    source_url: https://store.steampowered.com/app/4017880/
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/ANOMALITH-VR
+last_checked: "2026-10-30"

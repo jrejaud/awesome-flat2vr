@@ -1,0 +1,30 @@
+name: Herdling VR
+games:
+  - Herdling
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "HerdlingVR"
+version_date: "2026-10-30"
+download_url: https://github.com/King-EJ/Herdling-VR/releases/latest
+source_url: https://github.com/King-EJ/Herdling-VR
+license: unknown
+required_files: Herdling (PC, Unity 6000.2 IL2CPP)
+known_bugs: []
+notes: Test build 0.2.4 using BepInEx 6; only tested with Virtual Desktop OpenXR; VR controllers act as an Xbox gamepad.
+images:
+  - game: Herdling
+    file: images/herdling-vr/herdling.jpg
+    credit: Herdling store art
+    source_url: https://store.steampowered.com/app/3047750/
+reviews:
+  - title: "HERDLING is a SPECTACULAR 3D Journey in a VR headset! - Watch or Play in 3D! #3d"
+    channel: Paradise Decay
+    url: https://www.youtube.com/watch?v=dcJnWzGdFMo
+added_by: bot
+discovered_via: https://github.com/King-EJ/Herdling-VR
+last_checked: "2026-10-30"

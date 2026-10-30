@@ -1,0 +1,32 @@
+name: Far Cry 5 VR Mod
+games:
+  - Far Cry 5
+category: mod
+authors:
+  - name: Press.Start
+platform: pcvr
+controls: 6dof
+status: beta
+version: "unversioned"
+version_date: "2026-10-29"
+download_url: https://www.nexusmods.com/farcry5/mods/273?tab=description
+source_url: https://www.youtube.com/watch?v=5m84kdtTx9Q
+license: unknown
+required_files: Far Cry 5 (Steam)
+known_bugs: []
+notes: Announced via gameplay video; mod is hosted on Nexus Mods and the video poster may not be the mod's author.
+images:
+  - game: Far Cry 5
+    file: images/far-cry-5-vr-mod/far-cry-5.png
+    credit: Far Cry 5 grid by VixiGamer (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/843431
+reviews:
+  - title: FAR CRY 5 VR is HERE Thanks to This NEW VR MOD // Quest 3 PCVR Gameplay
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=VPN1wppEkB8
+  - title: Far Cry 5 VR Performance / New VR Mod (Alpha) with 6DOF Motion Controls / Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=D_1d8oWWTko
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-10-30"

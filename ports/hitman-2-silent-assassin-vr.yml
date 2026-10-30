@@ -1,0 +1,33 @@
+name: "Hitman 2: Silent Assassin VR"
+games:
+  - "Hitman 2: Silent Assassin"
+category: mod
+authors:
+  - name: andreystashev
+    url: https://github.com/andreystashev
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "alpha-1"
+version_date: "2026-10-28"
+download_url: https://github.com/andreystashev/hitman-2-silent-assassin-vr-showcase/releases/latest
+source_url: https://github.com/andreystashev/hitman-2-silent-assassin-vr-showcase
+license: unknown
+required_files: "Original Steam or GOG copy of Hitman 2: Silent Assassin (hitman2.exe, supported builds)"
+known_bugs: []
+notes: Preview installer with tracked-controller weapons, stereo rendering and head tracking; VR interactions and compatibility still need testing.
+images:
+  - game: "Hitman 2: Silent Assassin"
+    file: images/hitman-2-silent-assassin-vr/hitman-2-silent-assassin.jpg
+    credit: "Hitman 2: Silent Assassin grid by FakeLebowski (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/370733
+reviews:
+  - title: "Hitman 2: Silent Assassin VR Mod 6DOF - Public Preview Gameplay"
+    channel: Andrey Nicolaevich
+    url: https://www.youtube.com/watch?v=xJ5WY64UEH8
+  - title: Hitman 2 Silent Assassin in VR Mission2 Oculus Rift
+    channel: VR in EVERYTHING
+    url: https://www.youtube.com/watch?v=Ge329H-Z8SE
+added_by: bot
+discovered_via: https://github.com/andreystashev/hitman-2-silent-assassin-vr-showcase
+last_checked: "2026-10-30"

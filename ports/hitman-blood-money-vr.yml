@@ -1,0 +1,38 @@
+name: "Hitman: Blood Money VR"
+games:
+  - "Hitman: Blood Money"
+category: mod
+authors:
+  - name: andreystashev
+    url: https://github.com/andreystashev
+platform: pcvr
+headsets:
+  - Quest 3S
+controls: 6dof
+status: alpha
+version: "v0.1.8.174-alpha.5"
+version_date: "2026-10-29"
+download_url: https://github.com/andreystashev/hitman-blood-money-vr-showcase/releases/latest
+source_url: https://github.com/andreystashev/hitman-blood-money-vr-showcase
+homepage: https://github.com/andreystashev/hitman-blood-money-vr-showcase/releases
+license: unknown
+required_files: "Installed, legally owned copy of the original PC Hitman: Blood Money (Steam is primary test edition)"
+known_bugs:
+  - Individual grips and scripted actions can still behave incorrectly
+  - Mission and hardware coverage is incomplete
+notes: Unofficial VR mod for the original 2006 PC version with tracked hands and motion-controller aiming; tested via Quest Link/Air Link.
+images:
+  - game: "Hitman: Blood Money"
+    file: images/hitman-blood-money-vr/hitman-blood-money.jpg
+    credit: "Hitman: Blood Money grid by bbking (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/594035
+reviews:
+  - title: "Hitman: Blood Money VR Performance / New VR Mod with 6DOF Motion Controls / Quest 3 + RTX 4080 Super"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=tJ-w2aOfUAs
+  - title: "VR HITMAN BLOOD MONEY: Ep. 0 Death of a Showman. Prof. First Try."
+    channel: Perturbed Gaming
+    url: https://www.youtube.com/watch?v=1tIIGklRq_o
+added_by: bot
+discovered_via: https://github.com/andreystashev/hitman-blood-money-vr-showcase
+last_checked: "2026-10-30"

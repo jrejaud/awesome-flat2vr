@@ -1,0 +1,33 @@
+name: Ratchet & Clank VR (Rerac-vr)
+games:
+  - Ratchet & Clank
+category: mod
+authors:
+  - name: npiriou
+    url: https://github.com/npiriou
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.1.4"
+version_date: "2026-10-29"
+download_url: https://github.com/npiriou/Rerac-vr/releases/latest
+source_url: https://github.com/npiriou/Rerac-vr
+license: ISC
+required_files: Ratchet & Clank (PS2) game data, used with the ReRAC unofficial PC port
+known_bugs: []
+notes: VR layer on top of the ReRAC native PC port of the PS2 Ratchet & Clank; the README says not to report VR bugs to the ReRAC team.
+images:
+  - game: Ratchet & Clank
+    file: images/ratchet-clank-vr-rerac-vr/ratchet-clank.jpg
+    credit: Ratchet & Clank grid by AnimeFan69 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/857809
+reviews:
+  - title: Ratchet & Clank VR | Planet Hopping Through Childhood Nostalgia
+    channel: A Wolf in VR
+    url: https://www.youtube.com/watch?v=yRo5KcNhQsQ
+  - title: Ratchet & Clank in VR is INSANE!
+    channel: todio Game
+    url: https://www.youtube.com/watch?v=rdMAJ2T1JdA
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-10-30"

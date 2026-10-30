@@ -1,0 +1,27 @@
+name: Edge of Eternity VR
+games:
+  - Edge of Eternity
+category: mod
+authors:
+  - name: mark-mon
+    url: https://github.com/mark-mon
+platform: pcvr
+controls: gamepad
+status: stable
+version: "v1.0"
+version_date: "2026-10-29"
+download_url: https://github.com/mark-mon/edge-of-eternity-vr/releases/latest
+source_url: https://github.com/mark-mon/edge-of-eternity-vr
+license: unknown
+required_files: Edge of Eternity (Steam, Windows, Direct3D 11)
+known_bugs: []
+notes: Native OpenXR mod (version.dll) with true stereo rendering, floating UI panels and NVIDIA foveated rendering; DLSS, FSR and TAA are disabled in VR.
+images:
+  - game: Edge of Eternity
+    file: images/edge-of-eternity-vr/edge-of-eternity.png
+    credit: Edge of Eternity grid by Luckspeare (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/309246
+reviews: []
+added_by: bot
+discovered_via: https://github.com/mark-mon/edge-of-eternity-vr
+last_checked: "2026-10-30"
