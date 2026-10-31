@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: alpha
-version: "v0.1.4"
-version_date: "2026-10-29"
+version: "v0.1.5"
+version_date: "2026-10-31"
 download_url: https://github.com/npiriou/Rerac-vr/releases/latest
 source_url: https://github.com/npiriou/Rerac-vr
 license: ISC
@@ -30,4 +30,4 @@ reviews:
     url: https://www.youtube.com/watch?v=rdMAJ2T1JdA
 added_by: bot
 discovered_via: https://discord.gg/flat2vr
-last_checked: "2026-10-30"
+last_checked: "2026-10-31"

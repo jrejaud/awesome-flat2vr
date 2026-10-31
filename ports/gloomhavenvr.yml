@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: stable
-version: "v1.2.1"
-version_date: "2026-10-22"
+version: "v1.2.3"
+version_date: "2026-10-30"
 download_url: https://github.com/McFredward/GloomhavenVR/releases/latest
 source_url: https://github.com/McFredward/GloomhavenVR
 license: GPL-3.0
@@ -30,4 +30,4 @@ reviews:
     url: https://www.youtube.com/watch?v=tgJAk6Z62b4
 added_by: bot
 discovered_via: https://github.com/McFredward/GloomhavenVR
-last_checked: "2026-10-28"
+last_checked: "2026-10-31"

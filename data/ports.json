@@ -514,7 +514,7 @@
     "platform": "pcvr",
     "controls": "mixed",
     "status": "alpha",
-    "version": "0.2.2",
+    "version": "ANOMALITHVR",
     "version_date": "2026-10-29",
     "download_url": "https://github.com/King-EJ/ANOMALITH-VR/releases/latest",
     "source_url": "https://github.com/King-EJ/ANOMALITH-VR",
@@ -533,7 +533,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/King-EJ/ANOMALITH-VR",
-    "last_checked": "2026-10-30"
+    "last_checked": "2026-10-31"
   },
   {
     "slug": "arx-libertatis-vr",
@@ -3797,8 +3797,8 @@
     ],
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.3.5",
-    "version_date": "2026-10-30",
+    "version": "v1.3.6",
+    "version_date": "2026-10-31",
     "download_url": "https://github.com/deadpixel134/GF2Exilium-VR/releases/latest",
     "source_url": "https://github.com/deadpixel134/GF2Exilium-VR",
     "license": "unknown",
@@ -3816,7 +3816,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/deadpixel134/GF2Exilium-VR",
-    "last_checked": "2026-10-30"
+    "last_checked": "2026-10-31"
   },
   {
     "slug": "ghost-recon-wildlands-vr-grw-xr",
@@ -3885,8 +3885,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.2.1",
-    "version_date": "2026-10-22",
+    "version": "v1.2.3",
+    "version_date": "2026-10-30",
     "download_url": "https://github.com/McFredward/GloomhavenVR/releases/latest",
     "source_url": "https://github.com/McFredward/GloomhavenVR",
     "license": "GPL-3.0",
@@ -3915,7 +3915,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/McFredward/GloomhavenVR",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-10-31"
   },
   {
     "slug": "goatvr",
@@ -3987,8 +3987,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.2.8",
-    "version_date": "2026-10-26",
+    "version": "v0.2.8.1",
+    "version_date": "2026-10-30",
     "download_url": "https://github.com/adore11s/God-of-War-VR-Mod/releases/latest",
     "source_url": "https://github.com/adore11s/God-of-War-VR-Mod",
     "license": "MIT",
@@ -4021,7 +4021,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/adore11s/God-of-War-VR-Mod",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-10-31"
   },
   {
     "slug": "goldeneye-vr",
@@ -6034,8 +6034,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "dev-c79f0d4551a1",
-    "version_date": "2026-10-26",
+    "version": "v0.21.0",
+    "version_date": "2026-10-30",
     "download_url": "https://github.com/zeranemesis/Marioparty4/releases",
     "source_url": "https://github.com/zeranemesis/Marioparty4",
     "homepage": "https://questports.vercel.app/ports/mario-party-4-partyboard",
@@ -6056,7 +6056,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/mario-party-4-partyboard",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-10-31"
   },
   {
     "slug": "mass-effect-legendary-edition-vr",
@@ -8869,8 +8869,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.1.4",
-    "version_date": "2026-10-29",
+    "version": "v0.1.5",
+    "version_date": "2026-10-31",
     "download_url": "https://github.com/npiriou/Rerac-vr/releases/latest",
     "source_url": "https://github.com/npiriou/Rerac-vr",
     "license": "ISC",
@@ -8899,7 +8899,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://discord.gg/flat2vr",
-    "last_checked": "2026-10-30"
+    "last_checked": "2026-10-31"
   },
   {
     "slug": "ratshaker-vr-uevr-mod",
@@ -10861,8 +10861,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.10.2",
-    "version_date": "2026-10-29",
+    "version": "v0.10.4",
+    "version_date": "2026-10-30",
     "download_url": "https://github.com/Mavic-Pro/SpecOpsTheLineVR/releases/latest",
     "source_url": "https://github.com/Mavic-Pro/SpecOpsTheLineVR",
     "license": "MIT",
@@ -10880,7 +10880,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/Mavic-Pro/SpecOpsTheLineVR",
-    "last_checked": "2026-10-29"
+    "last_checked": "2026-10-31"
   },
   {
     "slug": "stanley-vr",
@@ -10949,8 +10949,8 @@
     ],
     "controls": "mixed",
     "status": "alpha",
-    "version": "v0.0.8.8.1",
-    "version_date": "2026-10-23",
+    "version": "v0.0.8.8.2",
+    "version_date": "2026-10-30",
     "download_url": "https://github.com/kandowontu2/starfox-enhanced/releases/latest",
     "source_url": "https://github.com/kandowontu2/starfox-enhanced",
     "homepage": "https://sidequestvr.com/app/63239",
@@ -10975,7 +10975,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://sidequestvr.com/app/63239",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-10-31"
   },
   {
     "slug": "star-trucker-vr",
@@ -12525,8 +12525,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v1.0.7",
-    "version_date": "2026-10-26",
+    "version": "v1.1",
+    "version_date": "2026-10-30",
     "download_url": "https://github.com/Trastorillo/wakerquest/releases/latest",
     "source_url": "https://github.com/Trastorillo/wakerquest",
     "homepage": "https://questports.vercel.app/ports/wakerquest",
@@ -12551,7 +12551,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/wakerquest",
-    "last_checked": "2026-10-29"
+    "last_checked": "2026-10-31"
   },
   {
     "slug": "warbandvr",
@@ -13061,8 +13061,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.2.1-beta",
-    "version_date": "2026-10-27",
+    "version": "v0.2.2-beta",
+    "version_date": "2026-10-30",
     "download_url": "https://github.com/rhythmerc/xelee/releases/latest",
     "source_url": "https://github.com/rhythmerc/xelee",
     "license": "GPL-3.0-or-later",
@@ -13080,7 +13080,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/xelee",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-10-31"
   },
   {
     "slug": "xonotic-vr",

@@ -8,7 +8,7 @@ authors:
 platform: pcvr
 controls: mixed
 status: alpha
-version: "0.2.2"
+version: "ANOMALITHVR"
 version_date: "2026-10-29"
 download_url: https://github.com/King-EJ/ANOMALITH-VR/releases/latest
 source_url: https://github.com/King-EJ/ANOMALITH-VR
@@ -24,4 +24,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/King-EJ/ANOMALITH-VR
-last_checked: "2026-10-30"
+last_checked: "2026-10-31"

@@ -11,8 +11,8 @@ headsets:
   - Quest 3S
 controls: 6dof
 status: beta
-version: "v1.0.7"
-version_date: "2026-10-26"
+version: "v1.1"
+version_date: "2026-10-30"
 download_url: https://github.com/Trastorillo/wakerquest/releases/latest
 source_url: https://github.com/Trastorillo/wakerquest
 homepage: https://questports.vercel.app/ports/wakerquest
@@ -31,4 +31,4 @@ reviews:
     url: https://www.youtube.com/watch?v=KjtpaMXY32w
 added_by: bot
 discovered_via: https://questports.vercel.app/ports/wakerquest
-last_checked: "2026-10-29"
+last_checked: "2026-10-31"
