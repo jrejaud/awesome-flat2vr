@@ -555,8 +555,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "vr-v0.3.0",
-    "version_date": "2026-10-29",
+    "version": "vr-v0.4.1",
+    "version_date": "2026-11-01",
     "download_url": "https://github.com/cmpayc/ArxLibertatisVR/releases/latest",
     "source_url": "https://github.com/cmpayc/ArxLibertatisVR",
     "homepage": "https://questports.vercel.app/ports/arx-libertatis-vr",
@@ -588,7 +588,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/arx-libertatis-vr",
-    "last_checked": "2026-10-30"
+    "last_checked": "2026-11-02"
   },
   {
     "slug": "assassins-creed-iv-black-flag-resynced-vr",
@@ -1625,8 +1625,8 @@
     "platform": "pcvr",
     "controls": "gamepad",
     "status": "alpha",
-    "version": "v0.6.0",
-    "version_date": "2026-10-21",
+    "version": "v1.0.0",
+    "version_date": "2026-11-02",
     "download_url": "https://github.com/drowhunter/CodiesVR/releases/latest",
     "source_url": "https://github.com/drowhunter/CodiesVR",
     "license": "GPL-3.0",
@@ -1663,7 +1663,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/drowhunter/CodiesVR",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-11-02"
   },
   {
     "slug": "confidential-mission-vr",
@@ -2053,8 +2053,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "0.1.9",
-    "version_date": "2026-10-27",
+    "version": "0.2.0",
+    "version_date": "2026-11-01",
     "download_url": "https://github.com/dariulone/cyberpunk-vr-port/releases/latest",
     "source_url": "https://github.com/dariulone/cyberpunk-vr-port",
     "license": "MIT",
@@ -2083,7 +2083,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-11-02"
   },
   {
     "slug": "dead-space-2023-r-e-a-l-vr",
@@ -2863,8 +2863,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "stable",
-    "version": "EDF6VR-3.2.13",
-    "version_date": "2026-10-27",
+    "version": "EDF6VR-3.2.14",
+    "version_date": "2026-11-01",
     "download_url": "https://github.com/momotori01/EARTH-DEFENSE-FORCE-6-VR-MOD/releases/latest",
     "source_url": "https://github.com/momotori01/EARTH-DEFENSE-FORCE-6-VR-MOD",
     "license": "Unlicense",
@@ -2893,7 +2893,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/momotori01/EARTH-DEFENSE-FORCE-6-VR-MOD",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-11-02"
   },
   {
     "slug": "edge-of-eternity-vr",
@@ -2948,8 +2948,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "EnshroudedVR-0.9.19",
-    "version_date": "2026-10-30",
+    "version": "EnshroudedVR-0.9.20",
+    "version_date": "2026-11-01",
     "download_url": "https://github.com/momotori01/ENSHROUDED-VR-MOD/releases/latest",
     "source_url": "https://github.com/momotori01/ENSHROUDED-VR-MOD",
     "license": "Unlicense",
@@ -2978,7 +2978,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/momotori01/ENSHROUDED-VR-MOD",
-    "last_checked": "2026-10-30"
+    "last_checked": "2026-11-02"
   },
   {
     "slug": "eternalvr",
@@ -3327,7 +3327,7 @@
     "platform": "pcvr",
     "controls": "mixed",
     "status": "stable",
-    "version": "v1.6.8",
+    "version": "v1.6.9",
     "version_date": "2026-11-01",
     "download_url": "https://github.com/Saikava/flatout2-vr/releases/latest",
     "source_url": "https://github.com/Saikava/flatout2-vr",
@@ -3352,7 +3352,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/Saikava/flatout2-vr",
-    "last_checked": "2026-11-01"
+    "last_checked": "2026-11-02"
   },
   {
     "slug": "flatout-4-vr",
@@ -4045,8 +4045,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.5.13",
-    "version_date": "2026-10-20",
+    "version": "v0.5.14",
+    "version_date": "2026-11-02",
     "download_url": "https://github.com/MrSco/goldeneye-vr/releases/latest",
     "source_url": "https://github.com/MrSco/goldeneye-vr",
     "homepage": "https://goldeneyevr.com",
@@ -4076,7 +4076,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/mrsco/goldeneye-vr",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-11-02"
   },
   {
     "slug": "gothic-ii-vr",
@@ -6285,8 +6285,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v2.0.0-beta.6",
-    "version_date": "2026-10-29",
+    "version": "v2.0.0-beta.7",
+    "version_date": "2026-11-01",
     "download_url": "https://github.com/iChris4/MetroidPrimePortVR/releases/latest",
     "source_url": "https://github.com/iChris4/MetroidPrimePortVR",
     "homepage": "https://github.com/Odrannnn/MetroidPrimePort/releases/latest",
@@ -6316,7 +6316,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/ichris4/metroidprimeportvr",
-    "last_checked": "2026-10-29"
+    "last_checked": "2026-11-02"
   },
   {
     "slug": "mgs5vr",
@@ -6484,8 +6484,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "beta.1",
-    "version_date": "2026-10-31",
+    "version": "v1.2",
+    "version_date": "2026-11-01",
     "download_url": "https://github.com/CaptainBrannigan/WarfighterVR/releases/latest",
     "source_url": "https://github.com/CaptainBrannigan/WarfighterVR",
     "license": "unknown",
@@ -6505,7 +6505,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/CaptainBrannigan/WarfighterVR",
-    "last_checked": "2026-11-01"
+    "last_checked": "2026-11-02"
   },
   {
     "slug": "mothervr",
@@ -8561,8 +8561,8 @@
     ],
     "controls": "mixed",
     "status": "alpha",
-    "version": "v0.1.15-alpha1",
-    "version_date": "2026-10-27",
+    "version": "v0.1.16-alpha1",
+    "version_date": "2026-11-01",
     "download_url": "https://github.com/LanceSweatpants/Strikers-Quest-MR/releases/latest",
     "source_url": "https://github.com/LanceSweatpants/Strikers-Quest-MR",
     "homepage": "https://questports.vercel.app/ports/strikers-quest-mr",
@@ -8581,7 +8581,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/strikers-quest-mr",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-11-02"
   },
   {
     "slug": "quest-doom",
@@ -9914,8 +9914,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.2.11-dev.e23fb2fafab8",
-    "version_date": "2026-10-31",
+    "version": "v0.2.11-dev.5688bee720ab",
+    "version_date": "2026-11-02",
     "download_url": "https://github.com/ObeseCatLord/Serious-Sam-2-VR/releases/latest",
     "source_url": "https://github.com/ObeseCatLord/Serious-Sam-2-VR",
     "license": "MIT",
@@ -9946,7 +9946,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/ObeseCatLord/Serious-Sam-2-VR",
-    "last_checked": "2026-11-01"
+    "last_checked": "2026-11-02"
   },
   {
     "slug": "shipbreakervr",
@@ -10810,8 +10810,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "stable",
-    "version": "1.31",
-    "version_date": "2026-10-28",
+    "version": "1.32",
+    "version_date": "2026-11-02",
     "download_url": "https://github.com/helpimaghost/Space-Hulk-Deathwing-VR/releases/latest",
     "source_url": "https://github.com/helpimaghost/Space-Hulk-Deathwing-VR",
     "license": "unknown",
@@ -10840,7 +10840,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
-    "last_checked": "2026-10-29"
+    "last_checked": "2026-11-02"
   },
   {
     "slug": "specopsthelinevr",
@@ -10861,8 +10861,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.10.4",
-    "version_date": "2026-10-30",
+    "version": "v0.10.5",
+    "version_date": "2026-11-01",
     "download_url": "https://github.com/Mavic-Pro/SpecOpsTheLineVR/releases/latest",
     "source_url": "https://github.com/Mavic-Pro/SpecOpsTheLineVR",
     "license": "MIT",
@@ -10880,7 +10880,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/Mavic-Pro/SpecOpsTheLineVR",
-    "last_checked": "2026-10-31"
+    "last_checked": "2026-11-02"
   },
   {
     "slug": "stanley-vr",
@@ -10949,8 +10949,8 @@
     ],
     "controls": "mixed",
     "status": "alpha",
-    "version": "v0.0.8.8.2",
-    "version_date": "2026-10-30",
+    "version": "v0.0.8.8.3",
+    "version_date": "2026-11-01",
     "download_url": "https://github.com/kandowontu2/starfox-enhanced/releases/latest",
     "source_url": "https://github.com/kandowontu2/starfox-enhanced",
     "homepage": "https://sidequestvr.com/app/63239",
@@ -10975,7 +10975,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://sidequestvr.com/app/63239",
-    "last_checked": "2026-10-31"
+    "last_checked": "2026-11-02"
   },
   {
     "slug": "star-trucker-vr",
@@ -12525,8 +12525,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v1.1",
-    "version_date": "2026-10-30",
+    "version": "v1.1.1",
+    "version_date": "2026-11-01",
     "download_url": "https://github.com/Trastorillo/wakerquest/releases/latest",
     "source_url": "https://github.com/Trastorillo/wakerquest",
     "homepage": "https://questports.vercel.app/ports/wakerquest",
@@ -12551,7 +12551,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/wakerquest",
-    "last_checked": "2026-10-31"
+    "last_checked": "2026-11-02"
   },
   {
     "slug": "warbandvr",
@@ -13061,8 +13061,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.2.2-beta",
-    "version_date": "2026-10-30",
+    "version": "v0.3.1-beta",
+    "version_date": "2026-11-01",
     "download_url": "https://github.com/rhythmerc/xelee/releases/latest",
     "source_url": "https://github.com/rhythmerc/xelee",
     "license": "GPL-3.0-or-later",
@@ -13080,7 +13080,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/xelee",
-    "last_checked": "2026-10-31"
+    "last_checked": "2026-11-02"
   },
   {
     "slug": "xonotic-vr",

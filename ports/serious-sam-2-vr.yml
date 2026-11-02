@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: alpha
-version: "v0.2.11-dev.e23fb2fafab8"
-version_date: "2026-10-31"
+version: "v0.2.11-dev.5688bee720ab"
+version_date: "2026-11-02"
 download_url: https://github.com/ObeseCatLord/Serious-Sam-2-VR/releases/latest
 source_url: https://github.com/ObeseCatLord/Serious-Sam-2-VR
 license: MIT
@@ -31,4 +31,4 @@ reviews:
     url: https://www.youtube.com/watch?v=XhIldxuyYx0
 added_by: bot
 discovered_via: https://github.com/ObeseCatLord/Serious-Sam-2-VR
-last_checked: "2026-11-01"
+last_checked: "2026-11-02"
