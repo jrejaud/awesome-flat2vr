@@ -1,0 +1,35 @@
+name: UnturnedVR
+games:
+  - Unturned
+category: mod
+authors:
+  - name: GoldenHeartbell
+    url: https://github.com/GoldenHeartbell
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.2.7"
+version_date: "2026-11-01"
+download_url: https://github.com/GoldenHeartbell/UnturnedVR-mod/releases/latest
+source_url: https://github.com/GoldenHeartbell/UnturnedVR-mod
+license: GPL-3.0
+required_files: Unturned (Steam version)
+known_bugs:
+  - Not usable on BattlEye servers; the game must be launched without BattlEye
+  - Server support is experimental and only for a private server with VAC and BattlEye off
+notes: Work-in-progress SteamVR mod adding tracked hands, aimed guns, holsters and physical melee, grenades and fishing.
+images:
+  - game: Unturned
+    file: images/unturnedvr/unturned.png
+    credit: Unturned grid by Huegh (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/30418
+reviews:
+  - title: '"UNTURNED IN VIRTUAL REALITY WOO HOO!!!"  Unturned HTC Vive Virtual Reality (VR) Game!'
+    channel: Generikb
+    url: https://www.youtube.com/watch?v=cDPQZnCVXKs
+  - title: "ZOMBIE SURVIVAL GAME IN VR! | Unturned (Oculus Rift: DK2)"
+    channel: Nathie
+    url: https://www.youtube.com/watch?v=9PmNQqIAG3E
+added_by: bot
+discovered_via: https://github.com/GoldenHeartbell/UnturnedVR-mod
+last_checked: "2026-11-03"

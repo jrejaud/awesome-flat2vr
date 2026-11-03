@@ -1,0 +1,36 @@
+name: far-cry-2-vr
+games:
+  - Far Cry 2
+category: mod
+authors:
+  - name: TefMeister
+    url: https://github.com/TefMeister
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "v0.1.0-alpha"
+version_date: "2026-08-21"
+download_url: https://github.com/TefMeister/far-cry-2-vr/releases/latest
+source_url: https://github.com/TefMeister/far-cry-2-vr
+license: unknown
+required_files: Far Cry 2 (retail PC install)
+known_bugs:
+  - Mono image stretched across both eyes, not stereo 3D
+  - No head tracking yet
+  - Controls, HUD and comfort not adapted; may cause severe motion sickness
+notes: Developer alpha proving camera control and a SteamVR bridge; repo is paused as another Far Cry 2 VR mod is in the works.
+images:
+  - game: Far Cry 2
+    file: images/far-cry-2-vr/far-cry-2.jpg
+    credit: Far Cry 2 grid by Gector(lint)Nathan (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/188448
+reviews:
+  - title: Far Cry 2 VR Performance / New VR Mod with 6DOF Motion Controls / Meta Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=9kPQB1_rBks
+  - title: Far Cry 2 VR Mod w. 6DOF & Motion Controls + Download
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=jCD_iUH-Geo
+added_by: bot
+discovered_via: https://github.com/TefMeister/far-cry-2-vr
+last_checked: "2026-11-03"

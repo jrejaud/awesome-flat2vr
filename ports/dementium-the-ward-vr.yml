@@ -1,0 +1,30 @@
+name: "Dementium: The Ward VR"
+games:
+  - "Dementium: The Ward"
+category: mod
+authors:
+  - name: stevethetitan92
+    url: https://github.com/stevethetitan92
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.1.6-fresh-install.20261101"
+version_date: "2026-11-02"
+download_url: https://github.com/stevethetitan92/Dementium-The-Ward-VR/releases/latest
+source_url: https://github.com/stevethetitan92/Dementium-The-Ward-VR
+license: Apache-2.0
+required_files: "Original copy of Dementium: The Ward (purchased separately, installed via Steam)"
+known_bugs: []
+notes: Experimental Direct3D 12 interception with OpenXR and tracked motion controls; launches via SteamVR or Virtual Desktop.
+images:
+  - game: "Dementium: The Ward"
+    file: images/dementium-the-ward-vr/dementium-the-ward.jpg
+    credit: "Dementium: The Ward grid by Akela (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/651367
+reviews:
+  - title: Dementium The Ward VR - Early Showcase
+    channel: SteveTheTitan
+    url: https://www.youtube.com/watch?v=tol44JZvklk
+added_by: bot
+discovered_via: https://github.com/stevethetitan92/Dementium-The-Ward-VR
+last_checked: "2026-11-03"

@@ -1,0 +1,33 @@
+name: GoWEDay-VR
+games:
+  - "Gears of War: E-Day"
+category: mod
+authors:
+  - name: paultaran00
+    url: https://github.com/paultaran00
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.2.0"
+version_date: "2026-11-02"
+download_url: https://github.com/paultaran00/GoWEDay-VR/releases/latest
+source_url: https://github.com/paultaran00/GoWEDay-VR
+license: GPL-3.0
+required_files: "Gears of War: E-Day on Steam (legal copy); SteamVR as OpenXR runtime"
+known_bugs: []
+notes: Campaign only (runs offline without Easy Anti-Cheat); built on a patched UEVR; work in progress.
+images:
+  - game: "Gears of War: E-Day"
+    file: images/goweday-vr/gears-of-war-e-day.jpg
+    credit: "Gears of War: E-Day grid by apfelspeier (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/785225
+reviews:
+  - title: "Gears of War: E-Day VR Mod – Full Campaign in Virtual Reality | Trailer (Early WIP)"
+    channel: rockonthehill
+    url: https://www.youtube.com/watch?v=5vXPBVKwbHs
+  - title: "Gears of War: E-Day VR Mod – Early Access Out Now | Full Campaign in VR"
+    channel: rockonthehill
+    url: https://www.youtube.com/watch?v=MvI1veGMVuA
+added_by: bot
+discovered_via: https://github.com/paultaran00/GoWEDay-VR
+last_checked: "2026-11-03"

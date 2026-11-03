@@ -1,0 +1,39 @@
+name: Space Marine 2 VR
+games:
+  - "Warhammer 40,000: Space Marine 2"
+category: mod
+authors:
+  - name: Joe975
+    url: https://github.com/Joe975
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v1.0.0"
+version_date: "2026-11-02"
+download_url: https://github.com/Joe975/space-marine-2-vr/releases/latest
+source_url: https://github.com/Joe975/space-marine-2-vr
+license: unknown
+required_files: "Own copy of Warhammer 40,000: Space Marine 2 on Steam (game data is built from your install)"
+known_bugs:
+  - Large battles run poorly even on an RTX 4090
+  - Two-handed weapon holding isn't working well yet
+  - Melee needs tuning
+  - Parry is inconsistent
+  - Touch controllers not yet tested
+  - Campaign, weapon and headset coverage limited
+notes: Also offers a chase camera mode played with a gamepad; controls designed for Valve Index controllers.
+images:
+  - game: "Warhammer 40,000: Space Marine 2"
+    file: images/space-marine-2-vr/warhammer-40-000-space-marine-2.jpg
+    credit: "Warhammer 40,000: Space Marine 2 store art"
+    source_url: https://store.steampowered.com/app/2183900/
+reviews:
+  - title: The Space Marine 2 VR Experience (is INSANE)
+    channel: Shotlander
+    url: https://www.youtube.com/watch?v=xsIWDcbNIc4
+  - title: Space Marine 2 VR is AWESOME...
+    channel: Jammyhero
+    url: https://www.youtube.com/watch?v=oG1ijZbP7M4
+added_by: bot
+discovered_via: https://github.com/Joe975/space-marine-2-vr
+last_checked: "2026-11-03"

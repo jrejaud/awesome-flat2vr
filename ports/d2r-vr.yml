@@ -1,0 +1,34 @@
+name: D2R VR
+games:
+  - "Diablo II: Resurrected"
+category: mod
+authors:
+  - name: natpoh
+    url: https://github.com/natpoh
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v0.199.0"
+version_date: "2026-11-02"
+download_url: https://github.com/natpoh/diablo2-vr-port/releases/latest
+source_url: https://github.com/natpoh/diablo2-vr-port
+homepage: https://bodywalkvr.com/mods/d2r-vr
+license: unknown
+required_files: "Diablo II: Resurrected installed (PC)"
+known_bugs: []
+notes: Free D2RLoader plugin offering first-person, third-person, room-floor mixed reality and classic 3D views; installer sets up BodyWalk Lite if needed.
+images:
+  - game: "Diablo II: Resurrected"
+    file: images/d2r-vr/diablo-ii-resurrected.png
+    credit: "Diablo II: Resurrected grid by D1Vad (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/155484
+reviews:
+  - title: "Diablo II: Resurrected in VR - Unleashed Combat, Better Crossbows & More! | D2R PCVR v0.3.16"
+    channel: Monkeylashes
+    url: https://www.youtube.com/watch?v=EBL7lzd4s-M
+  - title: "Playing Diablo II: Resurrected in VR on our VR Treadmill!"
+    channel: Virtuix Omni
+    url: https://www.youtube.com/watch?v=8-6nk1sE08s
+added_by: bot
+discovered_via: https://github.com/natpoh/diablo2-vr-port
+last_checked: "2026-11-03"

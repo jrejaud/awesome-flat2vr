@@ -1,0 +1,27 @@
+name: Red Faction Guerrilla VR
+games:
+  - Red Faction Guerrilla Re-MARS-tered
+category: mod
+authors:
+  - name: ElderMiner
+    url: https://github.com/ElderMiner
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v0.10.74"
+version_date: "2026-11-03"
+download_url: https://github.com/ElderMiner/Red-Faction-Guerrilla-Re-MARS-tered-VR/releases/latest
+source_url: https://github.com/ElderMiner/Red-Faction-Guerrilla-Re-MARS-tered-VR
+license: unknown
+required_files: Own Steam Windows copy of Red Faction Guerrilla Re-MARS-tered (app 667720)
+known_bugs: []
+notes: Unofficial OpenXR mod with installer wizard; Quest Touch, Valve Index and Steam Frame controller layouts; custom noncommercial source-available license.
+images:
+  - game: Red Faction Guerrilla Re-MARS-tered
+    file: images/red-faction-guerrilla-vr/red-faction-guerrilla-re-mars-tered.png
+    credit: Red Faction Guerrilla Re-Mars-tered grid by CappDog (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/773187
+reviews: []
+added_by: bot
+discovered_via: https://github.com/ElderMiner/Red-Faction-Guerrilla-Re-MARS-tered-VR
+last_checked: "2026-11-03"

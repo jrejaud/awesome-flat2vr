@@ -1,0 +1,36 @@
+name: "Battlefield 3 VR: The Great Destroyer"
+games:
+  - Battlefield 3
+category: mod
+authors:
+  - name: criminalvictory
+    url: https://github.com/criminalvictory
+platform: pcvr
+controls: mixed
+status: alpha
+version: "v0.1.0-pre-alpha"
+version_date: "2026-11-02"
+download_url: https://github.com/criminalvictory/Battlefield-3-VR-The-Great-Destroyer/releases/latest
+source_url: https://github.com/criminalvictory/Battlefield-3-VR-The-Great-Destroyer
+license: unknown
+required_files: Steam version of Battlefield 3 (32-bit bf3.exe 1.6.0.0)
+known_bugs:
+  - Head position does not yet move the view
+  - Reloading by hand and two-handed aiming not yet implemented
+  - Campaign only; using it on online servers can get the account banned
+notes: OpenXR injector-based mod giving per-eye stereo, head tracking and motion controller aiming; tested only on SteamVR with Steam Frame.
+images:
+  - game: Battlefield 3
+    file: images/battlefield-3-vr-the-great-destroyer/battlefield-3.png
+    credit: Battlefield 3 grid by KyleJCrb (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/77931
+reviews:
+  - title: 3D Battlefield 3 - VR Virtual Reality Vídeo Google Cardboard VR Box
+    channel: 3D 'n' Play
+    url: https://www.youtube.com/watch?v=vVybcg6XN5g
+  - title: Battlefield 3 Virtual Reality!
+    channel: ShadowSix
+    url: https://www.youtube.com/watch?v=G24qFAHG5xw
+added_by: bot
+discovered_via: https://github.com/criminalvictory/Battlefield-3-VR-The-Great-Destroyer
+last_checked: "2026-11-03"

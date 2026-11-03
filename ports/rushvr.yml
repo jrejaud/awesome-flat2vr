@@ -1,0 +1,41 @@
+name: RushVR
+games:
+  - "Until Dawn: Rush of Blood"
+category: mod
+authors:
+  - name: RandomName729
+    url: https://github.com/RandomName729
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "v0.4.5"
+version_date: "2026-11-02"
+download_url: https://github.com/RandomName729/RushofPCVR/releases/latest
+source_url: https://github.com/RandomName729/RushofPCVR
+homepage: https://www.patreon.com/cw/RandomName729
+license: GPL-2.0
+required_files: "Your own dumped copy of Until Dawn: Rush of Blood (US release, CUSA03683, version 1.00)"
+known_bugs:
+  - Picture can look pixelated or soft
+  - Small stutters
+  - Arms can look dark in the intro
+  - Game sometimes stops after level 1
+  - Levels 5 and later are untested
+notes: Bundles a modified shadPS4 PS4 emulator; runs on Quest 3 via Virtual Desktop or SteamVR, or any OpenXR headset.
+images:
+  - game: "Until Dawn: Rush of Blood"
+    file: images/rushvr/until-dawn-rush-of-blood.jpg
+    credit: "Until Dawn: Rush of Blood (Wikipedia)"
+    source_url: https://en.wikipedia.org/wiki/Until_Dawn%3A_Rush_of_Blood
+reviews:
+  - title: "Until Dawn: Rush of Blood VR Playstation VR 1080p Walkthrough Longplay Gameplay No Commentary"
+    channel: SHN Survival Horror Network
+    url: https://www.youtube.com/watch?v=u-IN_ZU8UQI
+  - title: "I HAD A MINI HEART ATTACK || Until Dawn: Rush of Blood Hotel Hell PS VR"
+    channel: POiiSED
+    url: https://www.youtube.com/watch?v=LfRveptj3d8
+added_by: bot
+discovered_via: https://github.com/RandomName729/RushofPCVR
+last_checked: "2026-11-03"

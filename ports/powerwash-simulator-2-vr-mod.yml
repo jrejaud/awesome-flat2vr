@@ -1,0 +1,34 @@
+name: Powerwash Simulator 2 VR Mod
+games:
+  - PowerWash Simulator 2
+category: mod
+authors:
+  - name: Minibattle
+    url: https://github.com/Minibattle
+platform: pcvr
+controls: 6dof
+status: stable
+version: "2.0"
+version_date: "2026-11-03"
+download_url: https://github.com/Minibattle/Powerwash-Simulator-2-VR-Mod/releases/latest
+source_url: https://github.com/Minibattle/Powerwash-Simulator-2-VR-Mod
+license: unknown
+required_files: PowerWash Simulator 2 (PC)
+known_bugs:
+  - Some grass textures appear smeary because they only render in one eye.
+notes: Adds physical nozzle/washer interactions, finger tracking, multiplayer syncing and Steam Frame controls.
+images:
+  - game: PowerWash Simulator 2
+    file: images/powerwash-simulator-2-vr-mod/powerwash-simulator-2.jpg
+    credit: PowerWash Simulator 2 store art
+    source_url: https://store.steampowered.com/app/2968420/
+reviews:
+  - title: PowerWash Simulator 2 VR Performance / New VR Mod with 6DOF Controls / Meta Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=dgpj6IJn8Xw
+  - title: PowerWash Simulator 2 VR Mod - 6DOF Motion Controls - Gameplay & Commentary on the Meta Quest 3
+    channel: FastLawyer
+    url: https://www.youtube.com/watch?v=GkCfasQGTF8
+added_by: bot
+discovered_via: https://github.com/Minibattle/Powerwash-Simulator-2-VR-Mod
+last_checked: "2026-11-03"

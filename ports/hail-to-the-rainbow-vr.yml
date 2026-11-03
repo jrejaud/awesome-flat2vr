@@ -1,0 +1,32 @@
+name: Hail to the Rainbow VR
+games:
+  - Hail to the Rainbow
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "HailtotheRainbowVR"
+version_date: "2026-11-03"
+download_url: https://github.com/King-EJ/Hail-to-the-Rainbow/releases/latest
+source_url: https://github.com/King-EJ/Hail-to-the-Rainbow
+license: unknown
+required_files: Hail to the Rainbow (PC, Unity 2019.4 Mono x64)
+known_bugs:
+  - Test build, broken right now and not fully tested
+  - Only tested with Virtual Desktop XR
+notes: BepInEx 5 based mod (v0.1.9 test build); unzip into game folder, rename winhttp.dll to winhttp.dll.bak to disable.
+images:
+  - game: Hail to the Rainbow
+    file: images/hail-to-the-rainbow-vr/hail-to-the-rainbow.png
+    credit: Hail to the Rainbow grid by terminal frost (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/729162
+reviews:
+  - title: VR Hail to the Rainbow Gameplay
+    channel: BeGosha
+    url: https://www.youtube.com/watch?v=ZhtUufibUZ8
+added_by: bot
+discovered_via: https://github.com/King-EJ/Hail-to-the-Rainbow
+last_checked: "2026-11-03"

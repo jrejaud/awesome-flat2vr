@@ -1,0 +1,32 @@
+name: South Park Quest VR
+games:
+  - South Park (N64)
+category: source-port
+authors:
+  - name: VistaLargaGames
+    url: https://github.com/VistaLargaGames
+platform: standalone
+headsets:
+  - Quest 3
+controls: mixed
+status: alpha
+version: "v0.1.0"
+version_date: "2026-11-02"
+download_url: https://github.com/VistaLargaGames/South-Park-Quest-VR/releases/latest
+source_url: https://github.com/VistaLargaGames/South-Park-Quest-VR
+license: unknown
+required_files: South Park (USA) N64 ROM dumped from your own cartridge
+known_bugs:
+  - Some polygons flicker or disappear in a few spots (for example near Jimbo's).
+  - "Online co-op is in BETA: expect some lag and rough edges."
+  - The wrap-around screen looks softer than head aim.
+notes: Built on N64Recomp, N64ModernRuntime and RT64; offers head-aim and wrap-around cameras plus beta online co-op.
+images:
+  - game: South Park (N64)
+    file: images/south-park-quest-vr/south-park.png
+    credit: South Park grid by thegothinator (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/700794
+reviews: []
+added_by: bot
+discovered_via: https://github.com/VistaLargaGames/South-Park-Quest-VR
+last_checked: "2026-11-03"

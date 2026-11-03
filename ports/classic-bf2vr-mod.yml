@@ -1,0 +1,33 @@
+name: Classic BF2VR Mod
+games:
+  - Star Wars Battlefront II (2005)
+category: mod
+authors:
+  - name: addvans
+    url: https://github.com/addvans
+platform: pcvr
+controls: 6dof
+status: stable
+version: "1.1"
+version_date: "2026-11-03"
+download_url: https://github.com/addvans/Classic-BF2VR-Mod/releases/latest
+source_url: https://github.com/addvans/Classic-BF2VR-Mod
+license: MIT
+required_files: Star Wars Battlefront II (Classic, 2005) from Steam, 32-bit version (not the Classic Collection)
+known_bugs: []
+notes: Infantry only for now; vehicles and starfighters planned. Steam version only, GOG support planned.
+images:
+  - game: Star Wars Battlefront II (2005)
+    file: images/classic-bf2vr-mod/star-wars-battlefront-ii.jpg
+    credit: "Star Wars: Battlefront II grid by adamboulton (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/589541
+reviews:
+  - title: Star Wars Battlefront 2 in VR - Virtual Reality Gameplay - Star Wars Battlefront 2 VR Gameplay
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=Vg8_DkjH5xM
+  - title: Star Wars Classic Battlefront 2 VR - Proof of Concept
+    channel: addvans
+    url: https://www.youtube.com/watch?v=JHEnZTSGI8Q
+added_by: bot
+discovered_via: https://github.com/addvans/Classic-BF2VR-Mod
+last_checked: "2026-11-03"

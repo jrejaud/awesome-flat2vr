@@ -1,0 +1,29 @@
+name: RatchetAndClank-Quest-VR
+games:
+  - Ratchet & Clank (2002)
+category: source-port
+authors:
+  - name: moistman42069
+    url: https://github.com/moistman42069
+platform: standalone
+headsets:
+  - Meta Quest
+controls: 6dof
+status: alpha
+version: "v0.1.9"
+version_date: "2026-11-02"
+download_url: https://github.com/moistman42069/RatchetAndClank-Quest-VR/releases/latest
+source_url: https://github.com/moistman42069/RatchetAndClank-Quest-VR
+license: GPL-3.0
+required_files: Your own Ratchet & Clank (PS2) disc image
+known_bugs: []
+notes: Quest port of npiriou's Rerac-vr running on OpenRAC's recompiled native port; described as a test build.
+images:
+  - game: Ratchet & Clank (2002)
+    file: images/ratchetandclank-quest-vr/ratchet-clank.jpg
+    credit: Ratchet & Clank grid by AnimeFan69 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/857809
+reviews: []
+added_by: bot
+discovered_via: https://github.com/moistman42069/RatchetAndClank-Quest-VR
+last_checked: "2026-11-03"

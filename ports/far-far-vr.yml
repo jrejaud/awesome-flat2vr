@@ -1,0 +1,33 @@
+name: Far Far VR
+games:
+  - Far Far West
+category: mod
+authors:
+  - name: PR_VR
+    url: https://github.com/pr-io
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.4.6"
+version_date: "2026-11-03"
+download_url: https://github.com/pr-io/Far-Far-VR/releases/latest
+source_url: https://github.com/pr-io/Far-Far-VR
+license: unknown
+required_files: Purchased Steam copy of Far Far West
+known_bugs: []
+notes: Early access mod powered by UEVR with a launcher that auto-installs the runtime and VR profile.
+images:
+  - game: Far Far West
+    file: images/far-far-vr/far-far-west.jpg
+    credit: Far Far West grid by Aristurtle (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/764869
+reviews:
+  - title: Far Far West VR - PCVR (With Meta Quest 3) - UEVR (6DOF + Hybrid Motion Controls)
+    channel: BionicFreak
+    url: https://www.youtube.com/watch?v=BY8-jR-ActI
+  - title: Far Far West Vr Mod Test in my HomeScale! | Powered by LIV
+    channel: Dedo 2000
+    url: https://www.youtube.com/watch?v=AHlsVxAqIrY
+added_by: bot
+discovered_via: https://github.com/pr-io/Far-Far-VR
+last_checked: "2026-11-03"
