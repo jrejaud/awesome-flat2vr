@@ -1,0 +1,36 @@
+name: Forsaken VR
+games:
+  - Forsaken
+category: source-port
+authors:
+  - name: SgtBilko76
+    url: https://github.com/SgtBilko76
+platform: standalone
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "v0.1.2"
+version_date: "2026-10-31"
+download_url: https://github.com/SgtBilko76/Forsaken-VR/releases/latest
+source_url: https://github.com/SgtBilko76/Forsaken-VR
+homepage: https://forsakenx.github.io
+license: unknown
+required_files: None; the full APK includes the game data.
+known_bugs: []
+notes: Based on the ForsakenX community source port, using OpenXR with Touch controls.
+images:
+  - game: Forsaken
+    file: images/forsaken-vr/forsaken.png
+    credit: Forsaken grid by traintrash (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/838689
+reviews:
+  - title: "I Tried To Survive Every Last Man Standing in FORSAKEN VR #forsaken #robloxforsaken #vr #forsakenvr"
+    channel: Magician Rblx
+    url: https://www.youtube.com/watch?v=RZb21mAXT_o
+  - title: "FORSAKEN in VR is TERRIFYING!!! | I Tried Roblox Forsaken in Vr | Forsaken Vr Gameplay #forsaken"
+    channel: Magician Rblx
+    url: https://www.youtube.com/watch?v=IL_2oXfb-ZQ
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63880
+last_checked: "2026-11-04"

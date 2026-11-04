@@ -1,0 +1,31 @@
+name: NFL Blitz 2000 VR
+games:
+  - NFL Blitz 2000
+category: source-port
+authors:
+  - name: VistaLargaGames
+    url: https://github.com/VistaLargaGames
+  - name: Casty
+platform: standalone
+headsets:
+  - Quest 3
+controls: gamepad
+status: alpha
+version: "v0.1.56"
+version_date: "2026-10-28"
+download_url: https://github.com/VistaLargaGames/NFL-Blitz-2000-Quest-VR/releases/latest
+source_url: https://github.com/VistaLargaGames/NFL-Blitz-2000-Quest-VR
+homepage: https://sidequestvr.com/app/63910
+license: unknown
+required_files: ROM dumped from your own NFL Blitz 2000 (USA, Rev 1) N64 cartridge
+known_bugs: []
+notes: Built on N64Recomp, N64ModernRuntime and RT64; shows the game on a wide curved virtual screen with 2-4 player online matches.
+images:
+  - game: NFL Blitz 2000
+    file: images/nfl-blitz-2000-vr/nfl-blitz-2000.jpg
+    credit: NFL Blitz 2000 grid by xxescothreexx (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/245623
+reviews: []
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63910
+last_checked: "2026-11-04"

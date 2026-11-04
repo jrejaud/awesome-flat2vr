@@ -1,0 +1,36 @@
+name: Virtua Cop 2 VR
+games:
+  - Virtua Cop 2
+category: source-port
+authors:
+  - name: vr4all-standalone
+    url: https://github.com/vr4all-standalone
+platform: both
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: alpha
+version: "v0.2.15"
+version_date: "2026-11-03"
+download_url: https://github.com/vr4all-standalone/vcop2-vr/releases/latest
+source_url: https://github.com/vr4all-standalone/vcop2-vr
+license: unknown
+required_files: Original Model 2A arcade set vcop2.zip, plus billboard firmware (segabill.zip or included in the game archive). No CHD required.
+known_bugs: []
+notes: Experimental standalone Quest and Windows OpenXR build with tracked lightgun aiming; also posted on SideQuest by Casty.
+images:
+  - game: Virtua Cop 2
+    file: images/virtua-cop-2-vr/virtua-cop-2.png
+    credit: Virtua Cop 2 grid by elgamer242 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/33863
+reviews:
+  - title: Rea Virtua Cop 2 VR
+    channel: John Doe
+    url: https://www.youtube.com/watch?v=Wd_cD4H6gsE
+  - title: 【DLSS 5】Virtua Cop 2 | Full Gameplay | VR戰警2 | Re-Birth | Elite Edition | Longplay | Right Course
+    channel: " STsmile3000 Gaming Channel"
+    url: https://www.youtube.com/watch?v=zrx90QiokFQ
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63866
+last_checked: "2026-11-04"

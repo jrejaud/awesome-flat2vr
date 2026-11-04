@@ -1,0 +1,34 @@
+name: WWF No Mercy VR
+games:
+  - WWF No Mercy
+category: source-port
+authors:
+  - name: VistaLargaGames
+    url: https://github.com/VistaLargaGames
+platform: standalone
+headsets:
+  - Quest 3
+controls: gamepad
+status: alpha
+version: "0.1.20"
+version_date: "2026-11-01"
+download_url: https://github.com/VistaLargaGames/WWF-No-Mercy-Quest-3-Standalone-/releases/latest
+source_url: https://github.com/VistaLargaGames/WWF-No-Mercy-Quest-3-Standalone-
+homepage: https://sidequestvr.com/app/63907
+license: unknown
+required_files: USA Rev 1 / Rev A WWF No Mercy N64 ROM dumped from your own cartridge
+known_bugs:
+  - Random screen stretch/camera snapping
+notes: Built on No Mercy Recompiled, N64Recomp and RT64; includes beta online matches for 2-4 players.
+images:
+  - game: WWF No Mercy
+    file: images/wwf-no-mercy-vr/wwf-no-mercy.png
+    credit: WWF No Mercy grid by HeroofTime (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/856299
+reviews:
+  - title: N64 WWF No Mercy VR Mod + Download
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=tFMdpnK-bg8
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63907
+last_checked: "2026-11-04"

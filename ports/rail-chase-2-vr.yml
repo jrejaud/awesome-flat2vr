@@ -1,0 +1,31 @@
+name: Rail Chase 2 VR
+games:
+  - Rail Chase 2
+category: mod
+authors:
+  - name: vr4all-standalone
+    url: https://github.com/vr4all-standalone
+platform: both
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: beta
+version: "v0.1.1-beta"
+version_date: "2026-11-03"
+download_url: https://github.com/vr4all-standalone/rail-chase-2-vr/releases/latest
+source_url: https://github.com/vr4all-standalone/rail-chase-2-vr
+homepage: https://sidequestvr.com/app/63870
+license: unknown
+required_files: Rail Chase 2 Revision A arcade set rchase2.zip (all 23 required payloads); split sets also need segabill.zip
+known_bugs: []
+notes: Standalone Quest APK plus a Windows OpenXR build; installable via the VR4ALL installer.
+images:
+  - game: Rail Chase 2
+    file: images/rail-chase-2-vr/rail-chase-2.jpg
+    credit: Rail Chase 2 (Wikipedia)
+    source_url: https://en.wikipedia.org/wiki/Rail_Chase_2
+reviews: []
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63870
+last_checked: "2026-11-04"

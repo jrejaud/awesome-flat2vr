@@ -1,0 +1,36 @@
+name: TWFC-VR
+games:
+  - "Transformers: War for Cybertron"
+category: mod
+authors:
+  - name: liper76
+    url: https://github.com/liper76
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: stable
+version: "v1.0.1"
+version_date: "2026-11-03"
+download_url: https://github.com/liper76/TWFC-VR/releases/latest
+source_url: https://github.com/liper76/TWFC-VR
+license: unknown
+required_files: "Transformers: War for Cybertron (2010, PC) installed"
+known_bugs:
+  - Untested on the Steam version; some features may not work there
+notes: Proxy xinput1_3.dll mod for the UE3 game using OpenXR, with IK arms and motion-controller aiming.
+images:
+  - game: "Transformers: War for Cybertron"
+    file: images/twfc-vr/transformers-war-for-cybertron.jpg
+    credit: "Transformers: War for Cybertron grid by TehDragonAsh (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/509983
+reviews:
+  - title: "Transformers: War for Cybertron VR Performance / New VR Mod with 6DOF Motion Controls / PCVR"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=wXTowKcIcGU
+  - title: Transformers War For Cybertron FMV intro VR ambisonic spatial audio surround sound 360
+    channel: SRND
+    url: https://www.youtube.com/watch?v=JXn7qJQRRqI
+added_by: bot
+discovered_via: https://github.com/liper76/TWFC-VR
+last_checked: "2026-11-04"

@@ -1,0 +1,32 @@
+name: Wing Commander VR
+games:
+  - Wing Commander
+category: source-port
+authors:
+  - name: SgtBilko76
+    url: https://github.com/SgtBilko76
+platform: standalone
+headsets:
+  - Quest 3
+  - Pico 4
+controls: 6dof
+status: stable
+version: "1.0.1"
+version_date: "2026-11-01"
+download_url: https://github.com/SgtBilko76/wc1-re-vr/releases/latest
+source_url: https://github.com/SgtBilko76/wc1-re-vr
+homepage: https://portroyale.online/wingcommander.html
+license: GPL-3.0
+required_files: "Original DOS Wing Commander (GOG or installed copy): WC.EXE, SM2.EXE and the complete GAMEDAT folder, copied to /sdcard/WingCommander/"
+known_bugs:
+  - PICO support is untested on PICO hardware
+notes: Built on the wc1-re reconstruction; Touch controllers act as the flight stick, with a 3D cockpit and stereo space.
+images:
+  - game: Wing Commander
+    file: images/wing-commander-vr/wing-commander.png
+    credit: Wing Commander grid by bosd (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/793291
+reviews: []
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63904
+last_checked: "2026-11-04"

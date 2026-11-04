@@ -1,0 +1,31 @@
+name: El Paso, Elsewhere VR
+games:
+  - El Paso, Elsewhere
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.1.12"
+version_date: "2026-11-04"
+download_url: https://github.com/King-EJ/El-Paso-Elsewhere/releases/latest
+source_url: https://github.com/King-EJ/El-Paso-Elsewhere
+license: unknown
+required_files: El Paso, Elsewhere (PC, Unity IL2CPP)
+known_bugs:
+  - Have to toggle third person when a level is missing
+notes: BepInEx 6 based mod with first-person 6DOF dual-gun and third-person views; only tested with Virtual Desktop XR.
+images:
+  - game: El Paso, Elsewhere
+    file: images/el-paso-elsewhere-vr/el-paso-elsewhere.jpg
+    credit: El Paso, Elsewhere grid by HoopyFrood (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/393595
+reviews:
+  - title: El Paso, Elsewhere VR
+    channel: KingVR_PC
+    url: https://www.youtube.com/watch?v=zMsbrFo9hPE
+added_by: bot
+discovered_via: https://github.com/King-EJ/El-Paso-Elsewhere
+last_checked: "2026-11-04"

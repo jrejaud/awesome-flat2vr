@@ -1,0 +1,38 @@
+name: Behind Enemy Lines VR
+games:
+  - Behind Enemy Lines
+category: mod
+authors:
+  - name: Casty
+  - name: vr4all-standalone
+    url: https://github.com/vr4all-standalone
+platform: both
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: beta
+version: "v0.1.2-beta"
+version_date: "2026-11-03"
+download_url: https://github.com/vr4all-standalone/behind-enemy-lines-vr/releases/latest
+source_url: https://github.com/vr4all-standalone/behind-enemy-lines-vr
+homepage: https://sidequestvr.com/app/63869
+license: unknown
+required_files: Your own complete Behind Enemy Lines arcade archive bel.zip with all 31 original payloads
+known_bugs: []
+notes: Stereo VR with tracked guns for Sega Model 2C arcade game; Quest standalone and Windows OpenXR builds.
+images:
+  - game: Behind Enemy Lines
+    file: images/behind-enemy-lines-vr/behind-enemy-lines.jpg
+    credit: Behind... Enemy Lines grid by TheRocketGamer (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/573371
+reviews:
+  - title: Behind Enemy Lines 🥷 | VR Stealth Gameplay
+    channel: SilentOps
+    url: https://www.youtube.com/watch?v=W8niZirK0dg
+  - title: Behind Enemy Lines (2001) Teaser Trailer 3D SBS VR 4K
+    channel: 3D VR FUN
+    url: https://www.youtube.com/watch?v=ayrPXMYa8Kw
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63869
+last_checked: "2026-11-04"

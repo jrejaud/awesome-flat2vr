@@ -1,0 +1,36 @@
+name: Gunblade NY VR
+games:
+  - Gunblade NY
+category: mod
+authors:
+  - name: vr4all-standalone
+    url: https://github.com/vr4all-standalone
+platform: both
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: beta
+version: "v0.1.9-beta"
+version_date: "2026-11-03"
+download_url: https://github.com/vr4all-standalone/gunblade-ny-vr/releases/latest
+source_url: https://github.com/vr4all-standalone/gunblade-ny-vr
+homepage: https://github.com/vr4all-standalone/vr4all-standalone
+license: unknown
+required_files: Gunblade NY Revision A arcade set gunblade.zip (18 payloads); split sets also need segabill.zip
+known_bugs:
+  - Some heavy scenes can run below full arcade speed
+  - Quest 3 hardware and Windows OpenXR builds have not had a physical play check
+notes: Tracked-gun stereo VR port with Quest standalone APK and Windows OpenXR build; also on SideQuest by Casty.
+images:
+  - game: Gunblade NY
+    file: images/gunblade-ny-vr/gunblade-ny.png
+    credit: Gunblade NY grid by TheRocketGamer (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/614104
+reviews:
+  - title: GunBlade NY VR Mod w. Motion Controls + Download
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=jOfONbACBTA
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63867
+last_checked: "2026-11-04"

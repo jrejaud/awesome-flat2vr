@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: alpha
-version: "v0.4.6"
-version_date: "2026-11-03"
+version: "v0.4.8"
+version_date: "2026-11-04"
 download_url: https://github.com/pr-io/Far-Far-VR/releases/latest
 source_url: https://github.com/pr-io/Far-Far-VR
 license: unknown
@@ -30,4 +30,4 @@ reviews:
     url: https://www.youtube.com/watch?v=AHlsVxAqIrY
 added_by: bot
 discovered_via: https://github.com/pr-io/Far-Far-VR
-last_checked: "2026-11-03"
+last_checked: "2026-11-04"

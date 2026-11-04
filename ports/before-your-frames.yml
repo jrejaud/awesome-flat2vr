@@ -10,8 +10,8 @@ headsets:
   - Steam Frame
 controls: mixed
 status: beta
-version: "v0.7.0"
-version_date: "2026-11-02"
+version: "v0.9.0"
+version_date: "2026-11-03"
 download_url: https://github.com/davidciglesias/before-your-frames/releases/latest
 source_url: https://github.com/davidciglesias/before-your-frames
 license: MIT
@@ -26,4 +26,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/davidciglesias/before-your-frames
-last_checked: "2026-11-03"
+last_checked: "2026-11-04"

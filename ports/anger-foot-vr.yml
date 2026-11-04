@@ -1,0 +1,33 @@
+name: Anger Foot VR
+games:
+  - Anger Foot
+category: mod
+authors:
+  - name: StrikeZoneVR
+    url: https://github.com/StrikeZoneVR-hub
+platform: pcvr
+controls: 6dof
+status: stable
+version: "v1.1.0"
+version_date: "2026-11-03"
+download_url: https://github.com/StrikeZoneVR-hub/AngerFootVR/releases/latest
+source_url: https://github.com/StrikeZoneVR-hub/AngerFootVR
+license: GPL-3.0
+required_files: Anger Foot (PC)
+known_bugs: []
+notes: Full-body VR with head-high kicks, gripped and throwable guns; streams to Quest via Virtual Desktop, Link or SteamVR.
+images:
+  - game: Anger Foot
+    file: images/anger-foot-vr/anger-foot.png
+    credit: Anger Foot grid by Just.Seani (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/180127
+reviews:
+  - title: ANGER FOOT VR is Awesome! Play Any UNITY GAME in VR?! // UUVR Mod
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=5JmIM0tmnCA
+  - title: UUVR is HERE! (Unity VR Injector) - ANGER FOOT in VR is the GOAT! (+ GUIDE!!!)
+    channel: Paradise Decay
+    url: https://www.youtube.com/watch?v=AddCaB1XOiU
+added_by: bot
+discovered_via: https://github.com/StrikeZoneVR-hub/AngerFootVR
+last_checked: "2026-11-04"

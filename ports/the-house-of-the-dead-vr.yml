@@ -1,0 +1,37 @@
+name: The House of the Dead VR
+games:
+  - The House of the Dead
+category: source-port
+authors:
+  - name: vr4all-standalone
+    url: https://github.com/vr4all-standalone
+platform: both
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: beta
+version: "v0.1.8-beta"
+version_date: "2026-11-03"
+download_url: https://github.com/vr4all-standalone/hotd-model2-vr/releases/latest
+source_url: https://github.com/vr4all-standalone/hotd-model2-vr
+homepage: https://sidequestvr.com/app/63868
+license: unknown
+required_files: Original arcade 'hotdo' revision as hotdo.zip (29 payloads); the later hotd Revision A set is unsupported.
+known_bugs: []
+notes: Model 2C arcade port with tracked lightguns; latest beta's physical feel and performance still need play testing.
+images:
+  - game: The House of the Dead
+    file: images/the-house-of-the-dead-vr/the-house-of-the-dead.png
+    credit: The House of the Dead grid by elgamer242 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/33450
+reviews:
+  - title: House of the Dead VR is FINALLY a Reality! New VR Mod Gameplay
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=sqLPoL2fVXE
+  - title: The House Of The Dead 1 VR Mod W. 6DOF + Download - Quest Standalone
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=i3kmCNB9gp4
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63868
+last_checked: "2026-11-04"

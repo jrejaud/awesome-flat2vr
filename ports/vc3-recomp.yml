@@ -1,0 +1,36 @@
+name: vc3-recomp
+games:
+  - Virtua Cop 3
+category: source-port
+authors:
+  - name: lialan
+    url: https://github.com/lialan
+platform: both
+headsets:
+  - Steam Frame
+  - Quest
+controls: mixed
+status: alpha
+version: "v0.1.0"
+version_date: "2026-11-03"
+download_url: https://github.com/lialan/vc3-recomp/releases/latest
+source_url: https://github.com/lialan/vc3-recomp
+license: unknown
+required_files: Own Virtua Cop 3 Chihiro disc dump with decrypted vc3.xbe (XDK 5028, 2003-02-26 build) and media/ folder
+known_bugs: []
+notes: Static recompilation using xboxrecomp; also runs flat on macOS and Linux.
+images:
+  - game: Virtua Cop 3
+    file: images/vc3-recomp/virtua-cop-3.jpg
+    credit: Virtua Cop 3 (Wikipedia)
+    source_url: https://en.wikipedia.org/wiki/Virtua_Cop_3
+reviews:
+  - title: Virtua Cop (1994) Performance / New Meta Quest Standalone VR Mod with 6DOF Motion Controls/ Quest 3
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=2lFerqlL48I
+  - title: Virtua Cop 2 VR no Quest 3 / PCVR | Gameplay + Instalação
+    channel: MadMax3001
+    url: https://www.youtube.com/watch?v=kLnjFftFwas
+added_by: bot
+discovered_via: https://github.com/lialan/vc3-recomp
+last_checked: "2026-11-04"

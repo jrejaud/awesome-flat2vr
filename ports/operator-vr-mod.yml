@@ -1,0 +1,29 @@
+name: OPERATOR VR Mod
+games:
+  - OPERATOR
+category: mod
+authors:
+  - name: imhotg-dev
+    url: https://github.com/imhotg-dev
+platform: pcvr
+headsets:
+  - Quest 3
+controls: gamepad
+status: stable
+version: "v1.0.0"
+version_date: "2026-11-03"
+download_url: https://github.com/imhotg-dev/OPERATOR-VR-MOD/releases/latest
+source_url: https://github.com/imhotg-dev/OPERATOR-VR-MOD
+license: MIT
+required_files: OPERATOR (Steam) and BepInEx 6 IL2CPP (tested with 6.0.0-be.791)
+known_bugs: []
+notes: Tested on Quest 3 via Virtual Desktop with a PS5 DualSense; for single-player and private co-op only.
+images:
+  - game: OPERATOR
+    file: images/operator-vr-mod/operator.png
+    credit: Operator grid by Shahars71 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/95492
+reviews: []
+added_by: bot
+discovered_via: https://github.com/imhotg-dev/OPERATOR-VR-MOD
+last_checked: "2026-11-04"

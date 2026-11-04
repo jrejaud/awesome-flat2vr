@@ -1,0 +1,34 @@
+name: Mystical Ninja Starring Goemon VR
+games:
+  - Mystical Ninja Starring Goemon
+category: source-port
+authors:
+  - name: VistaLargaGames
+    url: https://github.com/VistaLargaGames
+  - name: Casty
+platform: standalone
+headsets:
+  - Quest 3
+controls: gamepad
+status: alpha
+version: "v0.1.20"
+version_date: "2026-10-18"
+download_url: https://github.com/VistaLargaGames/Mystical-Ninja-VR/releases/latest
+source_url: https://github.com/VistaLargaGames/Mystical-Ninja-VR
+homepage: https://sidequestvr.com/app/63906
+license: GPL-3.0-only
+required_files: North American (USA) Mystical Ninja Starring Goemon N64 ROM dumped from your own cartridge
+known_bugs: []
+notes: "Built on Goemon 64: Recompiled (N64Recomp/RT64); 60 FPS head-tracked view with optional first-person camera."
+images:
+  - game: Mystical Ninja Starring Goemon
+    file: images/mystical-ninja-starring-goemon-vr/mystical-ninja-starring-goemon.png
+    credit: Mystical Ninja Starring Goemon (Nintendo 64) grid by Vaudeville Villain (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/245203
+reviews:
+  - title: Mystical Ninja Starring Goemon VR (Running in Dolphin VR and Wii64-Beta Full Setup!)
+    channel: legaiaflame
+    url: https://www.youtube.com/watch?v=HzIg4HNnRoo
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63906
+last_checked: "2026-11-04"

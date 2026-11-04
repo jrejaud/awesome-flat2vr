@@ -1,0 +1,35 @@
+name: Sin and Punishment VR
+games:
+  - Sin and Punishment
+category: source-port
+authors:
+  - name: VistaLargaGames
+    url: https://github.com/VistaLargaGames
+platform: standalone
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "0.1.1"
+version_date: "2026-10-31"
+download_url: https://github.com/VistaLargaGames/Sin-and-Punishment-Quest-VR/releases/latest
+source_url: https://github.com/VistaLargaGames/Sin-and-Punishment-Quest-VR
+homepage: https://sidequestvr.com/app/63908
+license: unknown
+required_files: Your own Sin and Punishment N64 ROM (.z64, .n64 or .v64); Japanese ROM or English fan translation of it.
+known_bugs:
+  - Rendering fallback can briefly switch to a flat view
+  - 3D world can go black on stage 1-2 mini boss and girl boss last phase (workaround switches to floating screen)
+notes: Recompiled-code (not emulator) OpenXR port with point-and-shoot controls, 60 fps and HD texture pack support.
+images:
+  - game: Sin and Punishment
+    file: images/sin-and-punishment-vr/sin-and-punishment.png
+    credit: Sin and Punishment grid by Choko (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/28899
+reviews:
+  - title: N64 Sin And Punishment VR Mod w. Motion Controls + Download
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=3sfdxeGjyqg
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63908
+last_checked: "2026-11-04"

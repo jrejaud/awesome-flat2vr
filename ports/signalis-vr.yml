@@ -1,0 +1,33 @@
+name: Signalis-VR
+games:
+  - SIGNALIS
+category: mod
+authors:
+  - name: stevethetitan92
+    url: https://github.com/stevethetitan92
+platform: pcvr
+controls: mixed
+status: alpha
+version: "v0.7.167-launchers.1"
+version_date: "2026-11-04"
+download_url: https://github.com/stevethetitan92/Signalis-VR/releases/latest
+source_url: https://github.com/stevethetitan92/Signalis-VR
+license: GPL-3.0
+required_files: SIGNALIS (Steam) installed, plus Virtual Desktop (VDXR) or SteamVR
+known_bugs: []
+notes: Experimental tester build with an all-in-one launcher for SteamVR or Virtual Desktop/VDXR; uses MelonLoader and BepInEx.
+images:
+  - game: SIGNALIS
+    file: images/signalis-vr/signalis.jpg
+    credit: SIGNALIS grid by Maxine (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/713490
+reviews:
+  - title: "GMOD VR: Exploring SIGNALIS Maps With Elster"
+    channel: The Librarian
+    url: https://www.youtube.com/watch?v=tXa9sThhTlA
+  - title: SIGNALIS VR Performance / New VR Mod in First Person - 6DOF Motion Controls (Test Build) / Quest 3
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=8ehwovu5rm0
+added_by: bot
+discovered_via: https://github.com/stevethetitan92/Signalis-VR
+last_checked: "2026-11-04"
