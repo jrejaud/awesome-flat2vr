@@ -1,0 +1,38 @@
+name: Resident Evil Code Veronica X VR
+games:
+  - "Resident Evil Code: Veronica X"
+category: mod
+authors:
+  - name: neto1495mn-sudo
+    url: https://github.com/neto1495mn-sudo
+platform: both
+headsets:
+  - Quest 2
+controls: 6dof
+status: beta
+version: "v1.4.3"
+version_date: "2026-10-31"
+download_url: https://github.com/neto1495mn-sudo/recvx-enhanced-port-pcvr/releases/latest
+source_url: https://github.com/neto1495mn-sudo/recvx-enhanced-port-pcvr
+homepage: https://sidequestvr.com/app/63846
+license: MIT
+required_files: "Own PS2 disc image (.iso) of Resident Evil Code: Veronica X, NTSC-U, SLUS-20184"
+known_bugs:
+  - Quest 3 and 3S declared but not tested
+  - 32-bit app
+notes: Built on recvx-enhanced-recomp by aikatore and the recvx-decomp decompilation; PCVR via OpenXR and standalone Quest APK.
+images:
+  - game: "Resident Evil Code: Veronica X"
+    file: images/resident-evil-code-veronica-x-vr/resident-evil-code-veronica-x.png
+    credit: "Resident Evil - Code: Veronica X grid by Shingo (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/561076
+reviews:
+  - title: "Resident Evil Code: Veronica X VR + HD Textures Performance / New VR Mod with 6DOF Motion Controls"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=zFj123dX3oc
+  - title: Resident Evil Code Veronica X em VR
+    channel: M Fraga
+    url: https://www.youtube.com/watch?v=_2-NZcCqmSs
+added_by: bot
+discovered_via: https://sidequestvr.com/app/63846
+last_checked: "2026-11-06"

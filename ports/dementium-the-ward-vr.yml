@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: alpha
-version: "v0.1.6-fresh-install.20261101"
-version_date: "2026-11-02"
+version: "v0.1.7-r39"
+version_date: "2026-11-06"
 download_url: https://github.com/stevethetitan92/Dementium-The-Ward-VR/releases/latest
 source_url: https://github.com/stevethetitan92/Dementium-The-Ward-VR
 license: Apache-2.0
@@ -27,4 +27,4 @@ reviews:
     url: https://www.youtube.com/watch?v=tol44JZvklk
 added_by: bot
 discovered_via: https://github.com/stevethetitan92/Dementium-The-Ward-VR
-last_checked: "2026-11-03"
+last_checked: "2026-11-06"

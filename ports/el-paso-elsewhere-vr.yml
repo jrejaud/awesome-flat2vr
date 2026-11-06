@@ -8,7 +8,7 @@ authors:
 platform: pcvr
 controls: 6dof
 status: alpha
-version: "v0.1.12"
+version: "ElPasoElsewhereVR"
 version_date: "2026-11-04"
 download_url: https://github.com/King-EJ/El-Paso-Elsewhere/releases/latest
 source_url: https://github.com/King-EJ/El-Paso-Elsewhere
@@ -28,4 +28,4 @@ reviews:
     url: https://www.youtube.com/watch?v=zMsbrFo9hPE
 added_by: bot
 discovered_via: https://github.com/King-EJ/El-Paso-Elsewhere
-last_checked: "2026-11-04"
+last_checked: "2026-11-06"

@@ -1,0 +1,35 @@
+name: Black Ops VR
+games:
+  - "Call of Duty: Black Ops (2010)"
+category: mod
+authors:
+  - name: jplakon
+    url: https://github.com/jplakon
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v0.1.0-beta.4"
+version_date: "2026-11-05"
+download_url: https://github.com/jplakon/BlackOpsVR/releases/latest
+source_url: https://github.com/jplakon/BlackOpsVR
+license: GPL-3.0
+required_files: "Steam copy of Call of Duty: Black Ops (2010) single player"
+known_bugs:
+  - Graphical glitches, hand/reload animation defects and setup-specific issues can remain
+  - Multiplayer is unsupported
+notes: Supports campaign and Zombies; requires a 32-bit OpenXR runtime; beta.4 became free on 2026-11-05 after Patreon distribution.
+images:
+  - game: "Call of Duty: Black Ops (2010)"
+    file: images/black-ops-vr/call-of-duty-black-ops.png
+    credit: "Call of Duty: Black Ops grid by adamboulton (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/351829
+reviews:
+  - title: How To Play Call Of Duty Black Ops Zombies In VR!
+    channel: STEVIEtheSAVAGE
+    url: https://www.youtube.com/watch?v=gipGQoyuzPg
+  - title: "Call of Duty: Black Ops VR / NEW VR Mod with 6DOF Controls / Meta Quest 3 + RTX 4080 Super"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=VV01xmQ8zRA
+added_by: bot
+discovered_via: https://github.com/jplakon/BlackOpsVR
+last_checked: "2026-11-06"

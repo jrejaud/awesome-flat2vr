@@ -1,0 +1,27 @@
+name: Beat-For-Speed-VR
+games:
+  - Beat For Speed
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "BeatForSpeedVR"
+version_date: "2026-11-05"
+download_url: https://github.com/King-EJ/Beat-For-Speed-VR/releases/latest
+source_url: https://github.com/King-EJ/Beat-For-Speed-VR
+license: unknown
+required_files: Beat For Speed (Unity 6000.3, IL2CPP x64) installed on PC
+known_bugs: []
+notes: Test build 0.1.4 using BepInEx 6 and Astien's OpenXR bridge; only tested with Virtual Desktop XR; Quest controllers emulate an Xbox gamepad.
+images:
+  - game: Beat For Speed
+    file: images/beat-for-speed-vr/beat-for-speed.jpg
+    credit: Beat For Speed store art
+    source_url: https://store.steampowered.com/app/4430260/
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/Beat-For-Speed-VR
+last_checked: "2026-11-06"

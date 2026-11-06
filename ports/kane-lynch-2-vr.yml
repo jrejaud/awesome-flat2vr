@@ -1,0 +1,35 @@
+name: Kane & Lynch 2 VR
+games:
+  - "Kane & Lynch 2: Dog Days"
+category: mod
+authors:
+  - name: andreystashev
+    url: https://github.com/andreystashev
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.6.31"
+version_date: "2026-11-05"
+download_url: https://github.com/andreystashev/kane-lynch2-vr-showcase/releases/latest
+source_url: https://github.com/andreystashev/kane-lynch2-vr-showcase
+license: unknown
+required_files: "Own copy of Kane & Lynch 2: Dog Days (Windows Steam version, run once)"
+known_bugs:
+  - Crashes, missing surfaces and awkward interactions are still possible
+  - Co-op and multiplayer not tested
+notes: Early release supporting Quest Link/Air Link, Virtual Desktop, SteamVR and OpenXR with tracked hands and physical weapon aiming.
+images:
+  - game: "Kane & Lynch 2: Dog Days"
+    file: images/kane-lynch-2-vr/kane-lynch-2-dog-days.png
+    credit: "Kane & Lynch 2: Dog Days grid by Akela (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/316060
+reviews:
+  - title: "Kane & Lynch 2: Dog Days VR Performance / New VR Mod with 6DOF Motion Controls / Quest 3 - PCVR"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=4fURKPTQAG8
+  - title: "Kane and Lynch 2: Dog Days VR Mod 6DOF"
+    channel: Andrey Nicolaevich
+    url: https://www.youtube.com/watch?v=z4mqecXOO2I
+added_by: bot
+discovered_via: https://github.com/andreystashev/kane-lynch2-vr-showcase
+last_checked: "2026-11-06"

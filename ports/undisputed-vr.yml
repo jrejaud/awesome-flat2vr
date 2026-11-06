@@ -1,0 +1,33 @@
+name: Undisputed VR
+games:
+  - Undisputed
+category: mod
+authors:
+  - name: tomt113tomt113-star
+    url: https://github.com/tomt113tomt113-star
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "unversioned"
+version_date: "2026-11-06"
+download_url: https://github.com/tomt113tomt113-star/Undisputed---VR
+source_url: https://github.com/tomt113tomt113-star/Undisputed---VR
+license: unknown
+required_files: Undisputed (Steam)
+known_bugs: []
+notes: Shown in a video with motion-control punches and a VR resolution menu; the repo has no release yet.
+images:
+  - game: Undisputed
+    file: images/undisputed-vr/undisputed.png
+    credit: Undisputed grid by bbpoltergeist (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/477598
+reviews:
+  - title: Undisputed VR Performance / New VR Mod with Motion Control Punches / Meta Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=kZyvon_HxeM
+  - title: I Am The Undisputed VR Boxer!
+    channel: DokuSeus14
+    url: https://www.youtube.com/watch?v=qkHj1LdPsiQ
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-06"

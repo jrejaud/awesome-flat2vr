@@ -1,0 +1,40 @@
+name: Wolfenstein VR
+games:
+  - "Wolfenstein: The New Order"
+  - "Wolfenstein: The Old Blood"
+category: mod
+authors:
+  - name: Mamfro
+    url: https://github.com/Mamfro
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.2.0"
+version_date: "2026-11-03"
+download_url: https://github.com/Mamfro/wolfenstein-games-vr/releases/latest
+source_url: https://github.com/Mamfro/wolfenstein-games-vr
+license: GPL-3.0
+required_files: "Steam version of Wolfenstein: The New Order and/or The Old Blood, plus Monaka VR v0.3.1"
+known_bugs:
+  - The beginning of Chapter 14 is slightly bugged and BJ is not able to get off of the floor; exiting and re-entering VR fixes it.
+  - Grenades are not physically throwable yet; they are thrown with the right trigger when equipped.
+notes: Game pack that runs on Monaka VR; The Old Blood is experimental and barely tested.
+images:
+  - game: "Wolfenstein: The New Order"
+    file: images/wolfenstein-vr/wolfenstein-the-new-order.png
+    credit: "Wolfenstein: The New Order grid by tscar (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/144922
+  - game: "Wolfenstein: The Old Blood"
+    file: images/wolfenstein-vr/wolfenstein-the-old-blood.png
+    credit: "Wolfenstein: The Old Blood  grid by ABH20 (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/84546
+reviews:
+  - title: I Forced myself to play WOLFENSTEIN VR
+    channel: Kevduit
+    url: https://www.youtube.com/watch?v=uGjKMHYWrGA
+  - title: Return to Castle Wolfenstein VR Oculus Quest 2 Review - A True Golden Oldie | Pure Play TV
+    channel: Pure Play TV
+    url: https://www.youtube.com/watch?v=kZJNHJdbBkU
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-06"

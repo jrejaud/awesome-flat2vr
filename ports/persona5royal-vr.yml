@@ -1,0 +1,33 @@
+name: Persona5Royal-VR
+games:
+  - Persona 5 Royal
+category: mod
+authors:
+  - name: jrush64
+    url: https://github.com/jrush64
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "v0.1.0-wip"
+version_date: "2026-11-05"
+download_url: https://github.com/jrush64/Persona5Royal-VR/releases/latest
+source_url: https://github.com/jrush64/Persona5Royal-VR
+license: GPL-3.0
+required_files: Persona 5 Royal (Steam, Windows x64)
+known_bugs:
+  - Random flash during conversations/cutscenes
+  - Intermittent fog on some camera changes
+  - Choice dimming still drawn
+  - Not every room/event tested
+  - No motion controllers
+  - ReShade must be disabled
+notes: Geometric stereo and head tracking via GFD camera hooks, loaded as an .asi plugin through Ultimate ASI Loader, using D3D11 and OpenXR.
+images:
+  - game: Persona 5 Royal
+    file: images/persona5royal-vr/persona-5-royal.png
+    credit: Persona 5 Royal grid by Unknown6949 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/250592
+reviews: []
+added_by: bot
+discovered_via: https://github.com/jrush64/Persona5Royal-VR
+last_checked: "2026-11-06"
