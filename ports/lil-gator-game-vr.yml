@@ -1,0 +1,27 @@
+name: Lil Gator Game VR
+games:
+  - Lil Gator Game
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "0.2.0"
+version_date: "2026-11-06"
+download_url: https://github.com/King-EJ/Lil-Gator-Game-VR/releases/latest
+source_url: https://github.com/King-EJ/Lil-Gator-Game-VR
+license: unknown
+required_files: Lil Gator Game (PC, Unity)
+known_bugs: []
+notes: Test build using BepInEx 5 and Astien's OpenXR bridge; only tested with Virtual Desktop XR.
+images:
+  - game: Lil Gator Game
+    file: images/lil-gator-game-vr/lil-gator-game.png
+    credit: Lil Gator Game grid by PsyDex (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/627040
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/Lil-Gator-Game-VR
+last_checked: "2026-11-07"

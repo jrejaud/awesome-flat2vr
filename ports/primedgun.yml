@@ -8,8 +8,8 @@ authors:
 platform: both
 controls: 6dof
 status: stable
-version: "v1.1.7-windows"
-version_date: "2026-10-05"
+version: "primedgun-2.0-downloads"
+version_date: "2026-11-06"
 download_url: https://github.com/Nobbie248/PrimedGun/releases/latest
 source_url: https://github.com/Nobbie248/PrimedGun
 license: unknown
@@ -31,4 +31,4 @@ reviews:
     url: https://www.youtube.com/watch?v=--05XNl9YaU
 added_by: bot
 discovered_via: https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb
-last_checked: "2026-10-09"
+last_checked: "2026-11-07"

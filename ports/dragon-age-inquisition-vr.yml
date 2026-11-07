@@ -1,0 +1,30 @@
+name: "Dragon Age: Inquisition VR"
+games:
+  - "Dragon Age: Inquisition"
+category: mod
+authors:
+  - name: mark-mon
+    url: https://github.com/mark-mon
+platform: pcvr
+controls: gamepad
+status: stable
+version: "v1.0"
+version_date: "2026-10-30"
+download_url: https://github.com/mark-mon/dragon-age-inquisition-vr/releases/latest
+source_url: https://github.com/mark-mon/dragon-age-inquisition-vr
+license: GPL-3.0
+required_files: "Dragon Age: Inquisition for PC (EA app version, build 923305), DirectX 11 renderer"
+known_bugs: []
+notes: Native stereo OpenXR mod installed via version.dll; head-tracked camera, played with gamepad or keyboard and mouse.
+images:
+  - game: "Dragon Age: Inquisition"
+    file: images/dragon-age-inquisition-vr/dragon-age-inquisition.jpg
+    credit: "Dragon Age: Inquisition grid by Bohun (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/515047
+reviews:
+  - title: Dragon Age Inquisition mod for Oculus Rift 3D VR first person gameplay 2016
+    channel: Oculus Gamer
+    url: https://www.youtube.com/watch?v=6Cau9I62pMM
+added_by: bot
+discovered_via: https://github.com/mark-mon/dragon-age-inquisition-vr
+last_checked: "2026-11-07"

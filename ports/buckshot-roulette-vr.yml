@@ -1,0 +1,35 @@
+name: Buckshot Roulette VR
+games:
+  - Buckshot Roulette
+category: mod
+authors:
+  - name: KMielnik
+    url: https://github.com/KMielnik
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: stable
+version: "v1.0.3"
+version_date: "2026-11-06"
+download_url: https://github.com/KMielnik/Buckshot-Roulette-VR-Mod/releases/latest
+source_url: https://github.com/KMielnik/Buckshot-Roulette-VR-Mod
+license: MIT
+required_files: Buckshot Roulette, Steam Windows version 2.2.0.6
+known_bugs: []
+notes: OpenXR mod with tracked controllers and seated table play; installs via Install.cmd; multiplayer screen mode is experimental.
+images:
+  - game: Buckshot Roulette
+    file: images/buckshot-roulette-vr/buckshot-roulette.png
+    credit: Buckshot Roulette grid by Ghristopher (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/398856
+reviews:
+  - title: "K*TINI IKKIGA AYIRAMAN | Buckshot Roulette | VRzona1 #qiziqarlivideo"
+    channel: VR zona
+    url: https://www.youtube.com/watch?v=DGGl-9AEkso
+  - title: Buckshot Roulette VR - First Look
+    channel: Scientific Guy
+    url: https://www.youtube.com/watch?v=CblZIoXzV44
+added_by: bot
+discovered_via: https://github.com/KMielnik/Buckshot-Roulette-VR-Mod
+last_checked: "2026-11-07"

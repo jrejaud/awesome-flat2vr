@@ -10,8 +10,8 @@ headsets:
   - Quest 3
 controls: 6dof
 status: beta
-version: "dev-2026-11-06"
-version_date: "2026-11-05"
+version: "dev-2026-11-06-r3"
+version_date: "2026-11-06"
 download_url: https://github.com/DR-89/nfsu2-vr/releases/latest
 source_url: https://github.com/DR-89/nfsu2-vr
 homepage: https://questports.vercel.app/ports/nfsu2-vr
@@ -34,4 +34,4 @@ reviews:
     url: https://www.youtube.com/watch?v=-OymhEWWIkw
 added_by: bot
 discovered_via: https://questports.vercel.app/ports/nfsu2-vr
-last_checked: "2026-11-06"
+last_checked: "2026-11-07"

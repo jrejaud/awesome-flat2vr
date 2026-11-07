@@ -1,0 +1,31 @@
+name: "Tainted Grail: The Fall of Avalon VR"
+games:
+  - "Tainted Grail: The Fall of Avalon"
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: mixed
+status: alpha
+version: "TaintedGrailVRc"
+version_date: "2026-11-06"
+download_url: https://github.com/King-EJ/Tainted-Grail-The-Fall-of-Avalon-VR/releases/latest
+source_url: https://github.com/King-EJ/Tainted-Grail-The-Fall-of-Avalon-VR
+license: unknown
+required_files: "Tainted Grail: The Fall of Avalon (PC game install)"
+known_bugs:
+  - README describes it as very early and not fully tested
+notes: Installed by unzipping into the game folder (winhttp.dll loader); motion-controller weapon swings with gamepad for menus.
+images:
+  - game: "Tainted Grail: The Fall of Avalon"
+    file: images/tainted-grail-the-fall-of-avalon-vr/tainted-grail-the-fall-of-avalon.png
+    credit: "Tainted Grail: The Fall of Avalon grid by ra66le (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/856248
+reviews:
+  - title: "Tainted Grail VR: The Fall of Avalon VR Mod w. 6DOF Motion Controls + Download"
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=6y9i1S62rNg
+added_by: bot
+discovered_via: https://github.com/King-EJ/Tainted-Grail-The-Fall-of-Avalon-VR
+last_checked: "2026-11-07"

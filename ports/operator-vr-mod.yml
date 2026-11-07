@@ -10,8 +10,8 @@ headsets:
   - Quest 3
 controls: gamepad
 status: stable
-version: "v1.2.0"
-version_date: "2026-11-05"
+version: "v1.2.2"
+version_date: "2026-11-06"
 download_url: https://github.com/imhotg-dev/OPERATOR-VR-MOD/releases/latest
 source_url: https://github.com/imhotg-dev/OPERATOR-VR-MOD
 license: MIT
@@ -26,4 +26,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/imhotg-dev/OPERATOR-VR-MOD
-last_checked: "2026-11-06"
+last_checked: "2026-11-07"

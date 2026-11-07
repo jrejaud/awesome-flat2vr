@@ -1,0 +1,34 @@
+name: X4VRMOD
+games:
+  - "X4: Foundations"
+category: mod
+authors:
+  - name: Patola
+    url: https://github.com/Patola
+platform: pcvr
+controls: mixed
+status: beta
+version: "v0.9.10"
+version_date: "2026-11-07"
+download_url: https://github.com/Patola/X4VRMOD/releases/latest
+source_url: https://github.com/Patola/X4VRMOD
+license: GPL-3.0
+required_files: "X4: Foundations (Steam or GOG) on Linux"
+known_bugs:
+  - DLSS support not yet tested in a headset
+notes: Vulkan layer with in-engine stereo for native Linux X4, works over WiVRn or SteamVR.
+images:
+  - game: "X4: Foundations"
+    file: images/x4vrmod/x4-foundations.jpg
+    credit: "X4: Foundations grid by Luckspeare (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/504728
+reviews:
+  - title: "X4: Foundations VR Performance / New VR Mod with 6DOF head tracking / Meta Quest 3 + RTX 4080 Super"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=WtEfB7KPiTw
+  - title: "[Archlinux + Meta Quest 3 via WiVRn] X4: Foundations VR Mod (Linux Only) -- very early stage"
+    channel: Linux Games BR
+    url: https://www.youtube.com/watch?v=DfSYypNbhb0
+added_by: bot
+discovered_via: https://github.com/Patola/X4VRMOD
+last_checked: "2026-11-07"

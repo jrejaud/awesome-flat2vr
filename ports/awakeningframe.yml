@@ -1,0 +1,35 @@
+name: AwakeningFrame
+games:
+  - "The Legend of Zelda: Link's Awakening"
+category: source-port
+authors:
+  - name: simplysanatori
+    url: https://github.com/simplysanatori
+platform: standalone
+headsets:
+  - Steam Frame
+controls: gamepad
+status: alpha
+version: "v0.1.0"
+version_date: "2026-11-07"
+download_url: https://github.com/simplysanatori/AwakeningFrame/releases/latest
+source_url: https://github.com/simplysanatori/AwakeningFrame
+license: unknown
+required_files: Link's Awakening (Switch 2019) base game 1.0.0 as NSP or XCI, plus prod.keys
+known_bugs: []
+notes: Tabletop diorama VR port based on peiikai's LAS Recomp, running natively on Steam Frame (Linux Arm64).
+images:
+  - game: "The Legend of Zelda: Link's Awakening"
+    file: images/awakeningframe/the-legend-of-zelda-link-s-awakening.jpg
+    credit: "The Legend of Zelda: Link's Awakening grid by qsalad (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/752459
+reviews:
+  - title: Zelda Link's Awakening 🚀 FRAME-RATE TEST (Nintendo Switch)
+    channel: Nintendúo
+    url: https://www.youtube.com/watch?v=Zd_-sj9YKg0
+  - title: "The Legend of Zelda: Link's Awakening – Frame Rate Analysis"
+    channel: TheSixthAxis
+    url: https://www.youtube.com/watch?v=-fjYsHfPfe0
+added_by: bot
+discovered_via: https://github.com/simplysanatori/AwakeningFrame
+last_checked: "2026-11-07"

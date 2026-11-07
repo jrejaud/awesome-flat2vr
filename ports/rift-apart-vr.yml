@@ -1,0 +1,35 @@
+name: Rift Apart VR
+games:
+  - "Ratchet & Clank: Rift Apart"
+category: mod
+authors:
+  - name: scubasteve2365
+    url: https://github.com/scubasteve2365
+platform: pcvr
+headsets:
+  - Meta Quest 3
+controls: gamepad
+status: stable
+version: "v1.0"
+version_date: "2026-11-06"
+download_url: https://github.com/scubasteve2365/RiftApartVR/releases/latest
+source_url: https://github.com/scubasteve2365/RiftApartVR
+license: unknown
+required_files: "Steam version of Ratchet & Clank: Rift Apart (game version 3.630.1.0)"
+known_bugs: []
+notes: True stereo OpenXR rendering with DLSS in both eyes, third person with a gamepad; works via SteamVR or Virtual Desktop VDXR.
+images:
+  - game: "Ratchet & Clank: Rift Apart"
+    file: images/rift-apart-vr/ratchet-clank-rift-apart.png
+    credit: "Ratchet & Clank: Rift Apart grid by Goof14 (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/333073
+reviews:
+  - title: "[PS5] 4k 3D Screenshots - Ratchet Clank_Rift Apart | VR 3D SBS side by side"
+    channel: 3D Screenshots
+    url: https://www.youtube.com/watch?v=3mQvxNZi32U
+  - title: "Ratchet & Clank: Rift Apart VR Performance / New VR Mod with True Stereo / Quest 3 + RTX 4080 Super"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=8C0NwXBOxA0
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-07"

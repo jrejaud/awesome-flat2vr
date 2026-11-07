@@ -1,0 +1,32 @@
+name: Call of Pripyat VR
+games:
+  - "S.T.A.L.K.E.R.: Call of Pripyat"
+category: mod
+authors:
+  - name: Kerpi4i
+    url: https://github.com/Kerpi4i
+platform: pcvr
+headsets:
+  - Quest 2
+controls: 6dof
+status: alpha
+version: "v0.1.0-alpha.2"
+version_date: "2026-10-26"
+download_url: https://github.com/Kerpi4i/call-of-pripyat-vr/releases/latest
+source_url: https://github.com/Kerpi4i/call-of-pripyat-vr
+license: MIT
+required_files: "Original Steam S.T.A.L.K.E.R.: Call of Pripyat 1.6.02 (not Enhanced Edition)"
+known_bugs: []
+notes: Built on OpenXRay + OpenXR; tested with Quest 2 via USB Link; full campaign and other hardware not certified.
+images:
+  - game: "S.T.A.L.K.E.R.: Call of Pripyat"
+    file: images/call-of-pripyat-vr/s-t-a-l-k-e-r-call-of-pripyat.png
+    credit: "S.T.A.L.K.E.R.: Call of Pripyat grid by QuiGonJinnah (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/26921
+reviews:
+  - title: "S.T.A.L.K.E.R.: Call of Pripyat VR Mod w. 6DOF Motion Controls + Download"
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=kcGZX1VSG1Y
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-07"

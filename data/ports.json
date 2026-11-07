@@ -315,6 +315,59 @@
     "last_checked": "2026-10-15"
   },
   {
+    "slug": "alyx-jailbreak",
+    "name": "Alyx Jailbreak",
+    "games": [
+      "Half-Life: Alyx"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Anton Regolytov"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest 2",
+      "Quest Pro",
+      "Quest 3",
+      "Pico 4",
+      "Pico 4 Ultra"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "0.203",
+    "version_date": "2026-11-06",
+    "download_url": "https://github.com/alferiko/alyx-jailbreak-releases",
+    "source_url": "https://sidequestvr.com/app/62971",
+    "homepage": "https://github.com/alferiko/alyx-jailbreak-releases",
+    "license": "proprietary",
+    "required_files": "Owned copy of Half-Life: Alyx on Steam (game files downloaded via the launcher with your Steam account or transferred from a Windows install)",
+    "known_bugs": [
+      "Performance, visual quality and compatibility vary by headset and graphics settings",
+      "Full campaign compatibility has not yet been verified"
+    ],
+    "notes": "Experimental unofficial standalone launcher and ARM64 runtime; no PC streaming required.",
+    "images": [
+      {
+        "game": "Half-Life: Alyx",
+        "file": "images/alyx-jailbreak/half-life-alyx.png",
+        "credit": "Half-Life: Alyx grid by Purgenta (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/284936"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Half-Life: Alyx VR / Meta Quest 3 Standalone Mod / How to Install",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=6CiPO-ohQXc"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://sidequestvr.com/app/62971",
+    "last_checked": "2026-11-07"
+  },
+  {
     "slug": "amnesia-a-machine-for-pigs-vr",
     "name": "Amnesia: A Machine for Pigs VR",
     "games": [
@@ -371,8 +424,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.1.0",
-    "version_date": "2026-11-03",
+    "version": "v1.2.0",
+    "version_date": "2026-11-06",
     "download_url": "https://github.com/StrikeZoneVR-hub/AngerFootVR/releases/latest",
     "source_url": "https://github.com/StrikeZoneVR-hub/AngerFootVR",
     "license": "GPL-3.0",
@@ -401,7 +454,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/StrikeZoneVR-hub/AngerFootVR",
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "animal-crossing-vr-liquidazir",
@@ -788,6 +841,57 @@
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/astroquest",
     "last_checked": "2026-10-28"
+  },
+  {
+    "slug": "awakeningframe",
+    "name": "AwakeningFrame",
+    "games": [
+      "The Legend of Zelda: Link's Awakening"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "simplysanatori",
+        "url": "https://github.com/simplysanatori"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Steam Frame"
+    ],
+    "controls": "gamepad",
+    "status": "alpha",
+    "version": "v0.1.0",
+    "version_date": "2026-11-07",
+    "download_url": "https://github.com/simplysanatori/AwakeningFrame/releases/latest",
+    "source_url": "https://github.com/simplysanatori/AwakeningFrame",
+    "license": "unknown",
+    "required_files": "Link's Awakening (Switch 2019) base game 1.0.0 as NSP or XCI, plus prod.keys",
+    "known_bugs": [],
+    "notes": "Tabletop diorama VR port based on peiikai's LAS Recomp, running natively on Steam Frame (Linux Arm64).",
+    "images": [
+      {
+        "game": "The Legend of Zelda: Link's Awakening",
+        "file": "images/awakeningframe/the-legend-of-zelda-link-s-awakening.jpg",
+        "credit": "The Legend of Zelda: Link's Awakening grid by qsalad (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/752459"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Zelda Link's Awakening 🚀 FRAME-RATE TEST (Nintendo Switch)",
+        "channel": "Nintendúo",
+        "url": "https://www.youtube.com/watch?v=Zd_-sj9YKg0"
+      },
+      {
+        "title": "The Legend of Zelda: Link's Awakening – Frame Rate Analysis",
+        "channel": "TheSixthAxis",
+        "url": "https://www.youtube.com/watch?v=-fjYsHfPfe0"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/simplysanatori/AwakeningFrame",
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "banjo-kazooie-vr",
@@ -1236,8 +1340,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.17.16",
-    "version_date": "2026-10-18",
+    "version": "v1.0.0",
+    "version_date": "2026-11-06",
     "download_url": "https://github.com/adore11s/Beyond-Two-Souls-VR-Mod/releases/latest",
     "source_url": "https://github.com/adore11s/Beyond-Two-Souls-VR-Mod",
     "license": "MIT",
@@ -1258,7 +1362,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/adore11s/Beyond-Two-Souls-VR-Mod",
-    "last_checked": "2026-10-19"
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "bf2142vr",
@@ -1805,6 +1909,57 @@
     "last_checked": "2026-10-15"
   },
   {
+    "slug": "buckshot-roulette-vr",
+    "name": "Buckshot Roulette VR",
+    "games": [
+      "Buckshot Roulette"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "KMielnik",
+        "url": "https://github.com/KMielnik"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.0.3",
+    "version_date": "2026-11-06",
+    "download_url": "https://github.com/KMielnik/Buckshot-Roulette-VR-Mod/releases/latest",
+    "source_url": "https://github.com/KMielnik/Buckshot-Roulette-VR-Mod",
+    "license": "MIT",
+    "required_files": "Buckshot Roulette, Steam Windows version 2.2.0.6",
+    "known_bugs": [],
+    "notes": "OpenXR mod with tracked controllers and seated table play; installs via Install.cmd; multiplayer screen mode is experimental.",
+    "images": [
+      {
+        "game": "Buckshot Roulette",
+        "file": "images/buckshot-roulette-vr/buckshot-roulette.png",
+        "credit": "Buckshot Roulette grid by Ghristopher (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/398856"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "K*TINI IKKIGA AYIRAMAN | Buckshot Roulette | VRzona1 #qiziqarlivideo",
+        "channel": "VR zona",
+        "url": "https://www.youtube.com/watch?v=DGGl-9AEkso"
+      },
+      {
+        "title": "Buckshot Roulette VR - First Look",
+        "channel": "Scientific Guy",
+        "url": "https://www.youtube.com/watch?v=CblZIoXzV44"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/KMielnik/Buckshot-Roulette-VR-Mod",
+    "last_checked": "2026-11-07"
+  },
+  {
     "slug": "bw1-vr",
     "name": "BW1-VR",
     "games": [
@@ -1854,6 +2009,52 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/BW1-VR/BW1-VR",
     "last_checked": "2026-10-28"
+  },
+  {
+    "slug": "call-of-pripyat-vr",
+    "name": "Call of Pripyat VR",
+    "games": [
+      "S.T.A.L.K.E.R.: Call of Pripyat"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Kerpi4i",
+        "url": "https://github.com/Kerpi4i"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest 2"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.1.0-alpha.2",
+    "version_date": "2026-10-26",
+    "download_url": "https://github.com/Kerpi4i/call-of-pripyat-vr/releases/latest",
+    "source_url": "https://github.com/Kerpi4i/call-of-pripyat-vr",
+    "license": "MIT",
+    "required_files": "Original Steam S.T.A.L.K.E.R.: Call of Pripyat 1.6.02 (not Enhanced Edition)",
+    "known_bugs": [],
+    "notes": "Built on OpenXRay + OpenXR; tested with Quest 2 via USB Link; full campaign and other hardware not certified.",
+    "images": [
+      {
+        "game": "S.T.A.L.K.E.R.: Call of Pripyat",
+        "file": "images/call-of-pripyat-vr/s-t-a-l-k-e-r-call-of-pripyat.png",
+        "credit": "S.T.A.L.K.E.R.: Call of Pripyat grid by QuiGonJinnah (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/26921"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "S.T.A.L.K.E.R.: Call of Pripyat VR Mod w. 6DOF Motion Controls + Download",
+        "channel": "Press start to begin",
+        "url": "https://www.youtube.com/watch?v=kcGZX1VSG1Y"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://discord.gg/flat2vr",
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "center-ice-hockey-vr",
@@ -2433,8 +2634,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.205.0",
-    "version_date": "2026-11-05",
+    "version": "v0.206.0",
+    "version_date": "2026-11-06",
     "download_url": "https://github.com/natpoh/diablo2-vr-port/releases/latest",
     "source_url": "https://github.com/natpoh/diablo2-vr-port",
     "homepage": "https://bodywalkvr.com/mods/d2r-vr",
@@ -2464,7 +2665,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/natpoh/diablo2-vr-port",
-    "last_checked": "2026-11-06"
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "dead-space-2023-r-e-a-l-vr",
@@ -2904,8 +3105,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "Disney_Dreamlight_Valley_VR_update1",
-    "version_date": "2026-10-11",
+    "version": "Disney_Dreamlight_Valley_VR_update2",
+    "version_date": "2026-11-06",
     "download_url": "https://github.com/King-EJ/Disney-Dreamlight-Valley-VR/releases/latest",
     "source_url": "https://github.com/King-EJ/Disney-Dreamlight-Valley-VR",
     "license": "unknown",
@@ -2929,7 +3130,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/King-EJ/Disney-Dreamlight-Valley-VR",
-    "last_checked": "2026-10-12"
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "doom-2016-r-e-a-l-vr",
@@ -3066,6 +3267,49 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/RaYRoD-TV/MVRH",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "dragon-age-inquisition-vr",
+    "name": "Dragon Age: Inquisition VR",
+    "games": [
+      "Dragon Age: Inquisition"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "mark-mon",
+        "url": "https://github.com/mark-mon"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "stable",
+    "version": "v1.0",
+    "version_date": "2026-10-30",
+    "download_url": "https://github.com/mark-mon/dragon-age-inquisition-vr/releases/latest",
+    "source_url": "https://github.com/mark-mon/dragon-age-inquisition-vr",
+    "license": "GPL-3.0",
+    "required_files": "Dragon Age: Inquisition for PC (EA app version, build 923305), DirectX 11 renderer",
+    "known_bugs": [],
+    "notes": "Native stereo OpenXR mod installed via version.dll; head-tracked camera, played with gamepad or keyboard and mouse.",
+    "images": [
+      {
+        "game": "Dragon Age: Inquisition",
+        "file": "images/dragon-age-inquisition-vr/dragon-age-inquisition.jpg",
+        "credit": "Dragon Age: Inquisition grid by Bohun (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/515047"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Dragon Age Inquisition mod for Oculus Rift 3D VR first person gameplay 2016",
+        "channel": "Oculus Gamer",
+        "url": "https://www.youtube.com/watch?v=6Cau9I62pMM"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/mark-mon/dragon-age-inquisition-vr",
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "ds-vr",
@@ -3469,8 +3713,8 @@
     ],
     "controls": "mixed",
     "status": "alpha",
-    "version": "v0.1.84",
-    "version_date": "2026-10-26",
+    "version": "v0.1.87",
+    "version_date": "2026-11-06",
     "download_url": "https://github.com/ArcadaLabs-Jason/EternalVR/releases/latest",
     "source_url": "https://github.com/ArcadaLabs-Jason/EternalVR",
     "homepage": "https://ko-fi.com/FanciestPeanut",
@@ -3500,7 +3744,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/ArcadaLabs-Jason/EternalVR",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "f-e-a-r-vr",
@@ -3759,8 +4003,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.4.17",
-    "version_date": "2026-11-05",
+    "version": "v0.4.19",
+    "version_date": "2026-11-06",
     "download_url": "https://github.com/pr-io/Far-Far-VR/releases/latest",
     "source_url": "https://github.com/pr-io/Far-Far-VR",
     "license": "unknown",
@@ -3789,7 +4033,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/pr-io/Far-Far-VR",
-    "last_checked": "2026-11-06"
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "farpoint-pc-vr",
@@ -4768,8 +5012,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.2.5",
-    "version_date": "2026-11-05",
+    "version": "v0.2.6",
+    "version_date": "2026-11-06",
     "download_url": "https://github.com/paultaran00/GoWEDay-VR/releases/latest",
     "source_url": "https://github.com/paultaran00/GoWEDay-VR",
     "license": "GPL-3.0",
@@ -4798,7 +5042,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/paultaran00/GoWEDay-VR",
-    "last_checked": "2026-11-06"
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "gran-turismo-2-vr",
@@ -6718,6 +6962,43 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "lil-gator-game-vr",
+    "name": "Lil Gator Game VR",
+    "games": [
+      "Lil Gator Game"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "King-EJ",
+        "url": "https://github.com/King-EJ"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "0.2.0",
+    "version_date": "2026-11-06",
+    "download_url": "https://github.com/King-EJ/Lil-Gator-Game-VR/releases/latest",
+    "source_url": "https://github.com/King-EJ/Lil-Gator-Game-VR",
+    "license": "unknown",
+    "required_files": "Lil Gator Game (PC, Unity)",
+    "known_bugs": [],
+    "notes": "Test build using BepInEx 5 and Astien's OpenXR bridge; only tested with Virtual Desktop XR.",
+    "images": [
+      {
+        "game": "Lil Gator Game",
+        "file": "images/lil-gator-game-vr/lil-gator-game.png",
+        "credit": "Lil Gator Game grid by PsyDex (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/627040"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/King-EJ/Lil-Gator-Game-VR",
+    "last_checked": "2026-11-07"
+  },
+  {
     "slug": "magic-carpet-vr",
     "name": "Magic Carpet VR",
     "games": [
@@ -6851,8 +7132,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.21.0",
-    "version_date": "2026-10-30",
+    "version": "v0.21.1",
+    "version_date": "2026-11-06",
     "download_url": "https://github.com/zeranemesis/Marioparty4/releases",
     "source_url": "https://github.com/zeranemesis/Marioparty4",
     "homepage": "https://questports.vercel.app/ports/mario-party-4-partyboard",
@@ -6873,7 +7154,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/mario-party-4-partyboard",
-    "last_checked": "2026-10-31"
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "mass-effect-legendary-edition-vr",
@@ -7078,6 +7359,57 @@
     "last_checked": "2026-10-28"
   },
   {
+    "slug": "metro-exodus-vr",
+    "name": "Metro Exodus VR",
+    "games": [
+      "Metro Exodus"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "RippeR37",
+        "url": "https://github.com/RippeR37"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.9.0",
+    "version_date": "2026-11-06",
+    "download_url": "https://github.com/RippeR37/MetroExodusVR/releases/latest",
+    "source_url": "https://github.com/RippeR37/MetroExodusVR",
+    "license": "unknown",
+    "required_files": "Metro Exodus (Standard Edition, Steam v1.0.0.7)",
+    "known_bugs": [
+      "Only main campaign supported (no DLC yet)",
+      "Only Standard Edition and Steam version supported; Epic and GOG are work in progress"
+    ],
+    "notes": "Supports DLSS/FSR2, foveated rendering, and has an auto-update mechanism.",
+    "images": [
+      {
+        "game": "Metro Exodus",
+        "file": "images/metro-exodus-vr/metro-exodus.png",
+        "credit": "Metro Exodus grid by QuiGonJinnah (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/32499"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Metro Exodus VR mod announcement",
+        "channel": "Metro Exodus VR mod",
+        "url": "https://www.youtube.com/watch?v=3WRt712lfMI"
+      },
+      {
+        "title": "Metro Exodus VR  mod gameplay 1",
+        "channel": "Metro Exodus VR mod",
+        "url": "https://www.youtube.com/watch?v=5eeDcDpyBcY"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://discord.gg/flat2vr",
+    "last_checked": "2026-11-07"
+  },
+  {
     "slug": "metroidprimeportvr-primedgun-v2",
     "name": "MetroidPrimePortVR (PrimedGun v2)",
     "games": [
@@ -7134,6 +7466,58 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/ichris4/metroidprimeportvr",
     "last_checked": "2026-11-02"
+  },
+  {
+    "slug": "mevr",
+    "name": "MEVR",
+    "games": [
+      "Mass Effect Legendary Edition"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "dnehring",
+        "url": "https://github.com/dnehring"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "unversioned",
+    "version_date": "2026-11-07",
+    "download_url": "https://github.com/dnehring/MEVR/releases/latest",
+    "source_url": "https://github.com/dnehring/MEVR",
+    "homepage": "https://dnehring.github.io/MEVR/",
+    "license": "GPL-3.0",
+    "required_files": "Mass Effect Legendary Edition (MassEffect1.exe 2.0.0.48602, Steam or EA app)",
+    "known_bugs": [
+      "Only Mass Effect 1 is playable in VR; LE2 and LE3 are not",
+      "Many features were only tested on SteamVR's simulated headset, not by a person wearing one"
+    ],
+    "notes": "Development preview with motion controls, body holsters and voice squad orders, built on Halcyon's MassEffect1-VR renderer; tested on PS VR2 and Quest 3 over Steam Link.",
+    "images": [
+      {
+        "game": "Mass Effect Legendary Edition",
+        "file": "images/mevr/mass-effect-legendary-edition.png",
+        "credit": "Mass Effect: Legendary Edition grid by Lmaclittle (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/304024"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Mass Effect Legendary Edition VR",
+        "channel": "Marauder",
+        "url": "https://www.youtube.com/watch?v=NqHy-XMePBs"
+      },
+      {
+        "title": "How to Play Mass Effect Legendary Edition in VR (6DOF Head Aiming Mod) for FREE",
+        "channel": "Ellie.N7",
+        "url": "https://www.youtube.com/watch?v=SPF-A-A7Hlk"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/dnehring/MEVR",
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "mgs5vr",
@@ -7442,8 +7826,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "dev-2026-11-06",
-    "version_date": "2026-11-05",
+    "version": "dev-2026-11-06-r3",
+    "version_date": "2026-11-06",
     "download_url": "https://github.com/DR-89/nfsu2-vr/releases/latest",
     "source_url": "https://github.com/DR-89/nfsu2-vr",
     "homepage": "https://questports.vercel.app/ports/nfsu2-vr",
@@ -7475,7 +7859,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/nfsu2-vr",
-    "last_checked": "2026-11-06"
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "need-for-speed-underground-vr",
@@ -7496,8 +7880,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.3.0-preview.1",
-    "version_date": "2026-10-18",
+    "version": "v0.6.0-preview.1",
+    "version_date": "2026-11-06",
     "download_url": "https://github.com/DR-89/nfsu-vr/releases/latest",
     "source_url": "https://github.com/DR-89/nfsu-vr",
     "homepage": "https://questports.vercel.app/ports/nfsu-vr",
@@ -7531,7 +7915,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/nfsu-vr",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "neo-the-world-ends-with-you-vr",
@@ -7769,7 +8153,7 @@
     ],
     "platform": "pcvr",
     "status": "alpha",
-    "version": "v0.9.1",
+    "version": "v0.9.2",
     "version_date": "2026-11-06",
     "download_url": "https://github.com/bldbrne-vr/bldbrne-vr/releases/latest",
     "source_url": "https://github.com/bldbrne-vr/bldbrne-vr",
@@ -7799,7 +8183,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/bldbrne-vr/bldbrne-vr",
-    "last_checked": "2026-11-06"
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "ninja-assault-vr",
@@ -7976,6 +8360,43 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/InfernoSuperNova/novr",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "nslt-vr",
+    "name": "NSLT-VR",
+    "games": [
+      "New Super Lucky's Tale"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "technewsguy",
+        "url": "https://github.com/technewsguy"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "mixed",
+    "status": "stable",
+    "version": "v1.0.0",
+    "version_date": "2026-11-06",
+    "download_url": "https://github.com/technewsguy/NSLT-VR/releases/latest",
+    "source_url": "https://github.com/technewsguy/NSLT-VR",
+    "license": "MIT",
+    "required_files": "New Super Lucky's Tale from Steam (Windows)",
+    "known_bugs": [],
+    "notes": "Stereo 3D with floating HUD/menus; supports motion controllers or gamepad; tested on Bigscreen Beyond with Index controllers.",
+    "images": [
+      {
+        "game": "New Super Lucky's Tale",
+        "file": "images/nslt-vr/new-super-lucky-s-tale.png",
+        "credit": "New Super Lucky's Tale grid by NightSkye (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/122386"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/technewsguy/NSLT-VR",
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "oot-vr",
@@ -8291,8 +8712,8 @@
     ],
     "controls": "gamepad",
     "status": "stable",
-    "version": "v1.2.0",
-    "version_date": "2026-11-05",
+    "version": "v1.2.2",
+    "version_date": "2026-11-06",
     "download_url": "https://github.com/imhotg-dev/OPERATOR-VR-MOD/releases/latest",
     "source_url": "https://github.com/imhotg-dev/OPERATOR-VR-MOD",
     "license": "MIT",
@@ -8310,7 +8731,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/imhotg-dev/OPERATOR-VR-MOD",
-    "last_checked": "2026-11-06"
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "outlast-vr",
@@ -9071,8 +9492,8 @@
     "platform": "both",
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.1.7-windows",
-    "version_date": "2026-10-05",
+    "version": "primedgun-2.0-downloads",
+    "version_date": "2026-11-06",
     "download_url": "https://github.com/Nobbie248/PrimedGun/releases/latest",
     "source_url": "https://github.com/Nobbie248/PrimedGun",
     "license": "unknown",
@@ -9103,7 +9524,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
-    "last_checked": "2026-10-09"
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "project-06-vr",
@@ -10007,8 +10428,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.1.13",
-    "version_date": "2026-11-05",
+    "version": "v0.1.16",
+    "version_date": "2026-11-06",
     "download_url": "https://github.com/moistman42069/RatchetAndClank-Quest-VR/releases/latest",
     "source_url": "https://github.com/moistman42069/RatchetAndClank-Quest-VR",
     "license": "GPL-3.0",
@@ -10026,7 +10447,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/moistman42069/RatchetAndClank-Quest-VR",
-    "last_checked": "2026-11-06"
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "ratshaker-vr-uevr-mod",
@@ -10204,8 +10625,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.8.12.2",
-    "version_date": "2026-11-04",
+    "version": "v0.8.13",
+    "version_date": "2026-11-06",
     "download_url": "https://github.com/Disonomouss/RDRVR/releases/latest",
     "source_url": "https://github.com/Disonomouss/RDRVR",
     "license": "MIT",
@@ -10223,7 +10644,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/Disonomouss/RDRVR",
-    "last_checked": "2026-11-06"
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "realrtcw-xr",
@@ -10698,6 +11119,57 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "rift-apart-vr",
+    "name": "Rift Apart VR",
+    "games": [
+      "Ratchet & Clank: Rift Apart"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "scubasteve2365",
+        "url": "https://github.com/scubasteve2365"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Meta Quest 3"
+    ],
+    "controls": "gamepad",
+    "status": "stable",
+    "version": "v1.0",
+    "version_date": "2026-11-06",
+    "download_url": "https://github.com/scubasteve2365/RiftApartVR/releases/latest",
+    "source_url": "https://github.com/scubasteve2365/RiftApartVR",
+    "license": "unknown",
+    "required_files": "Steam version of Ratchet & Clank: Rift Apart (game version 3.630.1.0)",
+    "known_bugs": [],
+    "notes": "True stereo OpenXR rendering with DLSS in both eyes, third person with a gamepad; works via SteamVR or Virtual Desktop VDXR.",
+    "images": [
+      {
+        "game": "Ratchet & Clank: Rift Apart",
+        "file": "images/rift-apart-vr/ratchet-clank-rift-apart.png",
+        "credit": "Ratchet & Clank: Rift Apart grid by Goof14 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/333073"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "[PS5] 4k 3D Screenshots - Ratchet Clank_Rift Apart | VR 3D SBS side by side",
+        "channel": "3D Screenshots",
+        "url": "https://www.youtube.com/watch?v=3mQvxNZi32U"
+      },
+      {
+        "title": "Ratchet & Clank: Rift Apart VR Performance / New VR Mod with True Stereo / Quest 3 + RTX 4080 Super",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=8C0NwXBOxA0"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://discord.gg/flat2vr",
+    "last_checked": "2026-11-07"
+  },
+  {
     "slug": "ringfall-mjolnir-vr",
     "name": "Ringfall: Mjolnir VR",
     "games": [
@@ -10853,8 +11325,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.5.0",
-    "version_date": "2026-11-04",
+    "version": "v0.5.5",
+    "version_date": "2026-11-07",
     "download_url": "https://github.com/RandomName729/RushofPCVR/releases/latest",
     "source_url": "https://github.com/RandomName729/RushofPCVR",
     "homepage": "https://www.patreon.com/cw/RandomName729",
@@ -10890,7 +11362,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/RandomName729/RushofPCVR",
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "rustler-vr",
@@ -12229,8 +12701,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "stable",
-    "version": "1.37",
-    "version_date": "2026-11-05",
+    "version": "1.38",
+    "version_date": "2026-11-06",
     "download_url": "https://github.com/helpimaghost/Space-Hulk-Deathwing-VR/releases/latest",
     "source_url": "https://github.com/helpimaghost/Space-Hulk-Deathwing-VR",
     "license": "unknown",
@@ -12259,7 +12731,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
-    "last_checked": "2026-11-06"
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "space-marine-2-vr",
@@ -12719,6 +13191,51 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/ashok0/systemshock-uevr",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "tainted-grail-the-fall-of-avalon-vr",
+    "name": "Tainted Grail: The Fall of Avalon VR",
+    "games": [
+      "Tainted Grail: The Fall of Avalon"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "King-EJ",
+        "url": "https://github.com/King-EJ"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "mixed",
+    "status": "alpha",
+    "version": "TaintedGrailVRc",
+    "version_date": "2026-11-06",
+    "download_url": "https://github.com/King-EJ/Tainted-Grail-The-Fall-of-Avalon-VR/releases/latest",
+    "source_url": "https://github.com/King-EJ/Tainted-Grail-The-Fall-of-Avalon-VR",
+    "license": "unknown",
+    "required_files": "Tainted Grail: The Fall of Avalon (PC game install)",
+    "known_bugs": [
+      "README describes it as very early and not fully tested"
+    ],
+    "notes": "Installed by unzipping into the game folder (winhttp.dll loader); motion-controller weapon swings with gamepad for menus.",
+    "images": [
+      {
+        "game": "Tainted Grail: The Fall of Avalon",
+        "file": "images/tainted-grail-the-fall-of-avalon-vr/tainted-grail-the-fall-of-avalon.png",
+        "credit": "Tainted Grail: The Fall of Avalon grid by ra66le (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/856248"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Tainted Grail VR: The Fall of Avalon VR Mod w. 6DOF Motion Controls + Download",
+        "channel": "Press start to begin",
+        "url": "https://www.youtube.com/watch?v=6y9i1S62rNg"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/King-EJ/Tainted-Grail-The-Fall-of-Avalon-VR",
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "team-fortress-2-vr-mod",
@@ -13439,6 +13956,47 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/AtomicUzumaki/Turbo-Overkill-VR-Mod",
     "last_checked": "2026-10-17"
+  },
+  {
+    "slug": "turok-2-seeds-of-evil-vr",
+    "name": "Turok 2: Seeds of Evil VR",
+    "games": [
+      "Turok 2: Seeds of Evil"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Rafapim"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "unversioned",
+    "version_date": "2026-11-06",
+    "download_url": "https://www.nexusmods.com/turok2/mods/24?tab=description",
+    "source_url": "https://www.nexusmods.com/turok2/mods/24?tab=description",
+    "license": "unknown",
+    "required_files": "Turok 2: Seeds of Evil (Steam)",
+    "known_bugs": [],
+    "images": [
+      {
+        "game": "Turok 2: Seeds of Evil",
+        "file": "images/turok-2-seeds-of-evil-vr/turok-2-seeds-of-evil.png",
+        "credit": "Turok 2: Seeds of Evil grid by Light_AleX (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/706095"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Turok 2: Seeds of Evil VR Performance / New VR Mod with 6DOF Motion Controls / Quest 3 + PCVR",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=DzYIzA8XIRY"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://discord.gg/flat2vr",
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "twfc-vr",
@@ -14308,8 +14866,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v1.2.2",
-    "version_date": "2026-11-05",
+    "version": "v1.4",
+    "version_date": "2026-11-06",
     "download_url": "https://github.com/Trastorillo/wakerquest/releases/latest",
     "source_url": "https://github.com/Trastorillo/wakerquest",
     "homepage": "https://questports.vercel.app/ports/wakerquest",
@@ -14334,7 +14892,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/wakerquest",
-    "last_checked": "2026-11-06"
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "warbandvr",
@@ -14974,6 +15532,56 @@
     "added_by": "bot",
     "discovered_via": "https://sidequestvr.com/app/63907",
     "last_checked": "2026-11-04"
+  },
+  {
+    "slug": "x4vrmod",
+    "name": "X4VRMOD",
+    "games": [
+      "X4: Foundations"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Patola",
+        "url": "https://github.com/Patola"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "mixed",
+    "status": "beta",
+    "version": "v0.9.10",
+    "version_date": "2026-11-07",
+    "download_url": "https://github.com/Patola/X4VRMOD/releases/latest",
+    "source_url": "https://github.com/Patola/X4VRMOD",
+    "license": "GPL-3.0",
+    "required_files": "X4: Foundations (Steam or GOG) on Linux",
+    "known_bugs": [
+      "DLSS support not yet tested in a headset"
+    ],
+    "notes": "Vulkan layer with in-engine stereo for native Linux X4, works over WiVRn or SteamVR.",
+    "images": [
+      {
+        "game": "X4: Foundations",
+        "file": "images/x4vrmod/x4-foundations.jpg",
+        "credit": "X4: Foundations grid by Luckspeare (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/504728"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "X4: Foundations VR Performance / New VR Mod with 6DOF head tracking / Meta Quest 3 + RTX 4080 Super",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=WtEfB7KPiTw"
+      },
+      {
+        "title": "[Archlinux + Meta Quest 3 via WiVRn] X4: Foundations VR Mod (Linux Only) -- very early stage",
+        "channel": "Linux Games BR",
+        "url": "https://www.youtube.com/watch?v=DfSYypNbhb0"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/Patola/X4VRMOD",
+    "last_checked": "2026-11-07"
   },
   {
     "slug": "xelee",

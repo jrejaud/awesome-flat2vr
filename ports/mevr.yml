@@ -1,0 +1,36 @@
+name: MEVR
+games:
+  - Mass Effect Legendary Edition
+category: mod
+authors:
+  - name: dnehring
+    url: https://github.com/dnehring
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "unversioned"
+version_date: "2026-11-07"
+download_url: https://github.com/dnehring/MEVR/releases/latest
+source_url: https://github.com/dnehring/MEVR
+homepage: https://dnehring.github.io/MEVR/
+license: GPL-3.0
+required_files: Mass Effect Legendary Edition (MassEffect1.exe 2.0.0.48602, Steam or EA app)
+known_bugs:
+  - Only Mass Effect 1 is playable in VR; LE2 and LE3 are not
+  - Many features were only tested on SteamVR's simulated headset, not by a person wearing one
+notes: Development preview with motion controls, body holsters and voice squad orders, built on Halcyon's MassEffect1-VR renderer; tested on PS VR2 and Quest 3 over Steam Link.
+images:
+  - game: Mass Effect Legendary Edition
+    file: images/mevr/mass-effect-legendary-edition.png
+    credit: "Mass Effect: Legendary Edition grid by Lmaclittle (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/304024
+reviews:
+  - title: Mass Effect Legendary Edition VR
+    channel: Marauder
+    url: https://www.youtube.com/watch?v=NqHy-XMePBs
+  - title: How to Play Mass Effect Legendary Edition in VR (6DOF Head Aiming Mod) for FREE
+    channel: Ellie.N7
+    url: https://www.youtube.com/watch?v=SPF-A-A7Hlk
+added_by: bot
+discovered_via: https://github.com/dnehring/MEVR
+last_checked: "2026-11-07"

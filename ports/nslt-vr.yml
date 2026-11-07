@@ -1,0 +1,27 @@
+name: NSLT-VR
+games:
+  - New Super Lucky's Tale
+category: mod
+authors:
+  - name: technewsguy
+    url: https://github.com/technewsguy
+platform: pcvr
+controls: mixed
+status: stable
+version: "v1.0.0"
+version_date: "2026-11-06"
+download_url: https://github.com/technewsguy/NSLT-VR/releases/latest
+source_url: https://github.com/technewsguy/NSLT-VR
+license: MIT
+required_files: New Super Lucky's Tale from Steam (Windows)
+known_bugs: []
+notes: Stereo 3D with floating HUD/menus; supports motion controllers or gamepad; tested on Bigscreen Beyond with Index controllers.
+images:
+  - game: New Super Lucky's Tale
+    file: images/nslt-vr/new-super-lucky-s-tale.png
+    credit: New Super Lucky's Tale grid by NightSkye (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/122386
+reviews: []
+added_by: bot
+discovered_via: https://github.com/technewsguy/NSLT-VR
+last_checked: "2026-11-07"

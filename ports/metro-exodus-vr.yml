@@ -1,0 +1,35 @@
+name: Metro Exodus VR
+games:
+  - Metro Exodus
+category: mod
+authors:
+  - name: RippeR37
+    url: https://github.com/RippeR37
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v0.9.0"
+version_date: "2026-11-06"
+download_url: https://github.com/RippeR37/MetroExodusVR/releases/latest
+source_url: https://github.com/RippeR37/MetroExodusVR
+license: unknown
+required_files: Metro Exodus (Standard Edition, Steam v1.0.0.7)
+known_bugs:
+  - Only main campaign supported (no DLC yet)
+  - Only Standard Edition and Steam version supported; Epic and GOG are work in progress
+notes: Supports DLSS/FSR2, foveated rendering, and has an auto-update mechanism.
+images:
+  - game: Metro Exodus
+    file: images/metro-exodus-vr/metro-exodus.png
+    credit: Metro Exodus grid by QuiGonJinnah (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/32499
+reviews:
+  - title: Metro Exodus VR mod announcement
+    channel: Metro Exodus VR mod
+    url: https://www.youtube.com/watch?v=3WRt712lfMI
+  - title: Metro Exodus VR  mod gameplay 1
+    channel: Metro Exodus VR mod
+    url: https://www.youtube.com/watch?v=5eeDcDpyBcY
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-07"

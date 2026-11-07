@@ -1,0 +1,38 @@
+name: Alyx Jailbreak
+games:
+  - "Half-Life: Alyx"
+category: source-port
+authors:
+  - name: Anton Regolytov
+platform: standalone
+headsets:
+  - Quest 2
+  - Quest Pro
+  - Quest 3
+  - Pico 4
+  - Pico 4 Ultra
+controls: 6dof
+status: alpha
+version: "0.203"
+version_date: "2026-11-06"
+download_url: https://github.com/alferiko/alyx-jailbreak-releases
+source_url: https://sidequestvr.com/app/62971
+homepage: https://github.com/alferiko/alyx-jailbreak-releases
+license: proprietary
+required_files: "Owned copy of Half-Life: Alyx on Steam (game files downloaded via the launcher with your Steam account or transferred from a Windows install)"
+known_bugs:
+  - Performance, visual quality and compatibility vary by headset and graphics settings
+  - Full campaign compatibility has not yet been verified
+notes: Experimental unofficial standalone launcher and ARM64 runtime; no PC streaming required.
+images:
+  - game: "Half-Life: Alyx"
+    file: images/alyx-jailbreak/half-life-alyx.png
+    credit: "Half-Life: Alyx grid by Purgenta (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/284936
+reviews:
+  - title: "Half-Life: Alyx VR / Meta Quest 3 Standalone Mod / How to Install"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=6CiPO-ohQXc
+added_by: bot
+discovered_via: https://sidequestvr.com/app/62971
+last_checked: "2026-11-07"

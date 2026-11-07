@@ -13,8 +13,8 @@ headsets:
   - Quest Pro
 controls: 6dof
 status: beta
-version: "v0.21.0"
-version_date: "2026-10-30"
+version: "v0.21.1"
+version_date: "2026-11-06"
 download_url: https://github.com/zeranemesis/Marioparty4/releases
 source_url: https://github.com/zeranemesis/Marioparty4
 homepage: https://questports.vercel.app/ports/mario-party-4-partyboard
@@ -31,4 +31,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://questports.vercel.app/ports/mario-party-4-partyboard
-last_checked: "2026-10-31"
+last_checked: "2026-11-07"
