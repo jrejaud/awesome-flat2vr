@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: beta
-version: "v0.13.44"
-version_date: "2026-11-06"
+version: "v0.13.45"
+version_date: "2026-11-07"
 download_url: https://github.com/ElderMiner/Red-Faction-Guerrilla-Re-MARS-tered-VR/releases/latest
 source_url: https://github.com/ElderMiner/Red-Faction-Guerrilla-Re-MARS-tered-VR
 license: unknown
@@ -24,4 +24,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/ElderMiner/Red-Faction-Guerrilla-Re-MARS-tered-VR
-last_checked: "2026-11-06"
+last_checked: "2026-11-08"

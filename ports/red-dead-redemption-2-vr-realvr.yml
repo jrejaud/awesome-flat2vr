@@ -1,0 +1,32 @@
+name: Red Dead Redemption 2 VR (RealVR)
+games:
+  - Red Dead Redemption 2
+category: mod
+authors:
+  - name: RealVR
+    url: https://www.patreon.com/c/realvr/posts
+platform: pcvr
+status: beta
+version: "unversioned"
+version_date: "2026-11-06"
+download_url: https://www.patreon.com/c/realvr/posts
+source_url: https://www.patreon.com/c/realvr/posts
+license: proprietary
+required_files: Red Dead Redemption 2 (Steam)
+known_bugs: []
+notes: Showcased in a video with controller support and DLSS performance comparisons; distributed via RealVR's Patreon.
+images:
+  - game: Red Dead Redemption 2
+    file: images/red-dead-redemption-2-vr-realvr/red-dead-redemption-2.jpg
+    credit: Red Dead Redemption 2 store art
+    source_url: https://store.steampowered.com/app/1174180/
+reviews:
+  - title: Red Dead Redemption 2 VR is Still WILD in 2024 // 4090 VR Mod Gameplay
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=uAJ5kTTAOBI
+  - title: How To Play Red Dead Redemption 2 VR! VR Mod Step-By-Step Install Guide! Mod Is In Description!
+    channel: Eddy'zGamingRoom
+    url: https://www.youtube.com/watch?v=iDlG9isM-qg
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-08"

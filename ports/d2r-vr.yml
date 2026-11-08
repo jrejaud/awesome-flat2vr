@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: beta
-version: "v0.206.0"
-version_date: "2026-11-06"
+version: "v0.207.0"
+version_date: "2026-11-07"
 download_url: https://github.com/natpoh/diablo2-vr-port/releases/latest
 source_url: https://github.com/natpoh/diablo2-vr-port
 homepage: https://bodywalkvr.com/mods/d2r-vr
@@ -31,4 +31,4 @@ reviews:
     url: https://www.youtube.com/watch?v=8-6nk1sE08s
 added_by: bot
 discovered_via: https://github.com/natpoh/diablo2-vr-port
-last_checked: "2026-11-07"
+last_checked: "2026-11-08"

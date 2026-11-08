@@ -1,0 +1,33 @@
+name: The Darkness II VR
+games:
+  - The Darkness II
+category: mod
+authors:
+  - name: Trilex07
+    url: https://github.com/trilex07
+platform: pcvr
+controls: 6dof
+status: beta
+version: "installer-1.1.0"
+version_date: "2026-11-07"
+download_url: https://github.com/trilex07/TrilexModInstaller/releases/latest
+source_url: https://github.com/trilex07/TrilexModInstaller
+license: unknown
+required_files: Owned copy of The Darkness II (Steam)
+known_bugs: []
+notes: Installed through the Trilex Mod Installer, which also covers Singularity VR and Tiny Tina's Wonderlands VR; includes VR runtime, native hand resources, menu changes, Polish text and optional HD textures.
+images:
+  - game: The Darkness II
+    file: images/the-darkness-ii-vr/the-darkness-ii.jpg
+    credit: The Darkness II grid by wulfbraker (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/189652
+reviews:
+  - title: VR Игры Red Dead Redemption, Need For Speed, Diablo 2, The Darkness 2
+    channel: VR Кучер
+    url: https://www.youtube.com/watch?v=XZ1tLkt_T0Y
+  - title: The Darkness II VR Performance / VR Mod with 6DOF Motion Controls / Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=ux3NvpxTmDw
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-08"

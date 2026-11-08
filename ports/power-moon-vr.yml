@@ -1,0 +1,34 @@
+name: Power Moon VR
+games:
+  - Super Mario Odyssey
+category: mod
+authors:
+  - name: evertec82
+    url: https://github.com/evertec82
+platform: pcvr
+controls: mixed
+status: alpha
+version: "v0.2.6"
+version_date: "2026-11-07"
+download_url: https://github.com/evertec82/power-moon-vr/releases/latest
+source_url: https://github.com/evertec82/power-moon-vr
+license: unknown
+required_files: Super Mario Odyssey v1.0.0 ExeFS/RomFS files (your own dump)
+known_bugs:
+  - Occasional judder and below-refresh delivery remain unresolved
+notes: Experimental OpenXR/SteamVR runtime for Power Moon Recomp with first/third-person toggle, haptics, camera-anchored HUD and resolution presets.
+images:
+  - game: Super Mario Odyssey
+    file: images/power-moon-vr/super-mario-odyssey.png
+    credit: Super Mario Odyssey grid by BigHungryChicken (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/422150
+reviews:
+  - title: Super Mario Odyssey VR - Full Game Walkthrough
+    channel: ProsafiaGaming
+    url: https://www.youtube.com/watch?v=FxMczm1ilW4
+  - title: Super Mario Odyssey VR Mode Walkthrough + Secret VR Concert
+    channel: BeardBear
+    url: https://www.youtube.com/watch?v=ke_W08bXFCA
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-08"

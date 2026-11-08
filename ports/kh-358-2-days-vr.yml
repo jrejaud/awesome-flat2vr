@@ -1,0 +1,31 @@
+name: KH 358/2 Days VR
+games:
+  - Kingdom Hearts 358/2 Days
+category: source-port
+authors:
+  - name: brodan100105
+    url: https://github.com/brodan100105
+platform: standalone
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "experimental"
+version_date: "2026-11-07"
+download_url: https://github.com/brodan100105/KH-365-2-VR/releases/latest
+source_url: https://github.com/brodan100105/KH-365-2-VR
+license: Unlicense
+required_files: Your own dump of the European cartridge (game code YKGP) of Kingdom Hearts 358/2 Days
+known_bugs:
+  - Cinematic scenes in VR occasionally have artifacts or strange placements
+  - Story tested only up to in-game Day 97
+notes: Built on the khdays-decomp decompilation, runs natively on Quest 3 with motion-controlled Keyblade combat; developed with Claude Code.
+images:
+  - game: Kingdom Hearts 358/2 Days
+    file: images/kh-358-2-days-vr/kingdom-hearts-358-2-days.png
+    credit: Kingdom Hearts 358/2 Days grid by Pleasance13 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/528705
+reviews: []
+added_by: bot
+discovered_via: https://github.com/brodan100105/KH-365-2-VR
+last_checked: "2026-11-08"

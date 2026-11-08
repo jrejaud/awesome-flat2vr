@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: alpha
-version: "unversioned"
-version_date: "2026-11-07"
+version: "v0.1.1"
+version_date: "2026-11-08"
 download_url: https://github.com/dnehring/MEVR/releases/latest
 source_url: https://github.com/dnehring/MEVR
 homepage: https://dnehring.github.io/MEVR/
@@ -33,4 +33,4 @@ reviews:
     url: https://www.youtube.com/watch?v=SPF-A-A7Hlk
 added_by: bot
 discovered_via: https://github.com/dnehring/MEVR
-last_checked: "2026-11-07"
+last_checked: "2026-11-08"

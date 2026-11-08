@@ -8,7 +8,7 @@ authors:
 platform: pcvr
 controls: 6dof
 status: alpha
-version: "0.2.0"
+version: "LilGatorGameVR"
 version_date: "2026-11-06"
 download_url: https://github.com/King-EJ/Lil-Gator-Game-VR/releases/latest
 source_url: https://github.com/King-EJ/Lil-Gator-Game-VR
@@ -24,4 +24,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/King-EJ/Lil-Gator-Game-VR
-last_checked: "2026-11-07"
+last_checked: "2026-11-08"

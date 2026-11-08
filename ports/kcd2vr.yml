@@ -1,0 +1,31 @@
+name: KCD2VR
+games:
+  - "Kingdom Come: Deliverance II"
+category: mod
+authors:
+  - name: 0Nicolas125
+platform: pcvr
+controls: 6dof
+status: beta
+version: "unversioned"
+version_date: "2026-11-07"
+download_url: https://www.nexusmods.com/kingdomcomedeliverance2/mods/3607?tab=description
+source_url: https://www.nexusmods.com/kingdomcomedeliverance2/mods/3607?tab=description
+license: unknown
+required_files: "Kingdom Come: Deliverance II (Steam)"
+known_bugs: []
+images:
+  - game: "Kingdom Come: Deliverance II"
+    file: images/kcd2vr/kingdom-come-deliverance-ii.png
+    credit: "Kingdom Come: Deliverance II grid by Worthy (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/866574
+reviews:
+  - title: Kingdom Come Deliverance 2 in VR Is AMAZING!
+    channel: ReaperzVR
+    url: https://www.youtube.com/watch?v=je_wmCAFFz8
+  - title: Kingdom Come Deliverance 2 Gets AMAZING VR Support
+    channel: ReaperzVR
+    url: https://www.youtube.com/watch?v=mZYRtwL7iXk
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-08"

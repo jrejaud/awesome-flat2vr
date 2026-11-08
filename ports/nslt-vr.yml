@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: mixed
 status: stable
-version: "v1.0.0"
-version_date: "2026-11-06"
+version: "v1.0.1"
+version_date: "2026-11-08"
 download_url: https://github.com/technewsguy/NSLT-VR/releases/latest
 source_url: https://github.com/technewsguy/NSLT-VR
 license: MIT
@@ -24,4 +24,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/technewsguy/NSLT-VR
-last_checked: "2026-11-07"
+last_checked: "2026-11-08"

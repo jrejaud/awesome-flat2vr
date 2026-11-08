@@ -1,0 +1,33 @@
+name: Dead Space (2008) VR
+games:
+  - Dead Space (2008)
+category: mod
+authors:
+  - name: Talemann
+    url: https://dspacevr.com/
+platform: pcvr
+controls: 6dof
+status: beta
+version: "unversioned"
+version_date: "2026-11-07"
+download_url: https://dspacevr.com/
+source_url: https://www.youtube.com/watch?v=u0_oRUFopxU
+license: unknown
+required_files: Dead Space (2008) on Steam
+known_bugs: []
+notes: Showcased in a YouTube video with 6DOF motion controls, performance overlay and VR settings.
+images:
+  - game: Dead Space (2008)
+    file: images/dead-space-2008-vr/dead-space.png
+    credit: Dead Space grid by DFE 785 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/611555
+reviews:
+  - title: Dead Space VR Is Real... and It's Incredible!
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=i8kqEA6QuM4
+  - title: Dead Space VR - Gameplay & Features
+    channel: Talemann
+    url: https://www.youtube.com/watch?v=9x1d27MMhrQ
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-08"

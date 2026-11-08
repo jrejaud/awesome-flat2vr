@@ -1,0 +1,30 @@
+name: Cold Rails VR
+games:
+  - Cold Rails
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: 6dof
+status: beta
+version: "ColdRailsVR"
+version_date: "2026-11-07"
+download_url: https://github.com/King-EJ/Cold-Rails-VR/releases/latest
+source_url: https://github.com/King-EJ/Cold-Rails-VR
+license: unknown
+required_files: Cold Rails (PC, Unity 6000.0 IL2CPP x64)
+known_bugs: []
+notes: Test build 0.3.10 using BepInEx 6 and Astien's OpenXR bridge; only tested with Virtual Desktop XR.
+images:
+  - game: Cold Rails
+    file: images/cold-rails-vr/cold-rails.jpg
+    credit: Cold Rails store art
+    source_url: https://store.steampowered.com/app/4334530/
+reviews:
+  - title: Cold Rails VR
+    channel: KingVR_PC
+    url: https://www.youtube.com/watch?v=mvzhpvb4RlI
+added_by: bot
+discovered_via: https://github.com/King-EJ/Cold-Rails-VR
+last_checked: "2026-11-08"

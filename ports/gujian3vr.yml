@@ -1,0 +1,29 @@
+name: Gujian3VR
+games:
+  - Gujian 3
+category: mod
+authors:
+  - name: iamtweety
+    url: https://github.com/iamtweety
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "v0.6.9"
+version_date: "2026-11-07"
+download_url: https://github.com/iamtweety/Gujian3VR/releases/latest
+source_url: https://github.com/iamtweety/Gujian3VR
+license: unknown
+required_files: Steam Windows x64 edition of Gujian 3
+known_bugs:
+  - Some lake reflections still show a visible vertical seam
+  - One startup test failed OpenXR initialization; succeeded with SteamVR running
+notes: OpenXR head tracking with alternating-eye stereo and adjustable HUD; uses original keyboard, mouse or gamepad controls.
+images:
+  - game: Gujian 3
+    file: images/gujian3vr/gujian-3.jpg
+    credit: Gujian 3 (Wikipedia)
+    source_url: https://en.wikipedia.org/wiki/Gujian_3
+reviews: []
+added_by: bot
+discovered_via: https://github.com/iamtweety/Gujian3VR
+last_checked: "2026-11-08"

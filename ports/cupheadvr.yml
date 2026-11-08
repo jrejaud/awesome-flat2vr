@@ -1,0 +1,33 @@
+name: CupheadVR
+games:
+  - Cuphead
+category: mod
+authors:
+  - name: scubasteve2365
+    url: https://github.com/scubasteve2365
+platform: pcvr
+controls: gamepad
+status: stable
+version: "v1.01"
+version_date: "2026-11-08"
+download_url: https://github.com/scubasteve2365/cupheadVR/releases/latest
+source_url: https://github.com/scubasteve2365/cupheadVR
+license: MIT
+required_files: Cuphead on Steam
+known_bugs: []
+notes: Renders the game on a pop-up storybook stage in native stereo using the game's parallax layers for depth; requires an OpenXR runtime and a gamepad.
+images:
+  - game: Cuphead
+    file: images/cupheadvr/cuphead.png
+    credit: Cuphead grid by Maxine (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/130952
+reviews:
+  - title: I Turned Cuphead Into A VR Game
+    channel: Michael Rivera
+    url: https://www.youtube.com/watch?v=DIBnf9ZHuF0
+  - title: Cuphead in VR is INSANE!
+    channel: Bijuu Mike
+    url: https://www.youtube.com/watch?v=a35ObYDqbL8
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-08"
