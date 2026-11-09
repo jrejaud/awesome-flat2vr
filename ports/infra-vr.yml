@@ -1,0 +1,40 @@
+name: INFRA VR
+games:
+  - INFRA
+category: mod
+authors:
+  - name: RawBeef1237
+    url: https://github.com/RawBeef1237
+platform: pcvr
+headsets:
+  - Quest
+  - Index
+  - Vive
+  - WMR
+  - Pico
+controls: 6dof
+status: alpha
+version: "initial-release"
+version_date: "2026-11-04"
+download_url: https://github.com/RawBeef1237/INFRAVR/releases/latest
+source_url: https://github.com/RawBeef1237/INFRAVR
+license: unknown
+required_files: INFRA on Steam (Windows, 32-bit infra.exe)
+known_bugs:
+  - Motion controls are still a work in progress and may feel rough in places
+notes: Hooks the Source engine via d3d9.dll with DXVK and outputs through OpenVR to SteamVR, similar to L4D2VR.
+images:
+  - game: INFRA
+    file: images/infra-vr/infra.jpg
+    credit: INFRA store art
+    source_url: https://store.steampowered.com/app/251110/
+reviews:
+  - title: Project Visionnair | Real Estate Ahmedabad | Commercial + Residencial |  VR Infra
+    channel: VR Infra
+    url: https://www.youtube.com/watch?v=1cMr0R6Rl0s
+  - title: infra in vr
+    channel: jenxbear
+    url: https://www.youtube.com/watch?v=b_qbwW3z3Tc
+added_by: bot
+discovered_via: https://github.com/RawBeef1237/INFRAVR
+last_checked: "2026-11-09"

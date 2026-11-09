@@ -1,0 +1,27 @@
+name: Withering Realms VR
+games:
+  - Withering Realms
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "WitheringRealmsVR"
+version_date: "2026-11-09"
+download_url: https://github.com/King-EJ/Withering-Realms-VR/releases/latest
+source_url: https://github.com/King-EJ/Withering-Realms-VR
+license: unknown
+required_files: Withering Realms game install (PC)
+known_bugs: []
+notes: Test build v0.1.18 using Astien's OpenXR bridge; only tested with Virtual Desktop XR; supports third-person and first-person views with swing-based attacks.
+images:
+  - game: Withering Realms
+    file: images/withering-realms-vr/withering-realms.jpg
+    credit: Withering Realms store art
+    source_url: https://store.steampowered.com/app/3441990/
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/Withering-Realms-VR
+last_checked: "2026-11-09"

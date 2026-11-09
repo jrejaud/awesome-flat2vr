@@ -1,0 +1,36 @@
+name: MWR VR
+games:
+  - "Call of Duty: Modern Warfare Remastered"
+category: mod
+authors:
+  - name: lesan0622
+    url: https://github.com/lesan0622
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v0.1-beta8"
+version_date: "2026-11-08"
+download_url: https://github.com/lesan0622/MWR-VR/releases/latest
+source_url: https://github.com/lesan0622/MWR-VR
+license: GPL-3.0
+required_files: "Legally owned Steam copy of Call of Duty: Modern Warfare Remastered (2017)"
+known_bugs:
+  - Test build; expect crashes and rough edges
+  - Many features tested only on the maintainer's machine
+  - Battle.net version untested
+notes: Unofficial campaign VR mod based on Aeka0's Overlord, requires SteamVR.
+images:
+  - game: "Call of Duty: Modern Warfare Remastered"
+    file: images/mwr-vr/call-of-duty-modern-warfare-remastered.png
+    credit: "Call of Duty: Modern Warfare Remastered grid by Naymarak (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/451254
+reviews:
+  - title: "Call of Duty: Modern Warfare 2 Campaign Remastered VR is Amazing / New VR Mod / 6DOF Motion Control"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=rh8HVtGAKaM
+  - title: Call of Duty Modern Warfare 2 Remastered in VR Is UNREAL VR Mods 2026 | Pimax Dream Air Gameplay
+    channel: UrGamingTechie
+    url: https://www.youtube.com/watch?v=VQxmwCGtvDQ
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-09"

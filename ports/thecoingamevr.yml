@@ -1,0 +1,31 @@
+name: TheCoinGameVR
+games:
+  - The Coin Game
+category: mod
+authors:
+  - name: Hoshi82
+    url: https://github.com/Hoshi82
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "v0.0.89"
+version_date: "2026-11-08"
+download_url: https://github.com/Hoshi82/TheCoinGameVR/releases/latest
+source_url: https://github.com/Hoshi82/TheCoinGameVR
+license: MIT
+required_files: The Coin Game (Steam, tested with 1.0.11)
+known_bugs:
+  - 6DoF motion-controller support is not implemented
+notes: Stereo OpenXR rendering with head tracking and mouse/gamepad controls; MelonLoader 0.7.3 is bundled.
+images:
+  - game: The Coin Game
+    file: images/thecoingamevr/the-coin-game.jpg
+    credit: The Coin Game store art
+    source_url: https://store.steampowered.com/app/598980/
+reviews:
+  - title: Coin Game Part VR
+    channel: 2ndJerma
+    url: https://www.youtube.com/watch?v=yjf4u6SqlEw
+added_by: bot
+discovered_via: https://github.com/Hoshi82/TheCoinGameVR
+last_checked: "2026-11-09"

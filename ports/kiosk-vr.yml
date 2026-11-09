@@ -1,0 +1,33 @@
+name: Kiosk-VR
+games:
+  - Kiosk
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: mixed
+status: alpha
+version: "KioskVR"
+version_date: "2026-11-09"
+download_url: https://github.com/King-EJ/Kiosk-VR/releases/latest
+source_url: https://github.com/King-EJ/Kiosk-VR
+license: unknown
+required_files: Kiosk game install (unzip the mod into the game folder)
+known_bugs: []
+notes: Only tested with Virtual Desktop XR; uses Astien's OpenXR bridge and BepInEx.
+images:
+  - game: Kiosk
+    file: images/kiosk-vr/kiosk.jpg
+    credit: Kiosk store art
+    source_url: https://store.steampowered.com/app/3126330/
+reviews:
+  - title: I play SHAWARMA KIOSK with a VR HEADSET 😳😂 | Mohi Plays
+    channel: Mohi Plays
+    url: https://www.youtube.com/watch?v=CmNRVTjykgc
+  - title: I'm playing Shawarma Kiosk again with VR glasses... 😳😂 | Mohi Plays
+    channel: Mohi Plays
+    url: https://www.youtube.com/watch?v=DudnxmXLWWw
+added_by: bot
+discovered_via: https://github.com/King-EJ/Kiosk-VR
+last_checked: "2026-11-09"

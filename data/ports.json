@@ -656,8 +656,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "vr-v0.4.1",
-    "version_date": "2026-11-01",
+    "version": "vr-v0.4.2",
+    "version_date": "2026-11-08",
     "download_url": "https://github.com/cmpayc/ArxLibertatisVR/releases/latest",
     "source_url": "https://github.com/cmpayc/ArxLibertatisVR",
     "homepage": "https://questports.vercel.app/ports/arx-libertatis-vr",
@@ -689,7 +689,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/arx-libertatis-vr",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-09"
   },
   {
     "slug": "assassins-creed-iv-black-flag-resynced-vr",
@@ -2725,8 +2725,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.207.0",
-    "version_date": "2026-11-07",
+    "version": "v0.209.0",
+    "version_date": "2026-11-08",
     "download_url": "https://github.com/natpoh/diablo2-vr-port/releases/latest",
     "source_url": "https://github.com/natpoh/diablo2-vr-port",
     "homepage": "https://bodywalkvr.com/mods/d2r-vr",
@@ -2756,7 +2756,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/natpoh/diablo2-vr-port",
-    "last_checked": "2026-11-08"
+    "last_checked": "2026-11-09"
   },
   {
     "slug": "dead-space-2008-vr",
@@ -4142,8 +4142,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.4.19",
-    "version_date": "2026-11-06",
+    "version": "v0.4.20",
+    "version_date": "2026-11-08",
     "download_url": "https://github.com/pr-io/Far-Far-VR/releases/latest",
     "source_url": "https://github.com/pr-io/Far-Far-VR",
     "license": "unknown",
@@ -4172,7 +4172,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/pr-io/Far-Far-VR",
-    "last_checked": "2026-11-07"
+    "last_checked": "2026-11-09"
   },
   {
     "slug": "farpoint-pc-vr",
@@ -4801,7 +4801,7 @@
     ],
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.3.10",
+    "version": "v1.3.11",
     "version_date": "2026-11-08",
     "download_url": "https://github.com/deadpixel134/GF2Exilium-VR/releases/latest",
     "source_url": "https://github.com/deadpixel134/GF2Exilium-VR",
@@ -4820,7 +4820,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/deadpixel134/GF2Exilium-VR",
-    "last_checked": "2026-11-08"
+    "last_checked": "2026-11-09"
   },
   {
     "slug": "ghost-recon-wildlands-vr-grw-xr",
@@ -5106,8 +5106,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.2.0",
-    "version_date": "2026-09-23",
+    "version": "v0.2.1",
+    "version_date": "2026-11-08",
     "download_url": "https://github.com/dubrovskiy-yevhen-stakelogic/gothic2-vr/releases/latest",
     "source_url": "https://github.com/dubrovskiy-yevhen-stakelogic/gothic2-vr",
     "license": "MIT",
@@ -5133,7 +5133,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/gothic2-vr",
-    "last_checked": "2026-10-11"
+    "last_checked": "2026-11-09"
   },
   {
     "slug": "goweday-vr",
@@ -6481,6 +6481,63 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "infra-vr",
+    "name": "INFRA VR",
+    "games": [
+      "INFRA"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "RawBeef1237",
+        "url": "https://github.com/RawBeef1237"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest",
+      "Index",
+      "Vive",
+      "WMR",
+      "Pico"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "initial-release",
+    "version_date": "2026-11-04",
+    "download_url": "https://github.com/RawBeef1237/INFRAVR/releases/latest",
+    "source_url": "https://github.com/RawBeef1237/INFRAVR",
+    "license": "unknown",
+    "required_files": "INFRA on Steam (Windows, 32-bit infra.exe)",
+    "known_bugs": [
+      "Motion controls are still a work in progress and may feel rough in places"
+    ],
+    "notes": "Hooks the Source engine via d3d9.dll with DXVK and outputs through OpenVR to SteamVR, similar to L4D2VR.",
+    "images": [
+      {
+        "game": "INFRA",
+        "file": "images/infra-vr/infra.jpg",
+        "credit": "INFRA store art",
+        "source_url": "https://store.steampowered.com/app/251110/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Project Visionnair | Real Estate Ahmedabad | Commercial + Residencial |  VR Infra",
+        "channel": "VR Infra",
+        "url": "https://www.youtube.com/watch?v=1cMr0R6Rl0s"
+      },
+      {
+        "title": "infra in vr",
+        "channel": "jenxbear",
+        "url": "https://www.youtube.com/watch?v=b_qbwW3z3Tc"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/RawBeef1237/INFRAVR",
+    "last_checked": "2026-11-09"
+  },
+  {
     "slug": "inkvr",
     "name": "InkVR",
     "games": [
@@ -6874,6 +6931,54 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/brodan100105/KH-365-2-VR",
     "last_checked": "2026-11-08"
+  },
+  {
+    "slug": "kiosk-vr",
+    "name": "Kiosk-VR",
+    "games": [
+      "Kiosk"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "King-EJ",
+        "url": "https://github.com/King-EJ"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "mixed",
+    "status": "alpha",
+    "version": "KioskVR",
+    "version_date": "2026-11-09",
+    "download_url": "https://github.com/King-EJ/Kiosk-VR/releases/latest",
+    "source_url": "https://github.com/King-EJ/Kiosk-VR",
+    "license": "unknown",
+    "required_files": "Kiosk game install (unzip the mod into the game folder)",
+    "known_bugs": [],
+    "notes": "Only tested with Virtual Desktop XR; uses Astien's OpenXR bridge and BepInEx.",
+    "images": [
+      {
+        "game": "Kiosk",
+        "file": "images/kiosk-vr/kiosk.jpg",
+        "credit": "Kiosk store art",
+        "source_url": "https://store.steampowered.com/app/3126330/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "I play SHAWARMA KIOSK with a VR HEADSET 😳😂 | Mohi Plays",
+        "channel": "Mohi Plays",
+        "url": "https://www.youtube.com/watch?v=CmNRVTjykgc"
+      },
+      {
+        "title": "I'm playing Shawarma Kiosk again with VR glasses... 😳😂 | Mohi Plays",
+        "channel": "Mohi Plays",
+        "url": "https://www.youtube.com/watch?v=DudnxmXLWWw"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/King-EJ/Kiosk-VR",
+    "last_checked": "2026-11-09"
   },
   {
     "slug": "kisakcod-vr-winlatorxr",
@@ -8026,6 +8131,58 @@
     "last_checked": "2026-10-11"
   },
   {
+    "slug": "mwr-vr",
+    "name": "MWR VR",
+    "games": [
+      "Call of Duty: Modern Warfare Remastered"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "lesan0622",
+        "url": "https://github.com/lesan0622"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.1-beta8",
+    "version_date": "2026-11-08",
+    "download_url": "https://github.com/lesan0622/MWR-VR/releases/latest",
+    "source_url": "https://github.com/lesan0622/MWR-VR",
+    "license": "GPL-3.0",
+    "required_files": "Legally owned Steam copy of Call of Duty: Modern Warfare Remastered (2017)",
+    "known_bugs": [
+      "Test build; expect crashes and rough edges",
+      "Many features tested only on the maintainer's machine",
+      "Battle.net version untested"
+    ],
+    "notes": "Unofficial campaign VR mod based on Aeka0's Overlord, requires SteamVR.",
+    "images": [
+      {
+        "game": "Call of Duty: Modern Warfare Remastered",
+        "file": "images/mwr-vr/call-of-duty-modern-warfare-remastered.png",
+        "credit": "Call of Duty: Modern Warfare Remastered grid by Naymarak (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/451254"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Call of Duty: Modern Warfare 2 Campaign Remastered VR is Amazing / New VR Mod / 6DOF Motion Control",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=rh8HVtGAKaM"
+      },
+      {
+        "title": "Call of Duty Modern Warfare 2 Remastered in VR Is UNREAL VR Mods 2026 | Pimax Dream Air Gameplay",
+        "channel": "UrGamingTechie",
+        "url": "https://www.youtube.com/watch?v=VQxmwCGtvDQ"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://discord.gg/flat2vr",
+    "last_checked": "2026-11-09"
+  },
+  {
     "slug": "mystical-ninja-starring-goemon-vr",
     "name": "Mystical Ninja Starring Goemon VR",
     "games": [
@@ -8421,8 +8578,8 @@
     ],
     "platform": "pcvr",
     "status": "alpha",
-    "version": "v0.9.32",
-    "version_date": "2026-11-08",
+    "version": "v0.9.4",
+    "version_date": "2026-11-09",
     "download_url": "https://github.com/bldbrne-vr/bldbrne-vr/releases/latest",
     "source_url": "https://github.com/bldbrne-vr/bldbrne-vr",
     "license": "unknown",
@@ -8451,7 +8608,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/bldbrne-vr/bldbrne-vr",
-    "last_checked": "2026-11-08"
+    "last_checked": "2026-11-09"
   },
   {
     "slug": "ninja-assault-vr",
@@ -8645,7 +8802,7 @@
     "platform": "pcvr",
     "controls": "mixed",
     "status": "stable",
-    "version": "v1.0.1",
+    "version": "v1.0.2",
     "version_date": "2026-11-08",
     "download_url": "https://github.com/technewsguy/NSLT-VR/releases/latest",
     "source_url": "https://github.com/technewsguy/NSLT-VR",
@@ -8664,7 +8821,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/technewsguy/NSLT-VR",
-    "last_checked": "2026-11-08"
+    "last_checked": "2026-11-09"
   },
   {
     "slug": "oot-vr",
@@ -9498,7 +9655,7 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v1.1",
+    "version": "v1.2",
     "version_date": "2026-11-08",
     "download_url": "https://github.com/stsichler/portal_revolution_vr/releases/latest",
     "source_url": "https://github.com/stsichler/portal_revolution_vr",
@@ -9520,7 +9677,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/stsichler/portal_revolution_vr",
-    "last_checked": "2026-11-08"
+    "last_checked": "2026-11-09"
   },
   {
     "slug": "power-moon-vr",
@@ -9641,8 +9798,8 @@
     ],
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.0.1",
-    "version_date": "2026-10-28",
+    "version": "v1.0.2",
+    "version_date": "2026-11-08",
     "download_url": "https://github.com/GameOrDie007/Prey-2006-VR/releases/latest",
     "source_url": "https://github.com/GameOrDie007/Prey-2006-VR",
     "license": "unknown",
@@ -9671,7 +9828,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/GameOrDie007/Prey-2006-VR",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-11-09"
   },
   {
     "slug": "preyvr",
@@ -10983,8 +11140,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.8.13.1",
-    "version_date": "2026-11-07",
+    "version": "v0.8.13.2",
+    "version_date": "2026-11-08",
     "download_url": "https://github.com/Disonomouss/RDRVR/releases/latest",
     "source_url": "https://github.com/Disonomouss/RDRVR",
     "license": "MIT",
@@ -11002,7 +11159,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/Disonomouss/RDRVR",
-    "last_checked": "2026-11-08"
+    "last_checked": "2026-11-09"
   },
   {
     "slug": "realrtcw-xr",
@@ -11178,8 +11335,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.13.45",
-    "version_date": "2026-11-07",
+    "version": "v0.13.58",
+    "version_date": "2026-11-08",
     "download_url": "https://github.com/ElderMiner/Red-Faction-Guerrilla-Re-MARS-tered-VR/releases/latest",
     "source_url": "https://github.com/ElderMiner/Red-Faction-Guerrilla-Re-MARS-tered-VR",
     "license": "unknown",
@@ -11197,7 +11354,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/ElderMiner/Red-Faction-Guerrilla-Re-MARS-tered-VR",
-    "last_checked": "2026-11-08"
+    "last_checked": "2026-11-09"
   },
   {
     "slug": "reframework",
@@ -11357,7 +11514,7 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v1.5.0",
+    "version": "v1.5.1",
     "version_date": "2026-11-08",
     "download_url": "https://github.com/neto1495mn-sudo/recvx-enhanced-port-pcvr/releases/latest",
     "source_url": "https://github.com/neto1495mn-sudo/recvx-enhanced-port-pcvr",
@@ -11391,7 +11548,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://sidequestvr.com/app/63846",
-    "last_checked": "2026-11-08"
+    "last_checked": "2026-11-09"
   },
   {
     "slug": "resonance-of-fate-vr",
@@ -11542,7 +11699,7 @@
     ],
     "controls": "gamepad",
     "status": "stable",
-    "version": "v1.1",
+    "version": "v1.2",
     "version_date": "2026-11-08",
     "download_url": "https://github.com/scubasteve2365/RiftApartVR/releases/latest",
     "source_url": "https://github.com/scubasteve2365/RiftApartVR",
@@ -11572,7 +11729,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://discord.gg/flat2vr",
-    "last_checked": "2026-11-08"
+    "last_checked": "2026-11-09"
   },
   {
     "slug": "ringfall-mjolnir-vr",
@@ -11595,8 +11752,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "build-321",
-    "version_date": "2026-11-07",
+    "version": "build-322",
+    "version_date": "2026-11-08",
     "download_url": "https://github.com/Cesarus85/ringfall-mjolnir-vr/releases/latest",
     "source_url": "https://github.com/Cesarus85/ringfall-mjolnir-vr",
     "license": "CC0-1.0",
@@ -11614,7 +11771,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/Cesarus85/ringfall-mjolnir-vr",
-    "last_checked": "2026-11-08"
+    "last_checked": "2026-11-09"
   },
   {
     "slug": "road-rash-jailbreak-vr",
@@ -12789,8 +12946,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.9.25",
-    "version_date": "2026-10-24",
+    "version": "v0.9.26",
+    "version_date": "2026-11-08",
     "download_url": "https://github.com/fulldivegames/sm64coopdx-VR-Standalone-Physics-based/releases/latest",
     "source_url": "https://github.com/fulldivegames/sm64coopdx-VR-Standalone-Physics-based",
     "license": "unknown",
@@ -12820,7 +12977,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/fulldivegames/sm64coopdx-vr-standalone-physics-based",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-11-09"
   },
   {
     "slug": "smash-remix-vr",
@@ -14173,6 +14330,51 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "thecoingamevr",
+    "name": "TheCoinGameVR",
+    "games": [
+      "The Coin Game"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Hoshi82",
+        "url": "https://github.com/Hoshi82"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "alpha",
+    "version": "v0.0.89",
+    "version_date": "2026-11-08",
+    "download_url": "https://github.com/Hoshi82/TheCoinGameVR/releases/latest",
+    "source_url": "https://github.com/Hoshi82/TheCoinGameVR",
+    "license": "MIT",
+    "required_files": "The Coin Game (Steam, tested with 1.0.11)",
+    "known_bugs": [
+      "6DoF motion-controller support is not implemented"
+    ],
+    "notes": "Stereo OpenXR rendering with head tracking and mouse/gamepad controls; MelonLoader 0.7.3 is bundled.",
+    "images": [
+      {
+        "game": "The Coin Game",
+        "file": "images/thecoingamevr/the-coin-game.jpg",
+        "credit": "The Coin Game store art",
+        "source_url": "https://store.steampowered.com/app/598980/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Coin Game Part VR",
+        "channel": "2ndJerma",
+        "url": "https://www.youtube.com/watch?v=yjf4u6SqlEw"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/Hoshi82/TheCoinGameVR",
+    "last_checked": "2026-11-09"
+  },
+  {
     "slug": "time-crisis-ii-vr",
     "name": "Time Crisis II VR",
     "games": [
@@ -14390,8 +14592,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v1.2.0",
-    "version_date": "2026-11-03",
+    "version": "v1.3.2",
+    "version_date": "2026-11-08",
     "download_url": "https://github.com/petonexus/tocs-vr-releases/releases/latest",
     "source_url": "https://github.com/petonexus/tocs-vr-releases",
     "homepage": "https://www.trailsvr.pro",
@@ -14412,7 +14614,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/petonexus/tocs-vr-releases",
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-09"
   },
   {
     "slug": "turbo-overkill-vr-mod",
@@ -15828,6 +16030,43 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/astromaddie/wipeout-vr",
     "last_checked": "2026-10-14"
+  },
+  {
+    "slug": "withering-realms-vr",
+    "name": "Withering Realms VR",
+    "games": [
+      "Withering Realms"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "King-EJ",
+        "url": "https://github.com/King-EJ"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "alpha",
+    "version": "WitheringRealmsVR",
+    "version_date": "2026-11-09",
+    "download_url": "https://github.com/King-EJ/Withering-Realms-VR/releases/latest",
+    "source_url": "https://github.com/King-EJ/Withering-Realms-VR",
+    "license": "unknown",
+    "required_files": "Withering Realms game install (PC)",
+    "known_bugs": [],
+    "notes": "Test build v0.1.18 using Astien's OpenXR bridge; only tested with Virtual Desktop XR; supports third-person and first-person views with swing-based attacks.",
+    "images": [
+      {
+        "game": "Withering Realms",
+        "file": "images/withering-realms-vr/withering-realms.jpg",
+        "credit": "Withering Realms store art",
+        "source_url": "https://store.steampowered.com/app/3441990/"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/King-EJ/Withering-Realms-VR",
+    "last_checked": "2026-11-09"
   },
   {
     "slug": "wolfenstein-vr",

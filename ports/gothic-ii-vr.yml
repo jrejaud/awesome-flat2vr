@@ -13,8 +13,8 @@ headsets:
   - Quest Pro
 controls: 6dof
 status: alpha
-version: "v0.2.0"
-version_date: "2026-09-23"
+version: "v0.2.1"
+version_date: "2026-11-08"
 download_url: https://github.com/dubrovskiy-yevhen-stakelogic/gothic2-vr/releases/latest
 source_url: https://github.com/dubrovskiy-yevhen-stakelogic/gothic2-vr
 license: MIT
@@ -33,4 +33,4 @@ reviews:
     url: https://www.youtube.com/watch?v=rhsqMxieF08
 added_by: bot
 discovered_via: https://questports.vercel.app/ports/gothic2-vr
-last_checked: "2026-10-11"
+last_checked: "2026-11-09"
