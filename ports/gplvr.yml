@@ -1,0 +1,35 @@
+name: GPLVR
+games:
+  - Grand Prix Legends
+category: mod
+authors:
+  - name: Casqade
+    url: https://github.com/Casqade
+platform: pcvr
+headsets:
+  - Pico 4
+controls: gamepad
+status: beta
+version: "v1.0"
+version_date: "2026-11-10"
+download_url: https://github.com/Casqade/gplvr/releases/latest
+source_url: https://github.com/Casqade/gplvr
+license: unknown
+required_files: Grand Prix Legends (GPL Beta or GPL 2020 Demo) with the roglv2 rasterizer
+known_bugs: []
+notes: Also adds borderless fullscreen, frame interpolation, a custom renderer and mouse look in non-VR mode.
+images:
+  - game: Grand Prix Legends
+    file: images/gplvr/grand-prix-legends.png
+    credit: Grand Prix Legends grid by Retrocoach16 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/485471
+reviews:
+  - title: Grand Prix Legends UPDATED Car Mod Pack for Assetto Corsa VR Review
+    channel: SimRacing604
+    url: https://www.youtube.com/watch?v=3FqX7UulFrs
+  - title: Grand Prix Legends VR
+    channel: DaftnDirect
+    url: https://www.youtube.com/watch?v=JT_RTjwahu0
+added_by: bot
+discovered_via: https://github.com/Casqade/gplvr
+last_checked: "2026-11-10"

@@ -1,0 +1,33 @@
+name: LanaVR
+games:
+  - Planet of Lana
+category: mod
+authors:
+  - name: FlukeRogi
+    url: https://github.com/FlukeRogi
+platform: pcvr
+controls: gamepad
+status: stable
+version: "v1.15.0"
+version_date: "2026-11-09"
+download_url: https://github.com/FlukeRogi/LanaVR/releases/latest
+source_url: https://github.com/FlukeRogi/LanaVR
+license: unknown
+required_files: Planet of Lana (first game) on Steam, Windows PC, SteamVR or Virtual Desktop
+known_bugs: []
+notes: Plays the game on a giant floating 3D stereo screen on a lake platform; motion controllers are not used.
+images:
+  - game: Planet of Lana
+    file: images/lanavr/planet-of-lana.jpg
+    credit: Planet of Lana grid by HoopyFrood (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/345357
+reviews:
+  - title: "The STUNNING Planet Of Lana VR Mod! #VR #VRMods"
+    channel: Paradise Decay
+    url: https://www.youtube.com/watch?v=GQo9leZVSQI
+  - title: Planet of Lana - 3D in VR - Geo 11 3D Driver - TAB 3D / VR 180
+    channel: FastLawyer
+    url: https://www.youtube.com/watch?v=oNoQ32WLk88
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-10"

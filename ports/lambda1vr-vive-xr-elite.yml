@@ -1,0 +1,36 @@
+name: Lambda1VR Vive XR Elite
+games:
+  - Half-Life
+category: source-port
+authors:
+  - name: gerardoriveradoesstuff
+    url: https://github.com/gerardoriveradoesstuff
+platform: standalone
+headsets:
+  - HTC VIVE XR Elite
+  - HTC VIVE Focus 3
+controls: 6dof
+status: stable
+version: "v1.7.4-vive-xr-elite"
+version_date: "2026-11-10"
+download_url: https://github.com/gerardoriveradoesstuff/Lambda1VR-Vive-XR-Elite/releases/latest
+source_url: https://github.com/gerardoriveradoesstuff/Lambda1VR-Vive-XR-Elite
+license: GPL-3.0
+required_files: Half-Life (Steam) valve folder copied to /sdcard/xash/valve on the headset
+known_bugs: []
+notes: Fork of Lambda1VR (Xash3D-FWGS) ported to OpenXR for HTC VIVE XR Elite at 90 FPS.
+images:
+  - game: Half-Life
+    file: images/lambda1vr-vive-xr-elite/half-life.png
+    credit: Half-Life grid by traintrash (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/742534
+reviews:
+  - title: You CAN Play Half Life VR On The Quest 2...Here's How!
+    channel: BMFVR
+    url: https://www.youtube.com/watch?v=A11e-h6qgDM
+  - title: Half-Life VR on Oculus Quest! Easy Set Up and Gameplay (GIVEAWAY!)
+    channel: RaMarcus
+    url: https://www.youtube.com/watch?v=fOaYIzp27ds
+added_by: bot
+discovered_via: https://github.com/gerardoriveradoesstuff/Lambda1VR-Vive-XR-Elite
+last_checked: "2026-11-10"

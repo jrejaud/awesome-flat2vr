@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: beta
-version: "v1.2"
-version_date: "2026-11-08"
+version: "v1.3"
+version_date: "2026-11-09"
 download_url: https://github.com/stsichler/portal_revolution_vr/releases/latest
 source_url: https://github.com/stsichler/portal_revolution_vr
 license: GPL-3.0
@@ -26,4 +26,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/stsichler/portal_revolution_vr
-last_checked: "2026-11-09"
+last_checked: "2026-11-10"

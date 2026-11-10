@@ -387,8 +387,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.5.2",
-    "version_date": "2026-10-26",
+    "version": "v0.5.3",
+    "version_date": "2026-11-09",
     "download_url": "https://github.com/nvdg-public/amfp-vr/releases/latest",
     "source_url": "https://github.com/nvdg-public/amfp-vr",
     "license": "GPL-3.0",
@@ -406,7 +406,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/nvdg-public/amfp-vr",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-11-10"
   },
   {
     "slug": "anger-foot-vr",
@@ -1866,6 +1866,45 @@
     "last_checked": "2026-10-28"
   },
   {
+    "slug": "boardcraft-vr",
+    "name": "Boardcraft-VR",
+    "games": [
+      "Minecraft: Java Edition"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Jaisprint",
+        "url": "https://github.com/Jaisprint"
+      }
+    ],
+    "platform": "standalone",
+    "controls": "3dof",
+    "status": "alpha",
+    "version": "v0.1.0-alpha",
+    "version_date": "2026-11-09",
+    "download_url": "https://github.com/Jaisprint/Boardcraft-VR/releases/latest",
+    "source_url": "https://github.com/Jaisprint/Boardcraft-VR",
+    "license": "GPL-3.0",
+    "required_files": "Minecraft Java Edition 26.3 with Fabric, Fabric API, Sodium, StereoCraft mod, Minecraft Cardboard VR app, and a mobile Java launcher (e.g. Cubiq Launcher)",
+    "known_bugs": [
+      "Game will crash if the Cardboard VR Config and Gyroscope Sender app is not started before launching"
+    ],
+    "notes": "Runs on phones in Google Cardboard viewers with head tracking only; 6DoF controllers and hand interaction are planned.",
+    "images": [
+      {
+        "game": "Minecraft: Java Edition",
+        "file": "images/boardcraft-vr/minecraft-java-edition.png",
+        "credit": "Minecraft: Java Edition grid by CheatFreak (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/65746"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/Jaisprint/Boardcraft-VR",
+    "last_checked": "2026-11-10"
+  },
+  {
     "slug": "bomberman-hero-quest-3-vr-standalone",
     "name": "Bomberman Hero Quest 3 VR Standalone",
     "games": [
@@ -2629,8 +2668,8 @@
     "platform": "pcvr",
     "controls": "gamepad",
     "status": "stable",
-    "version": "v1.01",
-    "version_date": "2026-11-08",
+    "version": "v1.02",
+    "version_date": "2026-11-09",
     "download_url": "https://github.com/scubasteve2365/cupheadVR/releases/latest",
     "source_url": "https://github.com/scubasteve2365/cupheadVR",
     "license": "MIT",
@@ -2659,7 +2698,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://discord.gg/flat2vr",
-    "last_checked": "2026-11-08"
+    "last_checked": "2026-11-10"
   },
   {
     "slug": "cyberpunkvr-port",
@@ -2725,8 +2764,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.209.0",
-    "version_date": "2026-11-08",
+    "version": "v0.210.1",
+    "version_date": "2026-11-09",
     "download_url": "https://github.com/natpoh/diablo2-vr-port/releases/latest",
     "source_url": "https://github.com/natpoh/diablo2-vr-port",
     "homepage": "https://bodywalkvr.com/mods/d2r-vr",
@@ -2756,7 +2795,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/natpoh/diablo2-vr-port",
-    "last_checked": "2026-11-09"
+    "last_checked": "2026-11-10"
   },
   {
     "slug": "dead-space-2008-vr",
@@ -3229,6 +3268,56 @@
     "last_checked": "2026-10-28"
   },
   {
+    "slug": "dishonored-2-vr",
+    "name": "Dishonored 2 VR",
+    "games": [
+      "Dishonored 2"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Hollownett",
+        "url": "https://github.com/Hollownett"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v1123.1",
+    "version_date": "2026-11-09",
+    "download_url": "https://github.com/Hollownett/dishonored2-vr/releases/latest",
+    "source_url": "https://github.com/Hollownett/dishonored2-vr",
+    "license": "unknown",
+    "required_files": "Steam copy of Dishonored 2",
+    "known_bugs": [
+      "On some newer systems the game's original amd_ags_x64.dll closes the game at start; replace it with amd-ags-stub v1.1 or run Dishonored2.exe as administrator."
+    ],
+    "notes": "Native OpenXR mod with stereo 3D, tracked hands and motion combat, installed via a launcher next to the Steam game.",
+    "images": [
+      {
+        "game": "Dishonored 2",
+        "file": "images/dishonored-2-vr/dishonored-2.png",
+        "credit": "Dishonored 2 grid by MassiveGoods (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/460040"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Dishonored 2 VR Performance / New VR Mod with 6DOF Motion Controls / Meta Quest 3 + RTX 4080 Super",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=29cmGRrJEmU"
+      },
+      {
+        "title": "I got DISHONORED 2 POWERS working in VR",
+        "channel": "Cosmic Tangerine",
+        "url": "https://www.youtube.com/watch?v=SIVYcIaLrgU"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/Hollownett/dishonored2-vr",
+    "last_checked": "2026-11-10"
+  },
+  {
     "slug": "disney-dreamlight-valley-vr",
     "name": "Disney Dreamlight Valley VR",
     "games": [
@@ -3670,8 +3759,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "stable",
-    "version": "EDF6VR-3.2.15",
-    "version_date": "2026-11-03",
+    "version": "EDF6VR-3.2.16",
+    "version_date": "2026-11-09",
     "download_url": "https://github.com/momotori01/EARTH-DEFENSE-FORCE-6-VR-MOD/releases/latest",
     "source_url": "https://github.com/momotori01/EARTH-DEFENSE-FORCE-6-VR-MOD",
     "license": "Unlicense",
@@ -3700,7 +3789,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/momotori01/EARTH-DEFENSE-FORCE-6-VR-MOD",
-    "last_checked": "2026-11-04"
+    "last_checked": "2026-11-10"
   },
   {
     "slug": "edge-of-eternity-vr",
@@ -3852,8 +3941,8 @@
     ],
     "controls": "mixed",
     "status": "alpha",
-    "version": "v0.1.88",
-    "version_date": "2026-11-07",
+    "version": "v0.1.89",
+    "version_date": "2026-11-09",
     "download_url": "https://github.com/ArcadaLabs-Jason/EternalVR/releases/latest",
     "source_url": "https://github.com/ArcadaLabs-Jason/EternalVR",
     "homepage": "https://ko-fi.com/FanciestPeanut",
@@ -3883,7 +3972,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/ArcadaLabs-Jason/EternalVR",
-    "last_checked": "2026-11-08"
+    "last_checked": "2026-11-10"
   },
   {
     "slug": "f-e-a-r-vr",
@@ -4262,6 +4351,57 @@
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "final-fantasy-xiii-trilogy-vr",
+    "name": "Final Fantasy XIII Trilogy VR",
+    "games": [
+      "Final Fantasy XIII",
+      "Final Fantasy XIII-2",
+      "Lightning Returns: Final Fantasy XIII"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "mark-mon",
+        "url": "https://github.com/mark-mon"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "stable",
+    "version": "v1.2",
+    "version_date": "2026-11-09",
+    "download_url": "https://github.com/mark-mon/final_fantasy_13_parts_1_2_3/releases/latest",
+    "source_url": "https://github.com/mark-mon/final_fantasy_13_parts_1_2_3",
+    "license": "GPL-3.0",
+    "required_files": "Steam versions of Final Fantasy XIII, Final Fantasy XIII-2 and/or Lightning Returns: Final Fantasy XIII",
+    "known_bugs": [],
+    "notes": "Third-person gamepad play in stereo with head tracking; requires SteamVR as the OpenXR runtime.",
+    "images": [
+      {
+        "game": "Final Fantasy XIII",
+        "file": "images/final-fantasy-xiii-trilogy-vr/final-fantasy-xiii.png",
+        "credit": "Final Fantasy XIII grid by Metagawa (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/3965"
+      },
+      {
+        "game": "Final Fantasy XIII-2",
+        "file": "images/final-fantasy-xiii-trilogy-vr/final-fantasy-xiii-2.png",
+        "credit": "Final Fantasy XIII-2 grid by Theoran (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/758109"
+      },
+      {
+        "game": "Lightning Returns: Final Fantasy XIII",
+        "file": "images/final-fantasy-xiii-trilogy-vr/lightning-returns-final-fantasy-xiii.png",
+        "credit": "Lightning Returns: Final Fantasy XIII grid by Theoran (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/758111"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/mark-mon/final_fantasy_13_parts_1_2_3",
+    "last_checked": "2026-11-10"
   },
   {
     "slug": "flatout-2-vr",
@@ -5151,8 +5291,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.2.7",
-    "version_date": "2026-11-07",
+    "version": "v0.2.8",
+    "version_date": "2026-11-09",
     "download_url": "https://github.com/paultaran00/GoWEDay-VR/releases/latest",
     "source_url": "https://github.com/paultaran00/GoWEDay-VR",
     "license": "GPL-3.0",
@@ -5181,7 +5321,58 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/paultaran00/GoWEDay-VR",
-    "last_checked": "2026-11-08"
+    "last_checked": "2026-11-10"
+  },
+  {
+    "slug": "gplvr",
+    "name": "GPLVR",
+    "games": [
+      "Grand Prix Legends"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Casqade",
+        "url": "https://github.com/Casqade"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Pico 4"
+    ],
+    "controls": "gamepad",
+    "status": "beta",
+    "version": "v1.0",
+    "version_date": "2026-11-10",
+    "download_url": "https://github.com/Casqade/gplvr/releases/latest",
+    "source_url": "https://github.com/Casqade/gplvr",
+    "license": "unknown",
+    "required_files": "Grand Prix Legends (GPL Beta or GPL 2020 Demo) with the roglv2 rasterizer",
+    "known_bugs": [],
+    "notes": "Also adds borderless fullscreen, frame interpolation, a custom renderer and mouse look in non-VR mode.",
+    "images": [
+      {
+        "game": "Grand Prix Legends",
+        "file": "images/gplvr/grand-prix-legends.png",
+        "credit": "Grand Prix Legends grid by Retrocoach16 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/485471"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Grand Prix Legends UPDATED Car Mod Pack for Assetto Corsa VR Review",
+        "channel": "SimRacing604",
+        "url": "https://www.youtube.com/watch?v=3FqX7UulFrs"
+      },
+      {
+        "title": "Grand Prix Legends VR",
+        "channel": "DaftnDirect",
+        "url": "https://www.youtube.com/watch?v=JT_RTjwahu0"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/Casqade/gplvr",
+    "last_checked": "2026-11-10"
   },
   {
     "slug": "gran-turismo-2-vr",
@@ -5372,6 +5563,57 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/simplysnake/GrimDawn_mod",
     "last_checked": "2026-11-04"
+  },
+  {
+    "slug": "gt3-revisited",
+    "name": "GT3 Revisited",
+    "games": [
+      "Gran Turismo 3 A-Spec"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "matt-pulsipher",
+        "url": "https://github.com/matt-pulsipher"
+      }
+    ],
+    "platform": "both",
+    "headsets": [
+      "Quest"
+    ],
+    "controls": "mixed",
+    "status": "beta",
+    "version": "v0.6.4",
+    "version_date": "2026-11-09",
+    "download_url": "https://github.com/matt-pulsipher/GT3-revisited/releases/latest",
+    "source_url": "https://github.com/matt-pulsipher/GT3-revisited",
+    "license": "MIT",
+    "required_files": "Disc image (.iso or .chd) made from your own copy of Gran Turismo 3 A-Spec",
+    "known_bugs": [],
+    "notes": "Engine reimplementation for many platforms; VR gives a driver's-seat stereo view with Touch controllers on Quest, plus a Windows PC VR build (Quest Link, SteamVR).",
+    "images": [
+      {
+        "game": "Gran Turismo 3 A-Spec",
+        "file": "images/gt3-revisited/gran-turismo-3-a-spec.png",
+        "credit": "Gran Turismo 3: A-Spec grid by satencott (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/252478"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Gran Turismo 3 A-Spec VR Performance / New Meta Quest Standalone VR Mod / Meta Quest 3",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=UQzIiN9SwvE"
+      },
+      {
+        "title": "Gran Turismo 3 running natively on PC, Mac, Linux and Android | GT3 Revisited",
+        "channel": "Matthew Pulsipher",
+        "url": "https://www.youtube.com/watch?v=51AEQxkkumg"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://discord.gg/flat2vr",
+    "last_checked": "2026-11-10"
   },
   {
     "slug": "gta-san-andreas-vr-for-quest",
@@ -7197,6 +7439,58 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "lambda1vr-vive-xr-elite",
+    "name": "Lambda1VR Vive XR Elite",
+    "games": [
+      "Half-Life"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "gerardoriveradoesstuff",
+        "url": "https://github.com/gerardoriveradoesstuff"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "HTC VIVE XR Elite",
+      "HTC VIVE Focus 3"
+    ],
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.7.4-vive-xr-elite",
+    "version_date": "2026-11-10",
+    "download_url": "https://github.com/gerardoriveradoesstuff/Lambda1VR-Vive-XR-Elite/releases/latest",
+    "source_url": "https://github.com/gerardoriveradoesstuff/Lambda1VR-Vive-XR-Elite",
+    "license": "GPL-3.0",
+    "required_files": "Half-Life (Steam) valve folder copied to /sdcard/xash/valve on the headset",
+    "known_bugs": [],
+    "notes": "Fork of Lambda1VR (Xash3D-FWGS) ported to OpenXR for HTC VIVE XR Elite at 90 FPS.",
+    "images": [
+      {
+        "game": "Half-Life",
+        "file": "images/lambda1vr-vive-xr-elite/half-life.png",
+        "credit": "Half-Life grid by traintrash (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/742534"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "You CAN Play Half Life VR On The Quest 2...Here's How!",
+        "channel": "BMFVR",
+        "url": "https://www.youtube.com/watch?v=A11e-h6qgDM"
+      },
+      {
+        "title": "Half-Life VR on Oculus Quest! Easy Set Up and Gameplay (GIVEAWAY!)",
+        "channel": "RaMarcus",
+        "url": "https://www.youtube.com/watch?v=fOaYIzp27ds"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/gerardoriveradoesstuff/Lambda1VR-Vive-XR-Elite",
+    "last_checked": "2026-11-10"
+  },
+  {
     "slug": "lambda1vr",
     "name": "Lambda1VR",
     "games": [
@@ -7242,6 +7536,54 @@
     "added_by": "bot",
     "discovered_via": "Initial research sweep (GitHub releases API), https://github.com/Team-Beef-Studios/Lambda1VR",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "lanavr",
+    "name": "LanaVR",
+    "games": [
+      "Planet of Lana"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "FlukeRogi",
+        "url": "https://github.com/FlukeRogi"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "stable",
+    "version": "v1.15.0",
+    "version_date": "2026-11-09",
+    "download_url": "https://github.com/FlukeRogi/LanaVR/releases/latest",
+    "source_url": "https://github.com/FlukeRogi/LanaVR",
+    "license": "unknown",
+    "required_files": "Planet of Lana (first game) on Steam, Windows PC, SteamVR or Virtual Desktop",
+    "known_bugs": [],
+    "notes": "Plays the game on a giant floating 3D stereo screen on a lake platform; motion controllers are not used.",
+    "images": [
+      {
+        "game": "Planet of Lana",
+        "file": "images/lanavr/planet-of-lana.jpg",
+        "credit": "Planet of Lana grid by HoopyFrood (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/345357"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "The STUNNING Planet Of Lana VR Mod! #VR #VRMods",
+        "channel": "Paradise Decay",
+        "url": "https://www.youtube.com/watch?v=GQo9leZVSQI"
+      },
+      {
+        "title": "Planet of Lana - 3D in VR - Geo 11 3D Driver - TAB 3D / VR 180",
+        "channel": "FastLawyer",
+        "url": "https://www.youtube.com/watch?v=oNoQ32WLk88"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://discord.gg/flat2vr",
+    "last_checked": "2026-11-10"
   },
   {
     "slug": "lemmix-for-steam-frame",
@@ -7370,6 +7712,43 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/King-EJ/Lil-Gator-Game-VR",
     "last_checked": "2026-11-08"
+  },
+  {
+    "slug": "lous-lagoon-vr",
+    "name": "Lou's Lagoon VR",
+    "games": [
+      "Lou's Lagoon"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "King-EJ",
+        "url": "https://github.com/King-EJ"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "alpha",
+    "version": "LousLagoonVR",
+    "version_date": "2026-11-10",
+    "download_url": "https://github.com/King-EJ/Lou-s-Lagoon-VR/releases/latest",
+    "source_url": "https://github.com/King-EJ/Lou-s-Lagoon-VR",
+    "license": "unknown",
+    "required_files": "Lou's Lagoon PC game install",
+    "known_bugs": [],
+    "notes": "WIP; VR controllers act as an Xbox gamepad; only tested with Virtual Desktop XR; uses Astien's OpenXR bridge.",
+    "images": [
+      {
+        "game": "Lou's Lagoon",
+        "file": "images/lous-lagoon-vr/lou-s-lagoon.jpg",
+        "credit": "Lou's Lagoon store art",
+        "source_url": "https://store.steampowered.com/app/2100020/"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/King-EJ/Lou-s-Lagoon-VR",
+    "last_checked": "2026-11-10"
   },
   {
     "slug": "magic-carpet-vr",
@@ -7747,8 +8126,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.9.0",
-    "version_date": "2026-11-06",
+    "version": "v0.9.1",
+    "version_date": "2026-11-09",
     "download_url": "https://github.com/RippeR37/MetroExodusVR/releases/latest",
     "source_url": "https://github.com/RippeR37/MetroExodusVR",
     "license": "unknown",
@@ -7780,7 +8159,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://discord.gg/flat2vr",
-    "last_checked": "2026-11-07"
+    "last_checked": "2026-11-10"
   },
   {
     "slug": "metroidprimeportvr-primedgun-v2",
@@ -9612,8 +9991,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "scud-v0.2.2",
-    "version_date": "2026-11-07",
+    "version": "scud-v0.2.3",
+    "version_date": "2026-11-09",
     "download_url": "https://github.com/jacquesdupontd/port0r/releases/latest",
     "source_url": "https://github.com/jacquesdupontd/port0r",
     "license": "unknown",
@@ -9637,7 +10016,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/sega-rally-vr",
-    "last_checked": "2026-11-08"
+    "last_checked": "2026-11-10"
   },
   {
     "slug": "portal-revolution-vr-mod",
@@ -9655,8 +10034,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v1.2",
-    "version_date": "2026-11-08",
+    "version": "v1.3",
+    "version_date": "2026-11-09",
     "download_url": "https://github.com/stsichler/portal_revolution_vr/releases/latest",
     "source_url": "https://github.com/stsichler/portal_revolution_vr",
     "license": "GPL-3.0",
@@ -9677,7 +10056,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/stsichler/portal_revolution_vr",
-    "last_checked": "2026-11-09"
+    "last_checked": "2026-11-10"
   },
   {
     "slug": "power-moon-vr",
@@ -9798,8 +10177,8 @@
     ],
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.0.2",
-    "version_date": "2026-11-08",
+    "version": "v1.0.3",
+    "version_date": "2026-11-10",
     "download_url": "https://github.com/GameOrDie007/Prey-2006-VR/releases/latest",
     "source_url": "https://github.com/GameOrDie007/Prey-2006-VR",
     "license": "unknown",
@@ -9828,7 +10207,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/GameOrDie007/Prey-2006-VR",
-    "last_checked": "2026-11-09"
+    "last_checked": "2026-11-10"
   },
   {
     "slug": "preyvr",
@@ -10040,6 +10419,46 @@
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
     "last_checked": "2026-11-07"
+  },
+  {
+    "slug": "privateer-2-vr",
+    "name": "Privateer 2 VR",
+    "games": [
+      "Privateer 2: The Darkening"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "SPD13",
+        "url": "https://github.com/SPD13"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Steam Frame"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.1.2",
+    "version_date": "2026-11-10",
+    "download_url": "https://github.com/SPD13/privateer2-vr/releases/latest",
+    "source_url": "https://github.com/SPD13/privateer2-vr",
+    "license": "unknown",
+    "required_files": "Privateer 2: The Darkening 30th Anniversary Edition on Steam",
+    "known_bugs": [],
+    "notes": "BRender injector with OpenXR/SteamVR; stereo 3D space flight with HUD panels, menus and FMV on a virtual screen.",
+    "images": [
+      {
+        "game": "Privateer 2: The Darkening",
+        "file": "images/privateer-2-vr/privateer-2-the-darkening.jpg",
+        "credit": "Privateer 2: The Darkening grid by Luckspeare (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/501964"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/SPD13/privateer2-vr",
+    "last_checked": "2026-11-10"
   },
   {
     "slug": "project-06-vr",
@@ -11887,8 +12306,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.5.5",
-    "version_date": "2026-11-07",
+    "version": "v0.5.6",
+    "version_date": "2026-11-10",
     "download_url": "https://github.com/RandomName729/RushofPCVR/releases/latest",
     "source_url": "https://github.com/RandomName729/RushofPCVR",
     "homepage": "https://www.patreon.com/cw/RandomName729",
@@ -11924,7 +12343,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/RandomName729/RushofPCVR",
-    "last_checked": "2026-11-07"
+    "last_checked": "2026-11-10"
   },
   {
     "slug": "rustler-vr",
@@ -12258,53 +12677,6 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/ObeseCatLord/Serious-Sam-2-VR",
     "last_checked": "2026-11-02"
-  },
-  {
-    "slug": "shadows-vr-mods",
-    "name": "SHADOW's VR mods",
-    "games": [
-      "Witchfire"
-    ],
-    "category": "profile",
-    "authors": [
-      {
-        "name": "itzSHAD0Wv",
-        "url": "https://github.com/itzSHAD0Wv"
-      }
-    ],
-    "platform": "pcvr",
-    "status": "alpha",
-    "version": "v0.1.0",
-    "version_date": "2026-11-07",
-    "download_url": "https://github.com/itzSHAD0Wv/SHADOWs-VR-mods/releases/latest",
-    "source_url": "https://github.com/itzSHAD0Wv/SHADOWs-VR-mods",
-    "license": "MIT",
-    "required_files": "Witchfire (Steam) installed on Windows 10/11 with Edge WebView2 Runtime",
-    "known_bugs": [],
-    "notes": "Launcher that auto-installs UEVR and the Witchfire VR profile (https://github.com/itzSHAD0Wv/Witchfire-VR) with one button.",
-    "images": [
-      {
-        "game": "Witchfire",
-        "file": "images/shadows-vr-mods/witchfire.png",
-        "credit": "Witchfire grid by Boxfish (SteamGridDB)",
-        "source_url": "https://www.steamgriddb.com/grid/394228"
-      }
-    ],
-    "reviews": [
-      {
-        "title": "Witchfire in VR is EPIC! - #UEVR #6dof",
-        "channel": "Paradise Decay",
-        "url": "https://www.youtube.com/watch?v=qOTUlfNejdo"
-      },
-      {
-        "title": "The NEW 'WITCHFIRE' UPDATE and UEVR Profile is 'PERFECTION' in VR!",
-        "channel": "Paradise Decay",
-        "url": "https://www.youtube.com/watch?v=6vfkPCdSsXo"
-      }
-    ],
-    "added_by": "bot",
-    "discovered_via": "https://github.com/itzSHAD0Wv/SHADOWs-VR-mods",
-    "last_checked": "2026-11-08"
   },
   {
     "slug": "shipbreakervr",
@@ -14375,6 +14747,57 @@
     "last_checked": "2026-11-09"
   },
   {
+    "slug": "thewill-fallout-3-vr",
+    "name": "THEwill Fallout 3 VR",
+    "games": [
+      "Fallout 3"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "THEwill2002",
+        "url": "https://github.com/THEwill2002"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "abandoned",
+    "version": "v0.1.0-alpha.6-rc.25",
+    "version_date": "2026-11-09",
+    "download_url": "https://github.com/THEwill2002/Fallout3VR/releases/latest",
+    "source_url": "https://github.com/THEwill2002/Fallout3VR",
+    "license": "MIT",
+    "required_files": "Legally acquired Fallout 3 Steam installation with the 1.7.0.4 executable (SHA256 c3f97c2255fa041a851c17cf372d69aaadd8694e2dc4230ba556001bbfbd2f3e)",
+    "known_bugs": [
+      "Pistol assembly alignment, Pip-Boy lighting/depth and stuck firing/movement safeguard corrections still need broader playtesting",
+      "UHD profile is more demanding than the default HD"
+    ],
+    "notes": "Final official release; development ended and source released under MIT, with no further updates promised.",
+    "images": [
+      {
+        "game": "Fallout 3",
+        "file": "images/thewill-fallout-3-vr/fallout-3.png",
+        "credit": "Fallout 3 grid by mfrh89 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/435891"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Putting Fallout 3 in VR taught me its time to grow up",
+        "channel": "habie147",
+        "url": "https://www.youtube.com/watch?v=rBxHre8A9Oc"
+      },
+      {
+        "title": "Fallout 3 & New Vegas VR Is Absolutely Incredible",
+        "channel": "Gamertag VR",
+        "url": "https://www.youtube.com/watch?v=QQMEPLt-h3Y"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/THEwill2002/Fallout3VR",
+    "last_checked": "2026-11-10"
+  },
+  {
     "slug": "time-crisis-ii-vr",
     "name": "Time Crisis II VR",
     "games": [
@@ -14572,6 +14995,67 @@
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/twilight-princess-vr",
     "last_checked": "2026-10-19"
+  },
+  {
+    "slug": "trackmania-forever-openxr",
+    "name": "TrackMania Forever OpenXR",
+    "games": [
+      "TrackMania Nations Forever",
+      "TrackMania United Forever"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "jiink",
+        "url": "https://github.com/jiink"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "gamepad",
+    "status": "stable",
+    "version": "v8",
+    "version_date": "2026-09-07",
+    "download_url": "https://github.com/jiink/TrackManiaForeverOpenXR/releases/latest",
+    "source_url": "https://github.com/jiink/TrackManiaForeverOpenXR",
+    "license": "MIT",
+    "required_files": "TrackMania Nations Forever or TrackMania United Forever installed (Steam)",
+    "known_bugs": [
+      "As of v8, the mod crashes with Meta Horizon Link; use Steam Link or Virtual Desktop instead",
+      "Requires fullscreen and anti-aliasing disabled in game options; OpenXR layers without 32-bit support (e.g. ReShade) may cause issues"
+    ],
+    "notes": "Code is stated to be 100% LLM-generated; tested on Quest 3 via Virtual Desktop (VDXR) on Windows 10.",
+    "images": [
+      {
+        "game": "TrackMania Nations Forever",
+        "file": "images/trackmania-forever-openxr/trackmania-nations-forever.png",
+        "credit": "TrackMania Nations Forever grid by Lone3cho (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/644056"
+      },
+      {
+        "game": "TrackMania United Forever",
+        "file": "images/trackmania-forever-openxr/trackmania-united-forever.png",
+        "credit": "TrackMania United Forever grid by TheEvilDoctorCube (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/6325"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Best FREE VR Experience on Steam - Trackmania Nations Forever VR Mod - Gameplay & Commentary",
+        "channel": "FastLawyer",
+        "url": "https://www.youtube.com/watch?v=W-HBLOO175s"
+      },
+      {
+        "title": "TrackMania Nations Forever VR Performance / New VR mod / Meta Quest 3 + RTX 4080 Super",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=8ebOF8J0PpM"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/jiink/TrackManiaForeverOpenXR",
+    "last_checked": "2026-11-10"
   },
   {
     "slug": "trails-of-cold-steel-vr",

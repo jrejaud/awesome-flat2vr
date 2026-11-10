@@ -1,0 +1,35 @@
+name: THEwill Fallout 3 VR
+games:
+  - Fallout 3
+category: mod
+authors:
+  - name: THEwill2002
+    url: https://github.com/THEwill2002
+platform: pcvr
+controls: 6dof
+status: abandoned
+version: "v0.1.0-alpha.6-rc.25"
+version_date: "2026-11-09"
+download_url: https://github.com/THEwill2002/Fallout3VR/releases/latest
+source_url: https://github.com/THEwill2002/Fallout3VR
+license: MIT
+required_files: Legally acquired Fallout 3 Steam installation with the 1.7.0.4 executable (SHA256 c3f97c2255fa041a851c17cf372d69aaadd8694e2dc4230ba556001bbfbd2f3e)
+known_bugs:
+  - Pistol assembly alignment, Pip-Boy lighting/depth and stuck firing/movement safeguard corrections still need broader playtesting
+  - UHD profile is more demanding than the default HD
+notes: Final official release; development ended and source released under MIT, with no further updates promised.
+images:
+  - game: Fallout 3
+    file: images/thewill-fallout-3-vr/fallout-3.png
+    credit: Fallout 3 grid by mfrh89 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/435891
+reviews:
+  - title: Putting Fallout 3 in VR taught me its time to grow up
+    channel: habie147
+    url: https://www.youtube.com/watch?v=rBxHre8A9Oc
+  - title: Fallout 3 & New Vegas VR Is Absolutely Incredible
+    channel: Gamertag VR
+    url: https://www.youtube.com/watch?v=QQMEPLt-h3Y
+added_by: bot
+discovered_via: https://github.com/THEwill2002/Fallout3VR
+last_checked: "2026-11-10"

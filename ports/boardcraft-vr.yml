@@ -1,0 +1,28 @@
+name: Boardcraft-VR
+games:
+  - "Minecraft: Java Edition"
+category: mod
+authors:
+  - name: Jaisprint
+    url: https://github.com/Jaisprint
+platform: standalone
+controls: 3dof
+status: alpha
+version: "v0.1.0-alpha"
+version_date: "2026-11-09"
+download_url: https://github.com/Jaisprint/Boardcraft-VR/releases/latest
+source_url: https://github.com/Jaisprint/Boardcraft-VR
+license: GPL-3.0
+required_files: Minecraft Java Edition 26.3 with Fabric, Fabric API, Sodium, StereoCraft mod, Minecraft Cardboard VR app, and a mobile Java launcher (e.g. Cubiq Launcher)
+known_bugs:
+  - Game will crash if the Cardboard VR Config and Gyroscope Sender app is not started before launching
+notes: Runs on phones in Google Cardboard viewers with head tracking only; 6DoF controllers and hand interaction are planned.
+images:
+  - game: "Minecraft: Java Edition"
+    file: images/boardcraft-vr/minecraft-java-edition.png
+    credit: "Minecraft: Java Edition grid by CheatFreak (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/65746
+reviews: []
+added_by: bot
+discovered_via: https://github.com/Jaisprint/Boardcraft-VR
+last_checked: "2026-11-10"

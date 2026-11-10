@@ -1,0 +1,37 @@
+name: Final Fantasy XIII Trilogy VR
+games:
+  - Final Fantasy XIII
+  - Final Fantasy XIII-2
+  - "Lightning Returns: Final Fantasy XIII"
+category: mod
+authors:
+  - name: mark-mon
+    url: https://github.com/mark-mon
+platform: pcvr
+controls: gamepad
+status: stable
+version: "v1.2"
+version_date: "2026-11-09"
+download_url: https://github.com/mark-mon/final_fantasy_13_parts_1_2_3/releases/latest
+source_url: https://github.com/mark-mon/final_fantasy_13_parts_1_2_3
+license: GPL-3.0
+required_files: "Steam versions of Final Fantasy XIII, Final Fantasy XIII-2 and/or Lightning Returns: Final Fantasy XIII"
+known_bugs: []
+notes: Third-person gamepad play in stereo with head tracking; requires SteamVR as the OpenXR runtime.
+images:
+  - game: Final Fantasy XIII
+    file: images/final-fantasy-xiii-trilogy-vr/final-fantasy-xiii.png
+    credit: Final Fantasy XIII grid by Metagawa (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/3965
+  - game: Final Fantasy XIII-2
+    file: images/final-fantasy-xiii-trilogy-vr/final-fantasy-xiii-2.png
+    credit: Final Fantasy XIII-2 grid by Theoran (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/758109
+  - game: "Lightning Returns: Final Fantasy XIII"
+    file: images/final-fantasy-xiii-trilogy-vr/lightning-returns-final-fantasy-xiii.png
+    credit: "Lightning Returns: Final Fantasy XIII grid by Theoran (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/758111
+reviews: []
+added_by: bot
+discovered_via: https://github.com/mark-mon/final_fantasy_13_parts_1_2_3
+last_checked: "2026-11-10"

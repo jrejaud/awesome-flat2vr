@@ -1,0 +1,27 @@
+name: Lou's Lagoon VR
+games:
+  - Lou's Lagoon
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "LousLagoonVR"
+version_date: "2026-11-10"
+download_url: https://github.com/King-EJ/Lou-s-Lagoon-VR/releases/latest
+source_url: https://github.com/King-EJ/Lou-s-Lagoon-VR
+license: unknown
+required_files: Lou's Lagoon PC game install
+known_bugs: []
+notes: WIP; VR controllers act as an Xbox gamepad; only tested with Virtual Desktop XR; uses Astien's OpenXR bridge.
+images:
+  - game: Lou's Lagoon
+    file: images/lous-lagoon-vr/lou-s-lagoon.jpg
+    credit: Lou's Lagoon store art
+    source_url: https://store.steampowered.com/app/2100020/
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/Lou-s-Lagoon-VR
+last_checked: "2026-11-10"

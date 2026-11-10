@@ -1,0 +1,35 @@
+name: GT3 Revisited
+games:
+  - Gran Turismo 3 A-Spec
+category: source-port
+authors:
+  - name: matt-pulsipher
+    url: https://github.com/matt-pulsipher
+platform: both
+headsets:
+  - Quest
+controls: mixed
+status: beta
+version: "v0.6.4"
+version_date: "2026-11-09"
+download_url: https://github.com/matt-pulsipher/GT3-revisited/releases/latest
+source_url: https://github.com/matt-pulsipher/GT3-revisited
+license: MIT
+required_files: Disc image (.iso or .chd) made from your own copy of Gran Turismo 3 A-Spec
+known_bugs: []
+notes: Engine reimplementation for many platforms; VR gives a driver's-seat stereo view with Touch controllers on Quest, plus a Windows PC VR build (Quest Link, SteamVR).
+images:
+  - game: Gran Turismo 3 A-Spec
+    file: images/gt3-revisited/gran-turismo-3-a-spec.png
+    credit: "Gran Turismo 3: A-Spec grid by satencott (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/252478
+reviews:
+  - title: Gran Turismo 3 A-Spec VR Performance / New Meta Quest Standalone VR Mod / Meta Quest 3
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=UQzIiN9SwvE
+  - title: Gran Turismo 3 running natively on PC, Mac, Linux and Android | GT3 Revisited
+    channel: Matthew Pulsipher
+    url: https://www.youtube.com/watch?v=51AEQxkkumg
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-10"

@@ -1,0 +1,34 @@
+name: Dishonored 2 VR
+games:
+  - Dishonored 2
+category: mod
+authors:
+  - name: Hollownett
+    url: https://github.com/Hollownett
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v1123.1"
+version_date: "2026-11-09"
+download_url: https://github.com/Hollownett/dishonored2-vr/releases/latest
+source_url: https://github.com/Hollownett/dishonored2-vr
+license: unknown
+required_files: Steam copy of Dishonored 2
+known_bugs:
+  - On some newer systems the game's original amd_ags_x64.dll closes the game at start; replace it with amd-ags-stub v1.1 or run Dishonored2.exe as administrator.
+notes: Native OpenXR mod with stereo 3D, tracked hands and motion combat, installed via a launcher next to the Steam game.
+images:
+  - game: Dishonored 2
+    file: images/dishonored-2-vr/dishonored-2.png
+    credit: Dishonored 2 grid by MassiveGoods (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/460040
+reviews:
+  - title: Dishonored 2 VR Performance / New VR Mod with 6DOF Motion Controls / Meta Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=29cmGRrJEmU
+  - title: I got DISHONORED 2 POWERS working in VR
+    channel: Cosmic Tangerine
+    url: https://www.youtube.com/watch?v=SIVYcIaLrgU
+added_by: bot
+discovered_via: https://github.com/Hollownett/dishonored2-vr
+last_checked: "2026-11-10"

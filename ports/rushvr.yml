@@ -10,8 +10,8 @@ headsets:
   - Quest 3
 controls: 6dof
 status: alpha
-version: "v0.5.5"
-version_date: "2026-11-07"
+version: "v0.5.6"
+version_date: "2026-11-10"
 download_url: https://github.com/RandomName729/RushofPCVR/releases/latest
 source_url: https://github.com/RandomName729/RushofPCVR
 homepage: https://www.patreon.com/cw/RandomName729
@@ -38,4 +38,4 @@ reviews:
     url: https://www.youtube.com/watch?v=LfRveptj3d8
 added_by: bot
 discovered_via: https://github.com/RandomName729/RushofPCVR
-last_checked: "2026-11-07"
+last_checked: "2026-11-10"

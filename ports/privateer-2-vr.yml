@@ -1,0 +1,29 @@
+name: Privateer 2 VR
+games:
+  - "Privateer 2: The Darkening"
+category: mod
+authors:
+  - name: SPD13
+    url: https://github.com/SPD13
+platform: pcvr
+headsets:
+  - Steam Frame
+controls: 6dof
+status: alpha
+version: "v0.1.2"
+version_date: "2026-11-10"
+download_url: https://github.com/SPD13/privateer2-vr/releases/latest
+source_url: https://github.com/SPD13/privateer2-vr
+license: unknown
+required_files: "Privateer 2: The Darkening 30th Anniversary Edition on Steam"
+known_bugs: []
+notes: BRender injector with OpenXR/SteamVR; stereo 3D space flight with HUD panels, menus and FMV on a virtual screen.
+images:
+  - game: "Privateer 2: The Darkening"
+    file: images/privateer-2-vr/privateer-2-the-darkening.jpg
+    credit: "Privateer 2: The Darkening grid by Luckspeare (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/501964
+reviews: []
+added_by: bot
+discovered_via: https://github.com/SPD13/privateer2-vr
+last_checked: "2026-11-10"

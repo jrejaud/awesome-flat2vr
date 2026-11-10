@@ -1,0 +1,42 @@
+name: TrackMania Forever OpenXR
+games:
+  - TrackMania Nations Forever
+  - TrackMania United Forever
+category: mod
+authors:
+  - name: jiink
+    url: https://github.com/jiink
+platform: pcvr
+headsets:
+  - Quest 3
+controls: gamepad
+status: stable
+version: "v8"
+version_date: "2026-09-07"
+download_url: https://github.com/jiink/TrackManiaForeverOpenXR/releases/latest
+source_url: https://github.com/jiink/TrackManiaForeverOpenXR
+license: MIT
+required_files: TrackMania Nations Forever or TrackMania United Forever installed (Steam)
+known_bugs:
+  - As of v8, the mod crashes with Meta Horizon Link; use Steam Link or Virtual Desktop instead
+  - Requires fullscreen and anti-aliasing disabled in game options; OpenXR layers without 32-bit support (e.g. ReShade) may cause issues
+notes: Code is stated to be 100% LLM-generated; tested on Quest 3 via Virtual Desktop (VDXR) on Windows 10.
+images:
+  - game: TrackMania Nations Forever
+    file: images/trackmania-forever-openxr/trackmania-nations-forever.png
+    credit: TrackMania Nations Forever grid by Lone3cho (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/644056
+  - game: TrackMania United Forever
+    file: images/trackmania-forever-openxr/trackmania-united-forever.png
+    credit: TrackMania United Forever grid by TheEvilDoctorCube (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/6325
+reviews:
+  - title: Best FREE VR Experience on Steam - Trackmania Nations Forever VR Mod - Gameplay & Commentary
+    channel: FastLawyer
+    url: https://www.youtube.com/watch?v=W-HBLOO175s
+  - title: TrackMania Nations Forever VR Performance / New VR mod / Meta Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=8ebOF8J0PpM
+added_by: bot
+discovered_via: https://github.com/jiink/TrackManiaForeverOpenXR
+last_checked: "2026-11-10"
