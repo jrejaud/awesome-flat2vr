@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: beta
-version: "v1123.1"
-version_date: "2026-11-09"
+version: "v1132"
+version_date: "2026-11-10"
 download_url: https://github.com/Hollownett/dishonored2-vr/releases/latest
 source_url: https://github.com/Hollownett/dishonored2-vr
 license: unknown
@@ -31,4 +31,4 @@ reviews:
     url: https://www.youtube.com/watch?v=SIVYcIaLrgU
 added_by: bot
 discovered_via: https://github.com/Hollownett/dishonored2-vr
-last_checked: "2026-11-10"
+last_checked: "2026-11-11"

@@ -1,0 +1,36 @@
+name: D2R VR Unleashed
+games:
+  - "Diablo II: Resurrected"
+category: mod
+authors:
+  - name: bearstonem
+    url: https://github.com/bearstonem
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "v0.3.32-windows-preview"
+version_date: "2026-11-07"
+download_url: https://github.com/bearstonem/d2r-pcvr/releases/latest
+source_url: https://github.com/bearstonem/d2r-pcvr
+license: MPL-2.0
+required_files: "Own legitimate copy of Diablo II: Resurrected (Steam or Battle.net)"
+known_bugs:
+  - Battle.net with Virtual Desktop / VDXR has not yet been confirmed
+notes: Formerly D2R PCVR; builds on BodyWalkVR's D2R VR and adds motion casting and melee/bow combat, with SteamVR and Virtual Desktop (VDXR) support.
+images:
+  - game: "Diablo II: Resurrected"
+    file: images/d2r-vr-unleashed/diablo-ii-resurrected.png
+    credit: "Diablo II: Resurrected grid by D1Vad (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/155484
+reviews:
+  - title: "Diablo II: Resurrected in VR - Unleashed Combat, Better Crossbows & More! | D2R PCVR v0.3.16"
+    channel: Monkeylashes
+    url: https://www.youtube.com/watch?v=EBL7lzd4s-M
+  - title: "Playing Diablo II: Resurrected in VR on our VR Treadmill!"
+    channel: Virtuix Omni
+    url: https://www.youtube.com/watch?v=8-6nk1sE08s
+added_by: bot
+discovered_via: https://www.youtube.com/watch?v=FB6BaG7OzqY
+last_checked: "2026-11-11"

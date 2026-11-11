@@ -1,0 +1,38 @@
+name: GB-VR
+games:
+  - "Ghostbusters: The Video Game Remastered"
+category: mod
+authors:
+  - name: Gamertag VR
+    url: https://www.youtube.com/watch?v=jRXQdiEC1xc
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "unversioned"
+version_date: "2026-11-10"
+download_url: https://www.nexusmods.com/ghostbustersthevideogameremastered/mods/101
+source_url: https://www.nexusmods.com/ghostbustersthevideogameremastered/mods/101
+license: unknown
+required_files: "PC version of Ghostbusters: The Video Game (Remastered)"
+known_bugs:
+  - Some gesture controls need improvement
+  - Head movement can feel strange without smoothing
+  - Cutscenes still play on a virtual screen
+notes: First-person conversion with motion controls, proton wand, ghost traps, PKE meter and Para-Goggles; tested on Quest 3 via SteamVR.
+images:
+  - game: "Ghostbusters: The Video Game Remastered"
+    file: images/gb-vr/ghostbusters-the-video-game-remastered.png
+    credit: "Ghostbusters: The Video Game Remastered grid by Marok (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/72861
+reviews:
+  - title: "Ghostbusters: The Video Game Remastered VR Performance / New VR Mod with 6DOF Motion Controls / PCVR"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=LsiLSH-WVNQ
+  - title: Ghostbusters The Video Game Remastered In VR with the Steam Frame
+    channel: Clueless Dad Gamer
+    url: https://www.youtube.com/watch?v=eKad28HV000
+added_by: bot
+discovered_via: https://www.youtube.com/watch?v=jRXQdiEC1xc
+last_checked: "2026-11-11"

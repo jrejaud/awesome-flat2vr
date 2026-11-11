@@ -1,0 +1,29 @@
+name: GTA San Andreas Diorama MR
+games:
+  - "Grand Theft Auto: San Andreas"
+category: mod
+authors:
+  - name: Galatea Interactive
+    url: https://github.com/galateainteractive
+platform: standalone
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "gta-installer-v1.3.8"
+version_date: "2026-11-05"
+download_url: https://github.com/galateainteractive/gta-sa-diorama-mr-quest/releases/latest
+source_url: https://github.com/galateainteractive/gta-sa-diorama-mr-quest
+license: unknown
+required_files: Own copy of GTA San Andreas (Android APK and game data); not included. Build and install via the provided personal builder.
+known_bugs: []
+notes: Mixed-reality room-scale diorama with passthrough, based on the open-source GTA San Andreas VR Quest port 0.1.3 alpha.
+images:
+  - game: "Grand Theft Auto: San Andreas"
+    file: images/gta-san-andreas-diorama-mr/grand-theft-auto-san-andreas.png
+    credit: "Grand Theft Auto: San Andreas grid by 7Works (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/420221
+reviews: []
+added_by: bot
+discovered_via: https://github.com/galateainteractive/gta-sa-diorama-mr-quest
+last_checked: "2026-11-11"

@@ -1,0 +1,35 @@
+name: Blue Estate VR
+games:
+  - Blue Estate
+category: mod
+authors:
+  - name: i3dman420311
+    url: https://github.com/i3dman420311
+platform: pcvr
+headsets:
+  - Meta Quest (Link/Air Link)
+controls: mixed
+status: alpha
+version: "v0.1.0"
+version_date: "2026-11-11"
+download_url: https://github.com/i3dman420311/blue-estate-vr/releases/latest
+source_url: https://github.com/i3dman420311/blue-estate-vr
+license: unknown
+required_files: Steam copy of Blue Estate (64-bit DirectX 9 executable, Steam build 637056)
+known_bugs: []
+notes: Adds stereoscopic rendering, headset tracking and right Touch controller aiming; the game remains on-rails and must be built from source with the provided scripts.
+images:
+  - game: Blue Estate
+    file: images/blue-estate-vr/blue-estate.jpg
+    credit: Blue Estate grid by Chaotic Viral (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/404685
+reviews:
+  - title: VRLF - Virtual Reality Lightgun Framework - Playing Blue Estate in a Virtual Lightgun Arcade Cabinet
+    channel: FastLawyer
+    url: https://www.youtube.com/watch?v=o1Kk70cNn6E
+  - title: VR Lightgun Framework - Blue Estate
+    channel: VRLF - Virtual Reality Lightgun Framework
+    url: https://www.youtube.com/watch?v=IOgsqf24-gg
+added_by: bot
+discovered_via: https://github.com/i3dman420311/blue-estate-vr
+last_checked: "2026-11-11"

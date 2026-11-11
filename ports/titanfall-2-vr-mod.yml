@@ -1,0 +1,33 @@
+name: Titanfall 2 VR Mod
+games:
+  - Titanfall 2
+category: mod
+authors:
+  - name: CircuitLord
+    url: https://www.patreon.com/CircuitLord
+platform: pcvr
+controls: 6dof
+status: beta
+version: "unversioned"
+version_date: "2026-11-04"
+download_url: https://www.patreon.com/CircuitLord
+source_url: https://www.youtube.com/watch?v=N5JBhnropZY
+license: unknown
+required_files: Titanfall 2 installed on PC (Steam)
+known_bugs: []
+notes: Free mod; showcased in a YouTube gameplay video running on Quest 3 via Virtual Desktop.
+images:
+  - game: Titanfall 2
+    file: images/titanfall-2-vr-mod/titanfall-2.png
+    credit: Titanfall 2 grid by apfelspeier (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/711753
+reviews:
+  - title: Titanfall 2 VR - The Best VR Game of 2026
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=j1SJ1bysKi4
+  - title: Titanfall 2 Is the Greatest VR Mod Ever Made
+    channel: Gamertag VR
+    url: https://www.youtube.com/watch?v=bxHCQqooi2U
+added_by: bot
+discovered_via: https://www.youtube.com/watch?v=N5JBhnropZY
+last_checked: "2026-11-11"

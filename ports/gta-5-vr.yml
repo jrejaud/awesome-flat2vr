@@ -1,0 +1,35 @@
+name: GTA 5 VR
+games:
+  - Grand Theft Auto V
+category: mod
+authors:
+  - name: enricosampaio533-source
+    url: https://github.com/enricosampaio533-source
+platform: pcvr
+headsets:
+  - Meta Quest
+controls: 6dof
+status: alpha
+version: "GTA5VRMOD"
+version_date: "2026-11-10"
+download_url: https://github.com/enricosampaio533-source/GTA-5-VR-MOD/releases/latest
+source_url: https://github.com/enricosampaio533-source/GTA-5-VR-MOD
+license: unknown
+required_files: GTA V Legacy (DirectX 11) for PC, plus Script Hook V and ASI Loader (dinput8.dll)
+known_bugs: []
+notes: Story Mode only; GTA Online and GTA V Enhanced are not supported. Requires SteamVR; tested on Quest via Virtual Desktop.
+images:
+  - game: Grand Theft Auto V
+    file: images/gta-5-vr/grand-theft-auto-v.png
+    credit: Grand Theft Auto V grid by r_dsgnd (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/697152
+reviews:
+  - title: Modded GTA VR Looks Like REAL LIFE! // GTA V VR Natural Vision Remastered
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=U78hfstGW3U
+  - title: GTA 5 VR WITH MOTION CONTROLS! // GTA VR Mod Gameplay
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=T2LoOFt9hiY
+added_by: bot
+discovered_via: https://github.com/enricosampaio533-source/GTA-5-VR-MOD
+last_checked: "2026-11-11"

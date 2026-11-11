@@ -1,0 +1,33 @@
+name: VR mod for Zwift
+games:
+  - Zwift
+category: mod
+authors:
+  - name: PeloTom89
+    url: https://github.com/PeloTom89
+platform: pcvr
+headsets:
+  - Quest 3
+  - Quest 2
+  - Pimax Crystal Light
+controls: gamepad
+status: alpha
+version: "v0.7.0"
+version_date: "2026-11-10"
+download_url: https://github.com/PeloTom89/vr-mod-for-zwift/releases/latest
+source_url: https://github.com/PeloTom89/vr-mod-for-zwift
+license: unknown
+required_files: Zwift app for Windows (NVIDIA GPU required) and an OpenXR runtime such as Meta Horizon Link or Pimax Play
+known_bugs:
+  - 120 Hz caused artifacting on a laptop
+  - A Zwift update can stop the mod working until it is updated
+notes: Menus on a virtual screen; during rides you are in the world with info panels floating around the handlebars.
+images:
+  - game: Zwift
+    file: images/vr-mod-for-zwift/zwift.jpg
+    credit: Zwift grid by Goreksh (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/519773
+reviews: []
+added_by: bot
+discovered_via: https://github.com/PeloTom89/vr-mod-for-zwift
+last_checked: "2026-11-11"

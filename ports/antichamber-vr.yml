@@ -1,0 +1,35 @@
+name: Antichamber VR
+games:
+  - Antichamber
+category: mod
+authors:
+  - name: hernanrodeblas-tech
+    url: https://github.com/hernanrodeblas-tech
+platform: pcvr
+headsets:
+  - Steam Frame
+controls: 6dof
+status: stable
+version: "v1.0.0"
+version_date: "2026-11-10"
+download_url: https://github.com/hernanrodeblas-tech/antichamber-vr/releases/latest
+source_url: https://github.com/hernanrodeblas-tech/antichamber-vr
+license: MIT
+required_files: Antichamber on Steam (Windows), SteamVR, and the .NET 8 Desktop Runtime (x64) for the launcher
+known_bugs: []
+notes: Works through SteamVR (OpenVR) via a d3d9.dll loaded next to the game executable, with a settings launcher.
+images:
+  - game: Antichamber
+    file: images/antichamber-vr/antichamber.png
+    credit: Antichamber grid by QuiGonJinnah (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/26734
+reviews:
+  - title: Antichamber VR Gameplay
+    channel: Kyle D
+    url: https://www.youtube.com/watch?v=S0qMiPxVLVI
+  - title: 3D VR video Antichamber 3D SBS VR box google cardboard
+    channel: 3D VR TV PC Games Videos
+    url: https://www.youtube.com/watch?v=VT68kDqeh_Y
+added_by: bot
+discovered_via: https://github.com/hernanrodeblas-tech/antichamber-vr
+last_checked: "2026-11-11"

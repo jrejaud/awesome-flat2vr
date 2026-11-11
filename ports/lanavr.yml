@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: gamepad
 status: stable
-version: "v1.15.0"
-version_date: "2026-11-09"
+version: "v1.15.1"
+version_date: "2026-11-10"
 download_url: https://github.com/FlukeRogi/LanaVR/releases/latest
 source_url: https://github.com/FlukeRogi/LanaVR
 license: unknown
@@ -30,4 +30,4 @@ reviews:
     url: https://www.youtube.com/watch?v=oNoQ32WLk88
 added_by: bot
 discovered_via: https://discord.gg/flat2vr
-last_checked: "2026-11-10"
+last_checked: "2026-11-11"

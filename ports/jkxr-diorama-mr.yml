@@ -1,0 +1,29 @@
+name: JKXR Diorama MR
+games:
+  - "Star Wars Jedi Knight: Jedi Academy"
+category: source-port
+authors:
+  - name: galateainteractive
+    url: https://github.com/galateainteractive
+platform: standalone
+headsets:
+  - Meta Quest
+controls: 6dof
+status: alpha
+version: "v0.1.0-alpha.3"
+version_date: "2026-11-09"
+download_url: https://github.com/galateainteractive/JKXR-Diorama-MR/releases/latest
+source_url: https://github.com/galateainteractive/JKXR-Diorama-MR
+license: GPL-2.0
+required_files: Original Jedi Academy PC game data (legally obtained copy)
+known_bugs: []
+notes: Presents the game as a room-scale passthrough miniature; also retains the immersive JKXR VR mode.
+images:
+  - game: "Star Wars Jedi Knight: Jedi Academy"
+    file: images/jkxr-diorama-mr/star-wars-jedi-knight-jedi-academy.png
+    credit: "Star Wars: Jedi Knight - Jedi Academy grid by Kynd (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/228911
+reviews: []
+added_by: bot
+discovered_via: https://github.com/galateainteractive/JKXR-Diorama-MR
+last_checked: "2026-11-11"

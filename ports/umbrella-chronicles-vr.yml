@@ -1,0 +1,35 @@
+name: Umbrella Chronicles VR
+games:
+  - "Resident Evil: The Umbrella Chronicles"
+category: source-port
+authors:
+  - name: lialan
+    url: https://github.com/lialan
+platform: standalone
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "quest-v0.1.5"
+version_date: "2026-11-10"
+download_url: https://github.com/lialan/reuc-vr/releases/latest
+source_url: https://github.com/lialan/reuc-vr
+license: GPL-3.0
+required_files: Own NTSC-U (RBUE08) Wii disc image (.wbfs or .iso) plus the Wii common key as a 16-byte common-key.bin
+known_bugs: []
+notes: Fork of solleo95/reuc-recomp; the APK contains no game files and also supports macOS Vulkan.
+images:
+  - game: "Resident Evil: The Umbrella Chronicles"
+    file: images/umbrella-chronicles-vr/resident-evil-the-umbrella-chronicles.png
+    credit: "Resident Evil: The Umbrella Chronicles grid by wulfbraker (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/109831
+reviews:
+  - title: Resident Evil Umbrella Chronicles VR
+    channel: VRified Games
+    url: https://www.youtube.com/watch?v=ftHjbI749LU
+  - title: "Resident Evil: The Umbrella Chronicles VR"
+    channel: SuperGamer Shin
+    url: https://www.youtube.com/watch?v=fx_v9ANIliY
+added_by: bot
+discovered_via: https://github.com/lialan/reuc-vr
+last_checked: "2026-11-11"

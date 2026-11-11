@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: gamepad
 status: alpha
-version: "v0.0.89"
-version_date: "2026-11-08"
+version: "v0.0.90"
+version_date: "2026-11-10"
 download_url: https://github.com/Hoshi82/TheCoinGameVR/releases/latest
 source_url: https://github.com/Hoshi82/TheCoinGameVR
 license: MIT
@@ -28,4 +28,4 @@ reviews:
     url: https://www.youtube.com/watch?v=yjf4u6SqlEw
 added_by: bot
 discovered_via: https://github.com/Hoshi82/TheCoinGameVR
-last_checked: "2026-11-09"
+last_checked: "2026-11-11"

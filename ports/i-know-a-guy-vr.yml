@@ -1,0 +1,27 @@
+name: I Know a Guy VR
+games:
+  - "I Know a Guy: Shady Life Simulator"
+category: mod
+authors:
+  - name: D-Rey86
+    url: https://github.com/D-Rey86
+platform: pcvr
+controls: 6dof
+status: stable
+version: "v1.0.1"
+version_date: "2026-11-11"
+download_url: https://github.com/D-Rey86/IKnowAGuyVR/releases/latest
+source_url: https://github.com/D-Rey86/IKnowAGuyVR
+license: MIT
+required_files: "I Know a Guy: Shady Life Simulator on Steam (build 25861408)"
+known_bugs: []
+notes: Includes OpenXR stereo, motion controls, wrist dashboard, and multiplayer pose replication; a flatscreen Companion package is also available.
+images:
+  - game: "I Know a Guy: Shady Life Simulator"
+    file: images/i-know-a-guy-vr/i-know-a-guy-shady-life-simulator.jpg
+    credit: "I Know a Guy: Shady Life Simulator store art"
+    source_url: https://store.steampowered.com/app/4173620/
+reviews: []
+added_by: bot
+discovered_via: https://github.com/D-Rey86/IKnowAGuyVR
+last_checked: "2026-11-11"

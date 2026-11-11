@@ -11,8 +11,8 @@ headsets:
   - Quest 3S
 controls: 6dof
 status: beta
-version: "vr-v0.4.2"
-version_date: "2026-11-08"
+version: "vr-v0.5.0"
+version_date: "2026-11-10"
 download_url: https://github.com/cmpayc/ArxLibertatisVR/releases/latest
 source_url: https://github.com/cmpayc/ArxLibertatisVR
 homepage: https://questports.vercel.app/ports/arx-libertatis-vr
@@ -35,4 +35,4 @@ reviews:
     url: https://www.youtube.com/watch?v=BIfWNSKTJmE
 added_by: bot
 discovered_via: https://questports.vercel.app/ports/arx-libertatis-vr
-last_checked: "2026-11-09"
+last_checked: "2026-11-11"

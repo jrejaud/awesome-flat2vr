@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: beta
-version: "v0.1-beta8"
-version_date: "2026-11-08"
+version: "v0.1-beta9"
+version_date: "2026-11-10"
 download_url: https://github.com/lesan0622/MWR-VR/releases/latest
 source_url: https://github.com/lesan0622/MWR-VR
 license: GPL-3.0
@@ -33,4 +33,4 @@ reviews:
     url: https://www.youtube.com/watch?v=VQxmwCGtvDQ
 added_by: bot
 discovered_via: https://discord.gg/flat2vr
-last_checked: "2026-11-09"
+last_checked: "2026-11-11"

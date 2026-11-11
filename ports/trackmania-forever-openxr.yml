@@ -11,8 +11,8 @@ headsets:
   - Quest 3
 controls: gamepad
 status: stable
-version: "v8"
-version_date: "2026-09-07"
+version: "v9"
+version_date: "2026-11-10"
 download_url: https://github.com/jiink/TrackManiaForeverOpenXR/releases/latest
 source_url: https://github.com/jiink/TrackManiaForeverOpenXR
 license: MIT
@@ -39,4 +39,4 @@ reviews:
     url: https://www.youtube.com/watch?v=8ebOF8J0PpM
 added_by: bot
 discovered_via: https://github.com/jiink/TrackManiaForeverOpenXR
-last_checked: "2026-11-10"
+last_checked: "2026-11-11"
