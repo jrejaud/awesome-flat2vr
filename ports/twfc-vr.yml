@@ -10,8 +10,8 @@ headsets:
   - Quest 3
 controls: 6dof
 status: stable
-version: "v1.0.2"
-version_date: "2026-11-05"
+version: "v1.0.3"
+version_date: "2026-11-11"
 download_url: https://github.com/liper76/TWFC-VR/releases/latest
 source_url: https://github.com/liper76/TWFC-VR
 license: unknown
@@ -33,4 +33,4 @@ reviews:
     url: https://www.youtube.com/watch?v=JXn7qJQRRqI
 added_by: bot
 discovered_via: https://github.com/liper76/TWFC-VR
-last_checked: "2026-11-06"
+last_checked: "2026-11-12"

@@ -1,0 +1,62 @@
+name: HL2Quest
+games:
+  - Half-Life 2
+  - "Half-Life 2: Episode One"
+  - "Half-Life 2: Episode Two"
+  - "Half-Life 2: Lost Coast"
+  - Portal
+  - Portal 2
+category: source-port
+authors:
+  - name: Anton Regolytov
+    url: https://github.com/alferiko
+platform: standalone
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: 6dof
+status: stable
+version: "1.02"
+version_date: "2026-11-11"
+download_url: https://github.com/alferiko/half-life-2-stanalone-quest-releases/releases/latest
+source_url: https://github.com/alferiko/half-life-2-stanalone-quest-releases
+homepage: https://sidequestvr.com/app/64057
+license: unknown
+required_files: Owned Steam copies of the games to be played; downloaded in-headset through the launcher's Steam sign-in.
+known_bugs: []
+notes: Single APK with tracked-controller support, Vulkan and OpenGL renderers, and in-headset Steam downloads.
+images:
+  - game: Half-Life 2
+    file: images/hl2quest/half-life-2.jpg
+    credit: Half-Life 2 grid by FakeLebowski (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/366562
+  - game: "Half-Life 2: Episode One"
+    file: images/hl2quest/half-life-2-episode-one.png
+    credit: "Half-Life 2: Episode One grid by Maxine (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/185897
+  - game: "Half-Life 2: Episode Two"
+    file: images/hl2quest/half-life-2-episode-two.png
+    credit: "Half-Life 2: Episode Two grid by traintrash (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/744208
+  - game: "Half-Life 2: Lost Coast"
+    file: images/hl2quest/half-life-2-lost-coast.png
+    credit: "Half-Life 2: Lost Coast grid by QuiGonJinnah (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/28591
+  - game: Portal
+    file: images/hl2quest/portal.png
+    credit: Portal grid by Madeline Hashcube (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/577308
+  - game: Portal 2
+    file: images/hl2quest/portal-2.png
+    credit: Portal 2 grid by Naymarak (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/368548
+reviews:
+  - title: Half-Life 2 VR Is Now on Quest!
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=YEb2Kw3UtU4
+  - title: How to Install Half-Life 2 VR on Quest 2/Quest 3 (Standalone)
+    channel: LunchAndVR
+    url: https://www.youtube.com/watch?v=QzgDw8xEpeM
+added_by: bot
+discovered_via: https://sidequestvr.com/app/64057
+last_checked: "2026-11-12"

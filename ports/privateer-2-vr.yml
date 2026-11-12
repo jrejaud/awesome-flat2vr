@@ -10,8 +10,8 @@ headsets:
   - Steam Frame
 controls: 6dof
 status: alpha
-version: "v0.1.3"
-version_date: "2026-11-11"
+version: "v0.1.4"
+version_date: "2026-11-12"
 download_url: https://github.com/SPD13/privateer2-vr/releases/latest
 source_url: https://github.com/SPD13/privateer2-vr
 license: unknown
@@ -26,4 +26,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/SPD13/privateer2-vr
-last_checked: "2026-11-11"
+last_checked: "2026-11-12"

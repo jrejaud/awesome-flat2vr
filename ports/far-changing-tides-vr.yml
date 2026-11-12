@@ -1,0 +1,29 @@
+name: FAR Changing Tides VR
+games:
+  - "FAR: Changing Tides"
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "FARChangingTidesVR"
+version_date: "2026-11-12"
+download_url: https://github.com/King-EJ/FAR-Changing-Tides-VR/releases/latest
+source_url: https://github.com/King-EJ/FAR-Changing-Tides-VR
+license: unknown
+required_files: "FAR: Changing Tides PC game install"
+known_bugs:
+  - WIP, not finished
+  - Only tested with Virtual Desktop XR
+notes: Third-person diorama view or first-person view; VR controllers act as an Xbox gamepad; uses Astien's OpenXR bridge.
+images:
+  - game: "FAR: Changing Tides"
+    file: images/far-changing-tides-vr/far-changing-tides.jpg
+    credit: "FAR: Changing Tides grid by Bohun (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/327594
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/FAR-Changing-Tides-VR
+last_checked: "2026-11-12"

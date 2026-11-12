@@ -1,0 +1,41 @@
+name: VR-WakerHD
+games:
+  - "The Legend of Zelda: The Wind Waker HD"
+category: source-port
+authors:
+  - name: VR-WakerHD
+    url: https://github.com/VR-WakerHD
+platform: both
+headsets:
+  - Meta Quest 3
+  - Meta Quest 3S
+  - Steam Frame
+  - PS VR2
+controls: 6dof
+status: alpha
+version: "v0.5.0"
+version_date: "2026-11-11"
+download_url: https://github.com/VR-WakerHD/VR-WakerHD/releases/latest
+source_url: https://github.com/VR-WakerHD/VR-WakerHD
+license: MPL-2.0
+required_files: Your own legally obtained copy of the Wii U game (USA version tested)
+known_bugs:
+  - Linux VR code has not been compiled or run per README
+  - Windows build coming soon, not yet in the release
+  - About 55-60 fps on a 90 Hz headset in busy scenes
+notes: Adds an OpenXR VR mode with tracked head and hands, a physical sword and wrist HUD to the Wind Waker HD native PC port.
+images:
+  - game: "The Legend of Zelda: The Wind Waker HD"
+    file: images/vr-wakerhd/the-legend-of-zelda-the-wind-waker-hd.png
+    credit: "The Legend of Zelda: The Wind Waker HD grid by Blockamoka (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/868406
+reviews:
+  - title: The Legend of Zelda Wind Waker in VR - Virtual Reality Gameplay - Dolphin VR Gameplay - WILL IT VR?
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=T_8MuUBSS7g
+  - title: "Legend of Zelda: The Wind Waker First Person VR"
+    channel: VRified Games
+    url: https://www.youtube.com/watch?v=49Qja7s0DrI
+added_by: bot
+discovered_via: https://github.com/VR-WakerHD/VR-WakerHD
+last_checked: "2026-11-12"

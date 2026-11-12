@@ -1,0 +1,41 @@
+name: BunkerVR
+games:
+  - "Amnesia: The Bunker"
+category: mod
+authors:
+  - name: EdittheWall
+    url: https://github.com/EdittheWall
+platform: pcvr
+headsets:
+  - Quest 3
+  - Quest 3S
+  - Pico 4
+  - Oculus Rift CV1
+  - PlayStation VR2
+controls: 6dof
+status: beta
+version: "v2.09"
+version_date: "2026-11-12"
+download_url: https://github.com/EdittheWall/BunkerVR/releases/latest
+source_url: https://github.com/EdittheWall/BunkerVR
+homepage: https://www.youtube.com/@EditTheWallll
+license: MIT
+required_files: "Amnesia: The Bunker on Steam (current version)"
+known_bugs:
+  - Early version in active development; bugs and glitches may occur
+notes: Installer-based PC VR port with full arms and hand-operated items; Valve Index is still being tested.
+images:
+  - game: "Amnesia: The Bunker"
+    file: images/bunkervr/amnesia-the-bunker.png
+    credit: "Amnesia: The Bunker grid by ABH20 (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/337010
+reviews:
+  - title: "Amnesia: The Bunker VR Full Game Walkthrough"
+    channel: POiiSED
+    url: https://www.youtube.com/watch?v=WdRdivjd9v4
+  - title: "Amnesia The Bunker — VR Mod Progress Showcase #2"
+    channel: Edit
+    url: https://www.youtube.com/watch?v=HzKUTmolvnA
+added_by: bot
+discovered_via: https://github.com/EdittheWall/BunkerVR
+last_checked: "2026-11-12"

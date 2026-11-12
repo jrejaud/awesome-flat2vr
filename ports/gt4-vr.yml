@@ -1,0 +1,31 @@
+name: GT4 VR
+games:
+  - Gran Turismo 4
+category: source-port
+authors:
+  - name: SgtBilko76
+    url: https://github.com/SgtBilko76
+platform: standalone
+headsets:
+  - Quest 3
+  - Pico
+controls: mixed
+status: beta
+version: "v0.3.0-beta-specii"
+version_date: "2026-11-11"
+download_url: https://github.com/SgtBilko76/gt4-vr/releases/latest
+source_url: https://github.com/SgtBilko76/gt4-vr
+homepage: https://portroyale.online/gt4.html
+license: MIT
+required_files: Disc image (ISO) of your own Gran Turismo 4 (US NTSC Online Public Beta patched with Spec II 1.10 for the Spec II app, or GT4 USA v2.00 for the Online app)
+known_bugs: []
+notes: Built on snuri00/ps2-web-recomp; since 0.3.0 the APKs contain no game code and translate the game from the player's ISO on the headset via an EE interpreter with ARM64 JIT.
+images:
+  - game: Gran Turismo 4
+    file: images/gt4-vr/gran-turismo-4.png
+    credit: Gran Turismo 4 grid by PROblem* (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/28181
+reviews: []
+added_by: bot
+discovered_via: https://github.com/SgtBilko76/gt4-vr
+last_checked: "2026-11-12"

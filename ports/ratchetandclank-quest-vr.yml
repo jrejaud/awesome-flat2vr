@@ -10,8 +10,8 @@ headsets:
   - Meta Quest
 controls: 6dof
 status: alpha
-version: "v0.1.18"
-version_date: "2026-11-10"
+version: "v0.1.23"
+version_date: "2026-11-12"
 download_url: https://github.com/moistman42069/RatchetAndClank-Quest-VR/releases/latest
 source_url: https://github.com/moistman42069/RatchetAndClank-Quest-VR
 license: GPL-3.0
@@ -26,4 +26,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/moistman42069/RatchetAndClank-Quest-VR
-last_checked: "2026-11-11"
+last_checked: "2026-11-12"

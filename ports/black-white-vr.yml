@@ -1,0 +1,33 @@
+name: Black & White VR
+games:
+  - Black & White
+category: mod
+authors:
+  - name: jmanoclay
+    url: https://github.com/jmanoclay
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v0.3.0"
+version_date: "2026-11-08"
+download_url: https://github.com/jmanoclay/BW-VR-Releases/releases/latest
+source_url: https://github.com/jmanoclay/BW-VR-Releases
+license: unknown
+required_files: Black & White (2001) English CD version installed, patched to v1.20 with Fan Patch 1.42 (the installer can apply the patches); SteamVR
+known_bugs: []
+notes: Installer/launcher mod with god-hand controls, gravity gloves and two-handed grabbing; developed on a Valve Index.
+images:
+  - game: Black & White
+    file: images/black-white-vr/black-white.png
+    credit: Black & White grid by Kuhneghetz (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/7853
+reviews:
+  - title: "Black & White: The Best VR Game That Never Was"
+    channel: Buck
+    url: https://www.youtube.com/watch?v=6LNpu24--G8
+  - title: "Play Black & White in VR: Public Alpha Out Now"
+    channel: Buck
+    url: https://www.youtube.com/watch?v=AlUMAS-Iqcc
+added_by: bot
+discovered_via: https://github.com/jmanoclay/BW-VR-Releases
+last_checked: "2026-11-12"

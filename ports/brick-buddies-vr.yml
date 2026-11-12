@@ -1,0 +1,30 @@
+name: Brick Buddies VR
+games:
+  - Brick Buddies
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+headsets:
+  - Quest 3
+controls: mixed
+status: alpha
+version: "BrickBuddiesVR"
+version_date: "2026-11-12"
+download_url: https://github.com/King-EJ/Brick-Buddies-VR/releases/latest
+source_url: https://github.com/King-EJ/Brick-Buddies-VR
+license: unknown
+required_files: Brick Buddies (Unity, Mono x64) PC install
+known_bugs:
+  - WIP, not very smooth but playable
+notes: BepInEx 5 mod using Astien's OpenXR bridge; the right controller laser acts as the mouse.
+images:
+  - game: Brick Buddies
+    file: images/brick-buddies-vr/brick-buddies.jpg
+    credit: Brick Buddies store art
+    source_url: https://store.steampowered.com/app/4901540/
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/Brick-Buddies-VR
+last_checked: "2026-11-12"

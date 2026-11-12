@@ -12,8 +12,8 @@ headsets:
   - Pimax Crystal Light
 controls: gamepad
 status: alpha
-version: "v0.7.0"
-version_date: "2026-11-10"
+version: "v0.8.0"
+version_date: "2026-11-12"
 download_url: https://github.com/PeloTom89/vr-mod-for-zwift/releases/latest
 source_url: https://github.com/PeloTom89/vr-mod-for-zwift
 license: unknown
@@ -30,4 +30,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/PeloTom89/vr-mod-for-zwift
-last_checked: "2026-11-11"
+last_checked: "2026-11-12"

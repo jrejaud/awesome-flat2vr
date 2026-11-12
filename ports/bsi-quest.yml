@@ -1,0 +1,32 @@
+name: BSI-Quest
+games:
+  - BioShock Infinite
+category: source-port
+authors:
+  - name: egomortal
+    url: https://github.com/egomortal
+platform: standalone
+headsets:
+  - Quest 3
+controls: mixed
+status: stable
+version: "b142"
+version_date: "2026-11-10"
+download_url: https://github.com/egomortal/bsi-quest/releases/latest
+source_url: https://github.com/egomortal/bsi-quest
+license: GPL-3.0
+required_files: Own Steam copy of BioShock Infinite (Steam version only; GOG/Epic unsupported), installed on a Windows PC
+known_bugs: []
+notes: Static recompilation (x86 to C to ARM64) running on a custom Win32/D3D11 runtime with DXVK and Turnip; needs about 20-45 GB free on the headset.
+images:
+  - game: BioShock Infinite
+    file: images/bsi-quest/bioshock-infinite.png
+    credit: BioShock Infinite grid by EddieSpaghetti (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/27011
+reviews:
+  - title: BioShock Infinite is Now Playable in VR - 6DOF Controls / Meta Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=tXf4WUCDfKI
+added_by: bot
+discovered_via: https://github.com/egomortal/bsi-quest
+last_checked: "2026-11-12"

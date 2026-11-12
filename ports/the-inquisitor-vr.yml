@@ -1,0 +1,34 @@
+name: The Inquisitor VR
+games:
+  - The Inquisitor
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "TheInquisitorVR"
+version_date: "2026-11-11"
+download_url: https://github.com/King-EJ/The-Inquisitor-VR/releases/latest
+source_url: https://github.com/King-EJ/The-Inquisitor-VR
+license: unknown
+required_files: The Inquisitor (Steam) installed; launch option -force-d3d11
+known_bugs:
+  - WIP, not finished; only tested with Virtual Desktop XR
+notes: Unity IL2CPP BepInEx mod with third/first person view, swing-based attacks, using Astien's OpenXR bridge; test build 0.1.14.
+images:
+  - game: The Inquisitor
+    file: images/the-inquisitor-vr/the-inquisitor.jpg
+    credit: The Inquisitor store art
+    source_url: https://store.steampowered.com/app/1880470/
+reviews:
+  - title: RIDICULOUS INQUISITOR LIGHTSABER COMBO - Blades and Sorcery VR Mods (Star Wars)
+    channel: Fudgy
+    url: https://www.youtube.com/watch?v=Hm0DHJV-kes
+  - title: Blade & Sorcery VR | "Inquisitor Ambush" | Jedi Temple Defense | Outer Rim Mod Gameplay
+    channel: xHaze48
+    url: https://www.youtube.com/watch?v=E5JYCdht7Xw
+added_by: bot
+discovered_via: https://github.com/King-EJ/The-Inquisitor-VR
+last_checked: "2026-11-12"
