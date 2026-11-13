@@ -10,8 +10,8 @@ headsets:
   - Quest
 controls: mixed
 status: beta
-version: "v0.6.4"
-version_date: "2026-11-09"
+version: "v0.6.5"
+version_date: "2026-11-12"
 download_url: https://github.com/matt-pulsipher/GT3-revisited/releases/latest
 source_url: https://github.com/matt-pulsipher/GT3-revisited
 license: MIT
@@ -32,4 +32,4 @@ reviews:
     url: https://www.youtube.com/watch?v=51AEQxkkumg
 added_by: bot
 discovered_via: https://discord.gg/flat2vr
-last_checked: "2026-11-10"
+last_checked: "2026-11-13"

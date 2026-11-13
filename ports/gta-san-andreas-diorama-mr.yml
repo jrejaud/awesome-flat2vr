@@ -10,8 +10,8 @@ headsets:
   - Quest 3
 controls: 6dof
 status: alpha
-version: "gta-installer-v1.3.8"
-version_date: "2026-11-05"
+version: "gta-installer-v1.3.10"
+version_date: "2026-11-12"
 download_url: https://github.com/galateainteractive/gta-sa-diorama-mr-quest/releases/latest
 source_url: https://github.com/galateainteractive/gta-sa-diorama-mr-quest
 license: unknown
@@ -26,4 +26,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/galateainteractive/gta-sa-diorama-mr-quest
-last_checked: "2026-11-11"
+last_checked: "2026-11-13"

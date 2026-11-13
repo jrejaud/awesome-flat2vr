@@ -10,8 +10,8 @@ headsets:
   - Quest 3
 controls: 6dof
 status: alpha
-version: "quest-v0.1.5"
-version_date: "2026-11-10"
+version: "quest-v0.1.6"
+version_date: "2026-11-12"
 download_url: https://github.com/lialan/reuc-vr/releases/latest
 source_url: https://github.com/lialan/reuc-vr
 license: GPL-3.0
@@ -32,4 +32,4 @@ reviews:
     url: https://www.youtube.com/watch?v=fx_v9ANIliY
 added_by: bot
 discovered_via: https://github.com/lialan/reuc-vr
-last_checked: "2026-11-11"
+last_checked: "2026-11-13"

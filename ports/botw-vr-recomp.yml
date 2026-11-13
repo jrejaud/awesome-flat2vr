@@ -1,0 +1,30 @@
+name: BOTW VR Recomp
+games:
+  - "The Legend of Zelda: Breath of the Wild"
+category: source-port
+authors:
+  - name: guideahon
+    url: https://github.com/guideahon
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "vr-2026.11.12"
+version_date: "2026-11-12"
+download_url: https://github.com/guideahon/BOTW-VR-RECOMP/releases/latest
+source_url: https://github.com/guideahon/BOTW-VR-RECOMP
+license: unknown
+required_files: Own dump of Breath of the Wild 1.9.0 for Switch (exefs + romfs)
+known_bugs:
+  - Not yet checked on a real headset; tested only against a fake OpenXR runtime
+notes: Fork of Savage Wind Recomp with OpenXR stereo, 6DOF, motion controls and BetterVR-style controls; runs via Virtual Desktop (VDXR) or SteamVR.
+images:
+  - game: "The Legend of Zelda: Breath of the Wild"
+    file: images/botw-vr-recomp/the-legend-of-zelda-breath-of-the-wild.png
+    credit: "The Legend of Zelda: Breath of the Wild grid by Blockamoka (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/869732
+reviews: []
+added_by: bot
+discovered_via: https://github.com/guideahon/BOTW-VR-RECOMP
+last_checked: "2026-11-13"

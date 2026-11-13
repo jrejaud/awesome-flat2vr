@@ -1,0 +1,32 @@
+name: Metro Last Light Redux VR
+games:
+  - Metro Last Light Redux
+category: mod
+authors:
+  - name: viclex2
+    url: https://github.com/viclex2
+platform: pcvr
+headsets:
+  - Quest 3S
+controls: 6dof
+status: alpha
+version: "E35"
+version_date: "2026-11-12"
+download_url: https://github.com/viclex2/metro-last-light-redux-vr/releases/latest
+source_url: https://github.com/viclex2/metro-last-light-redux-vr
+license: unknown
+required_files: Original Metro Last Light Redux (Steam, pre-next-gen version, DirectX 11) plus openvr_api.dll
+known_bugs:
+  - Graphical glitches remain
+  - Stutters when turning head in heavily loaded scenes
+  - Changing graphics options can close the game
+notes: Proxy d3d11.dll mod running through SteamVR; free and in early development.
+images:
+  - game: Metro Last Light Redux
+    file: images/metro-last-light-redux-vr/metro-last-light-redux.jpg
+    credit: "Metro: Last Light Redux grid by Luckspeare (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/349798
+reviews: []
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-13"

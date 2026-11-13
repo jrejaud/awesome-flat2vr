@@ -1,0 +1,27 @@
+name: SHMCD-VR
+games:
+  - "SUPERHOT: MIND CONTROL DELETE"
+category: mod
+authors:
+  - name: technewsguy
+    url: https://github.com/technewsguy
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.1.0"
+version_date: "2026-11-12"
+download_url: https://github.com/technewsguy/SHMCD-VR/releases/latest
+source_url: https://github.com/technewsguy/SHMCD-VR
+license: MIT
+required_files: "SUPERHOT: MIND CONTROL DELETE (Steam, Windows); SteamVR; Python 3 for the installer"
+known_bugs: []
+notes: Uses Unity's built-in OpenVR support via BepInEx; tested on Bigscreen Beyond with Valve Index controllers.
+images:
+  - game: "SUPERHOT: MIND CONTROL DELETE"
+    file: images/shmcd-vr/superhot-mind-control-delete.png
+    credit: "SUPERHOT: Mind Control Delete grid by tscar (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/144573
+reviews: []
+added_by: bot
+discovered_via: https://github.com/technewsguy/SHMCD-VR
+last_checked: "2026-11-13"

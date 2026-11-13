@@ -10,8 +10,8 @@ headsets:
   - Quest 3
 controls: 6dof
 status: beta
-version: "v0.3.33-windows-preview"
-version_date: "2026-11-11"
+version: "v0.3.35-windows-preview"
+version_date: "2026-11-13"
 download_url: https://github.com/bearstonem/d2r-pcvr/releases/latest
 source_url: https://github.com/bearstonem/d2r-pcvr
 license: MPL-2.0
@@ -33,4 +33,4 @@ reviews:
     url: https://www.youtube.com/watch?v=8-6nk1sE08s
 added_by: bot
 discovered_via: https://www.youtube.com/watch?v=FB6BaG7OzqY
-last_checked: "2026-11-12"
+last_checked: "2026-11-13"

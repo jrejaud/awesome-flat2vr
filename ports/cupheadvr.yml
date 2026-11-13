@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: gamepad
 status: stable
-version: "v1.04"
-version_date: "2026-11-11"
+version: "v1.05"
+version_date: "2026-11-12"
 download_url: https://github.com/scubasteve2365/cupheadVR/releases/latest
 source_url: https://github.com/scubasteve2365/cupheadVR
 license: MIT
@@ -30,4 +30,4 @@ reviews:
     url: https://www.youtube.com/watch?v=a35ObYDqbL8
 added_by: bot
 discovered_via: https://discord.gg/flat2vr
-last_checked: "2026-11-11"
+last_checked: "2026-11-13"

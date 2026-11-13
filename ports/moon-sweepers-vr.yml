@@ -1,0 +1,32 @@
+name: Moon Sweepers VR
+games:
+  - Moon Sweepers
+category: mod
+authors:
+  - name: VEEERRR77
+    url: https://github.com/VEEERRR77
+platform: pcvr
+headsets:
+  - Quest 3S
+controls: 6dof
+status: stable
+version: "v1.0.0"
+version_date: "2026-11-12"
+download_url: https://github.com/VEEERRR77/Moon-Sweepers-VR/releases/latest
+source_url: https://github.com/VEEERRR77/Moon-Sweepers-VR
+license: unknown
+required_files: Moon Sweepers on Steam (Windows), SteamVR, and the MoonSweepers BepInEx Patcher from Nexus Mods (free account)
+known_bugs:
+  - A game update may break the mod until it is updated
+  - Motion controller buttons untested on headsets other than Quest 3S
+  - Mods and multiplayer don't mix well; play solo
+notes: Built on UUVR and BepInEx with a custom plugin for Unity 6; one-click Install.bat.
+images:
+  - game: Moon Sweepers
+    file: images/moon-sweepers-vr/moon-sweepers.jpg
+    credit: Moon Sweepers store art
+    source_url: https://store.steampowered.com/app/5335510/
+reviews: []
+added_by: bot
+discovered_via: https://github.com/VEEERRR77/Moon-Sweepers-VR
+last_checked: "2026-11-13"

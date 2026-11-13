@@ -1,0 +1,35 @@
+name: Idols of Ash VR
+games:
+  - Idols of Ash
+category: mod
+authors:
+  - name: hernanrodeblas-tech
+    url: https://github.com/hernanrodeblas-tech
+platform: pcvr
+headsets:
+  - Steam Frame
+controls: 6dof
+status: stable
+version: "v1.0"
+version_date: "2026-11-12"
+download_url: https://github.com/hernanrodeblas-tech/IdolsOfAsh-VR/releases/latest
+source_url: https://github.com/hernanrodeblas-tech/IdolsOfAsh-VR
+license: MIT
+required_files: Idols of Ash (Steam) installed
+known_bugs: []
+notes: Uses Godot's override.cfg to enable OpenXR and load a GDScript autoload; no game files are patched.
+images:
+  - game: Idols of Ash
+    file: images/idols-of-ash-vr/idols-of-ash.png
+    credit: Idols of Ash grid by blee264 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/748965
+reviews:
+  - title: Hidden VR Gem - Idols of Ash
+    channel: Waifu Enjoyer
+    url: https://www.youtube.com/watch?v=Bn_Zd-X5rGw
+  - title: Idols of Ash - VR Mod Gameplay & Commentary on the Meta Quest 3 (PCVR)
+    channel: FastLawyer
+    url: https://www.youtube.com/watch?v=x9bD5VWyngE
+added_by: bot
+discovered_via: https://github.com/hernanrodeblas-tech/IdolsOfAsh-VR
+last_checked: "2026-11-13"

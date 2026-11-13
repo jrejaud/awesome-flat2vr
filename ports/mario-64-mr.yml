@@ -1,0 +1,38 @@
+name: Mario 64 MR
+games:
+  - Super Mario 64
+category: source-port
+authors:
+  - name: Lucas Martinic
+    url: https://lucasmartinic.com
+platform: standalone
+headsets:
+  - Quest 3
+  - Quest 3S
+  - Quest 2
+  - Steam Frame
+  - Pico 4
+controls: 6dof
+status: stable
+version: "v1.3"
+version_date: "2026-11-13"
+download_url: https://github.com/lucas-martinic/mario64mr/releases/latest
+source_url: https://github.com/lucas-martinic/mario64mr
+homepage: https://lucasmartinic.com
+license: unknown
+required_files: Own copy of Super Mario 64 (US) ROM
+known_bugs:
+  - PICO support is experimental
+notes: Mixed-reality Super Mario 64 built from the decompilation, with a cartridge-window and diorama mode in passthrough.
+images:
+  - game: Super Mario 64
+    file: images/mario-64-mr/super-mario-64.png
+    credit: Super Mario 64 grid by Pyrus (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/101483
+reviews:
+  - title: Mario 64 MR - VR Mod + Mixed Reality CRAZYNESS!
+    channel: Paradise Decay
+    url: https://www.youtube.com/watch?v=px6oLIznMc0
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-13"
