@@ -10,8 +10,8 @@ headsets:
   - Steam Frame
 controls: 6dof
 status: stable
-version: "v1.0"
-version_date: "2026-11-12"
+version: "v1.1"
+version_date: "2026-11-13"
 download_url: https://github.com/hernanrodeblas-tech/IdolsOfAsh-VR/releases/latest
 source_url: https://github.com/hernanrodeblas-tech/IdolsOfAsh-VR
 license: MIT
@@ -32,4 +32,4 @@ reviews:
     url: https://www.youtube.com/watch?v=x9bD5VWyngE
 added_by: bot
 discovered_via: https://github.com/hernanrodeblas-tech/IdolsOfAsh-VR
-last_checked: "2026-11-13"
+last_checked: "2026-11-15"

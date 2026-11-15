@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: mixed
 status: alpha
-version: "v0.1.0-pre-alpha"
-version_date: "2026-11-02"
+version: "v0.1.1-prealpha"
+version_date: "2026-11-14"
 download_url: https://github.com/criminalvictory/Battlefield-3-VR-The-Great-Destroyer/releases/latest
 source_url: https://github.com/criminalvictory/Battlefield-3-VR-The-Great-Destroyer
 license: unknown
@@ -33,4 +33,4 @@ reviews:
     url: https://www.youtube.com/watch?v=G24qFAHG5xw
 added_by: bot
 discovered_via: https://github.com/criminalvictory/Battlefield-3-VR-The-Great-Destroyer
-last_checked: "2026-11-03"
+last_checked: "2026-11-15"

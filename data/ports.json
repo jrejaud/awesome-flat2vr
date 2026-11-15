@@ -706,8 +706,8 @@
     ],
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.1.0",
-    "version_date": "2026-11-11",
+    "version": "v1.2.1",
+    "version_date": "2026-11-13",
     "download_url": "https://github.com/hernanrodeblas-tech/antichamber-vr/releases/latest",
     "source_url": "https://github.com/hernanrodeblas-tech/antichamber-vr",
     "license": "MIT",
@@ -736,7 +736,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/hernanrodeblas-tech/antichamber-vr",
-    "last_checked": "2026-11-12"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "arx-libertatis-vr",
@@ -912,8 +912,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.23",
-    "version_date": "2026-10-21",
+    "version": "v0.24",
+    "version_date": "2026-11-14",
     "download_url": "https://github.com/bigmak94/AstroQuest/releases/latest",
     "source_url": "https://github.com/bigmak94/AstroQuest",
     "license": "GPL-2.0",
@@ -942,7 +942,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/astroquest",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "awakeningframe",
@@ -1058,8 +1058,8 @@
     "platform": "pcvr",
     "controls": "mixed",
     "status": "alpha",
-    "version": "v0.1.0-pre-alpha",
-    "version_date": "2026-11-02",
+    "version": "v0.1.1-prealpha",
+    "version_date": "2026-11-14",
     "download_url": "https://github.com/criminalvictory/Battlefield-3-VR-The-Great-Destroyer/releases/latest",
     "source_url": "https://github.com/criminalvictory/Battlefield-3-VR-The-Great-Destroyer",
     "license": "unknown",
@@ -1092,7 +1092,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/criminalvictory/Battlefield-3-VR-The-Great-Destroyer",
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "bc2vr",
@@ -1524,8 +1524,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.2.12",
-    "version_date": "2026-10-28",
+    "version": "v1.2.14",
+    "version_date": "2026-11-15",
     "download_url": "https://github.com/CircuitLord/CircuitLordVRModInstaller/releases/latest/download/CircuitLordVRModInstaller.exe",
     "source_url": "https://github.com/CircuitLord/CircuitLordVRModInstaller",
     "license": "unknown",
@@ -1554,7 +1554,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "bioshock-remastered-vr",
@@ -1890,8 +1890,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.3.0",
-    "version_date": "2026-11-08",
+    "version": "v0.3.1",
+    "version_date": "2026-11-14",
     "download_url": "https://github.com/jmanoclay/BW-VR-Releases/releases/latest",
     "source_url": "https://github.com/jmanoclay/BW-VR-Releases",
     "license": "unknown",
@@ -1920,7 +1920,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/jmanoclay/BW-VR-Releases",
-    "last_checked": "2026-11-12"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "bladevr",
@@ -2900,8 +2900,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "stable",
-    "version": "1.5",
-    "version_date": "2026-11-12",
+    "version": "1.7",
+    "version_date": "2026-11-14",
     "download_url": "https://github.com/letmein-vr/CRONOS_UEVR/releases/latest",
     "source_url": "https://github.com/letmein-vr/CRONOS_UEVR",
     "license": "MIT",
@@ -2933,7 +2933,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "crysis-vr-winlatorxr",
@@ -3105,8 +3105,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "0.2.3",
-    "version_date": "2026-11-08",
+    "version": "0.2.45",
+    "version_date": "2026-11-14",
     "download_url": "https://github.com/dariulone/cyberpunk-vr-port/releases/latest",
     "source_url": "https://github.com/dariulone/cyberpunk-vr-port",
     "license": "MIT",
@@ -3135,7 +3135,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://gist.github.com/elliotttate/7109af484e6f2c45792b1727841760bb",
-    "last_checked": "2026-11-08"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "d2r-vr-unleashed",
@@ -3206,8 +3206,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.215.0",
-    "version_date": "2026-11-12",
+    "version": "v0.217.1",
+    "version_date": "2026-11-14",
     "download_url": "https://github.com/natpoh/diablo2-vr-port/releases/latest",
     "source_url": "https://github.com/natpoh/diablo2-vr-port",
     "homepage": "https://bodywalkvr.com/mods/d2r-vr",
@@ -3237,7 +3237,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/natpoh/diablo2-vr-port",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "dead-space-2008-vr",
@@ -3725,7 +3725,7 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v1276",
+    "version": "v1297",
     "version_date": "2026-11-13",
     "download_url": "https://github.com/Hollownett/dishonored2-vr/releases/latest",
     "source_url": "https://github.com/Hollownett/dishonored2-vr",
@@ -3757,7 +3757,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/Hollownett/dishonored2-vr",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "disney-dreamlight-valley-vr",
@@ -4383,8 +4383,8 @@
     ],
     "controls": "mixed",
     "status": "alpha",
-    "version": "v0.1.92",
-    "version_date": "2026-11-12",
+    "version": "v0.1.94",
+    "version_date": "2026-11-14",
     "download_url": "https://github.com/ArcadaLabs-Jason/EternalVR/releases/latest",
     "source_url": "https://github.com/ArcadaLabs-Jason/EternalVR",
     "homepage": "https://ko-fi.com/FanciestPeanut",
@@ -4414,7 +4414,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/ArcadaLabs-Jason/EternalVR",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "f-e-a-r-vr",
@@ -5105,8 +5105,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.1.9",
-    "version_date": "2026-10-19",
+    "version": "v0.1.10",
+    "version_date": "2026-11-14",
     "download_url": "https://github.com/bigmak94/GalaxyQuest/releases/latest",
     "source_url": "https://github.com/bigmak94/GalaxyQuest",
     "license": "Unlicense",
@@ -5135,7 +5135,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/bigmak94/galaxyquest",
-    "last_checked": "2026-10-20"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "garfield-kart-2-all-you-can-drift-vr",
@@ -5478,8 +5478,8 @@
     ],
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.3.11",
-    "version_date": "2026-11-08",
+    "version": "v1.3.12",
+    "version_date": "2026-11-15",
     "download_url": "https://github.com/deadpixel134/GF2Exilium-VR/releases/latest",
     "source_url": "https://github.com/deadpixel134/GF2Exilium-VR",
     "license": "unknown",
@@ -5497,7 +5497,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/deadpixel134/GF2Exilium-VR",
-    "last_checked": "2026-11-09"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "ghost-recon-wildlands-vr-grw-xr",
@@ -5828,8 +5828,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.2.8",
-    "version_date": "2026-11-09",
+    "version": "v0.2.9",
+    "version_date": "2026-11-13",
     "download_url": "https://github.com/paultaran00/GoWEDay-VR/releases/latest",
     "source_url": "https://github.com/paultaran00/GoWEDay-VR",
     "license": "GPL-3.0",
@@ -5858,7 +5858,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/paultaran00/GoWEDay-VR",
-    "last_checked": "2026-11-10"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "gplvr",
@@ -5879,8 +5879,8 @@
     ],
     "controls": "gamepad",
     "status": "beta",
-    "version": "v1.1",
-    "version_date": "2026-11-11",
+    "version": "v1.2",
+    "version_date": "2026-11-14",
     "download_url": "https://github.com/Casqade/gplvr/releases/latest",
     "source_url": "https://github.com/Casqade/gplvr",
     "license": "unknown",
@@ -5909,7 +5909,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/Casqade/gplvr",
-    "last_checked": "2026-11-11"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "gran-turismo-2-vr",
@@ -6120,8 +6120,8 @@
     ],
     "controls": "mixed",
     "status": "beta",
-    "version": "v0.6.5",
-    "version_date": "2026-11-12",
+    "version": "v0.6.6",
+    "version_date": "2026-11-13",
     "download_url": "https://github.com/matt-pulsipher/GT3-revisited/releases/latest",
     "source_url": "https://github.com/matt-pulsipher/GT3-revisited",
     "license": "MIT",
@@ -6150,7 +6150,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://discord.gg/flat2vr",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "gt4-vr",
@@ -6172,8 +6172,8 @@
     ],
     "controls": "mixed",
     "status": "beta",
-    "version": "v0.3.1-beta-specii",
-    "version_date": "2026-11-12",
+    "version": "v0.3.2-beta-specii",
+    "version_date": "2026-11-13",
     "download_url": "https://github.com/SgtBilko76/gt4-vr/releases/latest",
     "source_url": "https://github.com/SgtBilko76/gt4-vr",
     "homepage": "https://portroyale.online/gt4.html",
@@ -6192,7 +6192,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/SgtBilko76/gt4-vr",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "gta-5-vr",
@@ -7486,8 +7486,8 @@
     ],
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.0",
-    "version_date": "2026-11-12",
+    "version": "v1.1",
+    "version_date": "2026-11-13",
     "download_url": "https://github.com/hernanrodeblas-tech/IdolsOfAsh-VR/releases/latest",
     "source_url": "https://github.com/hernanrodeblas-tech/IdolsOfAsh-VR",
     "license": "MIT",
@@ -7516,7 +7516,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/hernanrodeblas-tech/IdolsOfAsh-VR",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "il-2-sturmovik-1946-vr",
@@ -7591,8 +7591,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "initial-release",
-    "version_date": "2026-11-04",
+    "version": "InteractionsSubtitlesandCameraFix",
+    "version_date": "2026-11-14",
     "download_url": "https://github.com/RawBeef1237/INFRAVR/releases/latest",
     "source_url": "https://github.com/RawBeef1237/INFRAVR",
     "license": "unknown",
@@ -7623,7 +7623,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/RawBeef1237/INFRAVR",
-    "last_checked": "2026-11-09"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "inkvr",
@@ -7881,8 +7881,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.6.39",
-    "version_date": "2026-11-07",
+    "version": "v0.6.40",
+    "version_date": "2026-11-14",
     "download_url": "https://github.com/andreystashev/kane-lynch2-vr-showcase/releases/latest",
     "source_url": "https://github.com/andreystashev/kane-lynch2-vr-showcase",
     "license": "unknown",
@@ -7914,7 +7914,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/andreystashev/kane-lynch2-vr-showcase",
-    "last_checked": "2026-11-08"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "kane-lynch-dead-men-vr",
@@ -9213,12 +9213,11 @@
       "Quest"
     ],
     "controls": "6dof",
-    "status": "alpha",
+    "status": "abandoned",
     "version": "v2.0.0-beta.8",
     "version_date": "2026-11-07",
     "download_url": "https://github.com/iChris4/MetroidPrimePortVR/releases/latest",
     "source_url": "https://github.com/iChris4/MetroidPrimePortVR",
-    "homepage": "https://github.com/Odrannnn/MetroidPrimePort/releases/latest",
     "license": "unknown",
     "required_files": "Metroid Prime GameCube disc image (USA, v1.00)",
     "known_bugs": [],
@@ -9263,8 +9262,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.2.0",
-    "version_date": "2026-11-10",
+    "version": "v0.3.2",
+    "version_date": "2026-11-15",
     "download_url": "https://github.com/dnehring/MEVR/releases/latest",
     "source_url": "https://github.com/dnehring/MEVR",
     "homepage": "https://dnehring.github.io/MEVR/",
@@ -9297,7 +9296,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/dnehring/MEVR",
-    "last_checked": "2026-11-11"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "mgs5vr",
@@ -9465,8 +9464,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v1.2",
-    "version_date": "2026-11-01",
+    "version": "v1.3",
+    "version_date": "2026-11-14",
     "download_url": "https://github.com/CaptainBrannigan/WarfighterVR/releases/latest",
     "source_url": "https://github.com/CaptainBrannigan/WarfighterVR",
     "license": "unknown",
@@ -9486,7 +9485,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/CaptainBrannigan/WarfighterVR",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "moon-sweepers-vr",
@@ -9507,8 +9506,8 @@
     ],
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.0.0",
-    "version_date": "2026-11-12",
+    "version": "v1.5.0",
+    "version_date": "2026-11-15",
     "download_url": "https://github.com/VEEERRR77/Moon-Sweepers-VR/releases/latest",
     "source_url": "https://github.com/VEEERRR77/Moon-Sweepers-VR",
     "license": "unknown",
@@ -9530,7 +9529,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/VEEERRR77/Moon-Sweepers-VR",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "mothervr",
@@ -9597,8 +9596,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.1-beta9",
-    "version_date": "2026-11-10",
+    "version": "v0.1-beta10",
+    "version_date": "2026-11-13",
     "download_url": "https://github.com/lesan0622/MWR-VR/releases/latest",
     "source_url": "https://github.com/lesan0622/MWR-VR",
     "license": "GPL-3.0",
@@ -9631,7 +9630,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://discord.gg/flat2vr",
-    "last_checked": "2026-11-11"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "mystical-ninja-starring-goemon-vr",
@@ -11897,8 +11896,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "1.0.85",
-    "version_date": "2026-10-29",
+    "version": "1.0.86",
+    "version_date": "2026-11-14",
     "download_url": "https://github.com/tinsarfal/Qualyx/releases/latest",
     "source_url": "https://github.com/tinsarfal/Qualyx",
     "homepage": "https://sidequestvr.com/app/63366",
@@ -11928,7 +11927,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://sidequestvr.com/app/63366",
-    "last_checked": "2026-10-29"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "quest-3-oot-vr",
@@ -12033,7 +12032,7 @@
     ],
     "controls": "mixed",
     "status": "alpha",
-    "version": "v0.1.19-alpha1",
+    "version": "v0.1.20-alpha1",
     "version_date": "2026-11-13",
     "download_url": "https://github.com/LanceSweatpants/Strikers-Quest-MR/releases/latest",
     "source_url": "https://github.com/LanceSweatpants/Strikers-Quest-MR",
@@ -12053,7 +12052,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/strikers-quest-mr",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "quest-doom",
@@ -12631,8 +12630,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.8.14",
-    "version_date": "2026-11-11",
+    "version": "v0.8.15",
+    "version_date": "2026-11-13",
     "download_url": "https://github.com/Disonomouss/RDRVR/releases/latest",
     "source_url": "https://github.com/Disonomouss/RDRVR",
     "license": "MIT",
@@ -12650,7 +12649,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/Disonomouss/RDRVR",
-    "last_checked": "2026-11-11"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "realrtcw-xr",
@@ -13867,8 +13866,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.1.0",
-    "version_date": "2026-11-12",
+    "version": "v0.1.1",
+    "version_date": "2026-11-13",
     "download_url": "https://github.com/technewsguy/SHMCD-VR/releases/latest",
     "source_url": "https://github.com/technewsguy/SHMCD-VR",
     "license": "MIT",
@@ -13886,7 +13885,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/technewsguy/SHMCD-VR",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "shogo-vr",
@@ -15519,8 +15518,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "installer-1.1.0",
-    "version_date": "2026-11-07",
+    "version": "installer-1.1.1",
+    "version_date": "2026-11-14",
     "download_url": "https://github.com/trilex07/TrilexModInstaller/releases/latest",
     "source_url": "https://github.com/trilex07/TrilexModInstaller",
     "license": "unknown",
@@ -15549,7 +15548,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://discord.gg/flat2vr",
-    "last_checked": "2026-11-08"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "the-evil-within-vr",
@@ -15975,8 +15974,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.3.3",
-    "version_date": "2026-10-20",
+    "version": "v0.4.1",
+    "version_date": "2026-11-13",
     "download_url": "https://github.com/DR-89/time-crisis-2-vr/releases/latest",
     "source_url": "https://github.com/DR-89/time-crisis-2-vr",
     "license": "MIT",
@@ -15997,7 +15996,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/time-crisis-2-vr",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "time-crisis-vr",
@@ -16021,8 +16020,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.9.4",
-    "version_date": "2026-10-20",
+    "version": "v0.9.5",
+    "version_date": "2026-11-13",
     "download_url": "https://github.com/DR-89/time-crisis-vr/releases/latest",
     "source_url": "https://github.com/DR-89/time-crisis-vr",
     "license": "MIT",
@@ -16053,7 +16052,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://questports.vercel.app/ports/time-crisis-vr",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "titanfall-2-vr-mod",
@@ -17645,8 +17644,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "0.2.46",
-    "version_date": "2026-10-22",
+    "version": "0.2.47",
+    "version_date": "2026-11-14",
     "download_url": "https://github.com/iChris4/Wiicompiled_VR/releases/latest",
     "source_url": "https://github.com/iChris4/Wiicompiled_VR",
     "license": "GPL-3.0",
@@ -17678,7 +17677,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/ichris4/wiicompiled_vr",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-11-15"
   },
   {
     "slug": "wing-commander-ii-vr",
