@@ -1,0 +1,35 @@
+name: Mirror's Edge VR Mac
+games:
+  - Mirror's Edge
+category: source-port
+authors:
+  - name: mrchrisster
+    url: https://github.com/mrchrisster
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "v0.1.0"
+version_date: "2026-11-17"
+download_url: https://github.com/mrchrisster/mirrors-edge-vr-mac/releases/latest
+source_url: https://github.com/mrchrisster/mirrors-edge-vr-mac
+license: MIT
+required_files: GOG copy of Mirror's Edge 1.01
+known_bugs: []
+notes: Runs natively on Apple Silicon via RunnerRecompiled and streams to Quest over USB using OXRSys.
+images:
+  - game: Mirror's Edge
+    file: images/mirrors-edge-vr-mac/mirror-s-edge.png
+    credit: Mirror's Edge grid by apfelspeier (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/708355
+reviews:
+  - title: Mirror’s Edge VR Is Actually Happening
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=dl7znQQH18Y
+  - title: Mirror’s Edge VR Is INSANE on a VR Treadmill!
+    channel: "GingasVR "
+    url: https://www.youtube.com/watch?v=VJb9IDdlTuA
+added_by: bot
+discovered_via: https://github.com/mrchrisster/mirrors-edge-vr-mac
+last_checked: "2026-11-20"

@@ -1,0 +1,29 @@
+name: SM2VR
+games:
+  - Marvel's Spider-Man 2
+category: mod
+authors:
+  - name: howesjamie5-code
+    url: https://github.com/howesjamie5-code
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "v0.0.2"
+version_date: "2026-11-19"
+download_url: https://github.com/howesjamie5-code/SM2VR/releases/latest
+source_url: https://github.com/howesjamie5-code/SM2VR
+license: GPL-3.0
+required_files: Marvel's Spider-Man 2 on Steam (tested with version 2.810.0.0)
+known_bugs: []
+notes: Port of MilesVR, itself a port of IlyaMez's SpidyVR; attaches to the running game without changing its folder.
+images:
+  - game: Marvel's Spider-Man 2
+    file: images/sm2vr/marvel-s-spider-man-2.png
+    credit: Marvel's Spider-Man 2 grid by Monack (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/336340
+reviews: []
+added_by: bot
+discovered_via: https://github.com/howesjamie5-code/SM2VR
+last_checked: "2026-11-20"

@@ -1,0 +1,30 @@
+name: Myth II for Meta Quest 3 / 3S
+games:
+  - "Myth II: Soulblighter"
+category: source-port
+authors:
+  - name: Snail921
+    url: https://github.com/Snail921
+platform: standalone
+headsets:
+  - Quest 3
+  - Quest 3S
+controls: mixed
+status: beta
+version: "v0.4.0-beta"
+version_date: "2026-11-19"
+download_url: https://github.com/Snail921/Myth-II-for-Meta-Quest3-3S/releases/latest
+source_url: https://github.com/Snail921/Myth-II-for-Meta-Quest3-3S
+license: unknown
+required_files: Original Myth II CD ISO and the Windows 1.8.5 updater
+known_bugs: []
+notes: Runs standalone on Quest with no PC connection during play; a PC Plugin Manager converts game data for transfer.
+images:
+  - game: "Myth II: Soulblighter"
+    file: images/myth-ii-for-meta-quest-3-3s/myth-ii-soulblighter.png
+    credit: "Myth II: Soulblighter grid by Solid_Alexei (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/861041
+reviews: []
+added_by: bot
+discovered_via: https://github.com/Snail921/Myth-II-for-Meta-Quest3-3S
+last_checked: "2026-11-20"

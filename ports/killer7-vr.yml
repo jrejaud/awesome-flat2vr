@@ -1,0 +1,30 @@
+name: killer7-vr
+games:
+  - Killer7
+category: mod
+authors:
+  - name: idio-sync
+    url: https://github.com/idio-sync
+platform: pcvr
+controls: mixed
+status: alpha
+version: "v0.1.2"
+version_date: "2026-11-20"
+download_url: https://github.com/idio-sync/k7-vr/releases/latest
+source_url: https://github.com/idio-sync/k7-vr
+license: MIT
+required_files: Killer7 for PC (Steam) on Windows; SteamVR and a headset with two motion controllers
+known_bugs: []
+notes: Early experimental mod tested only through the opening of Target 00 (Angel); the gun follows the right controller and 2D screens appear on a virtual screen.
+images:
+  - game: Killer7
+    file: images/killer7-vr/killer7.png
+    credit: killer7 grid by Persona52 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/391776
+reviews:
+  - title: "Resident Evil 4 VR: The Mercenaries  but it's just the Killer7"
+    channel: Randal Knash
+    url: https://www.youtube.com/watch?v=EBPjHnA2zRI
+added_by: bot
+discovered_via: https://github.com/idio-sync/k7-vr
+last_checked: "2026-11-20"

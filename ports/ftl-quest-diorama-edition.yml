@@ -1,0 +1,29 @@
+name: FTL Quest Diorama Edition
+games:
+  - "FTL: Faster Than Light"
+category: source-port
+authors:
+  - name: mrchrisster
+    url: https://github.com/mrchrisster
+platform: standalone
+headsets:
+  - Quest 3
+controls: mixed
+status: alpha
+version: "v0.1.0"
+version_date: "2026-11-16"
+download_url: https://github.com/mrchrisster/ftl-quest/releases/latest
+source_url: https://github.com/mrchrisster/ftl-quest
+license: GPL-3.0
+required_files: "Decrypted FTL: Faster Than Light for iPad 1.6.21 .ipa from your own copy (extracted with tools/deploy_quest.py)"
+known_bugs: []
+notes: Runs the original iOS ARM64 binary via a shim to Android/EGL/OpenXR, showing the game as five stacked depth layers with laser-pointer controls.
+images:
+  - game: "FTL: Faster Than Light"
+    file: images/ftl-quest-diorama-edition/ftl-faster-than-light.png
+    credit: "FTL: Faster Than Light grid by QuiGonJinnah (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/30893
+reviews: []
+added_by: bot
+discovered_via: https://github.com/mrchrisster/ftl-quest
+last_checked: "2026-11-20"

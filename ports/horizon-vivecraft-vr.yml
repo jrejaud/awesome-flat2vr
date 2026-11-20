@@ -1,0 +1,31 @@
+name: Horizon Vivecraft VR
+games:
+  - Minecraft Java Edition
+category: mod
+authors:
+  - name: v1nx0
+    url: https://github.com/v1nx0
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.3.1"
+version_date: "2026-11-19"
+download_url: https://github.com/v1nx0/horizon-vivecraft-vr/releases/latest
+source_url: https://github.com/v1nx0/horizon-vivecraft-vr
+license: LGPL-3.0
+required_files: Minecraft Java Edition 26.3 (played once) and the Minecraft 26.3 server jar
+known_bugs:
+  - Not fully tested in a headset; Vivecraft server networking, other players' VR bodies and full-body trackers never tested
+notes: Port of VivecraftMod to the Horizon Minecraft client using OpenXR (SteamVR, Quest Link).
+images:
+  - game: Minecraft Java Edition
+    file: images/horizon-vivecraft-vr/minecraft-java-edition.png
+    credit: "Minecraft: Java Edition grid by CheatFreak (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/65746
+reviews:
+  - title: How To Play Minecraft Java Edition in VR
+    channel: ItsAtmos
+    url: https://www.youtube.com/watch?v=35UJFVXvMvk
+added_by: bot
+discovered_via: https://github.com/v1nx0/horizon-vivecraft-vr
+last_checked: "2026-11-20"

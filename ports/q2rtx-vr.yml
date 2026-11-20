@@ -1,0 +1,27 @@
+name: Q2RTX VR
+games:
+  - Quake II RTX
+category: mod
+authors:
+  - name: Togorian
+    url: https://github.com/Togorian
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v0.8.4"
+version_date: "2026-11-16"
+download_url: https://github.com/Togorian/Q2RTX-VR/releases/latest
+source_url: https://github.com/Togorian/Q2RTX-VR
+license: GPL-2.0-only
+required_files: Quake II RTX with the full original Quake II game data installed (the free three-level demo is not supported)
+known_bugs: []
+notes: OpenXR port with motion controls, room-scale movement, and optional Quad Views eye-tracked foveated rendering; requires a Vulkan ray-tracing GPU on Windows.
+images:
+  - game: Quake II RTX
+    file: images/q2rtx-vr/quake-ii-rtx.png
+    credit: Quake II RTX grid by swagmaster9000 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/675757
+reviews: []
+added_by: bot
+discovered_via: https://github.com/Togorian/Q2RTX-VR
+last_checked: "2026-11-20"

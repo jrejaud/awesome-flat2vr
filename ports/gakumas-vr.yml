@@ -1,0 +1,31 @@
+name: Gakumas VR
+games:
+  - Gakuen iDOLM@STER
+category: mod
+authors:
+  - name: TBluebox12
+    url: https://x.com/TBluebox12
+  - name: deadpixel134
+    url: https://github.com/deadpixel134
+platform: pcvr
+headsets:
+  - Quest 3
+controls: mixed
+status: beta
+version: "v0.178.4"
+version_date: "2026-11-15"
+download_url: https://github.com/deadpixel134/gakumas-vr/releases/latest
+source_url: https://github.com/deadpixel134/gakumas-vr
+license: GPL-3.0
+required_files: DMM edition installation of Gakuen Idolmaster (Windows 11 x64, Unity 6000.0.77f1)
+known_bugs: []
+notes: Supported 3D scenes render in stereo VR while other content appears on flat panels controlled with VR controllers; hardware-tested via Virtual Desktop/VDXR.
+images:
+  - game: Gakuen iDOLM@STER
+    file: images/gakumas-vr/gakuen-idolm-ster.png
+    credit: Gakuen iDOLM@STER grid by EmiyaSyahriel (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/573154
+reviews: []
+added_by: bot
+discovered_via: https://github.com/deadpixel134/gakumas-vr
+last_checked: "2026-11-20"

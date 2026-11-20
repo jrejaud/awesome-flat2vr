@@ -10,8 +10,8 @@ headsets:
   - Meta Quest 3
 controls: 6dof
 status: stable
-version: "v1.0.1"
-version_date: "2026-10-11"
+version: "v1.1.0"
+version_date: "2026-11-16"
 download_url: https://github.com/vittorioromeo/quakevr/releases/latest
 source_url: https://github.com/vittorioromeo/quakevr
 license: GPL-2.0
@@ -32,4 +32,4 @@ reviews:
     url: https://www.youtube.com/watch?v=OTGxe-sFijU
 added_by: bot
 discovered_via: https://github.com/vittorioromeo/quakevr
-last_checked: "2026-10-12"
+last_checked: "2026-11-20"

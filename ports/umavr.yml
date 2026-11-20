@@ -1,0 +1,30 @@
+name: UmaVR
+games:
+  - "Umamusume: Pretty Derby"
+category: mod
+authors:
+  - name: TBluebox12
+    url: https://x.com/TBluebox12
+platform: pcvr
+headsets:
+  - Quest 3
+controls: mixed
+status: alpha
+version: "v0.1.1"
+version_date: "2026-09-06"
+download_url: https://github.com/deadpixel134/umamusume-vr/releases/latest
+source_url: https://github.com/deadpixel134/umamusume-vr
+license: GPL-3.0
+required_files: "DMM edition of Umamusume: Pretty Derby (Windows 11 x64) with Localify installed"
+known_bugs:
+  - Home, Story, Race, Training and character preview screens are shown on a flat PANEL rather than in VR
+notes: Validated Live scenes use stereo VR with 6DoF head tracking; other screens stay on a flat panel; tested via Virtual Desktop VDXR with Meta Quest controllers.
+images:
+  - game: "Umamusume: Pretty Derby"
+    file: images/umavr/umamusume-pretty-derby.png
+    credit: "Umamusume: Pretty Derby grid by Yuya QuocDoan (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/666212
+reviews: []
+added_by: bot
+discovered_via: https://github.com/deadpixel134/umamusume-vr
+last_checked: "2026-11-20"

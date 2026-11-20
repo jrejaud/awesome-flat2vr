@@ -1,0 +1,34 @@
+name: "Zelda: Inside The Dream"
+games:
+  - "The Legend of Zelda: Link's Awakening (2019)"
+category: source-port
+authors:
+  - name: jacquesdupontd
+    url: https://github.com/jacquesdupontd
+platform: pcvr
+headsets:
+  - Meta Quest
+controls: mixed
+status: alpha
+version: "v0.1.1"
+version_date: "2026-11-17"
+download_url: https://github.com/jacquesdupontd/zelda-inside-the-dream/releases/latest
+source_url: https://github.com/jacquesdupontd/zelda-inside-the-dream
+homepage: https://port0r.com/zelda-inside-the-dream/
+license: unknown
+required_files: "Own copy of The Legend of Zelda: Link's Awakening (2019) game data (version 1.0.0 recommended); about 9 GB of space is needed."
+known_bugs:
+  - Work in progress; the README says there will be bugs.
+notes: Built on Peiikai's LAS Recomp; runs in VR through SteamVR on Windows (Quest via Steam Link or Quest Link), or on screen on Windows, Linux and Mac.
+images:
+  - game: "The Legend of Zelda: Link's Awakening (2019)"
+    file: images/zelda-inside-the-dream/the-legend-of-zelda-link-s-awakening.png
+    credit: "The Legend of Zelda: Link's Awakening grid by M3th0D (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/437248
+reviews:
+  - title: "Zelda: Inside The Dream, Link's Awakening in first person in VR on PC | Port0r"
+    channel: Jacques Dupontd (Port0r)
+    url: https://www.youtube.com/watch?v=hG9b2gmJWEs
+added_by: bot
+discovered_via: https://github.com/jacquesdupontd/zelda-inside-the-dream
+last_checked: "2026-11-20"

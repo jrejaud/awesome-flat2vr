@@ -1,0 +1,37 @@
+name: "House of the Dead: Overkill VR"
+games:
+  - "The House of the Dead: Overkill"
+category: mod
+authors:
+  - name: idio-sync
+    url: https://github.com/idio-sync
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.1.4"
+version_date: "2026-11-19"
+download_url: https://github.com/idio-sync/hotd-overkill-vr/releases/latest
+source_url: https://github.com/idio-sync/hotd-overkill-vr
+license: MIT
+required_files: "The Typing of the Dead: Overkill on Steam (Windows, build 569304), which includes the House of the Dead: Overkill mode; SteamVR and a headset with two tracked controllers."
+known_bugs:
+  - Aim may be a little off in fast turns
+  - Gun may sit oddly in the hand
+  - Menus may be hard to read
+  - Possible crash a few seconds after start on some setups (reported on NVIDIA RTX 4080 SUPER; not reproduced)
+notes: Early pre-release, tested briefly on a Steam Frame; mostly tested without a headset.
+images:
+  - game: "The House of the Dead: Overkill"
+    file: images/house-of-the-dead-overkill-vr/the-house-of-the-dead-overkill.jpg
+    credit: "The House of the Dead: OVERKILL grid by Chaotic Viral (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/501485
+reviews:
+  - title: "Quest - House of the Dead: Overkill VR"
+    channel: Chinballs Gaming
+    url: https://www.youtube.com/watch?v=-B1K_7cSUhw
+  - title: "House of the Dead: Overkill VR Mod / New VR Mod with 6DOF Motion Control / Quest 3 + RTX 4080 Super"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=Rkrr8XiG98U
+added_by: bot
+discovered_via: https://github.com/idio-sync/hotd-overkill-vr
+last_checked: "2026-11-20"

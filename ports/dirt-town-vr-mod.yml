@@ -1,0 +1,32 @@
+name: Dirt Town VR Mod
+games:
+  - Dirt Town Demo
+category: mod
+authors:
+  - name: ecke101
+    url: https://github.com/ecke101
+platform: pcvr
+headsets:
+  - Pico 4
+controls: mixed
+status: alpha
+version: "v0.3.0"
+version_date: "2026-11-16"
+download_url: https://github.com/ecke101/dirttown-vr-mod/releases/latest
+source_url: https://github.com/ecke101/dirttown-vr-mod
+license: MIT
+required_files: Dirt Town Demo (Steam app 5471710, build 26658761 or 26690600)
+known_bugs:
+  - Menus and HUD stay on the monitor
+  - Windows runtimes and other headset/controller combinations still need physical testing
+  - D3D11 graphics fallback is experimental
+notes: OpenXR stereo with head tracking and VR controllers; Windows and Linux (Proton) launchers; game files are not modified.
+images:
+  - game: Dirt Town Demo
+    file: images/dirt-town-vr-mod/dirt-town-demo.jpg
+    credit: Dirt Town Demo store art
+    source_url: https://store.steampowered.com/app/5471710/
+reviews: []
+added_by: bot
+discovered_via: https://github.com/ecke101/dirttown-vr-mod
+last_checked: "2026-11-20"

@@ -1,0 +1,27 @@
+name: c12-recomp
+games:
+  - "C-12: Final Resistance"
+category: source-port
+authors:
+  - name: spartaque12
+    url: https://github.com/spartaque12
+platform: pcvr
+controls: mixed
+status: stable
+version: "v1.0"
+version_date: "2026-11-13"
+download_url: https://github.com/spartaque12/c12-recomp/releases/latest
+source_url: https://github.com/spartaque12/c12-recomp
+license: unknown
+required_files: "Own disc image of C-12: Final Resistance (European SCES-03364 .cue/.bin; US SCUS-94666 also supported)"
+known_bugs: []
+notes: Static recompilation of the PS1 game to native Windows with widescreen, HD textures, KB+M and OpenXR VR mods.
+images:
+  - game: "C-12: Final Resistance"
+    file: images/c12-recomp/c-12-final-resistance.png
+    credit: "C-12: Final Resistance grid by Tobi (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/30151
+reviews: []
+added_by: bot
+discovered_via: https://github.com/spartaque12/c12-recomp
+last_checked: "2026-11-20"

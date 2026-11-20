@@ -1,0 +1,33 @@
+name: HatVR
+games:
+  - A Hat in Time
+category: mod
+authors:
+  - name: calcite105
+    url: https://github.com/calcite105
+platform: pcvr
+controls: mixed
+status: beta
+version: "v0.21"
+version_date: "2026-11-19"
+download_url: https://github.com/calcite105/HatVR/releases/latest
+source_url: https://github.com/calcite105/HatVR
+license: unknown
+required_files: A Hat in Time (Steam), set to Vulkan graphics API
+known_bugs:
+  - Visual issues and camera sequences that don't always translate well to VR
+  - Some things may render incorrectly in one eye
+  - A game update can break the mod
+notes: Stereoscopic OpenXR mod with third-person and experimental first-person modes, plus Theater Mode and in-headset settings.
+images:
+  - game: A Hat in Time
+    file: images/hatvr/a-hat-in-time.jpg
+    credit: A Hat in Time grid by Moohoo (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/326378
+reviews:
+  - title: A Hat in Time - Virtual Reality with Helix Vision (FSBS)
+    channel: Bi-Scopic Vision
+    url: https://www.youtube.com/watch?v=T6Y-H7EU3-U
+added_by: bot
+discovered_via: https://github.com/calcite105/HatVR
+last_checked: "2026-11-20"

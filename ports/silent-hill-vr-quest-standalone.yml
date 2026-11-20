@@ -1,0 +1,32 @@
+name: Silent Hill VR Quest Standalone
+games:
+  - Silent Hill (1999)
+category: source-port
+authors:
+  - name: renangto15722-arch
+    url: https://github.com/renangto15722-arch
+platform: standalone
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "v0.3"
+version_date: "2026-11-19"
+download_url: https://github.com/renangto15722-arch/Silent-Hill-1999-Quest-Standalone/releases/latest
+source_url: https://github.com/renangto15722-arch/Silent-Hill-1999-Quest-Standalone
+license: GPL-3.0-only
+required_files: Own Silent Hill disc (USA, SLUS-00707) as .bin + .cue; optional HD textures and HD maps
+known_bugs: []
+notes: Work in progress; runs natively on Quest 3 with holsters, weapon wheel, laser sight and improved PGXP.
+images:
+  - game: Silent Hill (1999)
+    file: images/silent-hill-vr-quest-standalone/silent-hill.png
+    credit: Silent Hill grid by Teneesh (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/124071
+reviews:
+  - title: Silent Hill (1999) VR Performance / New Meta Quest Standalone VR Mod with 6DOF Motion Controls / Q3
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=jmQHxjxKQUk
+added_by: bot
+discovered_via: https://github.com/renangto15722-arch/Silent-Hill-1999-Quest-Standalone
+last_checked: "2026-11-20"

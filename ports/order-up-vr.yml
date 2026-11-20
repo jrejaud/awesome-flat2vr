@@ -1,0 +1,35 @@
+name: Order Up VR
+games:
+  - Order Up!!
+category: mod
+authors:
+  - name: ahmadhamed67
+    url: https://github.com/ahmadhamed67
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: stable
+version: "v0.12.3"
+version_date: "2026-11-18"
+download_url: https://github.com/ahmadhamed67/OrderUpVR/releases/latest
+source_url: https://github.com/ahmadhamed67/OrderUpVR
+license: GPL-2.0
+required_files: Own RPCS3 install with PS3 firmware and own copy of Order Up!! (PS3, Europe, BLES01470, v01.04)
+known_bugs: []
+notes: Installs its own modified RPCS3 build via a self-updating launcher; PC VR through OpenXR.
+images:
+  - game: Order Up!!
+    file: images/order-up-vr/order-up.png
+    credit: Order Up! grid by v44ti (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/541142
+reviews:
+  - title: Owning A MONEY MAKING FAST FOOD RESTAURANT IN VR! - Order Up VR Early Access HTC VIVE Gameplay
+    channel: GrayStillPlays
+    url: https://www.youtube.com/watch?v=Zd-2X8L0Mcw
+  - title: CHEF ACCIDENTALLY SETS FAST FOOD RESTAURANT ON FIRE IN VR! - Order Up VR HTC VIVE Gameplay
+    channel: GrayStillPlays
+    url: https://www.youtube.com/watch?v=5oy6y18TbSk
+added_by: bot
+discovered_via: https://github.com/ahmadhamed67/OrderUpVR
+last_checked: "2026-11-20"

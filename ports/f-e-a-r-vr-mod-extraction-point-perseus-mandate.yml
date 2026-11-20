@@ -1,0 +1,43 @@
+name: "F.E.A.R. VR Mod: Extraction Point & Perseus Mandate"
+games:
+  - F.E.A.R.
+  - F.E.A.R. Extraction Point
+  - F.E.A.R. Perseus Mandate
+category: mod
+authors:
+  - name: NeuroLoc
+    url: https://github.com/NeuroLoc
+platform: pcvr
+controls: 6dof
+status: stable
+version: "v1.0.0"
+version_date: "2026-11-18"
+download_url: https://github.com/NeuroLoc/FEAR-VR-Mod-Extraction_Point-Perseus_Mandate/releases/latest
+source_url: https://github.com/NeuroLoc/FEAR-VR-Mod-Extraction_Point-Perseus_Mandate
+license: unknown
+required_files: Installed PC copy of F.E.A.R., Extraction Point and/or Perseus Mandate (Steam or GOG)
+known_bugs: []
+notes: 3-in-1 installer package built on F.E.A.R. VR 1.3.1, with stereoscopic 3D cutscenes and English/Russian VR UI.
+images:
+  - game: F.E.A.R.
+    file: images/f-e-a-r-vr-mod-extraction-point-perseus-mandate/f-e-a-r.png
+    credit: F.E.A.R. grid by Light_AleX (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/162427
+  - game: F.E.A.R. Extraction Point
+    file: images/f-e-a-r-vr-mod-extraction-point-perseus-mandate/f-e-a-r-extraction-point.png
+    credit: "F.E.A.R.: Extraction Point grid by Light_AleX (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/162428
+  - game: F.E.A.R. Perseus Mandate
+    file: images/f-e-a-r-vr-mod-extraction-point-perseus-mandate/f-e-a-r-perseus-mandate.png
+    credit: "F.E.A.R.: Perseus Mandate grid by Light_AleX (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/162429
+reviews:
+  - title: "You Asked for It! F.E.A.R. VR: Extraction Point — Expansion Reveal"
+    channel: TheFreeMike
+    url: https://www.youtube.com/watch?v=E9IotygboB4
+  - title: VR МОДЫ для F.E.A.R. Extraction Point, и Perseus Mandate. Уже можно поиграть!
+    channel: NeuroLoc
+    url: https://www.youtube.com/watch?v=UFFo9qezZYE
+added_by: bot
+discovered_via: https://github.com/NeuroLoc/FEAR-VR-Mod-Extraction_Point-Perseus_Mandate
+last_checked: "2026-11-20"
