@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: alpha
-version: "v0.1.4"
-version_date: "2026-11-19"
+version: "v0.2.0"
+version_date: "2026-11-20"
 download_url: https://github.com/idio-sync/hotd-overkill-vr/releases/latest
 source_url: https://github.com/idio-sync/hotd-overkill-vr
 license: MIT
@@ -34,4 +34,4 @@ reviews:
     url: https://www.youtube.com/watch?v=Rkrr8XiG98U
 added_by: bot
 discovered_via: https://github.com/idio-sync/hotd-overkill-vr
-last_checked: "2026-11-20"
+last_checked: "2026-11-21"

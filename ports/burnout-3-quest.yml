@@ -1,0 +1,29 @@
+name: Burnout 3 Quest
+games:
+  - "Burnout 3: Takedown"
+category: source-port
+authors:
+  - name: mrchrisster
+    url: https://github.com/mrchrisster
+platform: standalone
+headsets:
+  - Quest 3
+controls: gamepad
+status: alpha
+version: "v0.2.0"
+version_date: "2026-11-20"
+download_url: https://github.com/mrchrisster/burnout3-quest/releases/latest
+source_url: https://github.com/mrchrisster/burnout3-quest
+license: MIT
+required_files: "Original Xbox disc image (.iso/.xiso) of Burnout 3: Takedown (North America, NTSC-U)"
+known_bugs: []
+notes: Quest port of xenophobentx's Takedawn static recompilation; stereoscopic floating screen plus experimental head-tracked Immersive mode (beta).
+images:
+  - game: "Burnout 3: Takedown"
+    file: images/burnout-3-quest/burnout-3-takedown.png
+    credit: "Burnout 3: Takedown grid by atmur (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/29187
+reviews: []
+added_by: bot
+discovered_via: https://github.com/mrchrisster/burnout3-quest
+last_checked: "2026-11-21"

@@ -8,7 +8,7 @@ authors:
 platform: pcvr
 controls: 6dof
 status: alpha
-version: "0.1.12"
+version: "IridioVR"
 version_date: "2026-11-20"
 download_url: https://github.com/King-EJ/Iridio-VR/releases/latest
 source_url: https://github.com/King-EJ/Iridio-VR
@@ -24,4 +24,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/King-EJ/Iridio-VR
-last_checked: "2026-11-20"
+last_checked: "2026-11-21"

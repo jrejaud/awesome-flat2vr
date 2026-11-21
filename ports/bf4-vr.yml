@@ -1,0 +1,35 @@
+name: BF4-VR
+games:
+  - Battlefield 4
+category: mod
+authors:
+  - name: DanInDev
+    url: https://github.com/DanInDev
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "v0.1.0"
+version_date: "2026-11-03"
+download_url: https://github.com/DanInDev/bf4-vr/releases/latest
+source_url: https://github.com/DanInDev/bf4-vr
+license: MIT
+required_files: A valid copy of Battlefield 4 on PC (campaign only)
+known_bugs: []
+notes: Single-player campaign only; tested on Quest 3 via Steam Link and SteamVR.
+images:
+  - game: Battlefield 4
+    file: images/bf4-vr/battlefield-4.png
+    credit: Battlefield 4 grid by JF0117 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/727965
+reviews:
+  - title: BATTLEFIELD IN VR - Battlefield 4 with the Oculus Rift!
+    channel: Hoopermation VR
+    url: https://www.youtube.com/watch?v=pJi8kur330M
+  - title: VR battlefield 4 ( Gameplay ) " battlefield 4 in VR
+    channel: iplaytomuch
+    url: https://www.youtube.com/watch?v=7dqLbWLsHw0
+added_by: bot
+discovered_via: https://github.com/DanInDev/bf4-vr
+last_checked: "2026-11-21"

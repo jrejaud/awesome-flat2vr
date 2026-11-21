@@ -1,0 +1,28 @@
+name: SCP-CONTAINMENT-BREACH-VR-STANDALONE-ANDROID
+games:
+  - "SCP: Containment Breach"
+category: source-port
+authors:
+  - name: lauti8483
+    url: https://github.com/lauti8483
+platform: standalone
+headsets:
+  - Quest 3
+status: alpha
+version: "ANDROID"
+version_date: "2026-11-20"
+download_url: https://github.com/lauti8483/SCP-CONTAINMENT-BREACH-VR-STANDALONE-ANDROID/releases/latest
+source_url: https://github.com/lauti8483/SCP-CONTAINMENT-BREACH-VR-STANDALONE-ANDROID
+license: unknown
+required_files: "Original SCP: Containment Breach game files and assets"
+known_bugs: []
+notes: Native port of the original game for Android and standalone Meta Quest 3.
+images:
+  - game: "SCP: Containment Breach"
+    file: images/scp-containment-breach-vr-standalone-android/scp-containment-breach.png
+    credit: "SCP: Containment Breach grid by Moohoo (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/504974
+reviews: []
+added_by: bot
+discovered_via: https://github.com/lauti8483/SCP-CONTAINMENT-BREACH-VR-STANDALONE-ANDROID
+last_checked: "2026-11-21"

@@ -1,0 +1,38 @@
+name: DescentVR-Quest
+games:
+  - Descent
+category: source-port
+authors:
+  - name: vcmatias
+    url: https://github.com/vcmatias
+platform: standalone
+headsets:
+  - Quest 3
+  - Quest 3S
+  - Quest 2
+  - Quest Pro
+controls: 6dof
+status: alpha
+version: "v0.1"
+version_date: "2026-11-20"
+download_url: https://github.com/vcmatias/DescentVR-Quest/releases/latest
+source_url: https://github.com/vcmatias/DescentVR-Quest
+license: unknown
+required_files: Original Descent 1 DESCENT.HOG and DESCENT.PIG (free shareware 1.4 desc14sw.zip or the full game from GOG, Steam or CD)
+known_bugs: []
+notes: Built on DXX-Redux via the dxx-vr fork with an OpenXR backend and 3D cockpit; non-commercial use only.
+images:
+  - game: Descent
+    file: images/descentvr-quest/descent.jpg
+    credit: Descent grid by Rick Deckard (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/588729
+reviews:
+  - title: "Survivorman VR: The Descent for Meta Quest"
+    channel: substatica
+    url: https://www.youtube.com/watch?v=lgq4KuqIZoo
+  - title: "Survivorman VR: The Descent - Meta Quest 3 Gameplay | First Minutes [No Commentary]"
+    channel: Meta Quest Central | VR Gameplay
+    url: https://www.youtube.com/watch?v=GjHt_ug7Ykw
+added_by: bot
+discovered_via: https://github.com/vcmatias/DescentVR-Quest
+last_checked: "2026-11-21"

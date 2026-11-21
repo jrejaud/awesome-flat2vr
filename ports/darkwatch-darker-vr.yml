@@ -1,0 +1,33 @@
+name: Darkwatch Darker VR
+games:
+  - Darkwatch
+category: source-port
+authors:
+  - name: stevethetitan92
+    url: https://github.com/stevethetitan92
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v0.7.8-vr6"
+version_date: "2026-11-10"
+download_url: https://github.com/stevethetitan92/DarkwatchDarkerVR/releases/latest
+source_url: https://github.com/stevethetitan92/DarkwatchDarkerVR
+license: unknown
+required_files: Original Darkwatch Xbox ISO/XISO (at least 12 GiB free space for install)
+known_bugs: []
+notes: "VR layer on Linkssy2's Darkwatch: Darker Edition PC port, built on XboxXBERecomp; optional HD texture pack supported."
+images:
+  - game: Darkwatch
+    file: images/darkwatch-darker-vr/darkwatch.png
+    credit: Darkwatch grid by Orion1189 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/346100
+reviews:
+  - title: Darkwatch Darker HD VR Performance / New VR Mod with 6DOF Motion Controls / Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=VsPD1scTDcE
+  - title: Darkwatch Darker VR (WIP)
+    channel: SteveTheTitan
+    url: https://www.youtube.com/watch?v=JTiqWkpD09U
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-21"

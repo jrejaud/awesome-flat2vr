@@ -1,0 +1,27 @@
+name: Echo Generation 2 VR
+games:
+  - Echo Generation 2
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "EchoGeneration2VR"
+version_date: "2026-11-21"
+download_url: https://github.com/King-EJ/Echo-Generation-2/releases/latest
+source_url: https://github.com/King-EJ/Echo-Generation-2
+license: unknown
+required_files: Echo Generation 2 (PC, Unity IL2CPP build)
+known_bugs: []
+notes: v0.1.6 test build, only tested with Virtual Desktop XR; VR controllers act as a virtual Xbox pad and it uses Astien's OpenXR bridge.
+images:
+  - game: Echo Generation 2
+    file: images/echo-generation-2-vr/echo-generation-2.jpg
+    credit: Echo Generation 2 store art
+    source_url: https://store.steampowered.com/app/1115990/
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/Echo-Generation-2
+last_checked: "2026-11-21"

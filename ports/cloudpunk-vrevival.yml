@@ -1,0 +1,35 @@
+name: Cloudpunk VRevival
+games:
+  - Cloudpunk
+category: mod
+authors:
+  - name: NathanKneT
+    url: https://github.com/NathanKneT
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.3.0"
+version_date: "2026-11-20"
+download_url: https://github.com/NathanKneT/CloudpunkVRevival/releases/latest
+source_url: https://github.com/NathanKneT/CloudpunkVRevival
+license: MIT
+required_files: Cloudpunk (Steam, PC)
+known_bugs:
+  - Early version with rough edges; only tested on PS VR2, other headsets untested
+  - Steam Desktop Game Theatre prompt may block launch
+notes: Uses BepInEx; includes cockpit grab interactions, wrist UI, comfort options and PS VR2 adaptive triggers/eye select.
+images:
+  - game: Cloudpunk
+    file: images/cloudpunk-vrevival/cloudpunk.png
+    credit: Cloudpunk grid by badblokebob (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/870007
+reviews:
+  - title: Cloudpunk VR and other VR mods from Astien
+    channel: Pavel419
+    url: https://www.youtube.com/watch?v=S_uS-kk7tHA
+  - title: Cloudpunk VR Mod ... Cyberpunk with pixel art [Tutorial/Gameplay/Conclusion]
+    channel: Hoshi82
+    url: https://www.youtube.com/watch?v=T92e_QBP97c
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-21"

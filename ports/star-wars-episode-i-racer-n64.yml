@@ -1,0 +1,37 @@
+name: "Star Wars Episode I: Racer (N64)"
+games:
+  - "Star Wars Episode I: Racer (N64)"
+category: source-port
+authors:
+  - name: GameOrDie007
+    url: https://github.com/GameOrDie007
+platform: both
+headsets:
+  - Quest 3
+  - Steam Frame
+controls: mixed
+status: stable
+version: "v1.0"
+version_date: "2026-11-21"
+download_url: https://github.com/GameOrDie007/Star-Wars-Episode-I-Racer-N64/releases/latest
+source_url: https://github.com/GameOrDie007/Star-Wars-Episode-I-Racer-N64
+homepage: https://gameordie.net
+license: proprietary
+required_files: "Own N64 cartridge file of Star Wars Episode I: Racer (USA, first release; .z64, .n64 or .v64)"
+known_bugs: []
+notes: Native program built from the author's own decompilation, not an emulator; source code is not public.
+images:
+  - game: "Star Wars Episode I: Racer (N64)"
+    file: images/star-wars-episode-i-racer-n64/star-wars-episode-i-racer.png
+    credit: "Star Wars Episode I: Racer grid by traintrash (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/714416
+reviews:
+  - title: "Nintendo 64 Longplay [048] Star Wars Episode I: Racer"
+    channel: World-of-Longplays
+    url: https://www.youtube.com/watch?v=wNTNq4GkLGo
+  - title: "Longplay of Star Wars: Episode I — Racer (HD)"
+    channel: LongplayArchive
+    url: https://www.youtube.com/watch?v=I1_xZ5bZoEw
+added_by: bot
+discovered_via: https://github.com/GameOrDie007/Star-Wars-Episode-I-Racer-N64
+last_checked: "2026-11-21"

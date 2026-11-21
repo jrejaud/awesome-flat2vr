@@ -1,0 +1,32 @@
+name: DeusExHRVR
+games:
+  - "Deus Ex: Human Revolution - Director's Cut"
+category: mod
+authors:
+  - name: BuckleBean
+    url: https://github.com/BuckleBean
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.7.0"
+version_date: "2026-11-18"
+download_url: https://github.com/BuckleBean/DeusExHRVR/releases/latest
+source_url: https://github.com/BuckleBean/DeusExHRVR
+license: LGPL-2.1
+required_files: "Steam Deus Ex: Human Revolution Director's Cut (DXHRDC 2.0.66.0)"
+known_bugs:
+  - Weapon visibility at extreme viewing angles needs more testing
+  - Untested missions/effects may have issues
+notes: Fork of farmerarmor/DeusExHRVR using the native AMD HD3D stereo renderer with OpenXR tracking; v0.7.0 adds a hand/wrist HUD.
+images:
+  - game: "Deus Ex: Human Revolution - Director's Cut"
+    file: images/deusexhrvr/deus-ex-human-revolution-director-s-cut.jpg
+    credit: "Deus Ex: Human Revolution - Director's Cut grid by al0kta (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/782273
+reviews:
+  - title: "Deus Ex: Human Revolution - Director's Cut VR Performance / VR Mod with 6DOF Motion Controls / PCVR"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=OJZuw_7DTdw
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-21"

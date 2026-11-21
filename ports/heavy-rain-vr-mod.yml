@@ -1,0 +1,36 @@
+name: Heavy Rain VR Mod
+games:
+  - Heavy Rain
+category: mod
+authors:
+  - name: adore11s
+    url: https://github.com/adore11s
+platform: pcvr
+controls: mixed
+status: alpha
+version: "v1.0.0"
+version_date: "2026-11-20"
+download_url: https://github.com/adore11s/Heavy-Rain-VR-Mod/releases/latest
+source_url: https://github.com/adore11s/Heavy-Rain-VR-Mod
+license: MIT
+required_files: Heavy Rain (PC) from Steam, Epic or GOG
+known_bugs:
+  - "Play-testing release: expect bugs; not yet played through the whole game"
+  - First person and motion controls still being tuned
+  - Other headsets and Epic/GOG copies less tested
+notes: Native stereo 6DoF head tracking via OpenXR with optional first-person motion-controller arms and finger detection; tested on PS VR2 with SteamVR.
+images:
+  - game: Heavy Rain
+    file: images/heavy-rain-vr-mod/heavy-rain.png
+    credit: Heavy Rain grid by EthanBB (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/33186
+reviews:
+  - title: Heavy rain in Singapore is brutal in VR
+    channel: Captain Peanut
+    url: https://www.youtube.com/watch?v=RURoYffUNoY
+  - title: Heavy Rain VR Performance / New VR Mod With First Person Mode in True 3D / PCVR
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=BpTKW8VR3OU
+added_by: bot
+discovered_via: https://github.com/adore11s/Heavy-Rain-VR-Mod
+last_checked: "2026-11-21"

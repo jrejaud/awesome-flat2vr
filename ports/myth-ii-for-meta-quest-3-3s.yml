@@ -11,8 +11,8 @@ headsets:
   - Quest 3S
 controls: mixed
 status: beta
-version: "v0.4.0-beta"
-version_date: "2026-11-19"
+version: "v0.5.0-beta"
+version_date: "2026-11-20"
 download_url: https://github.com/Snail921/Myth-II-for-Meta-Quest3-3S/releases/latest
 source_url: https://github.com/Snail921/Myth-II-for-Meta-Quest3-3S
 license: unknown
@@ -27,4 +27,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/Snail921/Myth-II-for-Meta-Quest3-3S
-last_checked: "2026-11-20"
+last_checked: "2026-11-21"

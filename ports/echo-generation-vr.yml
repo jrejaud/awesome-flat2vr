@@ -1,0 +1,27 @@
+name: Echo Generation VR
+games:
+  - Echo Generation (Midnight Edition)
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: mixed
+status: alpha
+version: "0.1.3"
+version_date: "2026-11-21"
+download_url: https://github.com/King-EJ/Echo-Generation/releases/latest
+source_url: https://github.com/King-EJ/Echo-Generation
+license: unknown
+required_files: Echo Generation (Midnight Edition) PC install
+known_bugs: []
+notes: Unity IL2CPP mod using Astien's OpenXR bridge; VR controllers act as a virtual Xbox pad, with first/third person views and arm IK.
+images:
+  - game: Echo Generation (Midnight Edition)
+    file: images/echo-generation-vr/echo-generation.jpg
+    credit: Echo Generation grid by QuangPham (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/416476
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/Echo-Generation
+last_checked: "2026-11-21"

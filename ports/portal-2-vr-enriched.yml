@@ -1,0 +1,43 @@
+name: Portal 2 VR Enriched
+games:
+  - Portal 2
+  - "Portal: Alive & Kicking"
+category: mod
+authors:
+  - name: oxenar7
+    url: https://github.com/oxenar7
+platform: pcvr
+headsets:
+  - Quest 3
+  - Steam Frame
+controls: 6dof
+status: stable
+version: "v1.1.0"
+version_date: "2026-11-20"
+download_url: https://github.com/oxenar7/portal2-vr-enriched/releases/latest
+source_url: https://github.com/oxenar7/portal2-vr-enriched
+license: GPL-3.0
+required_files: "Own copy of Portal 2 (Windows Steam version); Portal: Alive & Kicking for that campaign"
+known_bugs:
+  - Hooks are tied to the current Steam build of Portal 2, so a game update can disable them until the mod is updated.
+  - The final co-op gesture needs a keyboard key.
+notes: Fork of Gistix/portal2vr and mmadej20/portal2vr-ultimate (SteamVR/OpenVR, 32-bit Source/DX9 hooking with modified DXVK); tested on Quest 3 via Virtual Desktop.
+images:
+  - game: Portal 2
+    file: images/portal-2-vr-enriched/portal-2.png
+    credit: Portal 2 grid by Naymarak (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/368548
+  - game: "Portal: Alive & Kicking"
+    file: images/portal-2-vr-enriched/portal-alive-kicking.png
+    credit: "Portal: Alive & Kicking grid by FieryFenX (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/833908
+reviews:
+  - title: Can You Beat Portal 2 in VR Without Barfing?
+    channel: NerdFuel
+    url: https://www.youtube.com/watch?v=Zv4ewU5akoQ
+  - title: Portal 2 VR Mod - A Masterpiece Brought To VR!
+    channel: Virtual Reality Oasis
+    url: https://www.youtube.com/watch?v=OnFCTqKJP80
+added_by: bot
+discovered_via: https://github.com/oxenar7/portal2-vr-enriched
+last_checked: "2026-11-21"

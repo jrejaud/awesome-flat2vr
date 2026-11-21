@@ -1,0 +1,29 @@
+name: Futurama Quest
+games:
+  - Futurama (2003)
+category: source-port
+authors:
+  - name: mrchrisster
+    url: https://github.com/mrchrisster
+platform: standalone
+headsets:
+  - Quest 3
+controls: gamepad
+status: alpha
+version: "v0.1.6"
+version_date: "2026-11-18"
+download_url: https://github.com/mrchrisster/futurama-quest/releases/latest
+source_url: https://github.com/mrchrisster/futurama-quest
+license: CC0-1.0
+required_files: Original Xbox Futurama (NTSC-U or PAL) disc image (.iso) or extracted disc files (default.xbe + assets)
+known_bugs: []
+notes: Port of hiburn8/Futurama-The-Game-The-Recomp; renders the game in a stereoscopic 3D floating window over passthrough, with a flat HUD.
+images:
+  - game: Futurama (2003)
+    file: images/futurama-quest/futurama.png
+    credit: Futurama grid by scandro1d (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/468805
+reviews: []
+added_by: bot
+discovered_via: https://github.com/mrchrisster/futurama-quest
+last_checked: "2026-11-21"
