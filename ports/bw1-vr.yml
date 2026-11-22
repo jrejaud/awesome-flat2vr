@@ -10,8 +10,8 @@ headsets:
   - Quest 3
 controls: 6dof
 status: alpha
-version: "v1.2.0-20261020-fd7f198"
-version_date: "2026-10-20"
+version: "v1.3.0-20261121-76d046a"
+version_date: "2026-11-21"
 download_url: https://github.com/BW1-VR/BW1-VR/releases/latest
 source_url: https://github.com/BW1-VR/BW1-VR
 license: unknown
@@ -32,4 +32,4 @@ reviews:
     url: https://www.youtube.com/watch?v=uo5Q8LV3hTM
 added_by: bot
 discovered_via: https://github.com/BW1-VR/BW1-VR
-last_checked: "2026-10-28"
+last_checked: "2026-11-22"

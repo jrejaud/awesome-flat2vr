@@ -9,8 +9,8 @@ platform: standalone
 headsets:
   - Quest 3
 status: alpha
-version: "ANDROID"
-version_date: "2026-11-20"
+version: "ANDROID1"
+version_date: "2026-11-21"
 download_url: https://github.com/lauti8483/SCP-CONTAINMENT-BREACH-VR-STANDALONE-ANDROID/releases/latest
 source_url: https://github.com/lauti8483/SCP-CONTAINMENT-BREACH-VR-STANDALONE-ANDROID
 license: unknown
@@ -25,4 +25,4 @@ images:
 reviews: []
 added_by: bot
 discovered_via: https://github.com/lauti8483/SCP-CONTAINMENT-BREACH-VR-STANDALONE-ANDROID
-last_checked: "2026-11-21"
+last_checked: "2026-11-22"

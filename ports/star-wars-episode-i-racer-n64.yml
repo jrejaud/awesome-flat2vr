@@ -11,8 +11,8 @@ headsets:
   - Steam Frame
 controls: mixed
 status: stable
-version: "v1.0"
-version_date: "2026-11-21"
+version: "v1.0.1"
+version_date: "2026-11-22"
 download_url: https://github.com/GameOrDie007/Star-Wars-Episode-I-Racer-N64/releases/latest
 source_url: https://github.com/GameOrDie007/Star-Wars-Episode-I-Racer-N64
 homepage: https://gameordie.net
@@ -34,4 +34,4 @@ reviews:
     url: https://www.youtube.com/watch?v=I1_xZ5bZoEw
 added_by: bot
 discovered_via: https://github.com/GameOrDie007/Star-Wars-Episode-I-Racer-N64
-last_checked: "2026-11-21"
+last_checked: "2026-11-22"

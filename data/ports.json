@@ -1011,8 +1011,8 @@
     ],
     "controls": "gamepad",
     "status": "alpha",
-    "version": "v0.1.1",
-    "version_date": "2026-11-10",
+    "version": "v0.2.0",
+    "version_date": "2026-11-22",
     "download_url": "https://github.com/simplysanatori/AwakeningFrame/releases/latest",
     "source_url": "https://github.com/simplysanatori/AwakeningFrame",
     "license": "unknown",
@@ -1041,7 +1041,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/simplysanatori/AwakeningFrame",
-    "last_checked": "2026-11-11"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "banjo-kazooie-vr",
@@ -1490,8 +1490,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v1.0.0",
-    "version_date": "2026-11-06",
+    "version": "v1.1.0",
+    "version_date": "2026-11-21",
     "download_url": "https://github.com/adore11s/Beyond-Two-Souls-VR-Mod/releases/latest",
     "source_url": "https://github.com/adore11s/Beyond-Two-Souls-VR-Mod",
     "license": "MIT",
@@ -1512,7 +1512,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/adore11s/Beyond-Two-Souls-VR-Mod",
-    "last_checked": "2026-11-07"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "bf2142vr",
@@ -2266,8 +2266,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "vr-2026.11.12",
-    "version_date": "2026-11-12",
+    "version": "vr-2026.11.21",
+    "version_date": "2026-11-21",
     "download_url": "https://github.com/guideahon/BOTW-VR-RECOMP/releases/latest",
     "source_url": "https://github.com/guideahon/BOTW-VR-RECOMP",
     "license": "unknown",
@@ -2287,7 +2287,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/guideahon/BOTW-VR-RECOMP",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "brick-buddies-vr",
@@ -2545,8 +2545,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v1.2.0-20261020-fd7f198",
-    "version_date": "2026-10-20",
+    "version": "v1.3.0-20261121-76d046a",
+    "version_date": "2026-11-21",
     "download_url": "https://github.com/BW1-VR/BW1-VR/releases/latest",
     "source_url": "https://github.com/BW1-VR/BW1-VR",
     "license": "unknown",
@@ -2575,7 +2575,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/BW1-VR/BW1-VR",
-    "last_checked": "2026-10-28"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "c12-recomp",
@@ -4144,8 +4144,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v1392",
-    "version_date": "2026-11-17",
+    "version": "v1457",
+    "version_date": "2026-11-21",
     "download_url": "https://github.com/Hollownett/dishonored2-vr/releases/latest",
     "source_url": "https://github.com/Hollownett/dishonored2-vr",
     "license": "unknown",
@@ -4176,7 +4176,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/Hollownett/dishonored2-vr",
-    "last_checked": "2026-11-20"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "disney-dreamlight-valley-vr",
@@ -4706,7 +4706,7 @@
     "platform": "pcvr",
     "controls": "mixed",
     "status": "alpha",
-    "version": "0.1.3",
+    "version": "EchoGenerationVR",
     "version_date": "2026-11-21",
     "download_url": "https://github.com/King-EJ/Echo-Generation/releases/latest",
     "source_url": "https://github.com/King-EJ/Echo-Generation",
@@ -4725,7 +4725,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/King-EJ/Echo-Generation",
-    "last_checked": "2026-11-21"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "edf6vr",
@@ -4925,8 +4925,8 @@
     ],
     "controls": "mixed",
     "status": "alpha",
-    "version": "v0.1.99",
-    "version_date": "2026-11-20",
+    "version": "v0.1.100",
+    "version_date": "2026-11-21",
     "download_url": "https://github.com/ArcadaLabs-Jason/EternalVR/releases/latest",
     "source_url": "https://github.com/ArcadaLabs-Jason/EternalVR",
     "homepage": "https://ko-fi.com/FanciestPeanut",
@@ -4956,7 +4956,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/ArcadaLabs-Jason/EternalVR",
-    "last_checked": "2026-11-21"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "f-e-a-r-vr-mod-extraction-point-perseus-mandate",
@@ -6454,8 +6454,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.5.22",
-    "version_date": "2026-11-20",
+    "version": "v0.5.24",
+    "version_date": "2026-11-22",
     "download_url": "https://github.com/MrSco/goldeneye-vr/releases/latest",
     "source_url": "https://github.com/MrSco/goldeneye-vr",
     "homepage": "https://goldeneyevr.com",
@@ -6485,7 +6485,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/mrsco/goldeneye-vr",
-    "last_checked": "2026-11-21"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "gothic-ii-vr",
@@ -6848,8 +6848,8 @@
     ],
     "controls": "mixed",
     "status": "beta",
-    "version": "v0.7.0",
-    "version_date": "2026-11-20",
+    "version": "v0.7.1",
+    "version_date": "2026-11-22",
     "download_url": "https://github.com/matt-pulsipher/GT3-revisited/releases/latest",
     "source_url": "https://github.com/matt-pulsipher/GT3-revisited",
     "license": "MIT",
@@ -6878,7 +6878,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://discord.gg/flat2vr",
-    "last_checked": "2026-11-20"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "gt4-vr",
@@ -7811,8 +7811,8 @@
     "platform": "pcvr",
     "controls": "mixed",
     "status": "alpha",
-    "version": "v1.0.0",
-    "version_date": "2026-11-20",
+    "version": "v1.1",
+    "version_date": "2026-11-21",
     "download_url": "https://github.com/adore11s/Heavy-Rain-VR-Mod/releases/latest",
     "source_url": "https://github.com/adore11s/Heavy-Rain-VR-Mod",
     "license": "MIT",
@@ -7845,7 +7845,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/adore11s/Heavy-Rain-VR-Mod",
-    "last_checked": "2026-11-21"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "herdling-vr",
@@ -8018,8 +8018,8 @@
     ],
     "controls": "6dof",
     "status": "stable",
-    "version": "1.02",
-    "version_date": "2026-11-11",
+    "version": "1.03.1",
+    "version_date": "2026-11-21",
     "download_url": "https://github.com/alferiko/half-life-2-stanalone-quest-releases/releases/latest",
     "source_url": "https://github.com/alferiko/half-life-2-stanalone-quest-releases",
     "homepage": "https://sidequestvr.com/app/64057",
@@ -8079,7 +8079,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://sidequestvr.com/app/64057",
-    "last_checked": "2026-11-12"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "horizon-vivecraft-vr",
@@ -8959,8 +8959,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.3.61",
-    "version_date": "2026-11-10",
+    "version": "v0.3.64",
+    "version_date": "2026-11-21",
     "download_url": "https://github.com/andreystashev/kane-lynch-vr-showcase/releases/latest",
     "source_url": "https://github.com/andreystashev/kane-lynch-vr-showcase",
     "license": "unknown",
@@ -8986,7 +8986,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/andreystashev/kane-lynch-vr-showcase",
-    "last_checked": "2026-11-11"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "kcd1vr",
@@ -10627,8 +10627,8 @@
     ],
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.5.3",
-    "version_date": "2026-11-20",
+    "version": "v1.6.1",
+    "version_date": "2026-11-21",
     "download_url": "https://github.com/VEEERRR77/Moon-Sweepers-VR/releases/latest",
     "source_url": "https://github.com/VEEERRR77/Moon-Sweepers-VR",
     "license": "unknown",
@@ -10650,7 +10650,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/VEEERRR77/Moon-Sweepers-VR",
-    "last_checked": "2026-11-21"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "mothervr",
@@ -12323,8 +12323,8 @@
     ],
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.1.0",
-    "version_date": "2026-11-20",
+    "version": "v1.1.2",
+    "version_date": "2026-11-21",
     "download_url": "https://github.com/oxenar7/portal2-vr-enriched/releases/latest",
     "source_url": "https://github.com/oxenar7/portal2-vr-enriched",
     "license": "GPL-3.0",
@@ -12362,7 +12362,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/oxenar7/portal2-vr-enriched",
-    "last_checked": "2026-11-21"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "portal-revolution-vr-mod",
@@ -12380,8 +12380,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v1.5",
-    "version_date": "2026-11-17",
+    "version": "v1.6",
+    "version_date": "2026-11-21",
     "download_url": "https://github.com/stsichler/portal_revolution_vr/releases/latest",
     "source_url": "https://github.com/stsichler/portal_revolution_vr",
     "license": "GPL-3.0",
@@ -12402,7 +12402,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/stsichler/portal_revolution_vr",
-    "last_checked": "2026-11-20"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "power-moon-vr",
@@ -14978,8 +14978,8 @@
       "Quest 3"
     ],
     "status": "alpha",
-    "version": "ANDROID",
-    "version_date": "2026-11-20",
+    "version": "ANDROID1",
+    "version_date": "2026-11-21",
     "download_url": "https://github.com/lauti8483/SCP-CONTAINMENT-BREACH-VR-STANDALONE-ANDROID/releases/latest",
     "source_url": "https://github.com/lauti8483/SCP-CONTAINMENT-BREACH-VR-STANDALONE-ANDROID",
     "license": "unknown",
@@ -14997,7 +14997,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/lauti8483/SCP-CONTAINMENT-BREACH-VR-STANDALONE-ANDROID",
-    "last_checked": "2026-11-21"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "scrap-mechanic-native-vr",
@@ -16507,8 +16507,8 @@
     ],
     "controls": "mixed",
     "status": "stable",
-    "version": "v1.0",
-    "version_date": "2026-11-21",
+    "version": "v1.0.1",
+    "version_date": "2026-11-22",
     "download_url": "https://github.com/GameOrDie007/Star-Wars-Episode-I-Racer-N64/releases/latest",
     "source_url": "https://github.com/GameOrDie007/Star-Wars-Episode-I-Racer-N64",
     "homepage": "https://gameordie.net",
@@ -16538,7 +16538,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/GameOrDie007/Star-Wars-Episode-I-Racer-N64",
-    "last_checked": "2026-11-21"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "submersedvr",
@@ -17772,8 +17772,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v1.6.2",
-    "version_date": "2026-11-21",
+    "version": "v1.6.3",
+    "version_date": "2026-11-22",
     "download_url": "https://github.com/petonexus/tocs-vr-releases/releases/latest",
     "source_url": "https://github.com/petonexus/tocs-vr-releases",
     "homepage": "https://www.trailsvr.pro",
@@ -17794,7 +17794,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/petonexus/tocs-vr-releases",
-    "last_checked": "2026-11-21"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "turbo-overkill-vr-mod",
@@ -18743,8 +18743,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.5.1",
-    "version_date": "2026-11-16",
+    "version": "v0.6.0",
+    "version_date": "2026-11-21",
     "download_url": "https://github.com/VR-WakerHD/VR-WakerHD/releases/latest",
     "source_url": "https://github.com/VR-WakerHD/VR-WakerHD",
     "license": "MPL-2.0",
@@ -18777,7 +18777,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/VR-WakerHD/VR-WakerHD",
-    "last_checked": "2026-11-16"
+    "last_checked": "2026-11-22"
   },
   {
     "slug": "vrg",
