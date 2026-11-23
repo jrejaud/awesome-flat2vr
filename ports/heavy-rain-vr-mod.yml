@@ -8,8 +8,8 @@ authors:
 platform: pcvr
 controls: mixed
 status: alpha
-version: "v1.1"
-version_date: "2026-11-21"
+version: "v1.2"
+version_date: "2026-11-22"
 download_url: https://github.com/adore11s/Heavy-Rain-VR-Mod/releases/latest
 source_url: https://github.com/adore11s/Heavy-Rain-VR-Mod
 license: MIT
@@ -33,4 +33,4 @@ reviews:
     url: https://www.youtube.com/watch?v=BpTKW8VR3OU
 added_by: bot
 discovered_via: https://github.com/adore11s/Heavy-Rain-VR-Mod
-last_checked: "2026-11-22"
+last_checked: "2026-11-23"

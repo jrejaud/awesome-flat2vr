@@ -11,8 +11,8 @@ headsets:
   - Quest 3
 controls: 6dof
 status: beta
-version: "stable-26768221.1"
-version_date: "2026-11-20"
+version: "stable-26768221.2"
+version_date: "2026-11-22"
 download_url: https://github.com/Hochgeschwindigkeitsrennfahrer/black-mesa-vr/releases/latest
 source_url: https://github.com/Hochgeschwindigkeitsrennfahrer/black-mesa-vr
 license: unknown
@@ -41,4 +41,4 @@ reviews:
     url: https://www.youtube.com/watch?v=2yywvDLK5iA
 added_by: bot
 discovered_via: https://github.com/Hochgeschwindigkeitsrennfahrer/black-mesa-vr
-last_checked: "2026-11-21"
+last_checked: "2026-11-23"

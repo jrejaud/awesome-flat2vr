@@ -1011,7 +1011,7 @@
     ],
     "controls": "gamepad",
     "status": "alpha",
-    "version": "v0.2.0",
+    "version": "v0.2.1",
     "version_date": "2026-11-22",
     "download_url": "https://github.com/simplysanatori/AwakeningFrame/releases/latest",
     "source_url": "https://github.com/simplysanatori/AwakeningFrame",
@@ -1041,7 +1041,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/simplysanatori/AwakeningFrame",
-    "last_checked": "2026-11-22"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "banjo-kazooie-vr",
@@ -1879,8 +1879,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "stable-26768221.1",
-    "version_date": "2026-11-20",
+    "version": "stable-26768221.2",
+    "version_date": "2026-11-22",
     "download_url": "https://github.com/Hochgeschwindigkeitsrennfahrer/black-mesa-vr/releases/latest",
     "source_url": "https://github.com/Hochgeschwindigkeitsrennfahrer/black-mesa-vr",
     "license": "unknown",
@@ -1920,7 +1920,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/Hochgeschwindigkeitsrennfahrer/black-mesa-vr",
-    "last_checked": "2026-11-21"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "black-ops-vr",
@@ -2266,8 +2266,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "vr-2026.11.21",
-    "version_date": "2026-11-21",
+    "version": "vr-2026.11.22.2",
+    "version_date": "2026-11-23",
     "download_url": "https://github.com/guideahon/BOTW-VR-RECOMP/releases/latest",
     "source_url": "https://github.com/guideahon/BOTW-VR-RECOMP",
     "license": "unknown",
@@ -2287,7 +2287,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/guideahon/BOTW-VR-RECOMP",
-    "last_checked": "2026-11-22"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "brick-buddies-vr",
@@ -2813,8 +2813,8 @@
     "platform": "pcvr",
     "controls": "gamepad",
     "status": "alpha",
-    "version": "v1.0.0",
-    "version_date": "2026-11-02",
+    "version": "dirt4vr-v1.1.0",
+    "version_date": "2026-11-22",
     "download_url": "https://github.com/drowhunter/CodiesVR/releases/latest",
     "source_url": "https://github.com/drowhunter/CodiesVR",
     "license": "GPL-3.0",
@@ -2851,7 +2851,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/drowhunter/CodiesVR",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "cold-rails-vr",
@@ -3433,8 +3433,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.221.0",
-    "version_date": "2026-11-20",
+    "version": "v0.222.0",
+    "version_date": "2026-11-22",
     "download_url": "https://github.com/natpoh/diablo2-vr-port/releases/latest",
     "source_url": "https://github.com/natpoh/diablo2-vr-port",
     "homepage": "https://bodywalkvr.com/mods/d2r-vr",
@@ -3464,7 +3464,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/natpoh/diablo2-vr-port",
-    "last_checked": "2026-11-21"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "darkwatch-darker-vr",
@@ -4925,8 +4925,8 @@
     ],
     "controls": "mixed",
     "status": "alpha",
-    "version": "v0.1.100",
-    "version_date": "2026-11-21",
+    "version": "v0.1.101",
+    "version_date": "2026-11-22",
     "download_url": "https://github.com/ArcadaLabs-Jason/EternalVR/releases/latest",
     "source_url": "https://github.com/ArcadaLabs-Jason/EternalVR",
     "homepage": "https://ko-fi.com/FanciestPeanut",
@@ -4956,7 +4956,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/ArcadaLabs-Jason/EternalVR",
-    "last_checked": "2026-11-22"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "f-e-a-r-vr-mod-extraction-point-perseus-mandate",
@@ -6243,8 +6243,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.20.5",
-    "version_date": "2026-11-16",
+    "version": "v0.21.0",
+    "version_date": "2026-11-23",
     "download_url": "https://github.com/Firejumper93/GhostReconWildlandsVR/releases/latest",
     "source_url": "https://github.com/Firejumper93/GhostReconWildlandsVR",
     "license": "unknown",
@@ -6276,7 +6276,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/Firejumper93/GhostReconWildlandsVR",
-    "last_checked": "2026-11-16"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "gloomhavenvr",
@@ -6294,8 +6294,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.2.4",
-    "version_date": "2026-11-10",
+    "version": "v1.2.5",
+    "version_date": "2026-11-22",
     "download_url": "https://github.com/McFredward/GloomhavenVR/releases/latest",
     "source_url": "https://github.com/McFredward/GloomhavenVR",
     "license": "GPL-3.0",
@@ -6324,7 +6324,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/McFredward/GloomhavenVR",
-    "last_checked": "2026-11-11"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "goatvr",
@@ -6454,8 +6454,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.5.24",
-    "version_date": "2026-11-22",
+    "version": "v0.5.25",
+    "version_date": "2026-11-23",
     "download_url": "https://github.com/MrSco/goldeneye-vr/releases/latest",
     "source_url": "https://github.com/MrSco/goldeneye-vr",
     "homepage": "https://goldeneyevr.com",
@@ -6485,7 +6485,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/mrsco/goldeneye-vr",
-    "last_checked": "2026-11-22"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "gothic-ii-vr",
@@ -6848,8 +6848,8 @@
     ],
     "controls": "mixed",
     "status": "beta",
-    "version": "v0.7.1",
-    "version_date": "2026-11-22",
+    "version": "v0.8.0",
+    "version_date": "2026-11-23",
     "download_url": "https://github.com/matt-pulsipher/GT3-revisited/releases/latest",
     "source_url": "https://github.com/matt-pulsipher/GT3-revisited",
     "license": "MIT",
@@ -6878,7 +6878,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://discord.gg/flat2vr",
-    "last_checked": "2026-11-22"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "gt4-vr",
@@ -7811,8 +7811,8 @@
     "platform": "pcvr",
     "controls": "mixed",
     "status": "alpha",
-    "version": "v1.1",
-    "version_date": "2026-11-21",
+    "version": "v1.2",
+    "version_date": "2026-11-22",
     "download_url": "https://github.com/adore11s/Heavy-Rain-VR-Mod/releases/latest",
     "source_url": "https://github.com/adore11s/Heavy-Rain-VR-Mod",
     "license": "MIT",
@@ -7845,7 +7845,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/adore11s/Heavy-Rain-VR-Mod",
-    "last_checked": "2026-11-22"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "herdling-vr",
@@ -8959,8 +8959,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.3.64",
-    "version_date": "2026-11-21",
+    "version": "v0.3.65",
+    "version_date": "2026-11-22",
     "download_url": "https://github.com/andreystashev/kane-lynch-vr-showcase/releases/latest",
     "source_url": "https://github.com/andreystashev/kane-lynch-vr-showcase",
     "license": "unknown",
@@ -8986,7 +8986,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/andreystashev/kane-lynch-vr-showcase",
-    "last_checked": "2026-11-22"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "kcd1vr",
@@ -10585,8 +10585,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v1.3",
-    "version_date": "2026-11-14",
+    "version": "v1.4",
+    "version_date": "2026-11-22",
     "download_url": "https://github.com/CaptainBrannigan/WarfighterVR/releases/latest",
     "source_url": "https://github.com/CaptainBrannigan/WarfighterVR",
     "license": "unknown",
@@ -10606,7 +10606,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/CaptainBrannigan/WarfighterVR",
-    "last_checked": "2026-11-15"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "moon-sweepers-vr",
@@ -10823,8 +10823,8 @@
     ],
     "controls": "mixed",
     "status": "beta",
-    "version": "v0.5.0-beta",
-    "version_date": "2026-11-20",
+    "version": "v0.5.0-pbr-like.1",
+    "version_date": "2026-11-22",
     "download_url": "https://github.com/Snail921/Myth-II-for-Meta-Quest3-3S/releases/latest",
     "source_url": "https://github.com/Snail921/Myth-II-for-Meta-Quest3-3S",
     "license": "unknown",
@@ -10842,7 +10842,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/Snail921/Myth-II-for-Meta-Quest3-3S",
-    "last_checked": "2026-11-21"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "need-for-speed-underground-2-vr",
@@ -11190,8 +11190,8 @@
     ],
     "platform": "pcvr",
     "status": "alpha",
-    "version": "v0.9.68",
-    "version_date": "2026-11-19",
+    "version": "v0.9.7",
+    "version_date": "2026-11-22",
     "download_url": "https://github.com/bldbrne-vr/bldbrne-vr/releases/latest",
     "source_url": "https://github.com/bldbrne-vr/bldbrne-vr",
     "license": "unknown",
@@ -11220,7 +11220,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/bldbrne-vr/bldbrne-vr",
-    "last_checked": "2026-11-20"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "ninja-assault-vr",
@@ -12380,8 +12380,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v1.6",
-    "version_date": "2026-11-21",
+    "version": "v1.7.2",
+    "version_date": "2026-11-22",
     "download_url": "https://github.com/stsichler/portal_revolution_vr/releases/latest",
     "source_url": "https://github.com/stsichler/portal_revolution_vr",
     "license": "GPL-3.0",
@@ -12402,7 +12402,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/stsichler/portal_revolution_vr",
-    "last_checked": "2026-11-22"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "power-moon-vr",
@@ -14316,8 +14316,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v1.5.1",
-    "version_date": "2026-11-08",
+    "version": "v1.5.2",
+    "version_date": "2026-11-22",
     "download_url": "https://github.com/neto1495mn-sudo/recvx-enhanced-port-pcvr/releases/latest",
     "source_url": "https://github.com/neto1495mn-sudo/recvx-enhanced-port-pcvr",
     "homepage": "https://sidequestvr.com/app/63846",
@@ -14350,7 +14350,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://sidequestvr.com/app/63846",
-    "last_checked": "2026-11-09"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "resonance-of-fate-vr",
@@ -16507,7 +16507,7 @@
     ],
     "controls": "mixed",
     "status": "stable",
-    "version": "v1.0.1",
+    "version": "v1.0.2",
     "version_date": "2026-11-22",
     "download_url": "https://github.com/GameOrDie007/Star-Wars-Episode-I-Racer-N64/releases/latest",
     "source_url": "https://github.com/GameOrDie007/Star-Wars-Episode-I-Racer-N64",
@@ -16538,7 +16538,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/GameOrDie007/Star-Wars-Episode-I-Racer-N64",
-    "last_checked": "2026-11-22"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "submersedvr",
@@ -17772,8 +17772,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v1.6.3",
-    "version_date": "2026-11-22",
+    "version": "v1.6.4",
+    "version_date": "2026-11-23",
     "download_url": "https://github.com/petonexus/tocs-vr-releases/releases/latest",
     "source_url": "https://github.com/petonexus/tocs-vr-releases",
     "homepage": "https://www.trailsvr.pro",
@@ -17794,7 +17794,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/petonexus/tocs-vr-releases",
-    "last_checked": "2026-11-22"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "turbo-overkill-vr-mod",
@@ -17899,8 +17899,8 @@
     ],
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.0.3",
-    "version_date": "2026-11-11",
+    "version": "v1.0.4",
+    "version_date": "2026-11-22",
     "download_url": "https://github.com/liper76/TWFC-VR/releases/latest",
     "source_url": "https://github.com/liper76/TWFC-VR",
     "license": "unknown",
@@ -17931,7 +17931,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/liper76/TWFC-VR",
-    "last_checked": "2026-11-12"
+    "last_checked": "2026-11-23"
   },
   {
     "slug": "twisted-tower-vr-mod",

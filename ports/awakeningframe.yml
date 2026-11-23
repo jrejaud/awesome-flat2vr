@@ -10,7 +10,7 @@ headsets:
   - Steam Frame
 controls: gamepad
 status: alpha
-version: "v0.2.0"
+version: "v0.2.1"
 version_date: "2026-11-22"
 download_url: https://github.com/simplysanatori/AwakeningFrame/releases/latest
 source_url: https://github.com/simplysanatori/AwakeningFrame
@@ -32,4 +32,4 @@ reviews:
     url: https://www.youtube.com/watch?v=-fjYsHfPfe0
 added_by: bot
 discovered_via: https://github.com/simplysanatori/AwakeningFrame
-last_checked: "2026-11-22"
+last_checked: "2026-11-23"
