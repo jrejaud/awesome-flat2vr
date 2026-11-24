@@ -1,0 +1,35 @@
+name: CloudpunkVR
+games:
+  - Cloudpunk
+category: mod
+authors:
+  - name: Phantivia
+    url: https://github.com/Phantivia
+platform: pcvr
+headsets:
+  - Quest 3
+controls: mixed
+status: alpha
+version: "v0.1.0"
+version_date: "2026-11-23"
+download_url: https://github.com/Phantivia/CloudpunkVR/releases/latest
+source_url: https://github.com/Phantivia/CloudpunkVR
+license: MIT
+required_files: Cloudpunk on Steam (built against Steam build 8245592); the installer copies the game to make a VR copy. Requires SteamVR.
+known_bugs: []
+notes: Provides cockpit and on-foot first-person VR with SteamVR input and an optional bridge for a Cortico bot. The City of Ghosts DLC is not supported.
+images:
+  - game: Cloudpunk
+    file: images/cloudpunkvr/cloudpunk.png
+    credit: Cloudpunk grid by badblokebob (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/870007
+reviews:
+  - title: Cloudpunk VR and other VR mods from Astien
+    channel: Pavel419
+    url: https://www.youtube.com/watch?v=S_uS-kk7tHA
+  - title: Cloudpunk VR Mod ... Cyberpunk with pixel art [Tutorial/Gameplay/Conclusion]
+    channel: Hoshi82
+    url: https://www.youtube.com/watch?v=T92e_QBP97c
+added_by: bot
+discovered_via: https://github.com/Phantivia/CloudpunkVR
+last_checked: "2026-11-24"

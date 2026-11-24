@@ -12,8 +12,8 @@ headsets:
   - Meta Quest
 controls: mixed
 status: alpha
-version: "v0.1.8"
-version_date: "2026-11-20"
+version: "v0.1.9"
+version_date: "2026-11-23"
 download_url: https://github.com/moistman42069/JakAndDaxter-Quest-VR/releases/latest
 source_url: https://github.com/moistman42069/JakAndDaxter-Quest-VR
 license: GPL-3.0
@@ -42,4 +42,4 @@ reviews:
     url: https://www.youtube.com/watch?v=FK0ZTBtznc8
 added_by: bot
 discovered_via: https://github.com/moistman42069/JakAndDaxter-Quest-VR
-last_checked: "2026-11-20"
+last_checked: "2026-11-24"

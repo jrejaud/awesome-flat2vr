@@ -1,0 +1,30 @@
+name: PAC-MAN WORLD 2 Re-PAC VR
+games:
+  - PAC-MAN WORLD 2 Re-PAC
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "PAC-MAN_WORLD2Re-PAC_VR"
+version_date: "2026-11-24"
+download_url: https://github.com/King-EJ/PAC-MAN-WORLD-2-Re-PAC-VR/releases/latest
+source_url: https://github.com/King-EJ/PAC-MAN-WORLD-2-Re-PAC-VR
+license: unknown
+required_files: PAC-MAN WORLD 2 Re-PAC (PC, Unity) installed
+known_bugs: []
+notes: Version 0.1.0 test build; VR controllers act as a virtual Xbox pad, only tested with Virtual Desktop; uses Astien's OpenXR bridge.
+images:
+  - game: PAC-MAN WORLD 2 Re-PAC
+    file: images/pac-man-world-2-re-pac-vr/pac-man-world-2-re-pac.png
+    credit: PAC-MAN WORLD 2 Re-PAC grid by Orion1189 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/801110
+reviews:
+  - title: PAC MAN WORLD 2 Re PAC VR
+    channel: KingVR_PC
+    url: https://www.youtube.com/watch?v=xUQGPdpP4R8
+added_by: bot
+discovered_via: https://github.com/King-EJ/PAC-MAN-WORLD-2-Re-PAC-VR
+last_checked: "2026-11-24"

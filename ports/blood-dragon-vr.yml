@@ -1,0 +1,36 @@
+name: Blood Dragon VR
+games:
+  - "Far Cry 3: Blood Dragon"
+category: mod
+authors:
+  - name: DrGonzaga
+    url: https://github.com/DrGonzaga
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "v0.72"
+version_date: "2026-11-24"
+download_url: https://github.com/DrGonzaga/blood-dragon-vr/releases/latest
+source_url: https://github.com/DrGonzaga/blood-dragon-vr
+license: unknown
+required_files: Far Cry 3 Blood Dragon on Steam (Oct 17 2019 build), fully updated
+known_bugs:
+  - Ubisoft Connect, GOG or older patches are untested and will most likely not work
+notes: Requires a 32-bit OpenXR runtime; developed and tested on Quest 3 with Virtual Desktop (VDXR).
+images:
+  - game: "Far Cry 3: Blood Dragon"
+    file: images/blood-dragon-vr/far-cry-3-blood-dragon.jpg
+    credit: Far Cry 3 Blood Dragon grid by CluckenDip (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/355686
+reviews:
+  - title: Blood Dragon VR released!
+    channel: DrGonzaga
+    url: https://www.youtube.com/watch?v=kuPKotfKij8
+  - title: Far Cry 3 - Blood Dragon VR mod
+    channel: DrGonzaga
+    url: https://www.youtube.com/watch?v=OHXYzCFme_0
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-24"

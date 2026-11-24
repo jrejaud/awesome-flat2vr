@@ -1,0 +1,29 @@
+name: HookshotVR
+games:
+  - "The Legend of Zelda: Ocarina of Time"
+category: source-port
+authors:
+  - name: SqueezyLemonade
+    url: https://github.com/SqueezyLemonade
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v1.0.2"
+version_date: "2026-11-24"
+download_url: https://github.com/SqueezyLemonade/HookshotVR/releases/latest
+source_url: https://github.com/SqueezyLemonade/HookshotVR
+license: GPL-3.0
+required_files: Your own legally obtained copy of Ocarina of Time; the launcher builds the game from it.
+known_bugs:
+  - Some players on Meta's PC runtime (Quest Link, Air Link, Rift S, CV1) see a doubled or wrong picture, flat and far away; a fix is not confirmed.
+  - Windows is supported only under Wine.
+notes: VR fork of the Hookshot static recompilation, adding a headset view, hands, held items and a wrist HUD; works with any OpenXR runtime.
+images:
+  - game: "The Legend of Zelda: Ocarina of Time"
+    file: images/hookshotvr/the-legend-of-zelda-ocarina-of-time.png
+    credit: "The Legend of Zelda: Ocarina of Time grid by ABH20 (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/234110
+reviews: []
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-24"

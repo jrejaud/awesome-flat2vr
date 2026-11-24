@@ -1,0 +1,30 @@
+name: Ridge Racer V VR
+games:
+  - Ridge Racer V
+category: source-port
+authors:
+  - name: SgtBilko76
+    url: https://github.com/SgtBilko76
+platform: standalone
+headsets:
+  - Quest 3
+controls: gamepad
+status: alpha
+version: "v0.3.0"
+version_date: "2026-11-23"
+download_url: https://github.com/SgtBilko76/ridgeracer5-vr/releases/latest
+source_url: https://github.com/SgtBilko76/ridgeracer5-vr
+homepage: https://portroyale.online/ridgeracer5.html
+license: MIT
+required_files: Own disc image (.iso) of Ridge Racer V, US release (SLUS-20002)
+known_bugs: []
+notes: Translates the game's PS2 code to native ARM on the headset; offers a curved 3D screen and a head-tracked VR view during races.
+images:
+  - game: Ridge Racer V
+    file: images/ridge-racer-v-vr/ridge-racer-v.jpg
+    credit: Ridge Racer V grid by davemadden22 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/598773
+reviews: []
+added_by: bot
+discovered_via: https://github.com/SgtBilko76/ridgeracer5-vr
+last_checked: "2026-11-24"

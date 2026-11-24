@@ -1,0 +1,32 @@
+name: "Deus Ex: The Fall VR"
+games:
+  - "Deus Ex: The Fall"
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "0.1.8"
+version_date: "2026-10-12"
+download_url: https://github.com/King-EJ/Deus-Ex-The-Fall-VR-2014-steam-/releases
+source_url: https://github.com/King-EJ/Deus-Ex-The-Fall-VR-2014-steam-
+license: unknown
+required_files: "Deus Ex: The Fall (Steam, Unity 4.3.4 32-bit); launch options -force-d3d11 -force-gfx-direct"
+known_bugs: []
+notes: Early WIP test build with right-controller aiming, laser, and per-gun hand placement; tested on Quest 3 via VDXR.
+images:
+  - game: "Deus Ex: The Fall"
+    file: images/deus-ex-the-fall-vr/deus-ex-the-fall.png
+    credit: "Deus Ex: The Fall grid by dragnus (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/4183
+reviews:
+  - title: "Deus Ex: The Fall VR Mod w. 6DOF Motion Controls + Download"
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=AfMkoMDFgPg
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-24"

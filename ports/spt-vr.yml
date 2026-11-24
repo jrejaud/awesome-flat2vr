@@ -1,0 +1,33 @@
+name: SPT-VR
+games:
+  - Escape from Tarkov
+category: mod
+authors:
+  - name: Cybensis
+platform: pcvr
+controls: 6dof
+status: stable
+version: "2.0.0"
+version_date: "2026-11-23"
+download_url: https://sp-mod.com/mod/1782/spt-vr
+source_url: https://sp-mod.com/mod/1782/spt-vr
+homepage: https://www.youtube.com/watch?v=13fMV8pPW3Y
+license: unknown
+required_files: Escape from Tarkov install plus the SPT installer (https://sp-mod.com/installer)
+known_bugs: []
+notes: VR mod for Single Player Tarkov (SPT) with 6DOF motion controls, shown in a video by Notagameaddict.
+images:
+  - game: Escape from Tarkov
+    file: images/spt-vr/escape-from-tarkov.png
+    credit: Escape from Tarkov grid by Comsov (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/836665
+reviews:
+  - title: The Escape From Tarkov VR Mod is SO GOOD!!
+    channel: OurManSpencer
+    url: https://www.youtube.com/watch?v=oy-mDFqWDc4
+  - title: SPT-VR 2.0.0 - Release Day
+    channel: SPT-VR
+    url: https://www.youtube.com/watch?v=PC6v4HvN4-8
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-24"

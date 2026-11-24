@@ -16,8 +16,8 @@ headsets:
   - Quest 3S
 controls: 6dof
 status: stable
-version: "1.03.1"
-version_date: "2026-11-21"
+version: "1.03.2"
+version_date: "2026-11-23"
 download_url: https://github.com/alferiko/half-life-2-stanalone-quest-releases/releases/latest
 source_url: https://github.com/alferiko/half-life-2-stanalone-quest-releases
 homepage: https://sidequestvr.com/app/64057
@@ -59,4 +59,4 @@ reviews:
     url: https://www.youtube.com/watch?v=QzgDw8xEpeM
 added_by: bot
 discovered_via: https://sidequestvr.com/app/64057
-last_checked: "2026-11-22"
+last_checked: "2026-11-24"
