@@ -1,0 +1,27 @@
+name: BarnyardVR
+games:
+  - Barnyard
+category: source-port
+authors:
+  - name: Break-Ben
+    url: https://github.com/Break-Ben
+platform: pcvr
+controls: 6dof
+status: stable
+version: "v1.0.0"
+version_date: "2026-11-25"
+download_url: https://github.com/Break-Ben/BarnyardVR/releases/latest
+source_url: https://github.com/Break-Ben/BarnyardVR
+license: unknown
+required_files: Windows copy of Barnyard (2006)
+known_bugs: []
+notes: Based on the OpenBarnyard project; requires an OpenXR-compatible PCVR headset and runtime.
+images:
+  - game: Barnyard
+    file: images/barnyardvr/barnyard.png
+    credit: Barnyard grid by mo22is (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/518418
+reviews: []
+added_by: bot
+discovered_via: https://github.com/Break-Ben/BarnyardVR
+last_checked: "2026-11-25"

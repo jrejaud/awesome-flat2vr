@@ -1,0 +1,29 @@
+name: The Evil Within 2 VR
+games:
+  - The Evil Within 2
+category: mod
+authors:
+  - name: Talemann
+    url: https://talemann-vr.com/TEW2/index.html
+platform: pcvr
+controls: 6dof
+status: beta
+version: "unversioned"
+version_date: "2026-11-24"
+download_url: https://talemann-vr.com/TEW2/index.html
+source_url: https://www.youtube.com/watch?v=L6FvUvQ1WGU
+license: unknown
+required_files: The Evil Within 2 (Steam)
+known_bugs: []
+images:
+  - game: The Evil Within 2
+    file: images/the-evil-within-2-vr/the-evil-within-2.jpg
+    credit: The Evil Within 2 grid by wulfbraker (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/435316
+reviews:
+  - title: "-PS4- THE EVIL WITHIN 2 Pt.1 -FPS/PSVR CINEMA MODE- (Facecam) *NOT VR* HORROR Gameplay"
+    channel: Da Drunk Gamer
+    url: https://www.youtube.com/watch?v=hmGfBz_jCrY
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-25"

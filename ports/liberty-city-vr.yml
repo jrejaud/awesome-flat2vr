@@ -1,0 +1,32 @@
+name: Liberty City VR
+games:
+  - Grand Theft Auto III
+category: mod
+authors:
+  - name: Kornacious
+    url: https://kornacious.github.io/#start
+platform: standalone
+headsets:
+  - Quest
+controls: 6dof
+status: beta
+version: "unversioned"
+version_date: "2026-11-22"
+download_url: https://kornacious.github.io/#start
+source_url: https://www.youtube.com/watch?v=juwqivCh_lE
+license: unknown
+required_files: Grand Theft Auto III game files
+known_bugs: []
+notes: Quest standalone GTA III VR mod with 6DOF motion controls, VR menu and immersive steering.
+images:
+  - game: Grand Theft Auto III
+    file: images/liberty-city-vr/grand-theft-auto-iii.png
+    credit: Grand Theft Auto III grid by pr0 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/357491
+reviews:
+  - title: Grand Theft Auto III / New Quest Standalone VR Mod with 6DOF Motion Controls / How to Install
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=juwqivCh_lE
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-25"

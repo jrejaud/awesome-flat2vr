@@ -1,0 +1,29 @@
+name: "Dragon Age: The Veilguard VR"
+games:
+  - "Dragon Age: The Veilguard"
+category: mod
+authors:
+  - name: mark-mon
+    url: https://github.com/mark-mon
+platform: pcvr
+controls: mixed
+status: stable
+version: "v1.0"
+version_date: "2026-11-05"
+download_url: https://github.com/mark-mon/dragon-age-veilguard-vr/releases/latest
+source_url: https://github.com/mark-mon/dragon-age-veilguard-vr
+license: unknown
+required_files: "Dragon Age: The Veilguard (Steam, D3D12)"
+known_bugs:
+  - Render resolution above roughly 4300 px eye height breaks the left eye and stereo effect
+  - Game's bundled DLSS 3.7 DLL makes the right eye jaggy (swap in DLSS 4.5)
+notes: Proxy version.dll with per-eye DLSS, foveated DLSS, and an in-headset settings menu (L3+R3).
+images:
+  - game: "Dragon Age: The Veilguard"
+    file: images/dragon-age-the-veilguard-vr/dragon-age-the-veilguard.png
+    credit: "Dragon Age: The Veilguard grid by Gector(lint)Nathan (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/501091
+reviews: []
+added_by: bot
+discovered_via: https://github.com/mark-mon/dragon-age-veilguard-vr
+last_checked: "2026-11-25"

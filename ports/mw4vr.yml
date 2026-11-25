@@ -1,0 +1,31 @@
+name: MW4VR
+games:
+  - "MechWarrior 4: Mercenaries"
+category: mod
+authors:
+  - name: kashban
+    url: https://github.com/kashban
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 3dof
+status: beta
+version: "v11.96"
+version_date: "2026-11-24"
+download_url: https://github.com/kashban/Mechwarrior-4-VR-Mod/releases/latest
+source_url: https://github.com/kashban/Mechwarrior-4-VR-Mod
+license: unknown
+required_files: "MechWarrior 4: Mercenaries with MekTek MekPak 3.1c and the MW4Engine DX11 renderer mod (build 20261107_ea16ef2); optionally MechWarrior 5: Mercenaries for its cockpits"
+known_bugs:
+  - Single player only; requires MekTek AntiHack switched off
+  - Meta Quest Link's own OpenXR runtime does not work (32-bit library crashes); use SteamVR or VDXR
+notes: A 32-bit d3d11.dll wrapper using OpenXR that renders the game twice per eye with head tracking and HUD on cockpit monitors.
+images:
+  - game: "MechWarrior 4: Mercenaries"
+    file: images/mw4vr/mechwarrior-4-mercenaries.png
+    credit: "MechWarrior 4: Mercenaries grid by Arjohan (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/665016
+reviews: []
+added_by: bot
+discovered_via: https://github.com/kashban/Mechwarrior-4-VR-Mod
+last_checked: "2026-11-25"

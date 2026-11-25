@@ -1,0 +1,30 @@
+name: Gothic II Gold VR
+games:
+  - "Gothic II: Gold Edition"
+category: mod
+authors:
+  - name: PeCOS2k5
+    url: https://github.com/PeCOS2k5
+platform: pcvr
+controls: 6dof
+status: stable
+version: "v1.01"
+version_date: "2026-11-23"
+download_url: https://github.com/PeCOS2k5/Gothic2GoldVR/releases/latest
+source_url: https://github.com/PeCOS2k5/Gothic2GoldVR
+license: unknown
+required_files: Local installation of Gothic II Gold Edition (Steam or GOG); Archolos installation for that campaign
+known_bugs: []
+notes: Windows installer with launcher; uses OpenXR (VDXR, SteamVR or Quest Link) and GD3D11 renderer.
+images:
+  - game: "Gothic II: Gold Edition"
+    file: images/gothic-ii-gold-vr/gothic-ii-gold-edition.jpg
+    credit: "Gothic II: Gold Edition store art"
+    source_url: https://store.steampowered.com/app/39510/
+reviews:
+  - title: "Gothic II: Gold Edition VR Performance / New VR Mod with 6DOF Motion Controls / PCVR"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=gUtGES9gJ0k
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-25"

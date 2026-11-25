@@ -1,0 +1,30 @@
+name: Superliminal VR (SupLim-PS)
+games:
+  - Superliminal
+category: mod
+authors:
+  - name: Project-S Team
+    url: https://github.com/Smelt1993
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v0.99"
+version_date: "2026-11-25"
+download_url: https://github.com/Smelt1993/SupLim-PS/releases/latest
+source_url: https://github.com/Smelt1993/SupLim-PS
+license: unknown
+required_files: Superliminal (Steam version)
+known_bugs: []
+notes: Based on UnityVRMod by NewUnityModder; Windows/Steam/OpenVR, press F11 in game to enable VR.
+images:
+  - game: Superliminal
+    file: images/superliminal-vr-suplim-ps/superliminal.png
+    credit: Superliminal grid by JCAMAR0 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/58628
+reviews:
+  - title: SUPERLIMINAL IN VR (FIRST TEST)
+    channel: ch1llb1lly
+    url: https://www.youtube.com/watch?v=Sb4oPdIWubI
+added_by: bot
+discovered_via: https://github.com/Smelt1993/SupLim-PS
+last_checked: "2026-11-25"

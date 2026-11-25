@@ -1,0 +1,33 @@
+name: Overlord VR Optimized (TechnoidVR fork)
+games:
+  - "Call of Duty: Modern Warfare 2 Campaign Remastered"
+category: mod
+authors:
+  - name: TechnoidVR
+    url: https://github.com/Technoidvr
+platform: pcvr
+controls: 6dof
+status: beta
+version: "beta8-technoidvr-v1"
+version_date: "2026-11-24"
+download_url: https://github.com/Technoidvr/cod-mw2-remastered-vr-mod-optimisation/releases/latest
+source_url: https://github.com/Technoidvr/cod-mw2-remastered-vr-mod-optimisation
+license: GPL-3.0
+required_files: "Full legal install of Call of Duty: Modern Warfare 2 Campaign Remastered"
+known_bugs: []
+notes: Fork of Aeka0's Overlord VR (Beta 8) with CPU/DX11/OpenXR and memory optimizations (aimed at AMD users) and VR gameplay fixes.
+images:
+  - game: "Call of Duty: Modern Warfare 2 Campaign Remastered"
+    file: images/overlord-vr-optimized-technoidvr-fork/call-of-duty-modern-warfare-2-campaign-remastered.png
+    credit: "Call of Duty: Modern Warfare 2 - Campaign Remastered grid by BruhShashumga (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/274425
+reviews:
+  - title: "Call of Duty: Modern Warfare 2 Campaign Remastered VR is Amazing / New VR Mod / 6DOF Motion Control"
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=rh8HVtGAKaM
+  - title: "Call of Duty: Modern Warfare 2 Campaign Remastered VR Mod 6DOF Motion Controls"
+    channel: Uruzz
+    url: https://www.youtube.com/watch?v=FvUelHCBwcc
+added_by: bot
+discovered_via: https://github.com/Technoidvr/cod-mw2-remastered-vr-mod-optimisation
+last_checked: "2026-11-25"

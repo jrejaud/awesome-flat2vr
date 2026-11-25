@@ -1,0 +1,36 @@
+name: HarleyVR
+games:
+  - Harley-Davidson & L.A. Riders
+category: mod
+authors:
+  - name: WiseSoundDaryl
+    url: https://github.com/WiseSoundDaryl
+platform: pcvr
+headsets:
+  - Quest (via Quest Link/Air Link or Steam Link)
+controls: mixed
+status: beta
+version: "v0.1.0-beta.2"
+version_date: "2026-11-24"
+download_url: https://github.com/WiseSoundDaryl/harley-supermodel-vr/releases/latest
+source_url: https://github.com/WiseSoundDaryl/harley-supermodel-vr
+license: unknown
+required_files: Legally obtained Harley-Davidson & L.A. Riders Export Revision B ROM set (harley.zip or harleyb.zip)
+known_bugs:
+  - Direct Meta PC VR on Quest is still unconfirmed
+notes: Built on the Supermodel emulator and OpenXR, with SteamVR and Meta PC VR editions in one download.
+images:
+  - game: Harley-Davidson & L.A. Riders
+    file: images/harleyvr/harley-davidson-l-a-riders.png
+    credit: Harley-Davidson & L.A. Riders grid by alphtrion (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/405593
+reviews:
+  - title: Harley-Davidson & L.A. Riders NEW VR Mod w. First Person View + Download
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=mTtxzilpQEk
+  - title: 1997 Harley-Davidson & L.A. Riders VR Gameplay w. Stereoscopic 3D
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=CxdEWHtKQiE
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-25"

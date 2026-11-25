@@ -1,0 +1,32 @@
+name: Zorro The Chronicles VR
+games:
+  - Zorro The Chronicles
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.1.1"
+version_date: "2026-11-24"
+download_url: https://github.com/King-EJ/Zorro-The-Chronicles-VR/releases/latest
+source_url: https://github.com/King-EJ/Zorro-The-Chronicles-VR
+license: unknown
+required_files: Zorro The Chronicles (Steam, PC); launch with -force-d3d11
+known_bugs:
+  - Marked as a test/broken release
+  - Only tested with Virtual Desktop XR
+notes: Unity IL2CPP mod using Astien's OpenXR bridge, with first/third person views, swing-based melee and optional ViGEmBus virtual controller.
+images:
+  - game: Zorro The Chronicles
+    file: images/zorro-the-chronicles-vr/zorro-the-chronicles.jpg
+    credit: Zorro The Chronicles store art
+    source_url: https://store.steampowered.com/app/1571460/
+reviews:
+  - title: Zorro The Chronicles VR Mod w. 6DOF Motion Controls + Download
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=rWYz7I3WD8o
+added_by: bot
+discovered_via: https://github.com/King-EJ/Zorro-The-Chronicles-VR
+last_checked: "2026-11-25"

@@ -1,0 +1,41 @@
+name: Cry of Fear VR
+games:
+  - Cry of Fear
+category: mod
+authors:
+  - name: mrlemme606-ops
+    url: https://github.com/mrlemme606-ops
+platform: pcvr
+headsets:
+  - Quest 2
+controls: 6dof
+status: alpha
+version: "v0.5.0"
+version_date: "2026-11-20"
+download_url: https://github.com/mrlemme606-ops/Cry-of-Fear-VR/releases/latest
+source_url: https://github.com/mrlemme606-ops/Cry-of-Fear-VR
+license: unknown
+required_files: Cry of Fear installed from Steam (free)
+known_bugs:
+  - Melee hits are not reliable, especially against planks and breakable objects
+  - Phone flashlight glow can flicker or change colour
+  - Notes and some UI elements can be small and hard to read
+  - Arm and sleeve cutting on the left hand is imperfect; a nightstick in the left hand shows the whole arm
+  - Dual wielding may be janky
+  - Walking can feel slow for a few seconds after saving at a tape recorder
+notes: Unofficial SteamVR port built on the Xash3D FWGS engine; early release with the full campaign playable.
+images:
+  - game: Cry of Fear
+    file: images/cry-of-fear-vr/cry-of-fear.png
+    credit: Cry of Fear grid by Elke1131 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/127619
+reviews:
+  - title: "GMOD VR: Cry of Fear NPC Fight on gm_Northbury (+ Hidden Area)"
+    channel: The Librarian
+    url: https://www.youtube.com/watch?v=gC9beZm6L04
+  - title: Cry Of Fear VR Is…
+    channel: ImNotThatSpy VR
+    url: https://www.youtube.com/watch?v=POF3V3BaHCM
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-25"

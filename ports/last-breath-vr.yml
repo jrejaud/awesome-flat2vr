@@ -1,0 +1,30 @@
+name: Last Breath VR
+games:
+  - Last Breath
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "LastBreathVR"
+version_date: "2026-11-24"
+download_url: https://github.com/King-EJ/Last-Breath-VR/releases/latest
+source_url: https://github.com/King-EJ/Last-Breath-VR
+license: unknown
+required_files: Last Breath (PC, Unity IL2CPP) installed
+known_bugs: []
+notes: Presents the level as a 3D diorama; played with an Xbox controller; only tested with Virtual Desktop XR.
+images:
+  - game: Last Breath
+    file: images/last-breath-vr/last-breath.jpg
+    credit: Last Breath store art
+    source_url: https://store.steampowered.com/app/3873040/
+reviews:
+  - title: HE'S TAKING HIS LAST BREATH in Boneworks VR Sandbox
+    channel: WhackyCast
+    url: https://www.youtube.com/watch?v=PscU5ckXXvI
+added_by: bot
+discovered_via: https://github.com/King-EJ/Last-Breath-VR
+last_checked: "2026-11-25"

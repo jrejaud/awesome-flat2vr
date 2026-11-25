@@ -1,0 +1,39 @@
+name: DarkProjectVR
+games:
+  - Thief Gold
+  - "Thief II: The Metal Age"
+category: mod
+authors:
+  - name: jrubimf
+    url: https://github.com/jrubimf
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "b382"
+version_date: "2026-11-25"
+download_url: https://github.com/jrubimf/DarkProjectVR/releases/latest
+source_url: https://github.com/jrubimf/DarkProjectVR
+license: unknown
+required_files: Clean install of Thief Gold (Steam) or Thief 2
+known_bugs:
+  - Oculus Link crashes on launch because the Oculus OpenXR runtime has no 32-bit library; set SteamVR as the OpenXR runtime.
+notes: Built with AI assistance per the README; includes a VR launcher and 6DOF motion controls.
+images:
+  - game: Thief Gold
+    file: images/darkprojectvr/thief-gold.png
+    credit: Thief Gold grid by DFE 785 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/584070
+  - game: "Thief II: The Metal Age"
+    file: images/darkprojectvr/thief-ii-the-metal-age.png
+    credit: "Thief II: The Metal Age grid by Ambidextrose (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/441022
+reviews:
+  - title: Thief 2 - The Metal Age VR Mod ... the best game EVER finally in VR! [Gameplay/Tutorial/Review]
+    channel: Hoshi82
+    url: https://www.youtube.com/watch?v=ZkNTUIOo_mU
+  - title: Thief Gold (1999) VR Performance / New VR Mod with 6DOF Motion Controls / Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=vIqK4w58XBM
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-25"

@@ -908,8 +908,8 @@
     "platform": "pcvr",
     "controls": "gamepad",
     "status": "alpha",
-    "version": "v0.1.3",
-    "version_date": "2026-11-19",
+    "version": "v0.1.5",
+    "version_date": "2026-11-25",
     "download_url": "https://github.com/evertec82/AstroHybrid-VR/releases/latest",
     "source_url": "https://github.com/evertec82/AstroHybrid-VR",
     "license": "GPL-2.0",
@@ -938,7 +938,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/evertec82/AstroHybrid-VR",
-    "last_checked": "2026-11-20"
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "astroquest",
@@ -1089,6 +1089,43 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/RaYRoD-TV/MVRH",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "barnyardvr",
+    "name": "BarnyardVR",
+    "games": [
+      "Barnyard"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Break-Ben",
+        "url": "https://github.com/Break-Ben"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.0.0",
+    "version_date": "2026-11-25",
+    "download_url": "https://github.com/Break-Ben/BarnyardVR/releases/latest",
+    "source_url": "https://github.com/Break-Ben/BarnyardVR",
+    "license": "unknown",
+    "required_files": "Windows copy of Barnyard (2006)",
+    "known_bugs": [],
+    "notes": "Based on the OpenBarnyard project; requires an OpenXR-compatible PCVR headset and runtime.",
+    "images": [
+      {
+        "game": "Barnyard",
+        "file": "images/barnyardvr/barnyard.png",
+        "credit": "Barnyard grid by mo22is (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/518418"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/Break-Ben/BarnyardVR",
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "battlefield-3-vr-the-great-destroyer",
@@ -1879,8 +1916,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "stable-26768221.2",
-    "version_date": "2026-11-22",
+    "version": "stable-26768221.3",
+    "version_date": "2026-11-24",
     "download_url": "https://github.com/Hochgeschwindigkeitsrennfahrer/black-mesa-vr/releases/latest",
     "source_url": "https://github.com/Hochgeschwindigkeitsrennfahrer/black-mesa-vr",
     "license": "unknown",
@@ -1920,7 +1957,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/Hochgeschwindigkeitsrennfahrer/black-mesa-vr",
-    "last_checked": "2026-11-23"
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "black-ops-vr",
@@ -2319,8 +2356,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "vr-2026.11.24",
-    "version_date": "2026-11-24",
+    "version": "vr-2026.11.24.6",
+    "version_date": "2026-11-25",
     "download_url": "https://github.com/guideahon/BOTW-VR-RECOMP/releases/latest",
     "source_url": "https://github.com/guideahon/BOTW-VR-RECOMP",
     "license": "unknown",
@@ -2340,7 +2377,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/guideahon/BOTW-VR-RECOMP",
-    "last_checked": "2026-11-24"
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "brick-buddies-vr",
@@ -2901,6 +2938,56 @@
     "last_checked": "2026-11-24"
   },
   {
+    "slug": "cod4-vr",
+    "name": "COD4 VR",
+    "games": [
+      "Call of Duty 4: Modern Warfare"
+    ],
+    "category": "source-port",
+    "authors": [
+      {
+        "name": "Notagameaddict"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "unversioned",
+    "version_date": "2026-11-22",
+    "download_url": "https://www.vrports.org/post/cod-4-android-phonetablet-handheld-and-meta-quest-port",
+    "source_url": "https://www.vrports.org/post/cod-4-android-phonetablet-handheld-and-meta-quest-port",
+    "license": "unknown",
+    "required_files": "Own copy of Call of Duty 4: Modern Warfare game files",
+    "known_bugs": [],
+    "notes": "Android/Meta Quest standalone port; author shown is the video poster, not necessarily the port's creator.",
+    "images": [
+      {
+        "game": "Call of Duty 4: Modern Warfare",
+        "file": "images/cod4-vr/call-of-duty-4-modern-warfare.jpg",
+        "credit": "Call of Duty 4: Modern Warfare grid by Moohoo (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/848587"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Call of Duty 4: Modern Warfare VR Performance - VR Mod with 6DOF / Meta Quest 3 + RTX 4080 Super",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=NlR_JheVXCk"
+      },
+      {
+        "title": "Call of Duty 4: Modern Warfare VR / New Quest Standalone VR Mod with 6DOF Motion Control - Tutorial",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=V3w_mXP3LFA"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://discord.gg/flat2vr",
+    "last_checked": "2026-11-25"
+  },
+  {
     "slug": "codiesvr",
     "name": "CodiesVR",
     "games": [
@@ -3267,6 +3354,64 @@
     "last_checked": "2026-11-15"
   },
   {
+    "slug": "cry-of-fear-vr",
+    "name": "Cry of Fear VR",
+    "games": [
+      "Cry of Fear"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "mrlemme606-ops",
+        "url": "https://github.com/mrlemme606-ops"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest 2"
+    ],
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.5.0",
+    "version_date": "2026-11-20",
+    "download_url": "https://github.com/mrlemme606-ops/Cry-of-Fear-VR/releases/latest",
+    "source_url": "https://github.com/mrlemme606-ops/Cry-of-Fear-VR",
+    "license": "unknown",
+    "required_files": "Cry of Fear installed from Steam (free)",
+    "known_bugs": [
+      "Melee hits are not reliable, especially against planks and breakable objects",
+      "Phone flashlight glow can flicker or change colour",
+      "Notes and some UI elements can be small and hard to read",
+      "Arm and sleeve cutting on the left hand is imperfect; a nightstick in the left hand shows the whole arm",
+      "Dual wielding may be janky",
+      "Walking can feel slow for a few seconds after saving at a tape recorder"
+    ],
+    "notes": "Unofficial SteamVR port built on the Xash3D FWGS engine; early release with the full campaign playable.",
+    "images": [
+      {
+        "game": "Cry of Fear",
+        "file": "images/cry-of-fear-vr/cry-of-fear.png",
+        "credit": "Cry of Fear grid by Elke1131 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/127619"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "GMOD VR: Cry of Fear NPC Fight on gm_Northbury (+ Hidden Area)",
+        "channel": "The Librarian",
+        "url": "https://www.youtube.com/watch?v=gC9beZm6L04"
+      },
+      {
+        "title": "Cry Of Fear VR Is…",
+        "channel": "ImNotThatSpy VR",
+        "url": "https://www.youtube.com/watch?v=POF3V3BaHCM"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://discord.gg/flat2vr",
+    "last_checked": "2026-11-25"
+  },
+  {
     "slug": "crysis-vr-winlatorxr",
     "name": "Crysis VR WinlatorXR",
     "games": [
@@ -3537,8 +3682,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.222.2",
-    "version_date": "2026-11-23",
+    "version": "v0.223.0",
+    "version_date": "2026-11-24",
     "download_url": "https://github.com/natpoh/diablo2-vr-port/releases/latest",
     "source_url": "https://github.com/natpoh/diablo2-vr-port",
     "homepage": "https://bodywalkvr.com/mods/d2r-vr",
@@ -3568,7 +3713,64 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/natpoh/diablo2-vr-port",
-    "last_checked": "2026-11-24"
+    "last_checked": "2026-11-25"
+  },
+  {
+    "slug": "darkprojectvr",
+    "name": "DarkProjectVR",
+    "games": [
+      "Thief Gold",
+      "Thief II: The Metal Age"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "jrubimf",
+        "url": "https://github.com/jrubimf"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "b382",
+    "version_date": "2026-11-25",
+    "download_url": "https://github.com/jrubimf/DarkProjectVR/releases/latest",
+    "source_url": "https://github.com/jrubimf/DarkProjectVR",
+    "license": "unknown",
+    "required_files": "Clean install of Thief Gold (Steam) or Thief 2",
+    "known_bugs": [
+      "Oculus Link crashes on launch because the Oculus OpenXR runtime has no 32-bit library; set SteamVR as the OpenXR runtime."
+    ],
+    "notes": "Built with AI assistance per the README; includes a VR launcher and 6DOF motion controls.",
+    "images": [
+      {
+        "game": "Thief Gold",
+        "file": "images/darkprojectvr/thief-gold.png",
+        "credit": "Thief Gold grid by DFE 785 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/584070"
+      },
+      {
+        "game": "Thief II: The Metal Age",
+        "file": "images/darkprojectvr/thief-ii-the-metal-age.png",
+        "credit": "Thief II: The Metal Age grid by Ambidextrose (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/441022"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Thief 2 - The Metal Age VR Mod ... the best game EVER finally in VR! [Gameplay/Tutorial/Review]",
+        "channel": "Hoshi82",
+        "url": "https://www.youtube.com/watch?v=ZkNTUIOo_mU"
+      },
+      {
+        "title": "Thief Gold (1999) VR Performance / New VR Mod with 6DOF Motion Controls / Quest 3 + RTX 4080 Super",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=vIqK4w58XBM"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://discord.gg/flat2vr",
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "darkwatch-darker-vr",
@@ -4107,7 +4309,7 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "0.1.8",
+    "version": "Deus_Ex_The_Fall_VR",
     "version_date": "2026-10-12",
     "download_url": "https://github.com/King-EJ/Deus-Ex-The-Fall-VR-2014-steam-/releases",
     "source_url": "https://github.com/King-EJ/Deus-Ex-The-Fall-VR-2014-steam-",
@@ -4132,7 +4334,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://discord.gg/flat2vr",
-    "last_checked": "2026-11-24"
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "deusexhrvr",
@@ -4549,6 +4751,46 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/mark-mon/dragon-age-inquisition-vr",
     "last_checked": "2026-11-07"
+  },
+  {
+    "slug": "dragon-age-the-veilguard-vr",
+    "name": "Dragon Age: The Veilguard VR",
+    "games": [
+      "Dragon Age: The Veilguard"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "mark-mon",
+        "url": "https://github.com/mark-mon"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "mixed",
+    "status": "stable",
+    "version": "v1.0",
+    "version_date": "2026-11-05",
+    "download_url": "https://github.com/mark-mon/dragon-age-veilguard-vr/releases/latest",
+    "source_url": "https://github.com/mark-mon/dragon-age-veilguard-vr",
+    "license": "unknown",
+    "required_files": "Dragon Age: The Veilguard (Steam, D3D12)",
+    "known_bugs": [
+      "Render resolution above roughly 4300 px eye height breaks the left eye and stereo effect",
+      "Game's bundled DLSS 3.7 DLL makes the right eye jaggy (swap in DLSS 4.5)"
+    ],
+    "notes": "Proxy version.dll with per-eye DLSS, foveated DLSS, and an in-headset settings menu (L3+R3).",
+    "images": [
+      {
+        "game": "Dragon Age: The Veilguard",
+        "file": "images/dragon-age-the-veilguard-vr/dragon-age-the-veilguard.png",
+        "credit": "Dragon Age: The Veilguard grid by Gector(lint)Nathan (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/501091"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/mark-mon/dragon-age-veilguard-vr",
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "dreadmoorvr",
@@ -5023,7 +5265,7 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "EnshroudedVR-0.9.26",
+    "version": "EnshroudedVR-0.9.27",
     "version_date": "2026-11-24",
     "download_url": "https://github.com/momotori01/ENSHROUDED-VR-MOD/releases/latest",
     "source_url": "https://github.com/momotori01/ENSHROUDED-VR-MOD",
@@ -5053,7 +5295,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/momotori01/ENSHROUDED-VR-MOD",
-    "last_checked": "2026-11-24"
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "eternalvr",
@@ -6638,6 +6880,49 @@
     "last_checked": "2026-11-24"
   },
   {
+    "slug": "gothic-ii-gold-vr",
+    "name": "Gothic II Gold VR",
+    "games": [
+      "Gothic II: Gold Edition"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "PeCOS2k5",
+        "url": "https://github.com/PeCOS2k5"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "stable",
+    "version": "v1.01",
+    "version_date": "2026-11-23",
+    "download_url": "https://github.com/PeCOS2k5/Gothic2GoldVR/releases/latest",
+    "source_url": "https://github.com/PeCOS2k5/Gothic2GoldVR",
+    "license": "unknown",
+    "required_files": "Local installation of Gothic II Gold Edition (Steam or GOG); Archolos installation for that campaign",
+    "known_bugs": [],
+    "notes": "Windows installer with launcher; uses OpenXR (VDXR, SteamVR or Quest Link) and GD3D11 renderer.",
+    "images": [
+      {
+        "game": "Gothic II: Gold Edition",
+        "file": "images/gothic-ii-gold-vr/gothic-ii-gold-edition.jpg",
+        "credit": "Gothic II: Gold Edition store art",
+        "source_url": "https://store.steampowered.com/app/39510/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Gothic II: Gold Edition VR Performance / New VR Mod with 6DOF Motion Controls / PCVR",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=gUtGES9gJ0k"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://discord.gg/flat2vr",
+    "last_checked": "2026-11-25"
+  },
+  {
     "slug": "gothic-ii-vr",
     "name": "Gothic II VR",
     "games": [
@@ -6947,8 +7232,8 @@
     "platform": "pcvr",
     "controls": "mixed",
     "status": "alpha",
-    "version": "v0.3.6",
-    "version_date": "2026-11-19",
+    "version": "v0.3.7",
+    "version_date": "2026-11-25",
     "download_url": "https://github.com/simplysnake/GrimDawn_mod/releases/latest",
     "source_url": "https://github.com/simplysnake/GrimDawn_mod",
     "license": "unknown",
@@ -6977,7 +7262,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/simplysnake/GrimDawn_mod",
-    "last_checked": "2026-11-20"
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "gt3-revisited",
@@ -7804,6 +8089,59 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "harleyvr",
+    "name": "HarleyVR",
+    "games": [
+      "Harley-Davidson & L.A. Riders"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "WiseSoundDaryl",
+        "url": "https://github.com/WiseSoundDaryl"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest (via Quest Link/Air Link or Steam Link)"
+    ],
+    "controls": "mixed",
+    "status": "beta",
+    "version": "v0.1.0-beta.2",
+    "version_date": "2026-11-24",
+    "download_url": "https://github.com/WiseSoundDaryl/harley-supermodel-vr/releases/latest",
+    "source_url": "https://github.com/WiseSoundDaryl/harley-supermodel-vr",
+    "license": "unknown",
+    "required_files": "Legally obtained Harley-Davidson & L.A. Riders Export Revision B ROM set (harley.zip or harleyb.zip)",
+    "known_bugs": [
+      "Direct Meta PC VR on Quest is still unconfirmed"
+    ],
+    "notes": "Built on the Supermodel emulator and OpenXR, with SteamVR and Meta PC VR editions in one download.",
+    "images": [
+      {
+        "game": "Harley-Davidson & L.A. Riders",
+        "file": "images/harleyvr/harley-davidson-l-a-riders.png",
+        "credit": "Harley-Davidson & L.A. Riders grid by alphtrion (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/405593"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Harley-Davidson & L.A. Riders NEW VR Mod w. First Person View + Download",
+        "channel": "Press start to begin",
+        "url": "https://www.youtube.com/watch?v=mTtxzilpQEk"
+      },
+      {
+        "title": "1997 Harley-Davidson & L.A. Riders VR Gameplay w. Stereoscopic 3D",
+        "channel": "Press start to begin",
+        "url": "https://www.youtube.com/watch?v=CxdEWHtKQiE"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://discord.gg/flat2vr",
+    "last_checked": "2026-11-25"
+  },
+  {
     "slug": "harry-potter-vr",
     "name": "Harry Potter VR",
     "games": [
@@ -7961,8 +8299,8 @@
     "platform": "pcvr",
     "controls": "mixed",
     "status": "alpha",
-    "version": "v1.2",
-    "version_date": "2026-11-22",
+    "version": "v1.3.1",
+    "version_date": "2026-11-24",
     "download_url": "https://github.com/adore11s/Heavy-Rain-VR-Mod/releases/latest",
     "source_url": "https://github.com/adore11s/Heavy-Rain-VR-Mod",
     "license": "MIT",
@@ -7995,7 +8333,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/adore11s/Heavy-Rain-VR-Mod",
-    "last_checked": "2026-11-23"
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "herdling-vr",
@@ -9814,6 +10152,49 @@
     "last_checked": "2026-11-11"
   },
   {
+    "slug": "last-breath-vr",
+    "name": "Last Breath VR",
+    "games": [
+      "Last Breath"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "King-EJ",
+        "url": "https://github.com/King-EJ"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "gamepad",
+    "status": "alpha",
+    "version": "LastBreathVR",
+    "version_date": "2026-11-24",
+    "download_url": "https://github.com/King-EJ/Last-Breath-VR/releases/latest",
+    "source_url": "https://github.com/King-EJ/Last-Breath-VR",
+    "license": "unknown",
+    "required_files": "Last Breath (PC, Unity IL2CPP) installed",
+    "known_bugs": [],
+    "notes": "Presents the level as a 3D diorama; played with an Xbox controller; only tested with Virtual Desktop XR.",
+    "images": [
+      {
+        "game": "Last Breath",
+        "file": "images/last-breath-vr/last-breath.jpg",
+        "credit": "Last Breath store art",
+        "source_url": "https://store.steampowered.com/app/3873040/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "HE'S TAKING HIS LAST BREATH in Boneworks VR Sandbox",
+        "channel": "WhackyCast",
+        "url": "https://www.youtube.com/watch?v=PscU5ckXXvI"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/King-EJ/Last-Breath-VR",
+    "last_checked": "2026-11-25"
+  },
+  {
     "slug": "lemmix-for-steam-frame",
     "name": "Lemmix for Steam Frame",
     "games": [
@@ -9903,6 +10284,52 @@
     "added_by": "bot",
     "discovered_via": "https://thunderstore.io/c/lethal-company/p/DaXcess/LethalCompanyVR/",
     "last_checked": "2026-10-09"
+  },
+  {
+    "slug": "liberty-city-vr",
+    "name": "Liberty City VR",
+    "games": [
+      "Grand Theft Auto III"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Kornacious",
+        "url": "https://kornacious.github.io/#start"
+      }
+    ],
+    "platform": "standalone",
+    "headsets": [
+      "Quest"
+    ],
+    "controls": "6dof",
+    "status": "beta",
+    "version": "unversioned",
+    "version_date": "2026-11-22",
+    "download_url": "https://kornacious.github.io/#start",
+    "source_url": "https://www.youtube.com/watch?v=juwqivCh_lE",
+    "license": "unknown",
+    "required_files": "Grand Theft Auto III game files",
+    "known_bugs": [],
+    "notes": "Quest standalone GTA III VR mod with 6DOF motion controls, VR menu and immersive steering.",
+    "images": [
+      {
+        "game": "Grand Theft Auto III",
+        "file": "images/liberty-city-vr/grand-theft-auto-iii.png",
+        "credit": "Grand Theft Auto III grid by pr0 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/357491"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Grand Theft Auto III / New Quest Standalone VR Mod with 6DOF Motion Controls / How to Install",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=juwqivCh_lE"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://discord.gg/flat2vr",
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "lil-gator-game-vr",
@@ -10113,8 +10540,8 @@
     ],
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.3",
-    "version_date": "2026-11-13",
+    "version": "v1.4",
+    "version_date": "2026-11-24",
     "download_url": "https://github.com/lucas-martinic/mario64mr/releases/latest",
     "source_url": "https://github.com/lucas-martinic/mario64mr",
     "homepage": "https://lucasmartinic.com",
@@ -10141,7 +10568,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://discord.gg/flat2vr",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "mario-party-4-partyboard",
@@ -10761,8 +11188,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "v0.8.16",
-    "version_date": "2026-11-13",
+    "version": "v0.8.17",
+    "version_date": "2026-11-24",
     "download_url": "https://github.com/Disonomouss/MOHAVR/releases/latest",
     "source_url": "https://github.com/Disonomouss/MOHAVR",
     "license": "GPL-3.0",
@@ -10791,7 +11218,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/Disonomouss/MOHAVR",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "mohwvr",
@@ -10812,8 +11239,8 @@
     ],
     "controls": "6dof",
     "status": "beta",
-    "version": "v1.5",
-    "version_date": "2026-11-23",
+    "version": "v1.51",
+    "version_date": "2026-11-25",
     "download_url": "https://github.com/CaptainBrannigan/WarfighterVR/releases/latest",
     "source_url": "https://github.com/CaptainBrannigan/WarfighterVR",
     "license": "unknown",
@@ -10833,7 +11260,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/CaptainBrannigan/WarfighterVR",
-    "last_checked": "2026-11-24"
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "moon-sweepers-vr",
@@ -10927,6 +11354,49 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/nibre/mothervr",
     "last_checked": "2026-10-11"
+  },
+  {
+    "slug": "mw4vr",
+    "name": "MW4VR",
+    "games": [
+      "MechWarrior 4: Mercenaries"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "kashban",
+        "url": "https://github.com/kashban"
+      }
+    ],
+    "platform": "pcvr",
+    "headsets": [
+      "Quest 3"
+    ],
+    "controls": "3dof",
+    "status": "beta",
+    "version": "v11.96",
+    "version_date": "2026-11-24",
+    "download_url": "https://github.com/kashban/Mechwarrior-4-VR-Mod/releases/latest",
+    "source_url": "https://github.com/kashban/Mechwarrior-4-VR-Mod",
+    "license": "unknown",
+    "required_files": "MechWarrior 4: Mercenaries with MekTek MekPak 3.1c and the MW4Engine DX11 renderer mod (build 20261107_ea16ef2); optionally MechWarrior 5: Mercenaries for its cockpits",
+    "known_bugs": [
+      "Single player only; requires MekTek AntiHack switched off",
+      "Meta Quest Link's own OpenXR runtime does not work (32-bit library crashes); use SteamVR or VDXR"
+    ],
+    "notes": "A 32-bit d3d11.dll wrapper using OpenXR that renders the game twice per eye with head tracking and HUD on cockpit monitors.",
+    "images": [
+      {
+        "game": "MechWarrior 4: Mercenaries",
+        "file": "images/mw4vr/mechwarrior-4-mercenaries.png",
+        "credit": "MechWarrior 4: Mercenaries grid by Arjohan (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/665016"
+      }
+    ],
+    "reviews": [],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/kashban/Mechwarrior-4-VR-Mod",
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "mwr-vr",
@@ -12100,6 +12570,54 @@
     "last_checked": "2026-10-28"
   },
   {
+    "slug": "overlord-vr-optimized-technoidvr-fork",
+    "name": "Overlord VR Optimized (TechnoidVR fork)",
+    "games": [
+      "Call of Duty: Modern Warfare 2 Campaign Remastered"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "TechnoidVR",
+        "url": "https://github.com/Technoidvr"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "beta8-technoidvr-v1",
+    "version_date": "2026-11-24",
+    "download_url": "https://github.com/Technoidvr/cod-mw2-remastered-vr-mod-optimisation/releases/latest",
+    "source_url": "https://github.com/Technoidvr/cod-mw2-remastered-vr-mod-optimisation",
+    "license": "GPL-3.0",
+    "required_files": "Full legal install of Call of Duty: Modern Warfare 2 Campaign Remastered",
+    "known_bugs": [],
+    "notes": "Fork of Aeka0's Overlord VR (Beta 8) with CPU/DX11/OpenXR and memory optimizations (aimed at AMD users) and VR gameplay fixes.",
+    "images": [
+      {
+        "game": "Call of Duty: Modern Warfare 2 Campaign Remastered",
+        "file": "images/overlord-vr-optimized-technoidvr-fork/call-of-duty-modern-warfare-2-campaign-remastered.png",
+        "credit": "Call of Duty: Modern Warfare 2 - Campaign Remastered grid by BruhShashumga (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/274425"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Call of Duty: Modern Warfare 2 Campaign Remastered VR is Amazing / New VR Mod / 6DOF Motion Control",
+        "channel": "NotAGameAddict",
+        "url": "https://www.youtube.com/watch?v=rh8HVtGAKaM"
+      },
+      {
+        "title": "Call of Duty: Modern Warfare 2 Campaign Remastered VR Mod 6DOF Motion Controls",
+        "channel": "Uruzz",
+        "url": "https://www.youtube.com/watch?v=FvUelHCBwcc"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/Technoidvr/cod-mw2-remastered-vr-mod-optimisation",
+    "last_checked": "2026-11-25"
+  },
+  {
     "slug": "overlord",
     "name": "Overlord",
     "games": [
@@ -12690,8 +13208,8 @@
     "platform": "pcvr",
     "controls": "mixed",
     "status": "alpha",
-    "version": "v0.2.12",
-    "version_date": "2026-11-20",
+    "version": "v0.2.13",
+    "version_date": "2026-11-24",
     "download_url": "https://github.com/evertec82/power-moon-vr/releases/latest",
     "source_url": "https://github.com/evertec82/power-moon-vr",
     "license": "unknown",
@@ -12722,7 +13240,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://discord.gg/flat2vr",
-    "last_checked": "2026-11-21"
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "powerwash-simulator-2-vr-mod",
@@ -14212,8 +14730,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.8.15",
-    "version_date": "2026-11-13",
+    "version": "v0.8.16.1",
+    "version_date": "2026-11-24",
     "download_url": "https://github.com/Disonomouss/RDRVR/releases/latest",
     "source_url": "https://github.com/Disonomouss/RDRVR",
     "license": "MIT",
@@ -14231,7 +14749,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/Disonomouss/RDRVR",
-    "last_checked": "2026-11-15"
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "realrtcw-xr",
@@ -15377,8 +15895,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "alpha",
-    "version": "v0.2.11-dev.87e9c2d85b1f",
-    "version_date": "2026-11-16",
+    "version": "v0.2.11-dev.daafff5a908e",
+    "version_date": "2026-11-24",
     "download_url": "https://github.com/ObeseCatLord/Serious-Sam-2-VR/releases/latest",
     "source_url": "https://github.com/ObeseCatLord/Serious-Sam-2-VR",
     "license": "MIT",
@@ -15409,7 +15927,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/ObeseCatLord/Serious-Sam-2-VR",
-    "last_checked": "2026-11-20"
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "shipbreakervr",
@@ -16995,6 +17513,49 @@
     "last_checked": "2026-10-09"
   },
   {
+    "slug": "superliminal-vr-suplim-ps",
+    "name": "Superliminal VR (SupLim-PS)",
+    "games": [
+      "Superliminal"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Project-S Team",
+        "url": "https://github.com/Smelt1993"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "v0.99",
+    "version_date": "2026-11-25",
+    "download_url": "https://github.com/Smelt1993/SupLim-PS/releases/latest",
+    "source_url": "https://github.com/Smelt1993/SupLim-PS",
+    "license": "unknown",
+    "required_files": "Superliminal (Steam version)",
+    "known_bugs": [],
+    "notes": "Based on UnityVRMod by NewUnityModder; Windows/Steam/OpenVR, press F11 in game to enable VR.",
+    "images": [
+      {
+        "game": "Superliminal",
+        "file": "images/superliminal-vr-suplim-ps/superliminal.png",
+        "credit": "Superliminal grid by JCAMAR0 (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/58628"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "SUPERLIMINAL IN VR (FIRST TEST)",
+        "channel": "ch1llb1lly",
+        "url": "https://www.youtube.com/watch?v=Sb4oPdIWubI"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/Smelt1993/SupLim-PS",
+    "last_checked": "2026-11-25"
+  },
+  {
     "slug": "supermario3dworld-vr",
     "name": "SuperMario3DWorld-VR",
     "games": [
@@ -17367,8 +17928,8 @@
     "platform": "pcvr",
     "controls": "6dof",
     "status": "beta",
-    "version": "installer-1.1.4",
-    "version_date": "2026-11-23",
+    "version": "installer-1.1.5",
+    "version_date": "2026-11-24",
     "download_url": "https://github.com/trilex07/TrilexModInstaller/releases/latest",
     "source_url": "https://github.com/trilex07/TrilexModInstaller",
     "license": "unknown",
@@ -17397,7 +17958,49 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://discord.gg/flat2vr",
-    "last_checked": "2026-11-24"
+    "last_checked": "2026-11-25"
+  },
+  {
+    "slug": "the-evil-within-2-vr",
+    "name": "The Evil Within 2 VR",
+    "games": [
+      "The Evil Within 2"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "Talemann",
+        "url": "https://talemann-vr.com/TEW2/index.html"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "beta",
+    "version": "unversioned",
+    "version_date": "2026-11-24",
+    "download_url": "https://talemann-vr.com/TEW2/index.html",
+    "source_url": "https://www.youtube.com/watch?v=L6FvUvQ1WGU",
+    "license": "unknown",
+    "required_files": "The Evil Within 2 (Steam)",
+    "known_bugs": [],
+    "images": [
+      {
+        "game": "The Evil Within 2",
+        "file": "images/the-evil-within-2-vr/the-evil-within-2.jpg",
+        "credit": "The Evil Within 2 grid by wulfbraker (SteamGridDB)",
+        "source_url": "https://www.steamgriddb.com/grid/435316"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "-PS4- THE EVIL WITHIN 2 Pt.1 -FPS/PSVR CINEMA MODE- (Facecam) *NOT VR* HORROR Gameplay",
+        "channel": "Da Drunk Gamer",
+        "url": "https://www.youtube.com/watch?v=hmGfBz_jCrY"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://discord.gg/flat2vr",
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "the-evil-within-vr",
@@ -18131,8 +18734,8 @@
     ],
     "controls": "6dof",
     "status": "alpha",
-    "version": "v1.6.6",
-    "version_date": "2026-11-23",
+    "version": "v1.6.7",
+    "version_date": "2026-11-24",
     "download_url": "https://github.com/petonexus/tocs-vr-releases/releases/latest",
     "source_url": "https://github.com/petonexus/tocs-vr-releases",
     "homepage": "https://www.trailsvr.pro",
@@ -18153,7 +18756,7 @@
     "reviews": [],
     "added_by": "bot",
     "discovered_via": "https://github.com/petonexus/tocs-vr-releases",
-    "last_checked": "2026-11-24"
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "turbo-overkill-vr-mod",
@@ -18258,8 +18861,8 @@
     ],
     "controls": "6dof",
     "status": "stable",
-    "version": "v1.0.5",
-    "version_date": "2026-11-23",
+    "version": "v1.0.7",
+    "version_date": "2026-11-25",
     "download_url": "https://github.com/liper76/TWFC-VR/releases/latest",
     "source_url": "https://github.com/liper76/TWFC-VR",
     "license": "unknown",
@@ -18290,7 +18893,7 @@
     ],
     "added_by": "bot",
     "discovered_via": "https://github.com/liper76/TWFC-VR",
-    "last_checked": "2026-11-24"
+    "last_checked": "2026-11-25"
   },
   {
     "slug": "twisted-tower-vr-mod",
@@ -20238,5 +20841,51 @@
     "added_by": "bot",
     "discovered_via": "https://github.com/jacquesdupontd/zelda-inside-the-dream",
     "last_checked": "2026-11-20"
+  },
+  {
+    "slug": "zorro-the-chronicles-vr",
+    "name": "Zorro The Chronicles VR",
+    "games": [
+      "Zorro The Chronicles"
+    ],
+    "category": "mod",
+    "authors": [
+      {
+        "name": "King-EJ",
+        "url": "https://github.com/King-EJ"
+      }
+    ],
+    "platform": "pcvr",
+    "controls": "6dof",
+    "status": "alpha",
+    "version": "v0.1.1",
+    "version_date": "2026-11-24",
+    "download_url": "https://github.com/King-EJ/Zorro-The-Chronicles-VR/releases/latest",
+    "source_url": "https://github.com/King-EJ/Zorro-The-Chronicles-VR",
+    "license": "unknown",
+    "required_files": "Zorro The Chronicles (Steam, PC); launch with -force-d3d11",
+    "known_bugs": [
+      "Marked as a test/broken release",
+      "Only tested with Virtual Desktop XR"
+    ],
+    "notes": "Unity IL2CPP mod using Astien's OpenXR bridge, with first/third person views, swing-based melee and optional ViGEmBus virtual controller.",
+    "images": [
+      {
+        "game": "Zorro The Chronicles",
+        "file": "images/zorro-the-chronicles-vr/zorro-the-chronicles.jpg",
+        "credit": "Zorro The Chronicles store art",
+        "source_url": "https://store.steampowered.com/app/1571460/"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Zorro The Chronicles VR Mod w. 6DOF Motion Controls + Download",
+        "channel": "Press start to begin",
+        "url": "https://www.youtube.com/watch?v=rWYz7I3WD8o"
+      }
+    ],
+    "added_by": "bot",
+    "discovered_via": "https://github.com/King-EJ/Zorro-The-Chronicles-VR",
+    "last_checked": "2026-11-25"
   }
 ]
