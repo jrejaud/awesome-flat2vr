@@ -1,0 +1,32 @@
+name: OcarinaVR
+games:
+  - "The Legend of Zelda: Ocarina of Time (Switch 2 remake)"
+category: mod
+authors:
+  - name: ReTracedGames
+    url: https://github.com/ReTracedGames
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "unversioned"
+version_date: "2026-11-22"
+download_url: https://github.com/ReTracedGames/OcarinaVR
+source_url: https://github.com/ReTracedGames/OcarinaVR
+license: GPL-3.0
+required_files: "Hookshot, the PC recompilation of The Legend of Zelda: Ocarina of Time (Nintendo Switch 2), plus the user's own game files"
+known_bugs: []
+notes: Early version built and tested on an RTX 5090 PC with a Quest 3 over Quest Link; uses OpenXR.
+images:
+  - game: "The Legend of Zelda: Ocarina of Time (Switch 2 remake)"
+    file: images/ocarinavr/the-legend-of-zelda-ocarina-of-time.png
+    credit: "The Legend of Zelda: Ocarina of Time grid by ABH20 (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/234110
+reviews:
+  - title: "Legend of Zelda Ocarina of Time VR: Ship of Harkinian VR! (Child Link Gameplay)"
+    channel: legaiaflame
+    url: https://www.youtube.com/watch?v=IZRvTBmzS-4
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-26"

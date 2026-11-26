@@ -1,0 +1,35 @@
+name: Starfield2VR
+games:
+  - Starfield
+category: mod
+authors:
+  - name: Kingmemarley
+    url: https://github.com/Kingmemarley
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: stable
+version: "v1.0.0"
+version_date: "2026-11-25"
+download_url: https://github.com/Kingmemarley/Starfield2VR/releases/latest
+source_url: https://github.com/Kingmemarley/Starfield2VR
+license: MIT
+required_files: Starfield 1.16.244 (Steam) and the ViGEmBus driver
+known_bugs: []
+notes: Built on Mutar's starfield2vr; the release works only with Starfield 1.16.244, and 1.16.236 needs a build from source. It was tested on Quest 3 via Virtual Desktop.
+images:
+  - game: Starfield
+    file: images/starfield2vr/starfield.png
+    credit: Starfield grid by TheWaslijn (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/337523
+reviews:
+  - title: "Starfield In VR Is An INSANE Experience! Easy Step By Step Guide! #vr #virtualreality"
+    channel: CITIZXN TV
+    url: https://www.youtube.com/watch?v=UKt2utvotxA
+  - title: Starfield VR Mod Is Now Available to Play!!! (No Commentary)
+    channel: Headset-VR
+    url: https://www.youtube.com/watch?v=n9UNvae-yGs
+added_by: bot
+discovered_via: https://github.com/Kingmemarley/Starfield2VR
+last_checked: "2026-11-26"

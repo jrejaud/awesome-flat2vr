@@ -1,0 +1,33 @@
+name: GRID Autosport VR
+games:
+  - GRID Autosport
+category: mod
+authors:
+  - name: preseznik
+    url: https://github.com/preseznik
+platform: pcvr
+controls: gamepad
+status: alpha
+version: "v0.2.5"
+version_date: "2026-11-25"
+download_url: https://github.com/preseznik/GRIDAutosportVR/releases/latest
+source_url: https://github.com/preseznik/GRIDAutosportVR
+license: unknown
+required_files: GRID Autosport (Steam version, or the 2014 GRIDAutosport.exe v1.0.103.1840) and a 32-bit OpenXR runtime such as Virtual Desktop (VDXR)
+known_bugs: []
+notes: OpenXR bridge and desktop launcher giving native stereo racing with head tracking, supporting controllers and steering wheels.
+images:
+  - game: GRID Autosport
+    file: images/grid-autosport-vr/grid-autosport.png
+    credit: GRID Autosport grid by Obsess (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/841076
+reviews:
+  - title: Grid Autosport Demolicar - Home Made VR + Motion S
+    channel: NoSimula
+    url: https://www.youtube.com/watch?v=FdNSTqZEuOo
+  - title: GRID Autosport + Logitech G29 Steering Wheel VR Performance / New VR Racing Mod / PCVR
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=Z4fRKqPIUjo
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-26"

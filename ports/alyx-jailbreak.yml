@@ -13,8 +13,8 @@ headsets:
   - Pico 4 Ultra
 controls: 6dof
 status: alpha
-version: "0.203"
-version_date: "2026-11-06"
+version: "v0.342"
+version_date: "2026-11-26"
 download_url: https://github.com/alferiko/alyx-jailbreak-releases
 source_url: https://sidequestvr.com/app/62971
 homepage: https://github.com/alferiko/alyx-jailbreak-releases
@@ -35,4 +35,4 @@ reviews:
     url: https://www.youtube.com/watch?v=6CiPO-ohQXc
 added_by: bot
 discovered_via: https://sidequestvr.com/app/62971
-last_checked: "2026-11-07"
+last_checked: "2026-11-26"

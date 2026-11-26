@@ -1,0 +1,33 @@
+name: SAMU-VR
+games:
+  - A Story About My Uncle
+category: mod
+authors:
+  - name: ahward21
+    url: https://github.com/ahward21
+platform: pcvr
+headsets:
+  - Quest 3
+  - Steam Frame
+controls: 6dof
+status: stable
+version: "v1.0.1"
+version_date: "2026-11-16"
+download_url: https://github.com/ahward21/SAMU-VR/releases
+source_url: https://github.com/ahward21/SAMU-VR
+license: unknown
+required_files: A Story About My Uncle (Steam)
+known_bugs: []
+notes: OpenXR 6DOF mod with a one-click launcher and a motion-tracked grapple glove.
+images:
+  - game: A Story About My Uncle
+    file: images/samu-vr/a-story-about-my-uncle.jpg
+    credit: A Story About My Uncle grid by Comcord (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/180711
+reviews:
+  - title: A Story About My Uncle VR Mod w. 6DOF Motion Controls + Download
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=YuEFLp6hyWQ
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-26"

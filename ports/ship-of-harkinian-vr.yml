@@ -1,0 +1,33 @@
+name: Ship of Harkinian VR
+games:
+  - "The Legend of Zelda: Ocarina of Time"
+category: mod
+authors:
+  - name: jamesmthorp-gif
+    url: https://github.com/jamesmthorp-gif
+platform: pcvr
+controls: gamepad
+status: beta
+version: "v1.3.0"
+version_date: "2026-11-25"
+download_url: https://github.com/jamesmthorp-gif/ocarina-vr-builds/releases/latest
+source_url: https://github.com/jamesmthorp-gif/ocarina-vr-builds
+license: unknown
+required_files: Your own supported original N64 Ocarina of Time ROM dump
+known_bugs: []
+notes: Native third-person OpenXR mod based on Ship of Harkinian by Harbour Masters, with VR and desktop modes; the repo also ships a separate Lichii 3D Cinema build.
+images:
+  - game: "The Legend of Zelda: Ocarina of Time"
+    file: images/ship-of-harkinian-vr/the-legend-of-zelda-ocarina-of-time.png
+    credit: "The Legend of Zelda: Ocarina of Time grid by ABH20 (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/234110
+reviews:
+  - title: "Legend of Zelda Ocarina of Time VR: Ship of Harkinian VR! (Child Link Gameplay)"
+    channel: legaiaflame
+    url: https://www.youtube.com/watch?v=IZRvTBmzS-4
+  - title: "Legend of Zelda Ocarina of Time VR: Ship of Harkinian VR! (Adult Link Gameplay)"
+    channel: legaiaflame
+    url: https://www.youtube.com/watch?v=zc9R0e9x4kI
+added_by: bot
+discovered_via: https://github.com/jamesmthorp-gif/ocarina-vr-builds
+last_checked: "2026-11-26"

@@ -1,0 +1,33 @@
+name: AI Limit VR
+games:
+  - AI LIMIT
+category: mod
+authors:
+  - name: scubasteve2365
+    url: https://github.com/scubasteve2365
+platform: pcvr
+headsets:
+  - Meta Quest 3
+  - Pimax Dream Air
+controls: gamepad
+status: stable
+version: "v1.0.2"
+version_date: "2026-11-26"
+download_url: https://github.com/scubasteve2365/AILimitVR/releases/latest
+source_url: https://github.com/scubasteve2365/AILimitVR
+license: MIT
+required_files: Steam version of AI LIMIT
+known_bugs: []
+notes: True stereo VR with third-person camera at headset position, DLSS per eye; seated play with gamepad via OpenXR (SteamVR or Virtual Desktop).
+images:
+  - game: AI LIMIT
+    file: images/ai-limit-vr/ai-limit.png
+    credit: AI Limit grid by Ichiron47 (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/562977
+reviews:
+  - title: AI LIMIT VR Mod w. Stereoscopic 3D (Third Person) + Download
+    channel: Press start to begin
+    url: https://www.youtube.com/watch?v=WoASWbXEEHk
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-26"

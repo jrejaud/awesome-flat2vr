@@ -10,8 +10,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: stable
-version: "v1.0.0"
-version_date: "2026-11-18"
+version: "v1.1.0"
+version_date: "2026-11-26"
 download_url: https://github.com/NeuroLoc/FEAR-VR-Mod-Extraction_Point-Perseus_Mandate/releases/latest
 source_url: https://github.com/NeuroLoc/FEAR-VR-Mod-Extraction_Point-Perseus_Mandate
 license: unknown
@@ -40,4 +40,4 @@ reviews:
     url: https://www.youtube.com/watch?v=UFFo9qezZYE
 added_by: bot
 discovered_via: https://github.com/NeuroLoc/FEAR-VR-Mod-Extraction_Point-Perseus_Mandate
-last_checked: "2026-11-20"
+last_checked: "2026-11-26"

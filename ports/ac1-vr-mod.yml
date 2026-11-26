@@ -1,0 +1,35 @@
+name: AC1-VR-MOD
+games:
+  - Assassin's Creed (2007)
+category: mod
+authors:
+  - name: Hngamers191
+    url: https://github.com/Hngamers191
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: alpha
+version: "v1.0.1"
+version_date: "2026-11-25"
+download_url: https://github.com/Hngamers191/AC1-VR-MOD/releases/latest
+source_url: https://github.com/Hngamers191/AC1-VR-MOD
+license: unknown
+required_files: Original Assassin's Creed (2007) from Steam (DX10 executable)
+known_bugs: []
+notes: Experimental OpenXR mod with tracked hands, sword combat, hand climbing and an in-VR settings menu; Desmond modern-day sections are planned.
+images:
+  - game: Assassin's Creed (2007)
+    file: images/ac1-vr-mod/assassin-s-creed.jpg
+    credit: Assassin's Creed grid by CluckenDip (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/287774
+reviews:
+  - title: Why I love ASSASSIN'S CREED NEXUS VR.
+    channel: VIRTUAL BRO
+    url: https://www.youtube.com/watch?v=iFh38IRdgxg
+  - title: Assassin's Creed Goes CRAZY in VR
+    channel: Zulushi
+    url: https://www.youtube.com/watch?v=WRkz2zhAKjw
+added_by: bot
+discovered_via: https://github.com/Hngamers191/AC1-VR-MOD
+last_checked: "2026-11-26"

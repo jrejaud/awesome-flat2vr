@@ -1,0 +1,33 @@
+name: Dying Light VR
+games:
+  - Dying Light
+category: mod
+authors:
+  - name: bymodify-ux
+    url: https://github.com/bymodify-ux
+platform: pcvr
+controls: 6dof
+status: beta
+version: "v1.075"
+version_date: "2026-11-25"
+download_url: https://github.com/bymodify-ux/Dying-Light-VR/releases/latest/download/DyingLightVR_Launcher.exe
+source_url: https://github.com/bymodify-ux/Dying-Light-VR
+license: GPL-3.0
+required_files: Dying Light (Enhanced Edition) on Steam or Epic Games; GOG and pirated copies not supported
+known_bugs: []
+notes: Native OpenXR mod with launcher, motion-controller melee, manual reload, holsters and finger tracking; do not install in Program Files.
+images:
+  - game: Dying Light
+    file: images/dying-light-vr/dying-light.jpg
+    credit: Dying Light grid by apfelspeier (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/652661
+reviews:
+  - title: DYING LIGHT IN VR // How to play Dying Light VR in VR // Oculus Quest 2 Dying Light VR Gameplay
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=hJFKZ0xfmUY
+  - title: Dying Light VR Just Changed Completely
+    channel: Gamertag VR
+    url: https://www.youtube.com/watch?v=dOZQfSKch1M
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-26"

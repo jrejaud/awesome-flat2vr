@@ -9,8 +9,8 @@ authors:
 platform: pcvr
 controls: 6dof
 status: alpha
-version: "b382"
-version_date: "2026-11-25"
+version: "b394"
+version_date: "2026-11-26"
 download_url: https://github.com/jrubimf/DarkProjectVR/releases/latest
 source_url: https://github.com/jrubimf/DarkProjectVR
 license: unknown
@@ -36,4 +36,4 @@ reviews:
     url: https://www.youtube.com/watch?v=vIqK4w58XBM
 added_by: bot
 discovered_via: https://discord.gg/flat2vr
-last_checked: "2026-11-25"
+last_checked: "2026-11-26"

@@ -8,7 +8,7 @@ authors:
 platform: pcvr
 controls: gamepad
 status: alpha
-version: "v0.1.5"
+version: "v0.1.7"
 version_date: "2026-11-25"
 download_url: https://github.com/evertec82/AstroHybrid-VR/releases/latest
 source_url: https://github.com/evertec82/AstroHybrid-VR
@@ -30,4 +30,4 @@ reviews:
     url: https://www.youtube.com/watch?v=zykQ5jL88-g
 added_by: bot
 discovered_via: https://github.com/evertec82/AstroHybrid-VR
-last_checked: "2026-11-25"
+last_checked: "2026-11-26"

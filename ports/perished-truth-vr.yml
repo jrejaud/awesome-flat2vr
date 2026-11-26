@@ -1,0 +1,27 @@
+name: Perished Truth VR
+games:
+  - Perished Truth
+category: mod
+authors:
+  - name: King-EJ
+    url: https://github.com/King-EJ
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "PerishedTruthVR"
+version_date: "2026-11-26"
+download_url: https://github.com/King-EJ/Perished-Truth-VR/releases/latest
+source_url: https://github.com/King-EJ/Perished-Truth-VR
+license: unknown
+required_files: Perished Truth (PC, Unity IL2CPP)
+known_bugs: []
+notes: Uses Astien's OpenXR bridge; only tested with Virtual Desktop XR; 6DOF aiming with third/first person views.
+images:
+  - game: Perished Truth
+    file: images/perished-truth-vr/perished-truth.jpg
+    credit: Perished Truth store art
+    source_url: https://store.steampowered.com/app/4152560/
+reviews: []
+added_by: bot
+discovered_via: https://github.com/King-EJ/Perished-Truth-VR
+last_checked: "2026-11-26"

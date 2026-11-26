@@ -1,0 +1,33 @@
+name: Max Payne 1 VR
+games:
+  - Max Payne
+category: mod
+authors:
+  - name: evilSheep
+    url: https://github.com/evilSheep
+platform: pcvr
+controls: 6dof
+status: stable
+version: "v1.0.1"
+version_date: "2026-11-26"
+download_url: https://github.com/evilSheep/max-payne-1-vr/releases/latest
+source_url: https://github.com/evilSheep/max-payne-1-vr
+license: unknown
+required_files: Steam copy of Max Payne (version 1.05)
+known_bugs: []
+notes: Free PC VR mod with tracked hands, physical weapons, manual reloading and bullet time; optional 4K texture pack.
+images:
+  - game: Max Payne
+    file: images/max-payne-1-vr/max-payne.png
+    credit: Max Payne grid by ZOMBIEROT (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/169657
+reviews:
+  - title: Max Payne VR Feels Too Good to Be True
+    channel: Beardo Benjo
+    url: https://www.youtube.com/watch?v=o9wWGnuSjTo
+  - title: Max Payne 4K VR Performance / New VR Mod with 6DOF Motion Controls / Quest 3 + RTX 4080 Super
+    channel: NotAGameAddict
+    url: https://www.youtube.com/watch?v=0eYzhyiFims
+added_by: bot
+discovered_via: https://github.com/evilSheep/max-payne-1-vr
+last_checked: "2026-11-26"

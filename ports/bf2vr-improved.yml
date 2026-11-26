@@ -1,0 +1,37 @@
+name: BF2VR Improved
+games:
+  - Star Wars Battlefront II (2017)
+category: mod
+authors:
+  - name: horsellcommon
+    url: https://github.com/horsellcommon
+platform: pcvr
+headsets:
+  - Quest 3
+controls: 6dof
+status: beta
+version: "v0.3.1"
+version_date: "2026-11-07"
+download_url: https://github.com/horsellcommon/BF2VR/releases/latest
+source_url: https://github.com/horsellcommon/BF2VR
+license: GPL-3.0
+required_files: Star Wars Battlefront II (2017) with DirectX 12 off, TAA High, and Borderless window mode; Microsoft Visual C++ 2015–2022 x64 Redistributable
+known_bugs:
+  - View is above the character in both first and third person
+  - Aim cursor is not correct
+notes: Offline Arcade and Instant Action only; online use risks a ban. Fork of Ethan Porcaro's (IfanSnek) original BF2VR.
+images:
+  - game: Star Wars Battlefront II (2017)
+    file: images/bf2vr-improved/star-wars-battlefront-ii.jpg
+    credit: "Star Wars: Battlefront II grid by QuiGonJinnah (SteamGridDB)"
+    source_url: https://www.steamgriddb.com/grid/31630
+reviews:
+  - title: Star Wars Classic Battlefront 2 VR - Proof of Concept
+    channel: addvans
+    url: https://www.youtube.com/watch?v=JHEnZTSGI8Q
+  - title: Star Wars Classic Battlefront 2 VR - HUD Test
+    channel: addvans
+    url: https://www.youtube.com/watch?v=bRIVF1cF1PQ
+added_by: bot
+discovered_via: https://discord.gg/flat2vr
+last_checked: "2026-11-26"

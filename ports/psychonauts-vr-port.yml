@@ -1,0 +1,35 @@
+name: Psychonauts VR Port
+games:
+  - Psychonauts
+category: mod
+authors:
+  - name: aero177-jpg
+    url: https://github.com/aero177-jpg
+platform: pcvr
+controls: 6dof
+status: alpha
+version: "v0.1.0"
+version_date: "2026-11-25"
+download_url: https://github.com/aero177-jpg/Psychonauts-VR-Port/releases/latest
+source_url: https://github.com/aero177-jpg/Psychonauts-VR-Port
+license: Apache-2.0
+required_files: Psychonauts (2005) Steam build; Vulkan-capable GPU and a 32-bit OpenXR runtime
+known_bugs:
+  - Tested on the Steam build only; on other builds, patches that don't match are skipped and features may be missing
+  - Large HD texture packs can crash the 32-bit game after a while
+notes: Optional HD texture pack support via the separate Astralathe mod loader.
+images:
+  - game: Psychonauts
+    file: images/psychonauts-vr-port/psychonauts.jpg
+    credit: Psychonauts grid by Rick Deckard (SteamGridDB)
+    source_url: https://www.steamgriddb.com/grid/346711
+reviews:
+  - title: Reinventing Psychonauts for VR
+    channel: GDC Festival of Gaming
+    url: https://www.youtube.com/watch?v=j1r_Og_Q__0
+  - title: A Great VR Adventure - Psychonauts in the Rhombus of Ruin [Pimax 5K Super Sword Controller Gameplay]
+    channel: VoodooDE VR - english version -
+    url: https://www.youtube.com/watch?v=uVrpyAIsAOM
+added_by: bot
+discovered_via: https://github.com/aero177-jpg/Psychonauts-VR-Port
+last_checked: "2026-11-26"
